@@ -58,6 +58,12 @@ test("lastmod is stable, selective, and independent of footer year changes",()=>
     fs.copyFileSync('public/credits/spritecollab-artists.md',path.join(dir,'public/credits/spritecollab-artists.md'));
     const base=contentHashes(dir), first=reconcile({},base,'2026-10-15T00:00:00.000Z');
     assert.deepEqual(reconcile(first,contentHashes(dir),'2026-10-16T00:00:00.000Z'),first);
+    const templateFile=path.join(dir,'src/seo/PageSchema.tsx'), template=fs.readFileSync(templateFile,'utf8');
+    fs.writeFileSync(templateFile,template.replace(/\r?\n/g,'\r\n'));
+    assert.deepEqual(contentHashes(dir),base,'Windows checkout must preserve content fingerprints');
+    fs.writeFileSync(templateFile,template.replace(/\r\n/g,'\n'));
+    assert.deepEqual(contentHashes(dir),base,'Linux checkout must preserve content fingerprints');
+    fs.writeFileSync(templateFile,template);
     const changedRoutes=(next)=>Object.keys(next).filter(url=>next[url]!==base[url]);
     const heroFile=path.join(dir,'src/data/site/pages.json'), heroes=read(heroFile);
     heroes['/types'].intro += ' Check the weather before choosing coverage.';

@@ -6,7 +6,11 @@ import { tdk } from "../../src/seo/tdk.js";
 const hash = (value) => crypto.createHash("sha256").update(value).digest("hex");
 export function contentInputs(root = process.cwd()) {
   const read = (file) => JSON.parse(fs.readFileSync(path.join(root, file), "utf8"));
-  const fileHash = (file) => hash(fs.readFileSync(path.join(root, file)));
+  const fileHash = (file) => {
+    const bytes = fs.readFileSync(path.join(root, file));
+    return hash(/\.(?:[cm]?[jt]sx?|md|txt)$/.test(file)
+      ? bytes.toString("utf8").replace(/\r\n/g, "\n") : bytes);
+  };
   const guides = read("src/data/guides/guides.json"), faq = read("src/data/guides/faq.json");
   const heroes = read("src/data/site/pages.json"), legal = read("src/data/legal/pages.json");
   const pokemon = read("src/data/pokedex/pokemon.json"), moves = read("src/data/moves/moves.json");
