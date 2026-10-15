@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "charizard",
+    "title": "Blazing Fury — Fire Move Build",
+    "move": "ember",
+    "description": "An Ember-to-Fire-Blast plan built around Power and careful spacing.",
+    "tips": [
+      "Charizard and the listed Fire starters can learn Ember and Fire Spin from their Fire pool.",
+      "Take Power and concentrate upgrades on Ember to reach level 5, then choose Fire Blast.",
+      "After establishing damage, work toward Fire Spin plus Synthesis for Sacred Fire as close-range coverage.",
+      "A Rift Bond can join the learned attacks into one active slot. Do not assume independent slots fire together."
+    ],
+    "partners": [4, 6, 255, 813],
+    "supportMoves": ["fire-spin", "quick-attack"],
+    "items": ["leftovers", "quickclaw"]
+  },
+  {
+    "slug": "water",
+    "title": "Tidal Momentum — Water Move Build",
+    "move": "bubble",
+    "description": "A Bubble-to-Surf plan with Sprint as its required card.",
+    "tips": [
+      "The listed Water partners can learn Bubble even when their opening move is Water Gun.",
+      "Take Sprint and upgrade Bubble to level 5 for the Surf evolution.",
+      "A Water Gun path uses Power and evolves into Scald, so budget a separate evolution card.",
+      "Keep moving through open lanes; a second move is coverage to switch to until you obtain a Bond."
+    ],
+    "partners": [7, 9, 393, 728],
+    "supportMoves": ["water-gun", "quick-attack"],
+    "items": ["leftovers", "choicescarf"]
+  },
+  {
+    "slug": "grass",
+    "title": "Returning Leaves — Grass Move Build",
+    "move": "razor-leaf",
+    "description": "A Razor-Leaf-to-Leaf-Storm plan built around Reflexes.",
+    "tips": [
+      "All listed Grass partners can learn Razor Leaf from their type pool.",
+      "Take Reflexes and upgrade Razor Leaf to level 5 to unlock Leaf Storm.",
+      "Vine Whip uses Power for Power Whip, offering a close-range alternative.",
+      "Practice spacing so returning attacks pass through approaching groups; the build is a strategy suggestion, not a DPS benchmark."
+    ],
+    "partners": [1, 252, 495, 906],
+    "supportMoves": ["vine-whip", "tackle"],
+    "items": ["quickclaw", "leftovers"]
+  },
+  {
+    "slug": "gengar",
+    "title": "Ghost Coverage — Gengar Build",
+    "move": "shadow-ball",
+    "description": "A verified Ghost-pool plan: Shadow Ball with Reflexes, then Hex with Magnet.",
+    "partners": [92, 94],
+    "supportMoves": ["hex", "lick"],
+    "items": ["quickclaw", "leftovers"],
+    "tips": [
+      "Gengar starts with Shadow Ball and can learn Hex and Lick from its Ghost pool.",
+      "Reach level 5 Shadow Ball and take Reflexes to unlock Phantom Force.",
+      "Hex needs Magnet and evolves into Poltergeist. Consider it after securing your first damage path.",
+      "Work toward a Rift Bond before expecting both attacks to operate together."
+    ]
+  },
+  {
+    "slug": "electric",
+    "title": "Electric Perimeter — Pikachu Build",
+    "move": "thunder-shock",
+    "description": "Thunder Shock → Thunder, backed by Discharge as an alternative close-range attack.",
+    "partners": [25, 26, 403],
+    "supportMoves": ["discharge", "thunderbolt"],
+    "items": ["quickclaw", "focussash"],
+    "tips": [
+      "Pikachu starts with Thunder Shock. Electric partners share the Electric move pool.",
+      "Use Power and level 5 Thunder Shock to unlock Thunder.",
+      "Discharge requires Armor for Electric Terrain; Thunderbolt requires Reflexes for Zap Cannon.",
+      "These are alternatives to prioritize as cards arrive, not three guaranteed simultaneous attacks."
+    ]
+  },
+  {
+    "slug": "gardevoir",
+    "title": "Psychic & Fairy — Gardevoir Build",
+    "move": "confusion",
+    "description": "A Psychic / Fairy coverage plan with Confusion, Dazzling Gleam and clear evolution cards.",
+    "partners": [280, 282],
+    "supportMoves": ["dazzling-gleam", "psybeam"],
+    "items": ["shellbell", "leftovers"],
+    "tips": [
+      "Ralts and Gardevoir can learn the listed Psychic and Fairy attacks.",
+      "Confusion needs Reflexes at level 5 to become Psyshock.",
+      "Dazzling Gleam needs Synthesis for Misty Terrain; Psybeam uses Power for Future Sight.",
+      "Secure one evolution first, then consider secondary coverage and a Bond. Choose a sustain item when attrition is the main problem."
+    ]
+  }
+]

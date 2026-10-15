@@ -1,0 +1,70 @@
+{
+  "/": {
+    "heading": "PokeSurvivor - Play Online and Plan Your Next Run",
+    "intro": "Pick a Pokémon, survive the horde and build around the cards you find. Play in your browser or check partners, evolutions and run plans before you start."
+  },
+  "/play": {
+    "heading": "Play PokeSurvivor Online",
+    "intro": "Launch the official game, check the controls and keep a direct game link handy if fullscreen or sign-in does not work in the embedded player."
+  },
+  "/pokedex": {
+    "heading": "PokeSurvivor Pokédex - Find Your Next Partner",
+    "intro": "Compare 966 playable Pokémon by their base stats, types and region. Filter to starters or try a different partner for your next run."
+  },
+  "/level-up": {
+    "heading": "PokeSurvivor Level-Up Cards and Move Evolutions",
+    "intro": "Find out what each upgrade changes, which stat card your move needs and when to focus an evolution instead of filling another slot."
+  },
+  "/tier-list": {
+    "heading": "PokeSurvivor Tier List - Compare Partner Stats",
+    "intro": "Sort partners by attack, HP or speed to compare their starting strengths. These are base-stat rankings, not tested ratings for survival or damage per second."
+  },
+  "/builds": {
+    "heading": "PokeSurvivor Builds - Choose Your Next Loadout",
+    "intro": "Choose an evolution goal, check the partners that can learn it and plan your first upgrades. Keep room to adapt when a different card would help you survive."
+  },
+  "/types": {
+    "heading": "PokeSurvivor Types - Matchups and Weather",
+    "intro": "Check your active move against an enemy’s types. Learn how the game’s damage factors combine and when weather changes a useful matchup."
+  },
+  "/gacha": {
+    "heading": "PokeSurvivor Gacha - Know Your Banner and Pity",
+    "intro": "Find your target’s region, check its rarity pool and understand the guarantees before using tickets. A guaranteed rarity is not a guaranteed Pokémon."
+  },
+  "/achievements": {
+    "heading": "PokeSurvivor Achievements - Pick Your Next Goal",
+    "intro": "Check the requirements and rewards for all 130 achievements. Find a run objective, a collection milestone or a challenge to work toward."
+  },
+  "/guides": {
+    "heading": "PokeSurvivor Guides - Your First Run and Beyond",
+    "intro": "Start with movement and survival, work toward your first move evolution or learn how to grow your collection. Choose the guide that fits your next question."
+  },
+  "/updates": {
+    "heading": "PokeSurvivor Updates - What Has Changed",
+    "intro": "Read dated game changes and changes to this site. Check the version a guide describes before relying on a number that may have changed."
+  },
+  "/sources": {
+    "heading": "How We Check PokeSurvivor Game Details",
+    "intro": "Find out how this site checks mechanics, explains version differences and handles corrections. Strategy suggestions are kept separate from facts about the game."
+  },
+  "/legal/privacy-policy": {
+    "heading": "Privacy Policy",
+    "intro": "How PokeSurvivor.me handles browser interactions, hosting requests, email and content loaded from the official game."
+  },
+  "/legal/terms-of-service": {
+    "heading": "Terms of Service",
+    "intro": "The terms for using PokeSurvivor.me, an independent fan guide with links to a separately operated game."
+  },
+  "/legal/copyright": {
+    "heading": "Copyright and Credits",
+    "intro": "Ownership, permissions and credits for this site’s original content, third-party artwork and game names."
+  },
+  "/legal/about-us": {
+    "heading": "About PokeSurvivor.me",
+    "intro": "An independent fan guide for choosing a partner, understanding upgrades and planning your next run."
+  },
+  "/legal/contact-us": {
+    "heading": "Contact Us",
+    "intro": "Reach the site maintainer about a correction, a website problem or a copyright concern at support@pokesurvivor.me."
+  }
+}

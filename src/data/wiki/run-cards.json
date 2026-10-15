@@ -1,0 +1,56 @@
+[
+  {
+    "id": "hp",
+    "name": "Vigor",
+    "description": "+20 max HP (and heals it).",
+    "max": null
+  },
+  {
+    "id": "atk",
+    "name": "Power",
+    "description": "+10% damage with every move.",
+    "max": 40
+  },
+  {
+    "id": "spd",
+    "name": "Sprint",
+    "description": "+7% movement speed.",
+    "max": 8
+  },
+  {
+    "id": "cd",
+    "name": "Reflexes",
+    "description": "-8% cooldown on every move.",
+    "max": 10
+  },
+  {
+    "id": "def",
+    "name": "Armor",
+    "description": "+6% damage reduction.",
+    "max": 12
+  },
+  {
+    "id": "rgn",
+    "name": "Synthesis",
+    "description": "+0.9 HP regenerated per second.",
+    "max": null
+  },
+  {
+    "id": "mag",
+    "name": "Magnet",
+    "description": "+30% experience pickup radius.",
+    "max": 6
+  },
+  {
+    "id": "xp",
+    "name": "Learning",
+    "description": "+12% experience gained.",
+    "max": 8
+  },
+  {
+    "id": "heal",
+    "name": "Sitrus Berry",
+    "description": "Restores 45% of your HP right now.",
+    "max": null
+  }
+]

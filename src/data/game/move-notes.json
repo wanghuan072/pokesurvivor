@@ -1,0 +1,1474 @@
+[
+  {
+    "id": "tackle",
+    "description": "Charges in an arc at everything in front of you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% range"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "Hits in 360° and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more range and hits in 360°"
+  },
+  {
+    "id": "quick-attack",
+    "description": "You dash at the enemy like lightning and hit everything on the way.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% distance"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+60% damage and wider"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more distance and less cooldown"
+  },
+  {
+    "id": "swords-dance",
+    "description": "Deals no damage: builds ATTACK while active.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 max stack"
+      },
+      {
+        "level": 3,
+        "text": "+40% power"
+      },
+      {
+        "level": 4,
+        "text": "+50% duration"
+      },
+      {
+        "level": 5,
+        "text": "+1 stack and +40% power"
+      }
+    ],
+    "evolutionEffect": null
+  },
+  {
+    "id": "agility",
+    "description": "Deals no damage: builds SPEED while active.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 max stack"
+      },
+      {
+        "level": 3,
+        "text": "+40% power"
+      },
+      {
+        "level": 4,
+        "text": "+50% duration"
+      },
+      {
+        "level": 5,
+        "text": "+1 stack and +40% power"
+      }
+    ],
+    "evolutionEffect": null
+  },
+  {
+    "id": "harden",
+    "description": "Deals no damage: builds DEFENSE while active.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 max stack"
+      },
+      {
+        "level": 3,
+        "text": "+40% power"
+      },
+      {
+        "level": 4,
+        "text": "+50% duration"
+      },
+      {
+        "level": 5,
+        "text": "+1 stack and +40% power"
+      }
+    ],
+    "evolutionEffect": null
+  },
+  {
+    "id": "body-slam",
+    "description": "A full-weight tackle: slow, short and brutal.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% range"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "Hits in 360° and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more range and hits in 360°"
+  },
+  {
+    "id": "hyper-voice",
+    "description": "A sound wave that spreads in every direction.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+4 projectiles"
+      },
+      {
+        "level": 3,
+        "text": "+40% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+4 projectiles and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "+6 projectiles, ×1.6 damage and +1 pierce"
+  },
+  {
+    "id": "substitute",
+    "description": "A decoy that stays behind shooting for you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+50% damage"
+      },
+      {
+        "level": 3,
+        "text": "Fires 35% faster"
+      },
+      {
+        "level": 4,
+        "text": "+1 at a time"
+      },
+      {
+        "level": 5,
+        "text": "+50% duration and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +1 at a time and fires faster"
+  },
+  {
+    "id": "ember",
+    "description": "A fireball at the nearest enemy.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles, +2 pierce and bigger"
+  },
+  {
+    "id": "flamethrower",
+    "description": "A short fan of flames that burns.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+3 shots"
+      },
+      {
+        "level": 3,
+        "text": "+40% damage"
+      },
+      {
+        "level": 4,
+        "text": "+30% range"
+      },
+      {
+        "level": 5,
+        "text": "+3 shots and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "×1.7 damage, +4 shots and +1 pierce"
+  },
+  {
+    "id": "fire-spin",
+    "description": "Flames that spin around you. Constant defense.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 orb"
+      },
+      {
+        "level": 3,
+        "text": "+55% damage"
+      },
+      {
+        "level": 4,
+        "text": "+25% radius and spins faster"
+      },
+      {
+        "level": 5,
+        "text": "+1 orb and +55% damage"
+      }
+    ],
+    "evolutionEffect": "+2 orbs, ×1.7 damage and more radius"
+  },
+  {
+    "id": "heat-wave",
+    "description": "Explodes in flames in every direction.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+4 projectiles"
+      },
+      {
+        "level": 3,
+        "text": "+40% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+4 projectiles and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "+6 projectiles, ×1.6 damage and +1 pierce"
+  },
+  {
+    "id": "will-o-wisp",
+    "description": "Leaves a floating flame that fires on its own and burns.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+50% damage"
+      },
+      {
+        "level": 3,
+        "text": "Fires 35% faster"
+      },
+      {
+        "level": 4,
+        "text": "+1 at a time"
+      },
+      {
+        "level": 5,
+        "text": "+50% duration and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +1 at a time and fires faster"
+  },
+  {
+    "id": "flame-wheel",
+    "description": "You run wrapped in fire, leaving a trail of flames.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+40% duration"
+      },
+      {
+        "level": 4,
+        "text": "Pools 30% bigger"
+      },
+      {
+        "level": 5,
+        "text": "+50% damage and +30% radius"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, bigger and longer-lasting pools"
+  },
+  {
+    "id": "water-gun",
+    "description": "A piercing jet. Reliable at any range.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles, +2 pierce and bigger"
+  },
+  {
+    "id": "bubble",
+    "description": "A fan of bubbles that slows whatever they touch.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+4 projectiles"
+      },
+      {
+        "level": 3,
+        "text": "+40% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+4 projectiles and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "+6 projectiles, ×1.6 damage and +1 pierce"
+  },
+  {
+    "id": "hydro-pump",
+    "description": "A slow but devastating water blast.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+45% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% range and width"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, a 50% wider and longer beam"
+  },
+  {
+    "id": "aqua-ring",
+    "description": "Deals no damage: builds health REGENERATION.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 max stack"
+      },
+      {
+        "level": 3,
+        "text": "+40% power"
+      },
+      {
+        "level": 4,
+        "text": "+50% duration"
+      },
+      {
+        "level": 5,
+        "text": "+1 stack and +40% power"
+      }
+    ],
+    "evolutionEffect": null
+  },
+  {
+    "id": "bubble-beam",
+    "description": "A short fan of bubbles that slows.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+3 shots"
+      },
+      {
+        "level": 3,
+        "text": "+40% damage"
+      },
+      {
+        "level": 4,
+        "text": "+30% range"
+      },
+      {
+        "level": 5,
+        "text": "+3 shots and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "×1.7 damage, +4 shots and +1 pierce"
+  },
+  {
+    "id": "vine-whip",
+    "description": "Long-range whips in a wide arc.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% range"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "Hits in 360° and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more range and hits in 360°"
+  },
+  {
+    "id": "razor-leaf",
+    "description": "Two leaves that fly out and back, cutting both ways.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 boomerang"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "+30% range"
+      },
+      {
+        "level": 5,
+        "text": "+1 boomerang and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +1 boomerang and more range"
+  },
+  {
+    "id": "leaf-storm",
+    "description": "A cyclone of leaves spins widely around you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 orb"
+      },
+      {
+        "level": 3,
+        "text": "+55% damage"
+      },
+      {
+        "level": 4,
+        "text": "+25% radius and spins faster"
+      },
+      {
+        "level": 5,
+        "text": "+1 orb and +55% damage"
+      }
+    ],
+    "evolutionEffect": "+2 orbs, ×1.7 damage and more radius"
+  },
+  {
+    "id": "giga-drain",
+    "description": "Roots that snare and pound everything near you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+30% radius"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "Hits 40% more often"
+      },
+      {
+        "level": 5,
+        "text": "+30% radius and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage and 35% more radius"
+  },
+  {
+    "id": "thunder-shock",
+    "description": "A lightning-fast bolt that pierces several enemies.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles, +2 pierce and bigger"
+  },
+  {
+    "id": "discharge",
+    "description": "A permanent electric field around you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+30% radius"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "Hits 40% more often"
+      },
+      {
+        "level": 5,
+        "text": "+30% radius and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage and 35% more radius"
+  },
+  {
+    "id": "thunderbolt",
+    "description": "A bolt that jumps from one enemy to the next.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+2 jumps"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+2 jumps and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.7 damage and +3 jumps"
+  },
+  {
+    "id": "ice-beam",
+    "description": "An icy beam that almost freezes foes solid.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+45% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% range and width"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, a 50% wider and longer beam"
+  },
+  {
+    "id": "powder-snow",
+    "description": "A blizzard around you that slows foes.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+30% radius"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "Hits 40% more often"
+      },
+      {
+        "level": 5,
+        "text": "+30% radius and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage and 35% more radius"
+  },
+  {
+    "id": "hail",
+    "description": "Hailstones fall on enemies and slow them.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 meteor"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "+30% radius"
+      },
+      {
+        "level": 5,
+        "text": "+2 meteors and -20% cooldown"
+      }
+    ],
+    "evolutionEffect": "×1.7 damage, +2 meteors and more radius"
+  },
+  {
+    "id": "karate-chop",
+    "description": "A sharp, powerful blow straight ahead.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% range"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "Hits in 360° and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more range and hits in 360°"
+  },
+  {
+    "id": "aura-sphere",
+    "description": "An energy sphere that never misses.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles, +2 pierce and bigger"
+  },
+  {
+    "id": "sludge",
+    "description": "Toxic sludge that poisons on impact.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles, +2 pierce and bigger"
+  },
+  {
+    "id": "poison-sting",
+    "description": "A quick poisonous sting.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles, +2 pierce and bigger"
+  },
+  {
+    "id": "toxic",
+    "description": "You leave pools of poison that badly poison whoever steps on them.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+40% duration"
+      },
+      {
+        "level": 4,
+        "text": "Pools 30% bigger"
+      },
+      {
+        "level": 5,
+        "text": "+50% damage and +30% radius"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, bigger and longer-lasting pools"
+  },
+  {
+    "id": "toxic-spikes",
+    "description": "Poison spikes that badly poison when they burst.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 mine"
+      },
+      {
+        "level": 3,
+        "text": "+50% damage"
+      },
+      {
+        "level": 4,
+        "text": "+30% blast radius"
+      },
+      {
+        "level": 5,
+        "text": "+1 mine and -25% cooldown"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 mines and a bigger blast"
+  },
+  {
+    "id": "mud-shot",
+    "description": "Splashes mud around and slows foes.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+4 projectiles"
+      },
+      {
+        "level": 3,
+        "text": "+40% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+4 projectiles and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "+6 projectiles, ×1.6 damage and +1 pierce"
+  },
+  {
+    "id": "bulldoze",
+    "description": "Shakes the ground: damages and slows everything nearby.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+30% radius"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "Hits 40% more often"
+      },
+      {
+        "level": 5,
+        "text": "+30% radius and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage and 35% more radius"
+  },
+  {
+    "id": "bonemerang",
+    "description": "A bone that flies out and back, hitting hard.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 boomerang"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "+30% range"
+      },
+      {
+        "level": 5,
+        "text": "+1 boomerang and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +1 boomerang and more range"
+  },
+  {
+    "id": "spikes",
+    "description": "Scatters spikes that burst when stepped on.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 mine"
+      },
+      {
+        "level": 3,
+        "text": "+50% damage"
+      },
+      {
+        "level": 4,
+        "text": "+30% blast radius"
+      },
+      {
+        "level": 5,
+        "text": "+1 mine and -25% cooldown"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 mines and a bigger blast"
+  },
+  {
+    "id": "gust",
+    "description": "Whirlwinds that escort you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 orb"
+      },
+      {
+        "level": 3,
+        "text": "+55% damage"
+      },
+      {
+        "level": 4,
+        "text": "+25% radius and spins faster"
+      },
+      {
+        "level": 5,
+        "text": "+1 orb and +55% damage"
+      }
+    ],
+    "evolutionEffect": "+2 orbs, ×1.7 damage and more radius"
+  },
+  {
+    "id": "wing-attack",
+    "description": "A wide wing sweep that pushes foes back.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% range"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "Hits in 360° and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more range and hits in 360°"
+  },
+  {
+    "id": "aerial-ace",
+    "description": "You dive and slash everything you pass through.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% distance"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+60% damage and wider"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more distance and less cooldown"
+  },
+  {
+    "id": "confusion",
+    "description": "A wave that homes in on its target.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles, +2 pierce and bigger"
+  },
+  {
+    "id": "psybeam",
+    "description": "A wide, heavy-hitting psychic beam.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+45% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% range and width"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, a 50% wider and longer beam"
+  },
+  {
+    "id": "psychic",
+    "description": "A radial mental burst that seeks enemies.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+4 projectiles"
+      },
+      {
+        "level": 3,
+        "text": "+40% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+4 projectiles and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "+6 projectiles, ×1.6 damage and +1 pierce"
+  },
+  {
+    "id": "psycho-cut",
+    "description": "Psychic blades that come back to you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 boomerang"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "+30% range"
+      },
+      {
+        "level": 5,
+        "text": "+1 boomerang and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +1 boomerang and more range"
+  },
+  {
+    "id": "bug-bite",
+    "description": "A quick bite in a short arc.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% range"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "Hits in 360° and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more range and hits in 360°"
+  },
+  {
+    "id": "string-shot",
+    "description": "Leaves webs on the ground that trap and greatly slow whoever steps on them.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 mine"
+      },
+      {
+        "level": 3,
+        "text": "+50% damage"
+      },
+      {
+        "level": 4,
+        "text": "+30% blast radius"
+      },
+      {
+        "level": 5,
+        "text": "+1 mine and -25% cooldown"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 mines and a bigger blast"
+  },
+  {
+    "id": "bug-buzz",
+    "description": "A constant vibration that pounds everything nearby.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+30% radius"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "Hits 40% more often"
+      },
+      {
+        "level": 5,
+        "text": "+30% radius and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage and 35% more radius"
+  },
+  {
+    "id": "rock-throw",
+    "description": "A heavy boulder that pushes the enemy back.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles, +2 pierce and bigger"
+  },
+  {
+    "id": "rock-slide",
+    "description": "Rocks fall from the sky onto nearby enemies.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 meteor"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "+30% radius"
+      },
+      {
+        "level": 5,
+        "text": "+2 meteors and -20% cooldown"
+      }
+    ],
+    "evolutionEffect": "×1.7 damage, +2 meteors and more radius"
+  },
+  {
+    "id": "lick",
+    "description": "A ghostly lick that briefly paralyzes.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% range"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "Hits in 360° and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more range and hits in 360°"
+  },
+  {
+    "id": "shadow-ball",
+    "description": "A shadowy orb that pierces several foes.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles, +2 pierce and bigger"
+  },
+  {
+    "id": "hex",
+    "description": "A curse that jumps between enemies. Much more damage if they are burned, poisoned or slowed.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+2 jumps"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+2 jumps and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.7 damage and +3 jumps"
+  },
+  {
+    "id": "dragon-rage",
+    "description": "Draconic flames in a straight line.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+45% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% range and width"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, a 50% wider and longer beam"
+  },
+  {
+    "id": "dragon-dance",
+    "description": "Deals no damage: builds ATTACK faster than Swords Dance.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 max stack"
+      },
+      {
+        "level": 3,
+        "text": "+40% power"
+      },
+      {
+        "level": 4,
+        "text": "+50% duration"
+      },
+      {
+        "level": 5,
+        "text": "+1 stack and +40% power"
+      }
+    ],
+    "evolutionEffect": null
+  },
+  {
+    "id": "bite",
+    "description": "A quick bite that knocks foes back.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% range"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "Hits in 360° and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more range and hits in 360°"
+  },
+  {
+    "id": "dark-pulse",
+    "description": "A wave of dark energy in every direction.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+4 projectiles"
+      },
+      {
+        "level": 3,
+        "text": "+40% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+4 projectiles and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "+6 projectiles, ×1.6 damage and +1 pierce"
+  },
+  {
+    "id": "night-shade",
+    "description": "A shadow surrounds you and consumes what is near.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+30% radius"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "Hits 40% more often"
+      },
+      {
+        "level": 5,
+        "text": "+30% radius and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage and 35% more radius"
+  },
+  {
+    "id": "metal-claw",
+    "description": "A steel swipe in an arc.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% range"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "Hits in 360° and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more range and hits in 360°"
+  },
+  {
+    "id": "flash-cannon",
+    "description": "A piercing beam of metallic light.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+45% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% range and width"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, a 50% wider and longer beam"
+  },
+  {
+    "id": "meteor-mash",
+    "description": "Two steel meteors that crush where they land.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 meteor"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "+30% radius"
+      },
+      {
+        "level": 5,
+        "text": "+2 meteors and -20% cooldown"
+      }
+    ],
+    "evolutionEffect": "×1.7 damage, +2 meteors and more radius"
+  },
+  {
+    "id": "fairy-wind",
+    "description": "A magical breeze in every direction.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+4 projectiles"
+      },
+      {
+        "level": 3,
+        "text": "+40% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+4 projectiles and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "+6 projectiles, ×1.6 damage and +1 pierce"
+  },
+  {
+    "id": "dazzling-gleam",
+    "description": "A flash of light all around you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+30% radius"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "Hits 40% more often"
+      },
+      {
+        "level": 5,
+        "text": "+30% radius and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage and 35% more radius"
+  }
+]

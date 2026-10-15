@@ -1,0 +1,4562 @@
+[
+  {
+    "name": "Tackle",
+    "slug": "tackle",
+    "type": "Normal",
+    "kind": "Melee",
+    "evolution": "Take Down",
+    "requirement": "Vigor",
+    "id": "tackle",
+    "behavior": "melee",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.5,
+      "dmg": 13,
+      "radius": 48,
+      "arc": 1.7,
+      "knock": 90
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.5,
+        "dmg": 13,
+        "radius": 48,
+        "arc": 1.7,
+        "knock": 90
+      },
+      {
+        "level": 2,
+        "cd": 0.5,
+        "dmg": 18.2,
+        "radius": 48,
+        "arc": 1.7,
+        "knock": 90
+      },
+      {
+        "level": 3,
+        "cd": 0.5,
+        "dmg": 18.2,
+        "radius": 60,
+        "arc": 1.7,
+        "knock": 90
+      },
+      {
+        "level": 4,
+        "cd": 0.375,
+        "dmg": 18.2,
+        "radius": 60,
+        "arc": 1.7,
+        "knock": 90
+      },
+      {
+        "level": 5,
+        "cd": 0.375,
+        "dmg": 27.299999999999997,
+        "radius": 60,
+        "arc": 15.299999999999999,
+        "knock": 90
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.9,
+      "radius": 1.3,
+      "arc": 9
+    }
+  },
+  {
+    "name": "Quick Attack",
+    "slug": "quick-attack",
+    "type": "Normal",
+    "kind": "Dash",
+    "evolution": "Extreme Speed",
+    "requirement": "Sprint",
+    "id": "quick-attack",
+    "behavior": "dash",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.75,
+      "dmg": 20,
+      "radius": 110,
+      "width": 34,
+      "knock": 40
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.75,
+        "dmg": 20,
+        "radius": 110,
+        "width": 34,
+        "knock": 40
+      },
+      {
+        "level": 2,
+        "cd": 0.75,
+        "dmg": 28,
+        "radius": 110,
+        "width": 34,
+        "knock": 40
+      },
+      {
+        "level": 3,
+        "cd": 0.75,
+        "dmg": 28,
+        "radius": 143,
+        "width": 34,
+        "knock": 40
+      },
+      {
+        "level": 4,
+        "cd": 0.5625,
+        "dmg": 28,
+        "radius": 143,
+        "width": 34,
+        "knock": 40
+      },
+      {
+        "level": 5,
+        "cd": 0.5625,
+        "dmg": 44.800000000000004,
+        "radius": 143,
+        "width": 47.599999999999994,
+        "knock": 40
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.9,
+      "radius": 1.25,
+      "cd": 0.8
+    }
+  },
+  {
+    "name": "Swords Dance",
+    "slug": "swords-dance",
+    "type": "Normal",
+    "kind": "Buff",
+    "evolution": null,
+    "requirement": null,
+    "id": "swords-dance",
+    "behavior": "buff",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.85,
+      "amount": 0.13,
+      "dur": 7,
+      "stacks": 5
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.85,
+        "amount": 0.13,
+        "dur": 7,
+        "stacks": 5
+      },
+      {
+        "level": 2,
+        "cd": 0.85,
+        "amount": 0.13,
+        "dur": 7,
+        "stacks": 6
+      },
+      {
+        "level": 3,
+        "cd": 0.85,
+        "amount": 0.182,
+        "dur": 7,
+        "stacks": 6
+      },
+      {
+        "level": 4,
+        "cd": 0.85,
+        "amount": 0.182,
+        "dur": 10.5,
+        "stacks": 6
+      },
+      {
+        "level": 5,
+        "cd": 0.85,
+        "amount": 0.25479999999999997,
+        "dur": 10.5,
+        "stacks": 7
+      }
+    ],
+    "evolutionModifiers": null
+  },
+  {
+    "name": "Agility",
+    "slug": "agility",
+    "type": "Normal",
+    "kind": "Buff",
+    "evolution": null,
+    "requirement": null,
+    "id": "agility",
+    "behavior": "buff",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.85,
+      "amount": 0.1,
+      "dur": 7,
+      "stacks": 5
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.85,
+        "amount": 0.1,
+        "dur": 7,
+        "stacks": 5
+      },
+      {
+        "level": 2,
+        "cd": 0.85,
+        "amount": 0.1,
+        "dur": 7,
+        "stacks": 6
+      },
+      {
+        "level": 3,
+        "cd": 0.85,
+        "amount": 0.13999999999999999,
+        "dur": 7,
+        "stacks": 6
+      },
+      {
+        "level": 4,
+        "cd": 0.85,
+        "amount": 0.13999999999999999,
+        "dur": 10.5,
+        "stacks": 6
+      },
+      {
+        "level": 5,
+        "cd": 0.85,
+        "amount": 0.19599999999999998,
+        "dur": 10.5,
+        "stacks": 7
+      }
+    ],
+    "evolutionModifiers": null
+  },
+  {
+    "name": "Harden",
+    "slug": "harden",
+    "type": "Normal",
+    "kind": "Buff",
+    "evolution": null,
+    "requirement": null,
+    "id": "harden",
+    "behavior": "buff",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.85,
+      "amount": 0.07,
+      "dur": 7,
+      "stacks": 5
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.85,
+        "amount": 0.07,
+        "dur": 7,
+        "stacks": 5
+      },
+      {
+        "level": 2,
+        "cd": 0.85,
+        "amount": 0.07,
+        "dur": 7,
+        "stacks": 6
+      },
+      {
+        "level": 3,
+        "cd": 0.85,
+        "amount": 0.098,
+        "dur": 7,
+        "stacks": 6
+      },
+      {
+        "level": 4,
+        "cd": 0.85,
+        "amount": 0.098,
+        "dur": 10.5,
+        "stacks": 6
+      },
+      {
+        "level": 5,
+        "cd": 0.85,
+        "amount": 0.1372,
+        "dur": 10.5,
+        "stacks": 7
+      }
+    ],
+    "evolutionModifiers": null
+  },
+  {
+    "name": "Body Slam",
+    "slug": "body-slam",
+    "type": "Normal",
+    "kind": "Melee",
+    "evolution": "Giga Impact",
+    "requirement": "Power",
+    "id": "body-slam",
+    "behavior": "melee",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.95,
+      "dmg": 30,
+      "radius": 46,
+      "arc": 2.2,
+      "knock": 140
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.95,
+        "dmg": 30,
+        "radius": 46,
+        "arc": 2.2,
+        "knock": 140
+      },
+      {
+        "level": 2,
+        "cd": 0.95,
+        "dmg": 42,
+        "radius": 46,
+        "arc": 2.2,
+        "knock": 140
+      },
+      {
+        "level": 3,
+        "cd": 0.95,
+        "dmg": 42,
+        "radius": 57.5,
+        "arc": 2.2,
+        "knock": 140
+      },
+      {
+        "level": 4,
+        "cd": 0.7124999999999999,
+        "dmg": 42,
+        "radius": 57.5,
+        "arc": 2.2,
+        "knock": 140
+      },
+      {
+        "level": 5,
+        "cd": 0.7124999999999999,
+        "dmg": 63,
+        "radius": 57.5,
+        "arc": 19.8,
+        "knock": 140
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.9,
+      "radius": 1.3,
+      "arc": 9
+    }
+  },
+  {
+    "name": "Hyper Voice",
+    "slug": "hyper-voice",
+    "type": "Normal",
+    "kind": "Burst",
+    "evolution": "Uproar",
+    "requirement": "Reflexes",
+    "id": "hyper-voice",
+    "behavior": "nova",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.15,
+      "dmg": 12,
+      "speed": 260,
+      "count": 9,
+      "pierce": 1,
+      "life": 0.9,
+      "size": 7
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.15,
+        "dmg": 12,
+        "speed": 260,
+        "count": 9,
+        "pierce": 1,
+        "life": 0.9,
+        "size": 7
+      },
+      {
+        "level": 2,
+        "cd": 1.15,
+        "dmg": 12,
+        "speed": 260,
+        "count": 13,
+        "pierce": 1,
+        "life": 0.9,
+        "size": 7
+      },
+      {
+        "level": 3,
+        "cd": 1.15,
+        "dmg": 16.799999999999997,
+        "speed": 260,
+        "count": 13,
+        "pierce": 1,
+        "life": 0.9,
+        "size": 7
+      },
+      {
+        "level": 4,
+        "cd": 0.8624999999999999,
+        "dmg": 16.799999999999997,
+        "speed": 260,
+        "count": 13,
+        "pierce": 1,
+        "life": 0.9,
+        "size": 7
+      },
+      {
+        "level": 5,
+        "cd": 0.8624999999999999,
+        "dmg": 16.799999999999997,
+        "speed": 260,
+        "count": 17,
+        "pierce": 2,
+        "life": 0.9,
+        "size": 7
+      }
+    ],
+    "evolutionModifiers": {
+      "count": 6,
+      "dmg": 1.6,
+      "pierce": 1
+    }
+  },
+  {
+    "name": "Substitute",
+    "slug": "substitute",
+    "type": "Normal",
+    "kind": "Turret",
+    "evolution": "Double Team",
+    "requirement": "Armor",
+    "id": "substitute",
+    "behavior": "turret",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 4,
+      "dmg": 14,
+      "rate": 0.4,
+      "dur": 6,
+      "count": 1,
+      "range": 280,
+      "speed": 320,
+      "size": 6
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 4,
+        "dmg": 14,
+        "rate": 0.4,
+        "dur": 6,
+        "count": 1,
+        "range": 280,
+        "speed": 320,
+        "size": 6
+      },
+      {
+        "level": 2,
+        "cd": 4,
+        "dmg": 21,
+        "rate": 0.4,
+        "dur": 6,
+        "count": 1,
+        "range": 280,
+        "speed": 320,
+        "size": 6
+      },
+      {
+        "level": 3,
+        "cd": 4,
+        "dmg": 21,
+        "rate": 0.296,
+        "dur": 6,
+        "count": 1,
+        "range": 280,
+        "speed": 320,
+        "size": 6
+      },
+      {
+        "level": 4,
+        "cd": 4,
+        "dmg": 21,
+        "rate": 0.296,
+        "dur": 6,
+        "count": 2,
+        "range": 280,
+        "speed": 320,
+        "size": 6
+      },
+      {
+        "level": 5,
+        "cd": 4,
+        "dmg": 29.4,
+        "rate": 0.296,
+        "dur": 9,
+        "count": 2,
+        "range": 280,
+        "speed": 320,
+        "size": 6
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 1,
+      "rate": 0.8
+    }
+  },
+  {
+    "name": "Ember",
+    "slug": "ember",
+    "type": "Fire",
+    "kind": "Projectile",
+    "evolution": "Fire Blast",
+    "requirement": "Power",
+    "id": "ember",
+    "behavior": "projectile",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.52,
+      "dmg": 18,
+      "speed": 310,
+      "count": 1,
+      "spread": 0.12,
+      "pierce": 0,
+      "life": 1.6,
+      "size": 7,
+      "burn": 1
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.52,
+        "dmg": 18,
+        "speed": 310,
+        "count": 1,
+        "spread": 0.12,
+        "pierce": 0,
+        "life": 1.6,
+        "size": 7,
+        "burn": 1
+      },
+      {
+        "level": 2,
+        "cd": 0.52,
+        "dmg": 18,
+        "speed": 310,
+        "count": 2,
+        "spread": 0.16799999999999998,
+        "pierce": 0,
+        "life": 1.6,
+        "size": 7,
+        "burn": 1
+      },
+      {
+        "level": 3,
+        "cd": 0.52,
+        "dmg": 26.099999999999998,
+        "speed": 310,
+        "count": 2,
+        "spread": 0.16799999999999998,
+        "pierce": 0,
+        "life": 1.6,
+        "size": 7,
+        "burn": 1
+      },
+      {
+        "level": 4,
+        "cd": 0.39,
+        "dmg": 26.099999999999998,
+        "speed": 310,
+        "count": 2,
+        "spread": 0.16799999999999998,
+        "pierce": 0,
+        "life": 1.6,
+        "size": 7,
+        "burn": 1
+      },
+      {
+        "level": 5,
+        "cd": 0.39,
+        "dmg": 26.099999999999998,
+        "speed": 310,
+        "count": 3,
+        "spread": 0.20159999999999997,
+        "pierce": 1,
+        "life": 1.6,
+        "size": 7,
+        "burn": 1
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 2,
+      "pierce": 2,
+      "size": 1.3,
+      "spread": 1.1
+    }
+  },
+  {
+    "name": "Flamethrower",
+    "slug": "flamethrower",
+    "type": "Fire",
+    "kind": "Spray",
+    "evolution": "Overheat",
+    "requirement": "Reflexes",
+    "id": "flamethrower",
+    "behavior": "cone",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.7,
+      "dmg": 7,
+      "count": 7,
+      "arc": 0.9,
+      "speed": 380,
+      "life": 0.42,
+      "size": 6,
+      "pierce": 1,
+      "burn": 1
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.7,
+        "dmg": 7,
+        "count": 7,
+        "arc": 0.9,
+        "speed": 380,
+        "life": 0.42,
+        "size": 6,
+        "pierce": 1,
+        "burn": 1
+      },
+      {
+        "level": 2,
+        "cd": 0.7,
+        "dmg": 7,
+        "count": 10,
+        "arc": 0.9,
+        "speed": 380,
+        "life": 0.42,
+        "size": 6,
+        "pierce": 1,
+        "burn": 1
+      },
+      {
+        "level": 3,
+        "cd": 0.7,
+        "dmg": 9.799999999999999,
+        "count": 10,
+        "arc": 0.9,
+        "speed": 380,
+        "life": 0.42,
+        "size": 6,
+        "pierce": 1,
+        "burn": 1
+      },
+      {
+        "level": 4,
+        "cd": 0.7,
+        "dmg": 9.799999999999999,
+        "count": 10,
+        "arc": 0.9,
+        "speed": 380,
+        "life": 0.546,
+        "size": 6,
+        "pierce": 1,
+        "burn": 1
+      },
+      {
+        "level": 5,
+        "cd": 0.7,
+        "dmg": 9.799999999999999,
+        "count": 13,
+        "arc": 0.9,
+        "speed": 380,
+        "life": 0.546,
+        "size": 6,
+        "pierce": 2,
+        "burn": 1
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.7,
+      "count": 4,
+      "pierce": 1
+    }
+  },
+  {
+    "name": "Fire Spin",
+    "slug": "fire-spin",
+    "type": "Fire",
+    "kind": "Orbit",
+    "evolution": "Sacred Fire",
+    "requirement": "Synthesis",
+    "id": "fire-spin",
+    "behavior": "orbit",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.3,
+      "dmg": 14,
+      "count": 3,
+      "radius": 62,
+      "speed": 2.4,
+      "size": 9,
+      "burn": 1
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.3,
+        "dmg": 14,
+        "count": 3,
+        "radius": 62,
+        "speed": 2.4,
+        "size": 9,
+        "burn": 1
+      },
+      {
+        "level": 2,
+        "cd": 0.3,
+        "dmg": 14,
+        "count": 4,
+        "radius": 62,
+        "speed": 2.4,
+        "size": 9,
+        "burn": 1
+      },
+      {
+        "level": 3,
+        "cd": 0.3,
+        "dmg": 21.7,
+        "count": 4,
+        "radius": 62,
+        "speed": 2.4,
+        "size": 9,
+        "burn": 1
+      },
+      {
+        "level": 4,
+        "cd": 0.3,
+        "dmg": 21.7,
+        "count": 4,
+        "radius": 77.5,
+        "speed": 3.24,
+        "size": 9,
+        "burn": 1
+      },
+      {
+        "level": 5,
+        "cd": 0.3,
+        "dmg": 33.635,
+        "count": 5,
+        "radius": 77.5,
+        "speed": 3.24,
+        "size": 9,
+        "burn": 1
+      }
+    ],
+    "evolutionModifiers": {
+      "count": 2,
+      "dmg": 1.7,
+      "radius": 1.15
+    }
+  },
+  {
+    "name": "Heat Wave",
+    "slug": "heat-wave",
+    "type": "Fire",
+    "kind": "Burst",
+    "evolution": "Eruption",
+    "requirement": "Vigor",
+    "id": "heat-wave",
+    "behavior": "nova",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.25,
+      "dmg": 13,
+      "speed": 250,
+      "count": 10,
+      "pierce": 1,
+      "life": 1.1,
+      "size": 7,
+      "burn": 1
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.25,
+        "dmg": 13,
+        "speed": 250,
+        "count": 10,
+        "pierce": 1,
+        "life": 1.1,
+        "size": 7,
+        "burn": 1
+      },
+      {
+        "level": 2,
+        "cd": 1.25,
+        "dmg": 13,
+        "speed": 250,
+        "count": 14,
+        "pierce": 1,
+        "life": 1.1,
+        "size": 7,
+        "burn": 1
+      },
+      {
+        "level": 3,
+        "cd": 1.25,
+        "dmg": 18.2,
+        "speed": 250,
+        "count": 14,
+        "pierce": 1,
+        "life": 1.1,
+        "size": 7,
+        "burn": 1
+      },
+      {
+        "level": 4,
+        "cd": 0.9375,
+        "dmg": 18.2,
+        "speed": 250,
+        "count": 14,
+        "pierce": 1,
+        "life": 1.1,
+        "size": 7,
+        "burn": 1
+      },
+      {
+        "level": 5,
+        "cd": 0.9375,
+        "dmg": 18.2,
+        "speed": 250,
+        "count": 18,
+        "pierce": 2,
+        "life": 1.1,
+        "size": 7,
+        "burn": 1
+      }
+    ],
+    "evolutionModifiers": {
+      "count": 6,
+      "dmg": 1.6,
+      "pierce": 1
+    }
+  },
+  {
+    "name": "Will-O-Wisp",
+    "slug": "will-o-wisp",
+    "type": "Fire",
+    "kind": "Turret",
+    "evolution": "Inferno",
+    "requirement": "Reflexes",
+    "id": "will-o-wisp",
+    "behavior": "turret",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 3.5,
+      "dmg": 15,
+      "rate": 0.55,
+      "dur": 6,
+      "count": 1,
+      "range": 300,
+      "speed": 300,
+      "size": 7,
+      "burn": 1
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 3.5,
+        "dmg": 15,
+        "rate": 0.55,
+        "dur": 6,
+        "count": 1,
+        "range": 300,
+        "speed": 300,
+        "size": 7,
+        "burn": 1
+      },
+      {
+        "level": 2,
+        "cd": 3.5,
+        "dmg": 22.5,
+        "rate": 0.55,
+        "dur": 6,
+        "count": 1,
+        "range": 300,
+        "speed": 300,
+        "size": 7,
+        "burn": 1
+      },
+      {
+        "level": 3,
+        "cd": 3.5,
+        "dmg": 22.5,
+        "rate": 0.40700000000000003,
+        "dur": 6,
+        "count": 1,
+        "range": 300,
+        "speed": 300,
+        "size": 7,
+        "burn": 1
+      },
+      {
+        "level": 4,
+        "cd": 3.5,
+        "dmg": 22.5,
+        "rate": 0.40700000000000003,
+        "dur": 6,
+        "count": 2,
+        "range": 300,
+        "speed": 300,
+        "size": 7,
+        "burn": 1
+      },
+      {
+        "level": 5,
+        "cd": 3.5,
+        "dmg": 31.499999999999996,
+        "rate": 0.40700000000000003,
+        "dur": 9,
+        "count": 2,
+        "range": 300,
+        "speed": 300,
+        "size": 7,
+        "burn": 1
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 1,
+      "rate": 0.8
+    }
+  },
+  {
+    "name": "Flame Wheel",
+    "slug": "flame-wheel",
+    "type": "Fire",
+    "kind": "Trail",
+    "evolution": "Flare Blitz",
+    "requirement": "Sprint",
+    "id": "flame-wheel",
+    "behavior": "trail",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.28,
+      "dmg": 10,
+      "radius": 28,
+      "dur": 2.6,
+      "burn": 1
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.28,
+        "dmg": 10,
+        "radius": 28,
+        "dur": 2.6,
+        "burn": 1
+      },
+      {
+        "level": 2,
+        "cd": 0.28,
+        "dmg": 14,
+        "radius": 28,
+        "dur": 2.6,
+        "burn": 1
+      },
+      {
+        "level": 3,
+        "cd": 0.28,
+        "dmg": 14,
+        "radius": 28,
+        "dur": 3.6399999999999997,
+        "burn": 1
+      },
+      {
+        "level": 4,
+        "cd": 0.28,
+        "dmg": 14,
+        "radius": 36.4,
+        "dur": 3.6399999999999997,
+        "burn": 1
+      },
+      {
+        "level": 5,
+        "cd": 0.28,
+        "dmg": 21,
+        "radius": 47.32,
+        "dur": 3.6399999999999997,
+        "burn": 1
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "radius": 1.25,
+      "dur": 1.3
+    }
+  },
+  {
+    "name": "Water Gun",
+    "slug": "water-gun",
+    "type": "Water",
+    "kind": "Projectile",
+    "evolution": "Scald",
+    "requirement": "Power",
+    "id": "water-gun",
+    "behavior": "projectile",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.44,
+      "dmg": 14,
+      "speed": 350,
+      "count": 1,
+      "spread": 0.1,
+      "pierce": 1,
+      "life": 1.5,
+      "size": 6
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.44,
+        "dmg": 14,
+        "speed": 350,
+        "count": 1,
+        "spread": 0.1,
+        "pierce": 1,
+        "life": 1.5,
+        "size": 6
+      },
+      {
+        "level": 2,
+        "cd": 0.44,
+        "dmg": 14,
+        "speed": 350,
+        "count": 2,
+        "spread": 0.13999999999999999,
+        "pierce": 1,
+        "life": 1.5,
+        "size": 6
+      },
+      {
+        "level": 3,
+        "cd": 0.44,
+        "dmg": 20.3,
+        "speed": 350,
+        "count": 2,
+        "spread": 0.13999999999999999,
+        "pierce": 1,
+        "life": 1.5,
+        "size": 6
+      },
+      {
+        "level": 4,
+        "cd": 0.33,
+        "dmg": 20.3,
+        "speed": 350,
+        "count": 2,
+        "spread": 0.13999999999999999,
+        "pierce": 1,
+        "life": 1.5,
+        "size": 6
+      },
+      {
+        "level": 5,
+        "cd": 0.33,
+        "dmg": 20.3,
+        "speed": 350,
+        "count": 3,
+        "spread": 0.16799999999999998,
+        "pierce": 2,
+        "life": 1.5,
+        "size": 6
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 2,
+      "pierce": 2,
+      "size": 1.3,
+      "spread": 1.1
+    }
+  },
+  {
+    "name": "Bubble",
+    "slug": "bubble",
+    "type": "Water",
+    "kind": "Burst",
+    "evolution": "Surf",
+    "requirement": "Sprint",
+    "id": "bubble",
+    "behavior": "nova",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1,
+      "dmg": 9,
+      "speed": 210,
+      "count": 8,
+      "pierce": 0,
+      "life": 1.3,
+      "size": 8,
+      "slow": 0.45
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1,
+        "dmg": 9,
+        "speed": 210,
+        "count": 8,
+        "pierce": 0,
+        "life": 1.3,
+        "size": 8,
+        "slow": 0.45
+      },
+      {
+        "level": 2,
+        "cd": 1,
+        "dmg": 9,
+        "speed": 210,
+        "count": 12,
+        "pierce": 0,
+        "life": 1.3,
+        "size": 8,
+        "slow": 0.45
+      },
+      {
+        "level": 3,
+        "cd": 1,
+        "dmg": 12.6,
+        "speed": 210,
+        "count": 12,
+        "pierce": 0,
+        "life": 1.3,
+        "size": 8,
+        "slow": 0.45
+      },
+      {
+        "level": 4,
+        "cd": 0.75,
+        "dmg": 12.6,
+        "speed": 210,
+        "count": 12,
+        "pierce": 0,
+        "life": 1.3,
+        "size": 8,
+        "slow": 0.45
+      },
+      {
+        "level": 5,
+        "cd": 0.75,
+        "dmg": 12.6,
+        "speed": 210,
+        "count": 16,
+        "pierce": 1,
+        "life": 1.3,
+        "size": 8,
+        "slow": 0.45
+      }
+    ],
+    "evolutionModifiers": {
+      "count": 6,
+      "dmg": 1.6,
+      "pierce": 1
+    }
+  },
+  {
+    "name": "Hydro Pump",
+    "slug": "hydro-pump",
+    "type": "Water",
+    "kind": "Beam",
+    "evolution": "Hydro Cannon",
+    "requirement": "Power",
+    "id": "hydro-pump",
+    "behavior": "beam",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.5,
+      "dmg": 29,
+      "radius": 250,
+      "width": 30
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.5,
+        "dmg": 29,
+        "radius": 250,
+        "width": 30
+      },
+      {
+        "level": 2,
+        "cd": 1.5,
+        "dmg": 42.05,
+        "radius": 250,
+        "width": 30
+      },
+      {
+        "level": 3,
+        "cd": 1.5,
+        "dmg": 42.05,
+        "radius": 325,
+        "width": 39
+      },
+      {
+        "level": 4,
+        "cd": 1.125,
+        "dmg": 42.05,
+        "radius": 325,
+        "width": 39
+      },
+      {
+        "level": 5,
+        "cd": 1.125,
+        "dmg": 63.074999999999996,
+        "radius": 325,
+        "width": 39
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "width": 1.5,
+      "radius": 1.2,
+      "cd": 0.85
+    }
+  },
+  {
+    "name": "Aqua Ring",
+    "slug": "aqua-ring",
+    "type": "Water",
+    "kind": "Buff",
+    "evolution": null,
+    "requirement": null,
+    "id": "aqua-ring",
+    "behavior": "buff",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.9,
+      "amount": 1.6,
+      "dur": 8,
+      "stacks": 4
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.9,
+        "amount": 1.6,
+        "dur": 8,
+        "stacks": 4
+      },
+      {
+        "level": 2,
+        "cd": 0.9,
+        "amount": 1.6,
+        "dur": 8,
+        "stacks": 5
+      },
+      {
+        "level": 3,
+        "cd": 0.9,
+        "amount": 2.2399999999999998,
+        "dur": 8,
+        "stacks": 5
+      },
+      {
+        "level": 4,
+        "cd": 0.9,
+        "amount": 2.2399999999999998,
+        "dur": 12,
+        "stacks": 5
+      },
+      {
+        "level": 5,
+        "cd": 0.9,
+        "amount": 3.1359999999999997,
+        "dur": 12,
+        "stacks": 6
+      }
+    ],
+    "evolutionModifiers": null
+  },
+  {
+    "name": "Bubble Beam",
+    "slug": "bubble-beam",
+    "type": "Water",
+    "kind": "Spray",
+    "evolution": "Aqua Tail",
+    "requirement": "Power",
+    "id": "bubble-beam",
+    "behavior": "cone",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.65,
+      "dmg": 6,
+      "count": 7,
+      "arc": 1,
+      "speed": 340,
+      "life": 0.45,
+      "size": 6,
+      "slow": 0.3
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.65,
+        "dmg": 6,
+        "count": 7,
+        "arc": 1,
+        "speed": 340,
+        "life": 0.45,
+        "size": 6,
+        "slow": 0.3
+      },
+      {
+        "level": 2,
+        "cd": 0.65,
+        "dmg": 6,
+        "count": 10,
+        "arc": 1,
+        "speed": 340,
+        "life": 0.45,
+        "size": 6,
+        "slow": 0.3
+      },
+      {
+        "level": 3,
+        "cd": 0.65,
+        "dmg": 8.399999999999999,
+        "count": 10,
+        "arc": 1,
+        "speed": 340,
+        "life": 0.45,
+        "size": 6,
+        "slow": 0.3
+      },
+      {
+        "level": 4,
+        "cd": 0.65,
+        "dmg": 8.399999999999999,
+        "count": 10,
+        "arc": 1,
+        "speed": 340,
+        "life": 0.5850000000000001,
+        "size": 6,
+        "slow": 0.3
+      },
+      {
+        "level": 5,
+        "cd": 0.65,
+        "dmg": 8.399999999999999,
+        "count": 13,
+        "arc": 1,
+        "speed": 340,
+        "life": 0.5850000000000001,
+        "size": 6,
+        "slow": 0.3,
+        "pierce": 1
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.7,
+      "count": 4,
+      "pierce": 1
+    }
+  },
+  {
+    "name": "Vine Whip",
+    "slug": "vine-whip",
+    "type": "Grass",
+    "kind": "Melee",
+    "evolution": "Power Whip",
+    "requirement": "Power",
+    "id": "vine-whip",
+    "behavior": "melee",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.62,
+      "dmg": 16,
+      "radius": 68,
+      "arc": 1.3,
+      "knock": 60
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.62,
+        "dmg": 16,
+        "radius": 68,
+        "arc": 1.3,
+        "knock": 60
+      },
+      {
+        "level": 2,
+        "cd": 0.62,
+        "dmg": 22.4,
+        "radius": 68,
+        "arc": 1.3,
+        "knock": 60
+      },
+      {
+        "level": 3,
+        "cd": 0.62,
+        "dmg": 22.4,
+        "radius": 85,
+        "arc": 1.3,
+        "knock": 60
+      },
+      {
+        "level": 4,
+        "cd": 0.46499999999999997,
+        "dmg": 22.4,
+        "radius": 85,
+        "arc": 1.3,
+        "knock": 60
+      },
+      {
+        "level": 5,
+        "cd": 0.46499999999999997,
+        "dmg": 33.599999999999994,
+        "radius": 85,
+        "arc": 11.700000000000001,
+        "knock": 60
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.9,
+      "radius": 1.3,
+      "arc": 9
+    }
+  },
+  {
+    "name": "Razor Leaf",
+    "slug": "razor-leaf",
+    "type": "Grass",
+    "kind": "Boomerang",
+    "evolution": "Leaf Storm",
+    "requirement": "Reflexes",
+    "id": "razor-leaf",
+    "behavior": "boomerang",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.9,
+      "dmg": 10,
+      "speed": 330,
+      "count": 2,
+      "spread": 0.5,
+      "radius": 210,
+      "size": 6
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.9,
+        "dmg": 10,
+        "speed": 330,
+        "count": 2,
+        "spread": 0.5,
+        "radius": 210,
+        "size": 6
+      },
+      {
+        "level": 2,
+        "cd": 0.9,
+        "dmg": 10,
+        "speed": 330,
+        "count": 3,
+        "spread": 0.5,
+        "radius": 210,
+        "size": 6
+      },
+      {
+        "level": 3,
+        "cd": 0.9,
+        "dmg": 14.5,
+        "speed": 330,
+        "count": 3,
+        "spread": 0.5,
+        "radius": 210,
+        "size": 6
+      },
+      {
+        "level": 4,
+        "cd": 0.9,
+        "dmg": 14.5,
+        "speed": 330,
+        "count": 3,
+        "spread": 0.5,
+        "radius": 273,
+        "size": 6
+      },
+      {
+        "level": 5,
+        "cd": 0.9,
+        "dmg": 20.299999999999997,
+        "speed": 330,
+        "count": 4,
+        "spread": 0.5,
+        "radius": 273,
+        "size": 6
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 1,
+      "radius": 1.2,
+      "size": 1.2
+    }
+  },
+  {
+    "name": "Petal Blizzard",
+    "slug": "petal-blizzard",
+    "type": "Grass",
+    "kind": "Orbit",
+    "evolution": "Petal Dance",
+    "requirement": "Synthesis",
+    "id": "leaf-storm",
+    "behavior": "orbit",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.26,
+      "dmg": 14,
+      "count": 4,
+      "radius": 74,
+      "speed": 2.6,
+      "size": 8
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.26,
+        "dmg": 14,
+        "count": 4,
+        "radius": 74,
+        "speed": 2.6,
+        "size": 8
+      },
+      {
+        "level": 2,
+        "cd": 0.26,
+        "dmg": 14,
+        "count": 5,
+        "radius": 74,
+        "speed": 2.6,
+        "size": 8
+      },
+      {
+        "level": 3,
+        "cd": 0.26,
+        "dmg": 21.7,
+        "count": 5,
+        "radius": 74,
+        "speed": 2.6,
+        "size": 8
+      },
+      {
+        "level": 4,
+        "cd": 0.26,
+        "dmg": 21.7,
+        "count": 5,
+        "radius": 92.5,
+        "speed": 3.5100000000000002,
+        "size": 8
+      },
+      {
+        "level": 5,
+        "cd": 0.26,
+        "dmg": 33.635,
+        "count": 6,
+        "radius": 92.5,
+        "speed": 3.5100000000000002,
+        "size": 8
+      }
+    ],
+    "evolutionModifiers": {
+      "count": 2,
+      "dmg": 1.7,
+      "radius": 1.15
+    }
+  },
+  {
+    "name": "Grass Knot",
+    "slug": "grass-knot",
+    "type": "Grass",
+    "kind": "Aura",
+    "evolution": "Frenzy Plant",
+    "requirement": "Vigor",
+    "id": "giga-drain",
+    "behavior": "aura",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.55,
+      "dmg": 9,
+      "radius": 76
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.55,
+        "dmg": 9,
+        "radius": 76
+      },
+      {
+        "level": 2,
+        "cd": 0.55,
+        "dmg": 9,
+        "radius": 98.8
+      },
+      {
+        "level": 3,
+        "cd": 0.55,
+        "dmg": 13.049999999999999,
+        "radius": 98.8
+      },
+      {
+        "level": 4,
+        "cd": 0.385,
+        "dmg": 13.049999999999999,
+        "radius": 98.8
+      },
+      {
+        "level": 5,
+        "cd": 0.385,
+        "dmg": 19.575,
+        "radius": 128.44
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "radius": 1.35
+    }
+  },
+  {
+    "name": "Thunder Shock",
+    "slug": "thunder-shock",
+    "type": "Electric",
+    "kind": "Projectile",
+    "evolution": "Thunder",
+    "requirement": "Power",
+    "id": "thunder-shock",
+    "behavior": "projectile",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.4,
+      "dmg": 13,
+      "speed": 480,
+      "count": 1,
+      "spread": 0.08,
+      "pierce": 2,
+      "life": 1.1,
+      "size": 5
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.4,
+        "dmg": 13,
+        "speed": 480,
+        "count": 1,
+        "spread": 0.08,
+        "pierce": 2,
+        "life": 1.1,
+        "size": 5
+      },
+      {
+        "level": 2,
+        "cd": 0.4,
+        "dmg": 13,
+        "speed": 480,
+        "count": 2,
+        "spread": 0.11199999999999999,
+        "pierce": 2,
+        "life": 1.1,
+        "size": 5
+      },
+      {
+        "level": 3,
+        "cd": 0.4,
+        "dmg": 18.849999999999998,
+        "speed": 480,
+        "count": 2,
+        "spread": 0.11199999999999999,
+        "pierce": 2,
+        "life": 1.1,
+        "size": 5
+      },
+      {
+        "level": 4,
+        "cd": 0.30000000000000004,
+        "dmg": 18.849999999999998,
+        "speed": 480,
+        "count": 2,
+        "spread": 0.11199999999999999,
+        "pierce": 2,
+        "life": 1.1,
+        "size": 5
+      },
+      {
+        "level": 5,
+        "cd": 0.30000000000000004,
+        "dmg": 18.849999999999998,
+        "speed": 480,
+        "count": 3,
+        "spread": 0.1344,
+        "pierce": 3,
+        "life": 1.1,
+        "size": 5
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 2,
+      "pierce": 2,
+      "size": 1.3,
+      "spread": 1.1
+    }
+  },
+  {
+    "name": "Discharge",
+    "slug": "discharge",
+    "type": "Electric",
+    "kind": "Aura",
+    "evolution": "Electric Terrain",
+    "requirement": "Armor",
+    "id": "discharge",
+    "behavior": "aura",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.45,
+      "dmg": 8,
+      "radius": 70
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.45,
+        "dmg": 8,
+        "radius": 70
+      },
+      {
+        "level": 2,
+        "cd": 0.45,
+        "dmg": 8,
+        "radius": 91
+      },
+      {
+        "level": 3,
+        "cd": 0.45,
+        "dmg": 11.6,
+        "radius": 91
+      },
+      {
+        "level": 4,
+        "cd": 0.315,
+        "dmg": 11.6,
+        "radius": 91
+      },
+      {
+        "level": 5,
+        "cd": 0.315,
+        "dmg": 17.4,
+        "radius": 118.3
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "radius": 1.35
+    }
+  },
+  {
+    "name": "Thunderbolt",
+    "slug": "thunderbolt",
+    "type": "Electric",
+    "kind": "Chain",
+    "evolution": "Zap Cannon",
+    "requirement": "Reflexes",
+    "id": "thunderbolt",
+    "behavior": "chain",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.95,
+      "dmg": 21,
+      "count": 4,
+      "radius": 140
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.95,
+        "dmg": 21,
+        "count": 4,
+        "radius": 140
+      },
+      {
+        "level": 2,
+        "cd": 0.95,
+        "dmg": 21,
+        "count": 6,
+        "radius": 140
+      },
+      {
+        "level": 3,
+        "cd": 0.95,
+        "dmg": 30.45,
+        "count": 6,
+        "radius": 140
+      },
+      {
+        "level": 4,
+        "cd": 0.7124999999999999,
+        "dmg": 30.45,
+        "count": 6,
+        "radius": 140
+      },
+      {
+        "level": 5,
+        "cd": 0.7124999999999999,
+        "dmg": 42.629999999999995,
+        "count": 8,
+        "radius": 140
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.7,
+      "count": 3,
+      "radius": 1.2
+    }
+  },
+  {
+    "name": "Ice Beam",
+    "slug": "ice-beam",
+    "type": "Ice",
+    "kind": "Beam",
+    "evolution": "Blizzard",
+    "requirement": "Power",
+    "id": "ice-beam",
+    "behavior": "beam",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.1,
+      "dmg": 20,
+      "radius": 220,
+      "width": 30,
+      "slow": 0.7
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.1,
+        "dmg": 20,
+        "radius": 220,
+        "width": 30,
+        "slow": 0.7
+      },
+      {
+        "level": 2,
+        "cd": 1.1,
+        "dmg": 29,
+        "radius": 220,
+        "width": 30,
+        "slow": 0.7
+      },
+      {
+        "level": 3,
+        "cd": 1.1,
+        "dmg": 29,
+        "radius": 286,
+        "width": 39,
+        "slow": 0.7
+      },
+      {
+        "level": 4,
+        "cd": 0.8250000000000001,
+        "dmg": 29,
+        "radius": 286,
+        "width": 39,
+        "slow": 0.7
+      },
+      {
+        "level": 5,
+        "cd": 0.8250000000000001,
+        "dmg": 43.5,
+        "radius": 286,
+        "width": 39,
+        "slow": 0.7
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "width": 1.5,
+      "radius": 1.2,
+      "cd": 0.85
+    }
+  },
+  {
+    "name": "Powder Snow",
+    "slug": "powder-snow",
+    "type": "Ice",
+    "kind": "Aura",
+    "evolution": "Icy Wind",
+    "requirement": "Sprint",
+    "id": "powder-snow",
+    "behavior": "aura",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.55,
+      "dmg": 8,
+      "radius": 76,
+      "slow": 0.45
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.55,
+        "dmg": 8,
+        "radius": 76,
+        "slow": 0.45
+      },
+      {
+        "level": 2,
+        "cd": 0.55,
+        "dmg": 8,
+        "radius": 98.8,
+        "slow": 0.45
+      },
+      {
+        "level": 3,
+        "cd": 0.55,
+        "dmg": 11.6,
+        "radius": 98.8,
+        "slow": 0.45
+      },
+      {
+        "level": 4,
+        "cd": 0.385,
+        "dmg": 11.6,
+        "radius": 98.8,
+        "slow": 0.45
+      },
+      {
+        "level": 5,
+        "cd": 0.385,
+        "dmg": 17.4,
+        "radius": 128.44,
+        "slow": 0.45
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "radius": 1.35
+    }
+  },
+  {
+    "name": "Hail",
+    "slug": "hail",
+    "type": "Ice",
+    "kind": "Meteors",
+    "evolution": "Avalanche",
+    "requirement": "Reflexes",
+    "id": "hail",
+    "behavior": "meteor",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.2,
+      "dmg": 18,
+      "count": 4,
+      "radius": 40,
+      "slow": 0.4
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.2,
+        "dmg": 18,
+        "count": 4,
+        "radius": 40,
+        "slow": 0.4
+      },
+      {
+        "level": 2,
+        "cd": 1.2,
+        "dmg": 18,
+        "count": 5,
+        "radius": 40,
+        "slow": 0.4
+      },
+      {
+        "level": 3,
+        "cd": 1.2,
+        "dmg": 26.099999999999998,
+        "count": 5,
+        "radius": 40,
+        "slow": 0.4
+      },
+      {
+        "level": 4,
+        "cd": 1.2,
+        "dmg": 26.099999999999998,
+        "count": 5,
+        "radius": 52,
+        "slow": 0.4
+      },
+      {
+        "level": 5,
+        "cd": 0.96,
+        "dmg": 26.099999999999998,
+        "count": 7,
+        "radius": 52,
+        "slow": 0.4
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.7,
+      "count": 2,
+      "radius": 1.2
+    }
+  },
+  {
+    "name": "Karate Chop",
+    "slug": "karate-chop",
+    "type": "Fighting",
+    "kind": "Melee",
+    "evolution": "Close Combat",
+    "requirement": "Power",
+    "id": "karate-chop",
+    "behavior": "melee",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.5,
+      "dmg": 18,
+      "radius": 50,
+      "arc": 1.2,
+      "knock": 110
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.5,
+        "dmg": 18,
+        "radius": 50,
+        "arc": 1.2,
+        "knock": 110
+      },
+      {
+        "level": 2,
+        "cd": 0.5,
+        "dmg": 25.2,
+        "radius": 50,
+        "arc": 1.2,
+        "knock": 110
+      },
+      {
+        "level": 3,
+        "cd": 0.5,
+        "dmg": 25.2,
+        "radius": 62.5,
+        "arc": 1.2,
+        "knock": 110
+      },
+      {
+        "level": 4,
+        "cd": 0.375,
+        "dmg": 25.2,
+        "radius": 62.5,
+        "arc": 1.2,
+        "knock": 110
+      },
+      {
+        "level": 5,
+        "cd": 0.375,
+        "dmg": 37.8,
+        "radius": 62.5,
+        "arc": 10.799999999999999,
+        "knock": 110
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.9,
+      "radius": 1.3,
+      "arc": 9
+    }
+  },
+  {
+    "name": "Aura Sphere",
+    "slug": "aura-sphere",
+    "type": "Fighting",
+    "kind": "Projectile",
+    "evolution": "Focus Blast",
+    "requirement": "Reflexes",
+    "id": "aura-sphere",
+    "behavior": "projectile",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.62,
+      "dmg": 17,
+      "speed": 300,
+      "count": 1,
+      "spread": 0.1,
+      "pierce": 0,
+      "life": 2,
+      "size": 8,
+      "homing": 4
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.62,
+        "dmg": 17,
+        "speed": 300,
+        "count": 1,
+        "spread": 0.1,
+        "pierce": 0,
+        "life": 2,
+        "size": 8,
+        "homing": 4
+      },
+      {
+        "level": 2,
+        "cd": 0.62,
+        "dmg": 17,
+        "speed": 300,
+        "count": 2,
+        "spread": 0.13999999999999999,
+        "pierce": 0,
+        "life": 2,
+        "size": 8,
+        "homing": 4
+      },
+      {
+        "level": 3,
+        "cd": 0.62,
+        "dmg": 24.65,
+        "speed": 300,
+        "count": 2,
+        "spread": 0.13999999999999999,
+        "pierce": 0,
+        "life": 2,
+        "size": 8,
+        "homing": 4
+      },
+      {
+        "level": 4,
+        "cd": 0.46499999999999997,
+        "dmg": 24.65,
+        "speed": 300,
+        "count": 2,
+        "spread": 0.13999999999999999,
+        "pierce": 0,
+        "life": 2,
+        "size": 8,
+        "homing": 4
+      },
+      {
+        "level": 5,
+        "cd": 0.46499999999999997,
+        "dmg": 24.65,
+        "speed": 300,
+        "count": 3,
+        "spread": 0.16799999999999998,
+        "pierce": 1,
+        "life": 2,
+        "size": 8,
+        "homing": 4
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 2,
+      "pierce": 2,
+      "size": 1.3,
+      "spread": 1.1
+    }
+  },
+  {
+    "name": "Sludge",
+    "slug": "sludge",
+    "type": "Poison",
+    "kind": "Projectile",
+    "evolution": "Sludge Bomb",
+    "requirement": "Power",
+    "id": "sludge",
+    "behavior": "projectile",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.6,
+      "dmg": 17,
+      "speed": 290,
+      "count": 1,
+      "spread": 0.12,
+      "pierce": 0,
+      "life": 1.5,
+      "size": 8,
+      "poison": 1
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.6,
+        "dmg": 17,
+        "speed": 290,
+        "count": 1,
+        "spread": 0.12,
+        "pierce": 0,
+        "life": 1.5,
+        "size": 8,
+        "poison": 1
+      },
+      {
+        "level": 2,
+        "cd": 0.6,
+        "dmg": 17,
+        "speed": 290,
+        "count": 2,
+        "spread": 0.16799999999999998,
+        "pierce": 0,
+        "life": 1.5,
+        "size": 8,
+        "poison": 1
+      },
+      {
+        "level": 3,
+        "cd": 0.6,
+        "dmg": 24.65,
+        "speed": 290,
+        "count": 2,
+        "spread": 0.16799999999999998,
+        "pierce": 0,
+        "life": 1.5,
+        "size": 8,
+        "poison": 1
+      },
+      {
+        "level": 4,
+        "cd": 0.44999999999999996,
+        "dmg": 24.65,
+        "speed": 290,
+        "count": 2,
+        "spread": 0.16799999999999998,
+        "pierce": 0,
+        "life": 1.5,
+        "size": 8,
+        "poison": 1
+      },
+      {
+        "level": 5,
+        "cd": 0.44999999999999996,
+        "dmg": 24.65,
+        "speed": 290,
+        "count": 3,
+        "spread": 0.20159999999999997,
+        "pierce": 1,
+        "life": 1.5,
+        "size": 8,
+        "poison": 1
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 2,
+      "pierce": 2,
+      "size": 1.3,
+      "spread": 1.1
+    }
+  },
+  {
+    "name": "Poison Sting",
+    "slug": "poison-sting",
+    "type": "Poison",
+    "kind": "Projectile",
+    "evolution": "Poison Jab",
+    "requirement": "Sprint",
+    "id": "poison-sting",
+    "behavior": "projectile",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.34,
+      "dmg": 8,
+      "speed": 420,
+      "count": 1,
+      "spread": 0.08,
+      "pierce": 0,
+      "life": 1,
+      "size": 4,
+      "poison": 1
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.34,
+        "dmg": 8,
+        "speed": 420,
+        "count": 1,
+        "spread": 0.08,
+        "pierce": 0,
+        "life": 1,
+        "size": 4,
+        "poison": 1
+      },
+      {
+        "level": 2,
+        "cd": 0.34,
+        "dmg": 8,
+        "speed": 420,
+        "count": 2,
+        "spread": 0.11199999999999999,
+        "pierce": 0,
+        "life": 1,
+        "size": 4,
+        "poison": 1
+      },
+      {
+        "level": 3,
+        "cd": 0.34,
+        "dmg": 11.6,
+        "speed": 420,
+        "count": 2,
+        "spread": 0.11199999999999999,
+        "pierce": 0,
+        "life": 1,
+        "size": 4,
+        "poison": 1
+      },
+      {
+        "level": 4,
+        "cd": 0.255,
+        "dmg": 11.6,
+        "speed": 420,
+        "count": 2,
+        "spread": 0.11199999999999999,
+        "pierce": 0,
+        "life": 1,
+        "size": 4,
+        "poison": 1
+      },
+      {
+        "level": 5,
+        "cd": 0.255,
+        "dmg": 11.6,
+        "speed": 420,
+        "count": 3,
+        "spread": 0.1344,
+        "pierce": 1,
+        "life": 1,
+        "size": 4,
+        "poison": 1
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 2,
+      "pierce": 2,
+      "size": 1.3,
+      "spread": 1.1
+    }
+  },
+  {
+    "name": "Toxic",
+    "slug": "toxic",
+    "type": "Poison",
+    "kind": "Trail",
+    "evolution": "Poison Gas",
+    "requirement": "Synthesis",
+    "id": "toxic",
+    "behavior": "trail",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.3,
+      "dmg": 6,
+      "radius": 26,
+      "dur": 3,
+      "poison": 1
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.3,
+        "dmg": 6,
+        "radius": 26,
+        "dur": 3,
+        "poison": 1
+      },
+      {
+        "level": 2,
+        "cd": 0.3,
+        "dmg": 8.399999999999999,
+        "radius": 26,
+        "dur": 3,
+        "poison": 1
+      },
+      {
+        "level": 3,
+        "cd": 0.3,
+        "dmg": 8.399999999999999,
+        "radius": 26,
+        "dur": 4.199999999999999,
+        "poison": 1
+      },
+      {
+        "level": 4,
+        "cd": 0.3,
+        "dmg": 8.399999999999999,
+        "radius": 33.800000000000004,
+        "dur": 4.199999999999999,
+        "poison": 1
+      },
+      {
+        "level": 5,
+        "cd": 0.3,
+        "dmg": 12.599999999999998,
+        "radius": 43.940000000000005,
+        "dur": 4.199999999999999,
+        "poison": 1
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "radius": 1.25,
+      "dur": 1.3
+    }
+  },
+  {
+    "name": "Toxic Spikes",
+    "slug": "toxic-spikes",
+    "type": "Poison",
+    "kind": "Mines",
+    "evolution": "Gunk Shot",
+    "requirement": "Synthesis",
+    "id": "toxic-spikes",
+    "behavior": "mine",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.1,
+      "dmg": 11,
+      "count": 2,
+      "radius": 56,
+      "dur": 8,
+      "poison": 2
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.1,
+        "dmg": 11,
+        "count": 2,
+        "radius": 56,
+        "dur": 8,
+        "poison": 2
+      },
+      {
+        "level": 2,
+        "cd": 1.1,
+        "dmg": 11,
+        "count": 3,
+        "radius": 56,
+        "dur": 8,
+        "poison": 2
+      },
+      {
+        "level": 3,
+        "cd": 1.1,
+        "dmg": 16.5,
+        "count": 3,
+        "radius": 56,
+        "dur": 8,
+        "poison": 2
+      },
+      {
+        "level": 4,
+        "cd": 1.1,
+        "dmg": 16.5,
+        "count": 3,
+        "radius": 72.8,
+        "dur": 8,
+        "poison": 2
+      },
+      {
+        "level": 5,
+        "cd": 0.8250000000000001,
+        "dmg": 16.5,
+        "count": 4,
+        "radius": 72.8,
+        "dur": 8,
+        "poison": 2
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 2,
+      "radius": 1.25
+    }
+  },
+  {
+    "name": "Mud Shot",
+    "slug": "mud-shot",
+    "type": "Ground",
+    "kind": "Burst",
+    "evolution": "Earth Power",
+    "requirement": "Power",
+    "id": "mud-shot",
+    "behavior": "nova",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.1,
+      "dmg": 11,
+      "speed": 200,
+      "count": 7,
+      "pierce": 0,
+      "life": 1,
+      "size": 9,
+      "slow": 0.4
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.1,
+        "dmg": 11,
+        "speed": 200,
+        "count": 7,
+        "pierce": 0,
+        "life": 1,
+        "size": 9,
+        "slow": 0.4
+      },
+      {
+        "level": 2,
+        "cd": 1.1,
+        "dmg": 11,
+        "speed": 200,
+        "count": 11,
+        "pierce": 0,
+        "life": 1,
+        "size": 9,
+        "slow": 0.4
+      },
+      {
+        "level": 3,
+        "cd": 1.1,
+        "dmg": 15.399999999999999,
+        "speed": 200,
+        "count": 11,
+        "pierce": 0,
+        "life": 1,
+        "size": 9,
+        "slow": 0.4
+      },
+      {
+        "level": 4,
+        "cd": 0.8250000000000001,
+        "dmg": 15.399999999999999,
+        "speed": 200,
+        "count": 11,
+        "pierce": 0,
+        "life": 1,
+        "size": 9,
+        "slow": 0.4
+      },
+      {
+        "level": 5,
+        "cd": 0.8250000000000001,
+        "dmg": 15.399999999999999,
+        "speed": 200,
+        "count": 15,
+        "pierce": 1,
+        "life": 1,
+        "size": 9,
+        "slow": 0.4
+      }
+    ],
+    "evolutionModifiers": {
+      "count": 6,
+      "dmg": 1.6,
+      "pierce": 1
+    }
+  },
+  {
+    "name": "Bulldoze",
+    "slug": "bulldoze",
+    "type": "Ground",
+    "kind": "Aura",
+    "evolution": "Earthquake",
+    "requirement": "Power",
+    "id": "bulldoze",
+    "behavior": "aura",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.7,
+      "dmg": 11,
+      "radius": 80,
+      "slow": 0.35
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.7,
+        "dmg": 11,
+        "radius": 80,
+        "slow": 0.35
+      },
+      {
+        "level": 2,
+        "cd": 0.7,
+        "dmg": 11,
+        "radius": 104,
+        "slow": 0.35
+      },
+      {
+        "level": 3,
+        "cd": 0.7,
+        "dmg": 15.95,
+        "radius": 104,
+        "slow": 0.35
+      },
+      {
+        "level": 4,
+        "cd": 0.48999999999999994,
+        "dmg": 15.95,
+        "radius": 104,
+        "slow": 0.35
+      },
+      {
+        "level": 5,
+        "cd": 0.48999999999999994,
+        "dmg": 23.924999999999997,
+        "radius": 135.20000000000002,
+        "slow": 0.35
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "radius": 1.35
+    }
+  },
+  {
+    "name": "Bonemerang",
+    "slug": "bonemerang",
+    "type": "Ground",
+    "kind": "Boomerang",
+    "evolution": "Bone Rush",
+    "requirement": "Power",
+    "id": "bonemerang",
+    "behavior": "boomerang",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.95,
+      "dmg": 16,
+      "speed": 300,
+      "count": 1,
+      "radius": 230,
+      "size": 8,
+      "knock": 40
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.95,
+        "dmg": 16,
+        "speed": 300,
+        "count": 1,
+        "radius": 230,
+        "size": 8,
+        "knock": 40
+      },
+      {
+        "level": 2,
+        "cd": 0.95,
+        "dmg": 16,
+        "speed": 300,
+        "count": 2,
+        "radius": 230,
+        "size": 8,
+        "knock": 40
+      },
+      {
+        "level": 3,
+        "cd": 0.95,
+        "dmg": 23.2,
+        "speed": 300,
+        "count": 2,
+        "radius": 230,
+        "size": 8,
+        "knock": 40
+      },
+      {
+        "level": 4,
+        "cd": 0.95,
+        "dmg": 23.2,
+        "speed": 300,
+        "count": 2,
+        "radius": 299,
+        "size": 8,
+        "knock": 40
+      },
+      {
+        "level": 5,
+        "cd": 0.95,
+        "dmg": 32.48,
+        "speed": 300,
+        "count": 3,
+        "radius": 299,
+        "size": 8,
+        "knock": 40
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 1,
+      "radius": 1.2,
+      "size": 1.2
+    }
+  },
+  {
+    "name": "Spikes",
+    "slug": "spikes",
+    "type": "Ground",
+    "kind": "Mines",
+    "evolution": "Fissure",
+    "requirement": "Power",
+    "id": "spikes",
+    "behavior": "mine",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.2,
+      "dmg": 18,
+      "count": 2,
+      "radius": 60,
+      "dur": 8
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.2,
+        "dmg": 18,
+        "count": 2,
+        "radius": 60,
+        "dur": 8
+      },
+      {
+        "level": 2,
+        "cd": 1.2,
+        "dmg": 18,
+        "count": 3,
+        "radius": 60,
+        "dur": 8
+      },
+      {
+        "level": 3,
+        "cd": 1.2,
+        "dmg": 27,
+        "count": 3,
+        "radius": 60,
+        "dur": 8
+      },
+      {
+        "level": 4,
+        "cd": 1.2,
+        "dmg": 27,
+        "count": 3,
+        "radius": 78,
+        "dur": 8
+      },
+      {
+        "level": 5,
+        "cd": 0.8999999999999999,
+        "dmg": 27,
+        "count": 4,
+        "radius": 78,
+        "dur": 8
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 2,
+      "radius": 1.25
+    }
+  },
+  {
+    "name": "Gust",
+    "slug": "gust",
+    "type": "Flying",
+    "kind": "Orbit",
+    "evolution": "Hurricane",
+    "requirement": "Sprint",
+    "id": "gust",
+    "behavior": "orbit",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.26,
+      "dmg": 13,
+      "count": 3,
+      "radius": 72,
+      "speed": 2.8,
+      "size": 8,
+      "knock": 40
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.26,
+        "dmg": 13,
+        "count": 3,
+        "radius": 72,
+        "speed": 2.8,
+        "size": 8,
+        "knock": 40
+      },
+      {
+        "level": 2,
+        "cd": 0.26,
+        "dmg": 13,
+        "count": 4,
+        "radius": 72,
+        "speed": 2.8,
+        "size": 8,
+        "knock": 40
+      },
+      {
+        "level": 3,
+        "cd": 0.26,
+        "dmg": 20.150000000000002,
+        "count": 4,
+        "radius": 72,
+        "speed": 2.8,
+        "size": 8,
+        "knock": 40
+      },
+      {
+        "level": 4,
+        "cd": 0.26,
+        "dmg": 20.150000000000002,
+        "count": 4,
+        "radius": 90,
+        "speed": 3.78,
+        "size": 8,
+        "knock": 40
+      },
+      {
+        "level": 5,
+        "cd": 0.26,
+        "dmg": 31.232500000000005,
+        "count": 5,
+        "radius": 90,
+        "speed": 3.78,
+        "size": 8,
+        "knock": 40
+      }
+    ],
+    "evolutionModifiers": {
+      "count": 2,
+      "dmg": 1.7,
+      "radius": 1.15
+    }
+  },
+  {
+    "name": "Wing Attack",
+    "slug": "wing-attack",
+    "type": "Flying",
+    "kind": "Melee",
+    "evolution": "Brave Bird",
+    "requirement": "Power",
+    "id": "wing-attack",
+    "behavior": "melee",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.55,
+      "dmg": 14,
+      "radius": 58,
+      "arc": 1.9,
+      "knock": 70
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.55,
+        "dmg": 14,
+        "radius": 58,
+        "arc": 1.9,
+        "knock": 70
+      },
+      {
+        "level": 2,
+        "cd": 0.55,
+        "dmg": 19.599999999999998,
+        "radius": 58,
+        "arc": 1.9,
+        "knock": 70
+      },
+      {
+        "level": 3,
+        "cd": 0.55,
+        "dmg": 19.599999999999998,
+        "radius": 72.5,
+        "arc": 1.9,
+        "knock": 70
+      },
+      {
+        "level": 4,
+        "cd": 0.41250000000000003,
+        "dmg": 19.599999999999998,
+        "radius": 72.5,
+        "arc": 1.9,
+        "knock": 70
+      },
+      {
+        "level": 5,
+        "cd": 0.41250000000000003,
+        "dmg": 29.4,
+        "radius": 72.5,
+        "arc": 17.099999999999998,
+        "knock": 70
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.9,
+      "radius": 1.3,
+      "arc": 9
+    }
+  },
+  {
+    "name": "Aerial Ace",
+    "slug": "aerial-ace",
+    "type": "Flying",
+    "kind": "Dash",
+    "evolution": "Acrobatics",
+    "requirement": "Sprint",
+    "id": "aerial-ace",
+    "behavior": "dash",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.75,
+      "dmg": 18,
+      "radius": 120,
+      "width": 40,
+      "knock": 60
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.75,
+        "dmg": 18,
+        "radius": 120,
+        "width": 40,
+        "knock": 60
+      },
+      {
+        "level": 2,
+        "cd": 0.75,
+        "dmg": 25.2,
+        "radius": 120,
+        "width": 40,
+        "knock": 60
+      },
+      {
+        "level": 3,
+        "cd": 0.75,
+        "dmg": 25.2,
+        "radius": 156,
+        "width": 40,
+        "knock": 60
+      },
+      {
+        "level": 4,
+        "cd": 0.5625,
+        "dmg": 25.2,
+        "radius": 156,
+        "width": 40,
+        "knock": 60
+      },
+      {
+        "level": 5,
+        "cd": 0.5625,
+        "dmg": 40.32,
+        "radius": 156,
+        "width": 56,
+        "knock": 60
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.9,
+      "radius": 1.25,
+      "cd": 0.8
+    }
+  },
+  {
+    "name": "Confusion",
+    "slug": "confusion",
+    "type": "Psychic",
+    "kind": "Projectile",
+    "evolution": "Psyshock",
+    "requirement": "Reflexes",
+    "id": "confusion",
+    "behavior": "projectile",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.58,
+      "dmg": 13,
+      "speed": 280,
+      "count": 1,
+      "spread": 0.1,
+      "pierce": 0,
+      "life": 2.2,
+      "size": 8,
+      "homing": 2
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.58,
+        "dmg": 13,
+        "speed": 280,
+        "count": 1,
+        "spread": 0.1,
+        "pierce": 0,
+        "life": 2.2,
+        "size": 8,
+        "homing": 2
+      },
+      {
+        "level": 2,
+        "cd": 0.58,
+        "dmg": 13,
+        "speed": 280,
+        "count": 2,
+        "spread": 0.13999999999999999,
+        "pierce": 0,
+        "life": 2.2,
+        "size": 8,
+        "homing": 2
+      },
+      {
+        "level": 3,
+        "cd": 0.58,
+        "dmg": 18.849999999999998,
+        "speed": 280,
+        "count": 2,
+        "spread": 0.13999999999999999,
+        "pierce": 0,
+        "life": 2.2,
+        "size": 8,
+        "homing": 2
+      },
+      {
+        "level": 4,
+        "cd": 0.43499999999999994,
+        "dmg": 18.849999999999998,
+        "speed": 280,
+        "count": 2,
+        "spread": 0.13999999999999999,
+        "pierce": 0,
+        "life": 2.2,
+        "size": 8,
+        "homing": 2
+      },
+      {
+        "level": 5,
+        "cd": 0.43499999999999994,
+        "dmg": 18.849999999999998,
+        "speed": 280,
+        "count": 3,
+        "spread": 0.16799999999999998,
+        "pierce": 1,
+        "life": 2.2,
+        "size": 8,
+        "homing": 2
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 2,
+      "pierce": 2,
+      "size": 1.3,
+      "spread": 1.1
+    }
+  },
+  {
+    "name": "Psybeam",
+    "slug": "psybeam",
+    "type": "Psychic",
+    "kind": "Beam",
+    "evolution": "Future Sight",
+    "requirement": "Power",
+    "id": "psybeam",
+    "behavior": "beam",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.15,
+      "dmg": 17,
+      "radius": 215,
+      "width": 40
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.15,
+        "dmg": 17,
+        "radius": 215,
+        "width": 40
+      },
+      {
+        "level": 2,
+        "cd": 1.15,
+        "dmg": 24.65,
+        "radius": 215,
+        "width": 40
+      },
+      {
+        "level": 3,
+        "cd": 1.15,
+        "dmg": 24.65,
+        "radius": 279.5,
+        "width": 52
+      },
+      {
+        "level": 4,
+        "cd": 0.8624999999999999,
+        "dmg": 24.65,
+        "radius": 279.5,
+        "width": 52
+      },
+      {
+        "level": 5,
+        "cd": 0.8624999999999999,
+        "dmg": 36.974999999999994,
+        "radius": 279.5,
+        "width": 52
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "width": 1.5,
+      "radius": 1.2,
+      "cd": 0.85
+    }
+  },
+  {
+    "name": "Psychic",
+    "slug": "psychic",
+    "type": "Psychic",
+    "kind": "Burst",
+    "evolution": "Expanding Force",
+    "requirement": "Magnet",
+    "id": "psychic",
+    "behavior": "nova",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.35,
+      "dmg": 10,
+      "speed": 230,
+      "count": 12,
+      "pierce": 1,
+      "life": 1.6,
+      "size": 7,
+      "homing": 1
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.35,
+        "dmg": 10,
+        "speed": 230,
+        "count": 12,
+        "pierce": 1,
+        "life": 1.6,
+        "size": 7,
+        "homing": 1
+      },
+      {
+        "level": 2,
+        "cd": 1.35,
+        "dmg": 10,
+        "speed": 230,
+        "count": 16,
+        "pierce": 1,
+        "life": 1.6,
+        "size": 7,
+        "homing": 1
+      },
+      {
+        "level": 3,
+        "cd": 1.35,
+        "dmg": 14,
+        "speed": 230,
+        "count": 16,
+        "pierce": 1,
+        "life": 1.6,
+        "size": 7,
+        "homing": 1
+      },
+      {
+        "level": 4,
+        "cd": 1.0125000000000002,
+        "dmg": 14,
+        "speed": 230,
+        "count": 16,
+        "pierce": 1,
+        "life": 1.6,
+        "size": 7,
+        "homing": 1
+      },
+      {
+        "level": 5,
+        "cd": 1.0125000000000002,
+        "dmg": 14,
+        "speed": 230,
+        "count": 20,
+        "pierce": 2,
+        "life": 1.6,
+        "size": 7,
+        "homing": 1
+      }
+    ],
+    "evolutionModifiers": {
+      "count": 6,
+      "dmg": 1.6,
+      "pierce": 1
+    }
+  },
+  {
+    "name": "Psycho Cut",
+    "slug": "psycho-cut",
+    "type": "Psychic",
+    "kind": "Boomerang",
+    "evolution": "Psychic Fangs",
+    "requirement": "Reflexes",
+    "id": "psycho-cut",
+    "behavior": "boomerang",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.8,
+      "dmg": 9,
+      "speed": 360,
+      "count": 2,
+      "spread": 0.6,
+      "radius": 200,
+      "size": 7
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.8,
+        "dmg": 9,
+        "speed": 360,
+        "count": 2,
+        "spread": 0.6,
+        "radius": 200,
+        "size": 7
+      },
+      {
+        "level": 2,
+        "cd": 0.8,
+        "dmg": 9,
+        "speed": 360,
+        "count": 3,
+        "spread": 0.6,
+        "radius": 200,
+        "size": 7
+      },
+      {
+        "level": 3,
+        "cd": 0.8,
+        "dmg": 13.049999999999999,
+        "speed": 360,
+        "count": 3,
+        "spread": 0.6,
+        "radius": 200,
+        "size": 7
+      },
+      {
+        "level": 4,
+        "cd": 0.8,
+        "dmg": 13.049999999999999,
+        "speed": 360,
+        "count": 3,
+        "spread": 0.6,
+        "radius": 260,
+        "size": 7
+      },
+      {
+        "level": 5,
+        "cd": 0.8,
+        "dmg": 18.269999999999996,
+        "speed": 360,
+        "count": 4,
+        "spread": 0.6,
+        "radius": 260,
+        "size": 7
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 1,
+      "radius": 1.2,
+      "size": 1.2
+    }
+  },
+  {
+    "name": "Bug Bite",
+    "slug": "bug-bite",
+    "type": "Bug",
+    "kind": "Melee",
+    "evolution": "X-Scissor",
+    "requirement": "Power",
+    "id": "bug-bite",
+    "behavior": "melee",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.42,
+      "dmg": 11,
+      "radius": 44,
+      "arc": 1.6,
+      "knock": 40
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.42,
+        "dmg": 11,
+        "radius": 44,
+        "arc": 1.6,
+        "knock": 40
+      },
+      {
+        "level": 2,
+        "cd": 0.42,
+        "dmg": 15.399999999999999,
+        "radius": 44,
+        "arc": 1.6,
+        "knock": 40
+      },
+      {
+        "level": 3,
+        "cd": 0.42,
+        "dmg": 15.399999999999999,
+        "radius": 55,
+        "arc": 1.6,
+        "knock": 40
+      },
+      {
+        "level": 4,
+        "cd": 0.315,
+        "dmg": 15.399999999999999,
+        "radius": 55,
+        "arc": 1.6,
+        "knock": 40
+      },
+      {
+        "level": 5,
+        "cd": 0.315,
+        "dmg": 23.099999999999998,
+        "radius": 55,
+        "arc": 14.4,
+        "knock": 40
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.9,
+      "radius": 1.3,
+      "arc": 9
+    }
+  },
+  {
+    "name": "String Shot",
+    "slug": "string-shot",
+    "type": "Bug",
+    "kind": "Mines",
+    "evolution": "Sticky Web",
+    "requirement": "Reflexes",
+    "id": "string-shot",
+    "behavior": "mine",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.1,
+      "dmg": 14,
+      "count": 2,
+      "radius": 56,
+      "dur": 7,
+      "slow": 0.6
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.1,
+        "dmg": 14,
+        "count": 2,
+        "radius": 56,
+        "dur": 7,
+        "slow": 0.6
+      },
+      {
+        "level": 2,
+        "cd": 1.1,
+        "dmg": 14,
+        "count": 3,
+        "radius": 56,
+        "dur": 7,
+        "slow": 0.6
+      },
+      {
+        "level": 3,
+        "cd": 1.1,
+        "dmg": 21,
+        "count": 3,
+        "radius": 56,
+        "dur": 7,
+        "slow": 0.6
+      },
+      {
+        "level": 4,
+        "cd": 1.1,
+        "dmg": 21,
+        "count": 3,
+        "radius": 72.8,
+        "dur": 7,
+        "slow": 0.6
+      },
+      {
+        "level": 5,
+        "cd": 0.8250000000000001,
+        "dmg": 21,
+        "count": 4,
+        "radius": 72.8,
+        "dur": 7,
+        "slow": 0.6
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 2,
+      "radius": 1.25
+    }
+  },
+  {
+    "name": "Bug Buzz",
+    "slug": "bug-buzz",
+    "type": "Bug",
+    "kind": "Aura",
+    "evolution": "Swarm",
+    "requirement": "Synthesis",
+    "id": "bug-buzz",
+    "behavior": "aura",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.45,
+      "dmg": 8,
+      "radius": 66
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.45,
+        "dmg": 8,
+        "radius": 66
+      },
+      {
+        "level": 2,
+        "cd": 0.45,
+        "dmg": 8,
+        "radius": 85.8
+      },
+      {
+        "level": 3,
+        "cd": 0.45,
+        "dmg": 11.6,
+        "radius": 85.8
+      },
+      {
+        "level": 4,
+        "cd": 0.315,
+        "dmg": 11.6,
+        "radius": 85.8
+      },
+      {
+        "level": 5,
+        "cd": 0.315,
+        "dmg": 17.4,
+        "radius": 111.54
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "radius": 1.35
+    }
+  },
+  {
+    "name": "Rock Throw",
+    "slug": "rock-throw",
+    "type": "Rock",
+    "kind": "Projectile",
+    "evolution": "Stone Edge",
+    "requirement": "Power",
+    "id": "rock-throw",
+    "behavior": "projectile",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.7,
+      "dmg": 24,
+      "speed": 260,
+      "count": 1,
+      "spread": 0.12,
+      "pierce": 0,
+      "life": 1.4,
+      "size": 9,
+      "knock": 90
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.7,
+        "dmg": 24,
+        "speed": 260,
+        "count": 1,
+        "spread": 0.12,
+        "pierce": 0,
+        "life": 1.4,
+        "size": 9,
+        "knock": 90
+      },
+      {
+        "level": 2,
+        "cd": 0.7,
+        "dmg": 24,
+        "speed": 260,
+        "count": 2,
+        "spread": 0.16799999999999998,
+        "pierce": 0,
+        "life": 1.4,
+        "size": 9,
+        "knock": 90
+      },
+      {
+        "level": 3,
+        "cd": 0.7,
+        "dmg": 34.8,
+        "speed": 260,
+        "count": 2,
+        "spread": 0.16799999999999998,
+        "pierce": 0,
+        "life": 1.4,
+        "size": 9,
+        "knock": 90
+      },
+      {
+        "level": 4,
+        "cd": 0.5249999999999999,
+        "dmg": 34.8,
+        "speed": 260,
+        "count": 2,
+        "spread": 0.16799999999999998,
+        "pierce": 0,
+        "life": 1.4,
+        "size": 9,
+        "knock": 90
+      },
+      {
+        "level": 5,
+        "cd": 0.5249999999999999,
+        "dmg": 34.8,
+        "speed": 260,
+        "count": 3,
+        "spread": 0.20159999999999997,
+        "pierce": 1,
+        "life": 1.4,
+        "size": 9,
+        "knock": 90
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 2,
+      "pierce": 2,
+      "size": 1.3,
+      "spread": 1.1
+    }
+  },
+  {
+    "name": "Rock Slide",
+    "slug": "rock-slide",
+    "type": "Rock",
+    "kind": "Meteors",
+    "evolution": "Stealth Rock",
+    "requirement": "Reflexes",
+    "id": "rock-slide",
+    "behavior": "meteor",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.3,
+      "dmg": 21,
+      "count": 3,
+      "radius": 46,
+      "knock": 50
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.3,
+        "dmg": 21,
+        "count": 3,
+        "radius": 46,
+        "knock": 50
+      },
+      {
+        "level": 2,
+        "cd": 1.3,
+        "dmg": 21,
+        "count": 4,
+        "radius": 46,
+        "knock": 50
+      },
+      {
+        "level": 3,
+        "cd": 1.3,
+        "dmg": 30.45,
+        "count": 4,
+        "radius": 46,
+        "knock": 50
+      },
+      {
+        "level": 4,
+        "cd": 1.3,
+        "dmg": 30.45,
+        "count": 4,
+        "radius": 59.800000000000004,
+        "knock": 50
+      },
+      {
+        "level": 5,
+        "cd": 1.04,
+        "dmg": 30.45,
+        "count": 6,
+        "radius": 59.800000000000004,
+        "knock": 50
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.7,
+      "count": 2,
+      "radius": 1.2
+    }
+  },
+  {
+    "name": "Lick",
+    "slug": "lick",
+    "type": "Ghost",
+    "kind": "Melee",
+    "evolution": "Shadow Punch",
+    "requirement": "Power",
+    "id": "lick",
+    "behavior": "melee",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.48,
+      "dmg": 12,
+      "radius": 48,
+      "arc": 1.8,
+      "slow": 0.4
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.48,
+        "dmg": 12,
+        "radius": 48,
+        "arc": 1.8,
+        "slow": 0.4
+      },
+      {
+        "level": 2,
+        "cd": 0.48,
+        "dmg": 16.799999999999997,
+        "radius": 48,
+        "arc": 1.8,
+        "slow": 0.4
+      },
+      {
+        "level": 3,
+        "cd": 0.48,
+        "dmg": 16.799999999999997,
+        "radius": 60,
+        "arc": 1.8,
+        "slow": 0.4
+      },
+      {
+        "level": 4,
+        "cd": 0.36,
+        "dmg": 16.799999999999997,
+        "radius": 60,
+        "arc": 1.8,
+        "slow": 0.4
+      },
+      {
+        "level": 5,
+        "cd": 0.36,
+        "dmg": 25.199999999999996,
+        "radius": 60,
+        "arc": 16.2,
+        "slow": 0.4
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.9,
+      "radius": 1.3,
+      "arc": 9
+    }
+  },
+  {
+    "name": "Shadow Ball",
+    "slug": "shadow-ball",
+    "type": "Ghost",
+    "kind": "Projectile",
+    "evolution": "Phantom Force",
+    "requirement": "Reflexes",
+    "id": "shadow-ball",
+    "behavior": "projectile",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.66,
+      "dmg": 19,
+      "speed": 280,
+      "count": 1,
+      "spread": 0.1,
+      "pierce": 2,
+      "life": 1.6,
+      "size": 9
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.66,
+        "dmg": 19,
+        "speed": 280,
+        "count": 1,
+        "spread": 0.1,
+        "pierce": 2,
+        "life": 1.6,
+        "size": 9
+      },
+      {
+        "level": 2,
+        "cd": 0.66,
+        "dmg": 19,
+        "speed": 280,
+        "count": 2,
+        "spread": 0.13999999999999999,
+        "pierce": 2,
+        "life": 1.6,
+        "size": 9
+      },
+      {
+        "level": 3,
+        "cd": 0.66,
+        "dmg": 27.55,
+        "speed": 280,
+        "count": 2,
+        "spread": 0.13999999999999999,
+        "pierce": 2,
+        "life": 1.6,
+        "size": 9
+      },
+      {
+        "level": 4,
+        "cd": 0.495,
+        "dmg": 27.55,
+        "speed": 280,
+        "count": 2,
+        "spread": 0.13999999999999999,
+        "pierce": 2,
+        "life": 1.6,
+        "size": 9
+      },
+      {
+        "level": 5,
+        "cd": 0.495,
+        "dmg": 27.55,
+        "speed": 280,
+        "count": 3,
+        "spread": 0.16799999999999998,
+        "pierce": 3,
+        "life": 1.6,
+        "size": 9
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "count": 2,
+      "pierce": 2,
+      "size": 1.3,
+      "spread": 1.1
+    }
+  },
+  {
+    "name": "Hex",
+    "slug": "hex",
+    "type": "Ghost",
+    "kind": "Chain",
+    "evolution": "Poltergeist",
+    "requirement": "Magnet",
+    "id": "hex",
+    "behavior": "chain",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.9,
+      "dmg": 17,
+      "count": 4,
+      "radius": 150,
+      "hex": 1.7
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.9,
+        "dmg": 17,
+        "count": 4,
+        "radius": 150,
+        "hex": 1.7
+      },
+      {
+        "level": 2,
+        "cd": 0.9,
+        "dmg": 17,
+        "count": 6,
+        "radius": 150,
+        "hex": 1.7
+      },
+      {
+        "level": 3,
+        "cd": 0.9,
+        "dmg": 24.65,
+        "count": 6,
+        "radius": 150,
+        "hex": 1.7
+      },
+      {
+        "level": 4,
+        "cd": 0.675,
+        "dmg": 24.65,
+        "count": 6,
+        "radius": 150,
+        "hex": 1.7
+      },
+      {
+        "level": 5,
+        "cd": 0.675,
+        "dmg": 34.51,
+        "count": 8,
+        "radius": 150,
+        "hex": 1.7
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.7,
+      "count": 3,
+      "radius": 1.2
+    }
+  },
+  {
+    "name": "Dragon Rage",
+    "slug": "dragon-rage",
+    "type": "Dragon",
+    "kind": "Beam",
+    "evolution": "Draco Meteor",
+    "requirement": "Power",
+    "id": "dragon-rage",
+    "behavior": "beam",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1,
+      "dmg": 24,
+      "radius": 230,
+      "width": 34
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1,
+        "dmg": 24,
+        "radius": 230,
+        "width": 34
+      },
+      {
+        "level": 2,
+        "cd": 1,
+        "dmg": 34.8,
+        "radius": 230,
+        "width": 34
+      },
+      {
+        "level": 3,
+        "cd": 1,
+        "dmg": 34.8,
+        "radius": 299,
+        "width": 44.2
+      },
+      {
+        "level": 4,
+        "cd": 0.75,
+        "dmg": 34.8,
+        "radius": 299,
+        "width": 44.2
+      },
+      {
+        "level": 5,
+        "cd": 0.75,
+        "dmg": 52.199999999999996,
+        "radius": 299,
+        "width": 44.2
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "width": 1.5,
+      "radius": 1.2,
+      "cd": 0.85
+    }
+  },
+  {
+    "name": "Dragon Dance",
+    "slug": "dragon-dance",
+    "type": "Dragon",
+    "kind": "Buff",
+    "evolution": null,
+    "requirement": null,
+    "id": "dragon-dance",
+    "behavior": "buff",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.7,
+      "amount": 0.11,
+      "dur": 7,
+      "stacks": 5
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.7,
+        "amount": 0.11,
+        "dur": 7,
+        "stacks": 5
+      },
+      {
+        "level": 2,
+        "cd": 0.7,
+        "amount": 0.11,
+        "dur": 7,
+        "stacks": 6
+      },
+      {
+        "level": 3,
+        "cd": 0.7,
+        "amount": 0.154,
+        "dur": 7,
+        "stacks": 6
+      },
+      {
+        "level": 4,
+        "cd": 0.7,
+        "amount": 0.154,
+        "dur": 10.5,
+        "stacks": 6
+      },
+      {
+        "level": 5,
+        "cd": 0.7,
+        "amount": 0.21559999999999999,
+        "dur": 10.5,
+        "stacks": 7
+      }
+    ],
+    "evolutionModifiers": null
+  },
+  {
+    "name": "Bite",
+    "slug": "bite",
+    "type": "Dark",
+    "kind": "Melee",
+    "evolution": "Crunch",
+    "requirement": "Power",
+    "id": "bite",
+    "behavior": "melee",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.45,
+      "dmg": 14,
+      "radius": 46,
+      "arc": 1.5,
+      "knock": 70
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.45,
+        "dmg": 14,
+        "radius": 46,
+        "arc": 1.5,
+        "knock": 70
+      },
+      {
+        "level": 2,
+        "cd": 0.45,
+        "dmg": 19.599999999999998,
+        "radius": 46,
+        "arc": 1.5,
+        "knock": 70
+      },
+      {
+        "level": 3,
+        "cd": 0.45,
+        "dmg": 19.599999999999998,
+        "radius": 57.5,
+        "arc": 1.5,
+        "knock": 70
+      },
+      {
+        "level": 4,
+        "cd": 0.3375,
+        "dmg": 19.599999999999998,
+        "radius": 57.5,
+        "arc": 1.5,
+        "knock": 70
+      },
+      {
+        "level": 5,
+        "cd": 0.3375,
+        "dmg": 29.4,
+        "radius": 57.5,
+        "arc": 13.5,
+        "knock": 70
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.9,
+      "radius": 1.3,
+      "arc": 9
+    }
+  },
+  {
+    "name": "Dark Pulse",
+    "slug": "dark-pulse",
+    "type": "Dark",
+    "kind": "Burst",
+    "evolution": "Snarl",
+    "requirement": "Sprint",
+    "id": "dark-pulse",
+    "behavior": "nova",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.15,
+      "dmg": 14,
+      "speed": 240,
+      "count": 10,
+      "pierce": 1,
+      "life": 1.1,
+      "size": 8
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.15,
+        "dmg": 14,
+        "speed": 240,
+        "count": 10,
+        "pierce": 1,
+        "life": 1.1,
+        "size": 8
+      },
+      {
+        "level": 2,
+        "cd": 1.15,
+        "dmg": 14,
+        "speed": 240,
+        "count": 14,
+        "pierce": 1,
+        "life": 1.1,
+        "size": 8
+      },
+      {
+        "level": 3,
+        "cd": 1.15,
+        "dmg": 19.599999999999998,
+        "speed": 240,
+        "count": 14,
+        "pierce": 1,
+        "life": 1.1,
+        "size": 8
+      },
+      {
+        "level": 4,
+        "cd": 0.8624999999999999,
+        "dmg": 19.599999999999998,
+        "speed": 240,
+        "count": 14,
+        "pierce": 1,
+        "life": 1.1,
+        "size": 8
+      },
+      {
+        "level": 5,
+        "cd": 0.8624999999999999,
+        "dmg": 19.599999999999998,
+        "speed": 240,
+        "count": 18,
+        "pierce": 2,
+        "life": 1.1,
+        "size": 8
+      }
+    ],
+    "evolutionModifiers": {
+      "count": 6,
+      "dmg": 1.6,
+      "pierce": 1
+    }
+  },
+  {
+    "name": "Night Shade",
+    "slug": "night-shade",
+    "type": "Dark",
+    "kind": "Aura",
+    "evolution": "Nightmare",
+    "requirement": "Synthesis",
+    "id": "night-shade",
+    "behavior": "aura",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.5,
+      "dmg": 9,
+      "radius": 72
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.5,
+        "dmg": 9,
+        "radius": 72
+      },
+      {
+        "level": 2,
+        "cd": 0.5,
+        "dmg": 9,
+        "radius": 93.60000000000001
+      },
+      {
+        "level": 3,
+        "cd": 0.5,
+        "dmg": 13.049999999999999,
+        "radius": 93.60000000000001
+      },
+      {
+        "level": 4,
+        "cd": 0.35,
+        "dmg": 13.049999999999999,
+        "radius": 93.60000000000001
+      },
+      {
+        "level": 5,
+        "cd": 0.35,
+        "dmg": 19.575,
+        "radius": 121.68000000000002
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "radius": 1.35
+    }
+  },
+  {
+    "name": "Metal Claw",
+    "slug": "metal-claw",
+    "type": "Steel",
+    "kind": "Melee",
+    "evolution": "Iron Head",
+    "requirement": "Power",
+    "id": "metal-claw",
+    "behavior": "melee",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.5,
+      "dmg": 15,
+      "radius": 50,
+      "arc": 1.6,
+      "knock": 60
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.5,
+        "dmg": 15,
+        "radius": 50,
+        "arc": 1.6,
+        "knock": 60
+      },
+      {
+        "level": 2,
+        "cd": 0.5,
+        "dmg": 21,
+        "radius": 50,
+        "arc": 1.6,
+        "knock": 60
+      },
+      {
+        "level": 3,
+        "cd": 0.5,
+        "dmg": 21,
+        "radius": 62.5,
+        "arc": 1.6,
+        "knock": 60
+      },
+      {
+        "level": 4,
+        "cd": 0.375,
+        "dmg": 21,
+        "radius": 62.5,
+        "arc": 1.6,
+        "knock": 60
+      },
+      {
+        "level": 5,
+        "cd": 0.375,
+        "dmg": 31.5,
+        "radius": 62.5,
+        "arc": 14.4,
+        "knock": 60
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.9,
+      "radius": 1.3,
+      "arc": 9
+    }
+  },
+  {
+    "name": "Flash Cannon",
+    "slug": "flash-cannon",
+    "type": "Steel",
+    "kind": "Beam",
+    "evolution": "Steel Beam",
+    "requirement": "Armor",
+    "id": "flash-cannon",
+    "behavior": "beam",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.05,
+      "dmg": 23,
+      "radius": 220,
+      "width": 30
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.05,
+        "dmg": 23,
+        "radius": 220,
+        "width": 30
+      },
+      {
+        "level": 2,
+        "cd": 1.05,
+        "dmg": 33.35,
+        "radius": 220,
+        "width": 30
+      },
+      {
+        "level": 3,
+        "cd": 1.05,
+        "dmg": 33.35,
+        "radius": 286,
+        "width": 39
+      },
+      {
+        "level": 4,
+        "cd": 0.7875000000000001,
+        "dmg": 33.35,
+        "radius": 286,
+        "width": 39
+      },
+      {
+        "level": 5,
+        "cd": 0.7875000000000001,
+        "dmg": 50.025000000000006,
+        "radius": 286,
+        "width": 39
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "width": 1.5,
+      "radius": 1.2,
+      "cd": 0.85
+    }
+  },
+  {
+    "name": "Meteor Mash",
+    "slug": "meteor-mash",
+    "type": "Steel",
+    "kind": "Meteors",
+    "evolution": "Magnet Bomb",
+    "requirement": "Power",
+    "id": "meteor-mash",
+    "behavior": "meteor",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1.4,
+      "dmg": 34,
+      "count": 2,
+      "radius": 54,
+      "knock": 80
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1.4,
+        "dmg": 34,
+        "count": 2,
+        "radius": 54,
+        "knock": 80
+      },
+      {
+        "level": 2,
+        "cd": 1.4,
+        "dmg": 34,
+        "count": 3,
+        "radius": 54,
+        "knock": 80
+      },
+      {
+        "level": 3,
+        "cd": 1.4,
+        "dmg": 49.3,
+        "count": 3,
+        "radius": 54,
+        "knock": 80
+      },
+      {
+        "level": 4,
+        "cd": 1.4,
+        "dmg": 49.3,
+        "count": 3,
+        "radius": 70.2,
+        "knock": 80
+      },
+      {
+        "level": 5,
+        "cd": 1.1199999999999999,
+        "dmg": 49.3,
+        "count": 5,
+        "radius": 70.2,
+        "knock": 80
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.7,
+      "count": 2,
+      "radius": 1.2
+    }
+  },
+  {
+    "name": "Fairy Wind",
+    "slug": "fairy-wind",
+    "type": "Fairy",
+    "kind": "Burst",
+    "evolution": "Moonblast",
+    "requirement": "Power",
+    "id": "fairy-wind",
+    "behavior": "nova",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 1,
+      "dmg": 11,
+      "speed": 230,
+      "count": 10,
+      "pierce": 0,
+      "life": 1.2,
+      "size": 7
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 1,
+        "dmg": 11,
+        "speed": 230,
+        "count": 10,
+        "pierce": 0,
+        "life": 1.2,
+        "size": 7
+      },
+      {
+        "level": 2,
+        "cd": 1,
+        "dmg": 11,
+        "speed": 230,
+        "count": 14,
+        "pierce": 0,
+        "life": 1.2,
+        "size": 7
+      },
+      {
+        "level": 3,
+        "cd": 1,
+        "dmg": 15.399999999999999,
+        "speed": 230,
+        "count": 14,
+        "pierce": 0,
+        "life": 1.2,
+        "size": 7
+      },
+      {
+        "level": 4,
+        "cd": 0.75,
+        "dmg": 15.399999999999999,
+        "speed": 230,
+        "count": 14,
+        "pierce": 0,
+        "life": 1.2,
+        "size": 7
+      },
+      {
+        "level": 5,
+        "cd": 0.75,
+        "dmg": 15.399999999999999,
+        "speed": 230,
+        "count": 18,
+        "pierce": 1,
+        "life": 1.2,
+        "size": 7
+      }
+    ],
+    "evolutionModifiers": {
+      "count": 6,
+      "dmg": 1.6,
+      "pierce": 1
+    }
+  },
+  {
+    "name": "Dazzling Gleam",
+    "slug": "dazzling-gleam",
+    "type": "Fairy",
+    "kind": "Aura",
+    "evolution": "Misty Terrain",
+    "requirement": "Synthesis",
+    "id": "dazzling-gleam",
+    "behavior": "aura",
+    "maxLevel": 5,
+    "base": {
+      "level": 1,
+      "cd": 0.5,
+      "dmg": 9,
+      "radius": 72
+    },
+    "levels": [
+      {
+        "level": 1,
+        "cd": 0.5,
+        "dmg": 9,
+        "radius": 72
+      },
+      {
+        "level": 2,
+        "cd": 0.5,
+        "dmg": 9,
+        "radius": 93.60000000000001
+      },
+      {
+        "level": 3,
+        "cd": 0.5,
+        "dmg": 13.049999999999999,
+        "radius": 93.60000000000001
+      },
+      {
+        "level": 4,
+        "cd": 0.35,
+        "dmg": 13.049999999999999,
+        "radius": 93.60000000000001
+      },
+      {
+        "level": 5,
+        "cd": 0.35,
+        "dmg": 19.575,
+        "radius": 121.68000000000002
+      }
+    ],
+    "evolutionModifiers": {
+      "dmg": 1.8,
+      "radius": 1.35
+    }
+  }
+]

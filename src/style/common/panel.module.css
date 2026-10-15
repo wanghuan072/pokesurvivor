@@ -1,0 +1,41 @@
+.panel {
+  border: 1px solid #155b7d;
+  border-radius: 6px;
+  background: linear-gradient(120deg, #041a2c, #06223890);
+  padding: 0 8px 7px;
+  min-width: 0;
+}
+.panelHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 30px;
+  padding: 4px 3px;
+}
+.panelHead h2 {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.panelHead h2 > span {
+  color: #82d4ff;
+  font-family: Arial;
+  font-size: 23px;
+  line-height: 1;
+}
+.panelHead > a {
+  font-size: 10px;
+  color: #29c1fa;
+  white-space: nowrap;
+}
+.panelHead > a:hover {
+  color: #8aeefb;
+}
+@media (max-width: 1024px) {
+  .panelHead h2 {
+    font-size: 18px;
+  }
+}
+
+

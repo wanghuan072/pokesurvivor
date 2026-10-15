@@ -1,0 +1,6928 @@
+[
+  {
+    "id": 1,
+    "normal": "/game/pokemon/1.webp",
+    "shiny": "/game/pokemon/1-shiny.webp",
+    "animations": [
+      {
+        "name": "Idle",
+        "shiny": false,
+        "src": "/game/animations/1/idle-normal.webp",
+        "still": "/game/animations/1/idle-normal-still.webp",
+        "frames": 3,
+        "durationMs": 867
+      },
+      {
+        "name": "Walk",
+        "shiny": false,
+        "src": "/game/animations/1/walk-normal.webp",
+        "still": "/game/animations/1/walk-normal-still.webp",
+        "frames": 6,
+        "durationMs": 402
+      },
+      {
+        "name": "Attack",
+        "shiny": false,
+        "src": "/game/animations/1/attack-normal.webp",
+        "still": "/game/animations/1/attack-normal-still.webp",
+        "frames": 11,
+        "durationMs": 465
+      },
+      {
+        "name": "Shoot",
+        "shiny": false,
+        "src": "/game/animations/1/shoot-normal.webp",
+        "still": "/game/animations/1/shoot-normal-still.webp",
+        "frames": 6,
+        "durationMs": 467
+      },
+      {
+        "name": "Charge",
+        "shiny": false,
+        "src": "/game/animations/1/charge-normal.webp",
+        "still": "/game/animations/1/charge-normal-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": false,
+        "src": "/game/animations/1/hurt-normal.webp",
+        "still": "/game/animations/1/hurt-normal-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": false,
+        "src": "/game/animations/1/faint-normal.webp",
+        "still": "/game/animations/1/faint-normal-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      },
+      {
+        "name": "Idle",
+        "shiny": true,
+        "src": "/game/animations/1/idle-shiny.webp",
+        "still": "/game/animations/1/idle-shiny-still.webp",
+        "frames": 3,
+        "durationMs": 867
+      },
+      {
+        "name": "Walk",
+        "shiny": true,
+        "src": "/game/animations/1/walk-shiny.webp",
+        "still": "/game/animations/1/walk-shiny-still.webp",
+        "frames": 6,
+        "durationMs": 402
+      },
+      {
+        "name": "Attack",
+        "shiny": true,
+        "src": "/game/animations/1/attack-shiny.webp",
+        "still": "/game/animations/1/attack-shiny-still.webp",
+        "frames": 11,
+        "durationMs": 465
+      },
+      {
+        "name": "Shoot",
+        "shiny": true,
+        "src": "/game/animations/1/shoot-shiny.webp",
+        "still": "/game/animations/1/shoot-shiny-still.webp",
+        "frames": 6,
+        "durationMs": 467
+      },
+      {
+        "name": "Charge",
+        "shiny": true,
+        "src": "/game/animations/1/charge-shiny.webp",
+        "still": "/game/animations/1/charge-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": true,
+        "src": "/game/animations/1/hurt-shiny.webp",
+        "still": "/game/animations/1/hurt-shiny-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": true,
+        "src": "/game/animations/1/faint-shiny.webp",
+        "still": "/game/animations/1/faint-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "normal": "/game/pokemon/2.webp",
+    "shiny": "/game/pokemon/2-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 3,
+    "normal": "/game/pokemon/3.webp",
+    "shiny": "/game/pokemon/3-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 4,
+    "normal": "/game/pokemon/4.webp",
+    "shiny": "/game/pokemon/4-shiny.webp",
+    "animations": [
+      {
+        "name": "Idle",
+        "shiny": false,
+        "src": "/game/animations/4/idle-normal.webp",
+        "still": "/game/animations/4/idle-normal-still.webp",
+        "frames": 4,
+        "durationMs": 599
+      },
+      {
+        "name": "Walk",
+        "shiny": false,
+        "src": "/game/animations/4/walk-normal.webp",
+        "still": "/game/animations/4/walk-normal-still.webp",
+        "frames": 4,
+        "durationMs": 466
+      },
+      {
+        "name": "Attack",
+        "shiny": false,
+        "src": "/game/animations/4/attack-normal.webp",
+        "still": "/game/animations/4/attack-normal-still.webp",
+        "frames": 11,
+        "durationMs": 397
+      },
+      {
+        "name": "Shoot",
+        "shiny": false,
+        "src": "/game/animations/4/shoot-normal.webp",
+        "still": "/game/animations/4/shoot-normal-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Charge",
+        "shiny": false,
+        "src": "/game/animations/4/charge-normal.webp",
+        "still": "/game/animations/4/charge-normal-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": false,
+        "src": "/game/animations/4/hurt-normal.webp",
+        "still": "/game/animations/4/hurt-normal-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": false,
+        "src": "/game/animations/4/faint-normal.webp",
+        "still": "/game/animations/4/faint-normal-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      },
+      {
+        "name": "Idle",
+        "shiny": true,
+        "src": "/game/animations/4/idle-shiny.webp",
+        "still": "/game/animations/4/idle-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 599
+      },
+      {
+        "name": "Walk",
+        "shiny": true,
+        "src": "/game/animations/4/walk-shiny.webp",
+        "still": "/game/animations/4/walk-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 466
+      },
+      {
+        "name": "Attack",
+        "shiny": true,
+        "src": "/game/animations/4/attack-shiny.webp",
+        "still": "/game/animations/4/attack-shiny-still.webp",
+        "frames": 11,
+        "durationMs": 397
+      },
+      {
+        "name": "Shoot",
+        "shiny": true,
+        "src": "/game/animations/4/shoot-shiny.webp",
+        "still": "/game/animations/4/shoot-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Charge",
+        "shiny": true,
+        "src": "/game/animations/4/charge-shiny.webp",
+        "still": "/game/animations/4/charge-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": true,
+        "src": "/game/animations/4/hurt-shiny.webp",
+        "still": "/game/animations/4/hurt-shiny-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": true,
+        "src": "/game/animations/4/faint-shiny.webp",
+        "still": "/game/animations/4/faint-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "normal": "/game/pokemon/5.webp",
+    "shiny": "/game/pokemon/5-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 6,
+    "normal": "/game/pokemon/6.webp",
+    "shiny": "/game/pokemon/6-shiny.webp",
+    "animations": [
+      {
+        "name": "Idle",
+        "shiny": false,
+        "src": "/game/animations/6/idle-normal.webp",
+        "still": "/game/animations/6/idle-normal-still.webp",
+        "frames": 4,
+        "durationMs": 1000
+      },
+      {
+        "name": "Walk",
+        "shiny": false,
+        "src": "/game/animations/6/walk-normal.webp",
+        "still": "/game/animations/6/walk-normal-still.webp",
+        "frames": 4,
+        "durationMs": 600
+      },
+      {
+        "name": "Attack",
+        "shiny": false,
+        "src": "/game/animations/6/attack-normal.webp",
+        "still": "/game/animations/6/attack-normal-still.webp",
+        "frames": 14,
+        "durationMs": 464
+      },
+      {
+        "name": "Shoot",
+        "shiny": false,
+        "src": "/game/animations/6/shoot-normal.webp",
+        "still": "/game/animations/6/shoot-normal-still.webp",
+        "frames": 11,
+        "durationMs": 464
+      },
+      {
+        "name": "Charge",
+        "shiny": false,
+        "src": "/game/animations/6/charge-normal.webp",
+        "still": "/game/animations/6/charge-normal-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": false,
+        "src": "/game/animations/6/hurt-normal.webp",
+        "still": "/game/animations/6/hurt-normal-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": false,
+        "src": "/game/animations/6/faint-normal.webp",
+        "still": "/game/animations/6/faint-normal-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      },
+      {
+        "name": "Idle",
+        "shiny": true,
+        "src": "/game/animations/6/idle-shiny.webp",
+        "still": "/game/animations/6/idle-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 1000
+      },
+      {
+        "name": "Walk",
+        "shiny": true,
+        "src": "/game/animations/6/walk-shiny.webp",
+        "still": "/game/animations/6/walk-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 600
+      },
+      {
+        "name": "Attack",
+        "shiny": true,
+        "src": "/game/animations/6/attack-shiny.webp",
+        "still": "/game/animations/6/attack-shiny-still.webp",
+        "frames": 14,
+        "durationMs": 464
+      },
+      {
+        "name": "Shoot",
+        "shiny": true,
+        "src": "/game/animations/6/shoot-shiny.webp",
+        "still": "/game/animations/6/shoot-shiny-still.webp",
+        "frames": 11,
+        "durationMs": 464
+      },
+      {
+        "name": "Charge",
+        "shiny": true,
+        "src": "/game/animations/6/charge-shiny.webp",
+        "still": "/game/animations/6/charge-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": true,
+        "src": "/game/animations/6/hurt-shiny.webp",
+        "still": "/game/animations/6/hurt-shiny-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": true,
+        "src": "/game/animations/6/faint-shiny.webp",
+        "still": "/game/animations/6/faint-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "normal": "/game/pokemon/7.webp",
+    "shiny": "/game/pokemon/7-shiny.webp",
+    "animations": [
+      {
+        "name": "Idle",
+        "shiny": false,
+        "src": "/game/animations/7/idle-normal.webp",
+        "still": "/game/animations/7/idle-normal-still.webp",
+        "frames": 8,
+        "durationMs": 833
+      },
+      {
+        "name": "Walk",
+        "shiny": false,
+        "src": "/game/animations/7/walk-normal.webp",
+        "still": "/game/animations/7/walk-normal-still.webp",
+        "frames": 4,
+        "durationMs": 666
+      },
+      {
+        "name": "Attack",
+        "shiny": false,
+        "src": "/game/animations/7/attack-normal.webp",
+        "still": "/game/animations/7/attack-normal-still.webp",
+        "frames": 10,
+        "durationMs": 316
+      },
+      {
+        "name": "Shoot",
+        "shiny": false,
+        "src": "/game/animations/7/shoot-normal.webp",
+        "still": "/game/animations/7/shoot-normal-still.webp",
+        "frames": 11,
+        "durationMs": 430
+      },
+      {
+        "name": "Charge",
+        "shiny": false,
+        "src": "/game/animations/7/charge-normal.webp",
+        "still": "/game/animations/7/charge-normal-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": false,
+        "src": "/game/animations/7/hurt-normal.webp",
+        "still": "/game/animations/7/hurt-normal-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": false,
+        "src": "/game/animations/7/faint-normal.webp",
+        "still": "/game/animations/7/faint-normal-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      },
+      {
+        "name": "Idle",
+        "shiny": true,
+        "src": "/game/animations/7/idle-shiny.webp",
+        "still": "/game/animations/7/idle-shiny-still.webp",
+        "frames": 8,
+        "durationMs": 833
+      },
+      {
+        "name": "Walk",
+        "shiny": true,
+        "src": "/game/animations/7/walk-shiny.webp",
+        "still": "/game/animations/7/walk-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 666
+      },
+      {
+        "name": "Attack",
+        "shiny": true,
+        "src": "/game/animations/7/attack-shiny.webp",
+        "still": "/game/animations/7/attack-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 316
+      },
+      {
+        "name": "Shoot",
+        "shiny": true,
+        "src": "/game/animations/7/shoot-shiny.webp",
+        "still": "/game/animations/7/shoot-shiny-still.webp",
+        "frames": 11,
+        "durationMs": 430
+      },
+      {
+        "name": "Charge",
+        "shiny": true,
+        "src": "/game/animations/7/charge-shiny.webp",
+        "still": "/game/animations/7/charge-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": true,
+        "src": "/game/animations/7/hurt-shiny.webp",
+        "still": "/game/animations/7/hurt-shiny-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": true,
+        "src": "/game/animations/7/faint-shiny.webp",
+        "still": "/game/animations/7/faint-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "normal": "/game/pokemon/8.webp",
+    "shiny": "/game/pokemon/8-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 9,
+    "normal": "/game/pokemon/9.webp",
+    "shiny": "/game/pokemon/9-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 10,
+    "normal": "/game/pokemon/10.webp",
+    "shiny": "/game/pokemon/10-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 11,
+    "normal": "/game/pokemon/11.webp",
+    "shiny": "/game/pokemon/11-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 12,
+    "normal": "/game/pokemon/12.webp",
+    "shiny": "/game/pokemon/12-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 13,
+    "normal": "/game/pokemon/13.webp",
+    "shiny": "/game/pokemon/13-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 14,
+    "normal": "/game/pokemon/14.webp",
+    "shiny": "/game/pokemon/14-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 15,
+    "normal": "/game/pokemon/15.webp",
+    "shiny": "/game/pokemon/15-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 16,
+    "normal": "/game/pokemon/16.webp",
+    "shiny": "/game/pokemon/16-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 17,
+    "normal": "/game/pokemon/17.webp",
+    "shiny": "/game/pokemon/17-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 18,
+    "normal": "/game/pokemon/18.webp",
+    "shiny": "/game/pokemon/18-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 19,
+    "normal": "/game/pokemon/19.webp",
+    "shiny": "/game/pokemon/19-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 20,
+    "normal": "/game/pokemon/20.webp",
+    "shiny": "/game/pokemon/20-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 21,
+    "normal": "/game/pokemon/21.webp",
+    "shiny": "/game/pokemon/21-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 22,
+    "normal": "/game/pokemon/22.webp",
+    "shiny": "/game/pokemon/22-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 23,
+    "normal": "/game/pokemon/23.webp",
+    "shiny": "/game/pokemon/23-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 24,
+    "normal": "/game/pokemon/24.webp",
+    "shiny": "/game/pokemon/24-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 25,
+    "normal": "/game/pokemon/25.webp",
+    "shiny": "/game/pokemon/25-shiny.webp",
+    "animations": [
+      {
+        "name": "Idle",
+        "shiny": false,
+        "src": "/game/animations/25/idle-normal.webp",
+        "still": "/game/animations/25/idle-normal-still.webp",
+        "frames": 6,
+        "durationMs": 883
+      },
+      {
+        "name": "Walk",
+        "shiny": false,
+        "src": "/game/animations/25/walk-normal.webp",
+        "still": "/game/animations/25/walk-normal-still.webp",
+        "frames": 4,
+        "durationMs": 600
+      },
+      {
+        "name": "Attack",
+        "shiny": false,
+        "src": "/game/animations/25/attack-normal.webp",
+        "still": "/game/animations/25/attack-normal-still.webp",
+        "frames": 10,
+        "durationMs": 350
+      },
+      {
+        "name": "Shoot",
+        "shiny": false,
+        "src": "/game/animations/25/shoot-normal.webp",
+        "still": "/game/animations/25/shoot-normal-still.webp",
+        "frames": 11,
+        "durationMs": 414
+      },
+      {
+        "name": "Charge",
+        "shiny": false,
+        "src": "/game/animations/25/charge-normal.webp",
+        "still": "/game/animations/25/charge-normal-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": false,
+        "src": "/game/animations/25/hurt-normal.webp",
+        "still": "/game/animations/25/hurt-normal-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": false,
+        "src": "/game/animations/25/faint-normal.webp",
+        "still": "/game/animations/25/faint-normal-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      },
+      {
+        "name": "Idle",
+        "shiny": true,
+        "src": "/game/animations/25/idle-shiny.webp",
+        "still": "/game/animations/25/idle-shiny-still.webp",
+        "frames": 6,
+        "durationMs": 883
+      },
+      {
+        "name": "Walk",
+        "shiny": true,
+        "src": "/game/animations/25/walk-shiny.webp",
+        "still": "/game/animations/25/walk-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 600
+      },
+      {
+        "name": "Attack",
+        "shiny": true,
+        "src": "/game/animations/25/attack-shiny.webp",
+        "still": "/game/animations/25/attack-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 350
+      },
+      {
+        "name": "Shoot",
+        "shiny": true,
+        "src": "/game/animations/25/shoot-shiny.webp",
+        "still": "/game/animations/25/shoot-shiny-still.webp",
+        "frames": 11,
+        "durationMs": 414
+      },
+      {
+        "name": "Charge",
+        "shiny": true,
+        "src": "/game/animations/25/charge-shiny.webp",
+        "still": "/game/animations/25/charge-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": true,
+        "src": "/game/animations/25/hurt-shiny.webp",
+        "still": "/game/animations/25/hurt-shiny-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": true,
+        "src": "/game/animations/25/faint-shiny.webp",
+        "still": "/game/animations/25/faint-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "normal": "/game/pokemon/26.webp",
+    "shiny": "/game/pokemon/26-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 27,
+    "normal": "/game/pokemon/27.webp",
+    "shiny": "/game/pokemon/27-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 28,
+    "normal": "/game/pokemon/28.webp",
+    "shiny": "/game/pokemon/28-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 29,
+    "normal": "/game/pokemon/29.webp",
+    "shiny": "/game/pokemon/29-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 30,
+    "normal": "/game/pokemon/30.webp",
+    "shiny": "/game/pokemon/30-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 31,
+    "normal": "/game/pokemon/31.webp",
+    "shiny": "/game/pokemon/31-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 32,
+    "normal": "/game/pokemon/32.webp",
+    "shiny": "/game/pokemon/32-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 33,
+    "normal": "/game/pokemon/33.webp",
+    "shiny": "/game/pokemon/33-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 34,
+    "normal": "/game/pokemon/34.webp",
+    "shiny": "/game/pokemon/34-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 35,
+    "normal": "/game/pokemon/35.webp",
+    "shiny": "/game/pokemon/35-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 36,
+    "normal": "/game/pokemon/36.webp",
+    "shiny": "/game/pokemon/36-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 37,
+    "normal": "/game/pokemon/37.webp",
+    "shiny": "/game/pokemon/37-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 38,
+    "normal": "/game/pokemon/38.webp",
+    "shiny": "/game/pokemon/38-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 39,
+    "normal": "/game/pokemon/39.webp",
+    "shiny": "/game/pokemon/39-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 40,
+    "normal": "/game/pokemon/40.webp",
+    "shiny": "/game/pokemon/40-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 41,
+    "normal": "/game/pokemon/41.webp",
+    "shiny": "/game/pokemon/41-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 42,
+    "normal": "/game/pokemon/42.webp",
+    "shiny": "/game/pokemon/42-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 43,
+    "normal": "/game/pokemon/43.webp",
+    "shiny": "/game/pokemon/43-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 44,
+    "normal": "/game/pokemon/44.webp",
+    "shiny": "/game/pokemon/44-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 45,
+    "normal": "/game/pokemon/45.webp",
+    "shiny": "/game/pokemon/45-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 46,
+    "normal": "/game/pokemon/46.webp",
+    "shiny": "/game/pokemon/46-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 47,
+    "normal": "/game/pokemon/47.webp",
+    "shiny": "/game/pokemon/47-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 48,
+    "normal": "/game/pokemon/48.webp",
+    "shiny": "/game/pokemon/48-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 49,
+    "normal": "/game/pokemon/49.webp",
+    "shiny": "/game/pokemon/49-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 50,
+    "normal": "/game/pokemon/50.webp",
+    "shiny": "/game/pokemon/50-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 51,
+    "normal": "/game/pokemon/51.webp",
+    "shiny": "/game/pokemon/51-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 52,
+    "normal": "/game/pokemon/52.webp",
+    "shiny": "/game/pokemon/52-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 53,
+    "normal": "/game/pokemon/53.webp",
+    "shiny": "/game/pokemon/53-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 54,
+    "normal": "/game/pokemon/54.webp",
+    "shiny": "/game/pokemon/54-shiny.webp",
+    "animations": [
+      {
+        "name": "Idle",
+        "shiny": false,
+        "src": "/game/animations/54/idle-normal.webp",
+        "still": "/game/animations/54/idle-normal-still.webp",
+        "frames": 4,
+        "durationMs": 1200
+      },
+      {
+        "name": "Walk",
+        "shiny": false,
+        "src": "/game/animations/54/walk-normal.webp",
+        "still": "/game/animations/54/walk-normal-still.webp",
+        "frames": 4,
+        "durationMs": 666
+      },
+      {
+        "name": "Attack",
+        "shiny": false,
+        "src": "/game/animations/54/attack-normal.webp",
+        "still": "/game/animations/54/attack-normal-still.webp",
+        "frames": 11,
+        "durationMs": 465
+      },
+      {
+        "name": "Shoot",
+        "shiny": false,
+        "src": "/game/animations/54/shoot-normal.webp",
+        "still": "/game/animations/54/shoot-normal-still.webp",
+        "frames": 10,
+        "durationMs": 398
+      },
+      {
+        "name": "Charge",
+        "shiny": false,
+        "src": "/game/animations/54/charge-normal.webp",
+        "still": "/game/animations/54/charge-normal-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": false,
+        "src": "/game/animations/54/hurt-normal.webp",
+        "still": "/game/animations/54/hurt-normal-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": false,
+        "src": "/game/animations/54/faint-normal.webp",
+        "still": "/game/animations/54/faint-normal-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Idle",
+        "shiny": true,
+        "src": "/game/animations/54/idle-shiny.webp",
+        "still": "/game/animations/54/idle-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 1200
+      },
+      {
+        "name": "Walk",
+        "shiny": true,
+        "src": "/game/animations/54/walk-shiny.webp",
+        "still": "/game/animations/54/walk-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 666
+      },
+      {
+        "name": "Attack",
+        "shiny": true,
+        "src": "/game/animations/54/attack-shiny.webp",
+        "still": "/game/animations/54/attack-shiny-still.webp",
+        "frames": 11,
+        "durationMs": 465
+      },
+      {
+        "name": "Shoot",
+        "shiny": true,
+        "src": "/game/animations/54/shoot-shiny.webp",
+        "still": "/game/animations/54/shoot-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 398
+      },
+      {
+        "name": "Charge",
+        "shiny": true,
+        "src": "/game/animations/54/charge-shiny.webp",
+        "still": "/game/animations/54/charge-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": true,
+        "src": "/game/animations/54/hurt-shiny.webp",
+        "still": "/game/animations/54/hurt-shiny-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": true,
+        "src": "/game/animations/54/faint-shiny.webp",
+        "still": "/game/animations/54/faint-shiny-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "normal": "/game/pokemon/55.webp",
+    "shiny": "/game/pokemon/55-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 56,
+    "normal": "/game/pokemon/56.webp",
+    "shiny": "/game/pokemon/56-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 57,
+    "normal": "/game/pokemon/57.webp",
+    "shiny": "/game/pokemon/57-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 58,
+    "normal": "/game/pokemon/58.webp",
+    "shiny": "/game/pokemon/58-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 59,
+    "normal": "/game/pokemon/59.webp",
+    "shiny": "/game/pokemon/59-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 60,
+    "normal": "/game/pokemon/60.webp",
+    "shiny": "/game/pokemon/60-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 61,
+    "normal": "/game/pokemon/61.webp",
+    "shiny": "/game/pokemon/61-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 62,
+    "normal": "/game/pokemon/62.webp",
+    "shiny": "/game/pokemon/62-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 63,
+    "normal": "/game/pokemon/63.webp",
+    "shiny": "/game/pokemon/63-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 64,
+    "normal": "/game/pokemon/64.webp",
+    "shiny": "/game/pokemon/64-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 65,
+    "normal": "/game/pokemon/65.webp",
+    "shiny": "/game/pokemon/65-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 66,
+    "normal": "/game/pokemon/66.webp",
+    "shiny": "/game/pokemon/66-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 67,
+    "normal": "/game/pokemon/67.webp",
+    "shiny": "/game/pokemon/67-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 68,
+    "normal": "/game/pokemon/68.webp",
+    "shiny": "/game/pokemon/68-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 69,
+    "normal": "/game/pokemon/69.webp",
+    "shiny": "/game/pokemon/69-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 70,
+    "normal": "/game/pokemon/70.webp",
+    "shiny": "/game/pokemon/70-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 71,
+    "normal": "/game/pokemon/71.webp",
+    "shiny": "/game/pokemon/71-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 72,
+    "normal": "/game/pokemon/72.webp",
+    "shiny": "/game/pokemon/72-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 73,
+    "normal": "/game/pokemon/73.webp",
+    "shiny": "/game/pokemon/73-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 74,
+    "normal": "/game/pokemon/74.webp",
+    "shiny": "/game/pokemon/74-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 75,
+    "normal": "/game/pokemon/75.webp",
+    "shiny": "/game/pokemon/75-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 76,
+    "normal": "/game/pokemon/76.webp",
+    "shiny": "/game/pokemon/76-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 77,
+    "normal": "/game/pokemon/77.webp",
+    "shiny": "/game/pokemon/77-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 78,
+    "normal": "/game/pokemon/78.webp",
+    "shiny": "/game/pokemon/78-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 79,
+    "normal": "/game/pokemon/79.webp",
+    "shiny": "/game/pokemon/79-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 80,
+    "normal": "/game/pokemon/80.webp",
+    "shiny": "/game/pokemon/80-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 81,
+    "normal": "/game/pokemon/81.webp",
+    "shiny": "/game/pokemon/81-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 82,
+    "normal": "/game/pokemon/82.webp",
+    "shiny": "/game/pokemon/82-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 83,
+    "normal": "/game/pokemon/83.webp",
+    "shiny": "/game/pokemon/83-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 84,
+    "normal": "/game/pokemon/84.webp",
+    "shiny": "/game/pokemon/84-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 85,
+    "normal": "/game/pokemon/85.webp",
+    "shiny": "/game/pokemon/85-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 86,
+    "normal": "/game/pokemon/86.webp",
+    "shiny": "/game/pokemon/86-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 87,
+    "normal": "/game/pokemon/87.webp",
+    "shiny": "/game/pokemon/87-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 88,
+    "normal": "/game/pokemon/88.webp",
+    "shiny": "/game/pokemon/88-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 89,
+    "normal": "/game/pokemon/89.webp",
+    "shiny": "/game/pokemon/89-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 90,
+    "normal": "/game/pokemon/90.webp",
+    "shiny": "/game/pokemon/90-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 91,
+    "normal": "/game/pokemon/91.webp",
+    "shiny": "/game/pokemon/91-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 92,
+    "normal": "/game/pokemon/92.webp",
+    "shiny": "/game/pokemon/92-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 93,
+    "normal": "/game/pokemon/93.webp",
+    "shiny": "/game/pokemon/93-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 94,
+    "normal": "/game/pokemon/94.webp",
+    "shiny": "/game/pokemon/94-shiny.webp",
+    "animations": [
+      {
+        "name": "Idle",
+        "shiny": false,
+        "src": "/game/animations/94/idle-normal.webp",
+        "still": "/game/animations/94/idle-normal-still.webp",
+        "frames": 8,
+        "durationMs": 1051
+      },
+      {
+        "name": "Walk",
+        "shiny": false,
+        "src": "/game/animations/94/walk-normal.webp",
+        "still": "/game/animations/94/walk-normal-still.webp",
+        "frames": 4,
+        "durationMs": 600
+      },
+      {
+        "name": "Attack",
+        "shiny": false,
+        "src": "/game/animations/94/attack-normal.webp",
+        "still": "/game/animations/94/attack-normal-still.webp",
+        "frames": 11,
+        "durationMs": 417
+      },
+      {
+        "name": "Shoot",
+        "shiny": false,
+        "src": "/game/animations/94/shoot-normal.webp",
+        "still": "/game/animations/94/shoot-normal-still.webp",
+        "frames": 12,
+        "durationMs": 532
+      },
+      {
+        "name": "Charge",
+        "shiny": false,
+        "src": "/game/animations/94/charge-normal.webp",
+        "still": "/game/animations/94/charge-normal-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": false,
+        "src": "/game/animations/94/hurt-normal.webp",
+        "still": "/game/animations/94/hurt-normal-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": false,
+        "src": "/game/animations/94/faint-normal.webp",
+        "still": "/game/animations/94/faint-normal-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      },
+      {
+        "name": "Idle",
+        "shiny": true,
+        "src": "/game/animations/94/idle-shiny.webp",
+        "still": "/game/animations/94/idle-shiny-still.webp",
+        "frames": 8,
+        "durationMs": 1051
+      },
+      {
+        "name": "Walk",
+        "shiny": true,
+        "src": "/game/animations/94/walk-shiny.webp",
+        "still": "/game/animations/94/walk-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 600
+      },
+      {
+        "name": "Attack",
+        "shiny": true,
+        "src": "/game/animations/94/attack-shiny.webp",
+        "still": "/game/animations/94/attack-shiny-still.webp",
+        "frames": 11,
+        "durationMs": 417
+      },
+      {
+        "name": "Shoot",
+        "shiny": true,
+        "src": "/game/animations/94/shoot-shiny.webp",
+        "still": "/game/animations/94/shoot-shiny-still.webp",
+        "frames": 12,
+        "durationMs": 532
+      },
+      {
+        "name": "Charge",
+        "shiny": true,
+        "src": "/game/animations/94/charge-shiny.webp",
+        "still": "/game/animations/94/charge-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": true,
+        "src": "/game/animations/94/hurt-shiny.webp",
+        "still": "/game/animations/94/hurt-shiny-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": true,
+        "src": "/game/animations/94/faint-shiny.webp",
+        "still": "/game/animations/94/faint-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "normal": "/game/pokemon/95.webp",
+    "shiny": "/game/pokemon/95-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 96,
+    "normal": "/game/pokemon/96.webp",
+    "shiny": "/game/pokemon/96-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 97,
+    "normal": "/game/pokemon/97.webp",
+    "shiny": "/game/pokemon/97-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 98,
+    "normal": "/game/pokemon/98.webp",
+    "shiny": "/game/pokemon/98-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 99,
+    "normal": "/game/pokemon/99.webp",
+    "shiny": "/game/pokemon/99-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 100,
+    "normal": "/game/pokemon/100.webp",
+    "shiny": "/game/pokemon/100-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 101,
+    "normal": "/game/pokemon/101.webp",
+    "shiny": "/game/pokemon/101-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 102,
+    "normal": "/game/pokemon/102.webp",
+    "shiny": "/game/pokemon/102-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 103,
+    "normal": "/game/pokemon/103.webp",
+    "shiny": "/game/pokemon/103-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 104,
+    "normal": "/game/pokemon/104.webp",
+    "shiny": "/game/pokemon/104-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 105,
+    "normal": "/game/pokemon/105.webp",
+    "shiny": "/game/pokemon/105-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 106,
+    "normal": "/game/pokemon/106.webp",
+    "shiny": "/game/pokemon/106-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 107,
+    "normal": "/game/pokemon/107.webp",
+    "shiny": "/game/pokemon/107-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 108,
+    "normal": "/game/pokemon/108.webp",
+    "shiny": "/game/pokemon/108-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 109,
+    "normal": "/game/pokemon/109.webp",
+    "shiny": "/game/pokemon/109-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 110,
+    "normal": "/game/pokemon/110.webp",
+    "shiny": "/game/pokemon/110-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 111,
+    "normal": "/game/pokemon/111.webp",
+    "shiny": "/game/pokemon/111-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 112,
+    "normal": "/game/pokemon/112.webp",
+    "shiny": "/game/pokemon/112-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 113,
+    "normal": "/game/pokemon/113.webp",
+    "shiny": "/game/pokemon/113-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 114,
+    "normal": "/game/pokemon/114.webp",
+    "shiny": "/game/pokemon/114-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 115,
+    "normal": "/game/pokemon/115.webp",
+    "shiny": "/game/pokemon/115-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 116,
+    "normal": "/game/pokemon/116.webp",
+    "shiny": "/game/pokemon/116-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 117,
+    "normal": "/game/pokemon/117.webp",
+    "shiny": "/game/pokemon/117-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 118,
+    "normal": "/game/pokemon/118.webp",
+    "shiny": "/game/pokemon/118-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 119,
+    "normal": "/game/pokemon/119.webp",
+    "shiny": "/game/pokemon/119-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 120,
+    "normal": "/game/pokemon/120.webp",
+    "shiny": "/game/pokemon/120-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 121,
+    "normal": "/game/pokemon/121.webp",
+    "shiny": "/game/pokemon/121-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 122,
+    "normal": "/game/pokemon/122.webp",
+    "shiny": "/game/pokemon/122-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 123,
+    "normal": "/game/pokemon/123.webp",
+    "shiny": "/game/pokemon/123-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 124,
+    "normal": "/game/pokemon/124.webp",
+    "shiny": "/game/pokemon/124-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 125,
+    "normal": "/game/pokemon/125.webp",
+    "shiny": "/game/pokemon/125-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 126,
+    "normal": "/game/pokemon/126.webp",
+    "shiny": "/game/pokemon/126-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 127,
+    "normal": "/game/pokemon/127.webp",
+    "shiny": "/game/pokemon/127-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 128,
+    "normal": "/game/pokemon/128.webp",
+    "shiny": "/game/pokemon/128-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 129,
+    "normal": "/game/pokemon/129.webp",
+    "shiny": "/game/pokemon/129-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 130,
+    "normal": "/game/pokemon/130.webp",
+    "shiny": "/game/pokemon/130-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 131,
+    "normal": "/game/pokemon/131.webp",
+    "shiny": "/game/pokemon/131-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 132,
+    "normal": "/game/pokemon/132.webp",
+    "shiny": "/game/pokemon/132-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 133,
+    "normal": "/game/pokemon/133.webp",
+    "shiny": "/game/pokemon/133-shiny.webp",
+    "animations": [
+      {
+        "name": "Idle",
+        "shiny": false,
+        "src": "/game/animations/133/idle-normal.webp",
+        "still": "/game/animations/133/idle-normal-still.webp",
+        "frames": 2,
+        "durationMs": 534
+      },
+      {
+        "name": "Walk",
+        "shiny": false,
+        "src": "/game/animations/133/walk-normal.webp",
+        "still": "/game/animations/133/walk-normal-still.webp",
+        "frames": 7,
+        "durationMs": 434
+      },
+      {
+        "name": "Attack",
+        "shiny": false,
+        "src": "/game/animations/133/attack-normal.webp",
+        "still": "/game/animations/133/attack-normal-still.webp",
+        "frames": 11,
+        "durationMs": 499
+      },
+      {
+        "name": "Shoot",
+        "shiny": false,
+        "src": "/game/animations/133/shoot-normal.webp",
+        "still": "/game/animations/133/shoot-normal-still.webp",
+        "frames": 8,
+        "durationMs": 535
+      },
+      {
+        "name": "Charge",
+        "shiny": false,
+        "src": "/game/animations/133/charge-normal.webp",
+        "still": "/game/animations/133/charge-normal-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": false,
+        "src": "/game/animations/133/hurt-normal.webp",
+        "still": "/game/animations/133/hurt-normal-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": false,
+        "src": "/game/animations/133/faint-normal.webp",
+        "still": "/game/animations/133/faint-normal-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      },
+      {
+        "name": "Idle",
+        "shiny": true,
+        "src": "/game/animations/133/idle-shiny.webp",
+        "still": "/game/animations/133/idle-shiny-still.webp",
+        "frames": 2,
+        "durationMs": 534
+      },
+      {
+        "name": "Walk",
+        "shiny": true,
+        "src": "/game/animations/133/walk-shiny.webp",
+        "still": "/game/animations/133/walk-shiny-still.webp",
+        "frames": 7,
+        "durationMs": 434
+      },
+      {
+        "name": "Attack",
+        "shiny": true,
+        "src": "/game/animations/133/attack-shiny.webp",
+        "still": "/game/animations/133/attack-shiny-still.webp",
+        "frames": 11,
+        "durationMs": 499
+      },
+      {
+        "name": "Shoot",
+        "shiny": true,
+        "src": "/game/animations/133/shoot-shiny.webp",
+        "still": "/game/animations/133/shoot-shiny-still.webp",
+        "frames": 8,
+        "durationMs": 535
+      },
+      {
+        "name": "Charge",
+        "shiny": true,
+        "src": "/game/animations/133/charge-shiny.webp",
+        "still": "/game/animations/133/charge-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": true,
+        "src": "/game/animations/133/hurt-shiny.webp",
+        "still": "/game/animations/133/hurt-shiny-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": true,
+        "src": "/game/animations/133/faint-shiny.webp",
+        "still": "/game/animations/133/faint-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "normal": "/game/pokemon/134.webp",
+    "shiny": "/game/pokemon/134-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 135,
+    "normal": "/game/pokemon/135.webp",
+    "shiny": "/game/pokemon/135-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 136,
+    "normal": "/game/pokemon/136.webp",
+    "shiny": "/game/pokemon/136-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 137,
+    "normal": "/game/pokemon/137.webp",
+    "shiny": "/game/pokemon/137-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 138,
+    "normal": "/game/pokemon/138.webp",
+    "shiny": "/game/pokemon/138-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 139,
+    "normal": "/game/pokemon/139.webp",
+    "shiny": "/game/pokemon/139-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 140,
+    "normal": "/game/pokemon/140.webp",
+    "shiny": "/game/pokemon/140-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 141,
+    "normal": "/game/pokemon/141.webp",
+    "shiny": "/game/pokemon/141-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 142,
+    "normal": "/game/pokemon/142.webp",
+    "shiny": "/game/pokemon/142-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 143,
+    "normal": "/game/pokemon/143.webp",
+    "shiny": "/game/pokemon/143-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 144,
+    "normal": "/game/pokemon/144.webp",
+    "shiny": "/game/pokemon/144-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 145,
+    "normal": "/game/pokemon/145.webp",
+    "shiny": "/game/pokemon/145-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 146,
+    "normal": "/game/pokemon/146.webp",
+    "shiny": "/game/pokemon/146-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 147,
+    "normal": "/game/pokemon/147.webp",
+    "shiny": "/game/pokemon/147-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 148,
+    "normal": "/game/pokemon/148.webp",
+    "shiny": "/game/pokemon/148-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 149,
+    "normal": "/game/pokemon/149.webp",
+    "shiny": "/game/pokemon/149-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 150,
+    "normal": "/game/pokemon/150.webp",
+    "shiny": "/game/pokemon/150-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 151,
+    "normal": "/game/pokemon/151.webp",
+    "shiny": "/game/pokemon/151-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 152,
+    "normal": "/game/pokemon/152.webp",
+    "shiny": "/game/pokemon/152-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 153,
+    "normal": "/game/pokemon/153.webp",
+    "shiny": "/game/pokemon/153-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 154,
+    "normal": "/game/pokemon/154.webp",
+    "shiny": "/game/pokemon/154-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 155,
+    "normal": "/game/pokemon/155.webp",
+    "shiny": "/game/pokemon/155-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 156,
+    "normal": "/game/pokemon/156.webp",
+    "shiny": "/game/pokemon/156-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 157,
+    "normal": "/game/pokemon/157.webp",
+    "shiny": "/game/pokemon/157-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 158,
+    "normal": "/game/pokemon/158.webp",
+    "shiny": "/game/pokemon/158-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 159,
+    "normal": "/game/pokemon/159.webp",
+    "shiny": "/game/pokemon/159-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 160,
+    "normal": "/game/pokemon/160.webp",
+    "shiny": "/game/pokemon/160-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 161,
+    "normal": "/game/pokemon/161.webp",
+    "shiny": "/game/pokemon/161-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 162,
+    "normal": "/game/pokemon/162.webp",
+    "shiny": "/game/pokemon/162-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 163,
+    "normal": "/game/pokemon/163.webp",
+    "shiny": "/game/pokemon/163-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 164,
+    "normal": "/game/pokemon/164.webp",
+    "shiny": "/game/pokemon/164-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 165,
+    "normal": "/game/pokemon/165.webp",
+    "shiny": "/game/pokemon/165-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 166,
+    "normal": "/game/pokemon/166.webp",
+    "shiny": "/game/pokemon/166-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 167,
+    "normal": "/game/pokemon/167.webp",
+    "shiny": "/game/pokemon/167-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 168,
+    "normal": "/game/pokemon/168.webp",
+    "shiny": "/game/pokemon/168-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 169,
+    "normal": "/game/pokemon/169.webp",
+    "shiny": "/game/pokemon/169-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 170,
+    "normal": "/game/pokemon/170.webp",
+    "shiny": "/game/pokemon/170-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 171,
+    "normal": "/game/pokemon/171.webp",
+    "shiny": "/game/pokemon/171-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 172,
+    "normal": "/game/pokemon/172.webp",
+    "shiny": "/game/pokemon/172-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 173,
+    "normal": "/game/pokemon/173.webp",
+    "shiny": "/game/pokemon/173-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 174,
+    "normal": "/game/pokemon/174.webp",
+    "shiny": "/game/pokemon/174-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 175,
+    "normal": "/game/pokemon/175.webp",
+    "shiny": "/game/pokemon/175-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 176,
+    "normal": "/game/pokemon/176.webp",
+    "shiny": "/game/pokemon/176-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 177,
+    "normal": "/game/pokemon/177.webp",
+    "shiny": "/game/pokemon/177-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 178,
+    "normal": "/game/pokemon/178.webp",
+    "shiny": "/game/pokemon/178-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 179,
+    "normal": "/game/pokemon/179.webp",
+    "shiny": "/game/pokemon/179-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 180,
+    "normal": "/game/pokemon/180.webp",
+    "shiny": "/game/pokemon/180-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 181,
+    "normal": "/game/pokemon/181.webp",
+    "shiny": "/game/pokemon/181-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 182,
+    "normal": "/game/pokemon/182.webp",
+    "shiny": "/game/pokemon/182-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 183,
+    "normal": "/game/pokemon/183.webp",
+    "shiny": "/game/pokemon/183-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 184,
+    "normal": "/game/pokemon/184.webp",
+    "shiny": "/game/pokemon/184-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 185,
+    "normal": "/game/pokemon/185.webp",
+    "shiny": "/game/pokemon/185-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 186,
+    "normal": "/game/pokemon/186.webp",
+    "shiny": "/game/pokemon/186-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 187,
+    "normal": "/game/pokemon/187.webp",
+    "shiny": "/game/pokemon/187-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 188,
+    "normal": "/game/pokemon/188.webp",
+    "shiny": "/game/pokemon/188-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 189,
+    "normal": "/game/pokemon/189.webp",
+    "shiny": "/game/pokemon/189-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 190,
+    "normal": "/game/pokemon/190.webp",
+    "shiny": "/game/pokemon/190-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 191,
+    "normal": "/game/pokemon/191.webp",
+    "shiny": "/game/pokemon/191-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 192,
+    "normal": "/game/pokemon/192.webp",
+    "shiny": "/game/pokemon/192-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 193,
+    "normal": "/game/pokemon/193.webp",
+    "shiny": "/game/pokemon/193-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 194,
+    "normal": "/game/pokemon/194.webp",
+    "shiny": "/game/pokemon/194-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 195,
+    "normal": "/game/pokemon/195.webp",
+    "shiny": "/game/pokemon/195-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 196,
+    "normal": "/game/pokemon/196.webp",
+    "shiny": "/game/pokemon/196-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 197,
+    "normal": "/game/pokemon/197.webp",
+    "shiny": "/game/pokemon/197-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 198,
+    "normal": "/game/pokemon/198.webp",
+    "shiny": "/game/pokemon/198-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 199,
+    "normal": "/game/pokemon/199.webp",
+    "shiny": "/game/pokemon/199-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 200,
+    "normal": "/game/pokemon/200.webp",
+    "shiny": "/game/pokemon/200-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 201,
+    "normal": "/game/pokemon/201.webp",
+    "shiny": "/game/pokemon/201-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 202,
+    "normal": "/game/pokemon/202.webp",
+    "shiny": "/game/pokemon/202-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 203,
+    "normal": "/game/pokemon/203.webp",
+    "shiny": "/game/pokemon/203-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 204,
+    "normal": "/game/pokemon/204.webp",
+    "shiny": "/game/pokemon/204-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 205,
+    "normal": "/game/pokemon/205.webp",
+    "shiny": "/game/pokemon/205-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 206,
+    "normal": "/game/pokemon/206.webp",
+    "shiny": "/game/pokemon/206-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 207,
+    "normal": "/game/pokemon/207.webp",
+    "shiny": "/game/pokemon/207-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 208,
+    "normal": "/game/pokemon/208.webp",
+    "shiny": "/game/pokemon/208-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 209,
+    "normal": "/game/pokemon/209.webp",
+    "shiny": "/game/pokemon/209-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 210,
+    "normal": "/game/pokemon/210.webp",
+    "shiny": "/game/pokemon/210-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 211,
+    "normal": "/game/pokemon/211.webp",
+    "shiny": "/game/pokemon/211-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 212,
+    "normal": "/game/pokemon/212.webp",
+    "shiny": "/game/pokemon/212-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 213,
+    "normal": "/game/pokemon/213.webp",
+    "shiny": "/game/pokemon/213-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 214,
+    "normal": "/game/pokemon/214.webp",
+    "shiny": "/game/pokemon/214-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 215,
+    "normal": "/game/pokemon/215.webp",
+    "shiny": "/game/pokemon/215-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 216,
+    "normal": "/game/pokemon/216.webp",
+    "shiny": "/game/pokemon/216-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 217,
+    "normal": "/game/pokemon/217.webp",
+    "shiny": "/game/pokemon/217-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 218,
+    "normal": "/game/pokemon/218.webp",
+    "shiny": "/game/pokemon/218-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 219,
+    "normal": "/game/pokemon/219.webp",
+    "shiny": "/game/pokemon/219-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 220,
+    "normal": "/game/pokemon/220.webp",
+    "shiny": "/game/pokemon/220-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 221,
+    "normal": "/game/pokemon/221.webp",
+    "shiny": "/game/pokemon/221-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 222,
+    "normal": "/game/pokemon/222.webp",
+    "shiny": "/game/pokemon/222-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 223,
+    "normal": "/game/pokemon/223.webp",
+    "shiny": "/game/pokemon/223-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 224,
+    "normal": "/game/pokemon/224.webp",
+    "shiny": "/game/pokemon/224-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 225,
+    "normal": "/game/pokemon/225.webp",
+    "shiny": "/game/pokemon/225-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 226,
+    "normal": "/game/pokemon/226.webp",
+    "shiny": "/game/pokemon/226-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 227,
+    "normal": "/game/pokemon/227.webp",
+    "shiny": "/game/pokemon/227-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 228,
+    "normal": "/game/pokemon/228.webp",
+    "shiny": "/game/pokemon/228-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 229,
+    "normal": "/game/pokemon/229.webp",
+    "shiny": "/game/pokemon/229-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 230,
+    "normal": "/game/pokemon/230.webp",
+    "shiny": "/game/pokemon/230-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 231,
+    "normal": "/game/pokemon/231.webp",
+    "shiny": "/game/pokemon/231-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 232,
+    "normal": "/game/pokemon/232.webp",
+    "shiny": "/game/pokemon/232-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 233,
+    "normal": "/game/pokemon/233.webp",
+    "shiny": "/game/pokemon/233-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 234,
+    "normal": "/game/pokemon/234.webp",
+    "shiny": "/game/pokemon/234-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 235,
+    "normal": "/game/pokemon/235.webp",
+    "shiny": "/game/pokemon/235-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 236,
+    "normal": "/game/pokemon/236.webp",
+    "shiny": "/game/pokemon/236-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 237,
+    "normal": "/game/pokemon/237.webp",
+    "shiny": "/game/pokemon/237-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 238,
+    "normal": "/game/pokemon/238.webp",
+    "shiny": "/game/pokemon/238-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 239,
+    "normal": "/game/pokemon/239.webp",
+    "shiny": "/game/pokemon/239-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 240,
+    "normal": "/game/pokemon/240.webp",
+    "shiny": "/game/pokemon/240-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 241,
+    "normal": "/game/pokemon/241.webp",
+    "shiny": "/game/pokemon/241-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 242,
+    "normal": "/game/pokemon/242.webp",
+    "shiny": "/game/pokemon/242-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 243,
+    "normal": "/game/pokemon/243.webp",
+    "shiny": "/game/pokemon/243-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 244,
+    "normal": "/game/pokemon/244.webp",
+    "shiny": "/game/pokemon/244-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 245,
+    "normal": "/game/pokemon/245.webp",
+    "shiny": "/game/pokemon/245-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 246,
+    "normal": "/game/pokemon/246.webp",
+    "shiny": "/game/pokemon/246-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 247,
+    "normal": "/game/pokemon/247.webp",
+    "shiny": "/game/pokemon/247-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 248,
+    "normal": "/game/pokemon/248.webp",
+    "shiny": "/game/pokemon/248-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 249,
+    "normal": "/game/pokemon/249.webp",
+    "shiny": "/game/pokemon/249-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 250,
+    "normal": "/game/pokemon/250.webp",
+    "shiny": "/game/pokemon/250-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 251,
+    "normal": "/game/pokemon/251.webp",
+    "shiny": "/game/pokemon/251-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 252,
+    "normal": "/game/pokemon/252.webp",
+    "shiny": "/game/pokemon/252-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 253,
+    "normal": "/game/pokemon/253.webp",
+    "shiny": "/game/pokemon/253-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 254,
+    "normal": "/game/pokemon/254.webp",
+    "shiny": "/game/pokemon/254-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 255,
+    "normal": "/game/pokemon/255.webp",
+    "shiny": "/game/pokemon/255-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 256,
+    "normal": "/game/pokemon/256.webp",
+    "shiny": "/game/pokemon/256-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 257,
+    "normal": "/game/pokemon/257.webp",
+    "shiny": "/game/pokemon/257-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 258,
+    "normal": "/game/pokemon/258.webp",
+    "shiny": "/game/pokemon/258-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 259,
+    "normal": "/game/pokemon/259.webp",
+    "shiny": "/game/pokemon/259-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 260,
+    "normal": "/game/pokemon/260.webp",
+    "shiny": "/game/pokemon/260-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 261,
+    "normal": "/game/pokemon/261.webp",
+    "shiny": "/game/pokemon/261-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 262,
+    "normal": "/game/pokemon/262.webp",
+    "shiny": "/game/pokemon/262-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 263,
+    "normal": "/game/pokemon/263.webp",
+    "shiny": "/game/pokemon/263-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 264,
+    "normal": "/game/pokemon/264.webp",
+    "shiny": "/game/pokemon/264-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 265,
+    "normal": "/game/pokemon/265.webp",
+    "shiny": "/game/pokemon/265-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 266,
+    "normal": "/game/pokemon/266.webp",
+    "shiny": "/game/pokemon/266-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 267,
+    "normal": "/game/pokemon/267.webp",
+    "shiny": "/game/pokemon/267-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 268,
+    "normal": "/game/pokemon/268.webp",
+    "shiny": "/game/pokemon/268-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 269,
+    "normal": "/game/pokemon/269.webp",
+    "shiny": "/game/pokemon/269-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 270,
+    "normal": "/game/pokemon/270.webp",
+    "shiny": "/game/pokemon/270-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 271,
+    "normal": "/game/pokemon/271.webp",
+    "shiny": "/game/pokemon/271-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 272,
+    "normal": "/game/pokemon/272.webp",
+    "shiny": "/game/pokemon/272-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 273,
+    "normal": "/game/pokemon/273.webp",
+    "shiny": "/game/pokemon/273-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 274,
+    "normal": "/game/pokemon/274.webp",
+    "shiny": "/game/pokemon/274-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 275,
+    "normal": "/game/pokemon/275.webp",
+    "shiny": "/game/pokemon/275-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 276,
+    "normal": "/game/pokemon/276.webp",
+    "shiny": "/game/pokemon/276-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 277,
+    "normal": "/game/pokemon/277.webp",
+    "shiny": "/game/pokemon/277-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 278,
+    "normal": "/game/pokemon/278.webp",
+    "shiny": "/game/pokemon/278-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 279,
+    "normal": "/game/pokemon/279.webp",
+    "shiny": "/game/pokemon/279-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 280,
+    "normal": "/game/pokemon/280.webp",
+    "shiny": "/game/pokemon/280-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 281,
+    "normal": "/game/pokemon/281.webp",
+    "shiny": "/game/pokemon/281-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 282,
+    "normal": "/game/pokemon/282.webp",
+    "shiny": "/game/pokemon/282-shiny.webp",
+    "animations": [
+      {
+        "name": "Idle",
+        "shiny": false,
+        "src": "/game/animations/282/idle-normal.webp",
+        "still": "/game/animations/282/idle-normal-still.webp",
+        "frames": 4,
+        "durationMs": 600
+      },
+      {
+        "name": "Walk",
+        "shiny": false,
+        "src": "/game/animations/282/walk-normal.webp",
+        "still": "/game/animations/282/walk-normal-still.webp",
+        "frames": 4,
+        "durationMs": 666
+      },
+      {
+        "name": "Attack",
+        "shiny": false,
+        "src": "/game/animations/282/attack-normal.webp",
+        "still": "/game/animations/282/attack-normal-still.webp",
+        "frames": 10,
+        "durationMs": 316
+      },
+      {
+        "name": "Shoot",
+        "shiny": false,
+        "src": "/game/animations/282/shoot-normal.webp",
+        "still": "/game/animations/282/shoot-normal-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Charge",
+        "shiny": false,
+        "src": "/game/animations/282/charge-normal.webp",
+        "still": "/game/animations/282/charge-normal-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": false,
+        "src": "/game/animations/282/hurt-normal.webp",
+        "still": "/game/animations/282/hurt-normal-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": false,
+        "src": "/game/animations/282/faint-normal.webp",
+        "still": "/game/animations/282/faint-normal-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Idle",
+        "shiny": true,
+        "src": "/game/animations/282/idle-shiny.webp",
+        "still": "/game/animations/282/idle-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 600
+      },
+      {
+        "name": "Walk",
+        "shiny": true,
+        "src": "/game/animations/282/walk-shiny.webp",
+        "still": "/game/animations/282/walk-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 666
+      },
+      {
+        "name": "Attack",
+        "shiny": true,
+        "src": "/game/animations/282/attack-shiny.webp",
+        "still": "/game/animations/282/attack-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 316
+      },
+      {
+        "name": "Shoot",
+        "shiny": true,
+        "src": "/game/animations/282/shoot-shiny.webp",
+        "still": "/game/animations/282/shoot-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Charge",
+        "shiny": true,
+        "src": "/game/animations/282/charge-shiny.webp",
+        "still": "/game/animations/282/charge-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": true,
+        "src": "/game/animations/282/hurt-shiny.webp",
+        "still": "/game/animations/282/hurt-shiny-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": true,
+        "src": "/game/animations/282/faint-shiny.webp",
+        "still": "/game/animations/282/faint-shiny-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "normal": "/game/pokemon/283.webp",
+    "shiny": "/game/pokemon/283-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 284,
+    "normal": "/game/pokemon/284.webp",
+    "shiny": "/game/pokemon/284-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 285,
+    "normal": "/game/pokemon/285.webp",
+    "shiny": "/game/pokemon/285-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 286,
+    "normal": "/game/pokemon/286.webp",
+    "shiny": "/game/pokemon/286-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 287,
+    "normal": "/game/pokemon/287.webp",
+    "shiny": "/game/pokemon/287-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 288,
+    "normal": "/game/pokemon/288.webp",
+    "shiny": "/game/pokemon/288-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 289,
+    "normal": "/game/pokemon/289.webp",
+    "shiny": "/game/pokemon/289-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 290,
+    "normal": "/game/pokemon/290.webp",
+    "shiny": "/game/pokemon/290-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 291,
+    "normal": "/game/pokemon/291.webp",
+    "shiny": "/game/pokemon/291-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 292,
+    "normal": "/game/pokemon/292.webp",
+    "shiny": "/game/pokemon/292-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 293,
+    "normal": "/game/pokemon/293.webp",
+    "shiny": "/game/pokemon/293-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 294,
+    "normal": "/game/pokemon/294.webp",
+    "shiny": "/game/pokemon/294-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 295,
+    "normal": "/game/pokemon/295.webp",
+    "shiny": "/game/pokemon/295-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 296,
+    "normal": "/game/pokemon/296.webp",
+    "shiny": "/game/pokemon/296-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 297,
+    "normal": "/game/pokemon/297.webp",
+    "shiny": "/game/pokemon/297-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 298,
+    "normal": "/game/pokemon/298.webp",
+    "shiny": "/game/pokemon/298-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 299,
+    "normal": "/game/pokemon/299.webp",
+    "shiny": "/game/pokemon/299-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 300,
+    "normal": "/game/pokemon/300.webp",
+    "shiny": "/game/pokemon/300-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 301,
+    "normal": "/game/pokemon/301.webp",
+    "shiny": "/game/pokemon/301-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 302,
+    "normal": "/game/pokemon/302.webp",
+    "shiny": "/game/pokemon/302-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 303,
+    "normal": "/game/pokemon/303.webp",
+    "shiny": "/game/pokemon/303-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 304,
+    "normal": "/game/pokemon/304.webp",
+    "shiny": "/game/pokemon/304-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 305,
+    "normal": "/game/pokemon/305.webp",
+    "shiny": "/game/pokemon/305-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 306,
+    "normal": "/game/pokemon/306.webp",
+    "shiny": "/game/pokemon/306-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 307,
+    "normal": "/game/pokemon/307.webp",
+    "shiny": "/game/pokemon/307-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 308,
+    "normal": "/game/pokemon/308.webp",
+    "shiny": "/game/pokemon/308-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 309,
+    "normal": "/game/pokemon/309.webp",
+    "shiny": "/game/pokemon/309-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 310,
+    "normal": "/game/pokemon/310.webp",
+    "shiny": "/game/pokemon/310-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 311,
+    "normal": "/game/pokemon/311.webp",
+    "shiny": "/game/pokemon/311-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 312,
+    "normal": "/game/pokemon/312.webp",
+    "shiny": "/game/pokemon/312-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 313,
+    "normal": "/game/pokemon/313.webp",
+    "shiny": "/game/pokemon/313-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 314,
+    "normal": "/game/pokemon/314.webp",
+    "shiny": "/game/pokemon/314-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 315,
+    "normal": "/game/pokemon/315.webp",
+    "shiny": "/game/pokemon/315-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 316,
+    "normal": "/game/pokemon/316.webp",
+    "shiny": "/game/pokemon/316-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 317,
+    "normal": "/game/pokemon/317.webp",
+    "shiny": "/game/pokemon/317-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 318,
+    "normal": "/game/pokemon/318.webp",
+    "shiny": "/game/pokemon/318-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 319,
+    "normal": "/game/pokemon/319.webp",
+    "shiny": "/game/pokemon/319-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 320,
+    "normal": "/game/pokemon/320.webp",
+    "shiny": "/game/pokemon/320-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 321,
+    "normal": "/game/pokemon/321.webp",
+    "shiny": "/game/pokemon/321-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 322,
+    "normal": "/game/pokemon/322.webp",
+    "shiny": "/game/pokemon/322-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 323,
+    "normal": "/game/pokemon/323.webp",
+    "shiny": "/game/pokemon/323-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 324,
+    "normal": "/game/pokemon/324.webp",
+    "shiny": "/game/pokemon/324-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 325,
+    "normal": "/game/pokemon/325.webp",
+    "shiny": "/game/pokemon/325-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 326,
+    "normal": "/game/pokemon/326.webp",
+    "shiny": "/game/pokemon/326-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 327,
+    "normal": "/game/pokemon/327.webp",
+    "shiny": "/game/pokemon/327-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 328,
+    "normal": "/game/pokemon/328.webp",
+    "shiny": "/game/pokemon/328-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 329,
+    "normal": "/game/pokemon/329.webp",
+    "shiny": "/game/pokemon/329-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 330,
+    "normal": "/game/pokemon/330.webp",
+    "shiny": "/game/pokemon/330-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 331,
+    "normal": "/game/pokemon/331.webp",
+    "shiny": "/game/pokemon/331-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 332,
+    "normal": "/game/pokemon/332.webp",
+    "shiny": "/game/pokemon/332-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 333,
+    "normal": "/game/pokemon/333.webp",
+    "shiny": "/game/pokemon/333-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 334,
+    "normal": "/game/pokemon/334.webp",
+    "shiny": "/game/pokemon/334-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 335,
+    "normal": "/game/pokemon/335.webp",
+    "shiny": "/game/pokemon/335-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 336,
+    "normal": "/game/pokemon/336.webp",
+    "shiny": "/game/pokemon/336-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 337,
+    "normal": "/game/pokemon/337.webp",
+    "shiny": "/game/pokemon/337-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 338,
+    "normal": "/game/pokemon/338.webp",
+    "shiny": "/game/pokemon/338-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 339,
+    "normal": "/game/pokemon/339.webp",
+    "shiny": "/game/pokemon/339-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 340,
+    "normal": "/game/pokemon/340.webp",
+    "shiny": "/game/pokemon/340-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 341,
+    "normal": "/game/pokemon/341.webp",
+    "shiny": "/game/pokemon/341-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 342,
+    "normal": "/game/pokemon/342.webp",
+    "shiny": "/game/pokemon/342-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 343,
+    "normal": "/game/pokemon/343.webp",
+    "shiny": "/game/pokemon/343-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 344,
+    "normal": "/game/pokemon/344.webp",
+    "shiny": "/game/pokemon/344-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 345,
+    "normal": "/game/pokemon/345.webp",
+    "shiny": "/game/pokemon/345-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 346,
+    "normal": "/game/pokemon/346.webp",
+    "shiny": "/game/pokemon/346-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 347,
+    "normal": "/game/pokemon/347.webp",
+    "shiny": "/game/pokemon/347-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 348,
+    "normal": "/game/pokemon/348.webp",
+    "shiny": "/game/pokemon/348-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 349,
+    "normal": "/game/pokemon/349.webp",
+    "shiny": "/game/pokemon/349-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 350,
+    "normal": "/game/pokemon/350.webp",
+    "shiny": "/game/pokemon/350-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 351,
+    "normal": "/game/pokemon/351.webp",
+    "shiny": "/game/pokemon/351-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 352,
+    "normal": "/game/pokemon/352.webp",
+    "shiny": "/game/pokemon/352-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 353,
+    "normal": "/game/pokemon/353.webp",
+    "shiny": "/game/pokemon/353-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 354,
+    "normal": "/game/pokemon/354.webp",
+    "shiny": "/game/pokemon/354-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 355,
+    "normal": "/game/pokemon/355.webp",
+    "shiny": "/game/pokemon/355-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 356,
+    "normal": "/game/pokemon/356.webp",
+    "shiny": "/game/pokemon/356-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 357,
+    "normal": "/game/pokemon/357.webp",
+    "shiny": "/game/pokemon/357-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 358,
+    "normal": "/game/pokemon/358.webp",
+    "shiny": "/game/pokemon/358-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 359,
+    "normal": "/game/pokemon/359.webp",
+    "shiny": "/game/pokemon/359-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 360,
+    "normal": "/game/pokemon/360.webp",
+    "shiny": "/game/pokemon/360-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 361,
+    "normal": "/game/pokemon/361.webp",
+    "shiny": "/game/pokemon/361-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 362,
+    "normal": "/game/pokemon/362.webp",
+    "shiny": "/game/pokemon/362-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 363,
+    "normal": "/game/pokemon/363.webp",
+    "shiny": "/game/pokemon/363-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 364,
+    "normal": "/game/pokemon/364.webp",
+    "shiny": "/game/pokemon/364-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 365,
+    "normal": "/game/pokemon/365.webp",
+    "shiny": "/game/pokemon/365-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 366,
+    "normal": "/game/pokemon/366.webp",
+    "shiny": "/game/pokemon/366-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 367,
+    "normal": "/game/pokemon/367.webp",
+    "shiny": "/game/pokemon/367-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 368,
+    "normal": "/game/pokemon/368.webp",
+    "shiny": "/game/pokemon/368-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 369,
+    "normal": "/game/pokemon/369.webp",
+    "shiny": "/game/pokemon/369-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 370,
+    "normal": "/game/pokemon/370.webp",
+    "shiny": "/game/pokemon/370-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 371,
+    "normal": "/game/pokemon/371.webp",
+    "shiny": "/game/pokemon/371-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 372,
+    "normal": "/game/pokemon/372.webp",
+    "shiny": "/game/pokemon/372-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 373,
+    "normal": "/game/pokemon/373.webp",
+    "shiny": "/game/pokemon/373-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 374,
+    "normal": "/game/pokemon/374.webp",
+    "shiny": "/game/pokemon/374-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 375,
+    "normal": "/game/pokemon/375.webp",
+    "shiny": "/game/pokemon/375-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 376,
+    "normal": "/game/pokemon/376.webp",
+    "shiny": "/game/pokemon/376-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 377,
+    "normal": "/game/pokemon/377.webp",
+    "shiny": "/game/pokemon/377-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 378,
+    "normal": "/game/pokemon/378.webp",
+    "shiny": "/game/pokemon/378-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 379,
+    "normal": "/game/pokemon/379.webp",
+    "shiny": "/game/pokemon/379-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 380,
+    "normal": "/game/pokemon/380.webp",
+    "shiny": "/game/pokemon/380-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 381,
+    "normal": "/game/pokemon/381.webp",
+    "shiny": "/game/pokemon/381-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 382,
+    "normal": "/game/pokemon/382.webp",
+    "shiny": "/game/pokemon/382-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 383,
+    "normal": "/game/pokemon/383.webp",
+    "shiny": "/game/pokemon/383-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 384,
+    "normal": "/game/pokemon/384.webp",
+    "shiny": "/game/pokemon/384-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 385,
+    "normal": "/game/pokemon/385.webp",
+    "shiny": "/game/pokemon/385-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 386,
+    "normal": "/game/pokemon/386.webp",
+    "shiny": "/game/pokemon/386-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 387,
+    "normal": "/game/pokemon/387.webp",
+    "shiny": "/game/pokemon/387-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 388,
+    "normal": "/game/pokemon/388.webp",
+    "shiny": "/game/pokemon/388-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 389,
+    "normal": "/game/pokemon/389.webp",
+    "shiny": "/game/pokemon/389-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 390,
+    "normal": "/game/pokemon/390.webp",
+    "shiny": "/game/pokemon/390-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 391,
+    "normal": "/game/pokemon/391.webp",
+    "shiny": "/game/pokemon/391-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 392,
+    "normal": "/game/pokemon/392.webp",
+    "shiny": "/game/pokemon/392-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 393,
+    "normal": "/game/pokemon/393.webp",
+    "shiny": "/game/pokemon/393-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 394,
+    "normal": "/game/pokemon/394.webp",
+    "shiny": "/game/pokemon/394-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 395,
+    "normal": "/game/pokemon/395.webp",
+    "shiny": "/game/pokemon/395-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 396,
+    "normal": "/game/pokemon/396.webp",
+    "shiny": "/game/pokemon/396-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 397,
+    "normal": "/game/pokemon/397.webp",
+    "shiny": "/game/pokemon/397-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 398,
+    "normal": "/game/pokemon/398.webp",
+    "shiny": "/game/pokemon/398-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 399,
+    "normal": "/game/pokemon/399.webp",
+    "shiny": "/game/pokemon/399-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 400,
+    "normal": "/game/pokemon/400.webp",
+    "shiny": "/game/pokemon/400-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 401,
+    "normal": "/game/pokemon/401.webp",
+    "shiny": "/game/pokemon/401-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 402,
+    "normal": "/game/pokemon/402.webp",
+    "shiny": "/game/pokemon/402-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 403,
+    "normal": "/game/pokemon/403.webp",
+    "shiny": "/game/pokemon/403-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 404,
+    "normal": "/game/pokemon/404.webp",
+    "shiny": "/game/pokemon/404-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 405,
+    "normal": "/game/pokemon/405.webp",
+    "shiny": "/game/pokemon/405-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 406,
+    "normal": "/game/pokemon/406.webp",
+    "shiny": "/game/pokemon/406-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 407,
+    "normal": "/game/pokemon/407.webp",
+    "shiny": "/game/pokemon/407-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 408,
+    "normal": "/game/pokemon/408.webp",
+    "shiny": "/game/pokemon/408-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 409,
+    "normal": "/game/pokemon/409.webp",
+    "shiny": "/game/pokemon/409-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 410,
+    "normal": "/game/pokemon/410.webp",
+    "shiny": "/game/pokemon/410-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 411,
+    "normal": "/game/pokemon/411.webp",
+    "shiny": "/game/pokemon/411-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 412,
+    "normal": "/game/pokemon/412.webp",
+    "shiny": "/game/pokemon/412-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 413,
+    "normal": "/game/pokemon/413.webp",
+    "shiny": "/game/pokemon/413-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 414,
+    "normal": "/game/pokemon/414.webp",
+    "shiny": "/game/pokemon/414-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 415,
+    "normal": "/game/pokemon/415.webp",
+    "shiny": "/game/pokemon/415-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 416,
+    "normal": "/game/pokemon/416.webp",
+    "shiny": "/game/pokemon/416-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 417,
+    "normal": "/game/pokemon/417.webp",
+    "shiny": "/game/pokemon/417-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 418,
+    "normal": "/game/pokemon/418.webp",
+    "shiny": "/game/pokemon/418-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 419,
+    "normal": "/game/pokemon/419.webp",
+    "shiny": "/game/pokemon/419-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 420,
+    "normal": "/game/pokemon/420.webp",
+    "shiny": "/game/pokemon/420-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 421,
+    "normal": "/game/pokemon/421.webp",
+    "shiny": "/game/pokemon/421-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 422,
+    "normal": "/game/pokemon/422.webp",
+    "shiny": "/game/pokemon/422-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 423,
+    "normal": "/game/pokemon/423.webp",
+    "shiny": "/game/pokemon/423-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 424,
+    "normal": "/game/pokemon/424.webp",
+    "shiny": "/game/pokemon/424-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 425,
+    "normal": "/game/pokemon/425.webp",
+    "shiny": "/game/pokemon/425-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 426,
+    "normal": "/game/pokemon/426.webp",
+    "shiny": "/game/pokemon/426-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 427,
+    "normal": "/game/pokemon/427.webp",
+    "shiny": "/game/pokemon/427-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 428,
+    "normal": "/game/pokemon/428.webp",
+    "shiny": "/game/pokemon/428-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 429,
+    "normal": "/game/pokemon/429.webp",
+    "shiny": "/game/pokemon/429-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 430,
+    "normal": "/game/pokemon/430.webp",
+    "shiny": "/game/pokemon/430-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 431,
+    "normal": "/game/pokemon/431.webp",
+    "shiny": "/game/pokemon/431-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 432,
+    "normal": "/game/pokemon/432.webp",
+    "shiny": "/game/pokemon/432-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 433,
+    "normal": "/game/pokemon/433.webp",
+    "shiny": "/game/pokemon/433-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 434,
+    "normal": "/game/pokemon/434.webp",
+    "shiny": "/game/pokemon/434-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 435,
+    "normal": "/game/pokemon/435.webp",
+    "shiny": "/game/pokemon/435-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 436,
+    "normal": "/game/pokemon/436.webp",
+    "shiny": "/game/pokemon/436-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 437,
+    "normal": "/game/pokemon/437.webp",
+    "shiny": "/game/pokemon/437-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 438,
+    "normal": "/game/pokemon/438.webp",
+    "shiny": "/game/pokemon/438-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 439,
+    "normal": "/game/pokemon/439.webp",
+    "shiny": "/game/pokemon/439-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 440,
+    "normal": "/game/pokemon/440.webp",
+    "shiny": "/game/pokemon/440-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 441,
+    "normal": "/game/pokemon/441.webp",
+    "shiny": "/game/pokemon/441-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 442,
+    "normal": "/game/pokemon/442.webp",
+    "shiny": "/game/pokemon/442-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 443,
+    "normal": "/game/pokemon/443.webp",
+    "shiny": "/game/pokemon/443-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 444,
+    "normal": "/game/pokemon/444.webp",
+    "shiny": "/game/pokemon/444-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 445,
+    "normal": "/game/pokemon/445.webp",
+    "shiny": "/game/pokemon/445-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 446,
+    "normal": "/game/pokemon/446.webp",
+    "shiny": "/game/pokemon/446-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 447,
+    "normal": "/game/pokemon/447.webp",
+    "shiny": "/game/pokemon/447-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 448,
+    "normal": "/game/pokemon/448.webp",
+    "shiny": "/game/pokemon/448-shiny.webp",
+    "animations": [
+      {
+        "name": "Idle",
+        "shiny": false,
+        "src": "/game/animations/448/idle-normal.webp",
+        "still": "/game/animations/448/idle-normal-still.webp",
+        "frames": 6,
+        "durationMs": 866
+      },
+      {
+        "name": "Walk",
+        "shiny": false,
+        "src": "/game/animations/448/walk-normal.webp",
+        "still": "/game/animations/448/walk-normal-still.webp",
+        "frames": 4,
+        "durationMs": 400
+      },
+      {
+        "name": "Attack",
+        "shiny": false,
+        "src": "/game/animations/448/attack-normal.webp",
+        "still": "/game/animations/448/attack-normal-still.webp",
+        "frames": 15,
+        "durationMs": 495
+      },
+      {
+        "name": "Shoot",
+        "shiny": false,
+        "src": "/game/animations/448/shoot-normal.webp",
+        "still": "/game/animations/448/shoot-normal-still.webp",
+        "frames": 15,
+        "durationMs": 495
+      },
+      {
+        "name": "Charge",
+        "shiny": false,
+        "src": "/game/animations/448/charge-normal.webp",
+        "still": "/game/animations/448/charge-normal-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": false,
+        "src": "/game/animations/448/hurt-normal.webp",
+        "still": "/game/animations/448/hurt-normal-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": false,
+        "src": "/game/animations/448/faint-normal.webp",
+        "still": "/game/animations/448/faint-normal-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      },
+      {
+        "name": "Idle",
+        "shiny": true,
+        "src": "/game/animations/448/idle-shiny.webp",
+        "still": "/game/animations/448/idle-shiny-still.webp",
+        "frames": 6,
+        "durationMs": 866
+      },
+      {
+        "name": "Walk",
+        "shiny": true,
+        "src": "/game/animations/448/walk-shiny.webp",
+        "still": "/game/animations/448/walk-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 400
+      },
+      {
+        "name": "Attack",
+        "shiny": true,
+        "src": "/game/animations/448/attack-shiny.webp",
+        "still": "/game/animations/448/attack-shiny-still.webp",
+        "frames": 15,
+        "durationMs": 495
+      },
+      {
+        "name": "Shoot",
+        "shiny": true,
+        "src": "/game/animations/448/shoot-shiny.webp",
+        "still": "/game/animations/448/shoot-shiny-still.webp",
+        "frames": 15,
+        "durationMs": 495
+      },
+      {
+        "name": "Charge",
+        "shiny": true,
+        "src": "/game/animations/448/charge-shiny.webp",
+        "still": "/game/animations/448/charge-shiny-still.webp",
+        "frames": 10,
+        "durationMs": 330
+      },
+      {
+        "name": "Hurt",
+        "shiny": true,
+        "src": "/game/animations/448/hurt-shiny.webp",
+        "still": "/game/animations/448/hurt-shiny-still.webp",
+        "frames": 2,
+        "durationMs": 166
+      },
+      {
+        "name": "Faint",
+        "shiny": true,
+        "src": "/game/animations/448/faint-shiny.webp",
+        "still": "/game/animations/448/faint-shiny-still.webp",
+        "frames": 4,
+        "durationMs": 567
+      }
+    ]
+  },
+  {
+    "id": 449,
+    "normal": "/game/pokemon/449.webp",
+    "shiny": "/game/pokemon/449-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 450,
+    "normal": "/game/pokemon/450.webp",
+    "shiny": "/game/pokemon/450-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 451,
+    "normal": "/game/pokemon/451.webp",
+    "shiny": "/game/pokemon/451-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 452,
+    "normal": "/game/pokemon/452.webp",
+    "shiny": "/game/pokemon/452-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 453,
+    "normal": "/game/pokemon/453.webp",
+    "shiny": "/game/pokemon/453-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 454,
+    "normal": "/game/pokemon/454.webp",
+    "shiny": "/game/pokemon/454-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 455,
+    "normal": "/game/pokemon/455.webp",
+    "shiny": "/game/pokemon/455-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 456,
+    "normal": "/game/pokemon/456.webp",
+    "shiny": "/game/pokemon/456-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 457,
+    "normal": "/game/pokemon/457.webp",
+    "shiny": "/game/pokemon/457-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 458,
+    "normal": "/game/pokemon/458.webp",
+    "shiny": "/game/pokemon/458-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 459,
+    "normal": "/game/pokemon/459.webp",
+    "shiny": "/game/pokemon/459-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 460,
+    "normal": "/game/pokemon/460.webp",
+    "shiny": "/game/pokemon/460-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 461,
+    "normal": "/game/pokemon/461.webp",
+    "shiny": "/game/pokemon/461-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 462,
+    "normal": "/game/pokemon/462.webp",
+    "shiny": "/game/pokemon/462-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 463,
+    "normal": "/game/pokemon/463.webp",
+    "shiny": "/game/pokemon/463-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 464,
+    "normal": "/game/pokemon/464.webp",
+    "shiny": "/game/pokemon/464-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 465,
+    "normal": "/game/pokemon/465.webp",
+    "shiny": "/game/pokemon/465-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 466,
+    "normal": "/game/pokemon/466.webp",
+    "shiny": "/game/pokemon/466-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 467,
+    "normal": "/game/pokemon/467.webp",
+    "shiny": "/game/pokemon/467-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 468,
+    "normal": "/game/pokemon/468.webp",
+    "shiny": "/game/pokemon/468-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 469,
+    "normal": "/game/pokemon/469.webp",
+    "shiny": "/game/pokemon/469-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 470,
+    "normal": "/game/pokemon/470.webp",
+    "shiny": "/game/pokemon/470-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 471,
+    "normal": "/game/pokemon/471.webp",
+    "shiny": "/game/pokemon/471-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 472,
+    "normal": "/game/pokemon/472.webp",
+    "shiny": "/game/pokemon/472-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 473,
+    "normal": "/game/pokemon/473.webp",
+    "shiny": "/game/pokemon/473-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 474,
+    "normal": "/game/pokemon/474.webp",
+    "shiny": "/game/pokemon/474-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 475,
+    "normal": "/game/pokemon/475.webp",
+    "shiny": "/game/pokemon/475-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 476,
+    "normal": "/game/pokemon/476.webp",
+    "shiny": "/game/pokemon/476-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 477,
+    "normal": "/game/pokemon/477.webp",
+    "shiny": "/game/pokemon/477-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 478,
+    "normal": "/game/pokemon/478.webp",
+    "shiny": "/game/pokemon/478-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 479,
+    "normal": "/game/pokemon/479.webp",
+    "shiny": "/game/pokemon/479-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 480,
+    "normal": "/game/pokemon/480.webp",
+    "shiny": "/game/pokemon/480-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 481,
+    "normal": "/game/pokemon/481.webp",
+    "shiny": "/game/pokemon/481-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 482,
+    "normal": "/game/pokemon/482.webp",
+    "shiny": "/game/pokemon/482-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 483,
+    "normal": "/game/pokemon/483.webp",
+    "shiny": "/game/pokemon/483-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 484,
+    "normal": "/game/pokemon/484.webp",
+    "shiny": "/game/pokemon/484-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 485,
+    "normal": "/game/pokemon/485.webp",
+    "shiny": "/game/pokemon/485-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 486,
+    "normal": "/game/pokemon/486.webp",
+    "shiny": "/game/pokemon/486-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 487,
+    "normal": "/game/pokemon/487.webp",
+    "shiny": "/game/pokemon/487-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 488,
+    "normal": "/game/pokemon/488.webp",
+    "shiny": "/game/pokemon/488-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 489,
+    "normal": "/game/pokemon/489.webp",
+    "shiny": "/game/pokemon/489-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 490,
+    "normal": "/game/pokemon/490.webp",
+    "shiny": "/game/pokemon/490-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 491,
+    "normal": "/game/pokemon/491.webp",
+    "shiny": "/game/pokemon/491-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 492,
+    "normal": "/game/pokemon/492.webp",
+    "shiny": "/game/pokemon/492-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 493,
+    "normal": "/game/pokemon/493.webp",
+    "shiny": "/game/pokemon/493-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 494,
+    "normal": "/game/pokemon/494.webp",
+    "shiny": "/game/pokemon/494-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 495,
+    "normal": "/game/pokemon/495.webp",
+    "shiny": "/game/pokemon/495-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 496,
+    "normal": "/game/pokemon/496.webp",
+    "shiny": "/game/pokemon/496-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 497,
+    "normal": "/game/pokemon/497.webp",
+    "shiny": "/game/pokemon/497-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 498,
+    "normal": "/game/pokemon/498.webp",
+    "shiny": "/game/pokemon/498-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 499,
+    "normal": "/game/pokemon/499.webp",
+    "shiny": "/game/pokemon/499-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 500,
+    "normal": "/game/pokemon/500.webp",
+    "shiny": "/game/pokemon/500-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 501,
+    "normal": "/game/pokemon/501.webp",
+    "shiny": "/game/pokemon/501-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 502,
+    "normal": "/game/pokemon/502.webp",
+    "shiny": "/game/pokemon/502-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 503,
+    "normal": "/game/pokemon/503.webp",
+    "shiny": "/game/pokemon/503-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 504,
+    "normal": "/game/pokemon/504.webp",
+    "shiny": "/game/pokemon/504-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 505,
+    "normal": "/game/pokemon/505.webp",
+    "shiny": "/game/pokemon/505-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 506,
+    "normal": "/game/pokemon/506.webp",
+    "shiny": "/game/pokemon/506-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 507,
+    "normal": "/game/pokemon/507.webp",
+    "shiny": "/game/pokemon/507-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 508,
+    "normal": "/game/pokemon/508.webp",
+    "shiny": "/game/pokemon/508-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 509,
+    "normal": "/game/pokemon/509.webp",
+    "shiny": "/game/pokemon/509-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 510,
+    "normal": "/game/pokemon/510.webp",
+    "shiny": "/game/pokemon/510-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 511,
+    "normal": "/game/pokemon/511.webp",
+    "shiny": "/game/pokemon/511-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 512,
+    "normal": "/game/pokemon/512.webp",
+    "shiny": "/game/pokemon/512-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 513,
+    "normal": "/game/pokemon/513.webp",
+    "shiny": "/game/pokemon/513-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 515,
+    "normal": "/game/pokemon/515.webp",
+    "shiny": "/game/pokemon/515-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 517,
+    "normal": "/game/pokemon/517.webp",
+    "shiny": "/game/pokemon/517-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 518,
+    "normal": "/game/pokemon/518.webp",
+    "shiny": "/game/pokemon/518-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 519,
+    "normal": "/game/pokemon/519.webp",
+    "shiny": "/game/pokemon/519-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 521,
+    "normal": "/game/pokemon/521.webp",
+    "shiny": "/game/pokemon/521-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 524,
+    "normal": "/game/pokemon/524.webp",
+    "shiny": "/game/pokemon/524-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 525,
+    "normal": "/game/pokemon/525.webp",
+    "shiny": "/game/pokemon/525-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 526,
+    "normal": "/game/pokemon/526.webp",
+    "shiny": "/game/pokemon/526-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 527,
+    "normal": "/game/pokemon/527.webp",
+    "shiny": "/game/pokemon/527-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 528,
+    "normal": "/game/pokemon/528.webp",
+    "shiny": "/game/pokemon/528-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 529,
+    "normal": "/game/pokemon/529.webp",
+    "shiny": "/game/pokemon/529-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 530,
+    "normal": "/game/pokemon/530.webp",
+    "shiny": "/game/pokemon/530-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 531,
+    "normal": "/game/pokemon/531.webp",
+    "shiny": "/game/pokemon/531-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 532,
+    "normal": "/game/pokemon/532.webp",
+    "shiny": "/game/pokemon/532-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 533,
+    "normal": "/game/pokemon/533.webp",
+    "shiny": "/game/pokemon/533-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 534,
+    "normal": "/game/pokemon/534.webp",
+    "shiny": "/game/pokemon/534-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 535,
+    "normal": "/game/pokemon/535.webp",
+    "shiny": "/game/pokemon/535-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 536,
+    "normal": "/game/pokemon/536.webp",
+    "shiny": "/game/pokemon/536-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 537,
+    "normal": "/game/pokemon/537.webp",
+    "shiny": "/game/pokemon/537-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 539,
+    "normal": "/game/pokemon/539.webp",
+    "shiny": "/game/pokemon/539-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 540,
+    "normal": "/game/pokemon/540.webp",
+    "shiny": "/game/pokemon/540-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 541,
+    "normal": "/game/pokemon/541.webp",
+    "shiny": "/game/pokemon/541-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 542,
+    "normal": "/game/pokemon/542.webp",
+    "shiny": "/game/pokemon/542-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 543,
+    "normal": "/game/pokemon/543.webp",
+    "shiny": "/game/pokemon/543-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 544,
+    "normal": "/game/pokemon/544.webp",
+    "shiny": "/game/pokemon/544-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 545,
+    "normal": "/game/pokemon/545.webp",
+    "shiny": "/game/pokemon/545-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 546,
+    "normal": "/game/pokemon/546.webp",
+    "shiny": "/game/pokemon/546-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 547,
+    "normal": "/game/pokemon/547.webp",
+    "shiny": "/game/pokemon/547-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 548,
+    "normal": "/game/pokemon/548.webp",
+    "shiny": "/game/pokemon/548-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 549,
+    "normal": "/game/pokemon/549.webp",
+    "shiny": "/game/pokemon/549-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 550,
+    "normal": "/game/pokemon/550.webp",
+    "shiny": "/game/pokemon/550-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 551,
+    "normal": "/game/pokemon/551.webp",
+    "shiny": "/game/pokemon/551-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 552,
+    "normal": "/game/pokemon/552.webp",
+    "shiny": "/game/pokemon/552-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 553,
+    "normal": "/game/pokemon/553.webp",
+    "shiny": "/game/pokemon/553-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 554,
+    "normal": "/game/pokemon/554.webp",
+    "shiny": "/game/pokemon/554-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 555,
+    "normal": "/game/pokemon/555.webp",
+    "shiny": "/game/pokemon/555-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 556,
+    "normal": "/game/pokemon/556.webp",
+    "shiny": "/game/pokemon/556-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 557,
+    "normal": "/game/pokemon/557.webp",
+    "shiny": "/game/pokemon/557-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 559,
+    "normal": "/game/pokemon/559.webp",
+    "shiny": "/game/pokemon/559-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 560,
+    "normal": "/game/pokemon/560.webp",
+    "shiny": "/game/pokemon/560-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 561,
+    "normal": "/game/pokemon/561.webp",
+    "shiny": "/game/pokemon/561-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 562,
+    "normal": "/game/pokemon/562.webp",
+    "shiny": "/game/pokemon/562-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 563,
+    "normal": "/game/pokemon/563.webp",
+    "shiny": "/game/pokemon/563-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 566,
+    "normal": "/game/pokemon/566.webp",
+    "shiny": "/game/pokemon/566-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 567,
+    "normal": "/game/pokemon/567.webp",
+    "shiny": "/game/pokemon/567-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 568,
+    "normal": "/game/pokemon/568.webp",
+    "shiny": "/game/pokemon/568-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 569,
+    "normal": "/game/pokemon/569.webp",
+    "shiny": "/game/pokemon/569-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 570,
+    "normal": "/game/pokemon/570.webp",
+    "shiny": "/game/pokemon/570-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 571,
+    "normal": "/game/pokemon/571.webp",
+    "shiny": "/game/pokemon/571-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 572,
+    "normal": "/game/pokemon/572.webp",
+    "shiny": "/game/pokemon/572-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 573,
+    "normal": "/game/pokemon/573.webp",
+    "shiny": "/game/pokemon/573-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 574,
+    "normal": "/game/pokemon/574.webp",
+    "shiny": "/game/pokemon/574-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 575,
+    "normal": "/game/pokemon/575.webp",
+    "shiny": "/game/pokemon/575-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 576,
+    "normal": "/game/pokemon/576.webp",
+    "shiny": "/game/pokemon/576-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 577,
+    "normal": "/game/pokemon/577.webp",
+    "shiny": "/game/pokemon/577-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 578,
+    "normal": "/game/pokemon/578.webp",
+    "shiny": "/game/pokemon/578-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 579,
+    "normal": "/game/pokemon/579.webp",
+    "shiny": "/game/pokemon/579-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 580,
+    "normal": "/game/pokemon/580.webp",
+    "shiny": "/game/pokemon/580-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 581,
+    "normal": "/game/pokemon/581.webp",
+    "shiny": "/game/pokemon/581-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 582,
+    "normal": "/game/pokemon/582.webp",
+    "shiny": "/game/pokemon/582-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 583,
+    "normal": "/game/pokemon/583.webp",
+    "shiny": "/game/pokemon/583-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 584,
+    "normal": "/game/pokemon/584.webp",
+    "shiny": "/game/pokemon/584-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 585,
+    "normal": "/game/pokemon/585.webp",
+    "shiny": "/game/pokemon/585-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 586,
+    "normal": "/game/pokemon/586.webp",
+    "shiny": "/game/pokemon/586-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 587,
+    "normal": "/game/pokemon/587.webp",
+    "shiny": "/game/pokemon/587-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 588,
+    "normal": "/game/pokemon/588.webp",
+    "shiny": null,
+    "animations": []
+  },
+  {
+    "id": 589,
+    "normal": "/game/pokemon/589.webp",
+    "shiny": "/game/pokemon/589-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 590,
+    "normal": "/game/pokemon/590.webp",
+    "shiny": "/game/pokemon/590-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 594,
+    "normal": "/game/pokemon/594.webp",
+    "shiny": "/game/pokemon/594-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 595,
+    "normal": "/game/pokemon/595.webp",
+    "shiny": "/game/pokemon/595-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 596,
+    "normal": "/game/pokemon/596.webp",
+    "shiny": "/game/pokemon/596-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 597,
+    "normal": "/game/pokemon/597.webp",
+    "shiny": "/game/pokemon/597-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 598,
+    "normal": "/game/pokemon/598.webp",
+    "shiny": "/game/pokemon/598-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 599,
+    "normal": "/game/pokemon/599.webp",
+    "shiny": "/game/pokemon/599-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 600,
+    "normal": "/game/pokemon/600.webp",
+    "shiny": "/game/pokemon/600-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 601,
+    "normal": "/game/pokemon/601.webp",
+    "shiny": "/game/pokemon/601-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 602,
+    "normal": "/game/pokemon/602.webp",
+    "shiny": "/game/pokemon/602-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 603,
+    "normal": "/game/pokemon/603.webp",
+    "shiny": "/game/pokemon/603-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 604,
+    "normal": "/game/pokemon/604.webp",
+    "shiny": "/game/pokemon/604-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 605,
+    "normal": "/game/pokemon/605.webp",
+    "shiny": "/game/pokemon/605-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 606,
+    "normal": "/game/pokemon/606.webp",
+    "shiny": "/game/pokemon/606-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 607,
+    "normal": "/game/pokemon/607.webp",
+    "shiny": "/game/pokemon/607-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 608,
+    "normal": "/game/pokemon/608.webp",
+    "shiny": "/game/pokemon/608-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 609,
+    "normal": "/game/pokemon/609.webp",
+    "shiny": "/game/pokemon/609-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 610,
+    "normal": "/game/pokemon/610.webp",
+    "shiny": "/game/pokemon/610-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 611,
+    "normal": "/game/pokemon/611.webp",
+    "shiny": "/game/pokemon/611-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 612,
+    "normal": "/game/pokemon/612.webp",
+    "shiny": "/game/pokemon/612-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 613,
+    "normal": "/game/pokemon/613.webp",
+    "shiny": "/game/pokemon/613-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 614,
+    "normal": "/game/pokemon/614.webp",
+    "shiny": "/game/pokemon/614-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 615,
+    "normal": "/game/pokemon/615.webp",
+    "shiny": "/game/pokemon/615-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 617,
+    "normal": "/game/pokemon/617.webp",
+    "shiny": "/game/pokemon/617-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 619,
+    "normal": "/game/pokemon/619.webp",
+    "shiny": "/game/pokemon/619-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 620,
+    "normal": "/game/pokemon/620.webp",
+    "shiny": "/game/pokemon/620-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 621,
+    "normal": "/game/pokemon/621.webp",
+    "shiny": "/game/pokemon/621-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 622,
+    "normal": "/game/pokemon/622.webp",
+    "shiny": "/game/pokemon/622-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 623,
+    "normal": "/game/pokemon/623.webp",
+    "shiny": "/game/pokemon/623-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 624,
+    "normal": "/game/pokemon/624.webp",
+    "shiny": "/game/pokemon/624-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 625,
+    "normal": "/game/pokemon/625.webp",
+    "shiny": "/game/pokemon/625-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 627,
+    "normal": "/game/pokemon/627.webp",
+    "shiny": "/game/pokemon/627-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 628,
+    "normal": "/game/pokemon/628.webp",
+    "shiny": "/game/pokemon/628-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 629,
+    "normal": "/game/pokemon/629.webp",
+    "shiny": "/game/pokemon/629-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 630,
+    "normal": "/game/pokemon/630.webp",
+    "shiny": "/game/pokemon/630-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 631,
+    "normal": "/game/pokemon/631.webp",
+    "shiny": "/game/pokemon/631-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 632,
+    "normal": "/game/pokemon/632.webp",
+    "shiny": "/game/pokemon/632-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 633,
+    "normal": "/game/pokemon/633.webp",
+    "shiny": "/game/pokemon/633-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 634,
+    "normal": "/game/pokemon/634.webp",
+    "shiny": "/game/pokemon/634-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 635,
+    "normal": "/game/pokemon/635.webp",
+    "shiny": "/game/pokemon/635-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 636,
+    "normal": "/game/pokemon/636.webp",
+    "shiny": "/game/pokemon/636-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 637,
+    "normal": "/game/pokemon/637.webp",
+    "shiny": "/game/pokemon/637-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 638,
+    "normal": "/game/pokemon/638.webp",
+    "shiny": "/game/pokemon/638-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 639,
+    "normal": "/game/pokemon/639.webp",
+    "shiny": "/game/pokemon/639-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 640,
+    "normal": "/game/pokemon/640.webp",
+    "shiny": "/game/pokemon/640-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 641,
+    "normal": "/game/pokemon/641.webp",
+    "shiny": "/game/pokemon/641-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 642,
+    "normal": "/game/pokemon/642.webp",
+    "shiny": "/game/pokemon/642-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 643,
+    "normal": "/game/pokemon/643.webp",
+    "shiny": "/game/pokemon/643-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 644,
+    "normal": "/game/pokemon/644.webp",
+    "shiny": "/game/pokemon/644-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 645,
+    "normal": "/game/pokemon/645.webp",
+    "shiny": "/game/pokemon/645-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 646,
+    "normal": "/game/pokemon/646.webp",
+    "shiny": "/game/pokemon/646-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 647,
+    "normal": "/game/pokemon/647.webp",
+    "shiny": "/game/pokemon/647-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 648,
+    "normal": "/game/pokemon/648.webp",
+    "shiny": "/game/pokemon/648-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 649,
+    "normal": "/game/pokemon/649.webp",
+    "shiny": "/game/pokemon/649-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 650,
+    "normal": "/game/pokemon/650.webp",
+    "shiny": "/game/pokemon/650-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 651,
+    "normal": "/game/pokemon/651.webp",
+    "shiny": "/game/pokemon/651-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 652,
+    "normal": "/game/pokemon/652.webp",
+    "shiny": "/game/pokemon/652-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 653,
+    "normal": "/game/pokemon/653.webp",
+    "shiny": "/game/pokemon/653-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 654,
+    "normal": "/game/pokemon/654.webp",
+    "shiny": "/game/pokemon/654-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 655,
+    "normal": "/game/pokemon/655.webp",
+    "shiny": "/game/pokemon/655-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 656,
+    "normal": "/game/pokemon/656.webp",
+    "shiny": "/game/pokemon/656-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 657,
+    "normal": "/game/pokemon/657.webp",
+    "shiny": "/game/pokemon/657-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 658,
+    "normal": "/game/pokemon/658.webp",
+    "shiny": "/game/pokemon/658-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 659,
+    "normal": "/game/pokemon/659.webp",
+    "shiny": "/game/pokemon/659-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 660,
+    "normal": "/game/pokemon/660.webp",
+    "shiny": "/game/pokemon/660-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 661,
+    "normal": "/game/pokemon/661.webp",
+    "shiny": "/game/pokemon/661-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 662,
+    "normal": "/game/pokemon/662.webp",
+    "shiny": "/game/pokemon/662-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 663,
+    "normal": "/game/pokemon/663.webp",
+    "shiny": "/game/pokemon/663-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 664,
+    "normal": "/game/pokemon/664.webp",
+    "shiny": "/game/pokemon/664-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 665,
+    "normal": "/game/pokemon/665.webp",
+    "shiny": "/game/pokemon/665-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 666,
+    "normal": "/game/pokemon/666.webp",
+    "shiny": "/game/pokemon/666-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 667,
+    "normal": "/game/pokemon/667.webp",
+    "shiny": "/game/pokemon/667-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 669,
+    "normal": "/game/pokemon/669.webp",
+    "shiny": "/game/pokemon/669-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 670,
+    "normal": "/game/pokemon/670.webp",
+    "shiny": "/game/pokemon/670-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 671,
+    "normal": "/game/pokemon/671.webp",
+    "shiny": "/game/pokemon/671-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 672,
+    "normal": "/game/pokemon/672.webp",
+    "shiny": "/game/pokemon/672-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 673,
+    "normal": "/game/pokemon/673.webp",
+    "shiny": "/game/pokemon/673-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 674,
+    "normal": "/game/pokemon/674.webp",
+    "shiny": "/game/pokemon/674-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 675,
+    "normal": "/game/pokemon/675.webp",
+    "shiny": "/game/pokemon/675-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 676,
+    "normal": "/game/pokemon/676.webp",
+    "shiny": "/game/pokemon/676-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 677,
+    "normal": "/game/pokemon/677.webp",
+    "shiny": "/game/pokemon/677-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 678,
+    "normal": "/game/pokemon/678.webp",
+    "shiny": "/game/pokemon/678-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 679,
+    "normal": "/game/pokemon/679.webp",
+    "shiny": "/game/pokemon/679-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 680,
+    "normal": "/game/pokemon/680.webp",
+    "shiny": "/game/pokemon/680-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 681,
+    "normal": "/game/pokemon/681.webp",
+    "shiny": "/game/pokemon/681-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 682,
+    "normal": "/game/pokemon/682.webp",
+    "shiny": "/game/pokemon/682-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 684,
+    "normal": "/game/pokemon/684.webp",
+    "shiny": "/game/pokemon/684-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 685,
+    "normal": "/game/pokemon/685.webp",
+    "shiny": "/game/pokemon/685-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 686,
+    "normal": "/game/pokemon/686.webp",
+    "shiny": "/game/pokemon/686-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 687,
+    "normal": "/game/pokemon/687.webp",
+    "shiny": "/game/pokemon/687-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 688,
+    "normal": "/game/pokemon/688.webp",
+    "shiny": "/game/pokemon/688-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 689,
+    "normal": "/game/pokemon/689.webp",
+    "shiny": "/game/pokemon/689-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 690,
+    "normal": "/game/pokemon/690.webp",
+    "shiny": "/game/pokemon/690-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 691,
+    "normal": "/game/pokemon/691.webp",
+    "shiny": "/game/pokemon/691-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 692,
+    "normal": "/game/pokemon/692.webp",
+    "shiny": "/game/pokemon/692-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 693,
+    "normal": "/game/pokemon/693.webp",
+    "shiny": "/game/pokemon/693-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 694,
+    "normal": "/game/pokemon/694.webp",
+    "shiny": "/game/pokemon/694-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 695,
+    "normal": "/game/pokemon/695.webp",
+    "shiny": "/game/pokemon/695-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 696,
+    "normal": "/game/pokemon/696.webp",
+    "shiny": "/game/pokemon/696-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 697,
+    "normal": "/game/pokemon/697.webp",
+    "shiny": "/game/pokemon/697-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 698,
+    "normal": "/game/pokemon/698.webp",
+    "shiny": "/game/pokemon/698-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 699,
+    "normal": "/game/pokemon/699.webp",
+    "shiny": "/game/pokemon/699-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 700,
+    "normal": "/game/pokemon/700.webp",
+    "shiny": "/game/pokemon/700-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 701,
+    "normal": "/game/pokemon/701.webp",
+    "shiny": "/game/pokemon/701-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 702,
+    "normal": "/game/pokemon/702.webp",
+    "shiny": "/game/pokemon/702-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 703,
+    "normal": "/game/pokemon/703.webp",
+    "shiny": "/game/pokemon/703-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 704,
+    "normal": "/game/pokemon/704.webp",
+    "shiny": "/game/pokemon/704-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 705,
+    "normal": "/game/pokemon/705.webp",
+    "shiny": "/game/pokemon/705-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 706,
+    "normal": "/game/pokemon/706.webp",
+    "shiny": "/game/pokemon/706-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 707,
+    "normal": "/game/pokemon/707.webp",
+    "shiny": "/game/pokemon/707-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 708,
+    "normal": "/game/pokemon/708.webp",
+    "shiny": "/game/pokemon/708-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 709,
+    "normal": "/game/pokemon/709.webp",
+    "shiny": "/game/pokemon/709-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 710,
+    "normal": "/game/pokemon/710.webp",
+    "shiny": "/game/pokemon/710-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 711,
+    "normal": "/game/pokemon/711.webp",
+    "shiny": "/game/pokemon/711-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 712,
+    "normal": "/game/pokemon/712.webp",
+    "shiny": "/game/pokemon/712-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 713,
+    "normal": "/game/pokemon/713.webp",
+    "shiny": "/game/pokemon/713-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 714,
+    "normal": "/game/pokemon/714.webp",
+    "shiny": "/game/pokemon/714-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 715,
+    "normal": "/game/pokemon/715.webp",
+    "shiny": "/game/pokemon/715-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 716,
+    "normal": "/game/pokemon/716.webp",
+    "shiny": "/game/pokemon/716-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 717,
+    "normal": "/game/pokemon/717.webp",
+    "shiny": "/game/pokemon/717-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 718,
+    "normal": "/game/pokemon/718.webp",
+    "shiny": "/game/pokemon/718-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 719,
+    "normal": "/game/pokemon/719.webp",
+    "shiny": "/game/pokemon/719-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 720,
+    "normal": "/game/pokemon/720.webp",
+    "shiny": "/game/pokemon/720-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 721,
+    "normal": "/game/pokemon/721.webp",
+    "shiny": "/game/pokemon/721-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 722,
+    "normal": "/game/pokemon/722.webp",
+    "shiny": "/game/pokemon/722-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 723,
+    "normal": "/game/pokemon/723.webp",
+    "shiny": "/game/pokemon/723-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 724,
+    "normal": "/game/pokemon/724.webp",
+    "shiny": "/game/pokemon/724-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 725,
+    "normal": "/game/pokemon/725.webp",
+    "shiny": "/game/pokemon/725-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 726,
+    "normal": "/game/pokemon/726.webp",
+    "shiny": "/game/pokemon/726-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 727,
+    "normal": "/game/pokemon/727.webp",
+    "shiny": "/game/pokemon/727-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 728,
+    "normal": "/game/pokemon/728.webp",
+    "shiny": "/game/pokemon/728-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 729,
+    "normal": "/game/pokemon/729.webp",
+    "shiny": "/game/pokemon/729-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 730,
+    "normal": "/game/pokemon/730.webp",
+    "shiny": "/game/pokemon/730-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 731,
+    "normal": "/game/pokemon/731.webp",
+    "shiny": "/game/pokemon/731-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 734,
+    "normal": "/game/pokemon/734.webp",
+    "shiny": "/game/pokemon/734-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 736,
+    "normal": "/game/pokemon/736.webp",
+    "shiny": "/game/pokemon/736-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 737,
+    "normal": "/game/pokemon/737.webp",
+    "shiny": "/game/pokemon/737-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 738,
+    "normal": "/game/pokemon/738.webp",
+    "shiny": "/game/pokemon/738-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 739,
+    "normal": "/game/pokemon/739.webp",
+    "shiny": "/game/pokemon/739-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 740,
+    "normal": "/game/pokemon/740.webp",
+    "shiny": "/game/pokemon/740-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 741,
+    "normal": "/game/pokemon/741.webp",
+    "shiny": "/game/pokemon/741-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 742,
+    "normal": "/game/pokemon/742.webp",
+    "shiny": "/game/pokemon/742-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 743,
+    "normal": "/game/pokemon/743.webp",
+    "shiny": "/game/pokemon/743-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 744,
+    "normal": "/game/pokemon/744.webp",
+    "shiny": "/game/pokemon/744-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 745,
+    "normal": "/game/pokemon/745.webp",
+    "shiny": "/game/pokemon/745-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 746,
+    "normal": "/game/pokemon/746.webp",
+    "shiny": "/game/pokemon/746-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 747,
+    "normal": "/game/pokemon/747.webp",
+    "shiny": "/game/pokemon/747-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 748,
+    "normal": "/game/pokemon/748.webp",
+    "shiny": "/game/pokemon/748-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 749,
+    "normal": "/game/pokemon/749.webp",
+    "shiny": "/game/pokemon/749-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 750,
+    "normal": "/game/pokemon/750.webp",
+    "shiny": "/game/pokemon/750-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 751,
+    "normal": "/game/pokemon/751.webp",
+    "shiny": "/game/pokemon/751-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 752,
+    "normal": "/game/pokemon/752.webp",
+    "shiny": "/game/pokemon/752-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 753,
+    "normal": "/game/pokemon/753.webp",
+    "shiny": "/game/pokemon/753-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 754,
+    "normal": "/game/pokemon/754.webp",
+    "shiny": "/game/pokemon/754-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 755,
+    "normal": "/game/pokemon/755.webp",
+    "shiny": "/game/pokemon/755-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 757,
+    "normal": "/game/pokemon/757.webp",
+    "shiny": "/game/pokemon/757-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 758,
+    "normal": "/game/pokemon/758.webp",
+    "shiny": "/game/pokemon/758-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 759,
+    "normal": "/game/pokemon/759.webp",
+    "shiny": "/game/pokemon/759-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 760,
+    "normal": "/game/pokemon/760.webp",
+    "shiny": "/game/pokemon/760-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 761,
+    "normal": "/game/pokemon/761.webp",
+    "shiny": "/game/pokemon/761-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 762,
+    "normal": "/game/pokemon/762.webp",
+    "shiny": "/game/pokemon/762-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 763,
+    "normal": "/game/pokemon/763.webp",
+    "shiny": "/game/pokemon/763-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 764,
+    "normal": "/game/pokemon/764.webp",
+    "shiny": "/game/pokemon/764-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 766,
+    "normal": "/game/pokemon/766.webp",
+    "shiny": "/game/pokemon/766-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 767,
+    "normal": "/game/pokemon/767.webp",
+    "shiny": "/game/pokemon/767-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 768,
+    "normal": "/game/pokemon/768.webp",
+    "shiny": "/game/pokemon/768-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 769,
+    "normal": "/game/pokemon/769.webp",
+    "shiny": "/game/pokemon/769-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 770,
+    "normal": "/game/pokemon/770.webp",
+    "shiny": "/game/pokemon/770-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 771,
+    "normal": "/game/pokemon/771.webp",
+    "shiny": "/game/pokemon/771-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 772,
+    "normal": "/game/pokemon/772.webp",
+    "shiny": "/game/pokemon/772-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 773,
+    "normal": "/game/pokemon/773.webp",
+    "shiny": "/game/pokemon/773-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 774,
+    "normal": "/game/pokemon/774.webp",
+    "shiny": "/game/pokemon/774-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 775,
+    "normal": "/game/pokemon/775.webp",
+    "shiny": "/game/pokemon/775-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 776,
+    "normal": "/game/pokemon/776.webp",
+    "shiny": "/game/pokemon/776-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 777,
+    "normal": "/game/pokemon/777.webp",
+    "shiny": "/game/pokemon/777-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 778,
+    "normal": "/game/pokemon/778.webp",
+    "shiny": "/game/pokemon/778-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 779,
+    "normal": "/game/pokemon/779.webp",
+    "shiny": "/game/pokemon/779-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 780,
+    "normal": "/game/pokemon/780.webp",
+    "shiny": "/game/pokemon/780-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 781,
+    "normal": "/game/pokemon/781.webp",
+    "shiny": "/game/pokemon/781-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 782,
+    "normal": "/game/pokemon/782.webp",
+    "shiny": "/game/pokemon/782-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 783,
+    "normal": "/game/pokemon/783.webp",
+    "shiny": "/game/pokemon/783-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 784,
+    "normal": "/game/pokemon/784.webp",
+    "shiny": "/game/pokemon/784-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 785,
+    "normal": "/game/pokemon/785.webp",
+    "shiny": "/game/pokemon/785-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 786,
+    "normal": "/game/pokemon/786.webp",
+    "shiny": "/game/pokemon/786-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 787,
+    "normal": "/game/pokemon/787.webp",
+    "shiny": "/game/pokemon/787-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 788,
+    "normal": "/game/pokemon/788.webp",
+    "shiny": "/game/pokemon/788-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 789,
+    "normal": "/game/pokemon/789.webp",
+    "shiny": "/game/pokemon/789-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 790,
+    "normal": "/game/pokemon/790.webp",
+    "shiny": "/game/pokemon/790-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 791,
+    "normal": "/game/pokemon/791.webp",
+    "shiny": "/game/pokemon/791-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 792,
+    "normal": "/game/pokemon/792.webp",
+    "shiny": "/game/pokemon/792-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 793,
+    "normal": "/game/pokemon/793.webp",
+    "shiny": "/game/pokemon/793-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 794,
+    "normal": "/game/pokemon/794.webp",
+    "shiny": "/game/pokemon/794-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 795,
+    "normal": "/game/pokemon/795.webp",
+    "shiny": "/game/pokemon/795-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 796,
+    "normal": "/game/pokemon/796.webp",
+    "shiny": "/game/pokemon/796-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 797,
+    "normal": "/game/pokemon/797.webp",
+    "shiny": "/game/pokemon/797-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 798,
+    "normal": "/game/pokemon/798.webp",
+    "shiny": "/game/pokemon/798-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 799,
+    "normal": "/game/pokemon/799.webp",
+    "shiny": "/game/pokemon/799-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 800,
+    "normal": "/game/pokemon/800.webp",
+    "shiny": "/game/pokemon/800-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 801,
+    "normal": "/game/pokemon/801.webp",
+    "shiny": "/game/pokemon/801-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 802,
+    "normal": "/game/pokemon/802.webp",
+    "shiny": "/game/pokemon/802-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 803,
+    "normal": "/game/pokemon/803.webp",
+    "shiny": "/game/pokemon/803-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 804,
+    "normal": "/game/pokemon/804.webp",
+    "shiny": "/game/pokemon/804-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 805,
+    "normal": "/game/pokemon/805.webp",
+    "shiny": "/game/pokemon/805-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 806,
+    "normal": "/game/pokemon/806.webp",
+    "shiny": "/game/pokemon/806-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 807,
+    "normal": "/game/pokemon/807.webp",
+    "shiny": "/game/pokemon/807-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 808,
+    "normal": "/game/pokemon/808.webp",
+    "shiny": "/game/pokemon/808-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 809,
+    "normal": "/game/pokemon/809.webp",
+    "shiny": "/game/pokemon/809-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 810,
+    "normal": "/game/pokemon/810.webp",
+    "shiny": "/game/pokemon/810-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 811,
+    "normal": "/game/pokemon/811.webp",
+    "shiny": "/game/pokemon/811-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 812,
+    "normal": "/game/pokemon/812.webp",
+    "shiny": "/game/pokemon/812-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 813,
+    "normal": "/game/pokemon/813.webp",
+    "shiny": "/game/pokemon/813-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 814,
+    "normal": "/game/pokemon/814.webp",
+    "shiny": "/game/pokemon/814-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 815,
+    "normal": "/game/pokemon/815.webp",
+    "shiny": "/game/pokemon/815-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 816,
+    "normal": "/game/pokemon/816.webp",
+    "shiny": "/game/pokemon/816-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 817,
+    "normal": "/game/pokemon/817.webp",
+    "shiny": "/game/pokemon/817-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 818,
+    "normal": "/game/pokemon/818.webp",
+    "shiny": "/game/pokemon/818-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 819,
+    "normal": "/game/pokemon/819.webp",
+    "shiny": "/game/pokemon/819-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 820,
+    "normal": "/game/pokemon/820.webp",
+    "shiny": null,
+    "animations": []
+  },
+  {
+    "id": 821,
+    "normal": "/game/pokemon/821.webp",
+    "shiny": "/game/pokemon/821-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 822,
+    "normal": "/game/pokemon/822.webp",
+    "shiny": "/game/pokemon/822-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 823,
+    "normal": "/game/pokemon/823.webp",
+    "shiny": "/game/pokemon/823-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 824,
+    "normal": "/game/pokemon/824.webp",
+    "shiny": "/game/pokemon/824-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 825,
+    "normal": "/game/pokemon/825.webp",
+    "shiny": "/game/pokemon/825-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 826,
+    "normal": "/game/pokemon/826.webp",
+    "shiny": "/game/pokemon/826-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 827,
+    "normal": "/game/pokemon/827.webp",
+    "shiny": "/game/pokemon/827-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 828,
+    "normal": "/game/pokemon/828.webp",
+    "shiny": "/game/pokemon/828-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 829,
+    "normal": "/game/pokemon/829.webp",
+    "shiny": "/game/pokemon/829-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 830,
+    "normal": "/game/pokemon/830.webp",
+    "shiny": "/game/pokemon/830-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 831,
+    "normal": "/game/pokemon/831.webp",
+    "shiny": "/game/pokemon/831-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 832,
+    "normal": "/game/pokemon/832.webp",
+    "shiny": "/game/pokemon/832-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 833,
+    "normal": "/game/pokemon/833.webp",
+    "shiny": "/game/pokemon/833-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 834,
+    "normal": "/game/pokemon/834.webp",
+    "shiny": "/game/pokemon/834-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 835,
+    "normal": "/game/pokemon/835.webp",
+    "shiny": "/game/pokemon/835-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 836,
+    "normal": "/game/pokemon/836.webp",
+    "shiny": "/game/pokemon/836-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 840,
+    "normal": "/game/pokemon/840.webp",
+    "shiny": "/game/pokemon/840-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 841,
+    "normal": "/game/pokemon/841.webp",
+    "shiny": "/game/pokemon/841-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 842,
+    "normal": "/game/pokemon/842.webp",
+    "shiny": "/game/pokemon/842-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 843,
+    "normal": "/game/pokemon/843.webp",
+    "shiny": "/game/pokemon/843-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 844,
+    "normal": "/game/pokemon/844.webp",
+    "shiny": "/game/pokemon/844-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 845,
+    "normal": "/game/pokemon/845.webp",
+    "shiny": "/game/pokemon/845-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 846,
+    "normal": "/game/pokemon/846.webp",
+    "shiny": "/game/pokemon/846-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 847,
+    "normal": "/game/pokemon/847.webp",
+    "shiny": null,
+    "animations": []
+  },
+  {
+    "id": 848,
+    "normal": "/game/pokemon/848.webp",
+    "shiny": "/game/pokemon/848-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 849,
+    "normal": "/game/pokemon/849.webp",
+    "shiny": "/game/pokemon/849-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 850,
+    "normal": "/game/pokemon/850.webp",
+    "shiny": "/game/pokemon/850-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 851,
+    "normal": "/game/pokemon/851.webp",
+    "shiny": "/game/pokemon/851-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 852,
+    "normal": "/game/pokemon/852.webp",
+    "shiny": "/game/pokemon/852-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 853,
+    "normal": "/game/pokemon/853.webp",
+    "shiny": "/game/pokemon/853-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 854,
+    "normal": "/game/pokemon/854.webp",
+    "shiny": "/game/pokemon/854-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 855,
+    "normal": "/game/pokemon/855.webp",
+    "shiny": "/game/pokemon/855-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 856,
+    "normal": "/game/pokemon/856.webp",
+    "shiny": "/game/pokemon/856-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 857,
+    "normal": "/game/pokemon/857.webp",
+    "shiny": "/game/pokemon/857-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 858,
+    "normal": "/game/pokemon/858.webp",
+    "shiny": "/game/pokemon/858-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 859,
+    "normal": "/game/pokemon/859.webp",
+    "shiny": "/game/pokemon/859-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 860,
+    "normal": "/game/pokemon/860.webp",
+    "shiny": "/game/pokemon/860-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 861,
+    "normal": "/game/pokemon/861.webp",
+    "shiny": "/game/pokemon/861-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 862,
+    "normal": "/game/pokemon/862.webp",
+    "shiny": "/game/pokemon/862-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 863,
+    "normal": "/game/pokemon/863.webp",
+    "shiny": "/game/pokemon/863-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 864,
+    "normal": "/game/pokemon/864.webp",
+    "shiny": "/game/pokemon/864-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 867,
+    "normal": "/game/pokemon/867.webp",
+    "shiny": "/game/pokemon/867-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 868,
+    "normal": "/game/pokemon/868.webp",
+    "shiny": null,
+    "animations": []
+  },
+  {
+    "id": 869,
+    "normal": "/game/pokemon/869.webp",
+    "shiny": "/game/pokemon/869-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 871,
+    "normal": "/game/pokemon/871.webp",
+    "shiny": "/game/pokemon/871-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 872,
+    "normal": "/game/pokemon/872.webp",
+    "shiny": "/game/pokemon/872-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 873,
+    "normal": "/game/pokemon/873.webp",
+    "shiny": "/game/pokemon/873-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 874,
+    "normal": "/game/pokemon/874.webp",
+    "shiny": "/game/pokemon/874-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 875,
+    "normal": "/game/pokemon/875.webp",
+    "shiny": "/game/pokemon/875-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 876,
+    "normal": "/game/pokemon/876.webp",
+    "shiny": "/game/pokemon/876-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 877,
+    "normal": "/game/pokemon/877.webp",
+    "shiny": "/game/pokemon/877-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 880,
+    "normal": "/game/pokemon/880.webp",
+    "shiny": "/game/pokemon/880-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 881,
+    "normal": "/game/pokemon/881.webp",
+    "shiny": "/game/pokemon/881-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 882,
+    "normal": "/game/pokemon/882.webp",
+    "shiny": "/game/pokemon/882-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 883,
+    "normal": "/game/pokemon/883.webp",
+    "shiny": "/game/pokemon/883-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 884,
+    "normal": "/game/pokemon/884.webp",
+    "shiny": "/game/pokemon/884-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 885,
+    "normal": "/game/pokemon/885.webp",
+    "shiny": "/game/pokemon/885-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 886,
+    "normal": "/game/pokemon/886.webp",
+    "shiny": "/game/pokemon/886-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 887,
+    "normal": "/game/pokemon/887.webp",
+    "shiny": "/game/pokemon/887-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 888,
+    "normal": "/game/pokemon/888.webp",
+    "shiny": "/game/pokemon/888-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 889,
+    "normal": "/game/pokemon/889.webp",
+    "shiny": "/game/pokemon/889-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 890,
+    "normal": "/game/pokemon/890.webp",
+    "shiny": "/game/pokemon/890-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 891,
+    "normal": "/game/pokemon/891.webp",
+    "shiny": "/game/pokemon/891-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 892,
+    "normal": "/game/pokemon/892.webp",
+    "shiny": "/game/pokemon/892-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 894,
+    "normal": "/game/pokemon/894.webp",
+    "shiny": "/game/pokemon/894-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 895,
+    "normal": "/game/pokemon/895.webp",
+    "shiny": "/game/pokemon/895-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 896,
+    "normal": "/game/pokemon/896.webp",
+    "shiny": null,
+    "animations": []
+  },
+  {
+    "id": 897,
+    "normal": "/game/pokemon/897.webp",
+    "shiny": "/game/pokemon/897-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 898,
+    "normal": "/game/pokemon/898.webp",
+    "shiny": "/game/pokemon/898-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 899,
+    "normal": "/game/pokemon/899.webp",
+    "shiny": "/game/pokemon/899-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 900,
+    "normal": "/game/pokemon/900.webp",
+    "shiny": "/game/pokemon/900-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 901,
+    "normal": "/game/pokemon/901.webp",
+    "shiny": "/game/pokemon/901-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 902,
+    "normal": "/game/pokemon/902.webp",
+    "shiny": "/game/pokemon/902-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 903,
+    "normal": "/game/pokemon/903.webp",
+    "shiny": "/game/pokemon/903-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 904,
+    "normal": "/game/pokemon/904.webp",
+    "shiny": "/game/pokemon/904-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 905,
+    "normal": "/game/pokemon/905.webp",
+    "shiny": "/game/pokemon/905-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 906,
+    "normal": "/game/pokemon/906.webp",
+    "shiny": "/game/pokemon/906-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 907,
+    "normal": "/game/pokemon/907.webp",
+    "shiny": "/game/pokemon/907-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 908,
+    "normal": "/game/pokemon/908.webp",
+    "shiny": "/game/pokemon/908-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 909,
+    "normal": "/game/pokemon/909.webp",
+    "shiny": "/game/pokemon/909-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 910,
+    "normal": "/game/pokemon/910.webp",
+    "shiny": "/game/pokemon/910-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 911,
+    "normal": "/game/pokemon/911.webp",
+    "shiny": "/game/pokemon/911-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 912,
+    "normal": "/game/pokemon/912.webp",
+    "shiny": "/game/pokemon/912-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 913,
+    "normal": "/game/pokemon/913.webp",
+    "shiny": "/game/pokemon/913-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 914,
+    "normal": "/game/pokemon/914.webp",
+    "shiny": "/game/pokemon/914-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 915,
+    "normal": "/game/pokemon/915.webp",
+    "shiny": "/game/pokemon/915-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 916,
+    "normal": "/game/pokemon/916.webp",
+    "shiny": null,
+    "animations": []
+  },
+  {
+    "id": 917,
+    "normal": "/game/pokemon/917.webp",
+    "shiny": "/game/pokemon/917-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 918,
+    "normal": "/game/pokemon/918.webp",
+    "shiny": "/game/pokemon/918-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 919,
+    "normal": "/game/pokemon/919.webp",
+    "shiny": "/game/pokemon/919-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 920,
+    "normal": "/game/pokemon/920.webp",
+    "shiny": "/game/pokemon/920-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 921,
+    "normal": "/game/pokemon/921.webp",
+    "shiny": "/game/pokemon/921-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 922,
+    "normal": "/game/pokemon/922.webp",
+    "shiny": "/game/pokemon/922-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 923,
+    "normal": "/game/pokemon/923.webp",
+    "shiny": "/game/pokemon/923-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 924,
+    "normal": "/game/pokemon/924.webp",
+    "shiny": "/game/pokemon/924-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 925,
+    "normal": "/game/pokemon/925.webp",
+    "shiny": "/game/pokemon/925-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 926,
+    "normal": "/game/pokemon/926.webp",
+    "shiny": "/game/pokemon/926-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 927,
+    "normal": "/game/pokemon/927.webp",
+    "shiny": "/game/pokemon/927-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 928,
+    "normal": "/game/pokemon/928.webp",
+    "shiny": "/game/pokemon/928-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 930,
+    "normal": "/game/pokemon/930.webp",
+    "shiny": "/game/pokemon/930-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 932,
+    "normal": "/game/pokemon/932.webp",
+    "shiny": "/game/pokemon/932-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 933,
+    "normal": "/game/pokemon/933.webp",
+    "shiny": null,
+    "animations": []
+  },
+  {
+    "id": 934,
+    "normal": "/game/pokemon/934.webp",
+    "shiny": "/game/pokemon/934-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 935,
+    "normal": "/game/pokemon/935.webp",
+    "shiny": "/game/pokemon/935-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 936,
+    "normal": "/game/pokemon/936.webp",
+    "shiny": "/game/pokemon/936-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 937,
+    "normal": "/game/pokemon/937.webp",
+    "shiny": "/game/pokemon/937-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 938,
+    "normal": "/game/pokemon/938.webp",
+    "shiny": "/game/pokemon/938-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 939,
+    "normal": "/game/pokemon/939.webp",
+    "shiny": "/game/pokemon/939-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 940,
+    "normal": "/game/pokemon/940.webp",
+    "shiny": "/game/pokemon/940-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 941,
+    "normal": "/game/pokemon/941.webp",
+    "shiny": "/game/pokemon/941-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 946,
+    "normal": "/game/pokemon/946.webp",
+    "shiny": "/game/pokemon/946-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 951,
+    "normal": "/game/pokemon/951.webp",
+    "shiny": "/game/pokemon/951-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 952,
+    "normal": "/game/pokemon/952.webp",
+    "shiny": "/game/pokemon/952-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 953,
+    "normal": "/game/pokemon/953.webp",
+    "shiny": "/game/pokemon/953-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 955,
+    "normal": "/game/pokemon/955.webp",
+    "shiny": "/game/pokemon/955-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 957,
+    "normal": "/game/pokemon/957.webp",
+    "shiny": "/game/pokemon/957-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 958,
+    "normal": "/game/pokemon/958.webp",
+    "shiny": "/game/pokemon/958-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 959,
+    "normal": "/game/pokemon/959.webp",
+    "shiny": "/game/pokemon/959-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 960,
+    "normal": "/game/pokemon/960.webp",
+    "shiny": "/game/pokemon/960-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 961,
+    "normal": "/game/pokemon/961.webp",
+    "shiny": "/game/pokemon/961-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 963,
+    "normal": "/game/pokemon/963.webp",
+    "shiny": "/game/pokemon/963-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 964,
+    "normal": "/game/pokemon/964.webp",
+    "shiny": "/game/pokemon/964-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 965,
+    "normal": "/game/pokemon/965.webp",
+    "shiny": "/game/pokemon/965-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 966,
+    "normal": "/game/pokemon/966.webp",
+    "shiny": "/game/pokemon/966-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 967,
+    "normal": "/game/pokemon/967.webp",
+    "shiny": "/game/pokemon/967-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 968,
+    "normal": "/game/pokemon/968.webp",
+    "shiny": "/game/pokemon/968-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 969,
+    "normal": "/game/pokemon/969.webp",
+    "shiny": "/game/pokemon/969-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 970,
+    "normal": "/game/pokemon/970.webp",
+    "shiny": "/game/pokemon/970-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 971,
+    "normal": "/game/pokemon/971.webp",
+    "shiny": "/game/pokemon/971-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 972,
+    "normal": "/game/pokemon/972.webp",
+    "shiny": "/game/pokemon/972-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 974,
+    "normal": "/game/pokemon/974.webp",
+    "shiny": "/game/pokemon/974-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 975,
+    "normal": "/game/pokemon/975.webp",
+    "shiny": "/game/pokemon/975-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 976,
+    "normal": "/game/pokemon/976.webp",
+    "shiny": "/game/pokemon/976-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 977,
+    "normal": "/game/pokemon/977.webp",
+    "shiny": "/game/pokemon/977-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 978,
+    "normal": "/game/pokemon/978.webp",
+    "shiny": "/game/pokemon/978-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 979,
+    "normal": "/game/pokemon/979.webp",
+    "shiny": "/game/pokemon/979-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 980,
+    "normal": "/game/pokemon/980.webp",
+    "shiny": "/game/pokemon/980-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 981,
+    "normal": "/game/pokemon/981.webp",
+    "shiny": "/game/pokemon/981-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 982,
+    "normal": "/game/pokemon/982.webp",
+    "shiny": "/game/pokemon/982-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 983,
+    "normal": "/game/pokemon/983.webp",
+    "shiny": "/game/pokemon/983-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 984,
+    "normal": "/game/pokemon/984.webp",
+    "shiny": "/game/pokemon/984-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 985,
+    "normal": "/game/pokemon/985.webp",
+    "shiny": "/game/pokemon/985-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 987,
+    "normal": "/game/pokemon/987.webp",
+    "shiny": "/game/pokemon/987-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 988,
+    "normal": "/game/pokemon/988.webp",
+    "shiny": "/game/pokemon/988-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 989,
+    "normal": "/game/pokemon/989.webp",
+    "shiny": "/game/pokemon/989-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 991,
+    "normal": "/game/pokemon/991.webp",
+    "shiny": "/game/pokemon/991-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 992,
+    "normal": "/game/pokemon/992.webp",
+    "shiny": "/game/pokemon/992-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 994,
+    "normal": "/game/pokemon/994.webp",
+    "shiny": "/game/pokemon/994-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 995,
+    "normal": "/game/pokemon/995.webp",
+    "shiny": "/game/pokemon/995-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 996,
+    "normal": "/game/pokemon/996.webp",
+    "shiny": "/game/pokemon/996-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 997,
+    "normal": "/game/pokemon/997.webp",
+    "shiny": "/game/pokemon/997-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 998,
+    "normal": "/game/pokemon/998.webp",
+    "shiny": "/game/pokemon/998-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1000,
+    "normal": "/game/pokemon/1000.webp",
+    "shiny": "/game/pokemon/1000-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1004,
+    "normal": "/game/pokemon/1004.webp",
+    "shiny": "/game/pokemon/1004-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1005,
+    "normal": "/game/pokemon/1005.webp",
+    "shiny": "/game/pokemon/1005-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1006,
+    "normal": "/game/pokemon/1006.webp",
+    "shiny": "/game/pokemon/1006-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1007,
+    "normal": "/game/pokemon/1007.webp",
+    "shiny": null,
+    "animations": []
+  },
+  {
+    "id": 1009,
+    "normal": "/game/pokemon/1009.webp",
+    "shiny": "/game/pokemon/1009-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1010,
+    "normal": "/game/pokemon/1010.webp",
+    "shiny": "/game/pokemon/1010-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1011,
+    "normal": "/game/pokemon/1011.webp",
+    "shiny": "/game/pokemon/1011-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1012,
+    "normal": "/game/pokemon/1012.webp",
+    "shiny": "/game/pokemon/1012-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1013,
+    "normal": "/game/pokemon/1013.webp",
+    "shiny": "/game/pokemon/1013-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1015,
+    "normal": "/game/pokemon/1015.webp",
+    "shiny": "/game/pokemon/1015-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1016,
+    "normal": "/game/pokemon/1016.webp",
+    "shiny": "/game/pokemon/1016-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1017,
+    "normal": "/game/pokemon/1017.webp",
+    "shiny": "/game/pokemon/1017-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1018,
+    "normal": "/game/pokemon/1018.webp",
+    "shiny": "/game/pokemon/1018-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1019,
+    "normal": "/game/pokemon/1019.webp",
+    "shiny": "/game/pokemon/1019-shiny.webp",
+    "animations": []
+  },
+  {
+    "id": 1024,
+    "normal": "/game/pokemon/1024.webp",
+    "shiny": "/game/pokemon/1024-shiny.webp",
+    "animations": []
+  }
+]

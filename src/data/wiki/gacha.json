@@ -1,0 +1,134 @@
+{
+  "rates": [
+    {
+      "rarity": 1,
+      "percent": 45
+    },
+    {
+      "rarity": 2,
+      "percent": 30
+    },
+    {
+      "rarity": 3,
+      "percent": 17
+    },
+    {
+      "rarity": 4,
+      "percent": 6.5
+    },
+    {
+      "rarity": 5,
+      "percent": 1.5
+    }
+  ],
+  "pity": 70,
+  "shinyRate": 0.01,
+  "refund": {
+    "1": 15,
+    "2": 30,
+    "3": 60,
+    "4": 120,
+    "5": 300
+  },
+  "banners": [
+    {
+      "region": "kanto",
+      "generation": 1,
+      "counts": [
+        35,
+        41,
+        38,
+        31,
+        6
+      ]
+    },
+    {
+      "region": "johto",
+      "generation": 2,
+      "counts": [
+        25,
+        21,
+        29,
+        18,
+        7
+      ]
+    },
+    {
+      "region": "hoenn",
+      "generation": 3,
+      "counts": [
+        41,
+        25,
+        44,
+        12,
+        13
+      ]
+    },
+    {
+      "region": "sinnoh",
+      "generation": 4,
+      "counts": [
+        20,
+        20,
+        20,
+        32,
+        15
+      ]
+    },
+    {
+      "region": "unova",
+      "generation": 5,
+      "counts": [
+        36,
+        27,
+        38,
+        26,
+        14
+      ]
+    },
+    {
+      "region": "kalos",
+      "generation": 6,
+      "counts": [
+        15,
+        17,
+        14,
+        17,
+        7
+      ]
+    },
+    {
+      "region": "alola",
+      "generation": 7,
+      "counts": [
+        14,
+        9,
+        23,
+        20,
+        17
+      ]
+    },
+    {
+      "region": "galar",
+      "generation": 8,
+      "counts": [
+        23,
+        4,
+        23,
+        25,
+        12
+      ]
+    },
+    {
+      "region": "paldea",
+      "generation": 9,
+      "counts": [
+        24,
+        7,
+        19,
+        30,
+        12
+      ]
+    }
+  ]
+}

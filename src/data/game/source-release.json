@@ -1,0 +1,91 @@
+{
+  "reviewed": "2026-10-15",
+  "kind": "local-source-archive",
+  "version": {
+    "v": "dc3ae9bbfb",
+    "at": "2026-10-12T22:20:54.162Z"
+  },
+  "baseline": "bc2124ff1d",
+  "files": [
+    {
+      "file": "version.json",
+      "sha256": "a134b011ba6127ec2ffa39332cabdcf87ebb3b223936543c1d0457a31ca8fdf3",
+      "matchesPinnedCache": false
+    },
+    {
+      "file": "js/data/pokedex.js",
+      "sha256": "d33494dbb6eae2ccc07cb81756eeb69e81d5679b01e2dc609cad61b706af41f4",
+      "matchesPinnedCache": true
+    },
+    {
+      "file": "js/data/moves.js",
+      "sha256": "75f6612c276a89e4344382739d4f17e770021766843ff9e03933769699eee70a",
+      "matchesPinnedCache": true
+    },
+    {
+      "file": "js/data/sprites-meta.js",
+      "sha256": "da5b1b0f79ab7a1b39a27d344401afb169b651b3f38d531021234643651a9bdc",
+      "matchesPinnedCache": null
+    },
+    {
+      "file": "js/data/enemies.js",
+      "sha256": "64b34f30b6efd56c217f49621cd9ead12a8165c7a4e4302432ce62ccdec402ac",
+      "matchesPinnedCache": null
+    },
+    {
+      "file": "js/data/missions.js",
+      "sha256": "5e59334393406027fddc5ee424cd9bddd7f5018290264292d1dd6c3242422c0f",
+      "matchesPinnedCache": null
+    },
+    {
+      "file": "js/data/lang-en.js",
+      "sha256": "ee229ea5d465634e3c1cd6e3eec789296d92b61cfa7e89d1784ccc414017ddaa",
+      "matchesPinnedCache": false
+    },
+    {
+      "file": "js/ui/icons.js",
+      "sha256": "a9c0466c609b713c65ca4347aba12528688fbe56c7c8a808764b555fb44015ee",
+      "matchesPinnedCache": null
+    },
+    {
+      "file": "js/core/util.js",
+      "sha256": "450be97129baef42dd8e78c7739c56cc9dde62666df970b0bf7f366c30aa3003",
+      "matchesPinnedCache": null
+    },
+    {
+      "file": "js/systems/interact.js",
+      "sha256": "fb1b35171e01877a746ccf75f934a94b3619763fe0631880c5f5de4c727f845e",
+      "matchesPinnedCache": null
+    },
+    {
+      "file": "js/systems/events.js",
+      "sha256": "5c1d0426f4b12d2b9eeaedb9677a53ec00dc91f6af684cd79716e9fb84884523",
+      "matchesPinnedCache": null
+    },
+    {
+      "file": "js/systems/rift.js",
+      "sha256": "6c52e3ac48864f85f8fa522f895bbf2f6ea885f3359fafaf7a0cfb286eb8b35c",
+      "matchesPinnedCache": false
+    },
+    {
+      "file": "js/systems/progress.js",
+      "sha256": "cf11d4922314bacd0cf29f534e3693def0143fef834537254863c9197b298a0c",
+      "matchesPinnedCache": null
+    },
+    {
+      "file": "js/systems/spawner.js",
+      "sha256": "f21ad3ea95a8bcf1a357879407d12f96df7ba91c6cdcf914e707693d0901209d",
+      "matchesPinnedCache": null
+    },
+    {
+      "file": "js/world/world.js",
+      "sha256": "df90ee559bbb0bb6c830d0f5f8a8e0f63138953053a83496c3502f7f3d1b9fb7",
+      "matchesPinnedCache": null
+    },
+    {
+      "file": "js/net/ranking.js",
+      "sha256": "bbf9196c106118088ceff4bc2e174d9a04a450baa09442a45150c9433ff35936",
+      "matchesPinnedCache": null
+    }
+  ]
+}

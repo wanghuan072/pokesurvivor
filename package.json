@@ -1,0 +1,37 @@
+{
+  "name": "pokesurvivor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/data/build-search-index.mjs",
+    "prebuild": "node scripts/data/build-search-index.mjs && node scripts/seo/content-revisions.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "next typegen && tsc --noEmit",
+    "data:refresh": "node scripts/data/refresh-official.mjs",
+    "audit": "node scripts/audit/game-mechanics.mjs && node scripts/audit/unpacked-game.mjs && node scripts/audit/site.mjs && node --test scripts/audit/seo.test.mjs",
+    "test:mechanics": "node scripts/audit/game-mechanics.mjs",
+    "data:unpack": "node scripts/data/unpack-local-game.mjs",
+    "content:sync": "node scripts/seo/content-revisions.mjs --write",
+    "content:check": "node scripts/seo/content-revisions.mjs",
+    "test:seo": "node --test scripts/audit/seo.test.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "type": "module"
+}

@@ -1,0 +1,269 @@
+[
+  {
+    "slug": "beginner-guide",
+    "title": "PokeSurvivor Beginner Guide: Your First Stronger Run",
+    "description": "Choose a first partner, understand active attacks, survive the early waves and decide when a chest or Rift is worth the risk.",
+    "icon": "▣",
+    "image": "/art/guide.webp",
+    "imageAlt": "A trainer and Eevee set out through a pixel-art forest",
+    "category": "START HERE",
+    "readTime": 4,
+    "outcomes": [
+      "Controls and active move slots",
+      "A practical early-run plan",
+      "Enemy waves, bosses and world objects"
+    ],
+    "sources": [
+      "js/data/starters.js",
+      "js/data/moves.js",
+      "js/systems/levelup.js"
+    ],
+    "sections": [
+      {
+        "id": "setup",
+        "title": "1. Choose a partner you can learn with",
+        "paragraphs": [
+          "Open the Play page and launch the official game. Start as a guest or use the game’s own account options. This guide cannot read your save: available partners, purchased upgrades and collection progress are managed by the game.",
+          "Charmander begins with Ember, Squirtle with Water Gun and Bulbasaur with Vine Whip. They introduce a targeted projectile, a piercing stream and a close-range arc. Pick the opening style you can position safely. A large attack multiplier does not automatically make a partner easier to play.",
+          "Before starting, note your opening move and one evolution goal. Read its required stat card in Level-up Cards. Use the Pokédex for the partner’s actual starting HP, movement speed and attack factor; these differ from main-series Pokémon stats."
+        ]
+      },
+      {
+        "id": "movement",
+        "title": "2. Move deliberately and switch the active slot",
+        "paragraphs": [
+          "Move with WASD or the arrow keys on desktop. Select an attack slot with 1–4, cycle with Q/E or use the move icons. Esc pauses. On mobile, use landscape orientation, drag to move and tap the move icons. Give the battlefield enough screen space to see warning markers.",
+          "Only the selected slot attacks. Learning four moves does not make four independent attacks fire at once. Switch when the current behavior no longer suits the distance or direction of the approaching enemies. Later, Bonds let multiple moves share one active slot.",
+          "Circle the edge of a group and keep a second exit in mind. Take nearby experience when the route is open. If a warning circle or line appears, leave it before returning for the pickup. Crossing the center of a horde for one experience gem often costs more health than the level is worth."
+        ]
+      },
+      {
+        "id": "levels",
+        "title": "3. Give the opening minutes a clear job",
+        "paragraphs": [
+          "Your first job is to establish a reliable attack and stay alive long enough to improve it. At a level-up, read all three offers: a new move changes your options, a move upgrade strengthens an existing attack, and a stat card helps the current run or satisfies an evolution condition.",
+          "Choose one main evolution instead of distributing early levels evenly across every available move. Ember, for example, needs level 5 and a Power card taken in the same run. The card can be taken before level 5. Once ready, select the gold evolution offer; permanent menu upgrades do not substitute for that run card.",
+          "If you are losing health because enemies survive too long, improving the main attack may help. If you are repeatedly trapped, change the route and attack spacing before assuming another damage card will fix it. Survival choices can justify delaying the planned evolution."
+        ]
+      },
+      {
+        "id": "waves",
+        "title": "4. Read waves and bosses as changing pressure",
+        "paragraphs": [
+          "The local archive draws seven species per wild-enemy tier from overlapping base-stat-total bands. Later tiers join the pool while older casts continue with less weight. The schedule below describes eligibility, not a promise that a named species appears at that minute.",
+          "A healer or shielder can make an ordinary crowd harder to clear. A summoner adds bodies, a runner intercepts a predictable route and a bomber punishes staying close. Beam, jump and ground-zone warnings give you information: move out of the marked area first, then decide whether to attack or collect experience.",
+          "Boss slots in this archive begin at 3, 6, 9, 12 and 15 minutes, with a different selection each run. The displayed HP and damage are templates before species, time, behavior, spawner and co-op modifiers. Use the candidate lists to recognize possibilities, not to predict exact fight length."
+        ]
+      },
+      {
+        "id": "world",
+        "title": "5. Stop for rewards only when you have an exit",
+        "paragraphs": [
+          "A locked chest takes 3.5 seconds nearby to open in the local archive, and enemies keep attacking. Move away when the space closes; opening progress decays rather than forcing you to remain. Healing springs consume charge, while an altar grants a temporary effect instead of permanent strength.",
+          "A Rift takes you into a separate legendary arena and can reward a Bond for move fusion. Check health, your active attack and the remaining escape space before entering. A successful plan is one you can survive long enough to use; a low-health Rift attempt can interrupt it.",
+          "Other events include type hordes, golden hour, rescues and fleeing treasure thieves. A timer or a shiny-looking reward does not make a chase safe. Check the event effects below before deciding whether to change your route."
+        ]
+      },
+      {
+        "id": "review",
+        "title": "6. Review the decision that ended the run",
+        "paragraphs": [
+          "After a run, identify the immediate cause: a warning marker you stayed in, an escape lane you closed, an attack that did not cover the crowd, or insufficient damage against a durable enemy. Pick one change for the next attempt so you can tell whether it helped.",
+          "Run cards disappear after the run. Tickets expand the collection through regional banners; coins can buy upgrades for the selected partner. Spend according to your goal rather than treating every currency as interchangeable.",
+          "A useful first-run checklist is simple: know the active slot, keep a clear route, focus one evolution, select its required stat card and leave a dangerous reward behind when necessary. Review the upgrade cards and type chart before your next attempt."
+        ]
+      }
+    ],
+    "cardTitle": "Your First Stronger Run",
+    "heading": "Beginner Guide",
+    "seo": {
+      "title": "Beginner Guide - PokeSurvivor Survival Tips",
+      "description": "Learn PokeSurvivor controls, choose a starting partner and survive early waves. Plan your first evolution and decide when a chest or Rift is worth the risk.",
+      "targetKeywords": [
+        "PokeSurvivor",
+        "Beginner Guide"
+      ]
+    }
+  },
+  {
+    "slug": "move-evolutions",
+    "title": "PokeSurvivor Upgrade & Build Guide: Cards, Evolutions and Bonds",
+    "description": "Build a compatible loadout, choose the right stat cards, unlock gold evolutions and use Bonds to free slots without wasting your upgrade choices.",
+    "icon": "◆",
+    "image": "/art/build.webp",
+    "imageAlt": "Charizard framed by fire in pixel art",
+    "category": "BUILD A BETTER LOADOUT",
+    "readTime": 4,
+    "outcomes": [
+      "Know what each card choice does",
+      "Plan compatible evolution recipes",
+      "Understand full slots and Bonds"
+    ],
+    "sources": [
+      "js/data/moves.js",
+      "js/data/starters.js",
+      "js/systems/levelup.js"
+    ],
+    "sections": [
+      {
+        "id": "pool",
+        "title": "1. Start with the partner’s actual move pool",
+        "paragraphs": [
+          "A normal level-up move pool combines Normal moves with the partner’s species types. A Fire partner can therefore see Normal and Fire options; a dual-type partner has both type families. Check the partner’s available moves in the game before choosing an evolution goal.",
+          "An opening exception can add a move outside that ordinary pool. Psyduck is Water but starts with Confusion. You can upgrade that opening move; it does not mean every Psychic move becomes available as a new card. Check the starting move and the normal pool separately.",
+          "Plan one main attack and one useful alternative before filling every slot. Attack behavior matters: a projectile, an orbit and a dash solve different positioning problems. A type advantage is useful only when you can actually place the attack where it needs to land."
+        ]
+      },
+      {
+        "id": "choices",
+        "title": "2. Learn what the three offers can change",
+        "paragraphs": [
+          "A new-move card fills an empty slot with a compatible move. An upgrade card raises an owned move by one level, to a maximum of 5. A stat card improves the run or heals immediately. Each move has its own upgrade effects; a later level can increase count, coverage or uptime rather than simply add damage.",
+          "Only the active slot fires. Treat a new move as a behavior you can switch to, not a passive damage increase. The game also stops offering additional buff moves after you hold two. Filling slots without a reason can make the next few card choices less useful.",
+          "Stat cards have different limits. Power can be picked 40 times, Sprint 8 and Reflexes 10 in this game build. Armor has a 12-pick limit and a separate 70% application cap. Percentage effects such as Power compound, so a pick count is not the same as an additive percentage."
+        ]
+      },
+      {
+        "id": "recipes",
+        "title": "3. Reach both evolution requirements in the same run",
+        "paragraphs": [
+          "An eligible move must reach level 5, and you must have selected at least one copy of its required stat card during the current run. You may take the stat card before or after level 5. Then choose its gold evolution card at a later level-up.",
+          "There are 64 base moves and 59 evolution paths; the five buff moves do not evolve. A ready evolution is given a guaranteed place among the offered cards for the first ready candidate. If several moves are ready, do not interpret that as every evolution appearing together.",
+          "One stat card can satisfy several recipes that use it, but each move still needs its own levels and gold choice. Ember and Water Gun both use Power. Confusion uses Reflexes. Use the examples below and the full Level-up list rather than guessing the requirement from the move’s type."
+        ]
+      },
+      {
+        "id": "priorities",
+        "title": "4. Pick upgrades for a problem, not a perfect sequence",
+        "paragraphs": [
+          "Editorial approach: concentrate early move upgrades on one main attack and take its prerequisite when it appears. Once the first evolution is established, decide whether to improve coverage, movement or sustain. Card offers are random, so the plan must tolerate an alternative.",
+          "If a good defensive or recovery choice keeps the run alive, it can be more useful than waiting for a specific attack. Avoid collecting several incompatible goals simply because the cards look strong in isolation. A second evolution is valuable only if you can finish it and make use of its slot.",
+          "Use the expanded Level-up rows to compare what each next level changes. Raw per-hit damage is not a DPS ranking: cooldown, projectile count, area, pierce, enemy typing and your partner’s attack factor all affect the result. Use the Types page to compare an attack against each of an enemy’s defending types, multiplying the two factors for a dual-type target."
+        ]
+      },
+      {
+        "id": "bonds",
+        "title": "5. Use a Bond to free a slot",
+        "paragraphs": [
+          "A Rift victory can award a Bond. After returning from the arena, the game lets you fuse separate moves into a shared slot, or extend an existing group. A group can contain up to four moves. The grouped moves fire from that selected slot together.",
+          "Fusion frees a slot that was previously occupied by a separate move, allowing new move cards to appear again. It does not give those moves free levels or skip their evolution requirements. If there are not yet enough separate moves to fuse, the Bond can be held until a suitable choice exists.",
+          "Editorial approach: fuse attacks you want active at the same time, while keeping a deliberate alternative slot for a different situation. Enter a Rift when the current run is ready for its risk; having an appealing fusion planned is not itself a reason to enter with low health."
+        ]
+      },
+      {
+        "id": "rerolls",
+        "title": "6. Use rerolls and save a flexible plan",
+        "paragraphs": [
+          "You get one free card reroll per run. Purchased Card reroll levels can add up to five more, and Ban can exclude up to three new moves for a partner. Repertoire begins with an extra eligible attack and therefore occupies a slot immediately.",
+          "These menu purchases are separate from run stat cards: owning a permanent Strength upgrade does not count as taking Power during the current run. When a gold card seems missing, check the owned move’s level and the exact prerequisite first.",
+          "Choose a partner and check its learnset before planning four compatible move slots. Compare the build examples and Level-up evolution requirements, then note the stat cards each attack needs. Treat the plan as a checklist to adapt when the next actual card offer arrives."
+        ]
+      }
+    ],
+    "cardTitle": "Cards, Evolutions & Bonds",
+    "heading": "Cards, Evolutions and Bonds",
+    "seo": {
+      "title": "Move Evolutions and Builds - PokeSurvivor Guide",
+      "description": "Plan a PokeSurvivor loadout with compatible moves, required stat cards and clear evolution goals. Learn when to reroll, switch attacks or work toward a Bond.",
+      "targetKeywords": [
+        "PokeSurvivor",
+        "Cards, Evolutions and Bonds"
+      ]
+    }
+  },
+  {
+    "slug": "gacha-and-tickets",
+    "title": "PokeSurvivor Collection Guide: Tickets, Gacha and Missions",
+    "description": "Earn tickets through missions and achievements, understand 70-pull pity and ten-pull rules, choose a regional target and claim useful mission rewards.",
+    "icon": "◉",
+    "image": "/art/community.webp",
+    "imageAlt": "Pokémon companions rest by a campfire under a bright moon",
+    "category": "GROW YOUR COLLECTION",
+    "readTime": 5,
+    "outcomes": [
+      "Choose the right regional banner",
+      "Understand guarantees and target odds",
+      "Use daily and weekly mission rewards"
+    ],
+    "sources": [
+      "js/systems/gacha.js",
+      "js/data/pokedex.js",
+      "js/data/achievements.js"
+    ],
+    "sections": [
+      {
+        "id": "currencies",
+        "title": "1. Separate tickets, coins and collection goals",
+        "paragraphs": [
+          "Tickets are used for regional gacha pulls. Coins are a different resource used for partner progression. A single ticket and a ×10 ticket also have different batch behavior: ten separate single pulls do not receive the special last-result guarantee of a ten-pull batch.",
+          "Choose a collection goal before spending. If you want one species, find its region and rarity in the Pokédex, then select the corresponding regional banner. If you mainly want any rare partner, that is a different probability question from targeting one specific species.",
+          "Use the game to inspect current balances and claim rewards. This site cannot read your save, move tickets between accounts or make pulls on your behalf. Review the banner rules and guarantees in this guide before choosing a ticket budget."
+        ]
+      },
+      {
+        "id": "rates",
+        "title": "2. Read the base rates and the regional pool",
+        "paragraphs": [
+          "The base rarity rates are 45% for 1★, 30% for 2★, 17% for 3★, 6.5% for 4★ and 1.5% for 5★. Inside a rarity tier, eligible species in that regional pool have equal selection weight. Different regions contain different numbers of species at each rarity.",
+          "A target’s ordinary per-pull chance is the rarity rate divided by the number of eligible partners at that rarity in the banner. That is a baseline before pity or a batch guarantee changes the rarity roll. Do not multiply an ordinary chance by a large number of pulls and call it a guaranteed result.",
+          "For a collection goal, identify the target’s regional banner and rarity, then check the rarity rate and number of eligible partners. The base chance for a specific species is its rarity’s rate divided by that pool size. Pity and ten-pull guarantees change the sequence, so this base chance does not describe every pull or predict the next random result."
+        ]
+      },
+      {
+        "id": "guarantees",
+        "title": "3. Understand what pity and ten-pulls promise",
+        "paragraphs": [
+          "The counter is checked after it increments: at 69 without a 5★ result, the next pull is forced to 5★. A 5★ result resets the counter. Pity is tracked by regional banner, so use the value shown for the banner you intend to pull.",
+          "A ten-pull has a separate floor. If its first nine results contain no 4★ or 5★, the tenth result is restricted to those two rarities, using their relative 6.5:1.5 weights. That means 81.25% for 4★ and 18.75% for 5★ on that restricted roll, unless pity already forces 5★.",
+          "A guaranteed rarity does not guarantee a particular species. Seventy pulls can guarantee at least one 5★ under these rules without guaranteeing your chosen legendary. When comparing budgets, keep the goal set to the actual species rather than reading the any-5★ result as target odds."
+        ]
+      },
+      {
+        "id": "rewards",
+        "title": "4. Build a reward routine you can complete",
+        "paragraphs": [
+          "Runs, achievements, completed missions and world rewards all contribute to progression. Choose a few attainable objectives for the partner and route you are already practicing. Repeated short, successful objectives can be more useful than attempting a long run you cannot yet finish reliably.",
+          "The local archive’s locked chest requires 3.5 seconds nearby and drops 1–3 single tickets, with separate rolls for an extra ×10 ticket and a held item. A thief may carry coins or a ×10 ticket. These rewards require surviving and collecting them; do not treat a risky chase as free income.",
+          "Achievement and mission rewards must be handled in the game. Read an objective’s condition before starting: a type-specific kill objective, a single-run survival target and a cumulative count require different behavior. Compare the mission goals below before committing to a route."
+        ]
+      },
+      {
+        "id": "missions",
+        "title": "5. Plan around daily and weekly templates",
+        "paragraphs": [
+          "You receive three daily missions and two weekly missions, drawn from ten daily and six weekly possibilities. Each assignment receives one of the listed target values; some also receive a Pokémon type. Calendar periods use Europe/Madrid and selection varies by account. The goals below show the possible assignments; check your current ones in the game.",
+          "Survival, level and play-with-a-type objectives keep the best qualifying single-run result. Defeats, chests, coins, evolutions and similar objectives accumulate qualifying progress. Run-end values such as time and coins are processed when a run ends.",
+          "Completing a target and claiming its reward are separate steps. Open the Missions screen to claim. The archive allows one daily replacement per day, excluding objectives already in the current daily set. A weekly completed-dailies objective advances through claimed daily missions."
+        ]
+      },
+      {
+        "id": "shiny",
+        "title": "6. Treat shiny appearance as a separate goal",
+        "paragraphs": [
+          "The gacha shiny check is 1% when the rolled species has a shiny form. Wild spawns use a separate 1/4096 shiny roll when artwork exists. Neither check makes the species itself more likely to be chosen from the underlying pool.",
+          "If a rolled shiny is already owned, the game tries a missing shiny in the same region and rarity. When that pool is exhausted, it can return a normal result. Do not plan income around an unconditional triple-refund promise for every completed shiny pool.",
+          "The supplied artwork archive contains shiny sprites for 958 of the 966 roster species. Missing artwork is explicitly marked in the Pokédex. A color variation does not change the partner’s base stats. Compare the actual sprites below and pursue a shiny after deciding whether collection breadth or that cosmetic target matters more."
+        ]
+      },
+      {
+        "id": "checklist",
+        "title": "7. Before the next pull",
+        "paragraphs": [
+          "Confirm the banner, name the target and read that banner’s current pity counter. Choose single or ten-pull mode correctly. Use a budget you already have, then compare the target result with the any-5★ result so the two goals stay separate.",
+          "After pulling, check new partners, duplicate coin refunds and the current regional pity counter in the game before planning another batch. A 5★ result resets that region’s pity counter. If your collection goal changes, check the new target’s region and rarity pool before choosing a banner.",
+          "For the next run, return to the same simple progression loop: choose a partner you can use well, finish compatible objectives, claim completed rewards and spend toward a specific goal. A larger collection adds options; practiced movement and card choices make those options useful."
+        ]
+      }
+    ],
+    "cardTitle": "Tickets, Gacha & Missions",
+    "heading": "Tickets, Gacha and Missions",
+    "seo": {
+      "title": "Tickets, Gacha and Missions - PokeSurvivor Guide",
+      "description": "Learn how PokeSurvivor tickets, regional banners and pity work. Choose a collection goal, compare single pulls and ten-pulls, and claim useful mission rewards.",
+      "targetKeywords": [
+        "PokeSurvivor",
+        "Tickets, Gacha and Missions"
+      ]
+    }
+  }
+]

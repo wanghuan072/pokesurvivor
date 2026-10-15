@@ -1,0 +1,263 @@
+@font-face {
+  font-family: Pixel;
+  src: url("/fonts/pixel-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: Pixel;
+  src: url("/fonts/pixel-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+:root {
+  --bg: #03121f;
+  --panel: #061d30;
+  --line: #155b7d;
+  --cyan: #04e2d8;
+  --mint: #24efb7;
+  --text: #ecf5ff;
+  --muted: #a4c3dc;
+  --blue: #39bbff;
+  --pixel: Pixel, "Courier New", monospace;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button,
+a,
+input,
+select,
+summary {
+  outline-offset: 5px;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--mint);
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+p {
+  margin: 0 0 12px;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.18;
+  margin: 0;
+  font-family: var(--pixel);
+  font-weight: 700;
+}
+h1 {
+  font-size: 44px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+small {
+  font-size: 11px;
+}
+em {
+  font-style: normal;
+  color: var(--cyan);
+}
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 15px;
+  z-index: 100;
+  background: var(--mint);
+  color: #022331;
+  padding: 12px;
+}
+.skip-link:focus {
+  top: 10px;
+}
+.pokemon-art {
+  image-rendering: pixelated;
+  object-fit: contain;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 1px solid #70ffe0;
+  border-radius: 5px;
+  padding: 11px 26px;
+  background: linear-gradient(110deg, #21e7b0, #44f5cc, #16d8ad);
+  box-shadow:
+    0 0 18px #00eabd30,
+    inset 0 0 8px #b7ffee50;
+  color: #002327;
+  font-weight: 700;
+  font-size: 18px;
+}
+.btn:hover {
+  filter: brightness(1.12);
+  transform: translateY(-1px);
+}
+.btn-secondary {
+  background: #07304a;
+  border-color: #32b9ff;
+  color: #e5f6ff;
+  box-shadow: inset 0 0 12px #00598b40;
+}
+.tag {
+  display: inline-block;
+  border: 1px solid #1b6e95;
+  border-radius: 4px;
+  padding: 2px 10px;
+  color: #a4dbff;
+  font-size: 11px;
+  background: #07324b;
+}
+.type {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 4px;
+  background: #153b55;
+  color: #d2eaff;
+  font-size: 11px;
+  border: 1px solid #35718e;
+}
+.type[data-type="Fire"] {
+  background: #522923;
+  color: #ffc399;
+  border-color: #b6603c;
+}
+.type[data-type="Grass"] {
+  background: #123f35;
+  color: #8ff1a7;
+  border-color: #338764;
+}
+.type[data-type="Water"] {
+  background: #113c65;
+  color: #a4d9ff;
+  border-color: #397db3;
+}
+.type[data-type="Electric"] {
+  background: #4a4221;
+  color: #ffe47a;
+  border-color: #a2973a;
+}
+.type[data-type="Ghost"],
+.type[data-type="Psychic"],
+.type[data-type="Poison"] {
+  background: #35264b;
+  color: #d8b5ff;
+  border-color: #765098;
+}
+.prose {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.8;
+}
+.prose h2,
+.prose h3 {
+  color: var(--text);
+  margin: 28px 0 12px;
+}
+.prose a {
+  color: var(--cyan);
+  text-decoration: underline;
+}
+.prose ul,
+.prose ol {
+  padding-left: 24px;
+}
+.prose li {
+  margin-bottom: 9px;
+}
+.prose strong {
+  color: var(--text);
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.prose td,
+.prose th {
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  padding: 12px;
+}
+.notice {
+  border-left: 3px solid var(--cyan);
+  padding: 14px 18px;
+  background: #07333d;
+  color: #bce4e8;
+  margin: 20px 0;
+}
+.muted {
+  color: var(--muted);
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *:before,
+  *:after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 34px;
+  }
+  .btn {
+    padding: 10px 18px;
+    font-size: 16px;
+  }
+}
+
+

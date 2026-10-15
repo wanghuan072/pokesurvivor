@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Close-range grass control",
+    "opening": "Vine Whip strikes an arc. Keep an open edge of the crowd in front of you and use later range upgrades instead of walking into its center.",
+    "goals": [
+      "vine-whip",
+      "razor-leaf",
+      "poison-sting"
+    ],
+    "planning": "Grass / Poison opens both attack families alongside Normal. Power supports the opening evolution; Reflexes supports Razor Leaf. Pick coverage that you can switch to when it is needed."
+  },
+  {
+    "id": 4,
+    "title": "A straightforward projectile start",
+    "opening": "Ember targets the nearest enemy. Work toward its move levels and take Power during the same run while focusing on a safe movement route.",
+    "goals": [
+      "ember",
+      "fire-spin",
+      "flame-wheel"
+    ],
+    "planning": "Fire Spin supplies orbit coverage while active; Flame Wheel rewards letting enemies follow your trail. Separate move slots do not all fire together."
+  },
+  {
+    "id": 6,
+    "title": "Fire attacks with flying coverage",
+    "opening": "Charizard also begins with Ember but has its own attack multiplier, speed and Flying pool. Use its movement to keep space for projectile or orbit attacks.",
+    "goals": [
+      "ember",
+      "fire-spin",
+      "wing-attack"
+    ],
+    "planning": "Power supports Ember and Wing Attack; Synthesis supports Fire Spin. Terrain movement is decided by the sprite’s hovering flag, not the Flying type alone."
+  },
+  {
+    "id": 7,
+    "title": "Line up the water stream",
+    "opening": "Water Gun is a piercing projectile. Circle so enemies line up along a clear firing route instead of crossing a packed group for experience.",
+    "goals": [
+      "water-gun",
+      "bubble",
+      "hydro-pump"
+    ],
+    "planning": "Power supports Water Gun and Hydro Pump; Sprint supports Bubble. Choose a second attack to solve a visible problem rather than splitting levels equally across every move."
+  },
+  {
+    "id": 25,
+    "title": "Electric coverage with room to move",
+    "opening": "Thunder Shock gives Pikachu a projectile opening. Its movement speed helps reposition, but does not protect you from staying in ground warnings.",
+    "goals": [
+      "thunder-shock",
+      "thunderbolt",
+      "discharge"
+    ],
+    "planning": "Power, Reflexes and Armor support these three Electric evolution paths. Secure one evolution first, then build the second path around the choices actually offered."
+  },
+  {
+    "id": 54,
+    "title": "A Psychic opening in a Water pool",
+    "opening": "Psyduck explicitly starts with Confusion despite its Water typing. The move can be upgraded, but this exception does not add the whole Psychic family to its normal level-up pool.",
+    "goals": [
+      "confusion",
+      "water-gun",
+      "bubble"
+    ],
+    "planning": "Confusion uses Reflexes, Water Gun uses Power and Bubble uses Sprint. The game distinguishes the opening exception from the Normal + Water card pool."
+  },
+  {
+    "id": 94,
+    "title": "Ghost and Poison pressure",
+    "opening": "Gengar begins with Shadow Ball and has a strong base attack multiplier. Keep a clear projectile lane before committing to an experience pickup.",
+    "goals": [
+      "shadow-ball",
+      "hex",
+      "sludge"
+    ],
+    "planning": "Shadow Ball uses Reflexes, Hex uses Magnet and Sludge uses Power. These are source-compatible options, not measured best-in-slot claims."
+  },
+  {
+    "id": 133,
+    "title": "Practice arcs, dashes and decoys",
+    "opening": "Eevee begins with Tackle, making close-range arcs easy to observe. The Normal pool still includes several different attack behaviors.",
+    "goals": [
+      "tackle",
+      "quick-attack",
+      "substitute"
+    ],
+    "planning": "Vigor, Sprint and Armor unlock these three goals. A dash or decoy changes positioning; read its upgrade effect instead of comparing only raw damage."
+  },
+  {
+    "id": 282,
+    "title": "Psychic and Fairy alternatives",
+    "opening": "Gardevoir begins with Confusion and draws from Normal, Psychic and Fairy. Keep a primary evolution goal and choose another behavior for a clear weakness in your run.",
+    "goals": [
+      "confusion",
+      "psybeam",
+      "dazzling-gleam"
+    ],
+    "planning": "Confusion uses Reflexes, Psybeam uses Power and Dazzling Gleam uses Synthesis. Attack factor still combines with cooldown, coverage and enemy typing."
+  },
+  {
+    "id": 448,
+    "title": "Melee timing with a ranged option",
+    "opening": "Lucario opens with Karate Chop. Leave a way out of each close-range arc, and consider its Fighting / Steel ranged options when you need more distance.",
+    "goals": [
+      "karate-chop",
+      "aura-sphere",
+      "metal-claw"
+    ],
+    "planning": "Power supports Karate Chop and Metal Claw; Reflexes supports Aura Sphere. One stat card can meet several compatible requirements, but each move needs its own level 5 and gold card."
+  }
+]

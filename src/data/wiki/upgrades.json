@@ -1,0 +1,106 @@
+[
+  {
+    "id": "hp",
+    "name": "Vitality",
+    "effect": "+8 HP",
+    "max": 10,
+    "baseCost": 60,
+    "growth": 1.35
+  },
+  {
+    "id": "atk",
+    "name": "Strength",
+    "effect": "+4% damage",
+    "max": 10,
+    "baseCost": 80,
+    "growth": 1.38
+  },
+  {
+    "id": "spd",
+    "name": "Stride",
+    "effect": "+3% speed",
+    "max": 8,
+    "baseCost": 70,
+    "growth": 1.4
+  },
+  {
+    "id": "cd",
+    "name": "Reflexes",
+    "effect": "-3% cooldown",
+    "max": 8,
+    "baseCost": 90,
+    "growth": 1.42
+  },
+  {
+    "id": "def",
+    "name": "Armor",
+    "effect": "+2% defense",
+    "max": 8,
+    "baseCost": 80,
+    "growth": 1.4
+  },
+  {
+    "id": "regen",
+    "name": "Synthesis",
+    "effect": "+0.2 HP/s",
+    "max": 5,
+    "baseCost": 120,
+    "growth": 1.5
+  },
+  {
+    "id": "magnet",
+    "name": "Magnet",
+    "effect": "+12% pickup",
+    "max": 6,
+    "baseCost": 50,
+    "growth": 1.4
+  },
+  {
+    "id": "xp",
+    "name": "Wisdom",
+    "effect": "+5% experience",
+    "max": 8,
+    "baseCost": 100,
+    "growth": 1.42
+  },
+  {
+    "id": "coins",
+    "name": "Fortune",
+    "effect": "+8% PokéCoins",
+    "max": 8,
+    "baseCost": 120,
+    "growth": 1.45
+  },
+  {
+    "id": "moves",
+    "name": "Repertoire",
+    "effect": "Start with 2 moves",
+    "max": 1,
+    "baseCost": 1500,
+    "growth": 1
+  },
+  {
+    "id": "crit",
+    "name": "Critical Hit",
+    "effect": "+3% critical chance (x1.5 damage)",
+    "max": 10,
+    "baseCost": 90,
+    "growth": 1.4
+  },
+  {
+    "id": "reroll",
+    "name": "Card reroll",
+    "effect": "+1 level-up card reroll per run",
+    "max": 5,
+    "baseCost": 150,
+    "growth": 1.6
+  },
+  {
+    "id": "ban",
+    "name": "Ban",
+    "effect": "Ban 1 move: it never shows up in your cards",
+    "max": 3,
+    "baseCost": 300,
+    "growth": 1.9
+  }
+]

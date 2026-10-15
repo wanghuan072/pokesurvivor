@@ -1,0 +1,13 @@
+import assets from "@/data/game/assets.json";
+import encounters from "@/data/game/encounters.json";
+import notes from "@/data/game/move-notes.json";
+export { default as waves } from "@/data/game/waves.json";
+export { default as missions } from "@/data/game/missions.json";
+export { default as worldRules } from "@/data/game/world-rules.json";
+export { default as localRelease } from "@/data/game/source-release.json";
+const artById = new Map(assets.map((a) => [a.id, a]));
+const encounterById = new Map(encounters.map((a) => [a.id, a]));
+const notesById = new Map(notes.map((a) => [a.id, a]));
+export const getSpriteAssets = (id: number) => artById.get(id);
+export const getEncounter = (id: number) => encounterById.get(id);
+export const getMoveNotes = (id: string) => notesById.get(id);

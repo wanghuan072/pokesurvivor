@@ -1,0 +1,1649 @@
+[
+  {
+    "id": "own1",
+    "category": "Collection",
+    "name": "First partner",
+    "description": "Own 1 Pokémon.",
+    "tier": 1,
+    "goal": 1,
+    "reward": {
+      "coins": 100
+    },
+    "title": null
+  },
+  {
+    "id": "own10",
+    "category": "Collection",
+    "name": "Small team",
+    "description": "Own 10 Pokémon.",
+    "tier": 1,
+    "goal": 10,
+    "reward": {
+      "t1": 2
+    },
+    "title": null
+  },
+  {
+    "id": "own50",
+    "category": "Collection",
+    "name": "Collector",
+    "description": "Own 50 Pokémon.",
+    "tier": 2,
+    "goal": 50,
+    "reward": {
+      "t1": 5
+    },
+    "title": "Collector"
+  },
+  {
+    "id": "own100",
+    "category": "Collection",
+    "name": "A hundred friends",
+    "description": "Own 100 Pokémon.",
+    "tier": 2,
+    "goal": 100,
+    "reward": {
+      "t10": 1
+    },
+    "title": null
+  },
+  {
+    "id": "own250",
+    "category": "Collection",
+    "name": "Pokémon Master",
+    "description": "Own 250 Pokémon.",
+    "tier": 3,
+    "goal": 250,
+    "reward": {
+      "t10": 2
+    },
+    "title": "Pokémon Master"
+  },
+  {
+    "id": "own500",
+    "category": "Collection",
+    "name": "Encyclopedia",
+    "description": "Own 500 Pokémon.",
+    "tier": 3,
+    "goal": 500,
+    "reward": {
+      "t10": 3
+    },
+    "title": null
+  },
+  {
+    "id": "ownAll",
+    "category": "Collection",
+    "name": "Pokémon Professor",
+    "description": "Own 966 different Pokémon.",
+    "tier": 3,
+    "goal": 966,
+    "reward": {
+      "t10": 10
+    },
+    "title": "Pokémon Professor"
+  },
+  {
+    "id": "shiny1",
+    "category": "Collection",
+    "name": "Something shines",
+    "description": "Get 1 shiny.",
+    "tier": 1,
+    "goal": 1,
+    "reward": {
+      "t1": 3
+    },
+    "title": "Brilliant"
+  },
+  {
+    "id": "shiny5",
+    "category": "Collection",
+    "name": "An eye for shine",
+    "description": "Get 5 shinies.",
+    "tier": 2,
+    "goal": 5,
+    "reward": {
+      "t10": 1
+    },
+    "title": null
+  },
+  {
+    "id": "shiny20",
+    "category": "Collection",
+    "name": "Shiny hunter",
+    "description": "Get 20 shinies.",
+    "tier": 3,
+    "goal": 20,
+    "reward": {
+      "t10": 2
+    },
+    "title": "Shiny hunter"
+  },
+  {
+    "id": "pulls100",
+    "category": "Collection",
+    "name": "Slot machine",
+    "description": "Make 100 gacha pulls.",
+    "tier": 2,
+    "goal": 100,
+    "reward": {
+      "t10": 1
+    },
+    "title": "Lucky"
+  },
+  {
+    "id": "time5",
+    "category": "Survival",
+    "name": "Warming up",
+    "description": "Survive 5 minutes.",
+    "tier": 1,
+    "goal": 5,
+    "reward": {
+      "coins": 200
+    },
+    "title": null
+  },
+  {
+    "id": "time10",
+    "category": "Survival",
+    "name": "Hard to beat",
+    "description": "Survive 10 minutes.",
+    "tier": 2,
+    "goal": 10,
+    "reward": {
+      "t1": 4
+    },
+    "title": null
+  },
+  {
+    "id": "time15",
+    "category": "Survival",
+    "name": "Tough",
+    "description": "Survive 15 minutes.",
+    "tier": 2,
+    "goal": 15,
+    "reward": {
+      "t10": 1
+    },
+    "title": null
+  },
+  {
+    "id": "time20",
+    "category": "Survival",
+    "name": "Survivor",
+    "description": "Survive 20 minutes.",
+    "tier": 3,
+    "goal": 20,
+    "reward": {
+      "t10": 2
+    },
+    "title": "Survivor"
+  },
+  {
+    "id": "lvl20",
+    "category": "Survival",
+    "name": "Growing up",
+    "description": "Reach level 15 in a run.",
+    "tier": 1,
+    "goal": 15,
+    "reward": {
+      "t1": 2
+    },
+    "title": null
+  },
+  {
+    "id": "lvl40",
+    "category": "Survival",
+    "name": "Unstoppable",
+    "description": "Reach level 30 in a run.",
+    "tier": 3,
+    "goal": 30,
+    "reward": {
+      "t10": 1
+    },
+    "title": "Unstoppable"
+  },
+  {
+    "id": "judge",
+    "category": "Survival",
+    "name": "The Judgment",
+    "description": "Reach the Judgment of Arceus (minute 30).",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t10": 1
+    },
+    "title": "Judged"
+  },
+  {
+    "id": "judge60",
+    "category": "Survival",
+    "name": "Before the Creator",
+    "description": "Survive 1 minute against Arceus.",
+    "tier": 3,
+    "goal": 60,
+    "reward": {
+      "t10": 2
+    },
+    "title": "Chosen of Arceus"
+  },
+  {
+    "id": "judgeBoss",
+    "category": "Survival",
+    "name": "Divine challenge",
+    "description": "Defeat 3 legendaries against Arceus in a single run.",
+    "tier": 3,
+    "goal": 3,
+    "reward": {
+      "t10": 2
+    },
+    "title": null
+  },
+  {
+    "id": "runs50",
+    "category": "Survival",
+    "name": "Explorer",
+    "description": "Play 50 runs.",
+    "tier": 2,
+    "goal": 50,
+    "reward": {
+      "t10": 1
+    },
+    "title": "Explorer"
+  },
+  {
+    "id": "kills1k",
+    "category": "Combat",
+    "name": "First battles",
+    "description": "Defeat 1,000 Pokémon.",
+    "tier": 1,
+    "goal": 1000,
+    "reward": {
+      "t1": 2
+    },
+    "title": null
+  },
+  {
+    "id": "kills10k",
+    "category": "Combat",
+    "name": "Veteran",
+    "description": "Defeat 10,000 Pokémon.",
+    "tier": 2,
+    "goal": 10000,
+    "reward": {
+      "t10": 1
+    },
+    "title": "Veteran"
+  },
+  {
+    "id": "kills100k",
+    "category": "Combat",
+    "name": "Living legend",
+    "description": "Defeat 100,000 Pokémon.",
+    "tier": 3,
+    "goal": 100000,
+    "reward": {
+      "t10": 3
+    },
+    "title": "Living legend"
+  },
+  {
+    "id": "boss1",
+    "category": "Combat",
+    "name": "Giant slayer",
+    "description": "Defeat a boss.",
+    "tier": 1,
+    "goal": 1,
+    "reward": {
+      "t1": 2
+    },
+    "title": null
+  },
+  {
+    "id": "boss25",
+    "category": "Combat",
+    "name": "Boss hunter",
+    "description": "Defeat 25 bosses.",
+    "tier": 2,
+    "goal": 25,
+    "reward": {
+      "t10": 1
+    },
+    "title": "Boss hunter"
+  },
+  {
+    "id": "boss100",
+    "category": "Combat",
+    "name": "Terror of bosses",
+    "description": "Defeat 100 bosses.",
+    "tier": 3,
+    "goal": 100,
+    "reward": {
+      "t10": 2
+    },
+    "title": null
+  },
+  {
+    "id": "evo1",
+    "category": "Combat",
+    "name": "Evolution",
+    "description": "Evolve a move.",
+    "tier": 1,
+    "goal": 1,
+    "reward": {
+      "t1": 3
+    },
+    "title": null
+  },
+  {
+    "id": "evo25",
+    "category": "Combat",
+    "name": "Evolutionist",
+    "description": "Evolve 25 moves.",
+    "tier": 2,
+    "goal": 25,
+    "reward": {
+      "t10": 1
+    },
+    "title": "Evolutionist"
+  },
+  {
+    "id": "evoAll",
+    "category": "Combat",
+    "name": "Move master",
+    "description": "Evolve 59 different moves.",
+    "tier": 3,
+    "goal": 59,
+    "reward": {
+      "t10": 3
+    },
+    "title": "Move master"
+  },
+  {
+    "id": "items5",
+    "category": "Combat",
+    "name": "Full bag",
+    "description": "Find 5 different items.",
+    "tier": 1,
+    "goal": 5,
+    "reward": {
+      "t1": 3
+    },
+    "title": null
+  },
+  {
+    "id": "itemsAll",
+    "category": "Combat",
+    "name": "Item collector",
+    "description": "Find all 11 items.",
+    "tier": 2,
+    "goal": 11,
+    "reward": {
+      "t10": 1
+    },
+    "title": "Antiquarian"
+  },
+  {
+    "id": "rift1",
+    "category": "Rifts",
+    "name": "The other side",
+    "description": "Win your first rift battle.",
+    "tier": 1,
+    "goal": 1,
+    "reward": {
+      "t1": 3
+    },
+    "title": "Brave"
+  },
+  {
+    "id": "rift10",
+    "category": "Rifts",
+    "name": "Rift jumper",
+    "description": "Win 10 rift battles.",
+    "tier": 2,
+    "goal": 10,
+    "reward": {
+      "t10": 1
+    },
+    "title": null
+  },
+  {
+    "id": "arenas",
+    "category": "Rifts",
+    "name": "Rift traveler",
+    "description": "Win in all 18 arenas (one per type).",
+    "tier": 3,
+    "goal": 18,
+    "reward": {
+      "t10": 2
+    },
+    "title": "Rift traveler"
+  },
+  {
+    "id": "leg10",
+    "category": "Legendary encounters",
+    "name": "Legend hunter",
+    "description": "Defeat 10 different legendaries.",
+    "tier": 2,
+    "goal": 10,
+    "reward": {
+      "t10": 1
+    },
+    "title": "Legend hunter"
+  },
+  {
+    "id": "leg30",
+    "category": "Legendary encounters",
+    "name": "Myth tamer",
+    "description": "Defeat 30 different legendaries.",
+    "tier": 3,
+    "goal": 30,
+    "reward": {
+      "t10": 2
+    },
+    "title": null
+  },
+  {
+    "id": "legAll",
+    "category": "Legendary encounters",
+    "name": "Legend",
+    "description": "Defeat all 87 Rift legendary partners.",
+    "tier": 3,
+    "goal": 87,
+    "reward": {
+      "t10": 5
+    },
+    "title": "Legend"
+  },
+  {
+    "id": "mis10",
+    "category": "Missions & more",
+    "name": "Reliable",
+    "description": "Complete 10 missions.",
+    "tier": 1,
+    "goal": 10,
+    "reward": {
+      "t1": 3
+    },
+    "title": null
+  },
+  {
+    "id": "mis50",
+    "category": "Missions & more",
+    "name": "Steady",
+    "description": "Complete 50 missions.",
+    "tier": 2,
+    "goal": 50,
+    "reward": {
+      "t10": 1
+    },
+    "title": "Steady"
+  },
+  {
+    "id": "mis200",
+    "category": "Missions & more",
+    "name": "Tireless",
+    "description": "Complete 200 missions.",
+    "tier": 3,
+    "goal": 200,
+    "reward": {
+      "t10": 3
+    },
+    "title": null
+  },
+  {
+    "id": "group1",
+    "category": "Missions & more",
+    "name": "In good company",
+    "description": "Play a group game.",
+    "tier": 1,
+    "goal": 1,
+    "reward": {
+      "t1": 2
+    },
+    "title": null
+  },
+  {
+    "id": "group10",
+    "category": "Missions & more",
+    "name": "Loyal partner",
+    "description": "Play 10 group games.",
+    "tier": 2,
+    "goal": 10,
+    "reward": {
+      "t10": 1
+    },
+    "title": "Loyal partner"
+  },
+  {
+    "id": "leg_144",
+    "category": "Legendary encounters",
+    "name": "Defeat Articuno",
+    "description": "Defeat Articuno in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 144
+  },
+  {
+    "id": "leg_145",
+    "category": "Legendary encounters",
+    "name": "Defeat Zapdos",
+    "description": "Defeat Zapdos in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 145
+  },
+  {
+    "id": "leg_146",
+    "category": "Legendary encounters",
+    "name": "Defeat Moltres",
+    "description": "Defeat Moltres in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 146
+  },
+  {
+    "id": "leg_150",
+    "category": "Legendary encounters",
+    "name": "Defeat Mewtwo",
+    "description": "Defeat Mewtwo in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 150
+  },
+  {
+    "id": "leg_151",
+    "category": "Legendary encounters",
+    "name": "Defeat Mew",
+    "description": "Defeat Mew in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 151
+  },
+  {
+    "id": "leg_243",
+    "category": "Legendary encounters",
+    "name": "Defeat Raikou",
+    "description": "Defeat Raikou in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 243
+  },
+  {
+    "id": "leg_244",
+    "category": "Legendary encounters",
+    "name": "Defeat Entei",
+    "description": "Defeat Entei in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 244
+  },
+  {
+    "id": "leg_245",
+    "category": "Legendary encounters",
+    "name": "Defeat Suicune",
+    "description": "Defeat Suicune in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 245
+  },
+  {
+    "id": "leg_249",
+    "category": "Legendary encounters",
+    "name": "Defeat Lugia",
+    "description": "Defeat Lugia in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 249
+  },
+  {
+    "id": "leg_250",
+    "category": "Legendary encounters",
+    "name": "Defeat Ho-Oh",
+    "description": "Defeat Ho-Oh in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 250
+  },
+  {
+    "id": "leg_251",
+    "category": "Legendary encounters",
+    "name": "Defeat Celebi",
+    "description": "Defeat Celebi in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 251
+  },
+  {
+    "id": "leg_377",
+    "category": "Legendary encounters",
+    "name": "Defeat Regirock",
+    "description": "Defeat Regirock in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 377
+  },
+  {
+    "id": "leg_378",
+    "category": "Legendary encounters",
+    "name": "Defeat Regice",
+    "description": "Defeat Regice in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 378
+  },
+  {
+    "id": "leg_379",
+    "category": "Legendary encounters",
+    "name": "Defeat Registeel",
+    "description": "Defeat Registeel in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 379
+  },
+  {
+    "id": "leg_380",
+    "category": "Legendary encounters",
+    "name": "Defeat Latias",
+    "description": "Defeat Latias in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 380
+  },
+  {
+    "id": "leg_381",
+    "category": "Legendary encounters",
+    "name": "Defeat Latios",
+    "description": "Defeat Latios in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 381
+  },
+  {
+    "id": "leg_382",
+    "category": "Legendary encounters",
+    "name": "Defeat Kyogre",
+    "description": "Defeat Kyogre in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 382
+  },
+  {
+    "id": "leg_383",
+    "category": "Legendary encounters",
+    "name": "Defeat Groudon",
+    "description": "Defeat Groudon in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 383
+  },
+  {
+    "id": "leg_384",
+    "category": "Legendary encounters",
+    "name": "Defeat Rayquaza",
+    "description": "Defeat Rayquaza in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 384
+  },
+  {
+    "id": "leg_385",
+    "category": "Legendary encounters",
+    "name": "Defeat Jirachi",
+    "description": "Defeat Jirachi in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 385
+  },
+  {
+    "id": "leg_386",
+    "category": "Legendary encounters",
+    "name": "Defeat Deoxys",
+    "description": "Defeat Deoxys in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 386
+  },
+  {
+    "id": "leg_480",
+    "category": "Legendary encounters",
+    "name": "Defeat Uxie",
+    "description": "Defeat Uxie in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 480
+  },
+  {
+    "id": "leg_481",
+    "category": "Legendary encounters",
+    "name": "Defeat Mesprit",
+    "description": "Defeat Mesprit in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 481
+  },
+  {
+    "id": "leg_482",
+    "category": "Legendary encounters",
+    "name": "Defeat Azelf",
+    "description": "Defeat Azelf in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 482
+  },
+  {
+    "id": "leg_483",
+    "category": "Legendary encounters",
+    "name": "Defeat Dialga",
+    "description": "Defeat Dialga in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 483
+  },
+  {
+    "id": "leg_484",
+    "category": "Legendary encounters",
+    "name": "Defeat Palkia",
+    "description": "Defeat Palkia in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 484
+  },
+  {
+    "id": "leg_485",
+    "category": "Legendary encounters",
+    "name": "Defeat Heatran",
+    "description": "Defeat Heatran in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 485
+  },
+  {
+    "id": "leg_486",
+    "category": "Legendary encounters",
+    "name": "Defeat Regigigas",
+    "description": "Defeat Regigigas in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 486
+  },
+  {
+    "id": "leg_487",
+    "category": "Legendary encounters",
+    "name": "Defeat Giratina",
+    "description": "Defeat Giratina in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 487
+  },
+  {
+    "id": "leg_488",
+    "category": "Legendary encounters",
+    "name": "Defeat Cresselia",
+    "description": "Defeat Cresselia in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 488
+  },
+  {
+    "id": "leg_489",
+    "category": "Legendary encounters",
+    "name": "Defeat Phione",
+    "description": "Defeat Phione in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 489
+  },
+  {
+    "id": "leg_490",
+    "category": "Legendary encounters",
+    "name": "Defeat Manaphy",
+    "description": "Defeat Manaphy in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 490
+  },
+  {
+    "id": "leg_491",
+    "category": "Legendary encounters",
+    "name": "Defeat Darkrai",
+    "description": "Defeat Darkrai in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 491
+  },
+  {
+    "id": "leg_492",
+    "category": "Legendary encounters",
+    "name": "Defeat Shaymin",
+    "description": "Defeat Shaymin in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 492
+  },
+  {
+    "id": "leg_493",
+    "category": "Legendary encounters",
+    "name": "Defeat Arceus",
+    "description": "Defeat Arceus in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 493
+  },
+  {
+    "id": "leg_494",
+    "category": "Legendary encounters",
+    "name": "Defeat Victini",
+    "description": "Defeat Victini in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 494
+  },
+  {
+    "id": "leg_638",
+    "category": "Legendary encounters",
+    "name": "Defeat Cobalion",
+    "description": "Defeat Cobalion in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 638
+  },
+  {
+    "id": "leg_639",
+    "category": "Legendary encounters",
+    "name": "Defeat Terrakion",
+    "description": "Defeat Terrakion in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 639
+  },
+  {
+    "id": "leg_640",
+    "category": "Legendary encounters",
+    "name": "Defeat Virizion",
+    "description": "Defeat Virizion in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 640
+  },
+  {
+    "id": "leg_641",
+    "category": "Legendary encounters",
+    "name": "Defeat Tornadus",
+    "description": "Defeat Tornadus in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 641
+  },
+  {
+    "id": "leg_642",
+    "category": "Legendary encounters",
+    "name": "Defeat Thundurus",
+    "description": "Defeat Thundurus in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 642
+  },
+  {
+    "id": "leg_643",
+    "category": "Legendary encounters",
+    "name": "Defeat Reshiram",
+    "description": "Defeat Reshiram in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 643
+  },
+  {
+    "id": "leg_644",
+    "category": "Legendary encounters",
+    "name": "Defeat Zekrom",
+    "description": "Defeat Zekrom in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 644
+  },
+  {
+    "id": "leg_645",
+    "category": "Legendary encounters",
+    "name": "Defeat Landorus",
+    "description": "Defeat Landorus in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 645
+  },
+  {
+    "id": "leg_646",
+    "category": "Legendary encounters",
+    "name": "Defeat Kyurem",
+    "description": "Defeat Kyurem in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 646
+  },
+  {
+    "id": "leg_647",
+    "category": "Legendary encounters",
+    "name": "Defeat Keldeo",
+    "description": "Defeat Keldeo in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 647
+  },
+  {
+    "id": "leg_648",
+    "category": "Legendary encounters",
+    "name": "Defeat Meloetta",
+    "description": "Defeat Meloetta in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 648
+  },
+  {
+    "id": "leg_649",
+    "category": "Legendary encounters",
+    "name": "Defeat Genesect",
+    "description": "Defeat Genesect in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 649
+  },
+  {
+    "id": "leg_716",
+    "category": "Legendary encounters",
+    "name": "Defeat Xerneas",
+    "description": "Defeat Xerneas in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 716
+  },
+  {
+    "id": "leg_717",
+    "category": "Legendary encounters",
+    "name": "Defeat Yveltal",
+    "description": "Defeat Yveltal in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 717
+  },
+  {
+    "id": "leg_718",
+    "category": "Legendary encounters",
+    "name": "Defeat Zygarde",
+    "description": "Defeat Zygarde in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 718
+  },
+  {
+    "id": "leg_719",
+    "category": "Legendary encounters",
+    "name": "Defeat Diancie",
+    "description": "Defeat Diancie in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 719
+  },
+  {
+    "id": "leg_720",
+    "category": "Legendary encounters",
+    "name": "Defeat Hoopa",
+    "description": "Defeat Hoopa in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 720
+  },
+  {
+    "id": "leg_721",
+    "category": "Legendary encounters",
+    "name": "Defeat Volcanion",
+    "description": "Defeat Volcanion in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 721
+  },
+  {
+    "id": "leg_772",
+    "category": "Legendary encounters",
+    "name": "Defeat Type: Null",
+    "description": "Defeat Type: Null in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 772
+  },
+  {
+    "id": "leg_773",
+    "category": "Legendary encounters",
+    "name": "Defeat Silvally",
+    "description": "Defeat Silvally in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 773
+  },
+  {
+    "id": "leg_785",
+    "category": "Legendary encounters",
+    "name": "Defeat Tapu Koko",
+    "description": "Defeat Tapu Koko in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 785
+  },
+  {
+    "id": "leg_786",
+    "category": "Legendary encounters",
+    "name": "Defeat Tapu Lele",
+    "description": "Defeat Tapu Lele in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 786
+  },
+  {
+    "id": "leg_787",
+    "category": "Legendary encounters",
+    "name": "Defeat Tapu Bulu",
+    "description": "Defeat Tapu Bulu in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 787
+  },
+  {
+    "id": "leg_788",
+    "category": "Legendary encounters",
+    "name": "Defeat Tapu Fini",
+    "description": "Defeat Tapu Fini in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 788
+  },
+  {
+    "id": "leg_789",
+    "category": "Legendary encounters",
+    "name": "Defeat Cosmog",
+    "description": "Defeat Cosmog in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 789
+  },
+  {
+    "id": "leg_790",
+    "category": "Legendary encounters",
+    "name": "Defeat Cosmoem",
+    "description": "Defeat Cosmoem in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 790
+  },
+  {
+    "id": "leg_791",
+    "category": "Legendary encounters",
+    "name": "Defeat Solgaleo",
+    "description": "Defeat Solgaleo in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 791
+  },
+  {
+    "id": "leg_792",
+    "category": "Legendary encounters",
+    "name": "Defeat Lunala",
+    "description": "Defeat Lunala in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 792
+  },
+  {
+    "id": "leg_800",
+    "category": "Legendary encounters",
+    "name": "Defeat Necrozma",
+    "description": "Defeat Necrozma in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 800
+  },
+  {
+    "id": "leg_801",
+    "category": "Legendary encounters",
+    "name": "Defeat Magearna",
+    "description": "Defeat Magearna in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 801
+  },
+  {
+    "id": "leg_802",
+    "category": "Legendary encounters",
+    "name": "Defeat Marshadow",
+    "description": "Defeat Marshadow in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 802
+  },
+  {
+    "id": "leg_807",
+    "category": "Legendary encounters",
+    "name": "Defeat Zeraora",
+    "description": "Defeat Zeraora in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 807
+  },
+  {
+    "id": "leg_808",
+    "category": "Legendary encounters",
+    "name": "Defeat Meltan",
+    "description": "Defeat Meltan in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 808
+  },
+  {
+    "id": "leg_809",
+    "category": "Legendary encounters",
+    "name": "Defeat Melmetal",
+    "description": "Defeat Melmetal in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 809
+  },
+  {
+    "id": "leg_888",
+    "category": "Legendary encounters",
+    "name": "Defeat Zacian",
+    "description": "Defeat Zacian in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 888
+  },
+  {
+    "id": "leg_889",
+    "category": "Legendary encounters",
+    "name": "Defeat Zamazenta",
+    "description": "Defeat Zamazenta in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 889
+  },
+  {
+    "id": "leg_890",
+    "category": "Legendary encounters",
+    "name": "Defeat Eternatus",
+    "description": "Defeat Eternatus in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 890
+  },
+  {
+    "id": "leg_891",
+    "category": "Legendary encounters",
+    "name": "Defeat Kubfu",
+    "description": "Defeat Kubfu in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 891
+  },
+  {
+    "id": "leg_892",
+    "category": "Legendary encounters",
+    "name": "Defeat Urshifu",
+    "description": "Defeat Urshifu in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 892
+  },
+  {
+    "id": "leg_894",
+    "category": "Legendary encounters",
+    "name": "Defeat Regieleki",
+    "description": "Defeat Regieleki in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 894
+  },
+  {
+    "id": "leg_895",
+    "category": "Legendary encounters",
+    "name": "Defeat Regidrago",
+    "description": "Defeat Regidrago in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 895
+  },
+  {
+    "id": "leg_896",
+    "category": "Legendary encounters",
+    "name": "Defeat Glastrier",
+    "description": "Defeat Glastrier in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 896
+  },
+  {
+    "id": "leg_897",
+    "category": "Legendary encounters",
+    "name": "Defeat Spectrier",
+    "description": "Defeat Spectrier in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 897
+  },
+  {
+    "id": "leg_898",
+    "category": "Legendary encounters",
+    "name": "Defeat Calyrex",
+    "description": "Defeat Calyrex in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 898
+  },
+  {
+    "id": "leg_905",
+    "category": "Legendary encounters",
+    "name": "Defeat Enamorus",
+    "description": "Defeat Enamorus in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 905
+  },
+  {
+    "id": "leg_1004",
+    "category": "Legendary encounters",
+    "name": "Defeat Chi-Yu",
+    "description": "Defeat Chi-Yu in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 1004
+  },
+  {
+    "id": "leg_1007",
+    "category": "Legendary encounters",
+    "name": "Defeat Koraidon",
+    "description": "Defeat Koraidon in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 1007
+  },
+  {
+    "id": "leg_1015",
+    "category": "Legendary encounters",
+    "name": "Defeat Munkidori",
+    "description": "Defeat Munkidori in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 1015
+  },
+  {
+    "id": "leg_1016",
+    "category": "Legendary encounters",
+    "name": "Defeat Fezandipiti",
+    "description": "Defeat Fezandipiti in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 1016
+  },
+  {
+    "id": "leg_1017",
+    "category": "Legendary encounters",
+    "name": "Defeat Ogerpon",
+    "description": "Defeat Ogerpon in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 1017
+  },
+  {
+    "id": "leg_1024",
+    "category": "Legendary encounters",
+    "name": "Defeat Terapagos",
+    "description": "Defeat Terapagos in a Rift.",
+    "tier": 2,
+    "goal": 1,
+    "reward": {
+      "t1": 1
+    },
+    "title": null,
+    "pokemonId": 1024
+  }
+]

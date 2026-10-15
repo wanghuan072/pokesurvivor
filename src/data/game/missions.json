@@ -1,0 +1,260 @@
+[
+  {
+    "id": "kill",
+    "period": "daily",
+    "name": "Defeat wild Pokémon",
+    "event": "kill",
+    "mode": "add",
+    "typeSpecific": false,
+    "goals": [
+      300,
+      500,
+      800
+    ],
+    "reward": {
+      "t1": 2,
+      "coins": 150
+    }
+  },
+  {
+    "id": "killType",
+    "period": "daily",
+    "name": "Defeat a chosen type",
+    "event": "kill",
+    "mode": "add",
+    "typeSpecific": true,
+    "goals": [
+      30,
+      50,
+      80
+    ],
+    "reward": {
+      "t1": 2,
+      "coins": 200
+    }
+  },
+  {
+    "id": "survive",
+    "period": "daily",
+    "name": "Survive in one run",
+    "event": "runEnd",
+    "mode": "max",
+    "typeSpecific": false,
+    "goals": [
+      5,
+      7,
+      9
+    ],
+    "reward": {
+      "t1": 3,
+      "coins": 200
+    }
+  },
+  {
+    "id": "level",
+    "period": "daily",
+    "name": "Reach a level in one run",
+    "event": "runEnd",
+    "mode": "max",
+    "typeSpecific": false,
+    "goals": [
+      8,
+      12,
+      15
+    ],
+    "reward": {
+      "t1": 2,
+      "coins": 200
+    }
+  },
+  {
+    "id": "boss",
+    "period": "daily",
+    "name": "Defeat bosses",
+    "event": "kill",
+    "mode": "add",
+    "typeSpecific": false,
+    "goals": [
+      1,
+      2
+    ],
+    "reward": {
+      "t1": 3,
+      "coins": 250
+    }
+  },
+  {
+    "id": "chest",
+    "period": "daily",
+    "name": "Open locked chests",
+    "event": "chest",
+    "mode": "add",
+    "typeSpecific": false,
+    "goals": [
+      1,
+      2
+    ],
+    "reward": {
+      "t1": 2,
+      "coins": 200
+    }
+  },
+  {
+    "id": "coins",
+    "period": "daily",
+    "name": "Collect run coins",
+    "event": "runEnd",
+    "mode": "add",
+    "typeSpecific": false,
+    "goals": [
+      100,
+      200,
+      300
+    ],
+    "reward": {
+      "t1": 2,
+      "coins": 150
+    }
+  },
+  {
+    "id": "playType",
+    "period": "daily",
+    "name": "Survive with a chosen type",
+    "event": "runEnd",
+    "mode": "max",
+    "typeSpecific": true,
+    "goals": [
+      3
+    ],
+    "reward": {
+      "t1": 3,
+      "coins": 200
+    }
+  },
+  {
+    "id": "item",
+    "period": "daily",
+    "name": "Find a held item",
+    "event": "item",
+    "mode": "add",
+    "typeSpecific": false,
+    "goals": [
+      1
+    ],
+    "reward": {
+      "t1": 2,
+      "coins": 150
+    }
+  },
+  {
+    "id": "evolve",
+    "period": "daily",
+    "name": "Evolve a move",
+    "event": "evolve",
+    "mode": "add",
+    "typeSpecific": false,
+    "goals": [
+      1
+    ],
+    "reward": {
+      "t1": 3,
+      "coins": 250
+    }
+  },
+  {
+    "id": "wkill",
+    "period": "weekly",
+    "name": "Defeat wild Pokémon",
+    "event": "kill",
+    "mode": "add",
+    "typeSpecific": false,
+    "goals": [
+      4000,
+      6000
+    ],
+    "reward": {
+      "t10": 1,
+      "coins": 800
+    }
+  },
+  {
+    "id": "wrift",
+    "period": "weekly",
+    "name": "Win Rift battles",
+    "event": "rift",
+    "mode": "add",
+    "typeSpecific": false,
+    "goals": [
+      1,
+      2
+    ],
+    "reward": {
+      "t10": 1,
+      "coins": 1000
+    }
+  },
+  {
+    "id": "wboss",
+    "period": "weekly",
+    "name": "Defeat bosses",
+    "event": "kill",
+    "mode": "add",
+    "typeSpecific": false,
+    "goals": [
+      4,
+      6
+    ],
+    "reward": {
+      "t10": 1,
+      "coins": 900
+    }
+  },
+  {
+    "id": "wsurvive",
+    "period": "weekly",
+    "name": "Survive in one run",
+    "event": "runEnd",
+    "mode": "max",
+    "typeSpecific": false,
+    "goals": [
+      12,
+      15
+    ],
+    "reward": {
+      "t10": 1,
+      "coins": 1000
+    }
+  },
+  {
+    "id": "wevolve",
+    "period": "weekly",
+    "name": "Evolve moves",
+    "event": "evolve",
+    "mode": "add",
+    "typeSpecific": false,
+    "goals": [
+      3,
+      5
+    ],
+    "reward": {
+      "t10": 1,
+      "coins": 900
+    }
+  },
+  {
+    "id": "wdaily",
+    "period": "weekly",
+    "name": "Complete daily missions",
+    "event": "missionDone",
+    "mode": "add",
+    "typeSpecific": false,
+    "goals": [
+      8,
+      12
+    ],
+    "reward": {
+      "t10": 1,
+      "coins": 800
+    }
+  }
+]

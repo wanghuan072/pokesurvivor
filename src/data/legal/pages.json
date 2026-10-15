@@ -1,0 +1,209 @@
+{
+  "privacy-policy": {
+    "sections": [
+      {
+        "heading": "Scope of this policy",
+        "paragraphs": [
+          "This policy explains how PokeSurvivor.me handles information when you browse this independent fan guide or contact its maintainer. It covers this website, not the separately operated game at pokesurvivor.com. The game has its own account, save, multiplayer and privacy systems. This website does not operate those systems or receive access to your game account.",
+          "The current website has no visitor accounts, public comments, contact forms, advertising scripts or analytics services. If features that change how information is handled are introduced, this policy will be updated to describe them."
+        ]
+      },
+      {
+        "heading": "Browsing and hosting requests",
+        "paragraphs": [
+          "Your browser requests pages, scripts, styles, fonts and images from the website’s hosting infrastructure. Those requests can expose technical information such as an IP address, browser details, requested URL and request time to the hosting provider. Such information may be processed for delivery, security and troubleshooting under the provider’s arrangements. This site does not promise that infrastructure-level logging is absent.",
+          "Pokémon sprites, game icons and fonts used by the guide are served with the website. Viewing them does not require a request to an external sprite service. Links to other websites are not loaded merely because you read their text."
+        ]
+      },
+      {
+        "heading": "Search, filters and browser storage",
+        "paragraphs": [
+          "Site search loads a search index from this website and matches your query in the browser. List filters and sorting also run in the browser; they do not submit the text you type to a search provider. The current site does not add tracking cookies.",
+          "An earlier version included a build planner that could save a plan locally. The current website does not read or update those plans. Any remaining entries can be removed through your browser’s settings for this site. Ordinary browser caching may retain files to make later visits faster."
+        ]
+      },
+      {
+        "heading": "Loading the official game",
+        "paragraphs": [
+          "The Play page does not load the external game until you choose Launch Game. Once launched, an embedded frame requests content from pokesurvivor.com. The game and its service providers may receive connection information and use their own cookies or storage. Opening the game in a new tab also connects directly to that operator.",
+          "Any sign-in, account recovery, friends list or cloud-save interaction occurs with the game’s systems. PokeSurvivor.me cannot inspect an embedded game’s private account data, reset a password or retrieve a save. Review the game operator’s notices before using its account features."
+        ]
+      },
+      {
+        "heading": "Email correspondence",
+        "paragraphs": [
+          "If you email support@pokesurvivor.me, the message includes your address and whatever information you choose to send. Correspondence may be used to understand the request, investigate an error and respond. Email services also process messages as part of delivering them. Do not include game passwords, access tokens or unrelated sensitive information.",
+          "A correction can usually be explained with the affected page URL, the disputed statement and the game version. A screenshot is optional. Remove private information before sending one. Correspondence is not intended for public posting."
+        ]
+      },
+      {
+        "heading": "Your choices and questions",
+        "paragraphs": [
+          "You can browse the guide without launching the game or sending email. Browser settings let you remove cached files and local storage. They may also let you restrict third-party cookies, although doing so can affect features of an embedded game.",
+          "For a question about information sent to this website, contact support@pokesurvivor.me and describe the request without providing unnecessary personal information. Requests concerning a game account or its storage should go to the game operator. No fixed retention period or response deadline is represented where one has not been established."
+        ]
+      }
+    ]
+  },
+  "terms-of-service": {
+    "sections": [
+      {
+        "heading": "About this website",
+        "paragraphs": [
+          "PokeSurvivor.me is an independent fan guide for PokeSurvivor. It provides gameplay explanations, Pokémon and move information, and suggestions for planning a run. It is not the official game operator and is not affiliated with or endorsed by that operator, Nintendo, Creatures Inc., GAME FREAK or The Pokémon Company.",
+          "These terms describe use of the guide. They do not replace any terms that apply to the official game, an account created there or services provided by another website."
+        ]
+      },
+      {
+        "heading": "Using the guide",
+        "paragraphs": [
+          "You may read the guide and use its explanations to help you play. Use the website lawfully and in a way that respects other visitors and the people who maintain it. Do not attempt to disrupt access, exploit a vulnerability, bypass security controls or present this fan website as an official service.",
+          "The guide does not sell in-game items, manage ticket balances or make gacha pulls for you. It does not provide a way to sign in to a game account. Requests for account changes must be directed to the game operator."
+        ]
+      },
+      {
+        "heading": "Gameplay information and limitations",
+        "paragraphs": [
+          "The game can change after a guide is written. Figures and mechanics describe the versions identified in the editorial notes and may differ from a later update. When the game interface shows a different requirement, check the version before following an older plan.",
+          "Builds and upgrade priorities are suggestions, not promises of a particular result. Card offers, partner progression, movement and other run conditions affect outcomes. Base-stat comparisons are not measured leaderboards. Gacha rates describe rules and probabilities; a rarity guarantee is not a promise that a particular species will appear."
+        ]
+      },
+      {
+        "heading": "External websites and the game",
+        "paragraphs": [
+          "Choosing Launch Game or following an external link connects you to a separately operated service. Its availability, accounts, saves, multiplayer features and content are controlled by that operator. The guide cannot guarantee continued access to an external service or repair a game account.",
+          "A link is provided to help explain or access the game. It does not imply ownership, a partnership or endorsement. Third-party services may apply their own terms and privacy practices."
+        ]
+      },
+      {
+        "heading": "Text, artwork and permissions",
+        "paragraphs": [
+          "Original writing and website branding are protected separately from the game’s names, characters and third-party artwork. Do not assume that permission to read this guide grants permission to republish an entire article or use game artwork commercially.",
+          "Some assets are supplied under licenses that allow specified forms of reuse. Those permissions continue to apply to their respective assets, and these terms do not remove them. The Copyright page identifies the notices and credits retained by this website."
+        ]
+      },
+      {
+        "heading": "Availability and responsibility",
+        "paragraphs": [
+          "The guide is provided for general gameplay help. Content may contain mistakes, and access may be interrupted for maintenance or reasons outside the maintainer’s control. No guarantee is made that the guide will always be available or match every future version of the game.",
+          "Nothing in these terms is intended to exclude rights that cannot lawfully be excluded. No particular governing law, court or commercial service commitment is asserted by this page."
+        ]
+      },
+      {
+        "heading": "Changes and contact",
+        "paragraphs": [
+          "These terms may be revised when the website’s features or practices change. The page’s displayed update date identifies a substantive revision rather than a new promise about gameplay accuracy. Contact support@pokesurvivor.me about a website issue, a correction or a question concerning these terms."
+        ]
+      }
+    ]
+  },
+  "copyright": {
+    "sections": [
+      {
+        "heading": "Original website content",
+        "paragraphs": [
+          "Original articles, explanations and site-specific branding published by PokeSurvivor.me are distinct from the underlying game and third-party artwork. The footer’s copyright notice applies to original material for which this site holds rights. It does not claim ownership of Pokémon, PokeSurvivor or assets credited to other creators.",
+          "Linking to an article is welcome. Requests to reuse substantial original text or branding can be sent to support@pokesurvivor.me. A request should identify the material and the intended use so the maintainer can distinguish original work from content governed by a third-party license."
+        ]
+      },
+      {
+        "heading": "Game names and characters",
+        "paragraphs": [
+          "Pokémon names, characters and related trademarks remain the property of their respective rights holders. PokeSurvivor is operated by its creator. PokeSurvivor.me is an unofficial fan guide and has no ownership of, affiliation with or endorsement from the game operator or the Pokémon rights holders.",
+          "Descriptive use of a name on this site is intended to identify the game or a gameplay subject. It is not a representation that the site is an official publisher or that it can grant permissions on a rights holder’s behalf."
+        ]
+      },
+      {
+        "heading": "Sprite artwork and artist credits",
+        "paragraphs": [
+          "The sprite frames used by the guide were supplied with the game’s SpriteCollab artwork and are identified there under Creative Commons Attribution-NonCommercial 4.0. The original artist list and license notices are retained and linked below. That license includes attribution requirements and a noncommercial restriction; it is not unrestricted permission for any use.",
+          "The guide’s locally served sprite previews are derived display frames. Their presence here does not transfer their creators’ rights to this website. Anyone considering reuse must check the applicable notice, provide the required attribution and assess whether their intended use is permitted."
+        ]
+      },
+      {
+        "heading": "Other assets and licenses",
+        "paragraphs": [
+          "The supplied game archive identifies code and icon definitions under an MIT license; the original notice is retained. Pixelify Sans is distributed under the SIL Open Font License. These permissions apply to their specified material and should not be extended to unrelated names, characters or artwork.",
+          "Decorative illustrations and website branding are not screenshots proving a live gameplay result. They should not be treated as game documentation or as a grant to reuse third-party intellectual property."
+        ]
+      },
+      {
+        "heading": "Copyright questions and corrections",
+        "paragraphs": [
+          "For a concern, email support@pokesurvivor.me with the page URL, the specific material, an explanation of the relevant rights and a way to contact you. If you are writing on someone else’s behalf, explain that relationship. Send only information relevant to the request.",
+          "A clear identification of the material helps the maintainer investigate and make an appropriate correction. This page does not claim that a particular statutory notice procedure or response deadline applies in every jurisdiction."
+        ]
+      }
+    ]
+  },
+  "about-us": {
+    "sections": [
+      {
+        "heading": "A guide for the next run",
+        "paragraphs": [
+          "PokeSurvivor.me helps players make the decisions that come up during a run: which partner to try, whether to take a stat card, what a move needs to evolve and when to change a plan. You can launch the official game, compare partners in the Pokédex or read one of three focused guides.",
+          "The site is useful both before a run and when you want to understand a choice afterward. The Level-up page keeps card effects and evolution requirements together. Builds show a main goal and follow-up options rather than promising a perfect loadout every time."
+        ]
+      },
+      {
+        "heading": "What the numbers mean",
+        "paragraphs": [
+          "Roster stats, move requirements and collection rules are checked against the game’s definitions and official explanations. A data comparison can tell you that one partner starts with more HP; it cannot, by itself, tell you which partner will survive longer in your hands.",
+          "Strategy suggestions are presented with that distinction in mind. The site does not claim a professional testing team, hundreds of recorded runs or a measured best-in-slot ranking. When a conclusion depends on positioning, card offers or experience, the explanation should say so."
+        ]
+      },
+      {
+        "heading": "Who maintains the content",
+        "paragraphs": [
+          "Articles and corrections are published under the PokeSurvivor.me site identity. The maintainer checks mechanical claims, keeps version differences visible where they affect a decision and revises explanations when a mistake is identified. The editorial policy explains that process in more detail.",
+          "A guide’s update date describes a substantive change to that page. It is not reset whenever the website is rebuilt and does not mean that every game mechanic was independently retested on that date."
+        ]
+      },
+      {
+        "heading": "Independent of the game",
+        "paragraphs": [
+          "PokeSurvivor.me is a fan website. It is not affiliated with the official game operator, Nintendo, Creatures Inc., GAME FREAK or The Pokémon Company. The embedded game, player accounts, saves and multiplayer systems belong to the game operator.",
+          "If a game account needs help, use the official game’s support options. If this guide contains a confusing explanation or an incorrect number, email support@pokesurvivor.me with the page URL and the detail that needs attention."
+        ]
+      }
+    ]
+  },
+  "contact-us": {
+    "sections": [
+      {
+        "heading": "Contact the site maintainer",
+        "paragraphs": [
+          "Email support@pokesurvivor.me for a guide correction, a broken website feature or a question about this fan site. There is no contact form or ticket portal. Email is the direct contact route; this page does not promise a fixed response time.",
+          "Include a short description in the subject so the message can be understood without opening an attachment. Explain the issue in the body of the email and provide the affected page URL."
+        ]
+      },
+      {
+        "heading": "Report a gameplay explanation that needs correcting",
+        "paragraphs": [
+          "Identify the statement, number or instruction that appears wrong. Include the game version or the date you observed the behavior, and explain what happened instead. If an official game page or change note clarifies the issue, include its link.",
+          "A screenshot can help when a requirement or reward is displayed differently in the game, but it is optional. Remove account details, private messages and other information unrelated to the correction. A useful report can be brief and specific."
+        ]
+      },
+      {
+        "heading": "Report a website problem",
+        "paragraphs": [
+          "For a page that will not load or a filter that behaves unexpectedly, describe the steps that led to the problem. The device type, browser and approximate screen size are useful when the issue concerns layout. Say whether it happens again after reopening the page.",
+          "The maintainer can investigate this guide’s pages and links. Problems inside the official game, including sign-in, rooms, purchases if any, account recovery or cloud saves, must be handled by the game operator. This site cannot reset a password, restore a partner collection or access private game records."
+        ]
+      },
+      {
+        "heading": "Copyright and permissions",
+        "paragraphs": [
+          "For an ownership concern, identify the exact page and material, describe the rights involved and provide contact details for the person making the request. If you are an authorized representative, explain whom you represent. The Copyright page provides the asset credits and license notices retained by the site.",
+          "For permission to reuse original writing or branding, describe where it would appear and how much material you intend to use. The site cannot grant permission for a Pokémon character, game asset or other material owned by a third party."
+        ]
+      },
+      {
+        "heading": "Keep correspondence relevant",
+        "paragraphs": [
+          "Do not send passwords, login codes, payment details or copies of identity documents. None are needed to correct a guide or report a broken link. The Privacy Policy explains how correspondence and website requests are handled."
+        ]
+      }
+    ]
+  }
+}

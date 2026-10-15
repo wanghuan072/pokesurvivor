@@ -1,0 +1,60 @@
+[
+  {
+    "id": "sun",
+    "name": "Sun",
+    "multipliers": {
+      "fire": 1.5,
+      "water": 0.5
+    },
+    "safeTypes": [],
+    "slowsOtherTypes": false
+  },
+  {
+    "id": "rain",
+    "name": "Rain",
+    "multipliers": {
+      "water": 1.5,
+      "electric": 1.2,
+      "fire": 0.5
+    },
+    "safeTypes": [],
+    "slowsOtherTypes": false
+  },
+  {
+    "id": "sand",
+    "name": "Sandstorm",
+    "multipliers": {
+      "rock": 1.3,
+      "ground": 1.3,
+      "steel": 1.3
+    },
+    "safeTypes": [
+      "rock",
+      "ground",
+      "steel"
+    ],
+    "slowsOtherTypes": false
+  },
+  {
+    "id": "snow",
+    "name": "Snow",
+    "multipliers": {
+      "ice": 1.5
+    },
+    "safeTypes": [
+      "ice"
+    ],
+    "slowsOtherTypes": true
+  },
+  {
+    "id": "fog",
+    "name": "Fog",
+    "multipliers": {
+      "ghost": 1.3,
+      "fairy": 1.3,
+      "psychic": 1.3
+    },
+    "safeTypes": [],
+    "slowsOtherTypes": false
+  }
+]

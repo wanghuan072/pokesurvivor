@@ -1,0 +1,57 @@
+[
+  {
+    "id": "leftovers",
+    "name": "Leftovers",
+    "description": "You recover 1.5% of your HP per second."
+  },
+  {
+    "id": "choiceband",
+    "name": "Choice Band",
+    "description": "+40% damage, but you can't switch moves."
+  },
+  {
+    "id": "quickclaw",
+    "name": "Quick Claw",
+    "description": "-20% cooldown on all your moves."
+  },
+  {
+    "id": "focussash",
+    "name": "Focus Sash",
+    "description": "A hit that would knock you out leaves you at 1 HP (every 60 s)."
+  },
+  {
+    "id": "shellbell",
+    "name": "Shell Bell",
+    "description": "You heal from the damage you deal."
+  },
+  {
+    "id": "amuletcoin",
+    "name": "Amulet Coin",
+    "description": "+50% PokéCoins at the end of the run."
+  },
+  {
+    "id": "luckyegg",
+    "name": "Lucky Egg",
+    "description": "+30% experience."
+  },
+  {
+    "id": "lifeorb",
+    "name": "Life Orb",
+    "description": "+30% damage, but each attack costs a little HP."
+  },
+  {
+    "id": "choicescarf",
+    "name": "Choice Scarf",
+    "description": "+35% speed."
+  },
+  {
+    "id": "rockyhelmet",
+    "name": "Rocky Helmet",
+    "description": "Foes that hit you in melee take damage."
+  },
+  {
+    "id": "assaultvest",
+    "name": "Assault Vest",
+    "description": "+20% damage reduction."
+  }
+]

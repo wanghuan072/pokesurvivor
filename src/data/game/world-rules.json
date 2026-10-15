@@ -1,0 +1,27 @@
+{
+  "chestSeconds": 3.5,
+  "powerSeconds": 25,
+  "trapRadius": 74,
+  "eventInterval": [
+    240,
+    300
+  ],
+  "eventDuration": 30,
+  "lostSeconds": 120,
+  "thiefFirst": [
+    120,
+    240
+  ],
+  "thiefNext": [
+    240,
+    360
+  ],
+  "thiefLife": 15,
+  "rift": {
+    "checkSeconds": 30,
+    "initialChance": 0.2,
+    "portalSeconds": 45,
+    "arenaSeconds": 120,
+    "firstPossibleSeconds": 75
+  }
+}

@@ -1,0 +1,9538 @@
+[
+  {
+    "id": 1,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 2,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 3,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 4,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 5,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 6,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 7,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 8,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 9,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 10,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 11,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 12,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 13,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 14,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 15,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 16,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 17,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 18,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 19,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 20,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 21,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 22,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 23,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 24,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 25,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 26,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 27,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 28,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 29,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 30,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 31,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 32,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 33,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 34,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 35,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 36,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 37,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 38,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 39,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 40,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 41,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 42,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 43,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 44,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 45,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 46,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 47,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 48,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 49,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 50,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 51,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 52,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 53,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 54,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 55,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 56,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 57,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 58,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 59,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 60,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 61,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 62,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 63,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 64,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 65,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 66,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 67,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 68,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 69,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 70,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 71,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 72,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 73,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 74,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 75,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 76,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 77,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 78,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 79,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 80,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 81,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 82,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 83,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 84,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 85,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 86,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 87,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 88,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 89,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 90,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 91,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 92,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 93,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 94,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 95,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 96,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 97,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 98,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 99,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 100,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 101,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 102,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 103,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 104,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 105,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 106,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 107,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 108,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 109,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 110,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 111,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 112,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 113,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 114,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 115,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 116,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 117,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 118,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 119,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 120,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 121,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 122,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 123,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 124,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 125,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 126,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 127,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 128,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 129,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 130,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 131,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 132,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 133,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 134,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 135,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 136,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 137,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 138,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 139,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 140,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 141,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 142,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 143,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 144,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 145,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 146,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 147,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 148,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 149,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 150,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 151,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 152,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 153,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 154,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 155,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 156,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 157,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 158,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 159,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 160,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 161,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 162,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 163,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 164,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 165,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 166,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 167,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 168,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 169,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 170,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 171,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 172,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 173,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 174,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 175,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 176,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 177,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 178,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 179,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 180,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 181,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 182,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 183,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 184,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 185,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 186,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 187,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 188,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 189,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 190,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 191,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 192,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 193,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 194,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 195,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 196,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 197,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 198,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 199,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 200,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 201,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 202,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 203,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 204,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 205,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 206,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 207,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 208,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 209,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 210,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 211,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 212,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 213,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 214,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 215,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 216,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 217,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 218,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 219,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 220,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 221,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 222,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 223,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 224,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 225,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 226,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 227,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 228,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 229,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 230,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 231,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 232,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 233,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 234,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 235,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 236,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 237,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 238,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 239,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 240,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 241,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 242,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 243,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 244,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 245,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 246,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 247,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 248,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 249,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 250,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 251,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 252,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 253,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 254,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 255,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 256,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 257,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 258,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 259,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 260,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 261,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 262,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 263,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 264,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 265,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 266,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 267,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 268,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 269,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 270,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 271,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 272,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 273,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 274,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 275,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 276,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 277,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 278,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 279,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 280,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 281,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 282,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 283,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 284,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 285,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 286,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 287,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 288,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 289,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": 290,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 291,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 292,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 293,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 294,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 295,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 296,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 297,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 298,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 299,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 300,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 301,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 302,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 303,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 304,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 305,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 306,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 307,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 308,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 309,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 310,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 311,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 312,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 313,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 314,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 315,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 316,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 317,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 318,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 319,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 320,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 321,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 322,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 323,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 324,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 325,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 326,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 327,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 328,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 329,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 330,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 331,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 332,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 333,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 334,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 335,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 336,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 337,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 338,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 339,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 340,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 341,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 342,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 343,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 344,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 345,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 346,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 347,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 348,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 349,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 350,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 351,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 352,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 353,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 354,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 355,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 356,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 357,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 358,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 359,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 360,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 361,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 362,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 363,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 364,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 365,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 366,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 367,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 368,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 369,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 370,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 371,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 372,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 373,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 374,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 375,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 376,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 377,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 378,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 379,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 380,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 381,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 382,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 383,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 384,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 385,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 386,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 387,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 388,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 389,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 390,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 391,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 392,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 393,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 394,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 395,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 396,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 397,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 398,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 399,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 400,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 401,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 402,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 403,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 404,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 405,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 406,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 407,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 408,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 409,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 410,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 411,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 412,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 413,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 414,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 415,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 416,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 417,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 418,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 419,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 420,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 421,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 422,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 423,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 424,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 425,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 426,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 427,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 428,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 429,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 430,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 431,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 432,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 433,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 434,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 435,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 436,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 437,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 438,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 439,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 440,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 441,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 442,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 443,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 444,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 445,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 446,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 447,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 448,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 449,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 450,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 451,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 452,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 453,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 454,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 455,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 456,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 457,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 458,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 459,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 460,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 461,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 462,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 463,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 464,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 465,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 466,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 467,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 468,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 469,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 470,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 471,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 472,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 473,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 474,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 475,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 476,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 477,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 478,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 479,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 480,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 481,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 482,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 483,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 484,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 485,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 486,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 487,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 488,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 489,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 490,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 491,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 492,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 493,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 494,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 495,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 496,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 497,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 498,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 499,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 500,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 501,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 502,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 503,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 504,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 505,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 506,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 507,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 508,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 509,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 510,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 511,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 512,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 513,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 515,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 517,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 518,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 519,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 521,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 524,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 525,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 526,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 527,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 528,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 529,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 530,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 531,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 532,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 533,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 534,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 535,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 536,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 537,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 539,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 540,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 541,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 542,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 543,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 544,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 545,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 546,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 547,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 548,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 549,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 550,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 551,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 552,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 553,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 554,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 555,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 556,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 557,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 559,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 560,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 561,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 562,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 563,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 566,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 567,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 568,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 569,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 570,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 571,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 572,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 573,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 574,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 575,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 576,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 577,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 578,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 579,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 580,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 581,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 582,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 583,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 584,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 585,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 586,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 587,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 588,
+    "hovering": false,
+    "hasShiny": false,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 589,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 590,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 594,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 595,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 596,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 597,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 598,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 599,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 600,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 601,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 602,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 603,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 604,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 605,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 606,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 607,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 608,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 609,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 610,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 611,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 612,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 613,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 614,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 615,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 617,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 619,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 620,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 621,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 622,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 623,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 624,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 625,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 627,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 628,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 629,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 630,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 631,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 632,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 633,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 634,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 635,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 636,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 637,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 638,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 639,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 640,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 641,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 642,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 643,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 644,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 645,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 646,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 647,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 648,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 649,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 650,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 651,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 652,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 653,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 654,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 655,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 656,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 657,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 658,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 659,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 660,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 661,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 662,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 663,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 664,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 665,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 666,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 667,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 669,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 670,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 671,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 672,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 673,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 674,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 675,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 676,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 677,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 678,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 679,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 680,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 681,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 682,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 684,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 685,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 686,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 687,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 688,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 689,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 690,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 691,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 692,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 693,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 694,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 695,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 696,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 697,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 698,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 699,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 700,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 701,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 702,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 703,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 704,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 705,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 706,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 707,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 708,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 709,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 710,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 711,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 712,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 713,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 714,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 715,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 716,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 717,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 718,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 719,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 720,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 721,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 722,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 723,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 724,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 725,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 726,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 727,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 728,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 729,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 730,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 731,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 734,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 736,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 737,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 738,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 739,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 740,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 741,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 742,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 743,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 744,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 745,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 746,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 747,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 748,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 749,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 750,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 751,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 752,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 753,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 754,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 755,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 757,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 758,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 759,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 760,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 761,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 762,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 763,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 764,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 766,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 767,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 768,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 769,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 770,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 771,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 772,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 773,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 774,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 775,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 776,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 777,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 778,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 779,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 780,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 781,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 782,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 783,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 784,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 785,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 786,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 787,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 788,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 789,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 790,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 791,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 792,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 793,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 794,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 795,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 796,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 797,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 798,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 799,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 800,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 801,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 802,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 803,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 804,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 805,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 806,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 807,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 808,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 809,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 810,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 811,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 812,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 813,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 814,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 815,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 816,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 817,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 818,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 819,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 820,
+    "hovering": false,
+    "hasShiny": false,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 821,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 822,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 823,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 824,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 825,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 826,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 827,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 828,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 829,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 830,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 831,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 832,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 833,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 834,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 835,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 836,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 840,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 841,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 842,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 843,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 844,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 845,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 846,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 847,
+    "hovering": false,
+    "hasShiny": false,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 848,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 849,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 850,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 851,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 852,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 853,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 854,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 855,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 856,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 857,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 858,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 859,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 860,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 861,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 862,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 863,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 864,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 867,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 868,
+    "hovering": true,
+    "hasShiny": false,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 869,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 871,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 872,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 873,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 874,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 875,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 876,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 877,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 880,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 881,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 882,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 883,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 884,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 885,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 886,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 887,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 888,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 889,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 890,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 891,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 892,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 894,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 895,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 896,
+    "hovering": false,
+    "hasShiny": false,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 897,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 898,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 899,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 900,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 901,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 902,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 903,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 904,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 905,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 906,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 907,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 908,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 909,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 910,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 911,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 912,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 913,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 914,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 915,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 916,
+    "hovering": false,
+    "hasShiny": false,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 917,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 918,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1,
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 919,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 920,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 921,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 922,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 923,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 924,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 925,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 926,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 927,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 928,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 930,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 932,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 933,
+    "hovering": false,
+    "hasShiny": false,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 934,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 935,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 936,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 937,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 938,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 939,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 940,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 941,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 946,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 951,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 952,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 953,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 955,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 957,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 958,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 959,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 960,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 961,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 963,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 964,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2,
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 965,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 966,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 967,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 968,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 969,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 970,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 971,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 972,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 974,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 975,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 976,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 977,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 978,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 979,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 980,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 981,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 982,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4
+    ],
+    "bossSlots": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 983,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 984,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 985,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 987,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 988,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 989,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 991,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 992,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 994,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 995,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 996,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 997,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      2
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 998,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 1000,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1004,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 1005,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 1006,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 1007,
+    "hovering": false,
+    "hasShiny": false,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 1009,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 1010,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 1011,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      3
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 1012,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      0,
+      1
+    ],
+    "bossSlots": []
+  },
+  {
+    "id": 1013,
+    "hovering": true,
+    "hasShiny": true,
+    "wildTiers": [
+      3,
+      4
+    ],
+    "bossSlots": [
+      0
+    ]
+  },
+  {
+    "id": 1015,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 1016,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 1017,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  },
+  {
+    "id": 1018,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 1019,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [
+      4,
+      5
+    ],
+    "bossSlots": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1024,
+    "hovering": false,
+    "hasShiny": true,
+    "wildTiers": [],
+    "bossSlots": []
+  }
+]

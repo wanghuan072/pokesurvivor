@@ -1,0 +1,62 @@
+{
+  "heading": "PokeSurvivor FAQ",
+  "intro": "Quick answers about controls, saves, move slots, evolutions and collecting partners. For account problems, use the official game’s support options.",
+  "seo": {
+    "title": "PokeSurvivor FAQ - Controls, Saves and Game Help",
+    "description": "Find answers to PokeSurvivor questions about free play, controls, saves, co-op, move slots and evolutions. Know what to check before starting your next run.",
+    "targetKeywords": [
+      "PokeSurvivor FAQ",
+      "PokeSurvivor controls"
+    ]
+  },
+  "questions": [
+    [
+      "Is PokeSurvivor free to play?",
+      "Yes. You can play the official game in a browser without downloading a client. This fan guide is also free to browse."
+    ],
+    [
+      "How do I move and switch attacks?",
+      "Use WASD or the arrow keys to move, 1–4 or Q/E to switch your active move, and Esc to pause. On a phone or tablet, play in landscape, drag to move and tap a move to select it."
+    ],
+    [
+      "Do my attacks fire automatically?",
+      "Yes. Your selected active slot attacks automatically. Learning another move gives you an option to switch to; separate slots do not all fire together. A Rift Bond can combine learned attacks into one slot."
+    ],
+    [
+      "Will guest progress be saved?",
+      "Do not rely on a guest session for saved progress. Use the official game’s account options for cloud saves. PokeSurvivor.me cannot read, recover or transfer a game save."
+    ],
+    [
+      "How do I evolve a move?",
+      "Reach level 5 with an eligible move and take its required stat card during that run. Then look for its gold evolution card. For example, Ember needs Power to evolve into Fire Blast."
+    ],
+    [
+      "Can I play PokeSurvivor with friends?",
+      "The game supports co-op for up to four players through its friends list and room invitations. Manage rooms and invitations inside the official game."
+    ],
+    [
+      "Does the 5-star guarantee give me a particular Pokémon?",
+      "No. Pity guarantees a rarity, not a species. Each regional banner tracks pity separately; at 69 pulls without a 5-star result, the next pull is guaranteed 5-star. Any 5-star result resets that banner’s counter."
+    ],
+    [
+      "Are ten single pulls the same as a ten-pull?",
+      "No. A ten-pull has a separate last-result guarantee if the first nine results contain no 4-star or 5-star Pokémon. Ten single pulls do not receive that batch guarantee."
+    ],
+    [
+      "Which partner should I try first?",
+      "Start with a partner whose opening attack is easy for you to aim while moving. Charmander, Squirtle and Bulbasaur introduce different attack styles. Use the Pokédex to compare their starting stats, then focus one evolution before spreading upgrades across several moves."
+    ],
+    [
+      "Does the tier list show the strongest Pokémon?",
+      "It sorts starting attack factors, HP and speed. It does not measure complete-run damage or survival. Move choices, permanent upgrades and movement all change how a partner performs."
+    ],
+    [
+      "What happens at minute 30?",
+      "The Judgment of Arceus moves the run to a special arena. Arceus is invulnerable: focus on dodging its attacks and the escalating legendary waves rather than trying to defeat it."
+    ],
+    [
+      "Is PokeSurvivor.me the official game website?",
+      "No. This is an independent fan guide. The game is hosted at pokesurvivor.com, which operates its own accounts, saves and multiplayer features."
+    ]
+  ]
+}

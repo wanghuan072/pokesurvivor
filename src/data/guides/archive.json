@@ -1,0 +1,445 @@
+[
+  {
+    "slug": "rifts-and-bosses",
+    "title": "Rifts, Bosses & Survival",
+    "description": "Prepare for type-themed legendary encounters and learn how to keep room to escape.",
+    "icon": "✦",
+    "sections": [
+      {
+        "title": "Five scheduled boss selections",
+        "paragraphs": [
+          "The archive draws five distinct non-legendary bosses for the 3:00, 6:00, 9:00, 12:00 and 15:00 slots. Each has a base-stat-total band; the species can change between runs.",
+          "If no unused candidate remains in a slot, it can fall back to an unused non-legendary with BST of at least 580. The candidate lists below show the direct bands before that fallback."
+        ]
+      },
+      {
+        "title": "Reading the combat numbers",
+        "paragraphs": [
+          "The constructor multiplies boss template HP by 1.35 and damage by 1.2. Time scaling then uses 1 + time / 600, before late-run and co-op modifiers. The displayed values are templates, not a prediction of final boss stats.",
+          "Editorial advice: leave ground warnings before chasing experience. Keep the active move suited to your current distance and leave a route that avoids crossing the boss."
+        ]
+      },
+      {
+        "title": "Rifts are a separate encounter",
+        "paragraphs": [
+          "The local archive allows Rift checks after 75 seconds, at 30-second intervals. Chance begins at 20% and rises by 20 percentage points after each failed eligible check. A live boss postpones checks, and placement can fail if no suitable ground is found.",
+          "A portal lasts 45 seconds and the arena fight has a 120-second limit. Victory can award a Bond for move fusion. These archive rules are labeled separately from the newer primary dataset; check the current game if behavior differs."
+        ]
+      }
+    ],
+    "sources": [
+      "js/data/enemies.js",
+      "js/systems/spawner.js",
+      "js/systems/rift.js"
+    ],
+    "sourceKind": "local"
+  },
+  {
+    "slug": "mobile-controls",
+    "title": "PokeSurvivor Mobile Controls",
+    "description": "Play in landscape, switch active moves and give the game enough screen space.",
+    "icon": "▣",
+    "sections": [
+      {
+        "title": "Turn your device sideways",
+        "paragraphs": [
+          "The official guide recommends landscape orientation on phones and tablets. Open the dedicated Play page, then use the fullscreen control if your browser supports it. Fullscreen may require a direct tap.",
+          "If the embedded game cannot load or an account flow does not work in the frame, open the official game with the provided new-tab link."
+        ]
+      },
+      {
+        "title": "Movement and attacks",
+        "paragraphs": [
+          "Drag your finger in the game area to move your partner. Tap a move icon to change the active attack. Use the game’s top-right pause button when you need to stop and review your options.",
+          "Move in long, controlled arcs rather than repeatedly cutting through the same crowd. Leave enough open screen space to see marked attacks."
+        ]
+      },
+      {
+        "title": "Save before switching devices",
+        "paragraphs": [
+          "An account enables the game’s cloud-save features. Confirm your progress in the official game before closing the page. The wiki stores no game accounts or saves and cannot restore them."
+        ]
+      },
+      {
+        "title": "Customize touch controls",
+        "paragraphs": [
+          "The October 14 changelog adds movable attack, item, pause and joystick controls in Settings → Controls → Place the buttons. The joystick can be fixed in position instead of appearing at each touch.",
+          "Change the layout in the official game. This website’s fullscreen button affects the outer player frame and does not replace the game’s own touch-control settings."
+        ]
+      }
+    ],
+    "sources": [
+      "js/data/changelog.js"
+    ]
+  },
+  {
+    "slug": "achievements",
+    "title": "PokeSurvivor Achievements Guide",
+    "description": "Find all 130 achievement requirements, rewards, medals and titles, including Judgment objectives.",
+    "icon": "♜",
+    "sections": [
+      {
+        "title": "Set a goal before the run",
+        "paragraphs": [
+          "The pinned game build contains 130 achievements. The dedicated achievement reference includes requirements and rewards; the older general official guide’s count of 127 predates three Judgment objectives.",
+          "Pick one objective that matches the partner or play style you already want to practice. A focused goal is easier to track than several competing challenges."
+        ]
+      },
+      {
+        "title": "Use permanent progression deliberately",
+        "paragraphs": [
+          "Partner upgrades are tied to the chosen Pokémon. Spend coins where they support your next objective, and keep tickets for collection goals. In-run card upgrades are separate from both systems."
+        ]
+      },
+      {
+        "title": "Check the current game wording",
+        "paragraphs": [
+          "Achievement conditions can change with game updates. This guide describes a planning approach; the game’s own achievement screen is authoritative for exact requirements and unlock status."
+        ]
+      },
+      {
+        "title": "Three Judgment objectives",
+        "paragraphs": [
+          "The Judgment unlocks on reaching minute 30. Before the Creator requires surviving one minute in the Judgment encounter. Divine challenge requires defeating three legendary opponents there in a single run. These are survival goals; Arceus itself is invulnerable.",
+          "Use the complete achievement table to find the coin or ticket reward and any profile title for each objective. Legendary victory achievements award one normal ticket each."
+        ]
+      }
+    ],
+    "sources": [
+      "js/data/achievements.js"
+    ]
+  },
+  {
+    "slug": "co-op",
+    "title": "How to Play PokeSurvivor Co-op",
+    "description": "Invite friends, share experience and help your team recover during a run.",
+    "icon": "♟",
+    "sections": [
+      {
+        "title": "Create your group",
+        "paragraphs": [
+          "The official guide supports online co-op for up to four players. Use the game’s friends list, add friends by nickname, invite them to a room and begin together.",
+          "Use the official game directly if the browser frame interferes with sign-in or room creation. This fan site does not run multiplayer servers."
+        ]
+      },
+      {
+        "title": "Keep the team moving",
+        "paragraphs": [
+          "Experience is shared in co-op, so stay aware of the group’s route instead of chasing every drop alone. Coordinate active move types and leave open ground for teammates to dodge.",
+          "A fallen teammate can be revived by standing nearby. Clear a safe area first; a rushed rescue can leave the whole group surrounded."
+        ]
+      },
+      {
+        "title": "Choose complementary goals",
+        "paragraphs": [
+          "Discuss your main attacks before taking upgrades. Different coverage can give the group more options against changing enemy types. Communicate when you need a pause or want to enter a Rift."
+        ]
+      }
+    ],
+    "sources": [
+      "js/data/changelog.js"
+    ]
+  },
+  {
+    "slug": "bonds",
+    "title": "PokeSurvivor Bonds & Move Fusion",
+    "description": "Earn Bonds through Rift victories, combine learned attacks and understand the four-move group limit.",
+    "icon": "⬡",
+    "sections": [
+      {
+        "title": "Earn and spend a Bond",
+        "paragraphs": [
+          "Winning a Rift grants a Bond for the current run. After returning to the map, the game can offer valid fusion choices. A Bond is not a permanent collection upgrade and does not replace an evolution card."
+        ]
+      },
+      {
+        "title": "One slot, several simultaneous attacks",
+        "paragraphs": [
+          "The first fusion joins two independently learned attacks. Further valid fusion choices can add an independent attack to an unfinished group. A group supports up to four learned moves and occupies one active slot.",
+          "All attacks in the selected Bond slot execute together. Other independent slots still need to be selected to attack. Fusion frees a slot but does not duplicate attacks or merge two already-complete groups."
+        ]
+      },
+      {
+        "title": "Why no fusion choice appears",
+        "paragraphs": [
+          "You need learned moves that meet the player’s fusion rules. Check whether you have enough independent moves, whether an existing group is already full and whether you actually have an unused Bond.",
+          "An evolution still needs its move at level 5 and its named stat card in the same run. Bonding does not waive either requirement."
+        ]
+      }
+    ],
+    "sources": [
+      "js/entities/player.js",
+      "js/systems/rift.js",
+      "js/systems/levelup.js"
+    ]
+  },
+  {
+    "slug": "shiny-hunting",
+    "title": "PokeSurvivor Shiny Hunting & Odds",
+    "description": "Wild encounter rolls, gacha shiny checks and the collection-dependent duplicate rule.",
+    "icon": "✦",
+    "sections": [
+      {
+        "title": "Two different shiny probabilities",
+        "paragraphs": [
+          "The official shiny reference states a wild spawn chance of 1 in 4,096. Defeat the shiny wild Pokémon to add it to your collection. More eligible encounters create more independent opportunities; they do not guarantee a shiny by a particular count.",
+          "The gacha uses a 1% shiny check when the chosen species has an available shiny form. This is separate from the 1.5% baseline 5★ rarity rate. A 5★ result is not automatically shiny."
+        ]
+      },
+      {
+        "title": "What happens to an owned shiny",
+        "paragraphs": [
+          "If the rolled shiny is already owned, the current gacha code tries a missing shiny from the same rarity pool. If none remains, it changes to a normal result. This makes collection-aware shiny goals different from a simple independent 1% model.",
+          "Do not plan around the triple-coin duplicate-shiny branch as though every completed shiny pool pays it. The rerouting rule normally prevents that situation."
+        ]
+      },
+      {
+        "title": "Using a shiny partner",
+        "paragraphs": [
+          "After unlocking the form, choose the normal or shiny appearance in the game’s collection. Cloud saves and account recovery are handled by the official game. This wiki does not track your collection."
+        ]
+      },
+      {
+        "title": "Compare the actual game sprites",
+        "paragraphs": [
+          "The supplied archive contains normal artwork for 966 roster partners and shiny artwork for 958. Missing shiny artwork is an availability fact, not a separate rarity or hidden probability. The comparison below uses local frames from the actual SpriteCollab atlases."
+        ]
+      }
+    ],
+    "sources": [
+      "js/systems/gacha.js",
+      "js/core/sprites.js"
+    ]
+  },
+  {
+    "slug": "judgment-arceus",
+    "title": "Judgment of Arceus: Minute 30 Guide",
+    "description": "Understand the invulnerable Arceus encounter, escalating legendary waves and its three achievements.",
+    "icon": "✧",
+    "sections": [
+      {
+        "title": "The minute-30 transition",
+        "paragraphs": [
+          "The October 13 update introduces Judgment at minute 30. Arceus moves the run into the Ruins of Judgment. This replaces the older endless-run expectation; the historical minute-60 overtime advice is obsolete for this build."
+        ]
+      },
+      {
+        "title": "Arceus cannot be defeated",
+        "paragraphs": [
+          "Arceus is invulnerable in this encounter. The objective is to survive as long as you can while avoiding its light pillars, beams and shockwaves. Its contact damage is especially punishing.",
+          "Another legendary joins every five seconds, with each successive addition having double the previous one’s HP and damage. This escalation makes movement space and readable escape routes more important as the encounter continues."
+        ]
+      },
+      {
+        "title": "Prepare before minute 28",
+        "paragraphs": [
+          "New Rifts stop at minute 28 so the transition does not catch players in a newly opened arena. Work toward your evolution and Bond goals beforehand. Do not rely on a last-second portal to finish a build.",
+          "Reaching the encounter, surviving one minute inside it and defeating three of its legendary additions are separate achievement goals. None requires defeating Arceus."
+        ]
+      }
+    ],
+    "sources": [
+      "js/systems/judgment.js",
+      "js/data/changelog.js",
+      "js/data/achievements.js"
+    ]
+  },
+  {
+    "slug": "held-items",
+    "title": "Choosing a PokeSurvivor Held Item",
+    "description": "Compare one-slot held-item tradeoffs and match sustain, damage or mobility to the problem ending your runs.",
+    "icon": "◆",
+    "sections": [
+      {
+        "title": "One item for the run",
+        "paragraphs": [
+          "Items come from chests and boss rewards. You hold one at a time; when offered another, choose which to keep. These effects last for the current run, not as permanent partner upgrades."
+        ]
+      },
+      {
+        "title": "Sustain and recovery",
+        "paragraphs": [
+          "Leftovers restores 1.5% of maximum HP per second. Focus Sash can leave you at 1 HP after an otherwise lethal hit, with a 60-second cooldown. Shell Bell provides damage-linked healing. These solve different problems: gradual attrition, sudden lethal hits and sustain while attacking."
+        ]
+      },
+      {
+        "title": "Damage has tradeoffs",
+        "paragraphs": [
+          "Choice Band adds 40% damage but prevents switching moves. A single evolved attack or a useful Bond can make the restriction easier to manage; it can also strand you with poor coverage. Life Orb adds 30% damage and charges HP per attack.",
+          "Quick Claw reduces move cooldowns by 20%. Lucky Egg boosts experience by 30%; Amulet Coin boosts end-of-run coins by 50%. Pick the resource effect only if you can still survive the next encounter."
+        ]
+      }
+    ],
+    "sources": [
+      "js/data/items.js"
+    ]
+  },
+  {
+    "slug": "permanent-upgrades",
+    "title": "Permanent Upgrades vs Run Cards",
+    "description": "Partner-specific coin purchases, escalating costs and the separate cards used for evolutions.",
+    "icon": "⚙",
+    "sections": [
+      {
+        "title": "Coins improve one chosen partner",
+        "paragraphs": [
+          "Purchased upgrades belong to that Pokémon. Vitality adds 8 HP per level; Strength adds 4% damage. Stride adds 3% movement speed and permanent Reflexes reduces cooldown by 3% per level. The exact caps and starting costs are listed in the upgrades reference."
+        ]
+      },
+      {
+        "title": "The next level costs more",
+        "paragraphs": [
+          "The source rounds base cost × growth to the current purchased level to the nearest ten coins. For example, Strength begins at 80 coins and its next level costs 110. Repertoire costs 1,500 coins for a single upgrade that begins a run with two moves."
+        ]
+      },
+      {
+        "title": "Evolution prerequisites happen inside the run",
+        "paragraphs": [
+          "The Power run card adds 10% damage and satisfies attacks that require Power. Permanent Strength is a different system. Run Reflexes reduces cooldown by 8%, distinct from the 3% per level permanent upgrade.",
+          "Run card caps also differ from permanent caps. Use the two tables side by side instead of assuming cards and purchased upgrades share values."
+        ]
+      }
+    ],
+    "sources": [
+      "js/data/upgrades.js",
+      "js/systems/levelup.js"
+    ]
+  },
+  {
+    "slug": "starter-guide",
+    "title": "All 29 PokeSurvivor Starters: First Move Guide",
+    "description": "Choose among nine regions of starters plus Psyduck and Slowpoke using verified opening moves and game stats.",
+    "icon": "◓",
+    "sections": [
+      {
+        "title": "The personality quiz is a suggestion",
+        "paragraphs": [
+          "The starter list includes three starters from each of the nine regions, plus Psyduck and Slowpoke. Review the suggested partner or choose another before the run. The quiz does not permanently lock your collection."
+        ]
+      },
+      {
+        "title": "Compare opening attack styles",
+        "paragraphs": [
+          "All nine Fire starters begin with Ember. Water starters mostly open with Water Gun, while Piplup and Popplio use Bubble. Grass starters split between Vine Whip and Razor Leaf.",
+          "Psyduck and Slowpoke begin with Confusion. Use the starter filter in the Pokédex to see each partner’s actual HP, speed, attack factor and opening move. These are game values, not main-series competitive stats."
+        ]
+      },
+      {
+        "title": "A starter can learn more than its first move",
+        "paragraphs": [
+          "The initial move is only the opening choice. Normal moves and the partner’s types form the learnable pool. Plan an evolution from that pool and concentrate upgrades instead of assuming a species is locked to its first attack."
+        ]
+      }
+    ],
+    "sources": [
+      "js/data/starters.js",
+      "js/data/moves.js",
+      "js/data/pokedex.js"
+    ]
+  },
+  {
+    "slug": "enemy-waves",
+    "title": "PokeSurvivor Enemy Waves & Spawn Pools",
+    "description": "Six wild-enemy tiers, BST eligibility bands, randomized casts and how to read spawn candidates.",
+    "icon": "◓",
+    "sources": [
+      "js/data/enemies.js",
+      "js/systems/spawner.js",
+      "js/data/sprites-meta.js"
+    ],
+    "sourceKind": "local",
+    "sections": [
+      {
+        "title": "How each run chooses its enemies",
+        "paragraphs": [
+          "The archive defines six overlapping base-stat-total bands. At the start of a run, it selects seven eligible partners for each tier instead of using a fixed species sequence. Rarity-5 partners do not enter ordinary wild pools. Usable sprite metadata is also required.",
+          "The first tier mixes simple chase, charge, ranged and tank behaviors with support. Later tiers can include telegraphed attacks. The fastest eligible plain enemy in each cast becomes a faster, more fragile runner."
+        ]
+      },
+      {
+        "title": "When later tiers join",
+        "paragraphs": [
+          "New tiers start at 0:00, 1:10, 2:40, 4:20, 6:20 and 8:20. Earlier casts remain available, with reduced weight after they become old. The timeline describes availability rather than a guaranteed species schedule.",
+          "Template values are adjusted by species, behavior, time, co-op and extra spawner multipliers. They are not final combat stats."
+        ]
+      },
+      {
+        "title": "Read the role before chasing experience",
+        "paragraphs": [
+          "Healers, shielders and summoners support nearby enemies. Bombers approach and explode. Beams, zones and jumps announce danger before landing. Runners can intercept a repeated escape route.",
+          "Editorial advice: leave warning areas first, then reconsider whether to collect experience or clear a support enemy. Keeping an exit matters more than completing a planned card sequence."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "missions",
+    "title": "PokeSurvivor Daily & Weekly Missions",
+    "description": "All 10 daily and 6 weekly mission templates, possible targets, coin rewards and ticket rewards.",
+    "icon": "▤",
+    "sources": [
+      "js/data/missions.js",
+      "js/systems/progress.js",
+      "js/net/ranking.js"
+    ],
+    "sourceKind": "local",
+    "sections": [
+      {
+        "title": "Three daily and two weekly objectives",
+        "paragraphs": [
+          "The game selects three daily missions and two weekly missions from the template pools below. Each gets one of its listed target values; type-specific objectives also receive a Pokémon type. This is a template reference, not a live account feed.",
+          "Calendar periods use Europe/Madrid time. Selection also uses the account creation value, so players can receive different assignments in the same period."
+        ]
+      },
+      {
+        "title": "Best run versus accumulated progress",
+        "paragraphs": [
+          "Survival, level and play-with-a-type objectives keep the best qualifying value from one run. Kill, boss, chest, coin and evolution objectives add qualifying progress. Type-specific missions require a matching partner or enemy type.",
+          "Survival and coin values are processed at run end. Defeats and other qualifying events advance their own counters. Completing the target and claiming its reward are separate actions."
+        ]
+      },
+      {
+        "title": "Claim and replace objectives in the game",
+        "paragraphs": [
+          "Collect completed rewards from the Missions screen. Claiming grants the listed currency and tickets, updates mission statistics and can advance a weekly completed-dailies objective.",
+          "The archive allows one daily replacement per day. The replacement excludes objectives already in the current daily set. This site does not read, reroll or claim your account’s missions. Editorial advice: choose objectives that fit your intended partner before starting a long run."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "world-events",
+    "title": "PokeSurvivor World Events, Chests & Shrines",
+    "description": "Type hordes, golden hour, rescue events, treasure thieves, locked chests, healing springs, altars and ground traps.",
+    "icon": "✦",
+    "sources": [
+      "js/systems/events.js",
+      "js/systems/interact.js",
+      "js/world/world.js"
+    ],
+    "sourceKind": "local",
+    "sections": [
+      {
+        "title": "Events change the wave rhythm",
+        "paragraphs": [
+          "The archive schedules a world event every 240–300 seconds, postponing while a boss is alive and not starting an event inside a Rift. It avoids immediately repeating the previous event type. Golden hour and type hordes last 30 seconds.",
+          "Rescues have a 120-second limit. Escort the lost partner to the marker while keeping it alive. Success heals a living player for half of maximum HP; the collection-join roll is 20%."
+        ]
+      },
+      {
+        "title": "A chest requires a safe opening",
+        "paragraphs": [
+          "Stay near a locked chest for 3.5 seconds to open it. Moving away decays progress at 1.5 seconds per second. Enemies continue attacking while you open it.",
+          "The archive drops nine coin pickups worth four coins each, 1–3 single tickets, a separate 15% chance of a ×10 ticket, a separate 50% held-item roll and experience equal to the current level requirement. Collection and modifiers determine what you actually receive."
+        ]
+      },
+      {
+        "title": "Thieves and temporary power",
+        "paragraphs": [
+          "The first thief is scheduled after 120–240 seconds, with a subsequent interval of 240–360 seconds and at most two thieves. A live boss can postpone a spawn. The thief escapes after 15 seconds; 25% of the variant rolls select Gholdengo carrying a ×10 ticket, while Meowth carries coins.",
+          "Altars provide one temporary effect for 25 seconds. Springs consume charge while healing and recharge over time. Traps can trigger on players or grounded enemies. Editorial advice: keep an escape route before chasing a thief or stopping at a chest."
+        ]
+      }
+    ]
+  }
+]

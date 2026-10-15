@@ -1,0 +1,182 @@
+.player {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: #020b15;
+  color: #d8edff;
+}
+.player:has(.launch) {
+  height: auto;
+  min-height: 100dvh;
+}
+.player > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #1a5c76;
+  background: #051b2b;
+  min-height: 54px;
+}
+.player > header > a {
+  color: #a0bfd8;
+  font-size: 13px;
+}
+.player > header > a span {
+  font-family: var(--pixel);
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 10px;
+  color: white;
+}
+.player > header > div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 12px;
+}
+.player button:not(.launch button) {
+  color: var(--mint);
+  background: #07404a;
+  border: 1px solid #1d7d85;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+.stage {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stage iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  border: 0;
+  background: #06142b;
+}
+.launch {
+  position: relative;
+  text-align: center;
+  padding: 25px;
+}
+.stage:has(.launch) {
+  flex-shrink: 0;
+  min-height: min-content;
+  background:
+    linear-gradient(0deg, #02121be8, #0316258c),
+    url("/art/hero.webp") center/cover;
+}
+.launch > span {
+  font-size: 60px;
+}
+.launch > p:first-of-type {
+  letter-spacing: 4px;
+  font-size: 10px;
+  color: var(--mint);
+  margin-top: 20px;
+}
+.launch h1 {
+  font-size: 60px;
+  margin-bottom: 17px;
+}
+.launch p {
+  color: #afcee5;
+}
+.launch button {
+  margin: 15px 0 20px;
+  font-size: 20px;
+}
+.launch small {
+  display: block;
+  color: #9ebcd2;
+  line-height: 1.8;
+}
+.player > footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: #051d2e;
+  padding: 10px 20px;
+  font-size: 11px;
+  border-top: 1px solid #164458;
+}
+.player > footer p {
+  margin: 0;
+  color: #9ab7cf;
+}
+.player > footer b {
+  color: #69dccc;
+  font-size: 9px;
+  margin: 0 8px 0 15px;
+}
+.player > footer b:first-child {
+  margin-left: 0;
+}
+.player > footer span {
+  margin-left: 24px;
+}
+.player > footer a {
+  color: var(--cyan);
+  white-space: nowrap;
+}
+.fallback {
+  font-size: 11px;
+  text-align: center;
+  padding: 5px 10px;
+  color: #87a6c0;
+  background: #041723;
+  margin: 0;
+}
+.fallback a {
+  color: var(--cyan);
+}
+.loading {
+  position: absolute;
+  color: #c2fff3;
+  background: #032938;
+  padding: 12px 20px;
+  pointer-events: none;
+}
+@media (max-width: 768px) {
+  .launch { max-width: 100%; min-width: 0; padding: 20px 16px; }
+  .launch h1 {
+    font-size: clamp(29px, 7vw, 39px);
+    overflow-wrap: anywhere;
+  }
+  .launch > p:first-of-type {
+    font-size: 8px;
+    letter-spacing: 2px;
+  }
+  .player > header {
+    padding: 9px 12px;
+  }
+  .player > header > a span {
+    font-size: 17px;
+    margin: 0;
+  }
+  .player > header > div {
+    gap: 10px;
+    font-size: 10px;
+  }
+  .player > footer {
+    padding: 8px 10px;
+    font-size: 9px;
+  }
+  .player > footer span {
+    display: none;
+  }
+  .player > footer b {
+    margin-left: 8px;
+  }
+  .fallback {
+    font-size: 9px;
+  }
+}
+
+

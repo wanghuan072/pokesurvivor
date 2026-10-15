@@ -1,0 +1,43 @@
+{
+  "2026-10-14": {
+    "added": [
+      "Password-based accounts can link Gmail for later recovery through Google sign-in.",
+      "Mobile control placement now supports movable buttons and a fixed joystick."
+    ],
+    "changed": [
+      "Weekly and monthly boards were reset to use Judgment-era runs consistently."
+    ],
+    "fixed": [
+      "Co-op selection freezes, invisible post-Rift enemies and time-zone-sensitive friend presence received fixes."
+    ]
+  },
+  "2026-10-13": {
+    "added": [
+      "Minute 30 now triggers the invulnerable Arceus Judgment encounter, with an additional escalating legendary every five seconds.",
+      "Three Judgment achievements were introduced."
+    ],
+    "changed": [
+      "New Rift openings stop from minute 28. The former minute-60 overtime system was removed.",
+      "Historical leaderboards were reset for the new endgame rules."
+    ],
+    "fixed": ["Gacha unlocks and rewards now save to the cloud immediately."]
+  },
+  "2026-10-12": {
+    "added": [
+      "The game gained an in-menu news view and automatic updates that wait for an active run to finish."
+    ],
+    "changed": [
+      "Rift opening chances rise after consecutive failed checks. A minute-60 overtime rule was introduced here, then superseded by the October 13 update."
+    ],
+    "fixed": []
+  },
+  "2026-10-11": {
+    "added": [
+      "Rift victory Bonds allow learned attacks to share an active slot and attack together."
+    ],
+    "changed": [
+      "Players can build groups of up to four linked moves, freeing slots as attacks are joined."
+    ],
+    "fixed": []
+  }
+}
