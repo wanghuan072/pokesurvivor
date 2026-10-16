@@ -67,7 +67,7 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
       </a>
       <header className={s.mobile}>
         <a href="/">
-          ◓ PokeSurvivor <em>.me</em>
+          ◓ PokeSurvivor
         </a>
         <button
           onClick={() => setMenu(!menu)}
@@ -89,7 +89,6 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
         <a href="/" className={s.brand}>
           <span className={s.mascot} />
           <strong>PokeSurvivor</strong>
-          <b>.me</b>
         </a>
         <button className={s.search} onClick={() => setSearch(true)}>
           <span>⌕</span> Search... <kbd>Ctrl K</kbd>

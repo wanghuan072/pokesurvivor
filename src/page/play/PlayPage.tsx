@@ -27,7 +27,7 @@ export default function PlayPage() {
         <a href="/">
           ←{" "}
           <span>
-            PokeSurvivor <em>.me</em>
+            PokeSurvivor
           </span>
         </a>
         <div>
