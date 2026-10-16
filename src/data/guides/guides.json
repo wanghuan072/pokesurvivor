@@ -4,8 +4,8 @@
     "title": "PokeSurvivor Beginner Guide: Your First Stronger Run",
     "description": "Choose a first partner, understand active attacks, survive the early waves and decide when a chest or Rift is worth the risk.",
     "icon": "▣",
-    "image": "/art/guide.webp",
-    "imageAlt": "A trainer and Eevee set out through a pixel-art forest",
+    "image": "/game/screenshots/battlefield.webp",
+    "imageAlt": "Grass battlefield from the official PokeSurvivor game",
     "category": "START HERE",
     "readTime": 4,
     "outcomes": [
@@ -33,7 +33,7 @@
         "title": "2. Move deliberately and switch the active slot",
         "paragraphs": [
           "Move with WASD or the arrow keys on desktop. Select an attack slot with 1–4, cycle with Q/E or use the move icons. Esc pauses. On mobile, use landscape orientation, drag to move and tap the move icons. Give the battlefield enough screen space to see warning markers.",
-          "Only the selected slot attacks. Learning four moves does not make four independent attacks fire at once. Switch when the current behavior no longer suits the distance or direction of the approaching enemies. Later, Bonds let multiple moves share one active slot.",
+          "Only the selected slot triggers attacks. Learning four moves does not make all four cast together. Switch when the current attack no longer suits the approaching enemies. Some already-created projectiles or timed buffs can persist after switching; Bonds later let multiple moves cast from one active slot. Choice Band is an item exception that prevents ordinary slot switching while equipped.",
           "Circle the edge of a group and keep a second exit in mind. Take nearby experience when the route is open. If a warning circle or line appears, leave it before returning for the pickup. Crossing the center of a horde for one experience gem often costs more health than the level is worth."
         ]
       },
@@ -50,7 +50,7 @@
         "id": "waves",
         "title": "4. Read waves and bosses as changing pressure",
         "paragraphs": [
-          "The local archive draws seven species per wild-enemy tier from overlapping base-stat-total bands. Later tiers join the pool while older casts continue with less weight. The schedule below describes eligibility, not a promise that a named species appears at that minute.",
+          "Outside type-horde events, the checked game draws seven species per wild-enemy tier from overlapping base-stat-total bands. Later tiers join the pool while older casts continue with less weight. The schedule below describes eligibility, not a promise that a named species appears at that minute.",
           "A healer or shielder can make an ordinary crowd harder to clear. A summoner adds bodies, a runner intercepts a predictable route and a bomber punishes staying close. Beam, jump and ground-zone warnings give you information: move out of the marked area first, then decide whether to attack or collect experience.",
           "Boss slots in this archive begin at 3, 6, 9, 12 and 15 minutes, with a different selection each run. The displayed HP and damage are templates before species, time, behavior, spawner and co-op modifiers. Use the candidate lists to recognize possibilities, not to predict exact fight length."
         ]
@@ -60,7 +60,7 @@
         "title": "5. Stop for rewards only when you have an exit",
         "paragraphs": [
           "A locked chest takes 3.5 seconds nearby to open in the local archive, and enemies keep attacking. Move away when the space closes; opening progress decays rather than forcing you to remain. Healing springs consume charge, while an altar grants a temporary effect instead of permanent strength.",
-          "A Rift takes you into a separate legendary arena and can reward a Bond for move fusion. Check health, your active attack and the remaining escape space before entering. A successful plan is one you can survive long enough to use; a low-health Rift attempt can interrupt it.",
+          "A Rift takes you into a separate legendary arena. Each victory grants a Bond for move fusion; it does not automatically unlock a normal legendary partner. Check your health, attack and the arena’s 120-second limit before entering. Losing the challenge returns you to the map without the victory reward. New Rifts stop opening at 28:00 before the Judgment of Arceus.",
           "Other events include type hordes, golden hour, rescues and fleeing treasure thieves. A timer or a shiny-looking reward does not make a chase safe. Check the event effects below before deciding whether to change your route."
         ]
       },
@@ -90,8 +90,8 @@
     "title": "PokeSurvivor Upgrade & Build Guide: Cards, Evolutions and Bonds",
     "description": "Build a compatible loadout, choose the right stat cards, unlock gold evolutions and use Bonds to free slots without wasting your upgrade choices.",
     "icon": "◆",
-    "image": "/art/build.webp",
-    "imageAlt": "Charizard framed by fire in pixel art",
+    "image": "/game/screenshots/card-choices.webp",
+    "imageAlt": "Agility, Power and Poison Sting offered as level-up choices in PokeSurvivor",
     "category": "BUILD A BETTER LOADOUT",
     "readTime": 4,
     "outcomes": [
@@ -119,7 +119,7 @@
         "title": "2. Learn what the three offers can change",
         "paragraphs": [
           "A new-move card fills an empty slot with a compatible move. An upgrade card raises an owned move by one level, to a maximum of 5. A stat card improves the run or heals immediately. Each move has its own upgrade effects; a later level can increase count, coverage or uptime rather than simply add damage.",
-          "Only the active slot fires. Treat a new move as a behavior you can switch to, not a passive damage increase. The game also stops offering additional buff moves after you hold two. Filling slots without a reason can make the next few card choices less useful.",
+          "Only the active slot triggers moves. A new move gives you another attack to switch to, rather than automatically casting alongside the old one. Existing projectiles and timed buffs may continue briefly after switching. The game stops offering additional buff moves once you hold two; learn a damaging attack before relying on a support move.",
           "Stat cards have different limits. Power can be picked 40 times, Sprint 8 and Reflexes 10 in this game build. Armor has a 12-pick limit and a separate 70% application cap. Percentage effects such as Power compound, so a pick count is not the same as an additive percentage."
         ]
       },
@@ -145,8 +145,8 @@
         "id": "bonds",
         "title": "5. Use a Bond to free a slot",
         "paragraphs": [
-          "A Rift victory can award a Bond. After returning from the arena, the game lets you fuse separate moves into a shared slot, or extend an existing group. A group can contain up to four moves. The grouped moves fire from that selected slot together.",
-          "Fusion frees a slot that was previously occupied by a separate move, allowing new move cards to appear again. It does not give those moves free levels or skip their evolution requirements. If there are not yet enough separate moves to fuse, the Bond can be held until a suitable choice exists.",
+          "Each Rift victory grants a Bond. After returning from the arena, you can fuse two separate learned moves, then spend later Bonds to add a loose move to an unfinished group. A group holds up to four moves and the selected group casts together. One Bond does not immediately fuse four moves.",
+          "Fusion frees the slot previously occupied by a separate move, allowing new-move cards to appear again. It does not supply an unlearned move, free levels or an evolution. If fewer than two suitable separate moves exist, the Bond waits until you have a valid fusion choice.",
           "Editorial approach: fuse attacks you want active at the same time, while keeping a deliberate alternative slot for a different situation. Enter a Rift when the current run is ready for its risk; having an appealing fusion planned is not itself a reason to enter with low health."
         ]
       },
@@ -154,7 +154,7 @@
         "id": "rerolls",
         "title": "6. Use rerolls and save a flexible plan",
         "paragraphs": [
-          "You get one free card reroll per run. Purchased Card reroll levels can add up to five more, and Ban can exclude up to three new moves for a partner. Repertoire begins with an extra eligible attack and therefore occupies a slot immediately.",
+          "You get one free card reroll per run. Purchased Card reroll levels add up to five more, for a maximum of six. Defeating a boss does not add another reroll in the checked build. Ban can exclude up to three new moves for a partner. Repertoire adds a random eligible non-buff attack at the start, occupying a second slot.",
           "These menu purchases are separate from run stat cards: owning a permanent Strength upgrade does not count as taking Power during the current run. When a gold card seems missing, check the owned move’s level and the exact prerequisite first.",
           "Choose a partner and check its learnset before planning four compatible move slots. Compare the build examples and Level-up evolution requirements, then note the stat cards each attack needs. Treat the plan as a checklist to adapt when the next actual card offer arrives."
         ]
@@ -176,8 +176,8 @@
     "title": "PokeSurvivor Collection Guide: Tickets, Gacha and Missions",
     "description": "Earn tickets through missions and achievements, understand 70-pull pity and ten-pull rules, choose a regional target and claim useful mission rewards.",
     "icon": "◉",
-    "image": "/art/community.webp",
-    "imageAlt": "Pokémon companions rest by a campfire under a bright moon",
+    "image": "/game/screenshots/forest.webp",
+    "imageAlt": "Original PokeSurvivor forest map background",
     "category": "GROW YOUR COLLECTION",
     "readTime": 5,
     "outcomes": [
@@ -224,7 +224,7 @@
         "paragraphs": [
           "Runs, achievements, completed missions and world rewards all contribute to progression. Choose a few attainable objectives for the partner and route you are already practicing. Repeated short, successful objectives can be more useful than attempting a long run you cannot yet finish reliably.",
           "The local archive’s locked chest requires 3.5 seconds nearby and drops 1–3 single tickets, with separate rolls for an extra ×10 ticket and a held item. A thief may carry coins or a ×10 ticket. These rewards require surviving and collecting them; do not treat a risky chase as free income.",
-          "Achievement and mission rewards must be handled in the game. Read an objective’s condition before starting: a type-specific kill objective, a single-run survival target and a cumulative count require different behavior. Compare the mission goals below before committing to a route."
+          "Achievement rewards are granted automatically when their conditions are detected; completed mission rewards need a manual claim in the Missions screen. Read the objective before starting: a type-specific defeat target, a single-run survival target and a cumulative count require different behavior. Compare the mission goals below before choosing a route."
         ]
       },
       {
@@ -240,9 +240,15 @@
         "id": "shiny",
         "title": "6. Treat shiny appearance as a separate goal",
         "paragraphs": [
-          "The gacha shiny check is 1% when the rolled species has a shiny form. Wild spawns use a separate 1/4096 shiny roll when artwork exists. Neither check makes the species itself more likely to be chosen from the underlying pool.",
+          "Eligible gacha selections use a 1% shiny check. Ordinary wild spawns and scheduled map bosses use 1 in 4,096, while a Rift legendary has its own 1-in-512 check when selected. Shiny artwork must exist. Enemy shinies must be defeated before the form is collected; merely seeing one does not unlock it.",
           "If a rolled shiny is already owned, the game tries a missing shiny in the same region and rarity. When that pool is exhausted, it can return a normal result. Do not plan income around an unconditional triple-refund promise for every completed shiny pool.",
           "The supplied artwork archive contains shiny sprites for 958 of the 966 roster species. Missing artwork is explicitly marked in the Pokédex. A color variation does not change the partner’s base stats. Compare the actual sprites below and pursue a shiny after deciding whether collection breadth or that cosmetic target matters more."
+        ],
+        "links": [
+          {
+            "label": "Read the full shiny hunting guide",
+            "href": "/guides/shiny-pokemon"
+          }
         ]
       },
       {
@@ -265,5 +271,400 @@
         "Tickets, Gacha and Missions"
       ]
     }
+  },
+  {
+    "slug": "shiny-pokemon",
+    "title": "How to Get Shiny Pokémon in PokeSurvivor",
+    "heading": "How to Get Shiny Pokémon",
+    "cardTitle": "Find Your First Shiny Pokémon",
+    "description": "Find shinies in wild encounters, legendary Rifts and regional gacha. Compare the three rates, collect the form you find and keep your account progress safe.",
+    "icon": "✦",
+    "image": "/art/shiny-guide.svg",
+    "imageAlt": "Illustrated field guide showing the real normal and shiny Charizard and Eevee sprites",
+    "category": "SHINY HUNTING",
+    "readTime": 11,
+    "seo": {
+      "title": "PokeSurvivor Shiny Guide - Wild, Rift and Gacha Odds",
+      "description": "Learn how to get shiny Pokémon in PokeSurvivor through wild encounters, Rifts and gacha. Compare odds, duplicate rules, saving and equipping your partner.",
+      "targetKeywords": [
+        "PokeSurvivor shiny Pokémon",
+        "PokeSurvivor shiny odds",
+        "how to get shiny Pokémon",
+        "PokeSurvivor shiny hunting"
+      ]
+    },
+    "outcomes": [
+      "Three shiny routes, each with its own roll",
+      "A safe wild-hunting plan and practical ticket choices",
+      "Duplicate rules, co-op rewards, saving and equipping"
+    ],
+    "sources": [
+      "js/systems/gacha.js",
+      "js/systems/spawner.js",
+      "js/entities/enemy.js",
+      "js/game.js",
+      "js/core/db.js",
+      "js/ui/menu.js",
+      "js/net/coop.js",
+      "js/systems/rift.js",
+      "js/systems/judgment.js"
+    ],
+    "sections": [
+      {
+        "id": "start",
+        "title": "1. Choose between wild encounters, Rifts and gacha",
+        "paragraphs": [
+          "You can unlock a shiny by defeating a shiny enemy during a run, defeating a shiny legendary in a Rift or receiving a shiny result from a regional gacha banner. You do not need to own the normal form first: getting a new shiny also unlocks that species in its normal form.",
+          "If you want your first shiny of any species, combine ordinary runs with tickets earned along the way. If you want one favorite, first check its region and rarity. Neither route lets you name the next shiny that will appear, and a higher rarity does not make a result more likely to be shiny."
+        ],
+        "table": {
+          "caption": "Three acquisition routes, three separate rolls. Seeing an enemy is not the defeat needed to collect it.",
+          "columns": [
+            "Route",
+            "Shiny check",
+            "What you must do"
+          ],
+          "rows": [
+            [
+              "Wild enemies",
+              "1 in 4,096 per eligible spawn",
+              "Defeat the shiny enemy while staying alive."
+            ],
+            [
+              "Rift legendary",
+              "1 in 512 per eligible legendary selection",
+              "Defeat the shiny legendary within the arena time limit."
+            ],
+            [
+              "Regional gacha",
+              "1 in 100 after an eligible species is selected",
+              "Spend tickets in the correct region; inspect the result."
+            ]
+          ]
+        },
+        "callout": {
+          "title": "Sign in before a serious hunt",
+          "text": "Use the official game’s account options before collecting. Guest progress is not saved. A shiny found in a guest session is not a reliable way to build a lasting collection."
+        },
+        "links": [
+          {
+            "label": "Open the game",
+            "href": "/play"
+          },
+          {
+            "label": "Check a partner’s region",
+            "href": "/pokedex"
+          }
+        ]
+      },
+      {
+        "id": "wild",
+        "title": "2. How to catch a wild shiny",
+        "paragraphs": [
+          "The shiny check happens when an eligible enemy spawns. Killing an ordinary enemy does not turn it shiny afterward. A shiny uses its alternate palette and sparkle effects; a shiny appearing through the regular enemy spawner also triggers an announcement and sound. Scheduled bosses can pass the shiny check too, so keep watching during boss fights.",
+          "The unlock happens when the shiny is defeated. Walking into it, seeing the announcement or collecting an unrelated item does not count. There is no separate Poké Ball interaction to perform in this capture flow."
+        ],
+        "steps": [
+          "Start with a partner and main attack you can control comfortably. A hunt ends quickly if you cannot keep an escape lane open.",
+          "When the alert appears, locate the sparkling enemy without crossing the center of the horde. Clear nearby threats if they block the route.",
+          "Choose the active move that fits the distance and matchup. Keep attacking from a safe angle rather than standing on the target.",
+          "Allow more time to finish it: the shiny enemy modifier doubles its HP and multiplies its XP by five relative to that enemy before the shiny modifier. Existing difficulty and boss scaling still apply.",
+          "After defeating it, look for the acquisition message. Check the run’s caught-shiny display and your collection afterward, then let account synchronization finish."
+        ],
+        "callout": {
+          "title": "Golden enemies are a different effect",
+          "text": "Golden Hour changes enemy rewards; it is not a shiny-rate boost. A gold-colored effect, a ticket sound or a sparkling UI reward alone does not confirm that a shiny species joined your collection."
+        },
+        "links": [
+          {
+            "label": "Practice survival and positioning",
+            "href": "/guides/beginner-guide"
+          },
+          {
+            "label": "Check type matchups",
+            "href": "/types"
+          }
+        ]
+      },
+      {
+        "id": "rifts",
+        "title": "3. Hunt a legendary shiny inside a Rift",
+        "paragraphs": [
+          "Rift legendaries use their own shiny check: 1 in 512 when the arena selects a legendary with shiny artwork. This is eight times the ordinary wild rate per eligible check. It does not mean eight times as many shinies per hour: Rifts appear far less often than regular enemies, and you still have to win the fight.",
+          "The opponent and its shiny form are selected when the arena starts. The roll does not repeat every second, whenever you attack or each time you switch moves. A normal legendary cannot turn shiny because you keep the fight going.",
+          "Defeat the shiny legendary to unlock its shiny and normal partner forms. Defeating an ordinary legendary records the victory for relevant goals, but does not directly give you that normal partner. An arena victory and ownership are different collection records.",
+          "Rift selection favors legendaries you have not defeated: their selection weight is 4, compared with 1 for a previously defeated opponent. That preference uses victory records, not your missing-shiny list. It neither guarantees the next species nor raises the selected legendary’s 1-in-512 shiny roll."
+        ],
+        "steps": [
+          "Enter with enough health and damage for the arena, rather than treating its better per-check rate as a reason to risk every run.",
+          "Read the arena’s terrain, weather and attack markers. You have 120 seconds to defeat its legendary; a shiny version has the usual shiny enemy HP modifier.",
+          "Finish the shiny enemy before the arena fails, then confirm the collection message and allow account synchronization to complete."
+        ],
+        "callout": {
+          "title": "Rift access has its own limits",
+          "text": "The checked build stops opening new Rifts at 28:00 ahead of the Judgment of Arceus. An existing portal is temporary, and a living map boss delays new opening checks. A failed arena returns you to the map; it is not a successful shiny capture. The Judgment’s legendary waves use a different encounter flow and do not receive this Rift shiny roll."
+        },
+        "links": [
+          {
+            "label": "Prepare a compatible loadout",
+            "href": "/level-up"
+          },
+          {
+            "label": "Check arena type matchups",
+            "href": "/types"
+          }
+        ]
+      },
+      {
+        "id": "gacha",
+        "title": "4. Use tickets without confusing rarity and shininess",
+        "paragraphs": [
+          "Open the game’s gacha and choose the region containing your target. A single pull costs one regular ticket. A ten-pull uses ten regular tickets or one ×10 ticket. Coins are not the currency used for those pulls.",
+          "The game chooses a rarity, then a species from that regional rarity pool, then checks whether that species has a shiny form. When it does, the normal shiny check is 1%. A species without a shiny form cannot become shiny through that check.",
+          "Ten-pulls guarantee at least one 4-star-or-higher result, not a shiny. Each regional banner also has a 5-star pity counter: from a counter of zero, the 70th pull is forced to 5-star if no earlier 5-star reset it. That rarity guarantee does not replace the shiny roll.",
+          "Do not read a featured portrait as a targeted shiny banner. For example, Pikachu is a 2-star Kanto partner, and the current Kanto pool has 41 species at that rarity. Before duplicate redirection, an ordinary non-guaranteed pull has a base shiny-Pikachu chance of 30% ÷ 41 × 1%, about 0.00732% (roughly 1 in 13,667). A ten-pull’s last-slot rule, pity and your existing shiny collection can change which result you ultimately receive."
+        ],
+        "bullets": [
+          "Stay on the target’s region if that is the partner you care about. Pulling a different region cannot directly select it.",
+          "Use ten-pulls when you also value the rarity floor. They do not increase the 1% shiny check itself.",
+          "A long dry streak does not create a hidden shiny guarantee. The displayed pity counter tracks 5-star rarity, not shinies."
+        ],
+        "links": [
+          {
+            "label": "Read banner rates and guarantees",
+            "href": "/gacha"
+          },
+          {
+            "label": "Plan your ticket collection",
+            "href": "/guides/gacha-and-tickets"
+          }
+        ]
+      },
+      {
+        "id": "odds",
+        "title": "5. What the odds mean over many attempts",
+        "paragraphs": [
+          "A 1-in-100 check is not a promise of one shiny every 100 pulls. Independent attempts can produce an early shiny, several close together or a long stretch without one. The same reasoning applies to wild encounters: 4,096 eligible spawns do not guarantee a shiny.",
+          "The table models at least one successful shiny roll using 1 − (1 − p)^n. For wild rows, count eligible spawns, not kills or minutes. For Rift rows, count eligible legendary selections, not every enemy defeated in the arena. Gacha rows assume every selected species has shiny artwork. These are theoretical roll probabilities, not measured run results or the probability of a particular new shiny."
+        ],
+        "table": {
+          "caption": "Illustrative cumulative probabilities, rounded to two decimals; no guarantee is created at any row.",
+          "columns": [
+            "Route",
+            "Eligible attempts",
+            "At least one successful check"
+          ],
+          "rows": [
+            [
+              "Gacha",
+              "10",
+              "9.56%"
+            ],
+            [
+              "Gacha",
+              "50",
+              "39.50%"
+            ],
+            [
+              "Gacha",
+              "100",
+              "63.40%"
+            ],
+            [
+              "Gacha",
+              "300",
+              "95.10%"
+            ],
+            [
+              "Wild",
+              "1,000",
+              "21.66%"
+            ],
+            [
+              "Wild",
+              "4,096",
+              "63.22%"
+            ],
+            [
+              "Wild",
+              "10,000",
+              "91.30%"
+            ],
+            [
+              "Rift",
+              "50",
+              "9.31%"
+            ],
+            [
+              "Rift",
+              "100",
+              "17.76%"
+            ],
+            [
+              "Rift",
+              "512",
+              "63.25%"
+            ]
+          ]
+        },
+        "callout": {
+          "title": "A successful roll can still return a normal gacha result",
+          "text": "If the selected shiny is already owned and every shiny in that regional rarity pool is collected, the game falls back to a normal result. The table therefore does not promise a new collection entry, even after a successful shiny check."
+        }
+      },
+      {
+        "id": "duplicates",
+        "title": "6. What happens if you already own the shiny?",
+        "paragraphs": [
+          "Enemy captures and gacha results handle duplicates differently. Ordinary wild and Rift shinies share the enemy-defeat capture flow. This matters when deciding whether to chase a shiny you recognize or keep spending tickets in a nearly complete regional pool.",
+          "For gacha, the replacement search stays within the selected banner and rarity. It does not choose a missing shiny from another region or give you a free choice. If the first selected species has no shiny art, the game does not run this duplicate-redirection step to rescue the roll."
+        ],
+        "table": {
+          "caption": "Follow the actual reward branch rather than assuming every duplicate has a triple-coin payout.",
+          "columns": [
+            "Situation",
+            "Result"
+          ],
+          "rows": [
+            [
+              "New wild or Rift shiny",
+              "Unlocks its shiny form and its normal form if missing."
+            ],
+            [
+              "Already-owned wild or Rift shiny",
+              "Adds 300 coins to the current run; no second collection copy."
+            ],
+            [
+              "Gacha rolls an already-owned shiny; alternatives remain",
+              "Selects a missing shiny from the same regional rarity pool."
+            ],
+            [
+              "Gacha rolls an already-owned shiny; that pool is complete",
+              "Falls back to normal. A new normal species unlocks; an owned normal uses its normal rarity refund."
+            ]
+          ]
+        },
+        "callout": {
+          "title": "About the “triple coins” wording",
+          "text": "Some public descriptions mention triple coins for a duplicate shiny. The checked draw logic redirects owned shinies or falls back to normal before that payout branch. Do not plan a ticket-spending strategy around receiving triple refunds."
+        }
+      },
+      {
+        "id": "appearance",
+        "title": "7. Compare the actual normal and shiny forms",
+        "paragraphs": [
+          "The comparison below uses the game’s Idle animation frames and its original collection star effect. The game draws those stars separately from the shiny sprite sheet. Some palette changes are obvious; others are subtle. Check the Shiny label and collection status alongside the color.",
+          "These examples help you decide which partner to pursue. They are not a list of boosted-rate targets. Your preferred appearance does not change a banner’s probability."
+        ],
+        "comparisons": [
+          {
+            "id": 6,
+            "name": "Charizard",
+            "note": "Kanto · 4-star pool. Compare its normal orange sprite with the dark shiny form."
+          },
+          {
+            "id": 133,
+            "name": "Eevee",
+            "note": "Kanto · check the lighter shiny palette before choosing a collection goal."
+          },
+          {
+            "id": 94,
+            "name": "Gengar",
+            "note": "Kanto · a subtler palette change. The shiny indicator is more useful than a quick color glance."
+          },
+          {
+            "id": 448,
+            "name": "Lucario",
+            "note": "Sinnoh · a different regional target from the Kanto examples."
+          }
+        ],
+        "links": [
+          {
+            "label": "Browse all normal and shiny previews",
+            "href": "/pokedex"
+          }
+        ]
+      },
+      {
+        "id": "routine",
+        "title": "8. Build a repeatable hunting routine",
+        "paragraphs": [
+          "Start by choosing the goal: any first shiny, a specific partner or more missing forms in one region. Those are different projects. An encounter that helps a broad collection might do nothing for the one species you want.",
+          "For wild hunting, prioritize runs you can keep under control. Clear enemies efficiently and keep moving so you can respond when an alert appears. Do not reset a healthy run simply because no shiny appeared in the opening minutes; the next eligible check does not become better because the previous ones failed.",
+          "For gacha, earn tickets while working on useful missions and achievements. Check completed mission rewards and claim them in the game. Regular enemy drops, bosses and Rifts can also contribute tickets, but no fixed number of minutes guarantees a particular ticket or shiny reward.",
+          "If you target a species through encounters, remember that ordinary enemy casts and Rift opponents use different pools. A high kill count against other species is not the same as many chances at your favorite. For legendary shinies, count the Rifts that actually select a shiny-capable legendary; their 1-in-512 roll does not apply to all enemies in a run."
+        ],
+        "steps": [
+          "Sign in, check your target’s region and compare the appearance you want.",
+          "Choose a reliable survival build and one mission objective that fits it.",
+          "React to wild shiny alerts safely, and take prepared Rift fights for legendary targets. Defeat the shiny before treating it as collected.",
+          "Claim earned tickets, choose the intended regional banner and inspect your results.",
+          "Verify new entries, equip the desired form and wait for the save status to settle."
+        ],
+        "links": [
+          {
+            "label": "Compare compatible move cards",
+            "href": "/level-up"
+          },
+          {
+            "label": "Find achievement goals",
+            "href": "/achievements"
+          }
+        ]
+      },
+      {
+        "id": "equip",
+        "title": "9. Equip your shiny and protect the unlock",
+        "paragraphs": [
+          "After an unlock, select that Pokémon in the official game’s collection. Its Normal/Shiny selector appears when you own the shiny form. Switch to Shiny and choose it as your partner. The main partner panel also has a Normal/Shiny control for an owned shiny, which is useful on mobile.",
+          "A shiny partner uses the same species stats and move pool. The extra HP and XP described earlier belong to shiny enemies; choosing a shiny appearance does not give your player double health or five times the experience.",
+          "The capture is recorded when the enemy is defeated, rather than waiting for a completed run. Account synchronization may still be pending, so losing the run and losing unsaved progress are different concerns. Let the game finish saving before closing, changing devices or signing out. Guests do not have persistent progress.",
+          "In the checked co-op flow, the host broadcasts the shiny-capture event to connected clients. It is a shared event rather than a final-hit contest. Stay connected and confirm the unlock in your own collection afterward; a teammate’s screenshot is not confirmation that your account saved it."
+        ],
+        "callout": {
+          "title": "The fan-site preview does not change your save",
+          "text": "Switching the sprite appearance on this site’s Pokédex only previews the artwork. It does not unlock a shiny, spend tickets or equip a partner in the official game."
+        }
+      },
+      {
+        "id": "faq",
+        "title": "10. Shiny hunting questions",
+        "paragraphs": [],
+        "questions": [
+          {
+            "question": "Can a Rift legendary be shiny?",
+            "answer": "Yes. Each eligible legendary selection has a separate 1-in-512 check. Defeat the shiny legendary to unlock it. Neither 512 attempts nor a normal legendary victory guarantees its shiny form."
+          },
+          {
+            "question": "Do I need a Poké Ball or a special capture item?",
+            "answer": "No separate capture item is used in the checked wild or Rift shiny flow. Defeat the shiny enemy; the unlock is granted by that defeat event."
+          },
+          {
+            "question": "Is a shiny guaranteed after 100 pulls?",
+            "answer": "No. At a constant 1% rate, 100 eligible independent checks give about a 63.40% chance of at least one successful shiny roll, before collection-related fallbacks. That is not a species guarantee."
+          },
+          {
+            "question": "Does the 70-pull pity make the result shiny?",
+            "answer": "No. That counter guarantees a 5-star rarity result. A separate shiny check still applies, and a 5-star resets that regional rarity counter."
+          },
+          {
+            "question": "Can I get a shiny before owning the normal Pokémon?",
+            "answer": "Yes. A newly granted shiny also unlocks the normal species if you did not own it."
+          },
+          {
+            "question": "Does Golden Hour, a stronger build or a long streak improve the rate?",
+            "answer": "The checked shiny rolls do not use those factors as rate bonuses. A stronger build can help you survive and finish an encounter; it does not turn the 1-in-4,096 spawn roll into better odds."
+          },
+          {
+            "question": "Why is there no Shiny button for my partner?",
+            "answer": "Check that you actually own that partner’s shiny form in the official game, rather than just its normal form or a preview on this site. A species also needs supported shiny art. Confirm you are signed into the same account that earned it."
+          },
+          {
+            "question": "Will I lose a captured shiny if I die afterward?",
+            "answer": "The unlock is triggered at the defeat, not awarded only for finishing a run. Keep the account signed in and allow synchronization to complete. A guest session or interrupted save is a separate persistence risk."
+          }
+        ]
+      }
+    ]
   }
 ]

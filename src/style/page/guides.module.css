@@ -17,7 +17,7 @@
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 19px;
   align-items: stretch;
 }
@@ -47,6 +47,9 @@
   object-fit: cover;
   image-rendering: pixelated;
   transition: transform 0.3s;
+}
+.cover > img[src$=".svg"] {
+  object-fit: contain;
 }
 .card:hover .cover > img {
   transform: scale(1.04);
@@ -198,6 +201,9 @@
   object-fit: cover;
   image-rendering: pixelated;
 }
+.articleCover:has(img[src$=".svg"]) {
+  aspect-ratio: 1200 / 630;
+}
 .articleBody {
   padding: 28px 30px;
 }
@@ -238,6 +244,22 @@
   color: #b3cede;
   margin-bottom: 15px;
 }
+.chapter > ul, .chapter > ol {
+  padding-left: 24px;
+  color: #b3cede;
+  line-height: 1.9;
+  margin: 18px 0 24px;
+}
+.chapter li { margin-bottom: 12px; }
+.chapter caption { text-align: left; color: #99c3d5; padding: 12px 0; line-height: 1.7; }
+.chapter .takeaways { margin-top: 22px; margin-bottom: 24px; }
+.chapter .takeaways h3 { color: #92ead2; margin-bottom: 10px; }
+.chapter .takeaways p, .referenceToggle p { color: #b3cede; line-height: 1.9; }
+.recipeGrid > figure { margin: 0; padding: 18px; border: 1px solid #315e70; background: #082635; min-width: 0; }
+.recipeGrid figure > div { display: flex; align-items: center; justify-content: space-around; gap: 6px; padding: 14px 0; color: #6de9ca; }
+.recipeGrid figure > div > span { min-width: 0; text-align: center; }
+.recipeGrid figure small { color: #9adac7; }
+.recipeGrid figcaption { font-size: 12px; line-height: 1.8; color: #a9c5d6; }
 .referenceToggle {
   border: 1px solid #315b6f;
   background: #092737;
@@ -314,12 +336,58 @@
     transform: none;
   }
 }
+.intro { border-color: #a18a4e; }
+.intro > span { color: var(--gold); }
+.card, .toc, .article, .help, .takeaways, .referenceToggle, .nextGuide { border-radius: 4px; border-color: #81734b; box-shadow: var(--frame-shadow); }
+.card { background: linear-gradient(135deg, #0e2c2d, #081c28); }
+.card:nth-child(2) { border-top: 2px solid #c7ab65; }
+.card:nth-child(3), .card:nth-child(4) { border-top: 2px solid #b58ccc; }
+.card:hover { border-color: var(--gold); transform: none; }
+.cover { aspect-ratio: 2.1; background: #0a2829; border-color: #a18a4e55; }
+.cover > img, .articleCover > img { object-fit: cover; }
+.cover .originalArt, .articleCover .originalArt { position: absolute; inset: 0; z-index: 1; display: flex; justify-content: center; align-items: center; gap: 12px; pointer-events: none; background: linear-gradient(0deg, #061d2a88, transparent); }
+.originalArt > picture { min-width: 0; flex: 0 1 120px; max-width: 25%; }
+.originalArt img { width: 100%; height: auto; }
+.originalArt > img { width: 48px; height: 48px; flex-shrink: 0; }
+.articleCover > img[src$=".svg"] { object-fit: contain; }
+.number { font-size: 10px; border-color: var(--gold); color: #f5d887; z-index: 2; }
+.duration { z-index: 2; font-size: 10px; }
+.category { color: #e3c98a; font-size: 10px; }
+.body { padding: 24px; }
+.body h2 { color: #f0e2bb; font-size: 28px; text-wrap: balance; }
+.body > p { color: #b7d0d7; }
+.outcomes { font-size: 12px; line-height: 1.7; }
+.outcomes li::before { color: var(--gold); }
+.card footer { color: #a5e4c6; border-color: #9a854a55; }
+.help { background: #0c252d; color: #bbd0d4; font-size: 12px; line-height: 1.8; }
+.toc { top: 24px; background: #0b242b; }
+.toc > small { color: var(--gold); }
+.toc a { display: block; padding-block: 4px; }
+.toc a:hover { color: var(--gold); }
+.article { background: #081e29; }
+.articleCover { aspect-ratio: 2.4; background: #0b252a; }
+.articleCover:has(img[src$=".svg"]) { aspect-ratio: 2.4; }
+.articleBody { padding: 32px; }
+.byline { line-height: 1.8; border-color: #9a854a55; }
+.takeaways { background: linear-gradient(120deg, #163a2d, #0b282b); }
+.chapter { margin-bottom: 40px; }
+.chapter h2 { padding-bottom: 14px; border-bottom: 1px solid #a18a4e66; color: #f0e2bb; font-size: 28px; }
+.chapter > p { font-size: 14px; color: #c3d7dc; line-height: 1.9; }
+.chapter > ul, .chapter > ol { color: #c3d7dc; font-size: 14px; }
+.chapter li::marker { color: var(--gold); }
+.referenceToggle { background: #0d292d; }
+.referenceToggle > summary { line-height: 1.8; min-height: 48px; color: #cbe5c9; }
+.nextGuide { background: linear-gradient(120deg, #213a2a, #0a2930); }
+.nextGuide small { color: var(--gold); }
 
 .card:nth-child(2) .cover > img {
   object-position: 35% center;
 }
 
 @media (max-width: 1024px) {
+  .chapter {
+    scroll-margin-top: 80px;
+  }
   .readingLayout {
     grid-template-columns: 180px minmax(0, 1fr);
     gap: 16px;
@@ -366,6 +434,10 @@
     margin-top: 14px;
     padding-top: 12px;
   }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: none; }
+  .body { padding: 22px; }
+  .body h2 { font-size: 27px; }
+  .toc { position: static; }
 }
 
 @media (max-width: 768px) {
@@ -410,6 +482,21 @@
   .nextGuide h2 {
     font-size: 21px;
   }
+  .grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .intro { flex-wrap: wrap; gap: 10px; }
+  .intro > span { max-width: none; text-align: left; line-height: 1.8; }
+  .cover { aspect-ratio: 1.85; }
+  .body { padding: 22px 18px; }
+  .body h2 { font-size: 27px; }
+  .articleBody { padding: 24px 16px; }
+  .articleCover, .articleCover:has(img[src$=".svg"]) { aspect-ratio: 1.85; }
+  .chapter h2 { font-size: 25px; }
+  .chapter > p, .chapter > ul, .chapter > ol { font-size: 13px; }
+  .toc nav { flex-direction: column; gap: 3px; }
+  .toc a { min-height: 36px; }
+  .takeaways { padding: 17px; }
+  .originalArt { gap: 0; }
+  .originalArt > picture { max-width: 25%; }
 }
 
 

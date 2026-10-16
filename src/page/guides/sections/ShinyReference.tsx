@@ -1,4 +1,4 @@
-import { PokemonArt } from "@/components/common/PokemonArt";
+import { CollectionPokemonArt } from "@/components/common/CollectionPokemonArt";
 import { pokemon } from "@/lib/data/pokemon";
 import { getSpriteAssets } from "@/lib/data/game";
 import s from "@/style/page/game-data.module.css";
@@ -23,9 +23,9 @@ export default function ShinyReference() {
           return (
             <figure key={id}>
               <div>
-                <PokemonArt id={id} name={p.name} />
+                <CollectionPokemonArt id={id} name={p.name} />
                 <span>→</span>
-                <PokemonArt id={id} name={p.name} shiny />
+                <CollectionPokemonArt id={id} name={p.name} shiny />
               </div>
               <figcaption>
                 {p.name}
@@ -36,7 +36,7 @@ export default function ShinyReference() {
         })}
       </div>
       <p className={s.caption}>
-        Game archive sprites · SpriteCollab ·{" "}
+        Game Idle animation and original collection star effect · SpriteCollab ·{" "}
         <a href="/credits/spritecollab-artists.md">Artist credits</a> · CC BY-NC
         4.0.
       </p>

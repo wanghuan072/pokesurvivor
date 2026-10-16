@@ -1,5 +1,8 @@
 import Image from "next/image";
-/* Locally extracted SpriteCollab frames; credits and license are served by the site. */
+import previewIndex from "@/data/game/collection-preview-index.json";
+const normalPreviews = new Set(previewIndex.normal);
+const shinyPreviews = new Set(previewIndex.shiny);
+/* Original-game collection animation/effects; notices retained in public/credits. */
 export function PokemonArt({
   id,
   name,
@@ -11,16 +14,24 @@ export function PokemonArt({
   size?: number;
   shiny?: boolean;
 }) {
-  return (
+  const isShiny = shiny && shinyPreviews.has(id);
+  const animated = (isShiny ? shinyPreviews : normalPreviews).has(id);
+  const stem = `${id}-${isShiny ? "shiny" : "normal"}`;
+  const fallback = `/game/pokemon/${id}${isShiny ? "-shiny" : ""}.webp`;
+  const art = (
     <Image
       className="pokemon-art"
-      src={`/game/pokemon/${id}${shiny ? "-shiny" : ""}.webp`}
+      src={animated ? `/game/collection/${stem}.webp` : fallback}
       width={size}
       height={size}
-      alt={shiny ? `Shiny ${name}` : name}
+      alt={isShiny ? `Shiny ${name}` : name}
       loading="lazy"
       decoding="async"
       unoptimized
     />
   );
+  return animated ? <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcSet={`/game/collection/${stem}-still.webp`} />
+    {art}
+  </picture> : art;
 }

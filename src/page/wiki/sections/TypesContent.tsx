@@ -21,8 +21,8 @@ export default function Types() {
         </p>
       </article>
       <h2 className={s.sectionTitle}>Complete 18-type matchup chart</h2>
-      <div className={s.tableWrap}>
-        <table className={s.table}>
+      <div className={s.tableWrap} tabIndex={0} role="region" aria-label="Type chart, scroll horizontally to compare defending types">
+        <table className={s.table} data-chart="types">
           <caption className="sr-only">
             Rows are attacking types; columns are defending types.
           </caption>
@@ -43,7 +43,7 @@ export default function Types() {
                   <GameIcon name={`type-${a.toLowerCase()}`} size={18} /> {a}
                 </th>
                 {typeNames.map((d) => (
-                  <td key={d}>{typeMultiplier(a, d)}×</td>
+                  <td key={d} data-factor={typeMultiplier(a, d)}>{typeMultiplier(a, d)}×</td>
                 ))}
               </tr>
             ))}

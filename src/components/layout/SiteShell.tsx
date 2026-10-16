@@ -1,14 +1,20 @@
 "use client";
 import SiteFooter from "@/components/layout/SiteFooter";
+import { CollectionPokemonArt } from "@/components/common/CollectionPokemonArt";
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { navigation } from "@/config/navigation";
+import { NavigationIcon } from "./NavigationIcon";
 import type { SearchEntry } from "@/types/search";
 import s from "@/style/layout/shell.module.css";
 const topics = [
   ...navigation,
   { label: "Beginner guide", href: "/guides/beginner-guide", icon: "▣" },
-  { label: "Charizard build", href: "/builds#build-charizard", icon: "♨" },
+];
+const groups = [
+  { label: "Start here", links: navigation.slice(0, 2) },
+  { label: "Plan your run", links: navigation.slice(2, 6) },
+  { label: "Keep exploring", links: navigation.slice(6) },
 ];
 export default function SiteShell({ children }: { children: React.ReactNode }) {
   const path = usePathname();
@@ -18,12 +24,40 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
   const [searchIndex, setSearchIndex] = useState<SearchEntry[]>([]);
   const [searchError, setSearchError] = useState(false);
   const dialog = useRef<HTMLDialogElement>(null);
+  const sidebar = useRef<HTMLElement>(null);
+  useEffect(() => {
+    if (!menu) return;
+    const media = window.matchMedia("(max-width: 1024px)");
+    if (!media.matches) return;
+    const opener = document.activeElement;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const focusable = () => [...(sidebar.current?.querySelectorAll<HTMLElement>("a[href], button") ?? [])]
+      .filter(element => element.getClientRects().length);
+    (sidebar.current?.querySelector<HTMLElement>('[aria-current]') ?? focusable()[0])?.focus();
+    const trapFocus = (event: KeyboardEvent) => {
+      if (event.key !== "Tab") return;
+      const targets = focusable(), first = targets[0], last = targets.at(-1);
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+    };
+    const onResize = () => { if (!media.matches) setMenu(false); };
+    document.addEventListener("keydown", trapFocus);
+    media.addEventListener("change", onResize);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener("keydown", trapFocus);
+      media.removeEventListener("change", onResize);
+      if (opener instanceof HTMLElement && opener.isConnected) opener.focus();
+    };
+  }, [menu]);
   useEffect(() => {
     if (path === "/play") return;
     const handler = (e: KeyboardEvent) => {
       if (e.key === "Escape") setMenu(false);
       if ((e.ctrlKey || e.metaKey) && e.key === "k") {
         e.preventDefault();
+        setMenu(false);
         setSearch(true);
       }
     };
@@ -67,7 +101,7 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
       </a>
       <header className={s.mobile}>
         <a href="/">
-          ◓ PokeSurvivor
+          <span className={s.mobileMark} aria-hidden="true" /> PokeSurvivor
         </a>
         <button
           onClick={() => setMenu(!menu)}
@@ -75,7 +109,7 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
           aria-expanded={menu}
           aria-label="Toggle navigation"
         >
-          ☰
+          <NavigationIcon name="menu" />
         </button>
       </header>
       {menu && (
@@ -85,50 +119,41 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
           aria-label="Close navigation"
         />
       )}
-      <aside id="site-navigation" className={`${s.sidebar} ${menu ? s.open : ""}`}>
+      <aside ref={sidebar} id="site-navigation" aria-label="Site navigation" className={`${s.sidebar} ${menu ? s.open : ""}`}>
+        <button className={s.sidebarClose} onClick={() => setMenu(false)} aria-label="Close menu">
+          <NavigationIcon name="close" />
+        </button>
         <a href="/" className={s.brand}>
-          <span className={s.mascot} />
+          <span className={s.mascot} aria-hidden="true" />
           <strong>PokeSurvivor</strong>
+          <small>THE PLAYER’S FIELD GUIDE</small>
         </a>
-        <button className={s.search} onClick={() => setSearch(true)}>
-          <span>⌕</span> Search... <kbd>Ctrl K</kbd>
+        <button className={s.search} onClick={() => { setMenu(false); setSearch(true); }} aria-label="Search site">
+          <NavigationIcon name="search" /><span>Find a page</span><kbd>Ctrl K</kbd>
         </button>
         <nav aria-label="Main navigation">
-          {navigation.map((n) => (
-            <a
-              href={n.href}
-              key={n.href}
-              className={
-                path === n.href ||
-                (n.href !== "/" && path.startsWith(n.href + "/"))
-                  ? s.active
-                  : ""
-              }
-              aria-current={path === n.href ? "page" : undefined}
-            >
-              <span>{n.icon}</span>
-              {n.label}
-            </a>
-          ))}
+          {groups.map(group => <div className={s.navGroup} key={group.label}>
+            <p className={s.groupLabel}>{group.label}<span aria-hidden="true" /></p>
+            {group.links.map(link => {
+              const active = path === link.href || (link.href !== "/" && path.startsWith(link.href + "/"));
+              return <a href={link.href} key={link.href} data-symbol={link.symbol}
+                className={`${s.navLink} ${active ? s.active : ""}`}
+                aria-current={active ? (path === link.href ? "page" : "location") : undefined}>
+                <span className={s.navIcon} aria-hidden="true"><CollectionPokemonArt {...link.pokemon} size={56} /></span>
+                <span className={s.navLabel}>{link.label}{link.href === "/play" && <small>Free browser game</small>}</span>
+                <span className={s.navArrow}><NavigationIcon name="arrow" /></span>
+              </a>;
+            })}
+          </div>)}
         </nav>
-        <div className={s.sidebarArt} />
-        <blockquote>
-          “Pick a partner.
-          <br />
-          Give the next run a plan.”<cite>— PokeSurvivor.me</cite>
-        </blockquote>
+        <div className={s.sidebarArt} aria-hidden="true">
+          <CollectionPokemonArt id={133} name="Eevee" size={72} />
+          <div><small>NEXT RUN</small><span>A new partner.<br />A new plan.</span></div>
+        </div>
         <p className={s.disclaimer}>
-          An unofficial fan guide.
-          <br />
-          Not affiliated with Nintendo,
-          <br />
-          The Pokémon Company or
-          <br />
-          the game’s creator.
+          Independent fan guide.<br />Not affiliated with the official game.
         </p>
-        <small className={s.love}>
-          ♥ <span>Built by fans, for fans.</span>
-        </small>
+        <a className={s.love} href="/legal/about-us"><span>Built by fans, for fans.</span> <span aria-hidden="true">↗</span></a>
       </aside>
       <div className={s.content}>
         <main id="main">{children}</main>
@@ -164,7 +189,7 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
               </p>
             )}
             {results.map((r) => (
-              <a href={r.href} key={r.href}>
+              <a href={r.href} key={r.href} onClick={() => setSearch(false)}>
                 {r.icon} {r.label}
                 <span>→</span>
               </a>

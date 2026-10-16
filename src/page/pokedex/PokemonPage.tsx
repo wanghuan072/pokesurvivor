@@ -125,7 +125,7 @@ export default function PokemonPage({ pokemon: p }: { pokemon: Pokemon }) {
         )}
         <div className={s.chips}>
           <a href="/pokedex">← All Pokémon</a>
-          <a href="/builds">Explore builds →</a>
+          <a href="/level-up">Compare move cards →</a>
           <a href="/play">Play with a partner →</a>
         </div>
         <SourceNote

@@ -22,6 +22,7 @@
     "initialChance": 0.2,
     "portalSeconds": 45,
     "arenaSeconds": 120,
-    "firstPossibleSeconds": 75
+    "eligibilityStartsSeconds": 75,
+    "firstPossibleSeconds": 105
   }
 }

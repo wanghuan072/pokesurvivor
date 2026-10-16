@@ -2,6 +2,7 @@ import Image from "next/image";
 import { PageHeader } from "@/components/common/PageHeader";
 import { guides } from "@/lib/data/guides";
 import { pageMetadata } from "@/seo/metadata";
+import GuideArtwork from "./sections/GuideArtwork";
 import s from "@/style/page/guides.module.css";
 import c from "@/style/common/content.module.css";
 export const metadata = pageMetadata("/guides");
@@ -10,13 +11,13 @@ export default function GuidesPage() {
     <div className={c.wrap}>
       <PageHeader
         title="A Better Run Starts Here"
-        description="Three field guides for the decisions that matter: staying alive, building your loadout and growing your collection."
+        description="Field guides for staying alive, building your loadout and collecting new partners and shiny forms."
         path="/guides"
         category="THE PLAYER’S FIELD GUIDE"
       />
       <div className={s.intro}>
         <h2>Pick your next chapter.</h2>
-        <span>03 GUIDES · ONE ADVENTURE</span>
+        <span>{String(guides.length).padStart(2, "0")} GUIDES · ONE ADVENTURE</span>
       </div>
       <div className={s.grid}>
         {guides.map((g, index) => (
@@ -28,6 +29,7 @@ export default function GuidesPage() {
                 fill
                 sizes="(max-width: 1024px) 90vw, 30vw"
               />
+              <GuideArtwork slug={g.slug} />
               <span className={s.number}>FIELD GUIDE 0{index + 1}</span>
               <span className={s.duration}>{g.readTime} MIN READ</span>
             </div>
@@ -53,7 +55,7 @@ export default function GuidesPage() {
           Choose a guide for the next decision you need to make. Move choices and
           run conditions can change the best plan.
         </span>
-        <a href="/sources">How these guides are checked →</a>
+        <a href="/legal/contact-us">Suggest a correction →</a>
       </div>
     </div>
   );

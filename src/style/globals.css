@@ -20,6 +20,10 @@
   --muted: #a4c3dc;
   --blue: #39bbff;
   --pixel: Pixel, "Courier New", monospace;
+  --gold: #edc868;
+  --frame: #9a854a;
+  --frame-shadow: inset 0 0 0 3px #051922, inset 0 0 0 4px #a6a56a22;
+  --surface: #081e2a;
 }
 * {
   box-sizing: border-box;
@@ -119,9 +123,9 @@ em {
   justify-content: center;
   gap: 12px;
   border: 1px solid #70ffe0;
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 11px 26px;
-  background: linear-gradient(110deg, #21e7b0, #44f5cc, #16d8ad);
+  background: linear-gradient(110deg, #44dca1, #80f2b1);
   box-shadow:
     0 0 18px #00eabd30,
     inset 0 0 8px #b7ffee50;
@@ -141,12 +145,12 @@ em {
 }
 .tag {
   display: inline-block;
-  border: 1px solid #1b6e95;
+  border: 1px solid #9a854a;
   border-radius: 4px;
   padding: 2px 10px;
-  color: #a4dbff;
+  color: #edce82;
   font-size: 11px;
-  background: #07324b;
+  background: #192b2c;
 }
 .type {
   display: inline-block;
@@ -194,6 +198,10 @@ em {
   color: var(--text);
   margin: 28px 0 12px;
 }
+.prose h2 { border-bottom: 1px solid #9a854a55; padding-bottom: 12px; }
+.prose { overflow-wrap: anywhere; }
+.prose :is(ul, ol) { margin-block: 18px 24px; }
+.prose li::marker { color: var(--gold); }
 .prose a {
   color: var(--cyan);
   text-decoration: underline;
@@ -219,9 +227,9 @@ em {
   padding: 12px;
 }
 .notice {
-  border-left: 3px solid var(--cyan);
+  border-left: 3px solid var(--gold);
   padding: 14px 18px;
-  background: #07333d;
+  background: linear-gradient(110deg, #173b32, #09232d);
   color: #bce4e8;
   margin: 20px 0;
 }

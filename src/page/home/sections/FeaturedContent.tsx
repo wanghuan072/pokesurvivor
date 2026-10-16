@@ -1,84 +1,46 @@
 import Image from "next/image";
-import { Panel } from "@/components/common/Panel";
+import home from "@/data/site/home.json";
+import { CollectionPokemonArt } from "@/components/common/CollectionPokemonArt";
 import s from "@/style/page/home.module.css";
+
 export default function FeaturedContent() {
   return (
-    <div className={s.featured}>
-      <Panel
-        title="Partner Spotlight"
-        icon="♛"
-        href="/tier-list"
-        more="View Tier List"
-      >
-        <a href="/tier-list" className={s.story}>
-          <div className={s.storyImage}>
-            <Image
-              src="/art/tier.webp"
-              fill
-              sizes="(max-width: 768px) 90vw, 30vw"
-              alt="Charizard, Gengar, Lucario and Gardevoir in pixel art"
-            />
-          </div>
-          <h3>Compare Starting Partners</h3>
-          <p>
-            Compare starting attack, HP and speed,
-            <br />
-            then choose a Pokémon to try next.
-          </p>
-          <div className={s.tags}>
-            <span>Partners</span>
-            <span>Tier List</span>
-            <span>Base stats</span>
-          </div>
-        </a>
-      </Panel>
-      <Panel title="Featured Build" icon="⚒" href="/builds" more="View More">
-        <a href="/builds#build-charizard" className={s.story}>
-          <div className={s.storyImage}>
-            <Image
-              src="/art/build.webp"
-              fill
-              sizes="(max-width: 768px) 90vw, 30vw"
-              alt="Charizard surrounded by blazing pixel art flames"
-            />
-          </div>
-          <h3>Blazing Fury — Fire Move Build</h3>
-          <p>
-            Build toward Fire Blast with Ember and Power.
-            <br />A clear evolution goal for your next adventure.
-          </p>
-          <div className={s.tags}>
-            <span>Fire</span>
-            <span>Evolution</span>
-            <span>Build idea</span>
-            <span>Level 5</span>
-          </div>
-        </a>
-      </Panel>
-      <Panel title="Beginner Guide" icon="▥" href="/guides" more="View More">
-        <a href="/guides/beginner-guide" className={s.story}>
-          <div className={s.storyImage}>
-            <Image
-              src="/art/guide.webp"
-              fill
-              sizes="(max-width: 768px) 90vw, 30vw"
-              alt="Trainer and Eevee begin a journey through ancient ruins"
-            />
-          </div>
-          <h3>Survive Your First Waves</h3>
-          <p>
-            Learn movement, choose an early upgrade and start your
-            <br />
-            next PokeSurvivor run with a clear goal.
-          </p>
-          <div className={s.tags}>
-            <span>Beginner</span>
-            <span>Tips</span>
-            <span>Progression</span>
-            <span>Essentials</span>
-          </div>
-        </a>
-      </Panel>
-    </div>
+    <section aria-labelledby="guides-title">
+      <div className={s.sectionHead}>
+        <span className={s.sectionNumber} aria-hidden="true">02</span>
+        <h2 id="guides-title">Guides for your next run</h2>
+        <span className={s.headingRule} />
+        <a href="/guides">All guides →</a>
+      </div>
+      <div className={s.featured}>
+        {home.guides.map((guide, index) => (
+          <a href={`/guides/${guide.slug}`} key={guide.slug} className={`${s.story} ${index === 0 ? s.leadStory : ""} ${index === 2 ? s.shinyStory : ""}`}>
+            <div className={s.storyImage}>
+              {index === 0 && (
+                <div className={s.guidePartners} aria-hidden="true">
+                  <CollectionPokemonArt id={1} name="Bulbasaur" size={96} />
+                  <CollectionPokemonArt id={4} name="Charmander" size={96} />
+                  <CollectionPokemonArt id={7} name="Squirtle" size={96} />
+                </div>
+              )}
+              {guide.image ? (
+                <Image src={guide.image} alt={guide.imageAlt ?? ""} fill sizes={index === 0 ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 768px) 35vw, 220px"} />
+              ) : (
+                <div className={s.shinyPair}>
+                  <CollectionPokemonArt id={133} name="Eevee" size={88} />
+                  <CollectionPokemonArt id={133} name="Eevee" shiny size={88} />
+                </div>
+              )}
+            </div>
+            <div className={s.storyCopy}>
+              <span className={s.category}>{guide.category}</span>
+              <h3>{guide.title}</h3>
+              <p>{guide.description}</p>
+              <span className={index === 0 ? s.outlineLink : s.readLink}>Read the guide →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
   );
 }

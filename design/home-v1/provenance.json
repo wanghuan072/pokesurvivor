@@ -1,0 +1,26 @@
+{
+  "kind": "homepage UI proposal only",
+  "generator": "built-in image_gen",
+  "mockup": "homepage-ui-v1.png",
+  "prompt": "prompt.txt",
+  "references": [
+    {
+      "file": "references/official-level-up.png",
+      "origin": "Official game guest session screenshot; level-up choice overlay."
+    },
+    {
+      "file": "references/original-sprites.png",
+      "origin": "Contact sheet composed from original game collection sprite exports."
+    },
+    {
+      "file": "references/official-og-image.jpg",
+      "origin": "Supplied game archive assets/og-image.jpg; promotional gameplay screenshot."
+    }
+  ],
+  "limitations": [
+    "Generated layout preview can reinterpret source pixels and small text. Implementation must insert original assets directly.",
+    "Static mockup does not preview original sprite animation or shiny sparkle timing."
+  ],
+  "implementationChanged": false,
+  "projectStarted": false
+}

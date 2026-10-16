@@ -10,8 +10,8 @@ PokeSurvivor is a free browser survival game inspired by Pokémon. Choose a part
 - [Play](https://pokesurvivor.me/play) — launch the official game, check controls or open it directly.
 - [Pokédex](https://pokesurvivor.me/pokedex) — browse 966 playable Pokémon, compare base stats and filter by type, region or starter status. View normal and shiny sprites in the list.
 - [Level-up Cards](https://pokesurvivor.me/level-up) — compare nine stat cards, 64 moves and their evolution requirements. Expand a move to see how its levels change.
-- [Tier List and Partner Stats](https://pokesurvivor.me/tier-list) — sort partners by starting attack, HP or speed. These are base-stat comparisons, not measured ratings for complete runs.
-- [Builds](https://pokesurvivor.me/builds) — explore six compatible move plans. Upgrade priorities, follow-up evolutions and item choices open inside each card.
+- [Tier List Maker](https://pokesurvivor.me/tier-list) — arrange all 966 partners in your own tiers, customize rows and export your board as an image. Your board stays in your browser.
+- [Partner Rankings](https://pokesurvivor.me/rankings) — compare starting attack, HP and speed in a ranked list. These are base-stat comparisons, not measured ratings for complete runs.
 - [Guides](https://pokesurvivor.me/guides) — choose a detailed explanation of survival, evolving a loadout or collecting partners.
 - [Updates](https://pokesurvivor.me/updates) — read dated game changes and changes to this guide.
 
@@ -23,11 +23,12 @@ Keep an escape route open while collecting experience. Focus one attack before s
 
 Separate active slots do not all attack together. Use switching for coverage; a Rift Bond can combine learned attacks into one active slot. If your intended upgrade is unavailable, take something that helps you survive the next wave rather than forcing the original plan.
 
-## Three focused guides
+## Player guides
 
 - [Beginner Guide](https://pokesurvivor.me/guides/beginner-guide) — controls, starting partners, early upgrades, waves and when a chest or Rift is worth the risk.
 - [Cards, Evolutions and Bonds](https://pokesurvivor.me/guides/move-evolutions) — compatible moves, required stat cards, full slots, rerolls and planning an evolution.
 - [Tickets, Gacha and Missions](https://pokesurvivor.me/guides/gacha-and-tickets) — regional pools, pity, ten-pull guarantees, missions and shiny collection.
+- [How to Get Shiny Pokémon](https://pokesurvivor.me/guides/shiny-pokemon) — separate wild, Rift and gacha odds, duplicate rules, normal/shiny artwork comparisons and equipping your new partner.
 
 ## More things to look up
 
@@ -35,7 +36,6 @@ Separate active slots do not all attack together. Use switching for coverage; a 
 - [Gacha](https://pokesurvivor.me/gacha) — base rates, regional banners and the difference between a rarity guarantee and a specific partner.
 - [Achievements](https://pokesurvivor.me/achievements) — requirements, medals, titles and coin or ticket rewards for 130 objectives.
 - [Frequently Asked Questions](https://pokesurvivor.me/guides/faq) — quick answers about playing, saving, co-op, active moves and evolutions.
-- [Editorial Policy and Game Checks](https://pokesurvivor.me/sources) — the game versions covered by these pages and how to report a correction.
 
 ## Common questions
 

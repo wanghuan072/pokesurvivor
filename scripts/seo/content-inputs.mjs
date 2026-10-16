@@ -8,14 +8,17 @@ export function contentInputs(root = process.cwd()) {
   const read = (file) => JSON.parse(fs.readFileSync(path.join(root, file), "utf8"));
   const fileHash = (file) => {
     const bytes = fs.readFileSync(path.join(root, file));
-    return hash(/\.(?:[cm]?[jt]sx?|md|txt)$/.test(file)
+    return hash(/\.(?:[cm]?[jt]sx?|md|txt|svg|css)$/.test(file)
       ? bytes.toString("utf8").replace(/\r\n/g, "\n") : bytes);
   };
   const guides = read("src/data/guides/guides.json"), faq = read("src/data/guides/faq.json");
   const heroes = read("src/data/site/pages.json"), legal = read("src/data/legal/pages.json");
   const pokemon = read("src/data/pokedex/pokemon.json"), moves = read("src/data/moves/moves.json");
-  const builds = read("src/data/builds/builds.json");
   const encounters = read("src/data/game/encounters.json");
+  const previewIndex=read("src/data/game/collection-preview-index.json");
+  const collectionPreviews = read("src/data/game/collection-previews.json").previews.map(({id,shiny,src,still})=>({
+    id,shiny,available:(shiny?previewIndex.shiny:previewIndex.normal).includes(id),animation:fileHash("public"+src),still:fileHash("public"+still),
+  }));
   const shinyIds = new Set([6, 25, 54, 94, 133, 448]);
   const shinySamples = {
     partners: pokemon.filter(p => shinyIds.has(p.id)).map(({id,name})=>({id,name})),
@@ -25,21 +28,23 @@ export function contentInputs(root = process.cwd()) {
   const roots = {
     "/": "src/page/home/HomePage.tsx", "/play": "src/page/play/PlayPage.tsx",
     "/pokedex": "src/page/pokedex/PokedexPage.tsx", "/level-up": "src/page/level-up/LevelUpPage.tsx",
-    "/tier-list": "src/page/wiki/sections/TierListContent.tsx", "/builds": "src/page/builds/BuildsContent.tsx",
+    "/tier-list": "src/page/wiki/sections/TierListContent.tsx",
+    "/rankings": "src/page/rankings/RankingsContent.tsx",
     "/types": "src/page/wiki/sections/TypesContent.tsx", "/gacha": "src/page/wiki/sections/GachaContent.tsx",
     "/achievements": "src/page/wiki/sections/ReferenceContent.tsx", "/updates": "src/page/wiki/sections/UpdatesContent.tsx",
-    "/sources": "src/page/legal/EditorialPolicy.tsx", "/guides": "src/page/guides/GuidesPage.tsx",
+    "/guides": "src/page/guides/GuidesPage.tsx",
   };
   function sources(entry, seen = new Set()) {
     if (seen.has(entry)) return; seen.add(entry);
     const source = fs.readFileSync(path.join(root, entry), "utf8");
+    if (entry.endsWith(".css")) return seen;
     const ast = ts.createSourceFile(entry, source, ts.ScriptTarget.Latest, true);
     for (const statement of ast.statements) {
       if ((!ts.isImportDeclaration(statement) && !ts.isExportDeclaration(statement)) || !statement.moduleSpecifier) continue;
       const spec = statement.moduleSpecifier.text;
       const base = spec.startsWith("@/") ? "src/" + spec.slice(2) : spec.startsWith(".") ? path.posix.join(path.posix.dirname(entry), spec) : null;
       if (!base || base === "src/seo/tdk" || base === "src/seo/tdk.js") continue;
-      const resolved = [base, base + ".tsx", base + ".ts", base + ".js", base + "/index.ts"].find(f => /\.[cm]?[jt]sx?$/.test(f) && fs.existsSync(path.join(root, f)) && fs.statSync(path.join(root,f)).isFile());
+      const resolved = [base, base + ".tsx", base + ".ts", base + ".js", base + "/index.ts"].find(f => /(?:\.[cm]?[jt]sx?|\.css)$/.test(f) && fs.existsSync(path.join(root, f)) && fs.statSync(path.join(root,f)).isFile());
       if (resolved) sources(resolved, seen);
     }
     return seen;
@@ -49,30 +54,74 @@ export function contentInputs(root = process.cwd()) {
   for (const [url,seo] of Object.entries(allMeta)) {
     let entry = roots[url], data = {};
     if (url.startsWith("/legal/")) { entry = "src/page/legal/LegalPage.tsx"; data = legal[url.split("/").at(-1)]; }
-    if (url === "/") data = { faq: faq.questions.slice(0,6) };
-    if (url === "/pokedex" || url === "/tier-list") data = pokemon.map(cardPokemon);
-    if (url === "/pokedex") data = { pokemon: data, appearances: encounters.map(({id,hasShiny,hovering})=>({id,hasShiny,hovering})) };
-    if (url === "/level-up") data = { moves, cards: read("src/data/wiki/run-cards.json"), notes: read("src/data/game/move-notes.json"), pokemon: pokemon.map(p=>({id:p.id,learnset:p.learnset})) };
-    if (url === "/builds") { const ids = new Set(builds.flatMap(b=>b.partners)); data = { builds, moves: moves.filter(m=>builds.some(b=>b.move===m.slug || b.supportMoves.includes(m.id))), partners: pokemon.filter(p=>ids.has(p.id)).map(p=>({id:p.id,name:p.name})), items: read("src/data/wiki/items.json") }; }
+    if (url === "/") {
+      const home = read("src/data/site/home.json");
+      const ids = new Set(home.partners);
+      data = {
+        home,
+        faq: [0,2,4,3].map(i=>faq.questions[i]),
+        partners: pokemon.filter(p=>ids.has(p.id)).map(({id,name,types})=>({id,name,types})),
+        counts: {pokemon:pokemon.length, moves:moves.length, types:Object.keys(read("src/data/tools/type-chart.json")).length, achievements:read("src/data/wiki/achievements.json").length},
+        collectionPreviews: collectionPreviews.filter(p=>(!p.shiny&&ids.has(p.id))||(p.shiny&&p.id===133)),
+      };
+    }
+    if (url === "/pokedex" || url === "/tier-list" || url === "/rankings") data = pokemon.map(cardPokemon);
+    if (url === "/pokedex") data = { pokemon: data, appearances: encounters.map(({id,hasShiny,hovering})=>({id,hasShiny,hovering})), collectionPreviews };
+    if (url === "/tier-list") data = { pokemon:pokemon.map(({id,name,types,region})=>({id,name,types,region})), collectionPreviews:collectionPreviews.filter(p=>!p.shiny), exportSprites:pokemon.map(p=>({id:p.id,image:fileHash(`public/game/pokemon/${p.id}.webp`)})) };
+    if (url === "/rankings") data = { pokemon:pokemon.map(({id,name,hp,speed,attack,rarity,starter,types})=>({id,name,hp,speed,attack,rarity,starter,types})), collectionPreviews:collectionPreviews.filter(p=>!p.shiny) };
+    if (url === "/level-up") data = { moves, cards: read("src/data/wiki/run-cards.json"), notes: read("src/data/game/move-notes.json"), pokemon: pokemon.map(p=>({id:p.id,name:p.name,types:p.types,startMove:p.startMove,cardPool:p.cardPool,learnset:p.learnset})), collectionPreviews:collectionPreviews.filter(p=>!p.shiny) };
+    if (url === "/level-up") {
+      const bossRewards = read("src/data/game/boss-rewards.json");
+      delete bossRewards.review;
+      data.bossRewards = bossRewards;
+      data.items = read("src/data/wiki/items.json");
+    }
     if (url === "/types") data = { chart: read("src/data/tools/type-chart.json"), weather: read("src/data/wiki/weather.json") };
-    if (url === "/gacha") data = { gacha: read("src/data/wiki/gacha.json"), shinySamples };
+    if (url === "/gacha") data = { gacha: read("src/data/wiki/gacha.json"), shinySamples, collectionPreviews:collectionPreviews.filter(p=>shinyIds.has(p.id)) };
     if (url === "/achievements") data = read("src/data/wiki/achievements.json");
     if (url === "/updates") data = read("src/data/wiki/changes.json").slice(0,4);
-    if (url === "/sources") { const version = read("src/data/wiki/source-snapshot.json"); data = { build: version.build, sourceBase: version.sourceBase }; }
-    if (url === "/guides") data = guides.map(({slug,cardTitle,description,image,imageAlt,category,readTime,outcomes})=>({slug,cardTitle,description,image,imageAlt,category,readTime,outcomes}));
+
+    if (url === "/guides") data = {
+      guides: guides.map(({slug,cardTitle,description,image,imageAlt,category,readTime,outcomes})=>({slug,cardTitle,description,image,imageAlt,category,readTime,outcomes})),
+      covers: collectionPreviews.filter(p=>!p.shiny&&[1,4,7,25,133,94].includes(p.id)),
+    };
     if (url === "/guides/faq") { entry = "src/page/guides/FaqPage.tsx"; data = faq; }
     else if (url.startsWith("/guides/")) {
       entry = "src/page/guides/GuidePage.tsx";
       const i = guides.findIndex(g=>url === `/guides/${g.slug}`), g = guides[i], next = guides[(i+1)%guides.length];
       data = { guide:g, next:{slug:next.slug,cardTitle:next.cardTitle} };
       if (g.slug === "beginner-guide") data.game = { waves:read("src/data/game/waves.json"), world:read("src/data/game/world-rules.json"), encounters:encounters.map(({id,wildTiers,bossSlots})=>({id,wildTiers,bossSlots})), partners:pokemon.filter(p=>encounters.some(e=>e.id===p.id&&(e.wildTiers.length||e.bossSlots.length))).map(({id,name})=>({id,name})) };
+      if (g.slug === "beginner-guide") {
+        const waves=read("src/data/game/waves.json");
+        const ids=new Set(["wildTiers","bossSlots"].flatMap((kind,k)=>(k?waves.bosses:waves.tiers).flatMap((_,index)=>pokemon.filter(p=>encounters.find(e=>e.id===p.id)[kind].includes(index)).slice(0,7).map(p=>p.id))));
+        data.game.collectionPreviews=collectionPreviews.filter(p=>!p.shiny&&(ids.has(p.id)||[1,4,7].includes(p.id)));
+      }
       if (g.slug === "move-evolutions") data.moves = moves.filter(m=>["ember","water-gun","vine-whip","thunder-shock","confusion","shadow-ball"].includes(m.id));
-      if (g.slug === "gacha-and-tickets") data.game = { missions:read("src/data/game/missions.json"), shinySamples };
+      if (g.slug === "gacha-and-tickets") data.game = { missions:read("src/data/game/missions.json"), shinySamples, collectionPreviews:collectionPreviews.filter(p=>shinyIds.has(p.id)) };
+      if (g.slug === "shiny-pokemon") data.game = {
+        mechanics:read("src/data/game/shiny-rules.json").mechanics,
+        sprites:shinySamples.sprites.filter(p=>[6,94,133,448].includes(p.id)),
+        collectionPreviews:collectionPreviews.filter(p=>[6,94,133,448].includes(p.id)),
+      };
     }
     const implementationFiles = sources(entry);
+    if (url !== "/" && url !== "/play")
+      sources("src/components/common/PageHeader.tsx", implementationFiles);
     implementationFiles.add("src/seo/metadata.ts");
     const implementation = [...implementationFiles].sort().map(file => [file,fileHash(file)]);
     const assets = { og: fileHash("public/images/og-image.png") };
+    assets.theme = fileHash("src/style/globals.css");
+    assets.shell = fileHash("src/style/layout/shell.module.css");
+    assets.gameForest = fileHash("public/game/screenshots/forest.webp");
+    if (url === "/play") assets.gamePreview = fileHash("public/game/screenshots/level-up.webp");
+    if (url === "/guides")
+      for (const guide of guides) assets[`cover:${guide.slug}`] = fileHash("public" + guide.image);
+    if (url === "/") {
+      for (const name of ["level-up", "card-choices", "forest", "battlefield"])
+        assets[name] = fileHash(`public/game/screenshots/${name}.webp`);
+      assets.styles = fileHash("src/style/page/home.module.css");
+    }
+    if (data.guide?.image) assets.cover = fileHash("public" + data.guide.image);
     if (url === "/legal/copyright") assets.credits = fileHash("public/credits/spritecollab-artists.md");
     inputs[url] = { seo, hero: heroes[url] ?? null, implementation, data, assets };
   }

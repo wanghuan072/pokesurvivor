@@ -7,6 +7,7 @@ import { moves } from "@/lib/data/moves";
 import { runCards } from "@/lib/data/wiki";
 import { pageMetadata } from "@/seo/metadata";
 import CardCatalog from "./CardCatalog";
+import BossRewards from "./BossRewards";
 import s from "@/style/page/level-up.module.css";
 import c from "@/style/common/content.module.css";
 
@@ -32,40 +33,30 @@ export default function LevelUpPage() {
         description="Three cards. One choice. Learn a move, strengthen your loadout or collect the stat card that unlocks your next evolution."
       />
       <nav className={s.jump} aria-label="On this page">
-        <a href="#stat-cards">♥ 9 stat cards</a>
-        <a href="#move-cards">ϟ 64 move cards</a>
-        <a href="#evolutions">◆ Evolution rules</a>
-        <a href="#card-rules">▤ Card offers & bonds</a>
+        <a href="#move-cards">01 / Move library</a>
+        <a href="#stat-cards">02 / Stat cards</a>
+        <a href="#evolutions">03 / Evolution rules</a>
+        <a href="#boss-rewards">04 / Boss rewards</a>
       </nav>
-      <div className={s.choices}>
-        {[
-          [
-            "01",
-            "Learn a move",
-            "A new attack from your partner’s available pool. Needs a free move slot.",
-            "NEW MOVE",
-          ],
-          [
-            "02",
-            "Level up a move",
-            "Upgrade a move you already own, one level at a time, up to level 5.",
-            "MOVE UPGRADE",
-          ],
-          [
-            "03",
-            "Take a stat card",
-            "Improve your run’s stats, recover HP or secure an evolution requirement.",
-            "STAT BOOST",
-          ],
-        ].map(([n, title, copy, tag]) => (
-          <article key={n} className={s.choice}>
-            <span className={s.ordinal}>{n}</span>
-            <small>{tag}</small>
-            <h2>{title}</h2>
-            <p>{copy}</p>
-          </article>
-        ))}
-      </div>
+      <section id="move-cards" className={s.section}>
+        <div className={s.sectionHead}>
+          <div>
+            <small>PLAN YOUR LOADOUT</small>
+            <h2>Move & evolution cards</h2>
+          </div>
+          <span>64 MOVES · 59 RECIPES</span>
+        </div>
+        <CardCatalog
+          partners={pokemon.map(({id, name, types, startMove, cardPool, learnset}) =>
+            ({id, name, types, startMove, cardPool, learnset}))}
+          moves={moves.map((m) => ({
+            ...m,
+            ...getMoveNotes(m.id)!,
+            partnerCount: pokemon.filter((p) => p.learnset.includes(m.id))
+              .length,
+          }))}
+        />
+      </section>
       <section id="stat-cards" className={s.section}>
         <div className={s.sectionHead}>
           <div>
@@ -88,7 +79,7 @@ export default function LevelUpPage() {
                 key={card.id}
               >
                 <div className={s.statArtwork}>
-                  <GameIcon name={symbols[i]} size={48} />
+                  <GameIcon name={symbols[i]} size={24} />
                   <small>STAT CARD</small>
                 </div>
                 <div className={s.statBody}>
@@ -127,7 +118,7 @@ export default function LevelUpPage() {
       <section id="evolutions" className={s.recipe}>
         <div>
           <small>THE GOLD CARD MOMENT</small>
-          <h2>Turn a good move into a great one.</h2>
+          <h2>The evolution recipe.</h2>
           <p>
             59 moves can evolve. The 5 buff moves cannot. Meet both requirements
             during the same run, then select the gold card at a level-up.
@@ -151,23 +142,6 @@ export default function LevelUpPage() {
           evolution is ready, the first ready evolution is guaranteed a place
           among the offered cards.
         </p>
-      </section>
-      <section id="move-cards" className={s.section}>
-        <div className={s.sectionHead}>
-          <div>
-            <small>PLAN YOUR LOADOUT</small>
-            <h2>Move & evolution cards</h2>
-          </div>
-          <span>64 MOVES · 59 RECIPES</span>
-        </div>
-        <CardCatalog
-          moves={moves.map((m) => ({
-            ...m,
-            ...getMoveNotes(m.id)!,
-            partnerCount: pokemon.filter((p) => p.learnset.includes(m.id))
-              .length,
-          }))}
-        />
       </section>
       <section className={s.section} aria-label="Evolutions by stat card">
         <div className={s.sectionHead}>
@@ -201,6 +175,7 @@ export default function LevelUpPage() {
             ))}
         </div>
       </section>
+      <BossRewards />
       <section id="card-rules" className={s.rules}>
         <h2>Make every level count</h2>
         <details>
@@ -246,7 +221,7 @@ export default function LevelUpPage() {
             card when it appears; it can support multiple recipes. Save a reroll
             for a choice that does not help your build or survival.
           </p>
-          <a href="/builds">Explore compatible builds →</a>
+          <a href="/guides/move-evolutions">Read the evolution guide →</a>
         </details>
       </section>
       <SourceNote
@@ -254,6 +229,11 @@ export default function LevelUpPage() {
           "js/systems/levelup.js",
           "js/data/moves.js",
           "js/data/upgrades.js",
+          "js/data/items.js",
+          "js/entities/enemy.js",
+          "js/entities/player.js",
+          "js/systems/rift.js",
+          "js/game.js",
         ]}
       />
     </div>

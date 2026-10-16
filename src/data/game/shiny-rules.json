@@ -1,0 +1,67 @@
+{
+  "reviewed": "2026-10-16",
+  "archiveVersion": {
+    "v": "dc3ae9bbfb",
+    "at": "2026-10-12T22:20:54.162Z"
+  },
+  "officialRevision": "5bbc3b29288d6af4596f21188fb8b54e0e9b739f",
+  "mechanics": {
+    "wildRate": 0.000244140625,
+    "riftRate": 0.001953125,
+    "gachaRate": 0.01,
+    "wildHpMultiplier": 2,
+    "wildXpMultiplier": 5,
+    "wildDuplicateCoins": 300,
+    "rarityPity": 70,
+    "duplicateRule": "missing shiny in the same banner and rarity; normal result when none remain",
+    "normalAlsoUnlocked": true,
+    "guestProgressSaved": false
+  },
+  "files": [
+    {
+      "file": "js/systems/gacha.js",
+      "archiveSha256": "957b89be9521070c366e1ae21c6bdcf5f96899e5ea0c71cafd712289d11eea15",
+      "officialSha256": "957b89be9521070c366e1ae21c6bdcf5f96899e5ea0c71cafd712289d11eea15"
+    },
+    {
+      "file": "js/systems/spawner.js",
+      "archiveSha256": "f21ad3ea95a8bcf1a357879407d12f96df7ba91c6cdcf914e707693d0901209d",
+      "officialSha256": "33208db701ee1cc2fc144c0dc23f6a7027b3008d9a0c1b57fd4512a99d7bda4d"
+    },
+    {
+      "file": "js/systems/rift.js",
+      "archiveSha256": "6c52e3ac48864f85f8fa522f895bbf2f6ea885f3359fafaf7a0cfb286eb8b35c",
+      "officialSha256": "28da109c435cbcc7984f544a4ef7965956ee6a4ea3337fd448051e4c74e66002"
+    },
+    {
+      "file": "js/entities/enemy.js",
+      "archiveSha256": "97d042b95e27297b322939437bb7aad3feab53650e99bb074939b9840a8d38e4",
+      "officialSha256": "f045ebf98e916239a918bbd3aded22baa67757df7d124ae80f5471898e6d848e"
+    },
+    {
+      "file": "js/game.js",
+      "archiveSha256": "b64ae843525f504f1e821c70a592d4517e71a00eed22bb425df5cbdb0e3b0768",
+      "officialSha256": "ba3d6cbeec924249ac4774ab602d066b6b5f883669bbe96cb2d0c901258496db"
+    },
+    {
+      "file": "js/core/db.js",
+      "archiveSha256": "ab479309073cdb421d4eae0120848d8534b05bca1d1b0715d515ec863c4b9609",
+      "officialSha256": "e81402211255316421da43197eb2ac030b0f5c0d93fc2b7f675caa5b21f8e10f"
+    },
+    {
+      "file": "js/ui/menu.js",
+      "archiveSha256": "baf9c350feade1cf5be477ceeb59806a5deda91e844bbed35bbc1fc9193cedb2",
+      "officialSha256": "baf9c350feade1cf5be477ceeb59806a5deda91e844bbed35bbc1fc9193cedb2"
+    },
+    {
+      "file": "js/net/coop.js",
+      "archiveSha256": "88d38bee7e69b1a4ed524560ddeb4ba3a62f759d20a7814d111fdb8f6a66d900",
+      "officialSha256": "6e9ee9474ecb92a278be9b2706b0bfe5014305422a00ded967449647c124baca"
+    },
+    {
+      "file": "js/systems/progress.js",
+      "archiveSha256": "cf11d4922314bacd0cf29f534e3693def0143fef834537254863c9197b298a0c",
+      "officialSha256": "56be3abed8c227dcf9acf07c0ac56087ac9285ef4ffc164e876495316b862336"
+    }
+  ]
+}

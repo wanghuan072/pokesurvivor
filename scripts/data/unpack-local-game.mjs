@@ -138,7 +138,8 @@ write("world-rules", {
     initialChance: rift.get("CHANCE"),
     portalSeconds: rift.get("TTL"),
     arenaSeconds: rift.get("ARENA_TIME"),
-    firstPossibleSeconds: rift.get("FROM"),
+    eligibilityStartsSeconds: rift.get("FROM"),
+    firstPossibleSeconds: rift.get("FROM") + rift.get("CHECK"),
   },
 });
 const files = [

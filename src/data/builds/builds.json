@@ -10,9 +10,30 @@
       "After establishing damage, work toward Fire Spin plus Synthesis for Sacred Fire as close-range coverage.",
       "A Rift Bond can join the learned attacks into one active slot. Do not assume independent slots fire together."
     ],
-    "partners": [4, 6, 255, 813],
-    "supportMoves": ["fire-spin", "quick-attack"],
-    "items": ["leftovers", "quickclaw"]
+    "partners": [
+      4,
+      6,
+      255,
+      813
+    ],
+    "supportMoves": [
+      "fire-spin",
+      "quick-attack"
+    ],
+    "items": [
+      "leftovers",
+      "quickclaw"
+    ],
+    "plan": {
+      "role": "Fire coverage",
+      "when": "Choose this when you want to focus on Ember first, with Fire Spin available as a second damage path.",
+      "fallback": "If Fire Spin does not appear, keep upgrading Ember. Quick Attack gives a separate Normal-type option; its evolution needs Sprint.",
+      "priorities": [
+        "Build the core: Ember + Power.",
+        "Finish Ember at level 5, then take Fire Blast.",
+        "Add Fire Spin + Synthesis if the cards allow it."
+      ]
+    }
   },
   {
     "slug": "water",
@@ -25,9 +46,30 @@
       "A Water Gun path uses Power and evolves into Scald, so budget a separate evolution card.",
       "Keep moving through open lanes; a second move is coverage to switch to until you obtain a Bond."
     ],
-    "partners": [7, 9, 393, 728],
-    "supportMoves": ["water-gun", "quick-attack"],
-    "items": ["leftovers", "choicescarf"]
+    "partners": [
+      7,
+      9,
+      393,
+      728
+    ],
+    "supportMoves": [
+      "water-gun",
+      "quick-attack"
+    ],
+    "items": [
+      "leftovers",
+      "choicescarf"
+    ],
+    "plan": {
+      "role": "Water routes",
+      "when": "Choose this for a Bubble evolution goal with Water Gun as a compatible alternative.",
+      "fallback": "If Bubble does not appear, develop Water Gun with Power toward Scald. Do not spend rerolls assuming Bubble is guaranteed.",
+      "priorities": [
+        "Find Bubble and take Sprint.",
+        "Reach level 5 Bubble, then select Surf.",
+        "Use Water Gun + Power for another evolution route."
+      ]
+    }
   },
   {
     "slug": "grass",
@@ -40,53 +82,132 @@
       "Vine Whip uses Power for Power Whip, offering a close-range alternative.",
       "Practice spacing so returning attacks pass through approaching groups; the build is a strategy suggestion, not a DPS benchmark."
     ],
-    "partners": [1, 252, 495, 906],
-    "supportMoves": ["vine-whip", "tackle"],
-    "items": ["quickclaw", "leftovers"]
+    "partners": [
+      1,
+      252,
+      495,
+      906
+    ],
+    "supportMoves": [
+      "vine-whip",
+      "tackle"
+    ],
+    "items": [
+      "quickclaw",
+      "leftovers"
+    ],
+    "plan": {
+      "role": "Returning attacks",
+      "when": "Choose this to build around Razor Leaf and plan your positioning around its returning attacks.",
+      "fallback": "If Razor Leaf does not appear, Vine Whip + Power provides a compatible route to Power Whip. Tackle + Vigor is another available option.",
+      "priorities": [
+        "Learn Razor Leaf and take Reflexes.",
+        "Reach level 5, then select Leaf Storm.",
+        "Build Vine Whip + Power for a close-range alternative."
+      ]
+    }
   },
   {
     "slug": "gengar",
     "title": "Ghost Coverage — Gengar Build",
     "move": "shadow-ball",
     "description": "A verified Ghost-pool plan: Shadow Ball with Reflexes, then Hex with Magnet.",
-    "partners": [92, 94],
-    "supportMoves": ["hex", "lick"],
-    "items": ["quickclaw", "leftovers"],
+    "partners": [
+      92,
+      94
+    ],
+    "supportMoves": [
+      "hex",
+      "lick"
+    ],
+    "items": [
+      "quickclaw",
+      "leftovers"
+    ],
     "tips": [
       "Gengar starts with Shadow Ball and can learn Hex and Lick from its Ghost pool.",
       "Reach level 5 Shadow Ball and take Reflexes to unlock Phantom Force.",
       "Hex needs Magnet and evolves into Poltergeist. Consider it after securing your first damage path.",
       "Work toward a Rift Bond before expecting both attacks to operate together."
-    ]
+    ],
+    "plan": {
+      "role": "Ghost coverage",
+      "when": "Choose this when you want a Shadow Ball evolution first and can leave the second path until later.",
+      "fallback": "Stay with Shadow Ball if Hex is not offered. Lick is another Ghost-pool option; check its own evolution requirement before committing.",
+      "priorities": [
+        "Level Shadow Ball and take Reflexes.",
+        "At level 5, select Phantom Force.",
+        "Consider Hex + Magnet after the core is ready."
+      ]
+    }
   },
   {
     "slug": "electric",
     "title": "Electric Perimeter — Pikachu Build",
     "move": "thunder-shock",
     "description": "Thunder Shock → Thunder, backed by Discharge as an alternative close-range attack.",
-    "partners": [25, 26, 403],
-    "supportMoves": ["discharge", "thunderbolt"],
-    "items": ["quickclaw", "focussash"],
+    "partners": [
+      25,
+      26,
+      403
+    ],
+    "supportMoves": [
+      "discharge",
+      "thunderbolt"
+    ],
+    "items": [
+      "quickclaw",
+      "focussash"
+    ],
     "tips": [
       "Pikachu starts with Thunder Shock. Electric partners share the Electric move pool.",
       "Use Power and level 5 Thunder Shock to unlock Thunder.",
       "Discharge requires Armor for Electric Terrain; Thunderbolt requires Reflexes for Zap Cannon.",
       "These are alternatives to prioritize as cards arrive, not three guaranteed simultaneous attacks."
-    ]
+    ],
+    "plan": {
+      "role": "Electric options",
+      "when": "Choose this to start with Thunder Shock and keep Discharge or Thunderbolt as alternative card paths.",
+      "fallback": "If Power is delayed, continue improving Thunder Shock. Discharge needs Armor and Thunderbolt needs Reflexes; commit to the route your cards support.",
+      "priorities": [
+        "Take Power and upgrade Thunder Shock.",
+        "Reach level 5, then select Thunder.",
+        "Choose Discharge or Thunderbolt as follow-up coverage."
+      ]
+    }
   },
   {
     "slug": "gardevoir",
     "title": "Psychic & Fairy — Gardevoir Build",
     "move": "confusion",
     "description": "A Psychic / Fairy coverage plan with Confusion, Dazzling Gleam and clear evolution cards.",
-    "partners": [280, 282],
-    "supportMoves": ["dazzling-gleam", "psybeam"],
-    "items": ["shellbell", "leftovers"],
+    "partners": [
+      280,
+      282
+    ],
+    "supportMoves": [
+      "dazzling-gleam",
+      "psybeam"
+    ],
+    "items": [
+      "shellbell",
+      "leftovers"
+    ],
     "tips": [
       "Ralts and Gardevoir can learn the listed Psychic and Fairy attacks.",
       "Confusion needs Reflexes at level 5 to become Psyshock.",
       "Dazzling Gleam needs Synthesis for Misty Terrain; Psybeam uses Power for Future Sight.",
       "Secure one evolution first, then consider secondary coverage and a Bond. Choose a sustain item when attrition is the main problem."
-    ]
+    ],
+    "plan": {
+      "role": "Psychic / Fairy",
+      "when": "Choose this for a Confusion core with access to a Fairy alternative through Dazzling Gleam.",
+      "fallback": "If Dazzling Gleam is not offered, Psybeam + Power leads to Future Sight. Avoid splitting too many upgrades before the first evolution.",
+      "priorities": [
+        "Take Reflexes and upgrade Confusion.",
+        "At level 5, choose Psyshock.",
+        "Consider Dazzling Gleam + Synthesis or Psybeam + Power."
+      ]
+    }
   }
 ]

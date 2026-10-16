@@ -1,86 +1,86 @@
 {
   "/": {
-    "hash": "0397b086de2c42238a7dc3f62e49a325f36c1d4cd0564e6778948a6e317824c2",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "2755dade9e86f9ee6dce53ae85c92e2585371ae4bc194f21391c6fd9b6c8ecee",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   },
   "/achievements": {
-    "hash": "3fcde678468a6c5c1b18c0b4434cb7f9cdaf04d835ab6ceb0659212083c14448",
-    "lastModified": "2026-10-15T12:57:08.620Z"
-  },
-  "/builds": {
-    "hash": "fb847dc34a9655900f6d5ad1a1244d3d893c8ee50afc4b761e71d8dd7616d7dd",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "e3229a1eb825118277c83faf4dcf3a6ea8cd309efa24d8e26d672264836ffec3",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   },
   "/gacha": {
-    "hash": "a7a57db8979a1f6c10fd93814cb09ccc31ec969e0193865073adf497666252f3",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "5b02d373cf546725788fc30c9492d1c6fab3aa13c860c4b03d7023defc9e3dde",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   },
   "/guides": {
-    "hash": "4841f3ed9325a70a8517ebc9579f5f62e56e13f19174f2997bc5c135f6dc79e7",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "bc5b80a32825082c3af35e073b59e5a4bc056f6af6b95edc3ec22166f54d6c62",
+    "lastModified": "2026-10-16T09:56:20.642Z"
   },
   "/guides/beginner-guide": {
-    "hash": "776acb0544c853448587dc3b28b818486e31fc0f671a3e5260136a4c5e611f83",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "b2aa5a88e0590005395f1e530a31aaa5b67047728c359ce7b2a09d9eb5e84a63",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   },
   "/guides/faq": {
-    "hash": "c894082e92e74f1460c72976c24dad13cfe7963794efd9a9eb2f83f5eef04278",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "e14acc535a7374c96c4ea607a01789450866e2ca6c7db16d7da57e0a998c99b8",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   },
   "/guides/gacha-and-tickets": {
-    "hash": "65f40fcbed84d67467559632f9ae80eb9a5023cabe4679197a84bd2a05be0e96",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "81a177ec224e5bf55b85f40f9be0dbbcd401ea22506bc4b69202d806aacd1859",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   },
   "/guides/move-evolutions": {
-    "hash": "98848cfed9639d24cc3652ea7aa1e6f95458269969953feacd4535a20d435a52",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "b428083b4be25588cfa839c8867bf6b9cbbfc6ab067a261d453852c2e379b7cd",
+    "lastModified": "2026-10-16T09:49:01.965Z"
+  },
+  "/guides/shiny-pokemon": {
+    "hash": "6710941d9a8fe5da41ba351317645579dce593153ee74e7e84caedec43ebda7e",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   },
   "/legal/about-us": {
-    "hash": "78bb6ae3f85f4c1fb0b5174300a9e58c877aa2d017acf36429830c89dcadb8ad",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "c3dba4628b2335d6d111f461b18015408189c8320d4261796a79cd359f9d1132",
+    "lastModified": "2026-10-16T09:56:20.642Z"
   },
   "/legal/contact-us": {
-    "hash": "fe1891fb3266f2fd4a390f5fde49f2e53d28367a7da0e307010ec4598f4edca4",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "e7eb8d5b5432703540e9cbfdc0b5ea06164ac303bbeadd67017e2abbb426e1fb",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   },
   "/legal/copyright": {
-    "hash": "b0ad8903331f0c3c77d7f602497ad0004693e0faecf8291b7b1e0b8560cab4ab",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "e5434d3ce5095e93c9dff66c951c5102fda9d50b26e0a51054edf1ba3c673a14",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   },
   "/legal/privacy-policy": {
-    "hash": "711e614574923b2cbe61d46c691d7aee510f87a443788f7ce6dd81f8f3f6181d",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "6bed5af987d3122c6270c37006e9999fac24920caf4e7de32582ee1dec51e37f",
+    "lastModified": "2026-10-16T10:48:49.690Z"
   },
   "/legal/terms-of-service": {
-    "hash": "e50f7dc492078038ff7a6a3773a8694996a8cfbe154b182c140bae5f0157ff20",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "b0ce91bbae9dffd70a04524ce33da164f1622ab3f7823cd7c69cdaa563dd29f7",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   },
   "/level-up": {
-    "hash": "fa429b218d67f39fb461fca4b68998bc2858cf4a6530d607d9a75a7872c372bc",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "3d4ab4276a2c19c1b6919856888a34ba961bce95ac425abedea1a3563e3051f3",
+    "lastModified": "2026-10-16T10:14:23.203Z"
   },
   "/play": {
-    "hash": "ae606ac95427c6c4bd0229d07018cd1d0c802196b5390f8a3d55a9f94304fa45",
-    "lastModified": "2026-10-16T01:16:23.248Z"
+    "hash": "e62ee4799f557c31f87f2de1da8f0566ef4724deb9fa7ec90d7dc93347429798",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   },
   "/pokedex": {
-    "hash": "07f236b29b7d3f94525c91988c30dbfbfa5c5fd82d067353134d6b6ea085083c",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "0229fb3d0df03235d70df53e48480d19b769ea1190be098d6d8fc2120705806b",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   },
-  "/sources": {
-    "hash": "481d9b7aef1f8d201f97c9af391ebde24b750f07396b833d558f8b0cb6ae3422",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+  "/rankings": {
+    "hash": "76ed8f7bddc560541d34bbe62b00a5cd9ccc9b19fed12b4f063b791b15a560bd",
+    "lastModified": "2026-10-16T10:26:44.930Z"
   },
   "/tier-list": {
-    "hash": "9fc874bbe4ff4ddb1b323061e2d0810bee0507d7fc127e601003fd0d620b7fb2",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "3e69ae13f415919e72024443f06e1d62c145ec1026ca85adcb5d486f700b29c2",
+    "lastModified": "2026-10-16T10:22:16.553Z"
   },
   "/types": {
-    "hash": "90ee7ccff820c635ed7ff6e8a616f1d8b9d8d7ce67157467efeab84619db8fe1",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "128ff999f9eb4a98e3a05e08c693a2e12380cf58954afe949e56801ae9751967",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   },
   "/updates": {
-    "hash": "066297b2ea8334948d2ef5b1a6e90e94a7d71f7e1c34f2a1e3ba8f4d9f3a6a51",
-    "lastModified": "2026-10-15T12:57:08.620Z"
+    "hash": "dd85a908f38bddaddaa1a997d9a1198cf2408afd499081677f8f96ddc426f03a",
+    "lastModified": "2026-10-16T09:49:01.965Z"
   }
 }

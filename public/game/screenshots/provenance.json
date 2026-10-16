@@ -1,0 +1,27 @@
+{
+  "licenseNotice": "Original game imagery. See /legal/copyright and /credits/pokesurvivor-license.txt; character artwork credits and separate licenses remain applicable.",
+  "images": [
+    {
+      "file": "level-up.webp",
+      "source": "design/home-v1/references/official-level-up.png",
+      "origin": "Official game guest session screenshot",
+      "transform": "Lossless WebP encoding only"
+    },
+    {
+      "file": "card-choices.webp",
+      "source": "design/home-v1/references/official-battle.png",
+      "origin": "Official game guest session screenshot with Agility, Power and Poison Sting choices",
+      "transform": "Lossless WebP encoding only"
+    },
+    {
+      "file": "forest.webp",
+      "source": "design/home-v1/references/official-level-up.png",
+      "transform": "Unmodified right-hand map crop, x960 y0 320x720; lossless WebP"
+    },
+    {
+      "file": "battlefield.webp",
+      "source": "Supplied game archive assets/og-image.jpg",
+      "transform": "Unlettered top strip x0 y0 1200x190; lossless WebP; no reconstructed pixels"
+    }
+  ]
+}

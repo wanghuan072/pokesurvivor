@@ -1,0 +1,161 @@
+{
+  "review": {
+    "reviewed": "2026-10-16",
+    "revision": "5bbc3b29288d6af4596f21188fb8b54e0e9b739f",
+    "method": "Official documentation and static source inspection, including Boss death, Rift victory, Bond selection and fusion. No gameplay session claimed.",
+    "officialPages": [
+      "https://pokesurvivor.com/en/moves/",
+      "https://pokesurvivor.com/en/items/",
+      "https://pokesurvivor.com/en/news/"
+    ],
+    "files": [
+      {
+        "file": "js/data/moves.js",
+        "sha256": "75f6612c276a89e4344382739d4f17e770021766843ff9e03933769699eee70a"
+      },
+      {
+        "file": "js/data/items.js",
+        "sha256": "6410fdac6a421849cd4107e47bd9b068556b41caefcacd62e1043a72e394f283"
+      },
+      {
+        "file": "js/entities/enemy.js",
+        "sha256": "f045ebf98e916239a918bbd3aded22baa67757df7d124ae80f5471898e6d848e"
+      },
+      {
+        "file": "js/entities/player.js",
+        "sha256": "596c00824f0ac83fe2b62592764c6b10dfdff735675b1d0fa0d3600829364336"
+      },
+      {
+        "file": "js/systems/rift.js",
+        "sha256": "28da109c435cbcc7984f544a4ef7965956ee6a4ea3337fd448051e4c74e66002"
+      },
+      {
+        "file": "js/game.js",
+        "sha256": "ba3d6cbeec924249ac4774ab602d066b6b5f883669bbe96cb2d0c901258496db"
+      },
+      {
+        "file": "js/systems/levelup.js",
+        "sha256": "adccb708c5648a825b647f6421bdae49f3bc3924a49dfb1b903c7d17a05b3150"
+      }
+    ]
+  },
+  "counts": {
+    "moveCards": 64,
+    "evolutionRecipes": 59,
+    "heldItems": 11,
+    "bossPatterns": 7
+  },
+  "heldItemIds": [
+    "leftovers",
+    "choiceband",
+    "quickclaw",
+    "focussash",
+    "shellbell",
+    "amuletcoin",
+    "luckyegg",
+    "lifeorb",
+    "choicescarf",
+    "rockyhelmet",
+    "assaultvest"
+  ],
+  "itemNotes": {
+    "choiceband": "Locks ordinary slot switching. If your active slot is a Bond group, its linked moves can still run together.",
+    "shellbell": "Damage dealt adds 4% to a healing reserve capped at 4 HP. That reserve is released at up to 4 HP per second.",
+    "lifeorb": "Each affected cast costs the larger of 1 HP and 1% of max HP, stopping at 1 HP. Orbit and trail casts are excluded from this charge.",
+    "assaultvest": "Adds 20 percentage points of damage reduction. Total player damage reduction is capped at 80%."
+  },
+  "bond": {
+    "maxGroupSize": 4,
+    "rewardPerRiftVictory": 1,
+    "mapBossReward": false,
+    "savedUntilUsable": true,
+    "steps": [
+      {
+        "title": "Win the Rift fight",
+        "description": "Defeat the legendary inside its Rift arena. Each victory adds one Bond. An ordinary map Boss does not grant one."
+      },
+      {
+        "title": "Return to the main map",
+        "description": "The fusion choice opens after you leave the arena. If another choice screen is open, it waits until that screen closes."
+      },
+      {
+        "title": "Pair two learned moves",
+        "description": "Without an unfinished group, choose two moves currently in separate slots. They become one slot and both run while that slot is active."
+      },
+      {
+        "title": "Grow the unfinished group",
+        "description": "If a group already contains two or three moves, the next Bond adds one loose move to it. Four is the group limit. Once a group is full, another Bond can start a new pair if two loose moves remain."
+      }
+    ],
+    "notes": [
+      "A Bond combines learned moves. It does not teach a Boss attack, add a fifth ordinary move slot or automatically evolve either move.",
+      "Fusion keeps the existing move objects, including their levels and evolution state. Their attacks use their own cooldowns; they do not share one new cooldown.",
+      "With only one loose move and no unfinished group, the Bond is saved until you learn another eligible move. Returning without a victory does not award a Bond.",
+      "Choice Band still blocks ordinary slot switching. Fusion keeps the current active slot if that slot survives the merge; otherwise it selects the fused group."
+    ]
+  },
+  "equipment": {
+    "limit": 1,
+    "scope": "current run",
+    "description": "Standard map Bosses and Rift legendaries drop a held item. Chests can also provide equipment. You can carry only one at a time; finding another opens a choice to keep your current item or replace it.",
+    "exclusions": "Judgment enemies are excluded from the standard Boss equipment-drop branch. Equipment is separate from move slots, evolution stat-card requirements and Rift Bonds."
+  },
+  "patterns": [
+    {
+      "id": "slam",
+      "icon": "fist",
+      "name": "Area slam",
+      "description": "A circular shockwave around the Boss. Leave the marked area before the hit.",
+      "normal": "Close-range circle",
+      "enraged": "Shorter warning"
+    },
+    {
+      "id": "dash",
+      "icon": "boot",
+      "name": "Straight charge",
+      "description": "The Boss charges along the line aimed at you when the cast starts. Move sideways out of that line.",
+      "normal": "Straight-line charge",
+      "enraged": "Shorter warning"
+    },
+    {
+      "id": "leap",
+      "icon": "up",
+      "name": "Leaping strike",
+      "description": "A jump toward your marked position, followed by an area hit on landing. Keep moving away from the landing circle.",
+      "normal": "Marked landing circle",
+      "enraged": "Shorter launch delay"
+    },
+    {
+      "id": "rain",
+      "icon": "wrain",
+      "name": "Falling zones",
+      "description": "Several delayed impact circles appear around your position. Move into clear ground instead of crossing another marker.",
+      "normal": "4 impact zones",
+      "enraged": "6 impact zones"
+    },
+    {
+      "id": "beam",
+      "icon": "type-electric",
+      "name": "Beam fan",
+      "description": "Long beams spread toward your position. Read the lines on the ground and step into a gap before they fire.",
+      "normal": "3 beams",
+      "enraged": "5 beams"
+    },
+    {
+      "id": "volley",
+      "icon": "type-water",
+      "name": "Projectile volley",
+      "description": "A fan of projectiles fires toward you after the charge-up. Keep an open escape route across the fan.",
+      "normal": "7 projectiles",
+      "enraged": "9 projectiles"
+    },
+    {
+      "id": "nova",
+      "icon": "type-fire",
+      "name": "Radial burst",
+      "description": "Projectiles spread outward in a ring. Keep enough distance to see a gap and move through it.",
+      "normal": "14 projectiles",
+      "enraged": "18 projectiles"
+    }
+  ]
+}

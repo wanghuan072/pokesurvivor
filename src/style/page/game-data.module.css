@@ -313,8 +313,15 @@
 .shinyGrid figure > div span {
   color: #dfbd74;
 }
-.shinyGrid img {
+.shinyGrid figure > div > picture {
+  display: block;
+  min-width: 0;
   max-width: 44%;
+  flex: 0 1 96px;
+}
+.shinyGrid img {
+  max-width: 100%;
+  height: auto;
 }
 
 .goalGrid {
@@ -343,6 +350,23 @@
   color: #dfc481;
   font: 17px var(--pixel);
 }
+.gallery, .reference, .partners, .encounter { border-color: #81734b; background: linear-gradient(140deg, #102e2e, #081e29); border-radius: 4px; box-shadow: var(--frame-shadow); }
+.heading { border-bottom-color: #a18a4e; flex-wrap: wrap; }
+.heading small, .heading > span { color: var(--gold); }
+.animationGrid figure, .shinyGrid figure { border-color: #756a49; border-radius: 3px; background: #082029; box-shadow: var(--frame-shadow); }
+.animationGrid figcaption, .shinyGrid figcaption { padding-top: 9px; color: #efdfac; line-height: 1.6; }
+.factStrip > span { border-color: #706747; background: #102c2b; border-radius: 2px; }
+.factStrip b { color: var(--gold); }
+.timeline article, .missionGrid article, .worldGrid article { border-color: #81734b; border-radius: 3px; background: #0b242d; box-shadow: var(--frame-shadow); }
+.timelineTitle > b { color: var(--gold); background: #2b3928; border: 1px solid #92804b; }
+.timelineTitle { flex-wrap: wrap; }
+.timelineTitle > div { min-width: 0; }
+.timeline h3, .worldGrid h3, .missionGrid h3 { color: #f0e2bb; }
+.partnerGrid > div { border-color: #526a52; border-radius: 2px; background: #0a252b; }
+.controls button { border-radius: 2px; min-height: 44px; border-color: #8a7747; }
+.controls button[aria-pressed="true"] { border-color: var(--gold); background: #233b29; color: #f5d992; }
+.candidatePreview > div { min-width: 0; border: 1px solid #49604d; border-radius: 2px; background: #102c2d; }
+.goalGrid > a { border-color: #81734b; background: #102d2d; border-radius: 3px; }
 @media (max-width: 1024px) {
   .animationGrid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -417,6 +441,16 @@
   .goalGrid {
     grid-template-columns: 1fr;
   }
+  .gallery, .reference, .partners, .encounter { padding: 18px 12px; }
+  .shinyGrid figure > div { gap: 6px; }
+  .shinyGrid img { max-width: 100%; }
+  .partnerGrid, .nameGrid { gap: 8px; }
+  .heading { align-items: start; }
+  .heading > span { text-align: left; line-height: 1.7; }
+  .factStrip > span { flex: 1 1 90px; }
+  .controls { gap: 8px; }
+  .controls label { flex-wrap: wrap; line-height: 1.8; }
+  .candidatePreview { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 

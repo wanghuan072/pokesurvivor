@@ -15,9 +15,9 @@ export default function PokedexPage() {
         category="PARTNER ATLAS"
       />
       <p className="notice">
-        Browse all {pokemon.length} partners’ base stats in this roster.
-        Filter by type, region or collection group, and compare normal and shiny
-        sprites without leaving the list.
+        Browse all {pokemon.length} partners in the collection grid. Hover, focus
+        or tap a sprite for base stats and rarity, or switch to shiny appearances.
+        Your in-game ownership is separate from this roster.
       </p>
       <PokedexBrowser
         pokemon={pokemon.map(

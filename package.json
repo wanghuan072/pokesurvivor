@@ -11,9 +11,12 @@
     "lint": "eslint",
     "typecheck": "next typegen && tsc --noEmit",
     "data:refresh": "node scripts/data/refresh-official.mjs",
-    "audit": "node scripts/audit/game-mechanics.mjs && node scripts/audit/unpacked-game.mjs && node scripts/audit/site.mjs && node --test scripts/audit/seo.test.mjs",
+    "audit": "node scripts/audit/game-mechanics.mjs && node scripts/audit/guide-content.mjs && node scripts/audit/collection-previews.mjs && node scripts/audit/unpacked-game.mjs && node scripts/audit/site.mjs && node --test scripts/audit/seo.test.mjs",
+    "audit:guides": "node scripts/audit/guide-content.mjs",
     "test:mechanics": "node scripts/audit/game-mechanics.mjs",
     "data:unpack": "node scripts/data/unpack-local-game.mjs",
+    "data:collection-previews": "node scripts/data/export-collection-previews.mjs",
+    "data:boss-rewards": "node scripts/data/extract-boss-rewards.mjs",
     "content:sync": "node scripts/seo/content-revisions.mjs --write",
     "content:check": "node scripts/seo/content-revisions.mjs",
     "test:seo": "node --test scripts/audit/seo.test.mjs"

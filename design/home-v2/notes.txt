@@ -1,0 +1,4 @@
+Homepage design proposal v2. Generated using built-in imagegen with real game screenshot and original sprite references from ../home-v1/references. Exact prompt: prompt.txt.
+Visual direction: forest gameplay hero, gold pixel frames, asymmetric feature panels, purple collection highlights, magazine guide layout.
+Preview only. Generated text and game pixels may differ from original sources. Implementation must reuse original files, including original shiny animations; do not extract generated sprites as production assets.
+No application source changes. No project server started.

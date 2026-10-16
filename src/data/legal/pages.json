@@ -5,7 +5,7 @@
         "heading": "Scope of this policy",
         "paragraphs": [
           "This policy explains how PokeSurvivor.me handles information when you browse this independent fan guide or contact its maintainer. It covers this website, not the separately operated game at pokesurvivor.com. The game has its own account, save, multiplayer and privacy systems. This website does not operate those systems or receive access to your game account.",
-          "The current website has no visitor accounts, public comments, contact forms, advertising scripts or analytics services. If features that change how information is handled are introduced, this policy will be updated to describe them."
+          "The current website has no visitor accounts, public comments, contact forms or advertising scripts. It uses Google Analytics to understand page visits and website usage. If features that change how information is handled are introduced, this policy will be updated to describe them."
         ]
       },
       {
@@ -18,8 +18,15 @@
       {
         "heading": "Search, filters and browser storage",
         "paragraphs": [
-          "Site search loads a search index from this website and matches your query in the browser. List filters and sorting also run in the browser; they do not submit the text you type to a search provider. The current site does not add tracking cookies.",
-          "An earlier version included a build planner that could save a plan locally. The current website does not read or update those plans. Any remaining entries can be removed through your browser’s settings for this site. Ordinary browser caching may retain files to make later visits faster."
+          "Site search loads a search index from this website and matches your query in the browser. List filters and sorting also run in the browser; they do not submit the text you type to a search provider.",
+          "The Tier List Maker saves your chosen Pokémon, tier names and row colors in this browser’s local storage. This board is not uploaded to a site account or shared automatically. Reset board clears its contents; your browser’s site-storage settings can remove the saved entry entirely. Exporting creates a PNG image in your browser. Earlier build-planner entries, if present, are not read or updated. Ordinary browser caching may retain files to make later visits faster."
+        ]
+      },
+      {
+        "heading": "Google Analytics",
+        "paragraphs": [
+          "This website loads the Google tag from googletagmanager.com and uses Google Analytics to measure page visits and interactions. The tag connects your browser to Google and may use cookies or similar identifiers. Information can include visited page URLs, referring pages, browser and device details, and interaction events. Do not put private information into page URLs.",
+          "Google processes analytics information under its own privacy practices. See https://policies.google.com/privacy for its privacy policy. You can restrict cookies and scripts through your browser or use Google's Analytics opt-out browser add-on at https://tools.google.com/dlpage/gaoptout. Blocking analytics does not prevent you from reading this guide."
         ]
       },
       {
@@ -142,7 +149,7 @@
         "heading": "A guide for the next run",
         "paragraphs": [
           "PokeSurvivor.me helps players make the decisions that come up during a run: which partner to try, whether to take a stat card, what a move needs to evolve and when to change a plan. You can launch the official game, compare partners in the Pokédex or read one of three focused guides.",
-          "The site is useful both before a run and when you want to understand a choice afterward. The Level-up page keeps card effects and evolution requirements together. Builds show a main goal and follow-up options rather than promising a perfect loadout every time."
+          "The site is useful both before a run and when you want to understand a choice afterward. The Level-up page keeps partner move pools, card effects and evolution requirements together. The guides explain how to prioritize upgrades and adapt when a particular card is not offered."
         ]
       },
       {
@@ -155,7 +162,7 @@
       {
         "heading": "Who maintains the content",
         "paragraphs": [
-          "Articles and corrections are published under the PokeSurvivor.me site identity. The maintainer checks mechanical claims, keeps version differences visible where they affect a decision and revises explanations when a mistake is identified. The editorial policy explains that process in more detail.",
+          "Articles and corrections are published under the PokeSurvivor.me site identity. The maintainer checks mechanical claims, keeps version differences visible where they affect a decision and revises explanations when a mistake is identified. When reporting a correction, include the affected page, the rule in question and your game version when available.",
           "A guide’s update date describes a substantive change to that page. It is not reset whenever the website is rebuilt and does not mean that every game mechanic was independently retested on that date."
         ]
       },

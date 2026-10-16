@@ -47,6 +47,12 @@ assert.equal(pokemon.filter((p) => p.starter).length, 29);
 assert.equal(pokemon.filter((p) => p.legendary).length, 87);
 for (const p of pokemon) {
   assert.ok(p.hp > 0 && p.speed > 0 && p.attack > 0);
+  assert.deepEqual(
+    [...p.cardPool].sort(),
+    moves.filter(m => m.type.toLowerCase() === "normal" || p.types.some(type => type.toLowerCase() === m.type.toLowerCase())).map(m => m.id).sort(),
+    `${p.name}: ordinary move pool must match Normal plus the species' types`,
+  );
+  assert.deepEqual(p.learnset, [...new Set([p.startMove, ...p.cardPool])], `${p.name}: incomplete move list`);
   assert.ok(
     p.learnset.includes(p.startMove),
     `${p.name}: starting move outside pool`,
@@ -57,6 +63,8 @@ for (const p of pokemon) {
       `${p.name}: unknown move ${id}`,
     );
 }
+assert.equal(pokemon.find(p => p.id === 54).startMove, "confusion");
+assert.ok(!pokemon.find(p => p.id === 54).cardPool.includes("confusion"), "Psyduck's special opening move must not be offered as an ordinary new card");
 for (const b of builds) {
   const ids = [moves.find((m) => m.slug === b.move).id, ...b.supportMoves];
   for (const partnerId of b.partners) {
@@ -70,6 +78,32 @@ for (const b of builds) {
   }
 }
 const ember = moves.find((m) => m.id === "ember");
+const shiny = read("src/data/game/shiny-rules.json");
+assert.equal(shiny.mechanics.wildRate, 1 / 4096);
+assert.equal(shiny.mechanics.riftRate, 1 / 512);
+assert.equal(shiny.mechanics.gachaRate, gacha.shinyRate);
+assert.equal(shiny.mechanics.wildHpMultiplier, 2);
+assert.equal(shiny.mechanics.wildXpMultiplier, 5);
+assert.equal(shiny.mechanics.wildDuplicateCoins, 300);
+assert.equal(shiny.mechanics.rarityPity, gacha.pity);
+assert.match(shiny.officialRevision, /^[a-f0-9]{40}$/);
+const shinyGuide = read("src/data/guides/guides.json").find(g => g.slug === "shiny-pokemon");
+assert.ok(shinyGuide);
+const samples = shinyGuide.sections.find(s => s.comparisons).comparisons;
+const assets = read("src/data/game/assets.json");
+for (const sample of samples) {
+  assert.equal(pokemon.find(p => p.id === sample.id)?.name, sample.name);
+  assert.ok(assets.find(p => p.id === sample.id)?.shiny, `${sample.name}: missing shiny art`);
+  assert.ok(fs.existsSync(`public/game/pokemon/${sample.id}-shiny.webp`));
+}
+assert.equal(pokemon.find(p => p.id === 25).rarity, 2);
+assert.equal(pokemon.find(p => p.id === 6).rarity, 4);
+assert.equal(pokemon.filter(p => p.region === "kanto" && p.rarity === 2).length, 41);
+for (const [route, attempts, expected] of shinyGuide.sections.find(s => s.id === "odds").table.rows) {
+  const n = Number(attempts.replaceAll(",", ""));
+  const rate = route === "Gacha" ? shiny.mechanics.gachaRate : route === "Rift" ? shiny.mechanics.riftRate : shiny.mechanics.wildRate;
+  assert.equal((100 * (1 - (1 - rate) ** n)).toFixed(2) + "%", expected);
+}
 near(ember.levels[4].dmg, 26.1);
 near(ember.levels[4].cd, 0.39);
 assert.equal(ember.levels[4].count, 3);

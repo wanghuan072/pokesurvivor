@@ -9,19 +9,15 @@
   },
   "/pokedex": {
     "heading": "PokeSurvivor Pokédex - Find Your Next Partner",
-    "intro": "Compare 966 playable Pokémon by their base stats, types and region. Filter to starters or try a different partner for your next run."
+    "intro": "Browse all 966 Pokémon in a compact collection grid. Hover, focus or tap a partner to compare its base stats, rarity and normal or shiny appearance."
   },
   "/level-up": {
     "heading": "PokeSurvivor Level-Up Cards and Move Evolutions",
-    "intro": "Find out what each upgrade changes, which stat card your move needs and when to focus an evolution instead of filling another slot."
+    "intro": "Find the next card for your run. Browse moves by partner, check evolution recipes, compare stat upgrades and understand boss rewards."
   },
   "/tier-list": {
-    "heading": "PokeSurvivor Tier List - Compare Partner Stats",
-    "intro": "Sort partners by attack, HP or speed to compare their starting strengths. These are base-stat rankings, not tested ratings for survival or damage per second."
-  },
-  "/builds": {
-    "heading": "PokeSurvivor Builds - Choose Your Next Loadout",
-    "intro": "Choose an evolution goal, check the partners that can learn it and plan your first upgrades. Keep room to adapt when a different card would help you survive."
+    "heading": "PokeSurvivor Tier List - Make Your Own Rankings",
+    "intro": "Create a personal S–D tier list with all 966 partners. Arrange the sprites, customize your rows and export your board as an image."
   },
   "/types": {
     "heading": "PokeSurvivor Types - Matchups and Weather",
@@ -37,15 +33,11 @@
   },
   "/guides": {
     "heading": "PokeSurvivor Guides - Your First Run and Beyond",
-    "intro": "Start with movement and survival, work toward your first move evolution or learn how to grow your collection. Choose the guide that fits your next question."
+    "intro": "Survive your first run, plan a move evolution or hunt for a shiny partner. Choose a guide for the next decision you want to make, from spending tickets to saving an unlock."
   },
   "/updates": {
     "heading": "PokeSurvivor Updates - What Has Changed",
     "intro": "Read dated game changes and changes to this site. Check the version a guide describes before relying on a number that may have changed."
-  },
-  "/sources": {
-    "heading": "How We Check PokeSurvivor Game Details",
-    "intro": "Find out how this site checks mechanics, explains version differences and handles corrections. Strategy suggestions are kept separate from facts about the game."
   },
   "/legal/privacy-policy": {
     "heading": "Privacy Policy",
@@ -66,5 +58,9 @@
   "/legal/contact-us": {
     "heading": "Contact Us",
     "intro": "Reach the site maintainer about a correction, a website problem or a copyright concern at support@pokesurvivor.me."
+  },
+  "/rankings": {
+    "heading": "PokeSurvivor Rankings - Compare Partner Stats",
+    "intro": "Compare attack factor, HP and speed in a ranked partner list. Filter to starters or find a Pokémon to see how its starting numbers compare."
   }
 }

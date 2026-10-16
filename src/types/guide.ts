@@ -12,5 +12,17 @@ export type Guide = {
   readTime: number;
   outcomes: string[];
   sources: string[];
-  sections: { id: string; title: string; paragraphs: string[] }[];
+  sections: GuideSection[];
+};
+export type GuideSection = {
+  id: string;
+  title: string;
+  paragraphs: string[];
+  bullets?: string[];
+  steps?: string[];
+  table?: { caption: string; columns: string[]; rows: string[][] };
+  comparisons?: { id: number; name: string; note: string }[];
+  callout?: { title: string; text: string };
+  questions?: { question: string; answer: string }[];
+  links?: { label: string; href: string }[];
 };

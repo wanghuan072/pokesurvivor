@@ -13,6 +13,8 @@ import WaveReference from "./sections/WaveReference";
 import MissionReference from "./sections/MissionReference";
 import WorldReference from "./sections/WorldReference";
 import ShinyReference from "./sections/ShinyReference";
+import GuideSectionBlocks from "./sections/GuideSectionBlocks";
+import GuideArtwork from "./sections/GuideArtwork";
 import s from "@/style/page/guides.module.css";
 import c from "@/style/common/content.module.css";
 function RecipeExamples() {
@@ -80,7 +82,7 @@ export default function GuidePage({ guide: g }: { guide: Guide }) {
               </a>
             ))}
           </nav>
-          <a href="/guides">← All three guides</a>
+          <a href="/guides">← All guides</a>
         </aside>
         <article className={s.article}>
           <div className={s.articleCover}>
@@ -89,8 +91,10 @@ export default function GuidePage({ guide: g }: { guide: Guide }) {
               alt={g.imageAlt}
               fill
               sizes="(max-width: 1024px) 90vw, 65vw"
-              priority
+              loading="eager"
+              fetchPriority="high"
             />
+            <GuideArtwork slug={g.slug} />
           </div>
           <div className={s.articleBody}>
             <div className={s.byline}>
@@ -112,6 +116,7 @@ export default function GuidePage({ guide: g }: { guide: Guide }) {
                 {section.paragraphs.map((p) => (
                   <p key={p}>{p}</p>
                 ))}
+                <GuideSectionBlocks section={section} />
                 {g.slug === "beginner-guide" && section.id === "waves" && (
                   <details className={s.referenceToggle}>
                     <summary>
@@ -147,8 +152,8 @@ export default function GuidePage({ guide: g }: { guide: Guide }) {
                   <RecipeExamples />
                 )}
                 {g.slug === "move-evolutions" && section.id === "rerolls" && (
-                  <a className="btn" href="/builds">
-                    Explore compatible builds →
+                  <a className="btn" href="/level-up">
+                    Compare move cards →
                   </a>
                 )}
                 {g.slug === "gacha-and-tickets" &&

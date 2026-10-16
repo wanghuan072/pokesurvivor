@@ -1,8 +1,9 @@
 .panel {
-  border: 1px solid #155b7d;
-  border-radius: 6px;
-  background: linear-gradient(120deg, #041a2c, #06223890);
-  padding: 0 8px 7px;
+  border: 1px solid var(--frame);
+  border-radius: 4px;
+  background: linear-gradient(120deg, #102b2d, #081e29);
+  box-shadow: var(--frame-shadow);
+  padding: 8px 14px 14px;
   min-width: 0;
 }
 .panelHead {
@@ -10,7 +11,9 @@
   align-items: center;
   justify-content: space-between;
   min-height: 30px;
-  padding: 4px 3px;
+  padding: 6px 0 12px;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 .panelHead h2 {
   font-size: 17px;
@@ -19,7 +22,7 @@
   gap: 10px;
 }
 .panelHead h2 > span {
-  color: #82d4ff;
+  color: var(--gold);
   font-family: Arial;
   font-size: 23px;
   line-height: 1;

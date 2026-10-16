@@ -1,0 +1,30 @@
+{
+  "eyebrow": "The PokeSurvivor field guide",
+  "tagline": ["Survive the horde.", "Make every upgrade count."],
+  "intro": "Play in your browser. Find your partner, choose your cards and plan your next run.",
+  "partners": [1, 4, 7, 25, 133, 94],
+  "guides": [
+    {
+      "slug": "beginner-guide",
+      "category": "Start here",
+      "title": "Your first run, step by step",
+      "description": "Get moving, collect experience and make your first upgrades count.",
+      "image": "/game/screenshots/battlefield.webp",
+      "imageAlt": "Pokémon on the grass battlefield in the official game"
+    },
+    {
+      "slug": "move-evolutions",
+      "category": "Upgrades",
+      "title": "Build around the cards you get",
+      "description": "Check evolution requirements and leave room to adapt your loadout.",
+      "image": "/game/screenshots/card-choices.webp",
+      "imageAlt": "Agility, Power and Poison Sting offered as level-up choices in the game"
+    },
+    {
+      "slug": "shiny-pokemon",
+      "category": "Collection",
+      "title": "How to get Shiny Pokémon",
+      "description": "Understand shiny rolls, duplicate pulls and what guarantees actually cover."
+    }
+  ]
+}

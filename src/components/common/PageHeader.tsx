@@ -2,6 +2,7 @@ import pages from "@/data/site/pages.json";
 import { PageSchema } from "@/seo/PageSchema";
 import { JsonLd } from "@/seo/JsonLd";
 import { site } from "@/config/site";
+import { GameIcon } from "./GameIcon";
 import s from "@/style/common/content.module.css";
 export function PageHeader({
   title,
@@ -32,7 +33,13 @@ export function PageHeader({
           <h1>{title}</h1>
           <div className={s.description}>{description}</div>
         </div>
-        <span className={s.headerIcon}>◓</span>
+        <span className={s.headerIcon} aria-hidden="true">
+          <GameIcon name={({
+            "/pokedex": "ball", "/level-up": "cards", "/tier-list": "crown", "/rankings": "crown",
+            "/guides": "book", "/types": "type-grass",
+            "/gacha": "ticket10", "/achievements": "trophy", "/updates": "clock",
+          } as Record<string, string>)[path] ?? "book"} size={72} />
+        </span>
       </header>
       <PageSchema path={path} title={title} description={description} />
       <JsonLd

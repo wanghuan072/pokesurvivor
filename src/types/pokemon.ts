@@ -17,6 +17,8 @@ export type Pokemon = {
   learnset: string[];
   cardPool: string[];
 };
+
+export type MovePartner = Pick<Pokemon, "id" | "name" | "types" | "startMove" | "cardPool" | "learnset">;
 export type PokemonSummary = Pick<
   Pokemon,
   | "hasDetailPage"

@@ -7,8 +7,8 @@ export default function Updates() {
       <article className={`${s.article} prose`}>
         <span className="tag">OCTOBER 15, 2026 · SITE UPDATE</span>
         <h2>Find the next choice without opening another page</h2>
-        <p>Pokédex entries stay in the partner list, move upgrades expand on the Level-up page and all six builds open their upgrade plans in place. The three guides cover survival, evolutions and collecting partners.</p>
-        <p>Partner rankings compare base attack, HP and speed rather than assigning untested strength ratings. Page descriptions and FAQs now explain the decisions each section helps you make. <a href="/sources">Version notes</a> explain where an older game build affects a rule.</p>
+        <p>Pokédex entries stay in the partner list, move upgrades expand on the Level-up page and partner rankings compare the roster’s starting stats. The guides cover survival, evolutions and collecting partners, including shiny hunting.</p>
+        <p>Partner rankings compare base attack, HP and speed rather than assigning untested strength ratings. Page descriptions and FAQs now explain the decisions each section helps you make. Version differences are explained alongside the affected rules.</p>
       </article>
       <h2 className={s.sectionTitle}>Dated game changes</h2>
       {changes.slice(0, 4).map((c) => (

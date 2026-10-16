@@ -3,6 +3,7 @@ import { useRef, useState } from "react";
 import { PageSchema } from "@/seo/PageSchema";
 import pages from "@/data/site/pages.json";
 import { site } from "@/config/site";
+import { CollectionPokemonArt } from "@/components/common/CollectionPokemonArt";
 import s from "@/style/page/play.module.css";
 export default function PlayPage() {
   const container = useRef<HTMLDivElement>(null);
@@ -55,7 +56,7 @@ export default function PlayPage() {
           </>
         ) : (
           <div className={s.launch}>
-            <span>🎮</span>
+            <span aria-hidden="true"><CollectionPokemonArt id={25} name="Pikachu" size={120} /></span>
             <p>YOUR NEXT ADVENTURE STARTS HERE</p>
             <h1>
               Play <em>PokeSurvivor</em> Online

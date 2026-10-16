@@ -19,6 +19,21 @@ for (const row of Object.values(chart)) {
   assert.ok(row.every((x) => [1, 0.6, 0.3, 1.6].includes(x)));
 }
 const files = [];
+const bossRewards = read("src/data/game/boss-rewards.json");
+const levelUpHtml = fs.readFileSync(".next/server/app/level-up.html", "utf8");
+for (const item of read("src/data/wiki/items.json")) {
+  assert.ok(bossRewards.heldItemIds.includes(item.id), `Missing Boss drop: ${item.id}`);
+  assert.ok(levelUpHtml.includes(`id="item-${item.id}"`), `Unpublished Boss drop: ${item.id}`);
+  assert.ok(fs.existsSync(`public/game/icons/${item.id}.png`));
+}
+const initialPartnerMoves=moves.filter(move=>pokemon[0].learnset.includes(move.id));
+assert.equal((levelUpHtml.match(/<article\b[^>]*\bid="move-[^"]+"/g) || []).length, initialPartnerMoves.length, "The move panel must initially show the first partner's complete move pool");
+for(const move of initialPartnerMoves) assert.ok(levelUpHtml.includes(`id="move-${move.slug}"`), `Missing initial partner move: ${move.name}`);
+for (const id of ["boss-rewards", "bond-fusion", "boss-items", "boss-patterns"])
+  assert.ok(levelUpHtml.includes(`id="${id}"`), `Missing Boss section: ${id}`);
+assert.ok(levelUpHtml.includes("ENEMY ATTACKS") && levelUpHtml.includes("NOT LEARNABLE"));
+for (const pattern of bossRewards.patterns)
+  assert.ok(levelUpHtml.includes(pattern.name), `Missing Boss attack reference: ${pattern.id}`);
 function walk(dir) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const file = path.join(dir, entry.name);
@@ -48,7 +63,7 @@ const known = new Set(
 const hrefs = new Set();
 const pageIds = new Map();
 const links = [];
-const removedRoutes = ["/wiki", "/items", "/upgrades", "/tools"];
+const removedRoutes = ["/wiki", "/items", "/upgrades", "/tools", "/sources", "/builds"];
 const retiredTarget = (pathname) =>
   ["/about", "/contact", "/privacy-policy"].includes(pathname) ||
   removedRoutes.some((route) => pathname === route || pathname.startsWith(route + "/")) ||
@@ -65,6 +80,8 @@ for (const file of files) {
   const html = fs.readFileSync(file, "utf8");
   pageIds.set(routeForFile(file), new Set([...html.matchAll(/\bid="([^"]+)"/g)].map((m) => m[1])));
 }
+// Move anchors reveal the matching pool before scrolling inside the move panel.
+for (const move of moves) pageIds.get("/level-up")?.add(`move-${move.slug}`);
 for (const file of files) {
   if (["/_not-found", "/moves", "/evolutions", "/about", "/contact", "/privacy-policy"].includes(routeForFile(file))) continue;
   const html = fs.readFileSync(file, "utf8");
@@ -127,11 +144,7 @@ assert.ok(
   "Removed Items page must not be searchable",
 );
 const sitemap = fs.readFileSync(".next/server/app/sitemap.xml.body", "utf8");
-for (const build of read("src/data/builds/builds.json")) {
-  assert.ok(!known.has(`/builds/${build.slug}`), `Build detail must not be generated: ${build.slug}`);
-  assert.ok(search.some((entry) => entry.href === `/builds#build-${build.slug}`),
-    `Build search must point to list anchor: ${build.slug}`);
-}
+
 for (const route of removedRoutes) {
   assert.ok(!known.has(route), `Removed page generated: ${route}`);
   assert.ok(![...known].some((p) => p.startsWith(route + "/")), `Removed detail generated: ${route}`);
@@ -150,7 +163,13 @@ assert.ok(
   "Removed Upgrades page must not be in sitemap",
 );
 const publishedGuides = read("src/data/guides/guides.json");
-assert.equal(publishedGuides.length, 3, "Exactly three published guides");
+for (const route of ["pokedex", "tier-list", "rankings", "gacha", "guides/shiny-pokemon"]) {
+  const html=fs.readFileSync(`.next/server/app/${route}.html`,"utf8");
+  assert.match(html, /src="\/game\/collection\/\d+-(normal|shiny)\.webp"/, `${route}: original collection animations must be rendered`);
+  assert.match(html, /media="\(prefers-reduced-motion: reduce\)"/, `${route}: reduced-motion still missing`);
+  assert.ok(!/src="\/game\/pokemon\/\d+(?:-shiny)?\.webp"/.test(html), `${route}: stale static-only roster art`);
+}
+assert.equal(publishedGuides.length, 4, "Four published guides");
 for (const guide of publishedGuides) {
   assert.ok(known.has(`/guides/${guide.slug}`), guide.slug);
   assert.ok(
@@ -181,7 +200,6 @@ for (const guide of read("src/data/guides/archive.json")) {
     `Archived guide is searchable: ${guide.slug}`,
   );
 }
-const levelUp = fs.readFileSync(".next/server/app/level-up.html", "utf8");
 for (const m of moves) {
   assert.ok(
     !known.has(`/moves/${m.slug}`),
@@ -196,8 +214,8 @@ for (const m of moves) {
     `Move detail must not be in sitemap: ${m.slug}`,
   );
   assert.ok(
-    levelUp.includes(`id="move-${m.slug}"`),
-    `Missing list anchor: ${m.slug}`,
+    pageIds.get("/level-up").has(`move-${m.slug}`),
+    `Missing move-panel target: ${m.slug}`,
   );
   assert.ok(
     search.some((x) => x.href === `/level-up#move-${m.slug}`),
@@ -271,6 +289,8 @@ if (base) {
     "/tier-list/pikachu",
     ...read("src/data/builds/builds.json").map((build) => `/builds/${build.slug}`),
     "/builds/not-a-build",
+    "/builds",
+    "/sources",
     "/tools",
     "/tools/build-planner",
     "/tools/type-calculator",

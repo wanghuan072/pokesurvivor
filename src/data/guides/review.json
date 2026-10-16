@@ -1,0 +1,1145 @@
+{
+  "reviewed": "2026-10-16",
+  "revision": "5bbc3b29288d6af4596f21188fb8b54e0e9b739f",
+  "liveBuild": {
+    "v": "919c6711dd",
+    "at": "2026-10-15T20:32:28.290Z",
+    "force": true
+  },
+  "bundleSha256": "493436d45801803c44e8ddc480da1b554b80dc302f534ca1c7810c0436420d49",
+  "method": "Official documentation, static code inspection and literal-data comparison. No gameplay sessions or cloud-save/multiplayer tests performed.",
+  "files": [
+    {
+      "file": "js/core/db.js",
+      "sha256": "e81402211255316421da43197eb2ac030b0f5c0d93fc2b7f675caa5b21f8e10f"
+    },
+    {
+      "file": "js/core/input.js",
+      "sha256": "453ad7358cec887d85da0a84b022c27378f572dbb618ee9b453de8217054e1d2"
+    },
+    {
+      "file": "js/core/sprites.js",
+      "sha256": "85d31b4e6445349dbd61fdc5c0e71dc195d4bed8dcaade31c5f76cfbdddbb8e1"
+    },
+    {
+      "file": "js/data/achievements.js",
+      "sha256": "b40f6c1cbb44c4f2fc732bbd9f4dbeee6303f24112e586050d82a2db6d48d1da"
+    },
+    {
+      "file": "js/data/enemies.js",
+      "sha256": "9e3bdd45fe4d47fa14b0b26d37c2f3417a2323d11466fca2b3212b6190131a63"
+    },
+    {
+      "file": "js/data/lang-en.js",
+      "sha256": "3560f6e875a12ed6dc732334f064c522604aec251c1f95412f8739544753cea6"
+    },
+    {
+      "file": "js/data/missions.js",
+      "sha256": "5e59334393406027fddc5ee424cd9bddd7f5018290264292d1dd6c3242422c0f"
+    },
+    {
+      "file": "js/data/moves.js",
+      "sha256": "75f6612c276a89e4344382739d4f17e770021766843ff9e03933769699eee70a"
+    },
+    {
+      "file": "js/data/pokedex.js",
+      "sha256": "d33494dbb6eae2ccc07cb81756eeb69e81d5679b01e2dc609cad61b706af41f4"
+    },
+    {
+      "file": "js/data/starters.js",
+      "sha256": "40ea7fb2e82683f4dec91add3e84c93b5028d9076b43fda6159e05457d38491f"
+    },
+    {
+      "file": "js/data/types.js",
+      "sha256": "2703e4c4dcccf3591a87d0e3d10316df2373042fa0e5409b3650dc7cb9eb483c"
+    },
+    {
+      "file": "js/data/upgrades.js",
+      "sha256": "516af27467b56404c566cd03ba5019c18ee4afccb58ca47df61a6d1383331b72"
+    },
+    {
+      "file": "js/entities/enemy.js",
+      "sha256": "f045ebf98e916239a918bbd3aded22baa67757df7d124ae80f5471898e6d848e"
+    },
+    {
+      "file": "js/entities/pickup.js",
+      "sha256": "9b481659231b30d3c4127655635a94317c53ffcbacc077ad41f87e1e71dacf93"
+    },
+    {
+      "file": "js/entities/player.js",
+      "sha256": "596c00824f0ac83fe2b62592764c6b10dfdff735675b1d0fa0d3600829364336"
+    },
+    {
+      "file": "js-game.js",
+      "sha256": "ba3d6cbeec924249ac4774ab602d066b6b5f883669bbe96cb2d0c901258496db"
+    },
+    {
+      "file": "js/net/coop.js",
+      "sha256": "6e9ee9474ecb92a278be9b2706b0bfe5014305422a00ded967449647c124baca"
+    },
+    {
+      "file": "js/net/ranking.js",
+      "sha256": "7c59cd0f4545640ecaca980e65253d5e0eb7511570c60963cb0fe78c8caa06db"
+    },
+    {
+      "file": "js/systems/combat.js",
+      "sha256": "4d3a81b300bf2e22c6adbba38e0cdbd6b4288003ac82481859ef3aad05aa441b"
+    },
+    {
+      "file": "js/systems/events.js",
+      "sha256": "871b784879aa090fb8d5107f40c12ab66915448c4f9bf2515c52265037809c84"
+    },
+    {
+      "file": "js/systems/gacha.js",
+      "sha256": "957b89be9521070c366e1ae21c6bdcf5f96899e5ea0c71cafd712289d11eea15"
+    },
+    {
+      "file": "js/systems/interact.js",
+      "sha256": "fb1b35171e01877a746ccf75f934a94b3619763fe0631880c5f5de4c727f845e"
+    },
+    {
+      "file": "js/systems/judgment.js",
+      "sha256": "a847452d22816904c04ac6278a7b76f64199fbd2a024b3ee7152eb33ac6d1a47"
+    },
+    {
+      "file": "js/systems/levelup.js",
+      "sha256": "adccb708c5648a825b647f6421bdae49f3bc3924a49dfb1b903c7d17a05b3150"
+    },
+    {
+      "file": "js/systems/progress.js",
+      "sha256": "56be3abed8c227dcf9acf07c0ac56087ac9285ef4ffc164e876495316b862336"
+    },
+    {
+      "file": "js/systems/rift.js",
+      "sha256": "28da109c435cbcc7984f544a4ef7965956ee6a4ea3337fd448051e4c74e66002"
+    },
+    {
+      "file": "js/systems/spawner.js",
+      "sha256": "33208db701ee1cc2fc144c0dc23f6a7027b3008d9a0c1b57fd4512a99d7bda4d"
+    },
+    {
+      "file": "js/ui/gacha-ui.js",
+      "sha256": "8c7652755d68ebe0329e836bc59b1d5bd599868ae775055f515f3887c9321a5b"
+    },
+    {
+      "file": "js/ui/goals-ui.js",
+      "sha256": "0f52abe07cb4cd2167c0de25e4203f0838715d4294de9d3b22c8f41203bf840d"
+    },
+    {
+      "file": "js/ui/menu.js",
+      "sha256": "baf9c350feade1cf5be477ceeb59806a5deda91e844bbed35bbc1fc9193cedb2"
+    },
+    {
+      "file": "js/ui/run-ui.js",
+      "sha256": "f4b59907ae7fc9c933b2b7926a850c6b697540ffd5ef78db7355efe7c83ac20c"
+    },
+    {
+      "file": "js/ui/social-ui.js",
+      "sha256": "50290d7f34d916a8f9571e4bb7e2a7aa5bcf52a5f97bc4ea2385e9e56c8da86a"
+    },
+    {
+      "file": "js/world/world.js",
+      "sha256": "6be04594a131583f41d94a20848f8cc33182ec682486098de55fbde368d10d7f"
+    }
+  ],
+  "facts": {
+    "rosterCount": 966,
+    "rosterSha256": "0dfca11bff719873954e0afc7427915d05e143d6820ab62e54395cf13167ee0e",
+    "moves": [
+      {
+        "id": "tackle",
+        "dmg": 13,
+        "cd": 0.5
+      },
+      {
+        "id": "quick-attack",
+        "dmg": 20,
+        "cd": 0.75
+      },
+      {
+        "id": "swords-dance",
+        "cd": 0.85
+      },
+      {
+        "id": "agility",
+        "cd": 0.85
+      },
+      {
+        "id": "harden",
+        "cd": 0.85
+      },
+      {
+        "id": "ember",
+        "dmg": 18,
+        "cd": 0.52
+      },
+      {
+        "id": "flamethrower",
+        "dmg": 7,
+        "cd": 0.7
+      },
+      {
+        "id": "fire-spin",
+        "dmg": 14,
+        "cd": 0.3
+      },
+      {
+        "id": "heat-wave",
+        "dmg": 13,
+        "cd": 1.25
+      },
+      {
+        "id": "water-gun",
+        "dmg": 14,
+        "cd": 0.44
+      },
+      {
+        "id": "bubble",
+        "dmg": 9,
+        "cd": 1
+      },
+      {
+        "id": "hydro-pump",
+        "dmg": 29,
+        "cd": 1.5
+      },
+      {
+        "id": "aqua-ring",
+        "cd": 0.9
+      },
+      {
+        "id": "vine-whip",
+        "dmg": 16,
+        "cd": 0.62
+      },
+      {
+        "id": "razor-leaf",
+        "dmg": 10,
+        "cd": 0.9
+      },
+      {
+        "id": "leaf-storm",
+        "dmg": 14,
+        "cd": 0.26
+      },
+      {
+        "id": "giga-drain",
+        "dmg": 9,
+        "cd": 0.55
+      },
+      {
+        "id": "thunder-shock",
+        "dmg": 13,
+        "cd": 0.4
+      },
+      {
+        "id": "discharge",
+        "dmg": 8,
+        "cd": 0.45
+      },
+      {
+        "id": "thunderbolt",
+        "dmg": 21,
+        "cd": 0.95
+      },
+      {
+        "id": "confusion",
+        "dmg": 13,
+        "cd": 0.58
+      },
+      {
+        "id": "psybeam",
+        "dmg": 17,
+        "cd": 1.15
+      },
+      {
+        "id": "psychic",
+        "dmg": 10,
+        "cd": 1.35
+      },
+      {
+        "id": "sludge",
+        "dmg": 17,
+        "cd": 0.6
+      },
+      {
+        "id": "mud-shot",
+        "dmg": 11,
+        "cd": 1.1
+      },
+      {
+        "id": "gust",
+        "dmg": 13,
+        "cd": 0.26
+      },
+      {
+        "id": "wing-attack",
+        "dmg": 14,
+        "cd": 0.55
+      },
+      {
+        "id": "body-slam",
+        "dmg": 30,
+        "cd": 0.95
+      },
+      {
+        "id": "hyper-voice",
+        "dmg": 12,
+        "cd": 1.15
+      },
+      {
+        "id": "poison-sting",
+        "dmg": 8,
+        "cd": 0.34
+      },
+      {
+        "id": "toxic",
+        "dmg": 6,
+        "cd": 0.3
+      },
+      {
+        "id": "bulldoze",
+        "dmg": 11,
+        "cd": 0.7
+      },
+      {
+        "id": "bug-bite",
+        "dmg": 11,
+        "cd": 0.42
+      },
+      {
+        "id": "string-shot",
+        "dmg": 14,
+        "cd": 1.1
+      },
+      {
+        "id": "bug-buzz",
+        "dmg": 8,
+        "cd": 0.45
+      },
+      {
+        "id": "rock-throw",
+        "dmg": 24,
+        "cd": 0.7
+      },
+      {
+        "id": "rock-slide",
+        "dmg": 21,
+        "cd": 1.3
+      },
+      {
+        "id": "ice-beam",
+        "dmg": 20,
+        "cd": 1.1
+      },
+      {
+        "id": "powder-snow",
+        "dmg": 8,
+        "cd": 0.55
+      },
+      {
+        "id": "karate-chop",
+        "dmg": 18,
+        "cd": 0.5
+      },
+      {
+        "id": "aura-sphere",
+        "dmg": 17,
+        "cd": 0.62
+      },
+      {
+        "id": "lick",
+        "dmg": 12,
+        "cd": 0.48
+      },
+      {
+        "id": "shadow-ball",
+        "dmg": 19,
+        "cd": 0.66
+      },
+      {
+        "id": "dragon-rage",
+        "dmg": 24,
+        "cd": 1
+      },
+      {
+        "id": "dragon-dance",
+        "cd": 0.7
+      },
+      {
+        "id": "fairy-wind",
+        "dmg": 11,
+        "cd": 1
+      },
+      {
+        "id": "dazzling-gleam",
+        "dmg": 9,
+        "cd": 0.5
+      },
+      {
+        "id": "metal-claw",
+        "dmg": 15,
+        "cd": 0.5
+      },
+      {
+        "id": "flash-cannon",
+        "dmg": 23,
+        "cd": 1.05
+      },
+      {
+        "id": "bite",
+        "dmg": 14,
+        "cd": 0.45
+      },
+      {
+        "id": "dark-pulse",
+        "dmg": 14,
+        "cd": 1.15
+      },
+      {
+        "id": "night-shade",
+        "dmg": 9,
+        "cd": 0.5
+      },
+      {
+        "id": "bonemerang",
+        "dmg": 16,
+        "cd": 0.95
+      },
+      {
+        "id": "psycho-cut",
+        "dmg": 9,
+        "cd": 0.8
+      },
+      {
+        "id": "spikes",
+        "dmg": 18,
+        "cd": 1.2
+      },
+      {
+        "id": "toxic-spikes",
+        "dmg": 11,
+        "cd": 1.1
+      },
+      {
+        "id": "hail",
+        "dmg": 18,
+        "cd": 1.2
+      },
+      {
+        "id": "meteor-mash",
+        "dmg": 34,
+        "cd": 1.4
+      },
+      {
+        "id": "will-o-wisp",
+        "dmg": 15,
+        "cd": 3.5
+      },
+      {
+        "id": "substitute",
+        "dmg": 14,
+        "cd": 4
+      },
+      {
+        "id": "aerial-ace",
+        "dmg": 18,
+        "cd": 0.75
+      },
+      {
+        "id": "flame-wheel",
+        "dmg": 10,
+        "cd": 0.28
+      },
+      {
+        "id": "bubble-beam",
+        "dmg": 6,
+        "cd": 0.65
+      },
+      {
+        "id": "hex",
+        "dmg": 17,
+        "cd": 0.9
+      }
+    ],
+    "evolutions": {
+      "tackle": "hp",
+      "quick-attack": "spd",
+      "body-slam": "atk",
+      "hyper-voice": "cd",
+      "ember": "atk",
+      "flamethrower": "cd",
+      "fire-spin": "rgn",
+      "heat-wave": "hp",
+      "water-gun": "atk",
+      "bubble": "spd",
+      "hydro-pump": "atk",
+      "vine-whip": "atk",
+      "razor-leaf": "cd",
+      "leaf-storm": "rgn",
+      "giga-drain": "hp",
+      "thunder-shock": "atk",
+      "discharge": "def",
+      "thunderbolt": "cd",
+      "confusion": "cd",
+      "psybeam": "atk",
+      "psychic": "mag",
+      "sludge": "atk",
+      "poison-sting": "spd",
+      "toxic": "rgn",
+      "mud-shot": "atk",
+      "bulldoze": "atk",
+      "gust": "spd",
+      "wing-attack": "atk",
+      "bug-bite": "atk",
+      "string-shot": "cd",
+      "bug-buzz": "rgn",
+      "rock-throw": "atk",
+      "rock-slide": "cd",
+      "ice-beam": "atk",
+      "powder-snow": "spd",
+      "karate-chop": "atk",
+      "aura-sphere": "cd",
+      "lick": "atk",
+      "shadow-ball": "cd",
+      "dragon-rage": "atk",
+      "fairy-wind": "atk",
+      "dazzling-gleam": "rgn",
+      "metal-claw": "atk",
+      "flash-cannon": "def",
+      "bite": "atk",
+      "dark-pulse": "spd",
+      "night-shade": "rgn",
+      "bonemerang": "atk",
+      "psycho-cut": "cd",
+      "spikes": "atk",
+      "toxic-spikes": "rgn",
+      "hail": "cd",
+      "meteor-mash": "atk",
+      "will-o-wisp": "cd",
+      "substitute": "def",
+      "aerial-ace": "spd",
+      "flame-wheel": "spd",
+      "bubble-beam": "atk",
+      "hex": "mag"
+    },
+    "starters": [
+      {
+        "id": 1,
+        "start": "vine-whip"
+      },
+      {
+        "id": 4,
+        "start": "ember"
+      },
+      {
+        "id": 7,
+        "start": "water-gun"
+      },
+      {
+        "id": 152,
+        "start": "vine-whip"
+      },
+      {
+        "id": 155,
+        "start": "ember"
+      },
+      {
+        "id": 158,
+        "start": "water-gun"
+      },
+      {
+        "id": 252,
+        "start": "razor-leaf"
+      },
+      {
+        "id": 255,
+        "start": "ember"
+      },
+      {
+        "id": 258,
+        "start": "water-gun"
+      },
+      {
+        "id": 387,
+        "start": "vine-whip"
+      },
+      {
+        "id": 390,
+        "start": "ember"
+      },
+      {
+        "id": 393,
+        "start": "bubble"
+      },
+      {
+        "id": 495,
+        "start": "razor-leaf"
+      },
+      {
+        "id": 498,
+        "start": "ember"
+      },
+      {
+        "id": 501,
+        "start": "water-gun"
+      },
+      {
+        "id": 650,
+        "start": "vine-whip"
+      },
+      {
+        "id": 653,
+        "start": "ember"
+      },
+      {
+        "id": 656,
+        "start": "water-gun"
+      },
+      {
+        "id": 722,
+        "start": "razor-leaf"
+      },
+      {
+        "id": 725,
+        "start": "ember"
+      },
+      {
+        "id": 728,
+        "start": "bubble"
+      },
+      {
+        "id": 810,
+        "start": "vine-whip"
+      },
+      {
+        "id": 813,
+        "start": "ember"
+      },
+      {
+        "id": 816,
+        "start": "water-gun"
+      },
+      {
+        "id": 906,
+        "start": "razor-leaf"
+      },
+      {
+        "id": 909,
+        "start": "ember"
+      },
+      {
+        "id": 912,
+        "start": "water-gun"
+      },
+      {
+        "id": 54,
+        "start": "confusion"
+      },
+      {
+        "id": 79,
+        "start": "confusion"
+      }
+    ],
+    "statCaps": [
+      {
+        "id": "hp",
+        "max": null
+      },
+      {
+        "id": "atk",
+        "max": 40
+      },
+      {
+        "id": "spd",
+        "max": 8
+      },
+      {
+        "id": "cd",
+        "max": 10
+      },
+      {
+        "id": "def",
+        "max": 12
+      },
+      {
+        "id": "rgn",
+        "max": null
+      },
+      {
+        "id": "mag",
+        "max": 6
+      },
+      {
+        "id": "xp",
+        "max": 8
+      },
+      {
+        "id": "heal",
+        "max": null
+      }
+    ],
+    "upgrades": [
+      {
+        "id": "hp",
+        "max": 10
+      },
+      {
+        "id": "atk",
+        "max": 10
+      },
+      {
+        "id": "spd",
+        "max": 8
+      },
+      {
+        "id": "cd",
+        "max": 8
+      },
+      {
+        "id": "def",
+        "max": 8
+      },
+      {
+        "id": "regen",
+        "max": 5
+      },
+      {
+        "id": "magnet",
+        "max": 6
+      },
+      {
+        "id": "xp",
+        "max": 8
+      },
+      {
+        "id": "coins",
+        "max": 8
+      },
+      {
+        "id": "moves",
+        "max": 1
+      },
+      {
+        "id": "crit",
+        "max": 10
+      },
+      {
+        "id": "reroll",
+        "max": 5
+      },
+      {
+        "id": "ban",
+        "max": 3
+      }
+    ],
+    "waves": {
+      "tiers": [
+        {
+          "from": 0,
+          "bst": [
+            180,
+            330
+          ],
+          "hp": 17,
+          "spd": 56,
+          "dmg": 6,
+          "xp": 3.5,
+          "cast": 7
+        },
+        {
+          "from": 70,
+          "bst": [
+            300,
+            405
+          ],
+          "hp": 32,
+          "spd": 62,
+          "dmg": 8.5,
+          "xp": 5,
+          "cast": 7
+        },
+        {
+          "from": 160,
+          "bst": [
+            385,
+            465
+          ],
+          "hp": 52,
+          "spd": 60,
+          "dmg": 11,
+          "xp": 8,
+          "cast": 7
+        },
+        {
+          "from": 260,
+          "bst": [
+            445,
+            515
+          ],
+          "hp": 88,
+          "spd": 70,
+          "dmg": 14,
+          "xp": 13,
+          "cast": 7
+        },
+        {
+          "from": 380,
+          "bst": [
+            495,
+            560
+          ],
+          "hp": 150,
+          "spd": 66,
+          "dmg": 22,
+          "xp": 24,
+          "cast": 7
+        },
+        {
+          "from": 500,
+          "bst": [
+            530,
+            620
+          ],
+          "hp": 250,
+          "spd": 72,
+          "dmg": 28,
+          "xp": 38,
+          "cast": 7
+        }
+      ],
+      "bosses": [
+        {
+          "at": 180,
+          "hp": 1400,
+          "dmg": 34,
+          "xp": 220,
+          "bst": [
+            490,
+            545
+          ]
+        },
+        {
+          "at": 360,
+          "hp": 3200,
+          "dmg": 42,
+          "xp": 420,
+          "bst": [
+            520,
+            580
+          ]
+        },
+        {
+          "at": 540,
+          "hp": 5600,
+          "dmg": 48,
+          "xp": 680,
+          "bst": [
+            540,
+            600
+          ]
+        },
+        {
+          "at": 720,
+          "hp": 9000,
+          "dmg": 56,
+          "xp": 1000,
+          "bst": [
+            580,
+            700
+          ]
+        },
+        {
+          "at": 900,
+          "hp": 16000,
+          "dmg": 68,
+          "xp": 1800,
+          "bst": [
+            600,
+            700
+          ]
+        }
+      ]
+    },
+    "missions": [
+      {
+        "id": "kill",
+        "period": "daily",
+        "event": "kill",
+        "goals": [
+          300,
+          500,
+          800
+        ],
+        "reward": {
+          "t1": 2,
+          "coins": 150
+        },
+        "mode": "add",
+        "typeSpecific": false
+      },
+      {
+        "id": "killType",
+        "period": "daily",
+        "event": "kill",
+        "goals": [
+          30,
+          50,
+          80
+        ],
+        "reward": {
+          "t1": 2,
+          "coins": 200
+        },
+        "mode": "add",
+        "typeSpecific": true
+      },
+      {
+        "id": "survive",
+        "period": "daily",
+        "event": "runEnd",
+        "goals": [
+          5,
+          7,
+          9
+        ],
+        "reward": {
+          "t1": 3,
+          "coins": 200
+        },
+        "mode": "max",
+        "typeSpecific": false
+      },
+      {
+        "id": "level",
+        "period": "daily",
+        "event": "runEnd",
+        "goals": [
+          8,
+          12,
+          15
+        ],
+        "reward": {
+          "t1": 2,
+          "coins": 200
+        },
+        "mode": "max",
+        "typeSpecific": false
+      },
+      {
+        "id": "boss",
+        "period": "daily",
+        "event": "kill",
+        "goals": [
+          1,
+          2
+        ],
+        "reward": {
+          "t1": 3,
+          "coins": 250
+        },
+        "mode": "add",
+        "typeSpecific": false
+      },
+      {
+        "id": "chest",
+        "period": "daily",
+        "event": "chest",
+        "goals": [
+          1,
+          2
+        ],
+        "reward": {
+          "t1": 2,
+          "coins": 200
+        },
+        "mode": "add",
+        "typeSpecific": false
+      },
+      {
+        "id": "coins",
+        "period": "daily",
+        "event": "runEnd",
+        "goals": [
+          100,
+          200,
+          300
+        ],
+        "reward": {
+          "t1": 2,
+          "coins": 150
+        },
+        "mode": "add",
+        "typeSpecific": false
+      },
+      {
+        "id": "playType",
+        "period": "daily",
+        "event": "runEnd",
+        "goals": [
+          3
+        ],
+        "reward": {
+          "t1": 3,
+          "coins": 200
+        },
+        "mode": "max",
+        "typeSpecific": true
+      },
+      {
+        "id": "item",
+        "period": "daily",
+        "event": "item",
+        "goals": [
+          1
+        ],
+        "reward": {
+          "t1": 2,
+          "coins": 150
+        },
+        "mode": "add",
+        "typeSpecific": false
+      },
+      {
+        "id": "evolve",
+        "period": "daily",
+        "event": "evolve",
+        "goals": [
+          1
+        ],
+        "reward": {
+          "t1": 3,
+          "coins": 250
+        },
+        "mode": "add",
+        "typeSpecific": false
+      },
+      {
+        "id": "wkill",
+        "period": "weekly",
+        "event": "kill",
+        "goals": [
+          4000,
+          6000
+        ],
+        "reward": {
+          "t10": 1,
+          "coins": 800
+        },
+        "mode": "add",
+        "typeSpecific": false
+      },
+      {
+        "id": "wrift",
+        "period": "weekly",
+        "event": "rift",
+        "goals": [
+          1,
+          2
+        ],
+        "reward": {
+          "t10": 1,
+          "coins": 1000
+        },
+        "mode": "add",
+        "typeSpecific": false
+      },
+      {
+        "id": "wboss",
+        "period": "weekly",
+        "event": "kill",
+        "goals": [
+          4,
+          6
+        ],
+        "reward": {
+          "t10": 1,
+          "coins": 900
+        },
+        "mode": "add",
+        "typeSpecific": false
+      },
+      {
+        "id": "wsurvive",
+        "period": "weekly",
+        "event": "runEnd",
+        "goals": [
+          12,
+          15
+        ],
+        "reward": {
+          "t10": 1,
+          "coins": 1000
+        },
+        "mode": "max",
+        "typeSpecific": false
+      },
+      {
+        "id": "wevolve",
+        "period": "weekly",
+        "event": "evolve",
+        "goals": [
+          3,
+          5
+        ],
+        "reward": {
+          "t10": 1,
+          "coins": 900
+        },
+        "mode": "add",
+        "typeSpecific": false
+      },
+      {
+        "id": "wdaily",
+        "period": "weekly",
+        "event": "missionDone",
+        "goals": [
+          8,
+          12
+        ],
+        "reward": {
+          "t10": 1,
+          "coins": 800
+        },
+        "mode": "add",
+        "typeSpecific": false
+      }
+    ],
+    "gacha": {
+      "rates": [
+        [
+          1,
+          45
+        ],
+        [
+          2,
+          30
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          4,
+          6.5
+        ],
+        [
+          5,
+          1.5
+        ]
+      ],
+      "pity": 70,
+      "shinyRate": 0.01
+    },
+    "wildShinyRate": 0.000244140625,
+    "riftShinyRate": 0.001953125,
+    "rift": {
+      "eligibilityStartsSeconds": 75,
+      "firstPossibleSeconds": 105,
+      "arenaSeconds": 120,
+      "portalSeconds": 45,
+      "newPortalCutoffSeconds": 1680
+    },
+    "chestSeconds": 3.5
+  }
+}

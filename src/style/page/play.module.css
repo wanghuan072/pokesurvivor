@@ -69,7 +69,7 @@
   min-height: min-content;
   background:
     linear-gradient(0deg, #02121be8, #0316258c),
-    url("/art/hero.webp") center/cover;
+    url("/game/screenshots/level-up.webp") center/cover;
 }
 .launch > span {
   font-size: 60px;
@@ -144,6 +144,10 @@
   pointer-events: none;
 }
 @media (max-width: 768px) {
+  .player > header { flex-wrap: wrap; }
+  .player > header > div { flex-wrap: wrap; }
+  .player > footer { flex-wrap: wrap; }
+  .player > footer p { line-height: 2; }
   .launch { max-width: 100%; min-width: 0; padding: 20px 16px; }
   .launch h1 {
     font-size: clamp(29px, 7vw, 39px);
@@ -177,6 +181,21 @@
   .fallback {
     font-size: 9px;
   }
+}
+.player > header { border-bottom-color: #9a854a; background: #0a242b; }
+.player > header > a span { color: var(--gold); }
+.player button:not(.launch button) { border-color: #9a854a; border-radius: 2px; color: #f0d58d; background: #17332c; min-height: 40px; }
+.launch { width: min(800px, calc(100% - 32px)); margin: 40px auto; border: 1px solid var(--frame); border-radius: 4px; box-shadow: var(--frame-shadow); background: #061c25ed; padding: 32px; }
+.launch h1 { font-size: clamp(35px, 4vw, 56px); text-wrap: balance; }
+.launch > span { display: block; line-height: 1; }
+.launch > p:first-of-type { color: var(--gold); font-weight: 700; line-height: 1.8; }
+.launch small { max-width: 560px; margin: auto; }
+.player > footer { border-top-color: #9a854a; background: #0a242b; }
+.player > footer p { line-height: 2; }
+.player > footer b { color: var(--gold); }
+@media (max-width: 768px) {
+  .launch { width: calc(100% - 24px); margin: 22px auto; padding: 24px 16px; }
+  .launch h1 { font-size: clamp(30px, 7vw, 42px); }
 }
 
 

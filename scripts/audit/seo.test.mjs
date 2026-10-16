@@ -12,7 +12,7 @@ const all = {...tdk,...Object.fromEntries(guides.map(g=>[`/guides/${g.slug}`,g.s
 const decode = text => text.replace(/&(?:amp|quot|apos|lt|gt|#x27|#39);/g,e=>({"&amp;":"&","&quot;":'"',"&apos;":"'","&#x27;":"'","&#39;":"'","&lt;":"<","&gt;":">"}[e]));
 test("all published HTML has unique exact metadata, canonical and visible schema",()=>{
   const titles = new Set(), descriptions = new Set();
-  assert.equal(Object.keys(all).length,21);
+  assert.equal(Object.keys(all).length,Object.keys(tdk).length + guides.length + 1);
   const revisions = read("src/data/seo/page-revisions.json");
   const sitemap = fs.readFileSync(".next/server/app/sitemap.xml.body","utf8");
   for (const [route,seo] of Object.entries(all)) {
@@ -44,7 +44,7 @@ test("all published HTML has unique exact metadata, canonical and visible schema
       assert.ok(html.includes(`name="robots" content="${expected}"`),`${route}: incorrect indexing policy`);
     }
   }
-  assert.equal((sitemap.match(/<url>/g)||[]).length,21);
+  assert.equal((sitemap.match(/<url>/g)||[]).length,Object.keys(all).length);
   const png=fs.readFileSync("public/images/og-image.png");
   assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
 });
@@ -52,6 +52,10 @@ test("lastmod is stable, selective, and independent of footer year changes",()=>
   const dir=fs.mkdtempSync(path.join(os.tmpdir(),'pokesurvivor-seo-'));
   try {
     fs.cpSync('src',path.join(dir,'src'),{recursive:true});
+    fs.cpSync('public/art',path.join(dir,'public/art'),{recursive:true});
+    fs.cpSync('public/game/collection',path.join(dir,'public/game/collection'),{recursive:true});
+    fs.cpSync('public/game/pokemon',path.join(dir,'public/game/pokemon'),{recursive:true});
+    fs.cpSync('public/game/screenshots',path.join(dir,'public/game/screenshots'),{recursive:true});
     fs.mkdirSync(path.join(dir,'public/images'),{recursive:true});
     fs.mkdirSync(path.join(dir,'public/credits'),{recursive:true});
     fs.copyFileSync('public/images/og-image.png',path.join(dir,'public/images/og-image.png'));
@@ -65,6 +69,20 @@ test("lastmod is stable, selective, and independent of footer year changes",()=>
     assert.deepEqual(contentHashes(dir),base,'Linux checkout must preserve content fingerprints');
     fs.writeFileSync(templateFile,template);
     const changedRoutes=(next)=>Object.keys(next).filter(url=>next[url]!==base[url]);
+    const rewardsFile=path.join(dir,'src/data/game/boss-rewards.json'), rewards=read(rewardsFile);
+    rewards.bond.notes.push('A reviewed correction to the fusion explanation.');
+    fs.writeFileSync(rewardsFile,JSON.stringify(rewards));
+    assert.deepEqual(changedRoutes(contentHashes(dir)),['/level-up']);
+    fs.copyFileSync('src/data/game/boss-rewards.json',rewardsFile);
+    const homeFile=path.join(dir,'src/data/site/home.json'), home=read(homeFile);
+    home.intro+=' Choose your next partner.';
+    fs.writeFileSync(homeFile,JSON.stringify(home));
+    assert.deepEqual(changedRoutes(contentHashes(dir)),['/']);
+    fs.copyFileSync('src/data/site/home.json',homeFile);
+    const homeImage=path.join(dir,'public/game/screenshots/level-up.webp');
+    fs.appendFileSync(homeImage,'changed-home-screen');
+    assert.deepEqual(changedRoutes(contentHashes(dir)),['/','/play']);
+    fs.copyFileSync('public/game/screenshots/level-up.webp',homeImage);
     const heroFile=path.join(dir,'src/data/site/pages.json'), heroes=read(heroFile);
     heroes['/types'].intro += ' Check the weather before choosing coverage.';
     fs.writeFileSync(heroFile,JSON.stringify(heroes));
@@ -85,8 +103,16 @@ test("lastmod is stable, selective, and independent of footer year changes",()=>
     const assetFile=path.join(dir,'src/data/game/assets.json'), assets=read(assetFile);
     assets.find(p=>p.id===6).shiny=null;
     fs.writeFileSync(assetFile,JSON.stringify(assets));
-    assert.deepEqual(changedRoutes(contentHashes(dir)),['/gacha','/guides/gacha-and-tickets']);
+    assert.deepEqual(changedRoutes(contentHashes(dir)),['/gacha','/guides/gacha-and-tickets','/guides/shiny-pokemon']);
     fs.copyFileSync('src/data/game/assets.json',assetFile);
+    const previewFile=path.join(dir,'public/game/collection/1-shiny.webp');
+    fs.appendFileSync(previewFile,'changed-preview');
+    assert.deepEqual(changedRoutes(contentHashes(dir)),['/pokedex'],'A shiny not used in the guides must only update its roster page');
+    fs.copyFileSync('public/game/collection/1-shiny.webp',previewFile);
+    const exportSprite=path.join(dir,'public/game/pokemon/1.webp');
+    fs.appendFileSync(exportSprite,'changed-export-art');
+    assert.deepEqual(changedRoutes(contentHashes(dir)),['/tier-list'],'Export sprites update the tier maker without refreshing pages that use collection animations');
+    fs.copyFileSync('public/game/pokemon/1.webp',exportSprite);
     const pokemonFile=path.join(dir,'src/data/pokedex/pokemon.json'), partners=read(pokemonFile);
     partners[0].learnset=partners[0].learnset.filter(id=>id!=='tackle');
     fs.writeFileSync(pokemonFile,JSON.stringify(partners));

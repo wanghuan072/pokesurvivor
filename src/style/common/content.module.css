@@ -185,7 +185,8 @@ a.dexCard:hover {
   font-size: 9px;
   letter-spacing: 1px;
 }
-.dexCard > img {
+.dexCard > img,
+.dexCard > picture > img {
   margin: 8px 0;
   background: radial-gradient(ellipse, #286f7c55, transparent 70%);
   image-rendering: pixelated;
@@ -293,7 +294,8 @@ a.dexCard:hover {
 .rankIdentity h2 a {
   color: #71e6ce;
 }
-.rankIdentity > img {
+.rankIdentity > img,
+.rankIdentity > picture {
   flex-shrink: 0;
 }
 .rankIdentity > div > div {
@@ -590,6 +592,83 @@ a.dexCard:hover {
 
 .pageHeader h1 { overflow-wrap: anywhere; font-size: clamp(28px, 3.2vw, 44px); line-height: 1.15; }
 .article { overflow-wrap: anywhere; }
+.wrap { max-width: 1280px; padding: 24px 24px 40px; }
+.breadcrumb { flex-wrap: wrap; gap: 6px 10px; line-height: 1.6; margin-bottom: 16px; overflow-wrap: anywhere; }
+.breadcrumb > span:last-child { min-width: 0; flex: 1; }
+.pageHeader {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 32px;
+  border-color: var(--frame);
+  border-radius: 4px;
+  box-shadow: var(--frame-shadow);
+  background: linear-gradient(90deg, #051923fa 5%, #051923ef 55%, #0c2922bc), url("/game/screenshots/forest.webp") right 50%/cover;
+  gap: 28px;
+}
+.pageHeader::before, .pageHeader::after { content: ""; position: absolute; width: 14px; height: 14px; pointer-events: none; }
+.pageHeader::before { left: 5px; top: 5px; border-top: 2px solid var(--gold); border-left: 2px solid var(--gold); }
+.pageHeader::after { right: 5px; bottom: 5px; border-bottom: 2px solid var(--gold); border-right: 2px solid var(--gold); }
+.pageHeader > div { min-width: 0; }
+.pageHeader p { color: var(--gold); font-size: 9px; font-weight: 700; letter-spacing: 2px; }
+.pageHeader h1 { color: #eef5e6; font-size: clamp(30px, 3.2vw, 44px); text-wrap: balance; }
+.description { color: #c1d5d7; max-width: 780px; }
+.headerIcon { padding: 0; opacity: 1; flex-shrink: 0; filter: drop-shadow(0 4px 0 #04120e); }
+.toolbar, .card, .dexCard, .rankCard, .article, .toolResult, .faq details { border-radius: 4px; box-shadow: var(--frame-shadow); }
+.toolbar { border-color: #796e46; background: linear-gradient(110deg, #132e2c, #081e2a); padding: 18px; gap: 12px; }
+.toolbar label { color: #c8c7ac; min-width: 0; flex: 1 1 140px; }
+.toolbar input, .toolbar select, .field input, .field select { min-height: 44px; border-color: #50635d; border-radius: 2px; min-width: 0; }
+.toolbar button, .pagination button { border-color: #95804b; color: #edce82; border-radius: 2px; min-height: 44px; background: #132c2e; }
+.toolbar button:hover, .pagination button:not(:disabled):hover { background: #2b3c2f; border-color: var(--gold); }
+.count { display: flex; padding: 10px 0; color: #bacac5; border-bottom: 1px solid #9a854a55; }
+.card, .article { border-color: #776d49; background: linear-gradient(135deg, #0d252b, #071b27); }
+.card:hover { transform: none; border-color: var(--gold); }
+.card .icon, .card .arrow { color: var(--gold); }
+.dexGrid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; align-items: stretch; }
+.dexCard { padding: 14px 12px 0; border-color: #65724e; background: radial-gradient(ellipse at 50% 18%, #1d48344f, transparent 65%), #071e29; }
+.dexTop small { color: var(--gold); }
+.dexCard h2 { font-size: clamp(20px, 1.9vw, 26px); min-height: 2.4em; display: grid; align-items: center; margin: 4px 0 10px; width: 100%; }
+.dexTop > span { letter-spacing: 0; white-space: nowrap; }
+.dexCard em { letter-spacing: .5px; line-height: 1.6; font-size: 9px; }
+.dexCard > picture { display: block; min-height: 96px; }
+.dexStats { color: #abbcac; padding: 12px 0; border-color: #486452; }
+.dexStats b { color: #e5d6a7; font-size: 16px; }
+.dexStatus { border-top: 1px solid #48645266; margin-top: 12px; text-transform: capitalize; color: #a2bdac; letter-spacing: 1px; }
+.rankCard { border-color: #706745; background: radial-gradient(ellipse at top, #21413155, transparent), #081e29; }
+.rankNumber { color: var(--gold); border-color: #8d7e4555; }
+.rankIdentity h2 { font-size: 24px; }
+.rankStats > div { border: 1px solid #395248; border-radius: 2px; padding: 9px 4px; }
+.rankStats > div[data-active="true"] { background: #273b27; border-color: #9a854a; }
+.rankStats > div[data-active="true"] b { color: var(--gold); }
+.rankBar span { background: linear-gradient(90deg, #60cda5, #e5c36d); }
+.article { max-width: none; padding: 28px 30px; margin-bottom: 20px; }
+.article h2 { color: #f1e4bb; }
+.sectionTitle { display: flex; align-items: center; gap: 16px; color: #ecefe6; font-size: 28px; }
+.sectionTitle::after { content: ""; height: 1px; flex: 1; background: linear-gradient(90deg, #c1a45a, transparent); }
+.chips a { border-color: #8d7c4c; border-radius: 2px; color: #e1cb8d; background: #102a29; display: inline-flex; align-items: center; min-height: 44px; }
+.sectionTitle[id] { scroll-margin-top: 80px; }
+.tableWrap { min-width: 0; border-color: #726747; background: #071d27; border-radius: 3px; scrollbar-color: #a38b50 #071d27; }
+.table th { color: #ecd9a4; background: #17302c; letter-spacing: .7px; font-size: 10px; }
+.table td { color: #c9d9d8; border-color: #42594b66; }
+.table tbody tr:nth-child(even) { background: #0c292b; }
+.table tr:hover td { background: #18352c; }
+.table[data-chart="types"] th:first-child { position: sticky; left: 0; z-index: 1; box-shadow: 1px 0 #79714b; }
+.table[data-chart="types"] th { padding: 10px; }
+.table[data-chart="types"] td { padding: 10px 14px; text-align: center; }
+.table td[data-factor="1.6"] { background: #1d4836; color: #9af2bd; font-weight: 700; }
+.table td[data-factor="0.6"] { background: #382c26; color: #f4c394; }
+.table td[data-factor="0.3"] { background: #29243b; color: #cfb0f0; }
+.faq details { border-color: #756a49; background: #0a212b; }
+.faq summary { min-height: 28px; line-height: 1.7; }
+.faq summary::marker { color: var(--gold); }
+.achievementList { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.achievementList li { min-width: 0; }
+.achievementCard { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 14px; height: 100%; border: 1px solid #756a49; border-radius: 3px; box-shadow: var(--frame-shadow); padding: 20px; background: linear-gradient(120deg, #102d2e, #081d28); }
+.achievementCard > img { margin-top: 4px; }
+.achievementCard h3 { color: #f1e4bb; font-size: 23px; }
+.achievementCard p { color: #c1d5d7; font-size: 12px; line-height: 1.7; margin: 8px 0 14px; }
+.achievementReward { display: flex; flex-wrap: wrap; gap: 6px 12px; padding-top: 10px; border-top: 1px solid #857b4c55; color: var(--gold); font-size: 11px; }
+.achievementReward > small { color: #a9bfb9; font-size: 10px; }
 @media (max-width: 1024px) {
   .rankGrid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -684,5 +763,30 @@ a.dexCard:hover {
   .toolbar label { min-width: 0; flex: 1 1 120px; }
   .toolbar input, .toolbar select { min-width: 0; max-width: 100%; }
   .rankGrid { grid-template-columns: minmax(0, 1fr); }
+  .wrap { padding: 16px 12px 28px; }
+  .pageHeader { padding: 25px 20px; }
+  .pageHeader p { font-size: 9px; line-height: 1.7; letter-spacing: 1px; }
+  .description { font-size: 13px; line-height: 1.8; }
+  .dexGrid { gap: 10px; }
+  .dexCard { padding: 12px 8px 0; }
+  .dexCard h2 { font-size: 21px; }
+  .dexTop small { font-size: 10px; }
+  .dexTop > span { font-size: 8px; }
+  .dexStats { font-size: 8px; gap: 3px; }
+  .dexStats b { font-size: 14px; }
+  .dexCard :global(.type) { font-size: 9px; padding: 2px 6px; }
+  .toolbar { padding: 14px; }
+  .toolbar label { flex: 1 1 120px; }
+  .toolbar button { flex: 1 1 120px; }
+  .pagination { flex-wrap: wrap; gap: 10px; }
+  .pagination button { padding: 8px 10px; }
+  .article { padding: 22px 18px; }
+  .article h2 { font-size: 24px; }
+  .table th, .table td { padding: 11px 12px; }
+  .sectionTitle { font-size: 25px; }
+  .achievementList { grid-template-columns: minmax(0, 1fr); }
+  .achievementCard { padding: 18px 14px; gap: 10px; }
+  .achievementCard h3 { font-size: 23px; }
+  .faq details { padding: 15px; }
 }
 

@@ -1,8 +1,8 @@
 /** Static-page metadata. Target keywords are editorial hints, not meta keywords. */
 export const tdk = {
   "/": {
-    "title": "PokeSurvivor - Play Online, Builds and Guides",
-    "description": "Play PokeSurvivor in your browser, find a partner in the Pok茅dex, compare upgrade cards and follow practical guides for surviving your next run.",
+    "title": "PokeSurvivor - Play Online, Pokémon and Guides",
+    "description": "Play PokeSurvivor in your browser, find a partner in the Pokédex, compare upgrade cards and follow practical guides for surviving your next run.",
     "targetKeywords": [
       "PokeSurvivor",
       "play online"
@@ -17,35 +17,27 @@ export const tdk = {
     ]
   },
   "/pokedex": {
-    "title": "PokeSurvivor Pok茅dex - All 966 Playable Pok茅mon",
-    "description": "Browse 966 PokeSurvivor Pok茅mon by type, region and rarity. Compare base HP, attack and speed, find starters and view normal or shiny partner sprites.",
+    "title": "PokeSurvivor Pokédex - All 966 Playable Pokémon",
+    "description": "Browse 966 PokeSurvivor Pokémon by type, region and rarity. Compare base HP, attack and speed, find starters and view normal or shiny partner sprites.",
     "targetKeywords": [
       "PokeSurvivor",
       "pokedex"
     ]
   },
   "/level-up": {
-    "title": "PokeSurvivor Level-Up Cards and Move Evolutions",
-    "description": "Compare PokeSurvivor stat cards, move upgrades and evolution requirements. Find the card your attack needs and decide what to take at your next level-up.",
+    "title": "PokeSurvivor Level-Up Cards, Boss Rewards and Bonds",
+    "description": "Explore PokeSurvivor level-up cards by Pokémon. Check starting moves, upgrade values, evolution recipes, boss equipment rewards and how Bond fusions work.",
     "targetKeywords": [
       "PokeSurvivor",
       "level up"
     ]
   },
   "/tier-list": {
-    "title": "PokeSurvivor Tier List - Compare Partner Stats",
-    "description": "Compare PokeSurvivor partners by base attack, HP and speed. Filter to starters, understand each stat and choose a partner that suits how you like to play.",
+    "title": "PokeSurvivor Tier List Maker - Rank All 966 Partners",
+    "description": "Create your PokeSurvivor tier list with 966 Pokémon. Drag or tap partners into tiers, customize row names and colors, and save your personal board as an image.",
     "targetKeywords": [
-      "PokeSurvivor",
-      "tier list"
-    ]
-  },
-  "/builds": {
-    "title": "PokeSurvivor Builds - Moves, Cards and Loadouts",
-    "description": "Explore six PokeSurvivor builds with compatible partners, move evolutions and required cards. Read upgrade priorities and item choices in each loadout.",
-    "targetKeywords": [
-      "PokeSurvivor",
-      "builds"
+      "PokeSurvivor tier list",
+      "tier list maker"
     ]
   },
   "/types": {
@@ -73,8 +65,8 @@ export const tdk = {
     ]
   },
   "/guides": {
-    "title": "PokeSurvivor Guides - Survival, Builds and Gacha",
-    "description": "Read PokeSurvivor guides for your first run, move evolutions and partner collection. Learn which upgrades to prioritize and how tickets and pity work.",
+    "title": "PokeSurvivor Guides - Survival, Upgrades and Shinies",
+    "description": "Read PokeSurvivor guides for surviving your first run, evolving moves and finding shiny Pokémon. Plan upgrades, understand gacha odds and save your progress.",
     "targetKeywords": [
       "PokeSurvivor",
       "guides"
@@ -86,14 +78,6 @@ export const tdk = {
     "targetKeywords": [
       "PokeSurvivor",
       "updates"
-    ]
-  },
-  "/sources": {
-    "title": "PokeSurvivor - Editorial Policy and Game Checks",
-    "description": "See how PokeSurvivor.me checks game mechanics, handles version differences and corrects mistakes. Find the game links behind the numbers and artwork credits.",
-    "targetKeywords": [
-      "PokeSurvivor",
-      "sources"
     ]
   },
   "/legal/privacy-policy": {
@@ -134,6 +118,14 @@ export const tdk = {
     "targetKeywords": [
       "PokeSurvivor",
       "contact us"
+    ]
+  },
+  "/rankings": {
+    "title": "PokeSurvivor Rankings - Compare All Partner Stats",
+    "description": "Compare PokeSurvivor Pokémon by base attack factor, HP and movement speed. Search all 966 partners, filter to starters and see how their starting stats rank.",
+    "targetKeywords": [
+      "PokeSurvivor rankings",
+      "Pokémon stats"
     ]
   }
 };
