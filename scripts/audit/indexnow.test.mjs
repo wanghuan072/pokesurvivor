@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import {createRequire} from "node:module";
+import {execFileSync} from "node:child_process";
 import {buildManifest,manifestDiff,FINGERPRINT_VERSION} from "../seo/manifest.mjs";
 import {sitemapParts} from "../seo/sitemap-xml.mjs";
 import {SITE_URL,PROJECT_ID,REPOSITORY} from "../seo/config.mjs";
@@ -292,11 +293,35 @@ test("workflow has one serialized job, only built-in permissions and no user-man
   assert.equal(workflow.on.push,undefined);assert.equal(workflow.on.pull_request,undefined);
   assert.equal(workflow.permissions.contents,'read');assert.equal(workflow.permissions.actions,'read');
   assert.equal(Object.keys(workflow.jobs).length,1);assert.equal(workflow.concurrency['cancel-in-progress'],false);
+  // runner is not an allowed context in jobs.<job_id>.env.
+  assert.equal(workflow.jobs.notify.env.INDEXNOW_DIR,'${{ github.workspace }}/.cache/indexnow');
   assert.ok(!text.includes('secrets.'));assert.ok(!text.includes('VERCEL_READ_TOKEN'));assert.ok(!text.includes('UPSTASH_'));
   const steps=workflow.jobs.notify.steps;
   for(const step of steps.filter(s=>s.uses))assert.match(step.uses,/@[a-f0-9]{40}$/);
   assert.equal(steps[0].with.ref,'${{ github.workflow_sha }}');
   assert.equal(steps.at(-1).if,"steps.submit.outputs.save == 'true'");assert.equal(steps.at(-1).with['retention-days'],90);
+});
+
+test("build verification accepts local and platform adapter prerenders but rejects missing pages",()=>{
+  const root=path.resolve('.cache');fs.mkdirSync(root,{recursive:true});
+  const script=path.resolve('scripts/seo/verify-output.mjs');
+  for(const adapter of [false,true]){
+    const dir=fs.mkdtempSync(path.join(root,'verify-output-'));
+    try{
+      const write=(file,text)=>{const target=path.join(dir,file);fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,text);return target;};
+      const manifest=make({'/':'home','/guides':'guides'});
+      write('public/.well-known/seo-url-manifest.json',JSON.stringify(manifest));
+      write('src/data/seo/indexnow.json',JSON.stringify({key}));write(`public/${key}.txt`,key);
+      const pageRoot=adapter?'.next/server/route-cache/APP_PAGE/hash/$':'.next/server/app';
+      write(pageRoot+'/index.html','<html><h1>Home</h1></html>');
+      const guide=write(pageRoot+'/guides.html','<html><h1>Guides</h1></html>');
+      const sitemapRoot=adapter?'.next/server/route-cache/APP_ROUTE/hash/$':'.next/server/app';
+      write(sitemapRoot+'/sitemap.xml.body',sitemapParts(manifest).xml);
+      assert.match(execFileSync(process.execPath,[script],{cwd:dir,encoding:'utf8'}),/PASS: 2 published pages/);
+      fs.unlinkSync(guide);
+      assert.throws(()=>execFileSync(process.execPath,[script],{cwd:dir,stdio:'pipe'}),/Command failed/);
+    }finally{assert.ok(path.resolve(dir).startsWith(root+path.sep));fs.rmSync(dir,{recursive:true,force:true});}
+  }
 });
 
 test("public local Manifest and verification key contain no private data",()=>{

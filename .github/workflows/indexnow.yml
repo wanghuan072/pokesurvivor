@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      INDEXNOW_DIR: ${{ runner.temp }}/indexnow
+      INDEXNOW_DIR: ${{ github.workspace }}/.cache/indexnow
     steps:
       # Use the workflow revision, never the commit supplied in a dispatch payload.
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
@@ -34,7 +34,7 @@ jobs:
           name: ${{ steps.prepare.outputs.previous_artifact }}
           run-id: ${{ steps.prepare.outputs.previous_run }}
           github-token: ${{ github.token }}
-          path: ${{ runner.temp }}/indexnow/previous
+          path: ${{ env.INDEXNOW_DIR }}/previous
       - name: Notify changed URLs
         if: steps.prepare.outputs.eligible == 'true'
         id: submit
@@ -44,6 +44,6 @@ jobs:
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: ${{ steps.prepare.outputs.receipt_name }}
-          path: ${{ runner.temp }}/indexnow/receipt.json
+          path: ${{ env.INDEXNOW_DIR }}/receipt.json
           if-no-files-found: error
           retention-days: 90
