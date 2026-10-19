@@ -1,11 +1,13 @@
 "use client";
 import { useMemo, useState, useSyncExternalStore } from "react";
-import { PokemonArt } from "@/components/common/PokemonArt";
+import { TierArt } from "./TierArt";
 import { useTierDragScroll } from "./useTierDragScroll";
+import TierRecommendations from "./TierRecommendations";
+import { applyTierPicks } from "@/lib/game/leaderboards";
+import type { RecommendationBoard, RecommendationSelection, TierBoardRow, TierPreset, EditorialPick } from "@/types/leaderboard";
 import s from "@/style/page/tier-maker.module.css";
-import c from "@/style/common/content.module.css";
 type Partner={id:number;name:string;types:string[];region:string};
-type Row={id:string;label:string;color:string;partners:number[]};
+type Row=TierBoardRow;
 const key="pokesurvivor-tier-board-v1";
 const defaults:Row[]=["S","A","B","C","D"].map((label,i)=>({id:`tier-${i}`,label,color:["#e59781","#e8be73","#dfd780","#9ec994","#8fbad4"][i],partners:[]}));
 let memory:string|null=null;
@@ -19,13 +21,19 @@ function persistBoard(rows:Row[]) {
   window.dispatchEvent(new Event("tier-board-change"));
   return persisted;
 }
-export default function TierMaker({partners}:{partners:Partner[]}){
+export default function TierMaker({partners,boards,picks,review}:{partners:Partner[];boards:RecommendationBoard[];picks:EditorialPick[];review:{date:string;version:string}}){
   const saved=useSyncExternalStore(subscribe,snapshot,serverSnapshot);
+  const [hasStarted, setHasStarted] = useState(false);
   const drag = useTierDragScroll();
   const [editing, setEditing] = useState<string | null>(null);
   const [dropTarget, setDropTarget] = useState<string | null>(null);
+  const [recommendation, setRecommendation] = useState<RecommendationSelection>({ mode: "solo", period: "weekly", size: 0 });
+  const [undo, setUndo] = useState<Row[] | null>(null);
+  const recommendedBoard = boards.find(board => board.mode === recommendation.mode && board.period === recommendation.period);
+  const cohort = recommendedBoard?.cohorts.find(c => c.size === (recommendation.mode === "group" ? recommendation.size : 0));
   const [selected,setSelected]=useState<number|null>(null),[query,setQuery]=useState(""),[type,setType]=useState(""),[region,setRegion]=useState(""),[page,setPage]=useState(1),[status,setStatus]=useState(""),[exporting,setExporting]=useState(false);
   const rows=useMemo(()=>{
+    if (!hasStarted) return defaults;
     try{
       const parsed:unknown=JSON.parse(saved), used=new Set<number>(), ids=new Set(partners.map(p=>p.id)), rowIds=new Set<string>();
       if(!Array.isArray(parsed)||!parsed.length||parsed.length>10) return defaults;
@@ -35,12 +43,20 @@ export default function TierMaker({partners}:{partners:Partner[]}){
         return {id:r.id,label:r.label.slice(0,24),color:r.color,partners:r.partners.filter((id:unknown)=>{if(typeof id!=="number"||!ids.has(id)||used.has(id))return false;used.add(id);return true;})};
       });
     }catch{return defaults;}
-  },[saved,partners]);
-  function update(next:Row[],message?:string){setStatus(persistBoard(next)?message||"Board saved in this browser.":"Changes are available in this tab. Browser storage is unavailable; export an image to keep them.");}
+  },[saved,partners,hasStarted]);
+  function update(next:Row[],message?:string){setHasStarted(true);setStatus(persistBoard(next)?message||"Board saved in this browser.":"Changes are available in this tab. Browser storage is unavailable; export an image to keep them.");}
+  function applyRecommendations(tiers: TierPreset[]) {
+    const next = applyTierPicks(rows, tiers);
+    if (!next) { setStatus("There is no room for the missing tier rows. Rename an existing row S, A, B or C, or remove a row first. Your board has not changed."); return false; }
+    setUndo(rows.map(row => ({ ...row, partners: [...row.partners] })));
+    drag.stop(); setDropTarget(null); setSelected(null); setEditing(null);
+    update(next, "Added to your personal list. Keep adjusting your picks, or undo to restore your previous board.");
+    return true;
+  }
   function assign(id:number,rowId:string|null){drag.stop();setDropTarget(null);if(!partners.some(p=>p.id===id))return;update(rows.map(r=>({...r,partners:[...r.partners.filter(p=>p!==id),...(r.id===rowId?[id]:[])]})),`${partners.find(p=>p.id===id)!.name} ${rowId?"added to "+rows.find(r=>r.id===rowId)!.label:"returned to the pool"}.`);setSelected(null);}
   const ranked=new Set(rows.flatMap(r=>r.partners));
   const result=partners.filter(p=>!ranked.has(p.id)&&(!query||p.name.toLowerCase().includes(query.toLowerCase())||String(p.id)===query.replace("#",""))&&(!type||p.types.includes(type))&&(!region||p.region===region));
-  const pages=Math.max(1,Math.ceil(result.length/60)),current=Math.min(page,pages);
+  const pages=Math.max(1,Math.ceil(result.length/24)),current=Math.min(page,pages);
   const selectedPartner=partners.find(p=>p.id===selected);
   async function exportImage(){
     if(!ranked.size){setStatus("Place at least one partner in a tier before exporting.");return;}
@@ -58,26 +74,37 @@ export default function TierMaker({partners}:{partners:Partner[]}){
       const blob=await new Promise<Blob|null>(resolve=>canvas.toBlob(resolve,"image/png"));if(!blob)throw Error("Export unavailable");const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="pokesurvivor-tier-list.png";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);setStatus("Your tier list image is ready.");
     }catch{setStatus("The image could not be created. Please try exporting again.");}finally{setExporting(false);}
   }
-  function sprite(p:Partner,inRow=false){return <button type="button" key={p.id} className={s.sprite} draggable aria-pressed={selected===p.id} aria-label={`Select ${p.name}${inRow?" in tier":""}`} onDragStart={e=>{e.dataTransfer.setData("text/plain",String(p.id));e.dataTransfer.effectAllowed="move";drag.start(e.clientY);setSelected(p.id);}} onClick={()=>setSelected(selected===p.id?null:p.id)}><PokemonArt id={p.id} name={p.name} size={56}/><span>{p.name}</span></button>;}
+  function sprite(p:Partner,inRow=false){return <button type="button" key={p.id} className={s.sprite} draggable aria-pressed={selected===p.id} aria-label={`Select ${p.name}${inRow?" in tier":""}`} onDragStart={e=>{e.dataTransfer.setData("text/plain",String(p.id));e.dataTransfer.effectAllowed="move";drag.start(e.clientY);setSelected(p.id);}} onClick={()=>setSelected(selected===p.id?null:p.id)}><TierArt id={p.id} name={p.name} size={inRow?44:36}/><span>{p.name}</span></button>;}
   return <div translate="no" className="notranslate">
-    <div className={s.boardActions}><span><b>{ranked.size}</b><span>{` / ${partners.length} ranked`}</span></span><div><button disabled={exporting} onClick={exportImage}>{exporting?"Creating image…":"Save as image"}</button><button onClick={()=>{if(window.confirm("Clear your tier list and restore the default rows?")){update(defaults,"Board reset.");setSelected(null);}}}>Reset board</button></div></div>
-    <div className={s.selection} aria-live="polite">
+    <section id="create-tier-list" className={s.creator} aria-labelledby="creator-heading">
+    <header className={s.boardActions}><div><h2 id="creator-heading">My Tier List</h2><span className={s.saveIndicator}>{ranked.size} ranked · {hasStarted?"Saved in this browser":"Start with an empty list"}</span></div><div><button className={s.exportButton} disabled={exporting} onClick={exportImage}>{exporting?"Creating image…":"Export image"}</button><details className={s.boardMenu}><summary aria-label="Board options">•••</summary><div><button disabled={!saved} onClick={()=>{setHasStarted(true);setSelected(null);setEditing(null);setUndo(null);setStatus("Saved browser list restored.");}}>Restore saved list</button><button disabled={rows.length>=10} onClick={()=>update([...rows,{id:`tier-${crypto.randomUUID()}`,label:"New tier",color:"#b4a3d4",partners:[]}])}>+ Add a tier row</button><button onClick={()=>{if(window.confirm("Clear your tier list and restore the default rows?")){update(defaults,"Board reset.");setSelected(null);setEditing(null);}}}>Reset board</button></div></details></div></header>
+    <div className={s.selection} hidden={!selectedPartner} aria-live="polite">
       <strong>{selectedPartner?`${selectedPartner.name} selected`:"Make it your own."}</strong>
       <span>{selectedPartner?"Choose a tier, or drag near the screen edge to scroll.":"Drag a sprite, or tap one and choose a row. Use Tab and Enter with a keyboard."}</span>
       <div className={s.quickTiers} hidden={!selectedPartner}>{rows.map(row=><button key={row.id} disabled={!selectedPartner} onClick={()=>{if(selectedPartner)assign(selectedPartner.id,row.id);}} aria-label={`Place ${selectedPartner?.name??"partner"} in ${row.label}`}>{row.label}</button>)}</div>
       <button hidden={!selectedPartner} onClick={()=>{if(selectedPartner)assign(selectedPartner.id,null);}}>Return to pool</button>
       <button hidden={!selectedPartner} onClick={()=>setSelected(null)}>Cancel</button>
     </div>
+    <div className={s.workspace}>
+    <div className={s.boardPane}>
     <div className={s.board} data-dragging={drag.dragging}>{rows.map(row=><section className={s.row} key={row.id} aria-label={`Tier ${row.label}`} data-tier-row={row.id} data-drop-target={drag.dragging&&dropTarget===row.id} onDragOver={e=>{e.preventDefault();setDropTarget(row.id);}} onDrop={e=>{e.preventDefault();assign(Number(e.dataTransfer.getData("text/plain")),row.id);}}>
-      <div className={s.rowLabel} style={{borderColor:row.color}}><span className={s.tierName} style={{color:row.color}}>{row.label || "Tier"}</span><small>{`${row.partners.length} partners`}</small><button className={s.editTier} aria-label={`Edit tier ${row.label}`} aria-expanded={editing===row.id} onClick={()=>setEditing(editing===row.id?null:row.id)}>Edit</button></div>
+      <div className={s.rowLabel} style={{borderColor:row.color}}><span className={s.tierName} style={{color:row.color}}>{row.label || "Tier"}</span><small>{`${row.partners.length} ${row.partners.length===1?"partner":"partners"}`}</small><button className={s.editTier} aria-label={`Edit tier ${row.label}`} aria-expanded={editing===row.id} onClick={()=>setEditing(editing===row.id?null:row.id)}>Edit</button></div>
       <div className={s.rowPool}>{row.partners.map(id=>sprite(partners.find(p=>p.id===id)!,true))}{selectedPartner?<button className={s.place} onClick={()=>assign(selectedPartner.id,row.id)}>+ Place here</button>:!row.partners.length?<span className={s.emptyTier}>Drop a partner here</span>:null}</div>
       {editing===row.id&&<div className={s.rowEditor}><label>Tier name<input aria-label={`Rename tier ${row.label}`} maxLength={24} value={row.label} onChange={e=>update(rows.map(r=>r.id===row.id?{...r,label:e.target.value}:r))}/></label><label>Row color<input aria-label={`Color for tier ${row.label}`} type="color" value={row.color} onChange={e=>update(rows.map(r=>r.id===row.id?{...r,color:e.target.value}:r))}/></label><button disabled={rows.length===1} onClick={()=>{update(rows.filter(r=>r.id!==row.id),"Tier removed; its partners returned to the pool.");setEditing(null);}} aria-label={`Remove tier ${row.label}`}>Remove row</button><button onClick={()=>setEditing(null)}>Done</button></div>}
     </section>)}</div>
-    <div className={s.boardActions}><button disabled={rows.length>=10} onClick={()=>update([...rows,{id:`tier-${(crypto.randomUUID?.() ?? Date.now().toString(36)+Math.random().toString(36).slice(2))}`,label:"New tier",color:"#b4a3d4",partners:[]}])}>+ Add a tier row</button><span role="status">{status||"Saved locally. No account needed."}</span></div>
-    <div className={c.toolbar}><label>Search partners<input type="search" placeholder="Charizard, #006…" value={query} onChange={e=>{setQuery(e.target.value);setPage(1);}}/></label><label>Type<select value={type} onChange={e=>{setType(e.target.value);setPage(1);}}><option value="">All types</option>{[...new Set(partners.flatMap(p=>p.types))].sort().map(t=><option key={t}>{t}</option>)}</select></label><label>Region<select value={region} onChange={e=>{setRegion(e.target.value);setPage(1);}}><option value="">All regions</option>{[...new Set(partners.map(p=>p.region))].map(r=><option key={r}>{r}</option>)}</select></label></div>
-    <p className={c.count} aria-live="polite">{result.length} partners left to rank · Page {current} of {pages}</p>
-    <div className={s.pool} role="group" aria-label="Unranked partners" onDragOver={e=>e.preventDefault()} onDrop={e=>{e.preventDefault();assign(Number(e.dataTransfer.getData("text/plain")),null);}}>{result.slice((current-1)*60,current*60).map(p=>sprite(p))}</div>
-    {!result.length&&<p className={c.empty}>No partners match. Change the filters or return a ranked partner to the pool.</p>}
-    <div className={c.pagination}><button disabled={current===1} onClick={()=>setPage(current-1)}>← Previous</button><span>{current} / {pages}</span><button disabled={current===pages} onClick={()=>setPage(current+1)}>Next →</button></div>
+    </div>
+    <aside className={s.partnerPane} aria-label="Partner pool">
+    <div className={s.poolTools}><label className={s.poolSearch}><span className={s.srOnly}>Search partners</span><input type="search" placeholder="Find a Pokémon…" value={query} onChange={e=>{setQuery(e.target.value);setPage(1);}}/></label><label><span className={s.srOnly}>Partner type</span><select aria-label="Partner type" value={type} onChange={e=>{setType(e.target.value);setPage(1);}}><option value="">All types</option>{[...new Set(partners.flatMap(p=>p.types))].sort().map(t=><option key={t}>{t}</option>)}</select></label></div>
+    <details className={s.poolFilters}><summary>Region filter{region?` · ${region}`:""}</summary><label>Region<select aria-label="Partner region" value={region} onChange={e=>{setRegion(e.target.value);setPage(1);}}><option value="">All regions</option>{[...new Set(partners.map(p=>p.region))].map(r=><option key={r}>{r}</option>)}</select></label></details>
+    <p className={s.poolCount} aria-live="polite">{result.length} unranked partners</p>
+    <div className={s.pool} role="group" aria-label="Unranked partners" onDragOver={e=>e.preventDefault()} onDrop={e=>{e.preventDefault();assign(Number(e.dataTransfer.getData("text/plain")),null);}}>{result.slice((current-1)*24,current*24).map(p=>sprite(p))}</div>
+    {!result.length&&<p className={s.emptyPool}>No partners match. Change the filters or return a ranked partner to the pool.</p>}
+    <div className={s.pagination}><button aria-label="Previous partners" disabled={current===1} onClick={()=>setPage(current-1)}>←</button><span>{current} / {pages}</span><button aria-label="Next partners" disabled={current===pages} onClick={()=>setPage(current+1)}>→</button></div>
+    </aside>
+    </div>
+    <p className={s.workspaceHint}>Drag a partner into a tier, or select one and choose a row. Every visit starts empty. Restore your saved list from •••, or build a new one. Recommendations are added only when you choose them.</p>
+    <p className={s.boardStatus} role="status">{status}</p>
+    </section>
+    <TierRecommendations board={recommendedBoard} cohort={cohort} partners={partners} personalRows={rows} picks={picks} review={review} selection={recommendation} onChange={setRecommendation} onApply={applyRecommendations} canUndo={!!undo} status={status} onUndo={()=>{if(undo){update(undo,"Previous board restored.");setUndo(null);setSelected(null);setEditing(null);}}} />
   </div>;
 }

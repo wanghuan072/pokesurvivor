@@ -71,7 +71,13 @@ export function contentInputs(root = process.cwd()) {
     }
     if (url === "/pokedex" || url === "/tier-list" || url === "/rankings") data = pokemon.map(cardPokemon);
     if (url === "/pokedex") data = { pokemon: data, appearances: encounters.map(({id,hasShiny,hovering})=>({id,hasShiny,hovering})), collectionPreviews };
-    if (url === "/tier-list") data = { pokemon:pokemon.map(({id,name,types,region})=>({id,name,types,region})), collectionPreviews:collectionPreviews.filter(p=>!p.shiny), exportSprites:pokemon.map(p=>({id:p.id,image:fileHash(`public/game/pokemon/${p.id}.webp`)})) };
+    if (url === "/tier-list") data = { snapshot:read("src/data/game/leaderboards.json").boards.filter(board=>board.period==="weekly").map(({key,capturedAt,mode,period,rows})=>({key,capturedAt,mode,period,rows:rows.map(({rank,pokemon,seconds})=>({rank,pokemon:pokemon.map(({id})=>({id})),seconds}))})), pokemon:pokemon.map(({id,name,types,region})=>({id,name,types,region})), collectionPreviews:collectionPreviews.filter(p=>!p.shiny), exportSprites:pokemon.map(p=>({id:p.id,image:fileHash(`public/game/pokemon/${p.id}.webp`)})) };
+    if (url === "/tier-list") {
+      const editorial = read("src/data/tier-list/recommendations.json"), ids = new Set(editorial.picks.map(p=>p.id));
+      data.editorial = editorial;
+      data.editorialPartners = pokemon.filter(p=>ids.has(p.id)).map(({id,hp,speed,physicalAttack,specialAttack,defense,specialDefense,startMove,cardPool})=>({id,hp,speed,physicalAttack,specialAttack,defense,specialDefense,startMove,cardPool}));
+      data.heroBackground = fileHash("public/game/screenshots/forest.webp");
+    }
     if (url === "/rankings" && fs.existsSync(path.join(root,"src/data/game/leaderboards.json"))) {
       const snapshot = read("src/data/game/leaderboards.json");
       const ids = new Set(snapshot.boards.flatMap(b=>b.rows.flatMap(r=>r.pokemon.map(p=>p.id))));

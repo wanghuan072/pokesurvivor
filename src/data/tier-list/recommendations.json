@@ -1,0 +1,55 @@
+{
+  "reviewed": "2026-10-19",
+  "gameVersion": "7c1976458d",
+  "purpose": "General Solo progression, compared within this eight-partner shortlist.",
+  "picks": [
+    {
+      "id": 150,
+      "tier": "S",
+      "reason": "Confusion starts with homing shots and fits its stronger Special attack.",
+      "watchFor": "Favor Special damage cards; Physical buffs strengthen a different attack side."
+    },
+    {
+      "id": 94,
+      "tier": "S",
+      "reason": "Shadow Ball starts with piercing projectiles and fits its stronger Special attack.",
+      "watchFor": "Keep space around you: 97 HP and 60 physical defense leave less room for contact hits."
+    },
+    {
+      "id": 73,
+      "tier": "A",
+      "reason": "Water Gun provides a piercing start, backed by 120 Special defense.",
+      "watchFor": "Special bulk does not cover its lower physical defense of 65."
+    },
+    {
+      "id": 1015,
+      "tier": "A",
+      "reason": "Sludge applies poison from a Special projectile start.",
+      "watchFor": "Physical defense is the weaker side at 66; keep a route out of crowds."
+    },
+    {
+      "id": 842,
+      "tier": "A",
+      "reason": "A 120-HP option with Razor Leaf and Giga Drain in its move pool.",
+      "watchFor": "Speed 91 needs deliberate positioning. Vine Whip starts on its weaker Physical side."
+    },
+    {
+      "id": 289,
+      "tier": "B",
+      "reason": "High HP and a strong Physical attack factor suit a Physical-focused plan.",
+      "watchFor": "Tackle starts at short range; Special defense is the weaker side."
+    },
+    {
+      "id": 802,
+      "tier": "B",
+      "reason": "A fast Physical option with Karate Chop and Ghost moves in its pool.",
+      "watchFor": "Karate Chop needs close positioning. Keep an exit from the crowd."
+    },
+    {
+      "id": 100,
+      "tier": "C",
+      "reason": "Thunder Shock starts fast and pierces; Discharge and Thunderbolt are available later.",
+      "watchFor": "Lower HP, defenses and Special attack make it a lower-priority choice in this shortlist."
+    }
+  ]
+}

@@ -4,28 +4,13 @@ import { PokemonArt } from "@/components/common/PokemonArt";
 import { GameIcon } from "@/components/common/GameIcon";
 import s from "@/style/page/rankings.module.css";
 
-type Entry = { rank: number; names: string[]; pokemon: { id: number; shiny: boolean }[]; seconds: number; level: number; defeated: number };
-type Board = { key: string; capturedAt: string; mode: string; period: string; rows: Entry[] };
-const periods = ["daily", "weekly", "monthly", "all-time"] as const;
-const labels = { daily: "Daily", weekly: "Weekly", monthly: "Monthly", "all-time": "All-time" };
+import type { LeaderboardBoard, RankingPeriod } from "@/types/leaderboard";
+import { rankingPeriods, periodNames, survivalTime, periodLabel } from "@/lib/game/leaderboard-format";
 const number = new Intl.NumberFormat("en-US");
 const date = new Intl.DateTimeFormat("en-GB", { dateStyle: "medium", timeStyle: "short", timeZone: "UTC" });
-function survivalTime(seconds: number) {
-  const whole = Math.floor(seconds), minutes = Math.floor(whole / 60), remaining = String(whole % 60).padStart(2, "0");
-  return minutes >= 60 ? `${Math.floor(minutes / 60)}:${String(minutes % 60).padStart(2, "0")}:${remaining}` : `${minutes}:${remaining}`;
-}
-function periodLabel(board:Board) {
-  const day=board.key.match(/_d(\d{4})(\d{2})(\d{2})/);
-  if(day)return `${day[1]}-${day[2]}-${day[3]}`;
-  const week=board.key.match(/_w(\d{4})-(\d+)/);
-  if(week)return `Week ${week[2]}, ${week[1]}`;
-  const month=board.key.match(/_m(\d{4})(\d{2})/);
-  if(month)return `${month[1]}-${month[2]}`;
-  return 'All-time · post-reset board';
-}
-export default function SurvivalRankings({boards, partners}: { boards: Board[]; partners: {id: number; name: string}[] }) {
+export default function SurvivalRankings({boards, partners}: { boards: LeaderboardBoard[]; partners: {id: number; name: string}[] }) {
   const [mode, setMode] = useState("solo");
-  const [period, setPeriod] = useState<(typeof periods)[number]>("weekly");
+  const [period, setPeriod] = useState<RankingPeriod>("weekly");
   const [query, setQuery] = useState("");
   const [species, setSpecies] = useState("");
   const names = new Map(partners.map(p => [p.id, p.name]));
@@ -42,7 +27,7 @@ export default function SurvivalRankings({boards, partners}: { boards: Board[]; 
         {["solo", "group"].map(value => <button key={value} aria-pressed={mode === value} onClick={() => { setMode(value); setSpecies(""); }}>{value === "solo" ? "Solo" : "Group"}</button>)}
       </div>
       <div className={s.tabs} role="group" aria-label="Ranking period">
-        {periods.map(value => <button key={value} aria-pressed={period === value} onClick={() => { setPeriod(value); setSpecies(""); }}>{labels[value]}</button>)}
+        {rankingPeriods.map(value => <button key={value} aria-pressed={period === value} onClick={() => { setPeriod(value); setSpecies(""); }}>{periodNames[value]}</button>)}
       </div>
       <div className={s.filters}>
         <label>Find a player<input type="search" placeholder="Player nickname…" value={query} onChange={event => setQuery(event.target.value)} /></label>

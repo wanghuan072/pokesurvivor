@@ -33,8 +33,8 @@ export const tdk = {
     ]
   },
   "/tier-list": {
-    "title": "PokeSurvivor Tier List Maker - Rank All 966 Partners",
-    "description": "Create your PokeSurvivor tier list with 966 Pokémon. Drag or tap partners into tiers, customize row names and colors, and save your personal board as an image.",
+    "title": "PokeSurvivor Tier List - Solo Picks and Group Teams",
+    "description": "Make your PokeSurvivor tier list with 966 partners. Compare Solo picks, move trade-offs and saved Group lineups, then export your personal rankings as an image.",
     "targetKeywords": [
       "PokeSurvivor tier list",
       "tier list maker"

@@ -10,6 +10,7 @@ import { sections, type Section } from "@/config/sections";
 import s from "@/style/common/content.module.css";
 import ReferenceContent from "./sections/ReferenceContent";
 export default function SectionPage({ section }: { section: Section }) {
+  if (section === "tier-list") return <TierList />;
   const info = sections[section];
   return (
     <div className={s.wrap}>
@@ -20,8 +21,6 @@ export default function SectionPage({ section }: { section: Section }) {
       />
       {section === "achievements" ? (
         <ReferenceContent />
-      ) : section === "tier-list" ? (
-        <TierList />
       ) : section === "rankings" ? (
         <RankingsContent />
       ) : section === "types" ? (
