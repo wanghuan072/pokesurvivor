@@ -17,7 +17,7 @@
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 19px;
   align-items: stretch;
 }
@@ -83,7 +83,7 @@
 .body {
   display: flex;
   flex-direction: column;
-  padding: 23px 22px 17px;
+  padding: 20px 18px 16px;
   flex: 1;
 }
 .category {
@@ -93,7 +93,7 @@
   margin-bottom: 11px;
 }
 .body h2 {
-  font-size: 29px;
+  font-size: 24px;
   margin-bottom: 12px;
 }
 .body > p {

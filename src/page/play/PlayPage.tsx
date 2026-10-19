@@ -38,10 +38,10 @@ export default function PlayPage() {
           <button onClick={fullscreen}>⛶ Fullscreen</button>
         </div>
       </header>
+      <h1 className={s.title}>Play <em>PokeSurvivor</em> Online</h1>
       <main id="main" className={s.stage}>
         {started ? (
           <>
-            <h1 className="sr-only">Play PokeSurvivor Online</h1>
             <iframe
               title="Play PokeSurvivor — official browser game"
               src={site.game}
@@ -58,9 +58,7 @@ export default function PlayPage() {
           <div className={s.launch}>
             <span aria-hidden="true"><CollectionPokemonArt id={25} name="Pikachu" size={120} /></span>
             <p>YOUR NEXT ADVENTURE STARTS HERE</p>
-            <h1>
-              Play <em>PokeSurvivor</em> Online
-            </h1>
+            <h2>Ready for your next run?</h2>
             <p>Move with WASD or arrow keys. Your selected move attacks automatically.</p>
             <button className="btn" onClick={() => setStarted(true)}>
               ▶ Launch Game

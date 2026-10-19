@@ -44,3 +44,8 @@ next-env.d.ts
 
 # local browser verification artifacts
 /docs/qa/
+
+# Generated from the previous successful production SEO Manifest.
+/public/.well-known/seo-url-manifest.json
+/src/app/sitemap.xml
+/public/sitemaps/

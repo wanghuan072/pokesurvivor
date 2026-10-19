@@ -37,7 +37,7 @@
   },
   "/updates": {
     "heading": "PokeSurvivor Updates - What Has Changed",
-    "intro": "Read dated game changes and changes to this site. Check the version a guide describes before relying on a number that may have changed."
+    "intro": "See what changed on this fan guide, explore dated game changes and find the pages affected. The game archive is kept separate from website updates."
   },
   "/legal/privacy-policy": {
     "heading": "Privacy Policy",
@@ -60,7 +60,7 @@
     "intro": "Reach the site maintainer about a correction, a website problem or a copyright concern at support@pokesurvivor.me."
   },
   "/rankings": {
-    "heading": "PokeSurvivor Rankings - Compare Partner Stats",
-    "intro": "Compare attack factor, HP and speed in a ranked partner list. Filter to starters or find a Pokémon to see how its starting numbers compare."
+    "heading": "PokeSurvivor Rankings - Survival Leaderboards",
+    "intro": "Browse saved official survival records by player, team and Pokémon. Switch between Solo and Group boards, compare periods and check when each board was captured."
   }
 }

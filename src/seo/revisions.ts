@@ -1,5 +1,7 @@
-import revisions from "@/data/seo/page-revisions.json";
-type Revision = { hash: string; lastModified: string };
+import manifest from "../../public/.well-known/seo-url-manifest.json";
+export { manifest };
 export function pageUpdatedAt(path: string) {
-  return (revisions as Record<string, Revision>)[path]?.lastModified ?? "2026-10-15";
+  const entry = manifest.entries.find(entry => entry.path === path);
+  if (!entry) throw new Error(`Unregistered SEO page: ${path}`);
+  return entry.lastModified;
 }

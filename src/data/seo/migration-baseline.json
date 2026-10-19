@@ -1,0 +1,164 @@
+{
+  "sourceCommit": "5e7da84a4adf4367599ec83b48f3185f8f1990f5",
+  "verifiedDeploymentId": "dpl_4Vf6MK1Xi6VAxoev4nwthsg4KW7a",
+  "verifiedAt": "2026-10-19T02:05:56.764Z",
+  "manifest": {
+    "schemaVersion": 1,
+    "fingerprintVersion": "seo-v2",
+    "siteUrl": "https://pokesurvivor.me",
+    "generatedAt": "2026-10-19T02:05:56.764Z",
+    "entries": [
+      {
+        "path": "/",
+        "canonicalUrl": "https://pokesurvivor.me/",
+        "indexable": true,
+        "contentFingerprint": "sha256:0147b67654dbeeea2cbff5a077778f442e049c3cfab4e6ea95ce139a81437c54",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/achievements",
+        "canonicalUrl": "https://pokesurvivor.me/achievements",
+        "indexable": true,
+        "contentFingerprint": "sha256:872721783fc61bfd050e33b56630cb02196a1767e237133070b95ca2eaaea7e0",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/gacha",
+        "canonicalUrl": "https://pokesurvivor.me/gacha",
+        "indexable": true,
+        "contentFingerprint": "sha256:e0d2c3b094141442188ff8a9a2da3d94beb80d13f952d9b50255cbcee498e6d1",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/guides",
+        "canonicalUrl": "https://pokesurvivor.me/guides",
+        "indexable": true,
+        "contentFingerprint": "sha256:1e3e73536cb5207bafa064a87b7ce8f981b85f5d14528f7a639dc1a3d5a72469",
+        "lastModified": "2026-10-16T09:56:20.642Z"
+      },
+      {
+        "path": "/guides/beginner-guide",
+        "canonicalUrl": "https://pokesurvivor.me/guides/beginner-guide",
+        "indexable": true,
+        "contentFingerprint": "sha256:81ae29fc2eaf8f248fc6003c60aec0ed0328645006e203b94cd7ec33c2e9edbc",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/guides/faq",
+        "canonicalUrl": "https://pokesurvivor.me/guides/faq",
+        "indexable": true,
+        "contentFingerprint": "sha256:a0198ca307b93286827c96e437e09cd8e70b3b04222e2ac85998d4953511bf38",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/guides/gacha-and-tickets",
+        "canonicalUrl": "https://pokesurvivor.me/guides/gacha-and-tickets",
+        "indexable": true,
+        "contentFingerprint": "sha256:15844f41bf980c286776e0c56ee157b8dbae525b6b2c7a705a5f789acbcebc7d",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/guides/move-evolutions",
+        "canonicalUrl": "https://pokesurvivor.me/guides/move-evolutions",
+        "indexable": true,
+        "contentFingerprint": "sha256:82f2e6ccf993fab1feb149ee586052cd36609bcebec135577db8ad5e4fa9157f",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/guides/shiny-pokemon",
+        "canonicalUrl": "https://pokesurvivor.me/guides/shiny-pokemon",
+        "indexable": true,
+        "contentFingerprint": "sha256:11c46816ee7670c2af25d55eb482672291dfdc016cbffbf4d8e0a891c03b20b6",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/legal/about-us",
+        "canonicalUrl": "https://pokesurvivor.me/legal/about-us",
+        "indexable": true,
+        "contentFingerprint": "sha256:63d503a57c35b660a0c221041da405678b7c17285731c8da79b8f4d2878bd50f",
+        "lastModified": "2026-10-16T09:56:20.642Z"
+      },
+      {
+        "path": "/legal/contact-us",
+        "canonicalUrl": "https://pokesurvivor.me/legal/contact-us",
+        "indexable": true,
+        "contentFingerprint": "sha256:47ce1f0533bd66a2da12d5e05a60ab8cb0731da7d204a0107177b378b5d4e392",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/legal/copyright",
+        "canonicalUrl": "https://pokesurvivor.me/legal/copyright",
+        "indexable": true,
+        "contentFingerprint": "sha256:8ddc7485e325991100e1fd0f5a045154549104327a0ce5a4a35509a52c0b2be5",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/legal/privacy-policy",
+        "canonicalUrl": "https://pokesurvivor.me/legal/privacy-policy",
+        "indexable": true,
+        "contentFingerprint": "sha256:46c0135fc5eac9ea73ad6ae901f66dc9064afcf763d611f974244d502a7fb8d7",
+        "lastModified": "2026-10-16T10:48:49.690Z"
+      },
+      {
+        "path": "/legal/terms-of-service",
+        "canonicalUrl": "https://pokesurvivor.me/legal/terms-of-service",
+        "indexable": true,
+        "contentFingerprint": "sha256:9e21cf46c169201e7e0bc9c1f15420cc23bb1e155898089d57532c396f5ed7e3",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/level-up",
+        "canonicalUrl": "https://pokesurvivor.me/level-up",
+        "indexable": true,
+        "contentFingerprint": "sha256:725758d46d8fd302e31e5f486488df37ccd05defeca48c5206d2f918925a5a8d",
+        "lastModified": "2026-10-16T10:14:23.203Z"
+      },
+      {
+        "path": "/play",
+        "canonicalUrl": "https://pokesurvivor.me/play",
+        "indexable": true,
+        "contentFingerprint": "sha256:a339f571f1af398eae70860a310887e713482cc2f0381e91ee48118210e583f6",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/pokedex",
+        "canonicalUrl": "https://pokesurvivor.me/pokedex",
+        "indexable": true,
+        "contentFingerprint": "sha256:ea165ce46d504990ac5ea5854d4584b83c46b1e0793040071b8ef0bd870dd603",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/rankings",
+        "canonicalUrl": "https://pokesurvivor.me/rankings",
+        "indexable": true,
+        "contentFingerprint": "sha256:775284349ab0cdd786036035a28766806d3d34606c440416d9d304c09d34be48",
+        "lastModified": "2026-10-16T10:26:44.930Z"
+      },
+      {
+        "path": "/tier-list",
+        "canonicalUrl": "https://pokesurvivor.me/tier-list",
+        "indexable": true,
+        "contentFingerprint": "sha256:e086e6b55de787313a2f46336091f3f6e1cfcf794ef06cf70ba9eb6f607c029a",
+        "lastModified": "2026-10-16T10:22:16.553Z"
+      },
+      {
+        "path": "/types",
+        "canonicalUrl": "https://pokesurvivor.me/types",
+        "indexable": true,
+        "contentFingerprint": "sha256:9ad0a0527fabf799d9fd4a038845350645f9967a492e6d100b836271d4c4ec24",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      },
+      {
+        "path": "/updates",
+        "canonicalUrl": "https://pokesurvivor.me/updates",
+        "indexable": true,
+        "contentFingerprint": "sha256:c141d3dcfdee5956ae687b7ace1b5a3cfbf06a1d55cbc60aa38222a51d6b5ee6",
+        "lastModified": "2026-10-16T09:49:01.965Z"
+      }
+    ]
+  },
+  "deletedUrls": [
+    "https://pokesurvivor.me/builds",
+    "https://pokesurvivor.me/sources"
+  ]
+}

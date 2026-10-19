@@ -2,12 +2,15 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import ts from "typescript";
-import { tdk } from "../../src/seo/tdk.js";
+import { discoverRoutes } from "./routes.mjs";
+import { semanticSource } from "./semantic-source.mjs";
+import { metadataInput } from "./metadata-input.mjs";
 const hash = (value) => crypto.createHash("sha256").update(value).digest("hex");
 export function contentInputs(root = process.cwd()) {
   const read = (file) => JSON.parse(fs.readFileSync(path.join(root, file), "utf8"));
   const fileHash = (file) => {
     const bytes = fs.readFileSync(path.join(root, file));
+    if (/\.[cm]?[jt]sx?$/.test(file)) return hash(semanticSource(bytes.toString("utf8"), file));
     return hash(/\.(?:[cm]?[jt]sx?|md|txt|svg|css)$/.test(file)
       ? bytes.toString("utf8").replace(/\r\n/g, "\n") : bytes);
   };
@@ -43,14 +46,15 @@ export function contentInputs(root = process.cwd()) {
       if ((!ts.isImportDeclaration(statement) && !ts.isExportDeclaration(statement)) || !statement.moduleSpecifier) continue;
       const spec = statement.moduleSpecifier.text;
       const base = spec.startsWith("@/") ? "src/" + spec.slice(2) : spec.startsWith(".") ? path.posix.join(path.posix.dirname(entry), spec) : null;
-      if (!base || base === "src/seo/tdk" || base === "src/seo/tdk.js") continue;
+      if (!base || ["src/seo/tdk", "src/seo/tdk.js", "src/seo/revisions", "src/seo/manifest", "src/seo/metadata"].includes(base)) continue;
       const resolved = [base, base + ".tsx", base + ".ts", base + ".js", base + "/index.ts"].find(f => /(?:\.[cm]?[jt]sx?|\.css)$/.test(f) && fs.existsSync(path.join(root, f)) && fs.statSync(path.join(root,f)).isFile());
-      if (resolved) sources(resolved, seen);
+      if (resolved && !resolved.endsWith(".css")) sources(resolved, seen);
     }
     return seen;
   }
   const inputs = {};
-  const allMeta = { ...tdk, ...Object.fromEntries(guides.map(g => [`/guides/${g.slug}`,g.seo])), "/guides/faq": faq.seo };
+  const routes=discoverRoutes(root), collectMetadata=metadataInput(root,routes);
+  const allMeta = Object.fromEntries(routes.map(route => [route.path, route.seo]));
   for (const [url,seo] of Object.entries(allMeta)) {
     let entry = roots[url], data = {};
     if (url.startsWith("/legal/")) { entry = "src/page/legal/LegalPage.tsx"; data = legal[url.split("/").at(-1)]; }
@@ -68,7 +72,11 @@ export function contentInputs(root = process.cwd()) {
     if (url === "/pokedex" || url === "/tier-list" || url === "/rankings") data = pokemon.map(cardPokemon);
     if (url === "/pokedex") data = { pokemon: data, appearances: encounters.map(({id,hasShiny,hovering})=>({id,hasShiny,hovering})), collectionPreviews };
     if (url === "/tier-list") data = { pokemon:pokemon.map(({id,name,types,region})=>({id,name,types,region})), collectionPreviews:collectionPreviews.filter(p=>!p.shiny), exportSprites:pokemon.map(p=>({id:p.id,image:fileHash(`public/game/pokemon/${p.id}.webp`)})) };
-    if (url === "/rankings") data = { pokemon:pokemon.map(({id,name,hp,speed,attack,rarity,starter,types})=>({id,name,hp,speed,attack,rarity,starter,types})), collectionPreviews:collectionPreviews.filter(p=>!p.shiny) };
+    if (url === "/rankings" && fs.existsSync(path.join(root,"src/data/game/leaderboards.json"))) {
+      const snapshot = read("src/data/game/leaderboards.json");
+      const ids = new Set(snapshot.boards.flatMap(b=>b.rows.flatMap(r=>r.pokemon.map(p=>p.id))));
+      data = { snapshot, pokemon:pokemon.filter(p=>ids.has(p.id)).map(({id,name})=>({id,name})), collectionPreviews:collectionPreviews.filter(p=>ids.has(p.id)) };
+    }
     if (url === "/level-up") data = { moves, cards: read("src/data/wiki/run-cards.json"), notes: read("src/data/game/move-notes.json"), pokemon: pokemon.map(p=>({id:p.id,name:p.name,types:p.types,startMove:p.startMove,cardPool:p.cardPool,learnset:p.learnset})), collectionPreviews:collectionPreviews.filter(p=>!p.shiny) };
     if (url === "/level-up") {
       const bossRewards = read("src/data/game/boss-rewards.json");
@@ -79,7 +87,7 @@ export function contentInputs(root = process.cwd()) {
     if (url === "/types") data = { chart: read("src/data/tools/type-chart.json"), weather: read("src/data/wiki/weather.json") };
     if (url === "/gacha") data = { gacha: read("src/data/wiki/gacha.json"), shinySamples, collectionPreviews:collectionPreviews.filter(p=>shinyIds.has(p.id)) };
     if (url === "/achievements") data = read("src/data/wiki/achievements.json");
-    if (url === "/updates") data = read("src/data/wiki/changes.json").slice(0,4);
+    if (url === "/updates") data = { game:read("src/data/wiki/changes.json"), site:fs.existsSync(path.join(root,"src/data/site/releases.json")) ? read("src/data/site/releases.json") : [] };
 
     if (url === "/guides") data = {
       guides: guides.map(({slug,cardTitle,description,image,imageAlt,category,readTime,outcomes})=>({slug,cardTitle,description,image,imageAlt,category,readTime,outcomes})),
@@ -105,13 +113,12 @@ export function contentInputs(root = process.cwd()) {
       };
     }
     const implementationFiles = sources(entry);
+    sources("src/components/layout/SiteFooter.tsx", implementationFiles);
+    if (url !== "/play") sources("src/components/layout/SiteShell.tsx", implementationFiles);
     if (url !== "/" && url !== "/play")
       sources("src/components/common/PageHeader.tsx", implementationFiles);
-    implementationFiles.add("src/seo/metadata.ts");
     const implementation = [...implementationFiles].sort().map(file => [file,fileHash(file)]);
     const assets = { og: fileHash("public/images/og-image.png") };
-    assets.theme = fileHash("src/style/globals.css");
-    assets.shell = fileHash("src/style/layout/shell.module.css");
     assets.gameForest = fileHash("public/game/screenshots/forest.webp");
     if (url === "/play") assets.gamePreview = fileHash("public/game/screenshots/level-up.webp");
     if (url === "/guides")
@@ -119,14 +126,14 @@ export function contentInputs(root = process.cwd()) {
     if (url === "/") {
       for (const name of ["level-up", "card-choices", "forest", "battlefield"])
         assets[name] = fileHash(`public/game/screenshots/${name}.webp`);
-      assets.styles = fileHash("src/style/page/home.module.css");
     }
     if (data.guide?.image) assets.cover = fileHash("public" + data.guide.image);
     if (url === "/legal/copyright") assets.credits = fileHash("public/credits/spritecollab-artists.md");
-    inputs[url] = { seo, hero: heroes[url] ?? null, implementation, data, assets };
+    inputs[url] = { seo, metadata:collectMetadata(url), hero: heroes[url] ?? null, implementation, data, assets };
   }
   return inputs;
 }
 export function contentHashes(root = process.cwd()) {
-  return Object.fromEntries(Object.entries(contentInputs(root)).sort(([a],[b])=>a.localeCompare(b)).map(([url,payload])=>[url,hash(JSON.stringify(payload))]));
+  const canonical=value=>Array.isArray(value)?value.map(canonical):value && typeof value === "object"?Object.fromEntries(Object.keys(value).sort().map(key=>[key,canonical(value[key])])):value;
+  return Object.fromEntries(Object.entries(contentInputs(root)).sort(([a],[b])=>a.localeCompare(b)).map(([url,payload])=>[url,hash(JSON.stringify(canonical(payload)))]));
 }

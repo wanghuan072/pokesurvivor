@@ -6,6 +6,7 @@ import achievements from "@/data/wiki/achievements.json";
 import typeChart from "@/data/tools/type-chart.json";
 import { PageSchema } from "@/seo/PageSchema";
 import { GameIcon } from "@/components/common/GameIcon";
+import { CollectionPokemonArt } from "@/components/common/CollectionPokemonArt";
 import { pageMetadata } from "@/seo/metadata";
 import FeaturedContent from "./sections/FeaturedContent";
 import HeroSection from "./sections/HeroSection";
@@ -16,10 +17,10 @@ import s from "@/style/page/home.module.css";
 export const metadata = pageMetadata("/");
 
 const stats = [
-  { icon: "ball", label: "Pokémon", value: pokemon.length, href: "/pokedex" },
-  { icon: "cards", label: "Move Cards", value: moves.length, href: "/level-up" },
-  { icon: "type-grass", label: "Types", value: Object.keys(typeChart).length, href: "/types" },
-  { icon: "trophy", label: "Achievements", value: achievements.length, href: "/achievements" },
+  { id: 151, name: "Mew", label: "Pokémon", value: pokemon.length, href: "/pokedex" },
+  { id: 65, name: "Alakazam", label: "Move Cards", value: moves.length, href: "/level-up" },
+  { id: 493, name: "Arceus", label: "Types", value: Object.keys(typeChart).length, href: "/types" },
+  { id: 494, name: "Victini", label: "Achievements", value: achievements.length, href: "/achievements" },
 ];
 const faqs = [0, 2, 4, 3].map((index) => faq.questions[index]);
 
@@ -29,9 +30,9 @@ export default function HomePage() {
       <PageSchema path="/" title={pages["/"].heading} description={pages["/"].intro} />
       <HeroSection />
       <nav className={s.stats} aria-label="Explore game data">
-        {stats.map(({ icon, label, value, href }) => (
+        {stats.map(({ id, name, label, value, href }) => (
           <a href={href} key={href}>
-            <GameIcon name={icon} size={38} />
+            <CollectionPokemonArt id={id} name={name} size={56} />
             <span><strong>{value}</strong><small>{label}</small></span>
             <span className={s.statArrow} aria-hidden="true">↗</span>
           </a>
@@ -42,7 +43,7 @@ export default function HomePage() {
       <PartnerSpotlight />
       <div className={s.bottom}>
         <section className={s.about} aria-labelledby="about-game">
-          <h2 id="about-game"><GameIcon name="sprout" size={28} /> What is PokeSurvivor?</h2>
+          <h2 id="about-game"><CollectionPokemonArt id={251} name="Celebi" size={40} /> What is PokeSurvivor?</h2>
           <p>PokeSurvivor is a free browser survival game. Move through the horde, collect experience and choose upgrades while your active attack fires automatically.</p>
           <p>This independent fan guide helps you compare partners, check evolution requirements and adjust your build when the next card changes your plans.</p>
           <a className={s.release} href="/play">

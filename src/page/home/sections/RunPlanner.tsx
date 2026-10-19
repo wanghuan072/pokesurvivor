@@ -33,17 +33,17 @@ export default function RunPlanner() {
           </div>
         </div>
         <a className={s.tierFeature} href="/rankings">
-          <h3>Compare base stats</h3>
-          <p>Check starting attack, HP and speed.</p>
-          <div className={s.statBars} aria-hidden="true"><i /><i /><i /><GameIcon name="crown" size={42} /></div>
-          <span className={s.outlineLink}>Partner Rankings →</span>
+          <h3>Chase a longer run</h3>
+          <p>See the players and partners on the survival boards.</p>
+          <div className={s.statBars} aria-hidden="true"><CollectionPokemonArt id={448} name="Lucario" size={88} /><GameIcon name="trophy" size={30} /></div>
+          <span className={s.outlineLink}>Survival Rankings →</span>
         </a>
         <a className={s.collectionFeature} href="/gacha">
           <h3>Plan your collection</h3>
           <p>Understand pools, tickets and shiny rolls.</p>
           <div className={s.shinyPair} aria-hidden="true">
-            <CollectionPokemonArt id={133} name="Eevee" size={88} />
-            <CollectionPokemonArt id={133} name="Eevee" shiny size={88} />
+            <CollectionPokemonArt id={197} name="Umbreon" size={80} />
+            <CollectionPokemonArt id={196} name="Espeon" shiny size={80} />
           </div>
           <span className={s.outlineLink}>Gacha →</span>
         </a>

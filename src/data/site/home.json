@@ -1,8 +1,18 @@
 {
   "eyebrow": "The PokeSurvivor field guide",
-  "tagline": ["Survive the horde.", "Make every upgrade count."],
+  "tagline": [
+    "Survive the horde.",
+    "Make every upgrade count."
+  ],
   "intro": "Play in your browser. Find your partner, choose your cards and plan your next run.",
-  "partners": [1, 4, 7, 25, 133, 94],
+  "partners": [
+    131,
+    143,
+    94,
+    445,
+    700,
+    384
+  ],
   "guides": [
     {
       "slug": "beginner-guide",

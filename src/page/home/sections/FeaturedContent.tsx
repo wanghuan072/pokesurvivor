@@ -16,13 +16,6 @@ export default function FeaturedContent() {
         {home.guides.map((guide, index) => (
           <a href={`/guides/${guide.slug}`} key={guide.slug} className={`${s.story} ${index === 0 ? s.leadStory : ""} ${index === 2 ? s.shinyStory : ""}`}>
             <div className={s.storyImage}>
-              {index === 0 && (
-                <div className={s.guidePartners} aria-hidden="true">
-                  <CollectionPokemonArt id={1} name="Bulbasaur" size={96} />
-                  <CollectionPokemonArt id={4} name="Charmander" size={96} />
-                  <CollectionPokemonArt id={7} name="Squirtle" size={96} />
-                </div>
-              )}
               {guide.image ? (
                 <Image src={guide.image} alt={guide.imageAlt ?? ""} fill sizes={index === 0 ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 768px) 35vw, 220px"} />
               ) : (

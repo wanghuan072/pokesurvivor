@@ -4,9 +4,8 @@ import { CollectionPokemonArt } from "@/components/common/CollectionPokemonArt";
 import s from "@/style/page/home.module.css";
 
 const starters = [
-  { id: 1, name: "Bulbasaur" }, { id: 4, name: "Charmander" },
-  { id: 7, name: "Squirtle" }, { id: 25, name: "Pikachu" },
-  { id: 133, name: "Eevee" }, { id: 94, name: "Gengar" },
+  { id: 25, name: "Pikachu" }, { id: 6, name: "Charizard" },
+  { id: 282, name: "Gardevoir" }, { id: 149, name: "Dragonite" },
 ];
 
 export default function HeroSection() {

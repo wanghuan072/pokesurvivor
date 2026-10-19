@@ -2,7 +2,6 @@ import Image from "next/image";
 import { PageHeader } from "@/components/common/PageHeader";
 import { guides } from "@/lib/data/guides";
 import { pageMetadata } from "@/seo/metadata";
-import GuideArtwork from "./sections/GuideArtwork";
 import s from "@/style/page/guides.module.css";
 import c from "@/style/common/content.module.css";
 export const metadata = pageMetadata("/guides");
@@ -27,9 +26,8 @@ export default function GuidesPage() {
                 src={g.image}
                 alt={g.imageAlt}
                 fill
-                sizes="(max-width: 1024px) 90vw, 30vw"
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
-              <GuideArtwork slug={g.slug} />
               <span className={s.number}>FIELD GUIDE 0{index + 1}</span>
               <span className={s.duration}>{g.readTime} MIN READ</span>
             </div>

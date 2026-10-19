@@ -3,7 +3,7 @@ import { site } from "@/config/site";
 import { tdk } from "@/seo/tdk";
 import guides from "@/data/guides/guides.json";
 import faq from "@/data/guides/faq.json";
-export type SeoData = { title: string; description: string; targetKeywords?: string[] };
+export type SeoData = { title: string; description: string; targetKeywords?: string[]; indexable?: boolean };
 export function seoFor(path: string): SeoData {
   const record = (tdk as Record<string, SeoData>)[path]
     ?? (path === "/guides/faq" ? faq.seo : guides.find((g) => `/guides/${g.slug}` === path)?.seo);
@@ -11,10 +11,11 @@ export function seoFor(path: string): SeoData {
   return record;
 }
 export function pageMetadata(path: string): Metadata {
-  const { title, description } = seoFor(path);
+  const { title, description, indexable = true } = seoFor(path);
   const url = site.url + (path === "/" ? "/" : path);
   return {
     title: { absolute: title }, description,
+    robots: { index: site.production && indexable, follow: true },
     alternates: { canonical: url },
     openGraph: {
       title, description, url, siteName: site.name,

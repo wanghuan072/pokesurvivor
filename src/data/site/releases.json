@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2026-10-19",
+    "title": "Less searching. More playing.",
+    "summary": "A more compact homepage, clearer guide cards and a player title that stays above the game.",
+    "changes": [
+      "Homepage shortcuts and featured guides now use tighter layouts and a wider variety of Pokémon artwork.",
+      "Guide cards use one cover image, with three cards across on desktop.",
+      "The Play page keeps its title visible after the game launches.",
+      "Rankings now show saved official survival records for Solo and Group across four periods."
+    ],
+    "links": [
+      {
+        "label": "Explore the homepage",
+        "href": "/"
+      },
+      {
+        "label": "See survival rankings",
+        "href": "/rankings"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Original animations and clearer card choices",
+    "summary": "Original collection animations and shiny effects accompany a move library organized by partner.",
+    "changes": [
+      "The Level-up page lets you choose from all 966 partners and inspect their move pools.",
+      "Boss rewards, held items and Bond explanations are grouped alongside the upgrade cards.",
+      "The Tier List Maker supports dragging between rows and scrolling during a drag.",
+      "Builds and Sources were retired; guide and card links lead to the remaining pages."
+    ],
+    "links": [
+      {
+        "label": "Browse level-up cards",
+        "href": "/level-up"
+      },
+      {
+        "label": "Make a tier list",
+        "href": "/tier-list"
+      }
+    ]
+  }
+]

@@ -18,7 +18,10 @@
   border-bottom: 1px solid #1a5c76;
   background: #051b2b;
   min-height: 54px;
+  flex-shrink: 0;
 }
+.title { position: sticky; top: 0; z-index: 2; flex-shrink: 0; margin: 0; padding: 12px 20px; border-bottom: 1px solid #5c6747; background: #071d28; color: #f0e3bb; font: 28px var(--pixel); text-align: center; }
+.title em { font-style: normal; color: #9aebbb; }
 .player > header > a {
   color: #a0bfd8;
   font-size: 13px;
@@ -84,6 +87,7 @@
   font-size: 60px;
   margin-bottom: 17px;
 }
+.launch h2 { font: 32px var(--pixel); color: #e7deb9; margin: 0 0 16px; }
 .launch p {
   color: #afcee5;
 }
@@ -97,6 +101,7 @@
   line-height: 1.8;
 }
 .player > footer {
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -144,6 +149,8 @@
   pointer-events: none;
 }
 @media (max-width: 768px) {
+  .title { padding: 10px 12px; font-size: clamp(19px, 5vw, 25px); }
+  .launch h2 { font-size: 27px; }
   .player > header { flex-wrap: wrap; }
   .player > header > div { flex-wrap: wrap; }
   .player > footer { flex-wrap: wrap; }

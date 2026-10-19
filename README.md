@@ -11,7 +11,7 @@ PokeSurvivor is a free browser survival game inspired by Pokémon. Choose a part
 - [Pokédex](https://pokesurvivor.me/pokedex) — browse 966 playable Pokémon, compare base stats and filter by type, region or starter status. View normal and shiny sprites in the list.
 - [Level-up Cards](https://pokesurvivor.me/level-up) — compare nine stat cards, 64 moves and their evolution requirements. Expand a move to see how its levels change.
 - [Tier List Maker](https://pokesurvivor.me/tier-list) — arrange all 966 partners in your own tiers, customize rows and export your board as an image. Your board stays in your browser.
-- [Partner Rankings](https://pokesurvivor.me/rankings) — compare starting attack, HP and speed in a ranked list. These are base-stat comparisons, not measured ratings for complete runs.
+- [Survival Rankings](https://pokesurvivor.me/rankings) — browse saved official Solo and Group leaderboards by survival time. Each daily, weekly, monthly and all-time board shows when its records were captured.
 - [Guides](https://pokesurvivor.me/guides) — choose a detailed explanation of survival, evolving a loadout or collecting partners.
 - [Updates](https://pokesurvivor.me/updates) — read dated game changes and changes to this guide.
 

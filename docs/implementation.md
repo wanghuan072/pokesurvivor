@@ -6,7 +6,7 @@
 - 静态页面 TDK 集中在 `src/seo/tdk.js`，Hero 位于 `src/data/site/pages.json`；指南和 FAQ 的 SEO 随各自 JSON 内容维护。标题使用绝对值，不再重复追加品牌。
 - 五个 Legal 页面使用 `/legal/` 路径；旧 `/about`、`/privacy-policy`、`/contact` 为永久跳转。页脚统一使用正常站内链接，版权年份在客户端自动更新。
 - Canonical、社交地址及结构化数据使用 `https://pokesurvivor.me`。默认禁止索引；正式发布环境明确设置 `SITE_INDEXABLE=true`。`VERCEL_ENV=preview` 始终禁止索引，不受该开关覆盖。
-- 修改正文、数据或 SEO 后运行 `npm run content:sync`，提交并保存 `src/data/seo/page-revisions.json`。`npm run content:check` 只校验；构建前也会校验，未同步时构建失败。重复同步不改时间，删除页面从清单及 sitemap 移除。指纹排除构建时间、更新时间本身与页脚版权年份。
+- 2026-10-19 起，构建自动生成统一 SEO Manifest 与 Sitemap，生产日期继承上一成功部署，纯 CSS、格式和版权年份变化不刷新日期。删除地址退出 Sitemap 并进入 IndexNow 通知；通知仅在成功生产部署后执行，成功检查点独立持久保存。配置见 [SEO 接入说明](seo-setup.md)，不再手工维护旧逐页日期文件。
 - `npm run audit` 检查机制、链接、已删除地址和最终 HTML 的 SEO。运行 HTTP 审计时设置 `AUDIT_URL`；通过 `AUDIT_EXPECT_INDEXABLE=true` 或 `false` 校验对应构建的索引开关。
 - Logo 和 favicon 为原创像素篝火与探索徽标；统一社交图为 `/images/og-image.png`（1200×630）。第三方游戏素材继续按 Copyright 页面和原有许可署名。
 - 响应式宽度断点仅 1024px、768px；桌面侧栏固定跟随，平板与手机使用汉堡菜单。测试尺寸还覆盖 320、390、1440、1920px。

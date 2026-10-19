@@ -121,11 +121,11 @@ export const tdk = {
     ]
   },
   "/rankings": {
-    "title": "PokeSurvivor Rankings - Compare All Partner Stats",
-    "description": "Compare PokeSurvivor Pokémon by base attack factor, HP and movement speed. Search all 966 partners, filter to starters and see how their starting stats rank.",
+    "title": "PokeSurvivor Rankings - Solo and Group Survival",
+    "description": "Browse PokeSurvivor survival rankings for Solo and Group runs. Compare saved daily, weekly, monthly and all-time records, with capture times for each board.",
     "targetKeywords": [
       "PokeSurvivor rankings",
-      "Pokémon stats"
+      "survival leaderboard"
     ]
   }
 };

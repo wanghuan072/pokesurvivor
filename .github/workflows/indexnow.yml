@@ -1,0 +1,49 @@
+name: Notify IndexNow after production deployment
+on:
+  repository_dispatch:
+    types: [vercel.deployment.success, vercel.deployment.promoted]
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: indexnow-prj_TXMGxPLYgSl07Ipl7AlRwpFsRh0d-production
+  queue: max
+  cancel-in-progress: false
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      INDEXNOW_DIR: ${{ runner.temp }}/indexnow
+    steps:
+      # Use the workflow revision, never the commit supplied in a dispatch payload.
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.workflow_sha }}
+          persist-credentials: false
+      - name: Check published version and find last successful notification
+        id: prepare
+        run: node scripts/seo/indexnow.mjs prepare
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Read last successful notification
+        if: steps.prepare.outputs.eligible == 'true' && steps.prepare.outputs.previous_artifact != ''
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8
+        with:
+          name: ${{ steps.prepare.outputs.previous_artifact }}
+          run-id: ${{ steps.prepare.outputs.previous_run }}
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/indexnow/previous
+      - name: Notify changed URLs
+        if: steps.prepare.outputs.eligible == 'true'
+        id: submit
+        run: node scripts/seo/indexnow.mjs submit
+      - name: Save successful notification
+        if: steps.submit.outputs.save == 'true'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: ${{ steps.prepare.outputs.receipt_name }}
+          path: ${{ runner.temp }}/indexnow/receipt.json
+          if-no-files-found: error
+          retention-days: 90

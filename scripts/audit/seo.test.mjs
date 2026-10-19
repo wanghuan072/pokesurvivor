@@ -5,7 +5,6 @@ import os from "node:os";
 import path from "node:path";
 import { tdk } from "../../src/seo/tdk.js";
 import { contentHashes } from "../seo/content-inputs.mjs";
-import { reconcile } from "../seo/content-revisions.mjs";
 const read = file => JSON.parse(fs.readFileSync(file,"utf8"));
 const guides = read("src/data/guides/guides.json"), faq = read("src/data/guides/faq.json");
 const all = {...tdk,...Object.fromEntries(guides.map(g=>[`/guides/${g.slug}`,g.seo])),"/guides/faq":faq.seo};
@@ -13,7 +12,8 @@ const decode = text => text.replace(/&(?:amp|quot|apos|lt|gt|#x27|#39);/g,e=>({"
 test("all published HTML has unique exact metadata, canonical and visible schema",()=>{
   const titles = new Set(), descriptions = new Set();
   assert.equal(Object.keys(all).length,Object.keys(tdk).length + guides.length + 1);
-  const revisions = read("src/data/seo/page-revisions.json");
+  const manifest = read("public/.well-known/seo-url-manifest.json");
+  const revisions = Object.fromEntries(manifest.entries.map(entry=>[entry.path,entry]));
   const sitemap = fs.readFileSync(".next/server/app/sitemap.xml.body","utf8");
   for (const [route,seo] of Object.entries(all)) {
     const html = fs.readFileSync(`.next/server/app/${route === "/" ? "index" : route.slice(1)}.html`,"utf8");
@@ -37,14 +37,14 @@ test("all published HTML has unique exact metadata, canonical and visible schema
     const page = graph.find(s=>s['@id']===canonical+'#webpage');
     assert.ok(page,`${route}: missing page schema`);
     assert.equal(page.dateModified,revisions[route].lastModified,route);
-    assert.ok(sitemap.replace(/\s+</g, "<").includes(`<loc>${canonical}</loc><lastmod>${revisions[route].lastModified}</lastmod>`),route);
+    assert.equal(sitemap.replace(/\s+</g, "<").includes(`<loc>${canonical}</loc><lastmod>${revisions[route].lastModified}</lastmod>`),revisions[route].indexable,route);
     assert.ok(!html.includes('PokeSurvivor Wiki editors'),route);
     if(process.env.AUDIT_EXPECT_INDEXABLE) {
       const expected=process.env.AUDIT_EXPECT_INDEXABLE==='true'?'index, follow':'noindex, follow';
       assert.ok(html.includes(`name="robots" content="${expected}"`),`${route}: incorrect indexing policy`);
     }
   }
-  assert.equal((sitemap.match(/<url>/g)||[]).length,Object.keys(all).length);
+  assert.equal((sitemap.match(/<url>/g)||[]).length,manifest.entries.filter(e=>e.indexable).length);
   const png=fs.readFileSync("public/images/og-image.png");
   assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
 });
@@ -60,8 +60,8 @@ test("lastmod is stable, selective, and independent of footer year changes",()=>
     fs.mkdirSync(path.join(dir,'public/credits'),{recursive:true});
     fs.copyFileSync('public/images/og-image.png',path.join(dir,'public/images/og-image.png'));
     fs.copyFileSync('public/credits/spritecollab-artists.md',path.join(dir,'public/credits/spritecollab-artists.md'));
-    const base=contentHashes(dir), first=reconcile({},base,'2026-10-15T00:00:00.000Z');
-    assert.deepEqual(reconcile(first,contentHashes(dir),'2026-10-16T00:00:00.000Z'),first);
+    const base=contentHashes(dir);
+    assert.deepEqual(contentHashes(dir),base);
     const templateFile=path.join(dir,'src/seo/PageSchema.tsx'), template=fs.readFileSync(templateFile,'utf8');
     fs.writeFileSync(templateFile,template.replace(/\r?\n/g,'\r\n'));
     assert.deepEqual(contentHashes(dir),base,'Windows checkout must preserve content fingerprints');
@@ -69,6 +69,24 @@ test("lastmod is stable, selective, and independent of footer year changes",()=>
     assert.deepEqual(contentHashes(dir),base,'Linux checkout must preserve content fingerprints');
     fs.writeFileSync(templateFile,template);
     const changedRoutes=(next)=>Object.keys(next).filter(url=>next[url]!==base[url]);
+    const cssFile=path.join(dir,'src/style/globals.css');
+    fs.appendFileSync(cssFile,'\nbody { color: #eeeeee; padding: 10px; }');
+    assert.deepEqual(changedRoutes(contentHashes(dir)),[], 'Pure CSS must not refresh dates');
+    fs.copyFileSync('src/style/globals.css',cssFile);
+    const navFile=path.join(dir,'src/config/navigation.ts');
+    fs.writeFileSync(navFile,fs.readFileSync(navFile,'utf8').replace('label: "Home"','label: "Start"'));
+    assert.deepEqual(changedRoutes(contentHashes(dir)),Object.keys(base).filter(route=>route!=='/play'),'Shared navigation must update the pages where it is shown');
+    fs.copyFileSync('src/config/navigation.ts',navFile);
+    const boardsFile=path.join(dir,'src/data/game/leaderboards.json'), boards=read(boardsFile);
+    boards.boards[0].rows[0].defeated+=1;
+    fs.writeFileSync(boardsFile,JSON.stringify(boards));
+    assert.deepEqual(changedRoutes(contentHashes(dir)),['/rankings']);
+    fs.copyFileSync('src/data/game/leaderboards.json',boardsFile);
+    const releasesFile=path.join(dir,'src/data/site/releases.json'), releases=read(releasesFile);
+    releases[0].summary+=' A clarified site update.';
+    fs.writeFileSync(releasesFile,JSON.stringify(releases));
+    assert.deepEqual(changedRoutes(contentHashes(dir)),['/updates']);
+    fs.copyFileSync('src/data/site/releases.json',releasesFile);
     const rewardsFile=path.join(dir,'src/data/game/boss-rewards.json'), rewards=read(rewardsFile);
     rewards.bond.notes.push('A reviewed correction to the fusion explanation.');
     fs.writeFileSync(rewardsFile,JSON.stringify(rewards));
@@ -125,9 +143,6 @@ test("lastmod is stable, selective, and independent of footer year changes",()=>
     const footer=path.join(dir,'src/components/layout/SiteFooter.tsx');
     fs.writeFileSync(footer,fs.readFileSync(footer,'utf8').replaceAll('2026','2027'));
     assert.deepEqual(changedRoutes(contentHashes(dir)),[]);
-    const extended={...base,'/new-page':'new-hash'}, added=reconcile(first,extended,'2026-10-17T00:00:00.000Z');
-    assert.equal(added['/new-page'].lastModified,'2026-10-17T00:00:00.000Z');
-    assert.deepEqual(reconcile(added,base,'2026-10-18T00:00:00.000Z'),first);
   } finally { fs.rmSync(dir,{recursive:true,force:true}); }
 });
 test("width media queries use only 1024 and 768, preserving accessibility rules",()=>{
