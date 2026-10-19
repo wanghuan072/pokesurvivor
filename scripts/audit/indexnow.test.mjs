@@ -8,7 +8,7 @@ import {buildManifest,manifestDiff,FINGERPRINT_VERSION} from "../seo/manifest.mj
 import {sitemapParts} from "../seo/sitemap-xml.mjs";
 import {SITE_URL,PROJECT_ID,REPOSITORY} from "../seo/config.mjs";
 import {productionBaseline,prepareManifest} from "../seo/build-manifest.mjs";
-import {deploymentInput,publishedSite,deliver,submitBatches,submissionUrls,latestReceipt,prepare,RECEIPT_PREFIX} from "../seo/indexnow.mjs";
+import {deploymentInput,publishedSite,hasCanonical,deliver,submitBatches,submissionUrls,latestReceipt,prepare,RECEIPT_PREFIX} from "../seo/indexnow.mjs";
 import {semanticSource} from "../seo/semantic-source.mjs";
 import {assertManifest} from "../seo/manifest-contract.mjs";
 
@@ -132,6 +132,16 @@ test("only added, edited and retired URLs are notified; duplicate events do noth
   const again=await deliver({...f,previous:result.receipt});
   assert.match(again.skipped,/already notified/);assert.equal(f.sent.length,1);
   assert.ok(f.requests.every(r=>!r.options.headers?.Authorization));
+});
+
+test("canonical checks normalize the homepage origin and accept HTML attribute order",async()=>{
+  const html=`<html><link href='${SITE_URL}' rel='canonical'><meta name="robots" content="index, follow"></html>`;
+  assert.equal(hasCanonical(html,SITE_URL+'/'),true);
+  assert.equal(hasCanonical(html,SITE_URL+'/guides'),false);
+  assert.equal(hasCanonical(html.replace(SITE_URL,'https://another.test'),SITE_URL+'/'),false);
+  assert.equal(hasCanonical(html+`<link rel="canonical" href="${SITE_URL}/">`,SITE_URL+'/'),false);
+  const f=fixture(make({'/':'home'}),{pageStatus:{[SITE_URL+'/']:{status:200,html}}});
+  assert.equal((await deliver(f)).acceptedBatches,1);
 });
 
 test("failed notifications retain the prior receipt and retry pending changes next time",async()=>{

@@ -54,6 +54,13 @@ export async function publishedSite(fetcher = fetch) {
   return { id: manifest.deploymentId, manifest };
 }
 
+export function hasCanonical(html, expected) {
+  const tags=(html.match(/<link\b[^>]*>/gi)??[]).filter(tag=>/\brel=["']canonical["']/i.test(tag));
+  if(tags.length!==1)return false;
+  const href=tags[0].match(/\bhref=["']([^"']+)["']/i)?.[1];
+  try { return new URL(href).href===new URL(expected).href; } catch { return false; }
+}
+
 export function submissionUrls(previous, current) {
   const diff = manifestDiff(previous, current);
   const eligible = new Set(current.entries.filter(e => e.indexable).map(e => e.canonicalUrl));
@@ -141,7 +148,7 @@ export async function deliver({ current, previous = null, fetcher = fetch }) {
     const html = await boundedText(response);
     const noindex = /<meta[^>]+name="robots"[^>]+content="[^"]*noindex/i.test(html) || /noindex/i.test(response.headers.get("x-robots-tag") ?? "");
     const intentionallyHidden = manifest.entries.some(e => e.canonicalUrl === url && !e.indexable);
-    if (deleted ? !(intentionallyHidden && noindex) : noindex || !html.includes(`rel="canonical" href="${url}"`)) throw new Error(`URL does not match its indexing policy: ${new URL(url).pathname}`);
+    if (deleted ? !(intentionallyHidden && noindex) : noindex || !hasCanonical(html,url)) throw new Error(`URL does not match its indexing policy: ${new URL(url).pathname}`);
   }
   const ready = await publishedSite(fetcher);
   if (JSON.stringify(ready) !== JSON.stringify(live)) return { skipped: "Production changed before notification" };
