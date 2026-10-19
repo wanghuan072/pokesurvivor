@@ -66,7 +66,8 @@ test("saved weekly regression: Solo frequencies and Group leading lineup", () =>
   const group = recommendationBoard(snapshot.boards.find(b => b.mode === "group" && b.period === "weekly"));
   assert.deepEqual(group.cohorts[0].teams[0].ids, [94, 150]);
   assert.equal(survivalTime(group.cohorts[0].teams[0].bestSeconds), "40:50");
-  assert.equal(group.cohorts[0].teams.length, 3);
+  assert.equal(group.cohorts[0].teams.length, 49);
+  assert.equal(group.cohorts[0].teams.reduce((sum,team)=>sum+team.count,0),50);
   assert.equal(periodLabel(solo), "Week 43, 2026");
   assert.equal(periodLabel({ key: "s_d20261019r" }), "2026-10-19");
   assert.equal(periodLabel({ key: "s_m202610r" }), "2026-10");
@@ -80,9 +81,17 @@ const moves = JSON.parse(fs.readFileSync("src/data/moves/moves.json", "utf8"));
 const editorial = JSON.parse(fs.readFileSync("src/data/tier-list/recommendations.json", "utf8"));
 const editorialCode = { exports: {} };
 Function("exports", ts.transpileModule(fs.readFileSync("src/lib/game/editorial-picks.ts", "utf8"), {compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020}}).outputText)(editorialCode.exports);
-test("editorial shortlist matches the approved priorities and checked underlying mechanics", () => {
+test("editorial grades cover every recorded species without duplicates and retain checked mechanics", () => {
   const picks = editorialCode.exports.editorialPicks(roster, editorial.picks);
-  assert.deepEqual(picks.map(p=>[p.id,p.tier]), [[150,"S"],[94,"S"],[73,"A"],[1015,"A"],[842,"A"],[289,"B"],[802,"B"],[100,"C"]]);
+  const snapshot=JSON.parse(fs.readFileSync("src/data/game/leaderboards.json","utf8"));
+  const recorded=[...new Set(snapshot.boards.flatMap(b=>b.rows.flatMap(r=>r.pokemon.map(p=>p.id))))].sort((a,b)=>a-b);
+  assert.equal(picks.length,73);
+  assert.deepEqual(picks.map(p=>p.id).sort((a,b)=>a-b),recorded,"Every species in every saved mode/period is reviewed exactly once");
+  for(const p of picks){assert.ok(["S","A","B","C"].includes(p.tier));assert.ok(p.reason.length>35);assert.ok(p.watchFor.length>35);}
+  for(const [id,tier] of [[150,"S"],[94,"S"],[73,"A"],[842,"A"],[289,"A"],[802,"A"],[798,"B"],[100,"C"],[113,"C"]])assert.equal(picks.find(p=>p.id===id).tier,tier);
+  assert.equal(picks.find(p=>p.id===987).name,"Flutter Mane");
+  assert.equal(picks.find(p=>p.id===994).name,"Iron Moth");
+  assert.equal(picks.find(p=>p.id===1006).name,"Iron Valiant");
   const mon = id => roster.find(p=>p.id===id);
   assert.equal(mon(150).startMove,"confusion");assert.equal(mon(150).specialAttack,1.55);
   assert.equal(mon(94).startMove,"shadow-ball");assert.equal(mon(94).hp,97);assert.equal(mon(94).defense,60);
@@ -96,7 +105,11 @@ test("editorial shortlist matches the approved priorities and checked underlying
   assert.equal(moves.find(m=>m.id==="confusion").base.homing,2);
   assert.equal(moves.find(m=>m.id==="thunder-shock").base.cd,.4);
   const review=JSON.parse(fs.readFileSync("src/data/guides/review.json","utf8"));assert.equal(editorial.gameVersion,review.liveBuild.v);assert.equal(editorial.reviewed,review.reviewed);
-  assert.ok(picks[0].statLine.includes("1.55"));
+  assert.ok(picks.find(p=>p.id===150).statLine.includes("1.55"));
+  const grassKnot=moves.find(m=>m.id==="giga-drain");
+  assert.equal(grassKnot.name,"Grass Knot");
+  assert.ok(!grassKnot.base.drain,"Legacy internal move IDs must not imply healing");
+  assert.equal(grassKnot.category,"special");
   assert.throws(()=>editorialCode.exports.editorialPicks(roster,[{...editorial.picks[0],id:-1}]));
   assert.throws(()=>editorialCode.exports.editorialPicks(roster,[{...editorial.picks[0],tier:"Z"}]));
 });

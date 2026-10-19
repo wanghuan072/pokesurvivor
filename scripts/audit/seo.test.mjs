@@ -87,6 +87,11 @@ test("lastmod is stable, selective, and independent of footer year changes",()=>
     fs.writeFileSync(boardsFile,JSON.stringify(timingBoards));
     assert.deepEqual(changedRoutes(contentHashes(dir)),['/rankings','/tier-list'],'Survival records update both the recommendations and original leaderboard');
     fs.copyFileSync('src/data/game/leaderboards.json',boardsFile);
+    const monthlyBoards=read(boardsFile);
+    monthlyBoards.boards.find(board=>board.mode==='group'&&board.period==='monthly').rows.at(-1).seconds+=0.1;
+    fs.writeFileSync(boardsFile,JSON.stringify(monthlyBoards));
+    assert.deepEqual(changedRoutes(contentHashes(dir)),['/rankings','/tier-list'],'Non-weekly records and lineups beyond the former top three also update recommendations');
+    fs.copyFileSync('src/data/game/leaderboards.json',boardsFile);
     const shinyBoards=read(boardsFile);
     shinyBoards.boards[0].rows[0].pokemon[0].shiny=!shinyBoards.boards[0].rows[0].pokemon[0].shiny;
     fs.writeFileSync(boardsFile,JSON.stringify(shinyBoards));

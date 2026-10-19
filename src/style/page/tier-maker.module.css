@@ -105,7 +105,6 @@ button:disabled.exportButton,.outlineButton:disabled,.secondaryButton:disabled,.
 .applicationBar { display:flex; flex-wrap:wrap; align-items:center; gap:8px 16px; margin-top:12px; padding-top:10px; border-top:1px solid #264a3f; }
 .applicationBar > span { flex:1 1 270px; color:#99b19f; font-size:11px; line-height:1.8; }
 .applicationBar button { min-height:36px; font-size:10px; }
-.showAll { display:none; }
 .groupFilter { display:flex; align-items:center; flex-wrap:wrap; gap:14px; color:#9cb49f; font-size:11px; margin-bottom:14px; }
 .groupFilter label { display:flex; gap:8px; align-items:center; }
 .groupFilter select { width:140px; }
@@ -189,8 +188,6 @@ button:disabled.exportButton,.outlineButton:disabled,.secondaryButton:disabled,.
   .pickIdentity { gap:5px; }
   .pickIdentity > span { font-size:12px; }
   .pickIdentity small { display:none; }
-  .pickList[data-expanded="false"] tbody tr:nth-child(n+5) { display:none; }
-  .showAll { display:block; width:100%; min-height:44px; margin-top:4px; padding:10px; background:#0c2b37; color:#c8dbbf; border:1px solid #37605b; border-radius:4px; font-family:inherit; font-size:12px; cursor:pointer; }
   .recommendationFooter { margin-top:12px; }
   .groupSummary { grid-template-columns:30px minmax(0,1fr) 66px; gap:9px; }
   .groupMembers { grid-column:2/-1; gap:6px; }

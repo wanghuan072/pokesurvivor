@@ -37,7 +37,7 @@ export function recommendationBoard(board: LeaderboardBoard): RecommendationBoar
       const partners = partnerRecords(rows);
       return {
         size, records: rows.length, partners,
-        teams: board.mode === "group" ? teamRecords(rows).slice(0, 3) : [],
+        teams: board.mode === "group" ? teamRecords(rows) : [],
       };
     }),
   };

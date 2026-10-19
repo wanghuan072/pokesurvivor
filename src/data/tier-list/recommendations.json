@@ -1,55 +1,448 @@
 {
   "reviewed": "2026-10-19",
   "gameVersion": "7c1976458d",
-  "purpose": "General Solo progression, compared within this eight-partner shortlist.",
+  "purpose": "General Solo progression at comparable permanent upgrades. Every species in the saved Solo and Group boards is reviewed; grades are editorial, not controlled gameplay test results.",
   "picks": [
     {
       "id": 150,
       "tier": "S",
-      "reason": "Confusion starts with homing shots and fits its stronger Special attack.",
-      "watchFor": "Favor Special damage cards; Physical buffs strengthen a different attack side."
+      "reason": "Homing Confusion, 1.55 Special attack and speed 133 make a coherent ranged start with room to reposition.",
+      "watchFor": "Build Special damage around its Psychic attacks. Swords Dance boosts Physical attack instead."
     },
     {
       "id": 94,
       "tier": "S",
-      "reason": "Shadow Ball starts with piercing projectiles and fits its stronger Special attack.",
-      "watchFor": "Keep space around you: 97 HP and 60 physical defense leave less room for contact hits."
+      "reason": "Piercing Shadow Ball leads into a Ghost/Poison pool; poison can set up stronger Hex hits.",
+      "watchFor": "97 HP and 60 physical defense punish contact mistakes. Hex needs a status setup."
+    },
+    {
+      "id": 890,
+      "tier": "S",
+      "reason": "Sludge matches 1.50 Special attack; 133 HP and speed 133 give this poison starter a forgiving foundation.",
+      "watchFor": "Poison and Dragon still face type matchups. High stats do not make enemy attack markers safe to ignore."
+    },
+    {
+      "id": 487,
+      "tier": "S",
+      "reason": "138 HP and two defenses of 120 support a piercing Shadow Ball start, with Ghost and Dragon options later.",
+      "watchFor": "Its 1.25 Special attack is moderate beside dedicated damage picks. Invest in damage as well as surviving."
+    },
+    {
+      "id": 484,
+      "tier": "S",
+      "reason": "Water Gun immediately uses 1.52 Special attack; Aqua Ring and Dragon coverage offer several workable directions.",
+      "watchFor": "Keep the main damage route coherent instead of splitting early levels across every available move."
     },
     {
       "id": 73,
       "tier": "A",
-      "reason": "Water Gun provides a piercing start, backed by 120 Special defense.",
-      "watchFor": "Special bulk does not cover its lower physical defense of 65."
+      "reason": "Water Gun, poison options and Aqua Ring offer ranged damage, status and a regeneration route.",
+      "watchFor": "Physical defense is only 65. Poison or Shell Bell does not grant unlimited healing; keep space around you."
     },
     {
       "id": 1015,
       "tier": "A",
-      "reason": "Sludge applies poison from a Special projectile start.",
-      "watchFor": "Physical defense is the weaker side at 66; keep a route out of crowds."
+      "reason": "Sludge fits 1.42 Special attack, with Psychic moves available for a different damage pattern.",
+      "watchFor": "66 physical defense leaves a weak side. Available moves do not all fire simultaneously."
     },
     {
       "id": 842,
       "tier": "A",
-      "reason": "A 120-HP option with Razor Leaf and Giga Drain in its move pool.",
-      "watchFor": "Speed 91 needs deliberate positioning. Vine Whip starts on its weaker Physical side."
+      "reason": "120 HP and a melee Vine Whip start support a close-range plan, with Grass area attacks and Dragon alternatives.",
+      "watchFor": "Speed 91 demands early positioning. Grass Knot deals area damage; it does not restore HP."
     },
     {
       "id": 289,
-      "tier": "B",
-      "reason": "High HP and a strong Physical attack factor suit a Physical-focused plan.",
-      "watchFor": "Tackle starts at short range; Special defense is the weaker side."
+      "tier": "A",
+      "reason": "138 HP and 1.58 Physical attack fit Tackle; active melee also grants the game's 25% damage reduction.",
+      "watchFor": "65 Special defense and close positioning remain weaknesses. This rating does not import Truant from the main games."
     },
     {
       "id": 802,
+      "tier": "A",
+      "reason": "Speed 130 and 1.39 Physical attack suit Karate Chop, with Ghost moves as alternatives.",
+      "watchFor": "Melee reduction helps, but crowds remain dangerous. Special Ghost attacks use its lower attack side."
+    },
+    {
+      "id": 145,
+      "tier": "A",
+      "reason": "Piercing Thunder Shock fits 1.39 Special attack, while Flying moves add other attack patterns.",
+      "watchFor": "Discharge asks you to stay nearer enemies than Thunder Shock. Match your positioning to the active move."
+    },
+    {
+      "id": 65,
+      "tier": "A",
+      "reason": "Homing Confusion and 1.44 Special attack give a direct damage plan with speed 128.",
+      "watchFor": "95 HP and 45 physical defense make it far less forgiving than its damage suggests."
+    },
+    {
+      "id": 135,
+      "tier": "A",
+      "reason": "Speed 133 and an aligned Thunder Shock start make a mobile Electric pick with a clear upgrade route.",
+      "watchFor": "99 HP and 60 physical defense require clean movement. The Electric pool gives limited type variety."
+    },
+    {
+      "id": 151,
+      "tier": "A",
+      "reason": "Confusion starts at range, backed by 115 HP and balanced 100 defenses.",
+      "watchFor": "Its 1.25 Special attack trails Mewtwo. It does not inherit every species' move pool just because it is Mew."
+    },
+    {
+      "id": 196,
+      "tier": "A",
+      "reason": "1.42 Special attack fits homing Confusion and the Psychic upgrade route.",
+      "watchFor": "99 HP and 60 physical defense leave little margin. Psycho Cut uses its weaker Physical attack."
+    },
+    {
+      "id": 243,
+      "tier": "A",
+      "reason": "An aligned Electric start, speed 126 and 110 HP offer a balanced alternative to fragile Electric attackers.",
+      "watchFor": "75 physical defense is its weaker side. Thunderbolt and Discharge are positioning choices, not passive free damage."
+    },
+    {
+      "id": 248,
+      "tier": "A",
+      "reason": "1.44 Physical attack, 115 HP and strong defenses support Rock Throw and the Rock/Dark pool.",
+      "watchFor": "Speed 104 is modest. Not every Dark move uses its stronger Physical attack."
+    },
+    {
+      "id": 250,
+      "tier": "A",
+      "reason": "118 HP and 154 Special defense give staying power while Fire and Flying offer several patterns.",
+      "watchFor": "Ember uses 1.31 Special attack, not 1.42 Physical attack. Physical defense is much lower than Special defense."
+    },
+    {
+      "id": 251,
+      "tier": "A",
+      "reason": "Balanced defenses and homing Confusion combine with Grass area and melee alternatives.",
+      "watchFor": "Grass melee and Psychic projectiles use different categories. The Grass Knot card is area damage, not a healing skill."
+    },
+    {
+      "id": 376,
+      "tier": "A",
+      "reason": "1.44 Physical attack and 130 physical defense support Metal Claw, with Psychic alternatives.",
+      "watchFor": "Speed 107 makes exits worth planning early. Confusion does not use its stronger Physical attack."
+    },
+    {
+      "id": 383,
+      "tier": "A",
+      "reason": "115 HP, 140 physical defense and 1.52 Physical attack reward a transition into Ground options such as Bonemerang.",
+      "watchFor": "Starting Mud Shot is Special and uses only 1.25. Its highest attack stat is not its starting damage factor."
+    },
+    {
+      "id": 385,
+      "tier": "A",
+      "reason": "Metal Claw starts with melee reduction, backed by 115 HP, balanced defenses and Psychic alternatives.",
+      "watchFor": "Neither attack factor exceeds 1.25. Upgrade damage rather than expecting mythical status to carry the run."
+    },
+    {
+      "id": 448,
+      "tier": "A",
+      "reason": "Karate Chop fits its Physical attack, while Aura Sphere is supported by 1.33 Special attack.",
+      "watchFor": "102 HP and two defenses of 70 make risky positioning costly, even with melee reduction."
+    },
+    {
+      "id": 462,
+      "tier": "A",
+      "reason": "Thunder Shock immediately uses 1.42 Special attack, with 115 physical defense and Steel alternatives.",
+      "watchFor": "Speed 103 needs early escape decisions. Metal Claw uses the weaker Physical side."
+    },
+    {
+      "id": 483,
+      "tier": "A",
+      "reason": "115 HP and 120 physical defense give Metal Claw a sturdy base; Special Dragon attacks can use 1.52 later.",
+      "watchFor": "The starter uses 1.36 Physical attack. Plan the transition before investing in the wrong attack category."
+    },
+    {
+      "id": 490,
+      "tier": "A",
+      "reason": "Water Gun, Bubble control and Aqua Ring sit on 115 HP with balanced defenses.",
+      "watchFor": "1.25 Special attack gives less opening damage than Palkia. Regeneration cannot cover every hit."
+    },
+    {
+      "id": 491,
+      "tier": "A",
+      "reason": "Speed 130 and 1.44 Special attack reward a transition from Bite into Dark Pulse or Night Shade.",
+      "watchFor": "Bite begins on its lower Physical side. The early route matters more than the headline Special stat."
+    },
+    {
+      "id": 494,
+      "tier": "A",
+      "reason": "Homing Confusion starts at range, while Fire offers burn and other patterns on balanced stats.",
+      "watchFor": "A broad pool can spread upgrades thin. Choose a main route before filling every slot."
+    },
+    {
+      "id": 609,
+      "tier": "A",
+      "reason": "Shadow Ball uses 1.50 Special attack; Fire burn gives Hex a status setup within its own pool.",
+      "watchFor": "97 HP and speed 112 are less forgiving than the fastest ranged picks. Hex needs an affected target."
+    },
+    {
+      "id": 642,
+      "tier": "A",
+      "reason": "Speed 125 and 1.39 Special attack align with Thunder Shock, with Flying alternatives.",
+      "watchFor": "70 physical defense makes contact dangerous. Flying access does not make every route equally effective."
+    },
+    {
+      "id": 643,
+      "tier": "A",
+      "reason": "Dragon Rage uses 1.52 Special attack, with 115 HP and 120 Special defense supporting Fire/Dragon options.",
+      "watchFor": "Fire is available later, not its starting attack. Weather and enemy types still matter."
+    },
+    {
+      "id": 647,
+      "tier": "A",
+      "reason": "Water Gun uses 1.41 Special attack; Aqua Ring and Special Aura Sphere fit a ranged plan.",
+      "watchFor": "Karate Chop uses the lower 1.10 Physical factor. Fighting moves are not all the same category."
+    },
+    {
+      "id": 658,
+      "tier": "A",
+      "reason": "Speed 129 helps kite with Water Gun, while Water and Dark offer control and different patterns.",
+      "watchFor": "67 physical and 71 Special defense leave little margin for getting trapped."
+    },
+    {
+      "id": 720,
+      "tier": "A",
+      "reason": "Homing Confusion uses 1.52 Special attack, and Ghost adds Shadow Ball and Hex options.",
+      "watchFor": "Speed 107 and 60 physical defense demand an escape plan. Special bulk does not fix contact vulnerability."
+    },
+    {
+      "id": 792,
+      "tier": "A",
+      "reason": "132 HP and 1.45 Special attack support a homing Psychic start with Ghost alternatives.",
+      "watchFor": "The wider pool is a choice of routes, not simultaneous attacks. Avoid abandoning a nearly upgraded main move."
+    },
+    {
+      "id": 796,
+      "tier": "A",
+      "reason": "Thunder Shock immediately uses a very high 1.65 Special factor, with clear Electric upgrade routes.",
+      "watchFor": "Speed 113 and defenses of 71 make damage its selling point, not safety."
+    },
+    {
+      "id": 806,
+      "tier": "A",
+      "reason": "1.53 Special attack supports Ember, while Fire burn and Ghost moves provide a status-to-Hex route.",
+      "watchFor": "94 HP and 53 physical defense make this an unforgiving damage pick rather than a safe beginner default."
+    },
+    {
+      "id": 807,
+      "tier": "A",
+      "reason": "Speed 138 gives a mobile Thunder Shock start with 110 HP and the familiar Electric upgrades.",
+      "watchFor": "The starter uses 1.26 Special attack rather than its higher Physical factor. Do not grade from main-game reputation alone."
+    },
+    {
+      "id": 903,
+      "tier": "A",
+      "reason": "Karate Chop fits 1.42 Physical attack and speed 128, with Poison alternatives.",
+      "watchFor": "60 physical defense remains a weakness despite melee reduction. Special attacks use only a 0.92 factor."
+    },
+    {
+      "id": 911,
+      "tier": "A",
+      "reason": "117 HP and 100 physical defense support a Fire start with Ghost attacks and Hex available later.",
+      "watchFor": "Speed 106 requires moving before gaps close. Ghost access is not an automatic damage combo."
+    },
+    {
+      "id": 987,
+      "tier": "A",
+      "reason": "Piercing Shadow Ball uses 1.44 Special attack, with speed 135 and Fairy alternatives.",
+      "watchFor": "95 HP and 55 physical defense are a sharp weakness despite 135 Special defense.",
+      "name": "Flutter Mane"
+    },
+    {
+      "id": 994,
+      "tier": "A",
+      "reason": "Ember uses 1.47 Special attack; Fire and Poison provide status and different damage patterns.",
+      "watchFor": "60 physical defense makes contact risky. Status application and move upgrades still need investment.",
+      "name": "Iron Moth"
+    },
+    {
+      "id": 1000,
+      "tier": "A",
+      "reason": "1.43 Special attack rewards a switch into Ghost damage; 109 HP and balanced defenses give setup room.",
+      "watchFor": "Metal Claw starts on only 1.03 Physical attack. Its eventual Ghost damage is not its opening strength."
+    },
+    {
+      "id": 1006,
+      "tier": "A",
+      "reason": "Speed 127, 1.42 Physical and 1.36 Special attack keep Fighting and Fairy routes usable.",
+      "watchFor": "Fairy Wind is the starter, not Karate Chop. 60 Special defense makes its defenses uneven.",
+      "name": "Iron Valiant"
+    },
+    {
+      "id": 3,
       "tier": "B",
-      "reason": "A fast Physical option with Karate Chop and Ghost moves in its pool.",
-      "watchFor": "Karate Chop needs close positioning. Keep an exit from the crowd."
+      "reason": "106 HP and Vine Whip support a close-range start, with Grass area attacks and Poison alternatives.",
+      "watchFor": "Speed 112 and moderate attack factors give less immediate pressure than the strongest ranged starts."
+    },
+    {
+      "id": 6,
+      "tier": "B",
+      "reason": "Ember fits 1.30 Special attack; Fire and Flying offer projectile, orbit and movement routes.",
+      "watchFor": "The starter needs upgrades for crowds. Mixed categories make blind Physical investment inefficient."
+    },
+    {
+      "id": 26,
+      "tier": "B",
+      "reason": "Thunder Shock offers a simple piercing start with Discharge or Thunderbolt as follow-ups.",
+      "watchFor": "55 physical defense and 1.20 Special attack make Jolteon or Raikou more attractive at equal investment."
+    },
+    {
+      "id": 34,
+      "tier": "B",
+      "reason": "Sludge adds poison early; Ground offers area control or a Physical Bonemerang route.",
+      "watchFor": "Sludge uses 1.17 Special attack, not the higher Physical factor. Choose which category to develop."
+    },
+    {
+      "id": 55,
+      "tier": "B",
+      "reason": "Water Gun, slowing Bubble moves and Aqua Ring offer a straightforward ranged survival route.",
+      "watchFor": "Its 1.22 Special factor and moderate bulk are less exceptional than the stronger Water alternatives."
+    },
+    {
+      "id": 106,
+      "tier": "B",
+      "reason": "1.36 Physical attack fits Karate Chop, with 110 Special defense and active melee reduction.",
+      "watchFor": "92 HP and 53 physical defense punish contact. Aura Sphere uses a much lower 0.89 Special factor."
+    },
+    {
+      "id": 169,
+      "tier": "B",
+      "reason": "Speed 133 helps reposition around Sludge, with Flying patterns available later.",
+      "watchFor": "Sludge uses just 1.08 Special attack. Speed alone does not solve weak starting damage."
+    },
+    {
+      "id": 233,
+      "tier": "B",
+      "reason": "108 HP and defenses of 90/95 give a stable foundation for shared Normal moves.",
+      "watchFor": "Tackle uses 1.14 Physical attack, not its stronger Special factor. Its typed pool is narrow."
+    },
+    {
+      "id": 257,
+      "tier": "B",
+      "reason": "Fire and Fighting offer several routes with both attack factors above 1.30.",
+      "watchFor": "Ember starts without melee reduction. Speed 112 and defenses of 70 need careful early movement."
+    },
+    {
+      "id": 306,
+      "tier": "B",
+      "reason": "180 physical defense and 1.31 Physical attack fit Metal Claw and Rock attacks.",
+      "watchFor": "Speed 99 and 60 Special defense expose weaknesses that its high physical defense can hide."
+    },
+    {
+      "id": 377,
+      "tier": "B",
+      "reason": "200 physical defense and 106 HP give Rock Throw a sturdy base against physical damage.",
+      "watchFor": "Speed 99 limits escape room. Its typed pool and damage are less flexible than the leading ranged picks."
+    },
+    {
+      "id": 386,
+      "tier": "B",
+      "reason": "Speed 141 and 1.52 Special attack make homing Confusion an aggressive movement-and-damage option.",
+      "watchFor": "92 HP and both defenses at 50 leave little safety cushion. This list favors general progression over maximum-risk damage."
+    },
+    {
+      "id": 392,
+      "tier": "B",
+      "reason": "Speed 123 and balanced attack factors keep Fire and Fighting routes open from an Ember start.",
+      "watchFor": "Defenses of 71 make crowds costly. Switching to melee changes positioning and the relevant attack stat."
+    },
+    {
+      "id": 409,
+      "tier": "B",
+      "reason": "1.61 Physical attack gives Rock Throw a clear damage focus, with Rock Slide available later.",
+      "watchFor": "Speed 102 and defenses of 60/50 make it much less forgiving than the attack factor suggests."
+    },
+    {
+      "id": 442,
+      "tier": "B",
+      "reason": "Shadow Ball starts at range; Ghost/Dark options are backed by two defenses of 108.",
+      "watchFor": "92 HP and speed 93 make bad positioning hard to recover from. Arrange status before relying on Hex."
+    },
+    {
+      "id": 475,
+      "tier": "B",
+      "reason": "1.39 Physical attack supports Psycho Cut or Karate Chop, with 115 Special defense.",
+      "watchFor": "Confusion starts on its lower 1.06 Special side; 65 physical defense adds an opening vulnerability."
+    },
+    {
+      "id": 547,
+      "tier": "B",
+      "reason": "Speed 127 helps position Vine Whip, with Grass area attacks and Fairy alternatives.",
+      "watchFor": "Attack factors of 1.07/1.12 give modest starting damage. The Grass pool does not establish a team-healer role."
+    },
+    {
+      "id": 567,
+      "tier": "B",
+      "reason": "Speed 124 and 1.47 Physical attack fit Rock Throw, with Flying alternatives.",
+      "watchFor": "Both defenses are 65. This assessment does not import the main-game Defeatist ability."
+    },
+    {
+      "id": 638,
+      "tier": "B",
+      "reason": "Metal Claw starts with melee reduction, backed by 111 HP, speed 123 and 129 physical defense.",
+      "watchFor": "Both attack factors are only 1.20, and 72 Special defense is the weaker side."
+    },
+    {
+      "id": 655,
+      "tier": "B",
+      "reason": "Ember fits 1.33 Special attack, while Psychic offers homing and other ranged options.",
+      "watchFor": "72 physical defense requires spacing. Fire and Psychic upgrades compete for early choices."
+    },
+    {
+      "id": 798,
+      "tier": "B",
+      "reason": "1.70 Physical attack fits Vine Whip, with 131 physical defense and Steel alternatives.",
+      "watchFor": "31 Special defense is an extreme weakness. Melee reduction helps but does not erase that risk."
+    },
+    {
+      "id": 815,
+      "tier": "B",
+      "reason": "Speed 128 makes Ember mobile, while Flame Wheel and shared Normal attacks offer Physical alternatives.",
+      "watchFor": "Ember uses only 1.06 Special attack, not its 1.34 Physical factor. Plan a route rather than stacking the wrong buff."
+    },
+    {
+      "id": 849,
+      "tier": "B",
+      "reason": "Thunder Shock uses 1.33 Special attack, with Poison adding status options.",
+      "watchFor": "Speed 110 and defenses of 70 need more deliberate positioning than the faster Electric picks."
+    },
+    {
+      "id": 887,
+      "tier": "B",
+      "reason": "Speed 138 helps kite with Dragon Rage, with Ghost alternatives.",
+      "watchFor": "The starter uses 1.25 Special attack rather than 1.36 Physical attack. Both defenses are 75."
+    },
+    {
+      "id": 937,
+      "tier": "B",
+      "reason": "1.39 Physical attack supports a planned switch into Physical options from the Fire/Ghost pool.",
+      "watchFor": "Ember and Shadow Ball use only 1.03 Special attack. Its main-game identity is not proof of a drain-based carry here."
+    },
+    {
+      "id": 978,
+      "tier": "B",
+      "reason": "Dragon Rage uses 1.36 Special attack; Water adds piercing shots, slow and Aqua Ring.",
+      "watchFor": "101 HP and 60 physical defense leave a weak side. No assumed Dondozo partnership is included in this rating."
     },
     {
       "id": 100,
       "tier": "C",
-      "reason": "Thunder Shock starts fast and pierces; Discharge and Thunderbolt are available later.",
-      "watchFor": "Lower HP, defenses and Special attack make it a lower-priority choice in this shortlist."
+      "reason": "Thunder Shock starts fast and pierces, with Discharge and Thunderbolt available later.",
+      "watchFor": "88 HP, low defenses and a 1.00 Special factor put it behind the other reviewed Electric options at equal investment."
+    },
+    {
+      "id": 113,
+      "tier": "C",
+      "reason": "182 HP and 105 Special defense give a large health reserve for a Normal-focused challenge pick.",
+      "watchFor": "Physical defense is only 5, and Tackle uses a 0.73 factor. High HP does not establish a tank or team-healer role."
+    },
+    {
+      "id": 219,
+      "tier": "C",
+      "reason": "120 physical defense and a Fire/Rock pool offer routes worth experimenting with.",
+      "watchFor": "Speed 91, 97 HP and a 1.20 Special starter make pressure harder to manage than on most reviewed alternatives."
     }
   ]
 }
