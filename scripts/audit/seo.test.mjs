@@ -92,6 +92,16 @@ test("lastmod is stable, selective, and independent of footer year changes",()=>
     fs.writeFileSync(rewardsFile,JSON.stringify(rewards));
     assert.deepEqual(changedRoutes(contentHashes(dir)),['/level-up']);
     fs.copyFileSync('src/data/game/boss-rewards.json',rewardsFile);
+    const rosterFile=path.join(dir,'src/data/pokedex/pokemon.json'), roster=read(rosterFile);
+    roster.find(p=>p.id===1).physicalAttack+=.01;
+    fs.writeFileSync(rosterFile,JSON.stringify(roster));
+    assert.deepEqual(changedRoutes(contentHashes(dir)),['/level-up','/pokedex'],'Attack factors affect the roster and partner cards, not unrelated pages');
+    fs.copyFileSync('src/data/pokedex/pokemon.json',rosterFile);
+    const mechanicsFile=path.join(dir,'src/data/game/mechanics.json'), mechanics=read(mechanicsFile);
+    mechanics.defense.reference+=1;
+    fs.writeFileSync(mechanicsFile,JSON.stringify(mechanics));
+    assert.deepEqual(changedRoutes(contentHashes(dir)),['/types'],'A defense formula input only updates the page displaying that calculation');
+    fs.copyFileSync('src/data/game/mechanics.json',mechanicsFile);
     const homeFile=path.join(dir,'src/data/site/home.json'), home=read(homeFile);
     home.intro+=' Choose your next partner.';
     fs.writeFileSync(homeFile,JSON.stringify(home));

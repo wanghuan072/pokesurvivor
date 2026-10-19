@@ -14,7 +14,7 @@ export default function LegalPage({ slug }: { slug: LegalSlug }) {
       {page.sections.map((section) => <section key={section.heading}>
         <h2>{section.heading}</h2>{section.paragraphs.map((text) => <p key={text}>{text}</p>)}
       </section>)}
-      {slug === "copyright" && <p><a href="/credits/spritecollab-artists.md">SpriteCollab artist credits</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> · <a href="/credits/pokesurvivor-license.txt">Game archive license</a></p>}
+      {slug === "copyright" && <p><a href="/credits/spritecollab-artists.md">SpriteCollab artist credits</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> · <a href="/credits/pokesurvivor-license.txt">Historical archive license</a> · <a href="/credits/pokesurvivor-current-license.txt">Current game license notice</a> · <a href="/credits/pokesurvivor-noncommercial.md">PolyForm Noncommercial 1.0.0</a></p>}
       <p><a href="mailto:support@pokesurvivor.me">support@pokesurvivor.me</a></p>
       <nav className={s.chips} aria-label="Legal pages">{legalLinks.filter((link) => link.href !== path).map((link) => <a href={link.href} key={link.href}>{link.label}</a>)}</nav>
     </article>

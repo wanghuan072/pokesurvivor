@@ -18,7 +18,7 @@ export const tdk = {
   },
   "/pokedex": {
     "title": "PokeSurvivor Pokédex - All 966 Playable Pokémon",
-    "description": "Browse 966 PokeSurvivor Pokémon by type, region and rarity. Compare base HP, attack and speed, find starters and view normal or shiny partner sprites.",
+    "description": "Browse 966 PokeSurvivor Pokémon by type, region and rarity. Compare physical and special attack, defenses and speed, then find a partner’s move cards.",
     "targetKeywords": [
       "PokeSurvivor",
       "pokedex"
@@ -26,7 +26,7 @@ export const tdk = {
   },
   "/level-up": {
     "title": "PokeSurvivor Level-Up Cards, Boss Rewards and Bonds",
-    "description": "Explore PokeSurvivor level-up cards by Pokémon. Check starting moves, upgrade values, evolution recipes, boss equipment rewards and how Bond fusions work.",
+    "description": "Explore PokeSurvivor level-up cards by Pokémon. Compare 65 moves, physical and special attack fit, evolution recipes, held items and Bond fusions.",
     "targetKeywords": [
       "PokeSurvivor",
       "level up"

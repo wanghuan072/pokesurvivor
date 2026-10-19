@@ -14,6 +14,15 @@ function survivalTime(seconds: number) {
   const whole = Math.floor(seconds), minutes = Math.floor(whole / 60), remaining = String(whole % 60).padStart(2, "0");
   return minutes >= 60 ? `${Math.floor(minutes / 60)}:${String(minutes % 60).padStart(2, "0")}:${remaining}` : `${minutes}:${remaining}`;
 }
+function periodLabel(board:Board) {
+  const day=board.key.match(/_d(\d{4})(\d{2})(\d{2})/);
+  if(day)return `${day[1]}-${day[2]}-${day[3]}`;
+  const week=board.key.match(/_w(\d{4})-(\d+)/);
+  if(week)return `Week ${week[2]}, ${week[1]}`;
+  const month=board.key.match(/_m(\d{4})(\d{2})/);
+  if(month)return `${month[1]}-${month[2]}`;
+  return 'All-time · post-reset board';
+}
 export default function SurvivalRankings({boards, partners}: { boards: Board[]; partners: {id: number; name: string}[] }) {
   const [mode, setMode] = useState("solo");
   const [period, setPeriod] = useState<(typeof periods)[number]>("weekly");
@@ -40,7 +49,7 @@ export default function SurvivalRankings({boards, partners}: { boards: Board[]; 
         <label>Pokémon in this board<select value={species} onChange={event => setSpecies(event.target.value)}><option value="">All Pokémon</option>{availablePartners.map(p => <option key={p.id} value={p.id}>{p.name}</option>)}</select></label>
         <button onClick={() => { setQuery(""); setSpecies(""); }}>Reset filters</button>
       </div>
-      <div className={s.status} aria-live="polite"><span>{mode === "solo" ? "Solo" : "Group"} · {labels[period]} · {rows.length} / {board.rows.length} records</span><span>Captured {date.format(new Date(board.capturedAt))} UTC</span></div>
+      <div className={s.status} aria-live="polite"><span>{mode === "solo" ? "Solo" : "Group"} · {periodLabel(board)} · {rows.length} / {board.rows.length} records</span><span>Captured {date.format(new Date(board.capturedAt))} UTC</span></div>
       <div className={s.viewport} tabIndex={0} role="region" aria-label="Scroll leaderboard records">
         <ol className={s.list}>
           {rows.map(row => <li key={row.rank} value={row.rank} className={s.row} data-podium={row.rank <= 3}>
@@ -52,7 +61,7 @@ export default function SurvivalRankings({boards, partners}: { boards: Board[]; 
         </ol>
         {!rows.length && <p className={s.empty}>No records match these filters. Try another nickname or reset the filters.</p>}
       </div>
-      <footer className={s.boardFooter}>Saved official board · not live. Filtering keeps the original board positions.</footer>
+      <footer className={s.boardFooter}>Saved official board · not live. Daily, weekly and monthly tabs refer to the displayed period, not today’s live board. Game calendar: Europe/Madrid. Filtering keeps the original positions.</footer>
     </section>
     <div className={s.notes}>
       <article><h2>What these records show</h2><p>The game orders these boards by survival time. Each row shows the player or team, their partners, level and defeated count. A listed record is not a strength rating or an independently verified run.</p></article>

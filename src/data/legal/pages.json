@@ -130,7 +130,7 @@
       {
         "heading": "Other assets and licenses",
         "paragraphs": [
-          "The supplied game archive identifies code and icon definitions under an MIT license; the original notice is retained. Pixelify Sans is distributed under the SIL Open Font License. These permissions apply to their specified material and should not be extended to unrelated names, characters or artwork.",
+          "The historical game archive’s MIT notice is retained separately. Official code published after commit b297089 is identified by its creator under PolyForm Noncommercial 1.0.0; the current notice and full license are linked below. The older MIT notice does not describe later releases. Pixelify Sans uses the SIL Open Font License, and SpriteCollab artwork has its own notice.",
           "Decorative illustrations and website branding are not screenshots proving a live gameplay result. They should not be treated as game documentation or as a grant to reuse third-party intellectual property."
         ]
       },
@@ -148,7 +148,7 @@
       {
         "heading": "A guide for the next run",
         "paragraphs": [
-          "PokeSurvivor.me helps players make the decisions that come up during a run: which partner to try, whether to take a stat card, what a move needs to evolve and when to change a plan. You can launch the official game, compare partners in the Pokédex or read one of three focused guides.",
+          "PokeSurvivor.me helps players make the decisions that come up during a run: which partner to try, whether to take a stat card, what a move needs to evolve and when to change a plan. You can launch the official game, compare partners in the Pokédex or read one of four focused guides.",
           "The site is useful both before a run and when you want to understand a choice afterward. The Level-up page keeps partner move pools, card effects and evolution requirements together. The guides explain how to prioritize upgrades and adapt when a particular card is not offered."
         ]
       },

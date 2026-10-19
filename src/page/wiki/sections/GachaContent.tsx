@@ -1,9 +1,12 @@
 import ShinyReference from "@/page/guides/sections/ShinyReference";
 import GachaData from "./GachaData";
 import s from "@/style/common/content.module.css";
+import { pokemon } from "@/lib/data/pokemon";
+import GachaTarget from "./GachaTarget";
 export default function Gacha() {
   return (
     <>
+      <GachaTarget partners={pokemon.map(({id,name,region,rarity})=>({id,name,region,rarity}))}/>
       <article className={`${s.article} prose`}>
         <h2>How the two guarantees work</h2>
         <p>
@@ -38,13 +41,8 @@ export default function Gacha() {
           same pool and rarity; if none remains, it returns a normal result. A
           non-shiny duplicate refunds the coins listed below.
         </p>
-        <p>
-          Do not plan coin income around a guaranteed triple refund after
-          completing a shiny pool. The game can redirect an owned shiny to a
-          missing one or return a normal result when none remain.
-        </p>
         <div className={s.chips}>
-          <a href="/guides/gacha-and-tickets#shiny">Shiny hunting guide →</a>
+          <a href="/guides/shiny-pokemon">Shiny hunting guide →</a>
           <a href="/pokedex">Find a target partner →</a>
         </div>
       </article>

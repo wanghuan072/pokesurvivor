@@ -2,9 +2,11 @@ import type { GuideSection } from "@/types/guide";
 import { CollectionPokemonArt } from "@/components/common/CollectionPokemonArt";
 import s from "@/style/page/guides.module.css";
 import c from "@/style/common/content.module.css";
+import Image from "next/image";
 
 export default function GuideSectionBlocks({ section }: { section: GuideSection }) {
   return <>
+    {section.figure&&<figure><div className={s.articleCover}><Image src={section.figure.src} alt={section.figure.alt} fill sizes="(max-width: 768px) 90vw, 800px"/></div><figcaption className={c.source}>{section.figure.caption}</figcaption></figure>}
     {section.steps && <ol>{section.steps.map(text => <li key={text}>{text}</li>)}</ol>}
     {section.bullets && <ul>{section.bullets.map(text => <li key={text}>{text}</li>)}</ul>}
     {section.table && <div className={c.tableWrap}><table className={c.table}>

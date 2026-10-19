@@ -2,7 +2,7 @@
 
 ## 内容、SEO 与品牌（2026-10-15，当前发布规则）
 
-- 当前共 21 个正式页面；仅三篇 Guides 文章及 FAQ 保留详情地址。下方较早记录属于历史，不代表当前发布范围。
+- 当前共 21 个正式页面；仅四篇 Guides 文章及 FAQ 保留详情地址。下方较早记录属于历史，不代表当前发布范围。机制已于 2026-10-19 核对至 `7c1976458d`，详见 `docs/content/mechanics-review-2026-10-19.md`。
 - 静态页面 TDK 集中在 `src/seo/tdk.js`，Hero 位于 `src/data/site/pages.json`；指南和 FAQ 的 SEO 随各自 JSON 内容维护。标题使用绝对值，不再重复追加品牌。
 - 五个 Legal 页面使用 `/legal/` 路径；旧 `/about`、`/privacy-policy`、`/contact` 为永久跳转。页脚统一使用正常站内链接，版权年份在客户端自动更新。
 - Canonical、社交地址及结构化数据使用 `https://pokesurvivor.me`。默认禁止索引；正式发布环境明确设置 `SITE_INDEXABLE=true`。`VERCEL_ENV=preview` 始终禁止索引，不受该开关覆盖。

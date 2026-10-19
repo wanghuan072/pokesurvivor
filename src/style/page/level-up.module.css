@@ -144,7 +144,7 @@
 .startException { color:#e3ce97; border-left:2px solid #bfa459; padding:6px 10px; font-size:11px; line-height:1.7; margin:10px 0 0; }
 .catalogTabs { margin:13px 0; gap:6px; }
 .catalogTabs button { padding:9px 12px; min-height:38px; font-size:11px; }
-.catalogTools { display:grid; grid-template-columns:minmax(100px,1.2fr) minmax(80px,.8fr) minmax(90px,.9fr) auto; gap:8px; align-items:end; }
+.catalogTools { display:grid; grid-template-columns:minmax(0,1.2fr) repeat(3,minmax(0,.8fr)) auto; gap:8px; align-items:end; }
 .catalogTools label { display:flex; flex-direction:column; gap:5px; color:#a7bd9f; font-size:9px; min-width:0; }
 .catalogTools input,.catalogTools select { width:100%; min-width:0; min-height:36px; padding:8px; background:#061d28; color:#dbd8b5; border:1px solid #5c714b; border-radius:2px; font-size:10px; }
 .catalogTools button { min-height:36px; padding:7px 9px; border:1px solid #887c4e; border-radius:2px; background:#21392b; color:#ddca8d; font-size:10px; cursor:pointer; }

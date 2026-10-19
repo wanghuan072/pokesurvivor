@@ -17,6 +17,7 @@ import GuideSectionBlocks from "./sections/GuideSectionBlocks";
 import GuideArtwork from "./sections/GuideArtwork";
 import s from "@/style/page/guides.module.css";
 import c from "@/style/common/content.module.css";
+import mechanics from "@/data/game/mechanics.json";
 function RecipeExamples() {
   return (
     <div className={s.recipeGrid}>
@@ -101,6 +102,7 @@ export default function GuidePage({ guide: g }: { guide: Guide }) {
               <span>{g.readTime} MIN READ</span>
               <span>UPDATED <time dateTime={pageUpdatedAt(`/guides/${g.slug}`)}>{pageUpdatedAt(`/guides/${g.slug}`).slice(0, 10)}</time></span>
               <a href="/legal/about-us">BY POKESURVIVOR.ME</a>
+              <span>RULES CHECKED <time dateTime={mechanics.reviewed}>{mechanics.reviewed}</time> · {mechanics.build}</span>
             </div>
             <div className={s.takeaways}>
               <h2>What you’ll learn</h2>

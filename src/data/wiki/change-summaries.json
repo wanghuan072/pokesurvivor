@@ -20,7 +20,9 @@
       "New Rift openings stop from minute 28. The former minute-60 overtime system was removed.",
       "Historical leaderboards were reset for the new endgame rules."
     ],
-    "fixed": ["Gacha unlocks and rewards now save to the cloud immediately."]
+    "fixed": [
+      "Gacha unlocks and rewards now save to the cloud immediately."
+    ]
   },
   "2026-10-12": {
     "added": [
@@ -39,5 +41,29 @@
       "Players can build groups of up to four linked moves, freeing slots as attacks are joined."
     ],
     "fixed": []
+  },
+  "2026-10-18": {
+    "added": [
+      "Physical and special attack categories, separate attacking and defending stats, and the Nasty Plot buff.",
+      "Controller support, optional Manual aim, a pause-screen run summary and the Save button."
+    ],
+    "changed": [
+      "Swords Dance and Dragon Dance now boost physical attacks only. New-move sampling favors the partner’s stronger side.",
+      "Judgment speed has a soft cap and later contact damage increases. Leaderboards restarted for these rules.",
+      "Large partners use adjusted player scale and collision sizes. At most three healers, shielders or summoners can be alive in each role."
+    ],
+    "fixed": [
+      "Card choices briefly ignore input when they appear, reducing accidental selections.",
+      "Leaderboard values are sanitized and validation was tightened."
+    ]
+  },
+  "2026-10-19": {
+    "added": [],
+    "changed": [
+      "Cloud uploads are scheduled after about 30 minutes with pending changes. Use Save and confirm the status before changing devices.",
+      "Gacha pulls, run completion and tab switches no longer trigger immediate cloud uploads; browser-local records remain separate."
+    ],
+    "fixed": [],
+    "title": "Cloud save timing and the Save button"
   }
 }

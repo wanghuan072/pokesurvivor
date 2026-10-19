@@ -9,11 +9,11 @@
   },
   "/pokedex": {
     "heading": "PokeSurvivor Pokédex - Find Your Next Partner",
-    "intro": "Browse all 966 Pokémon in a compact collection grid. Hover, focus or tap a partner to compare its base stats, rarity and normal or shiny appearance."
+    "intro": "Browse 966 partners by type, region and rarity. Compare physical and special attack factors, defenses and speed, then open the selected partner’s move cards."
   },
   "/level-up": {
     "heading": "PokeSurvivor Level-Up Cards and Move Evolutions",
-    "intro": "Find the next card for your run. Browse moves by partner, check evolution recipes, compare stat upgrades and understand boss rewards."
+    "intro": "Compare all 65 moves by partner, Physical or Special category and evolution requirement. Check the cards, equipment and Bonds that fit your current run."
   },
   "/tier-list": {
     "heading": "PokeSurvivor Tier List - Make Your Own Rankings",

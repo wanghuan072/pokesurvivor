@@ -20,6 +20,8 @@ export default function PartnerSpotlight() {
             <CollectionPokemonArt id={partner.id} name={partner.name} size={96} />
             <div className={s.typeTags}>{partner.types.map((type) => <span className="type" data-type={type} key={type}>{type}</span>)}</div>
             <h3>{partner.name}</h3>
+            <p>{partner.rarity}★ · {partner.physicalAttack===partner.specialAttack?"Balanced attack":partner.specialAttack>partner.physicalAttack?"Special attack":"Physical attack"}</p>
+            <a href={`/level-up?partner=${partner.id}#move-cards`}>Compare move cards →</a>
           </li>
         ))}
       </ul>

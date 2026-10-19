@@ -7,7 +7,7 @@
     "image": "/game/screenshots/battlefield.webp",
     "imageAlt": "Grass battlefield from the official PokeSurvivor game",
     "category": "START HERE",
-    "readTime": 4,
+    "readTime": 6,
     "outcomes": [
       "Controls and active move slots",
       "A practical early-run plan",
@@ -34,8 +34,14 @@
         "paragraphs": [
           "Move with WASD or the arrow keys on desktop. Select an attack slot with 1–4, cycle with Q/E or use the move icons. Esc pauses. On mobile, use landscape orientation, drag to move and tap the move icons. Give the battlefield enough screen space to see warning markers.",
           "Only the selected slot triggers attacks. Learning four moves does not make all four cast together. Switch when the current attack no longer suits the approaching enemies. Some already-created projectiles or timed buffs can persist after switching; Bonds later let multiple moves cast from one active slot. Choice Band is an item exception that prevents ordinary slot switching while equipped.",
-          "Circle the edge of a group and keep a second exit in mind. Take nearby experience when the route is open. If a warning circle or line appears, leave it before returning for the pickup. Crossing the center of a horde for one experience gem often costs more health than the level is worth."
-        ]
+          "Circle the edge of a group and keep a second exit in mind. Take nearby experience when the route is open. If a warning circle or line appears, leave it before returning for the pickup. Crossing the center of a horde for one experience gem often costs more health than the level is worth.",
+          "A controller can move, switch attacks, pause and operate menus; check Settings > Controls for your device. Automatic firing and automatic aiming are separate: Manual aim in Settings > Accessibility is off by default and lets a mouse or right stick control direction. Try it in open space before committing to a close-range attack."
+        ],
+        "figure": {
+          "src": "/game/screenshots/battlefield.webp",
+          "alt": "PokeSurvivor battlefield with enemies and room to move around the player",
+          "caption": "Game battlefield: keep an escape route open before moving in for experience. This image illustrates positioning, not a fixed enemy spawn."
+        }
       },
       {
         "id": "levels",
@@ -43,23 +49,25 @@
         "paragraphs": [
           "Your first job is to establish a reliable attack and stay alive long enough to improve it. At a level-up, read all three offers: a new move changes your options, a move upgrade strengthens an existing attack, and a stat card helps the current run or satisfies an evolution condition.",
           "Choose one main evolution instead of distributing early levels evenly across every available move. Ember, for example, needs level 5 and a Power card taken in the same run. The card can be taken before level 5. Once ready, select the gold evolution offer; permanent menu upgrades do not substitute for that run card.",
-          "If you are losing health because enemies survive too long, improving the main attack may help. If you are repeatedly trapped, change the route and attack spacing before assuming another damage card will fix it. Survival choices can justify delaying the planned evolution."
+          "If you are losing health because enemies survive too long, improving the main attack may help. If you are repeatedly trapped, change the route and attack spacing before assuming another damage card will fix it. Survival choices can justify delaying the planned evolution.",
+          "Check Physical or Special on the card as well as its type. A partner can learn a compatible attack that uses its weaker attack factor. For example, Machamp favors physical attacks such as Karate Chop; being able to learn Shadow Ball does not make its special damage equally strong. The Level-up page shows this difference for the partner you choose."
         ]
       },
       {
         "id": "waves",
         "title": "4. Read waves and bosses as changing pressure",
         "paragraphs": [
-          "Outside type-horde events, the checked game draws seven species per wild-enemy tier from overlapping base-stat-total bands. Later tiers join the pool while older casts continue with less weight. The schedule below describes eligibility, not a promise that a named species appears at that minute.",
+          "Outside type-horde events, the game draws seven species per wild-enemy tier from overlapping base-stat-total bands. Later tiers join the pool while older casts continue with less weight. The schedule below describes eligibility, not a promise that a named species appears at that minute.",
           "A healer or shielder can make an ordinary crowd harder to clear. A summoner adds bodies, a runner intercepts a predictable route and a bomber punishes staying close. Beam, jump and ground-zone warnings give you information: move out of the marked area first, then decide whether to attack or collect experience.",
-          "Boss slots in this archive begin at 3, 6, 9, 12 and 15 minutes, with a different selection each run. The displayed HP and damage are templates before species, time, behavior, spawner and co-op modifiers. Use the candidate lists to recognize possibilities, not to predict exact fight length."
+          "Boss slots in the game begin at 3, 6, 9, 12 and 15 minutes, with a different selection each run. The displayed HP and damage are templates before species, time, behavior, spawner and co-op modifiers. Use the candidate lists to recognize possibilities, not to predict exact fight length.",
+          "At 30:00, once any current Rift or card choice ends, the Judgment of Arceus begins. Arceus is invulnerable, and a new legendary joins every five seconds. Movement speed above 130 has only a quarter of its normal extra effect in this phase. Arceus accelerates further after five minutes; its contact damage rises after seven and can reach your full HP after ten. These are escalating hazards, not a fixed 40-minute end screen."
         ]
       },
       {
         "id": "world",
         "title": "5. Stop for rewards only when you have an exit",
         "paragraphs": [
-          "A locked chest takes 3.5 seconds nearby to open in the local archive, and enemies keep attacking. Move away when the space closes; opening progress decays rather than forcing you to remain. Healing springs consume charge, while an altar grants a temporary effect instead of permanent strength.",
+          "A locked chest takes 3.5 seconds nearby to open in the game, and enemies keep attacking. Move away when the space closes; opening progress decays rather than forcing you to remain. Healing springs consume charge, while an altar grants a temporary effect instead of permanent strength.",
           "A Rift takes you into a separate legendary arena. Each victory grants a Bond for move fusion; it does not automatically unlock a normal legendary partner. Check your health, attack and the arena’s 120-second limit before entering. Losing the challenge returns you to the map without the victory reward. New Rifts stop opening at 28:00 before the Judgment of Arceus.",
           "Other events include type hordes, golden hour, rescues and fleeing treasure thieves. A timer or a shiny-looking reward does not make a chase safe. Check the event effects below before deciding whether to change your route."
         ]
@@ -71,6 +79,20 @@
           "After a run, identify the immediate cause: a warning marker you stayed in, an escape lane you closed, an attack that did not cover the crowd, or insufficient damage against a durable enemy. Pick one change for the next attempt so you can tell whether it helped.",
           "Run cards disappear after the run. Tickets expand the collection through regional banners; coins can buy upgrades for the selected partner. Spend according to your goal rather than treating every currency as interchangeable.",
           "A useful first-run checklist is simple: know the active slot, keep a clear route, focus one evolution, select its required stat card and leave a dangerous reward behind when necessary. Review the upgrade cards and type chart before your next attempt."
+        ]
+      },
+      {
+        "id": "save-progress",
+        "title": "7. Save before leaving or changing devices",
+        "paragraphs": [
+          "With a signed-in account, changes are recorded in the current browser first. Cloud uploads are scheduled after about 30 minutes with pending changes. Finishing a run or making a gacha pull is no longer a promise of an immediate cloud upload.",
+          "Use Save at the top right before closing or switching devices. Check that the pending indicator clears. If a recent upload is still inside the minimum interval, the button may queue the next upload rather than finish immediately; wait for the status shown in the game. A guest session does not keep permanent progress."
+        ],
+        "links": [
+          {
+            "label": "Questions about saves",
+            "href": "/guides/faq"
+          }
         ]
       }
     ],
@@ -93,7 +115,7 @@
     "image": "/game/screenshots/card-choices.webp",
     "imageAlt": "Agility, Power and Poison Sting offered as level-up choices in PokeSurvivor",
     "category": "BUILD A BETTER LOADOUT",
-    "readTime": 4,
+    "readTime": 6,
     "outcomes": [
       "Know what each card choice does",
       "Plan compatible evolution recipes",
@@ -115,48 +137,88 @@
         ]
       },
       {
+        "id": "physical-special",
+        "title": "2. Match Physical and Special to your partner",
+        "paragraphs": [
+          "Move type and attack category answer different questions. Fire, Water and the other types determine matchups and weather; Physical or Special determines which attack factor your partner uses and which defense the target uses. Your partner’s old single attack factor is the higher of its physical and special factors.",
+          "Swords Dance and Dragon Dance boost physical attack only. Nasty Plot boosts special attack and belongs to the Normal pool, so every partner can receive it. It does not help the damage of a physical attack. Choose a buff for the damaging moves you actually intend to use together.",
+          "The percentage beside a move in Level-up compares your partner’s attack factor for that category with its stronger factor. It is not a hit chance or measured DPS. Range, number of hits, enemy defenses, type and weather still affect the result."
+        ],
+        "table": {
+          "caption": "Separate the category, the type and the buff before choosing a card.",
+          "columns": [
+            "Choice",
+            "Check",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "Karate Chop / Shadow Ball",
+              "Physical / Special",
+              "Machamp has a stronger physical factor; these two attacks do not use the same factor."
+            ],
+            [
+              "Swords Dance / Dragon Dance",
+              "Physical attack buffs",
+              "Useful only for the physical damage in your active slot or Bond group."
+            ],
+            [
+              "Nasty Plot",
+              "Special attack buff",
+              "Raises special damage; it does not strengthen physical hits."
+            ]
+          ]
+        }
+      },
+      {
         "id": "choices",
-        "title": "2. Learn what the three offers can change",
+        "title": "3. Learn what the three offers can change",
         "paragraphs": [
           "A new-move card fills an empty slot with a compatible move. An upgrade card raises an owned move by one level, to a maximum of 5. A stat card improves the run or heals immediately. Each move has its own upgrade effects; a later level can increase count, coverage or uptime rather than simply add damage.",
           "Only the active slot triggers moves. A new move gives you another attack to switch to, rather than automatically casting alongside the old one. Existing projectiles and timed buffs may continue briefly after switching. The game stops offering additional buff moves once you hold two; learn a damaging attack before relying on a support move.",
-          "Stat cards have different limits. Power can be picked 40 times, Sprint 8 and Reflexes 10 in this game build. Armor has a 12-pick limit and a separate 70% application cap. Percentage effects such as Power compound, so a pick count is not the same as an additive percentage."
-        ]
+          "Stat cards have different limits. Power can be picked 40 times, Sprint 8 and Reflexes 10 in this game build. Armor has a 12-pick limit and a separate 70% application cap. Percentage effects such as Power compound, so a pick count is not the same as an additive percentage.",
+          "The game first samples up to six eligible new moves. Attacks on your partner’s stronger side receive sampling weight 2 instead of 1; buff moves also receive weight 2. The later three-card draw uses its own weights. This favors suitable attacks without guaranteeing one or doubling its final appearance probability."
+        ],
+        "figure": {
+          "src": "/game/screenshots/card-choices.webp",
+          "alt": "Agility, Power and Poison Sting offered as upgrade choices in PokeSurvivor",
+          "caption": "An earlier game card screen showing three choices. The current version also labels damaging moves as Physical or Special."
+        }
       },
       {
         "id": "recipes",
-        "title": "3. Reach both evolution requirements in the same run",
+        "title": "4. Reach both evolution requirements in the same run",
         "paragraphs": [
           "An eligible move must reach level 5, and you must have selected at least one copy of its required stat card during the current run. You may take the stat card before or after level 5. Then choose its gold evolution card at a later level-up.",
-          "There are 64 base moves and 59 evolution paths; the five buff moves do not evolve. A ready evolution is given a guaranteed place among the offered cards for the first ready candidate. If several moves are ready, do not interpret that as every evolution appearing together.",
+          "There are 65 base moves and 59 evolution paths; the six buff moves do not evolve. A ready evolution is given a guaranteed place among the offered cards for the first ready candidate. If several moves are ready, do not interpret that as every evolution appearing together.",
           "One stat card can satisfy several recipes that use it, but each move still needs its own levels and gold choice. Ember and Water Gun both use Power. Confusion uses Reflexes. Use the examples below and the full Level-up list rather than guessing the requirement from the move’s type."
         ]
       },
       {
         "id": "priorities",
-        "title": "4. Pick upgrades for a problem, not a perfect sequence",
+        "title": "5. Pick upgrades for a problem, not a perfect sequence",
         "paragraphs": [
-          "Editorial approach: concentrate early move upgrades on one main attack and take its prerequisite when it appears. Once the first evolution is established, decide whether to improve coverage, movement or sustain. Card offers are random, so the plan must tolerate an alternative.",
+          "Concentrate early move upgrades on one main attack and take its prerequisite when it appears. Once the first evolution is established, decide whether to improve coverage, movement or sustain. Card offers are random, so the plan must tolerate an alternative.",
           "If a good defensive or recovery choice keeps the run alive, it can be more useful than waiting for a specific attack. Avoid collecting several incompatible goals simply because the cards look strong in isolation. A second evolution is valuable only if you can finish it and make use of its slot.",
           "Use the expanded Level-up rows to compare what each next level changes. Raw per-hit damage is not a DPS ranking: cooldown, projectile count, area, pierce, enemy typing and your partner’s attack factor all affect the result. Use the Types page to compare an attack against each of an enemy’s defending types, multiplying the two factors for a dual-type target."
         ]
       },
       {
         "id": "bonds",
-        "title": "5. Use a Bond to free a slot",
+        "title": "6. Use a Bond to free a slot",
         "paragraphs": [
           "Each Rift victory grants a Bond. After returning from the arena, you can fuse two separate learned moves, then spend later Bonds to add a loose move to an unfinished group. A group holds up to four moves and the selected group casts together. One Bond does not immediately fuse four moves.",
           "Fusion frees the slot previously occupied by a separate move, allowing new-move cards to appear again. It does not supply an unlearned move, free levels or an evolution. If fewer than two suitable separate moves exist, the Bond waits until you have a valid fusion choice.",
-          "Editorial approach: fuse attacks you want active at the same time, while keeping a deliberate alternative slot for a different situation. Enter a Rift when the current run is ready for its risk; having an appealing fusion planned is not itself a reason to enter with low health."
+          "Fuse attacks you want active at the same time, while keeping a deliberate alternative slot for a different situation. Enter a Rift when the current run is ready for its risk; having an appealing fusion planned is not itself a reason to enter with low health."
         ]
       },
       {
         "id": "rerolls",
-        "title": "6. Use rerolls and save a flexible plan",
+        "title": "7. Use rerolls and save a flexible plan",
         "paragraphs": [
-          "You get one free card reroll per run. Purchased Card reroll levels add up to five more, for a maximum of six. Defeating a boss does not add another reroll in the checked build. Ban can exclude up to three new moves for a partner. Repertoire adds a random eligible non-buff attack at the start, occupying a second slot.",
+          "You get one free card reroll per run. Purchased Card reroll levels add up to five more, for a maximum of six. Defeating a boss does not add another reroll in this game version. Ban can exclude up to three new moves for a partner. Repertoire adds a random eligible non-buff attack at the start, occupying a second slot.",
           "These menu purchases are separate from run stat cards: owning a permanent Strength upgrade does not count as taking Power during the current run. When a gold card seems missing, check the owned move’s level and the exact prerequisite first.",
-          "Choose a partner and check its learnset before planning four compatible move slots. Compare the build examples and Level-up evolution requirements, then note the stat cards each attack needs. Treat the plan as a checklist to adapt when the next actual card offer arrives."
+          "Choose a partner and check its move pool before planning four compatible slots. Compare the Level-up evolution requirements, then note which stat cards the attacks share. Keep one alternative for a missing card instead of depending on a perfect sequence."
         ]
       }
     ],
@@ -206,7 +268,13 @@
         "paragraphs": [
           "The base rarity rates are 45% for 1★, 30% for 2★, 17% for 3★, 6.5% for 4★ and 1.5% for 5★. Inside a rarity tier, eligible species in that regional pool have equal selection weight. Different regions contain different numbers of species at each rarity.",
           "A target’s ordinary per-pull chance is the rarity rate divided by the number of eligible partners at that rarity in the banner. That is a baseline before pity or a batch guarantee changes the rarity roll. Do not multiply an ordinary chance by a large number of pulls and call it a guaranteed result.",
-          "For a collection goal, identify the target’s regional banner and rarity, then check the rarity rate and number of eligible partners. The base chance for a specific species is its rarity’s rate divided by that pool size. Pity and ten-pull guarantees change the sequence, so this base chance does not describe every pull or predict the next random result."
+          "For example, Pikachu is a 2-star Kanto partner. Kanto has 41 partners at that rarity, so its ordinary single-pull chance is 30% ÷ 41, about 0.7317%. Pity or the restricted last result of a ten-pull changes the rarity roll; this baseline is not the chance for every position in a batch."
+        ],
+        "links": [
+          {
+            "label": "Find a species and its banner",
+            "href": "/gacha#target-partner"
+          }
         ]
       },
       {
@@ -223,7 +291,7 @@
         "title": "4. Build a reward routine you can complete",
         "paragraphs": [
           "Runs, achievements, completed missions and world rewards all contribute to progression. Choose a few attainable objectives for the partner and route you are already practicing. Repeated short, successful objectives can be more useful than attempting a long run you cannot yet finish reliably.",
-          "The local archive’s locked chest requires 3.5 seconds nearby and drops 1–3 single tickets, with separate rolls for an extra ×10 ticket and a held item. A thief may carry coins or a ×10 ticket. These rewards require surviving and collecting them; do not treat a risky chase as free income.",
+          "The game’s locked chest requires 3.5 seconds nearby and drops 1–3 single tickets, with separate rolls for an extra ×10 ticket and a held item. A thief may carry coins or a ×10 ticket. These rewards require surviving and collecting them; do not treat a risky chase as free income.",
           "Achievement rewards are granted automatically when their conditions are detected; completed mission rewards need a manual claim in the Missions screen. Read the objective before starting: a type-specific defeat target, a single-run survival target and a cumulative count require different behavior. Compare the mission goals below before choosing a route."
         ]
       },
@@ -233,7 +301,7 @@
         "paragraphs": [
           "You receive three daily missions and two weekly missions, drawn from ten daily and six weekly possibilities. Each assignment receives one of the listed target values; some also receive a Pokémon type. Calendar periods use Europe/Madrid and selection varies by account. The goals below show the possible assignments; check your current ones in the game.",
           "Survival, level and play-with-a-type objectives keep the best qualifying single-run result. Defeats, chests, coins, evolutions and similar objectives accumulate qualifying progress. Run-end values such as time and coins are processed when a run ends.",
-          "Completing a target and claiming its reward are separate steps. Open the Missions screen to claim. The archive allows one daily replacement per day, excluding objectives already in the current daily set. A weekly completed-dailies objective advances through claimed daily missions."
+          "Completing a target and claiming its reward are separate steps. Open the Missions screen to claim. The game allows one daily replacement per day, excluding objectives already in the current daily set. A weekly completed-dailies objective advances through claimed daily missions."
         ]
       },
       {
@@ -242,7 +310,7 @@
         "paragraphs": [
           "Eligible gacha selections use a 1% shiny check. Ordinary wild spawns and scheduled map bosses use 1 in 4,096, while a Rift legendary has its own 1-in-512 check when selected. Shiny artwork must exist. Enemy shinies must be defeated before the form is collected; merely seeing one does not unlock it.",
           "If a rolled shiny is already owned, the game tries a missing shiny in the same region and rarity. When that pool is exhausted, it can return a normal result. Do not plan income around an unconditional triple-refund promise for every completed shiny pool.",
-          "The supplied artwork archive contains shiny sprites for 958 of the 966 roster species. Missing artwork is explicitly marked in the Pokédex. A color variation does not change the partner’s base stats. Compare the actual sprites below and pursue a shiny after deciding whether collection breadth or that cosmetic target matters more."
+          "The available game artwork contains shiny sprites for 958 of the 966 roster species. Missing artwork is explicitly marked in the Pokédex. A color variation does not change the partner’s base stats. Compare the actual sprites below and pursue a shiny after deciding whether collection breadth or that cosmetic target matters more."
         ],
         "links": [
           {
@@ -256,7 +324,7 @@
         "title": "7. Before the next pull",
         "paragraphs": [
           "Confirm the banner, name the target and read that banner’s current pity counter. Choose single or ten-pull mode correctly. Use a budget you already have, then compare the target result with the any-5★ result so the two goals stay separate.",
-          "After pulling, check new partners, duplicate coin refunds and the current regional pity counter in the game before planning another batch. A 5★ result resets that region’s pity counter. If your collection goal changes, check the new target’s region and rarity pool before choosing a banner.",
+          "After pulling, check new partners, duplicate coin refunds and the current regional pity counter in the game before planning another batch. A 5★ result resets that region’s pity counter. If your collection goal changes, check the new target’s region and rarity pool before choosing a banner. Before changing devices, press Save and check the upload status. A pull is recorded locally first; the next automatic cloud upload can still be pending.",
           "For the next run, return to the same simple progression loop: choose a partner you can use well, finish compatible objectives, claim completed rewards and spend toward a specific goal. A larger collection adds options; practiced movement and card choices make those options useful."
         ]
       }
@@ -282,7 +350,7 @@
     "image": "/art/shiny-guide.svg",
     "imageAlt": "Illustrated field guide showing the real normal and shiny Charizard and Eevee sprites",
     "category": "SHINY HUNTING",
-    "readTime": 11,
+    "readTime": 12,
     "seo": {
       "title": "PokeSurvivor Shiny Guide - Wild, Rift and Gacha Odds",
       "description": "Learn how to get shiny Pokémon in PokeSurvivor through wild encounters, Rifts and gacha. Compare odds, duplicate rules, saving and equipping your partner.",
@@ -369,7 +437,7 @@
           "When the alert appears, locate the sparkling enemy without crossing the center of the horde. Clear nearby threats if they block the route.",
           "Choose the active move that fits the distance and matchup. Keep attacking from a safe angle rather than standing on the target.",
           "Allow more time to finish it: the shiny enemy modifier doubles its HP and multiplies its XP by five relative to that enemy before the shiny modifier. Existing difficulty and boss scaling still apply.",
-          "After defeating it, look for the acquisition message. Check the run’s caught-shiny display and your collection afterward, then let account synchronization finish."
+          "After defeating it, check the acquisition message, the run’s caught-shiny display and your collection. Before leaving or changing devices, press Save and confirm the upload status."
         ],
         "callout": {
           "title": "Golden enemies are a different effect",
@@ -398,7 +466,7 @@
         "steps": [
           "Enter with enough health and damage for the arena, rather than treating its better per-check rate as a reason to risk every run.",
           "Read the arena’s terrain, weather and attack markers. You have 120 seconds to defeat its legendary; a shiny version has the usual shiny enemy HP modifier.",
-          "Finish the shiny enemy before the arena fails, then confirm the collection message and allow account synchronization to complete."
+          "Defeat the shiny before the arena fails and confirm its entry in your collection. Use Save and check its status before leaving or moving to another device."
         ],
         "callout": {
           "title": "Rift access has its own limits",
@@ -599,7 +667,7 @@
           "Choose a reliable survival build and one mission objective that fits it.",
           "React to wild shiny alerts safely, and take prepared Rift fights for legendary targets. Defeat the shiny before treating it as collected.",
           "Claim earned tickets, choose the intended regional banner and inspect your results.",
-          "Verify new entries, equip the desired form and wait for the save status to settle."
+          "Confirm new entries, equip the desired form, press Save and wait until the game no longer shows pending progress."
         ],
         "links": [
           {
@@ -618,7 +686,7 @@
         "paragraphs": [
           "After an unlock, select that Pokémon in the official game’s collection. Its Normal/Shiny selector appears when you own the shiny form. Switch to Shiny and choose it as your partner. The main partner panel also has a Normal/Shiny control for an owned shiny, which is useful on mobile.",
           "A shiny partner uses the same species stats and move pool. The extra HP and XP described earlier belong to shiny enemies; choosing a shiny appearance does not give your player double health or five times the experience.",
-          "The capture is recorded when the enemy is defeated, rather than waiting for a completed run. Account synchronization may still be pending, so losing the run and losing unsaved progress are different concerns. Let the game finish saving before closing, changing devices or signing out. Guests do not have persistent progress.",
+          "A capture is recorded when the shiny is defeated; it does not wait for the run to end. With an account, that local record and a completed cloud upload are separate. Automatic uploads are scheduled after about 30 minutes with pending changes. Press Save at the top right, then wait for the pending status to clear before switching devices or closing. A recent upload can briefly delay another one. Guests do not keep permanent progress.",
           "In the checked co-op flow, the host broadcasts the shiny-capture event to connected clients. It is a shared event rather than a final-hit contest. Stay connected and confirm the unlock in your own collection afterward; a teammate’s screenshot is not confirmation that your account saved it."
         ],
         "callout": {
@@ -661,7 +729,7 @@
           },
           {
             "question": "Will I lose a captured shiny if I die afterward?",
-            "answer": "The unlock is triggered at the defeat, not awarded only for finishing a run. Keep the account signed in and allow synchronization to complete. A guest session or interrupted save is a separate persistence risk."
+            "answer": "The unlock is triggered at the defeat, not awarded only for finishing a run. Keep the account signed in, press Save and confirm the upload status before leaving. A guest session or interrupted save is a separate persistence risk."
           }
         ]
       }

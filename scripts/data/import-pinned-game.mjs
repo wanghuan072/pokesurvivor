@@ -34,6 +34,7 @@ function literal(n) {
     }
   }
   if (ts.isArrayLiteralExpression(n)) return n.elements.map(literal);
+  if (ts.isNewExpression(n) && n.expression.getText() === "Set") return literal(n.arguments[0]);
   if (ts.isObjectLiteralExpression(n)) {
     const obj = {};
     for (const p of n.properties) {
@@ -101,6 +102,10 @@ const pokemon = existing.map((p) => {
     hp: raw.hp,
     speed: raw.spd,
     attack: raw.atk,
+    physicalAttack: raw.pa,
+    specialAttack: raw.sa,
+    defense: raw.df,
+    specialDefense: raw.sd,
     baseStatTotal: raw.bst,
     rarity: raw.rarity,
     generation: raw.gen,
@@ -109,9 +114,16 @@ const pokemon = existing.map((p) => {
     learnset: [...new Set([startMove, ...learned])],
   };
 });
-const moves = oldMoves.map((m) => {
-  const raw = rawMoves.find((r) => translate(r.name) === m.name);
-  if (!raw) throw new Error(`Missing move ${m.name}`);
+const physicalMoves = new Set(find("js/data/moves.js", "PHYSICAL"));
+const statNames = Object.fromEntries(find("js/systems/levelup.js", "STATS").map(c=>[c.id,translate(c.title)]));
+const moves = rawMoves.map((raw) => {
+  const name = translate(raw.name);
+  const m = oldMoves.find(m=>m.id===raw.id) ?? {
+    name, slug:raw.id, type:raw.type[0].toUpperCase()+raw.type.slice(1),
+    kind:raw.kind[0].toUpperCase()+raw.kind.slice(1),
+    evolution:evo[raw.id]?translate(evo[raw.id][0]):null,
+    requirement:evo[raw.id]?statNames[evo[raw.id][1]]:null,
+  };
   const levels = [
     {
       level: 1,
@@ -151,6 +163,8 @@ const moves = oldMoves.map((m) => {
     ...m,
     id: raw.id,
     behavior: raw.kind,
+    category: raw.kind === "buff" ? "buff" : physicalMoves.has(raw.id) ? "physical" : "special",
+    buffStat: raw.stat ?? null,
     maxLevel: levels.length,
     base: levels[0],
     levels,
@@ -238,9 +252,11 @@ const weather = Object.entries(find("js/systems/weather.js", "KINDS")).map(
 const changeSummaries = JSON.parse(
   fs.readFileSync("src/data/wiki/change-summaries.json", "utf8"),
 );
-const changes = find("js/data/changelog.js", "G.CHANGELOG")
-  .filter((c) => changeSummaries[c.d])
-  .map((c) => ({ date: c.d, title: c.title[1], ...changeSummaries[c.d] }));
+const officialChanges = find("js/data/changelog.js", "G.CHANGELOG");
+const changes = Object.entries(changeSummaries).flatMap(([date,summary])=>{
+  const official=officialChanges.find(c=>c.d===date);
+  return official||summary.title?[{date,title:official?.title[1]??summary.title,...summary}]:[];
+}).sort((a,b)=>b.date.localeCompare(a.date));
 const gacha = {
   rates: find("js/systems/gacha.js", "RATES").map(([rarity, percent]) => ({
     rarity,
@@ -279,7 +295,7 @@ const snapshot = {
 };
 if (
   pokemon.length !== 966 ||
-  moves.length !== 64 ||
+  moves.length !== 65 ||
   achievements.length !== 130
 )
   throw new Error("Unexpected source counts; inspect before importing.");
@@ -294,6 +310,11 @@ const output = {
   "wiki/changes": changes,
   "wiki/gacha": gacha,
   "wiki/source-snapshot": snapshot,
+  "game/move-notes": rawMoves.map(raw=>({
+    id:raw.id, description:translate(raw.desc),
+    levelEffects:ladders[raw.kind].map((step,i)=>({level:i+2,text:translate(step.t)})),
+    evolutionEffect:evo[raw.id]?translate(evoMods[raw.kind].t):null,
+  })),
 };
 for (const [name, data] of Object.entries(output)) {
   fs.mkdirSync("src/data/" + name.split("/")[0], { recursive: true });

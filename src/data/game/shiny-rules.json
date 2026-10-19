@@ -1,10 +1,10 @@
 {
-  "reviewed": "2026-10-16",
+  "reviewed": "2026-10-19",
   "archiveVersion": {
     "v": "dc3ae9bbfb",
     "at": "2026-10-12T22:20:54.162Z"
   },
-  "officialRevision": "5bbc3b29288d6af4596f21188fb8b54e0e9b739f",
+  "officialRevision": "e4ba0e173cb7e415f9815c924a48c5c25f516962",
   "mechanics": {
     "wildRate": 0.000244140625,
     "riftRate": 0.001953125,
@@ -26,7 +26,7 @@
     {
       "file": "js/systems/spawner.js",
       "archiveSha256": "f21ad3ea95a8bcf1a357879407d12f96df7ba91c6cdcf914e707693d0901209d",
-      "officialSha256": "33208db701ee1cc2fc144c0dc23f6a7027b3008d9a0c1b57fd4512a99d7bda4d"
+      "officialSha256": "e371f1e815fe384e835b17d6a826b93e3ea938b409b0cf95bdc0a9bb6212eb3c"
     },
     {
       "file": "js/systems/rift.js",
@@ -36,27 +36,27 @@
     {
       "file": "js/entities/enemy.js",
       "archiveSha256": "97d042b95e27297b322939437bb7aad3feab53650e99bb074939b9840a8d38e4",
-      "officialSha256": "f045ebf98e916239a918bbd3aded22baa67757df7d124ae80f5471898e6d848e"
+      "officialSha256": "63fad96fa8c31665ba494c3630b057bfcacd55dd522dc4cd241a654c9aec23d5"
     },
     {
       "file": "js/game.js",
       "archiveSha256": "b64ae843525f504f1e821c70a592d4517e71a00eed22bb425df5cbdb0e3b0768",
-      "officialSha256": "ba3d6cbeec924249ac4774ab602d066b6b5f883669bbe96cb2d0c901258496db"
+      "officialSha256": "720c220337a47cd7016dcec0c4b58a6fccb3332317e963ba5f86ca5df1cacc7a"
     },
     {
       "file": "js/core/db.js",
       "archiveSha256": "ab479309073cdb421d4eae0120848d8534b05bca1d1b0715d515ec863c4b9609",
-      "officialSha256": "e81402211255316421da43197eb2ac030b0f5c0d93fc2b7f675caa5b21f8e10f"
+      "officialSha256": "6f03d0c567c8f9d0710d52a1465dbff0362cdd5eaf6ab87c5ce8d282864ad75a"
     },
     {
       "file": "js/ui/menu.js",
       "archiveSha256": "baf9c350feade1cf5be477ceeb59806a5deda91e844bbed35bbc1fc9193cedb2",
-      "officialSha256": "baf9c350feade1cf5be477ceeb59806a5deda91e844bbed35bbc1fc9193cedb2"
+      "officialSha256": "3c743ac0bd800e6b903bf59825ce96a4e208b4a814b87aa9dac937a437845b4f"
     },
     {
       "file": "js/net/coop.js",
       "archiveSha256": "88d38bee7e69b1a4ed524560ddeb4ba3a62f759d20a7814d111fdb8f6a66d900",
-      "officialSha256": "6e9ee9474ecb92a278be9b2706b0bfe5014305422a00ded967449647c124baca"
+      "officialSha256": "1c2f5acddaed45cd40d2b9c59dd5c6f9f0437fa4829307f26fc203629bdb1d29"
     },
     {
       "file": "js/systems/progress.js",

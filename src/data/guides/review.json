@@ -1,37 +1,44 @@
 {
-  "reviewed": "2026-10-16",
-  "revision": "5bbc3b29288d6af4596f21188fb8b54e0e9b739f",
+  "reviewed": "2026-10-19",
+  "revision": "e4ba0e173cb7e415f9815c924a48c5c25f516962",
   "liveBuild": {
-    "v": "919c6711dd",
-    "at": "2026-10-15T20:32:28.290Z",
-    "force": true
+    "v": "7c1976458d",
+    "at": "2026-10-18T23:06:24.444Z"
   },
-  "bundleSha256": "493436d45801803c44e8ddc480da1b554b80dc302f534ca1c7810c0436420d49",
+  "bundleSha256": "4aa46d6cce79409e4662b9b040ab610670b880ece6abd550b6798cfc666b7fd0",
   "method": "Official documentation, static code inspection and literal-data comparison. No gameplay sessions or cloud-save/multiplayer tests performed.",
   "files": [
     {
       "file": "js/core/db.js",
-      "sha256": "e81402211255316421da43197eb2ac030b0f5c0d93fc2b7f675caa5b21f8e10f"
+      "sha256": "6f03d0c567c8f9d0710d52a1465dbff0362cdd5eaf6ab87c5ce8d282864ad75a"
     },
     {
       "file": "js/core/input.js",
-      "sha256": "453ad7358cec887d85da0a84b022c27378f572dbb618ee9b453de8217054e1d2"
+      "sha256": "f1a5d73736fc64f29b1d2b27c13fb8ad4b8649ba256fde1918244bc7f0a2f9a6"
     },
     {
       "file": "js/core/sprites.js",
-      "sha256": "85d31b4e6445349dbd61fdc5c0e71dc195d4bed8dcaade31c5f76cfbdddbb8e1"
+      "sha256": "5b8ac9189fcd4571ed459fdd6e0d8819425d5cdf8e59127e63e27b7042e61e36"
     },
     {
       "file": "js/data/achievements.js",
       "sha256": "b40f6c1cbb44c4f2fc732bbd9f4dbeee6303f24112e586050d82a2db6d48d1da"
     },
     {
+      "file": "js/data/changelog.js",
+      "sha256": "f92c0b7af5addeffa846dcf9ebdfe927d8cb573e2c0a29926381a85a1ca1c3f8"
+    },
+    {
       "file": "js/data/enemies.js",
       "sha256": "9e3bdd45fe4d47fa14b0b26d37c2f3417a2323d11466fca2b3212b6190131a63"
     },
     {
+      "file": "js/data/items.js",
+      "sha256": "6410fdac6a421849cd4107e47bd9b068556b41caefcacd62e1043a72e394f283"
+    },
+    {
       "file": "js/data/lang-en.js",
-      "sha256": "3560f6e875a12ed6dc732334f064c522604aec251c1f95412f8739544753cea6"
+      "sha256": "2235dddad70139790d8ca64c40311f9876fb88c2f541767868067384dcbbb54e"
     },
     {
       "file": "js/data/missions.js",
@@ -39,11 +46,11 @@
     },
     {
       "file": "js/data/moves.js",
-      "sha256": "75f6612c276a89e4344382739d4f17e770021766843ff9e03933769699eee70a"
+      "sha256": "af3e678fc552c1e21f8c56b8f7003974e68581efbf0e9c2ef04aea6811f11fde"
     },
     {
       "file": "js/data/pokedex.js",
-      "sha256": "d33494dbb6eae2ccc07cb81756eeb69e81d5679b01e2dc609cad61b706af41f4"
+      "sha256": "43ec37ef3ac48452f9a72c51851a188e2375ec93cde9394b335612ad1e107369"
     },
     {
       "file": "js/data/starters.js",
@@ -59,7 +66,7 @@
     },
     {
       "file": "js/entities/enemy.js",
-      "sha256": "f045ebf98e916239a918bbd3aded22baa67757df7d124ae80f5471898e6d848e"
+      "sha256": "63fad96fa8c31665ba494c3630b057bfcacd55dd522dc4cd241a654c9aec23d5"
     },
     {
       "file": "js/entities/pickup.js",
@@ -67,23 +74,23 @@
     },
     {
       "file": "js/entities/player.js",
-      "sha256": "596c00824f0ac83fe2b62592764c6b10dfdff735675b1d0fa0d3600829364336"
+      "sha256": "921c280aa045e9c483c107ec7c8a8e3cd5890c85b9ef3490137c12660ea683e7"
     },
     {
-      "file": "js-game.js",
-      "sha256": "ba3d6cbeec924249ac4774ab602d066b6b5f883669bbe96cb2d0c901258496db"
+      "file": "js/game.js",
+      "sha256": "720c220337a47cd7016dcec0c4b58a6fccb3332317e963ba5f86ca5df1cacc7a"
     },
     {
       "file": "js/net/coop.js",
-      "sha256": "6e9ee9474ecb92a278be9b2706b0bfe5014305422a00ded967449647c124baca"
+      "sha256": "1c2f5acddaed45cd40d2b9c59dd5c6f9f0437fa4829307f26fc203629bdb1d29"
     },
     {
       "file": "js/net/ranking.js",
-      "sha256": "7c59cd0f4545640ecaca980e65253d5e0eb7511570c60963cb0fe78c8caa06db"
+      "sha256": "fc13b640d4acd73788d88a7537d85a6afebf5029263d78f495f9e684f50950d2"
     },
     {
       "file": "js/systems/combat.js",
-      "sha256": "4d3a81b300bf2e22c6adbba38e0cdbd6b4288003ac82481859ef3aad05aa441b"
+      "sha256": "47fff6c8a790bf2512bb01810a0c90218c870a2cd60c7dc0de632870036319a5"
     },
     {
       "file": "js/systems/events.js",
@@ -99,11 +106,11 @@
     },
     {
       "file": "js/systems/judgment.js",
-      "sha256": "a847452d22816904c04ac6278a7b76f64199fbd2a024b3ee7152eb33ac6d1a47"
+      "sha256": "03bdcd7f89e6d3e9bb14bfa125825ff6fcde04ae7e881552480da9ddb5c447f1"
     },
     {
       "file": "js/systems/levelup.js",
-      "sha256": "adccb708c5648a825b647f6421bdae49f3bc3924a49dfb1b903c7d17a05b3150"
+      "sha256": "5d797d83e7b7ca6ddd62eb2414bfd427821886ea4d2ac30eb0b58ac5d43f58fe"
     },
     {
       "file": "js/systems/progress.js",
@@ -115,7 +122,15 @@
     },
     {
       "file": "js/systems/spawner.js",
-      "sha256": "33208db701ee1cc2fc144c0dc23f6a7027b3008d9a0c1b57fd4512a99d7bda4d"
+      "sha256": "e371f1e815fe384e835b17d6a826b93e3ea938b409b0cf95bdc0a9bb6212eb3c"
+    },
+    {
+      "file": "js/systems/stats.js",
+      "sha256": "d9c8248f847a195ecc5da368a7984f0e42f2f0033e93f5b3f6f60c44186bed4b"
+    },
+    {
+      "file": "js/systems/weather.js",
+      "sha256": "3eabce86c211030c50ea1977a3f3b2fcac538184e31354379af383c9f37dec10"
     },
     {
       "file": "js/ui/gacha-ui.js",
@@ -126,12 +141,16 @@
       "sha256": "0f52abe07cb4cd2167c0de25e4203f0838715d4294de9d3b22c8f41203bf840d"
     },
     {
+      "file": "js/ui/icons.js",
+      "sha256": "fbe420fd48a4a1e96eeb6d376650501d9f46ed6365a158722ec9a68f618330d5"
+    },
+    {
       "file": "js/ui/menu.js",
-      "sha256": "baf9c350feade1cf5be477ceeb59806a5deda91e844bbed35bbc1fc9193cedb2"
+      "sha256": "3c743ac0bd800e6b903bf59825ce96a4e208b4a814b87aa9dac937a437845b4f"
     },
     {
       "file": "js/ui/run-ui.js",
-      "sha256": "f4b59907ae7fc9c933b2b7926a850c6b697540ffd5ef78db7355efe7c83ac20c"
+      "sha256": "0260c52960919e1e9437f9ba7fa16b200ba2d272b30643ecd9ab0bf8cb1a6d55"
     },
     {
       "file": "js/ui/social-ui.js",
@@ -145,6 +164,50 @@
   "facts": {
     "rosterCount": 966,
     "rosterSha256": "0dfca11bff719873954e0afc7427915d05e143d6820ab62e54395cf13167ee0e",
+    "combatStatsSha256": "21ca08fb8e61ec695a031bbc1b8bb3a2f1e5110dbc5046a6230c5c07bdf537f5",
+    "physicalMoves": [
+      "tackle",
+      "quick-attack",
+      "vine-whip",
+      "razor-leaf",
+      "wing-attack",
+      "body-slam",
+      "poison-sting",
+      "bulldoze",
+      "bug-bite",
+      "string-shot",
+      "rock-throw",
+      "rock-slide",
+      "karate-chop",
+      "lick",
+      "metal-claw",
+      "bite",
+      "bonemerang",
+      "psycho-cut",
+      "spikes",
+      "toxic-spikes",
+      "meteor-mash",
+      "substitute",
+      "aerial-ace",
+      "flame-wheel"
+    ],
+    "saving": {
+      "autoUploadMinutes": 30,
+      "minimumUploadGapSeconds": 65
+    },
+    "defense": {
+      "reference": 75,
+      "exponent": 0.35,
+      "minimum": 0.78,
+      "maximum": 1.25
+    },
+    "judgment": {
+      "startsMinutes": 30,
+      "speedSoftCap": 130,
+      "excessSpeedFactor": 0.25,
+      "touchRampAfterSeconds": 420,
+      "fullTouchAfterSeconds": 600
+    },
     "moves": [
       {
         "id": "tackle",
@@ -158,6 +221,10 @@
       },
       {
         "id": "swords-dance",
+        "cd": 0.85
+      },
+      {
+        "id": "nasty-plot",
         "cd": 0.85
       },
       {

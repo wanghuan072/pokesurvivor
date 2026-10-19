@@ -142,6 +142,8 @@
 .partners li { min-width: 0; text-align: center; border-right: 1px dashed #52736c88; padding: 0 5px; display: flex; flex-direction: column; align-items: center; }
 .partners li:last-child { border-right: 0; }
 .partners h3 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin-top: 7px; }
+.partners p { font-size:10px; color:#aec5af; line-height:1.6; margin:6px 0; }
+.partners a { font-size:10px; color:#ead695; line-height:1.6; padding:7px 0; margin-top:auto; overflow-wrap:anywhere; }
 .typeTags { display: flex; gap: 4px; flex-wrap: wrap; justify-content: center; }
 .typeTags > span { font-size: 9px; padding: 1px 5px; border-radius: 3px; }
 .bottom { display: grid; grid-template-columns: 1fr 1.1fr; gap: 14px; }

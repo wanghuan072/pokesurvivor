@@ -197,6 +197,9 @@
 .launch > span { display: block; line-height: 1; }
 .launch > p:first-of-type { color: var(--gold); font-weight: 700; line-height: 1.8; }
 .launch small { max-width: 560px; margin: auto; }
+.launch details { margin-top:16px; text-align:left; font-size:12px; line-height:1.8; }
+.launch summary { cursor:pointer; color:var(--gold); padding-block:10px; }
+.launch details p { margin:10px 0; }
 .player > footer { border-top-color: #9a854a; background: #0a242b; }
 .player > footer p { line-height: 2; }
 .player > footer b { color: var(--gold); }

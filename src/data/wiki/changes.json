@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-10-19",
+    "title": "Cloud save timing and the Save button",
+    "added": [],
+    "changed": [
+      "Cloud uploads are scheduled after about 30 minutes with pending changes. Use Save and confirm the status before changing devices.",
+      "Gacha pulls, run completion and tab switches no longer trigger immediate cloud uploads; browser-local records remain separate."
+    ],
+    "fixed": []
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Physical and special attacks, controls and fresh boards",
+    "added": [
+      "Physical and special attack categories, separate attacking and defending stats, and the Nasty Plot buff.",
+      "Controller support, optional Manual aim, a pause-screen run summary and the Save button."
+    ],
+    "changed": [
+      "Swords Dance and Dragon Dance now boost physical attacks only. New-move sampling favors the partner’s stronger side.",
+      "Judgment speed has a soft cap and later contact damage increases. Leaderboards restarted for these rules.",
+      "Large partners use adjusted player scale and collision sizes. At most three healers, shielders or summoners can be alive in each role."
+    ],
+    "fixed": [
+      "Card choices briefly ignore input when they appear, reducing accidental selections.",
+      "Leaderboard values are sanitized and validation was tightened."
+    ]
+  },
+  {
     "date": "2026-10-14",
     "title": "Recover your account with Gmail",
     "added": [

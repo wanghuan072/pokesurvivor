@@ -44,11 +44,11 @@ export default function LevelUpPage() {
             <small>PLAN YOUR LOADOUT</small>
             <h2>Move & evolution cards</h2>
           </div>
-          <span>64 MOVES · 59 RECIPES</span>
+          <span>{moves.length} MOVES · {moves.filter(m=>m.evolution).length} RECIPES</span>
         </div>
         <CardCatalog
-          partners={pokemon.map(({id, name, types, startMove, cardPool, learnset}) =>
-            ({id, name, types, startMove, cardPool, learnset}))}
+          partners={pokemon.map(({id, name, types, startMove, cardPool, learnset, attack, physicalAttack, specialAttack}) =>
+            ({id, name, types, startMove, cardPool, learnset, attack, physicalAttack, specialAttack}))}
           moves={moves.map((m) => ({
             ...m,
             ...getMoveNotes(m.id)!,
@@ -120,7 +120,7 @@ export default function LevelUpPage() {
           <small>THE GOLD CARD MOMENT</small>
           <h2>The evolution recipe.</h2>
           <p>
-            59 moves can evolve. The 5 buff moves cannot. Meet both requirements
+            {moves.filter(m=>m.evolution).length} moves can evolve. The {moves.filter(m=>m.category==='buff').length} buff moves cannot. Meet both requirements
             during the same run, then select the gold card at a level-up.
           </p>
         </div>
@@ -194,6 +194,7 @@ export default function LevelUpPage() {
             are full. A missing evolution stat card has weight 14; ready
             evolutions have weight 40, with the first one guaranteed.
           </p>
+          <p>Before those offers are drawn, the game samples up to six new moves. A move that matches your partner’s stronger attack side has sampling weight 2 instead of 1; buff moves also get weight 2. This favors suitable attacks but does not double their final card probability.</p>
         </details>
         <details>
           <summary>What happens when my four move slots are full?</summary>
@@ -216,7 +217,7 @@ export default function LevelUpPage() {
         <details>
           <summary>Which card should I pick first?</summary>
           <p>
-            Editorial advice: decide on one or two evolution goals before
+            Choose one or two evolution goals before
             spreading levels across your whole loadout. Take a required stat
             card when it appears; it can support multiple recipes. Save a reroll
             for a choice that does not help your build or survival.

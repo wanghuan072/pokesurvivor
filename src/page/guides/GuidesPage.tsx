@@ -4,6 +4,7 @@ import { guides } from "@/lib/data/guides";
 import { pageMetadata } from "@/seo/metadata";
 import s from "@/style/page/guides.module.css";
 import c from "@/style/common/content.module.css";
+import mechanics from "@/data/game/mechanics.json";
 export const metadata = pageMetadata("/guides");
 export default function GuidesPage() {
   return (
@@ -55,6 +56,7 @@ export default function GuidesPage() {
         </span>
         <a href="/legal/contact-us">Suggest a correction →</a>
       </div>
+      <p className={c.source}>Mechanics checked {mechanics.reviewed} against game {mechanics.build}. Page update dates and game-rule checks are recorded separately.</p>
     </div>
   );
 }

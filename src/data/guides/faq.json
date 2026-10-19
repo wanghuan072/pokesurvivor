@@ -24,7 +24,7 @@
     ],
     [
       "Will guest progress be saved?",
-      "Do not rely on a guest session for saved progress. Use the official game’s account options for cloud saves. PokeSurvivor.me cannot read, recover or transfer a game save."
+      "Guests do not keep permanent progress. With an account, the game records changes in the current browser first and schedules cloud uploads after about 30 minutes with pending changes. Before closing or changing devices, press Save at the top right and check that pending progress clears. A recent upload may briefly delay another one. This fan site cannot recover a game save."
     ],
     [
       "How do I evolve a move?",
@@ -48,7 +48,7 @@
     ],
     [
       "Does the tier list show the strongest Pokémon?",
-      "The Tier List Maker lets you arrange partners into your own tiers; it is not an official strength rating. Partner Rankings is a separate page that compares base attack factor, HP and speed. Neither measures complete-run damage or survival. Your moves, upgrades and positioning still matter."
+      "The Tier List Maker saves your own partner rankings in this browser. Rankings is a separate page with saved official player and team survival records, including capture times. Neither is a tested character-strength ranking. Move category, upgrades and positioning affect your run."
     ],
     [
       "What happens at minute 30?",
@@ -57,6 +57,14 @@
     [
       "Is PokeSurvivor.me the official game website?",
       "No. This is an independent fan guide. The game is hosted at pokesurvivor.com, which operates its own accounts, saves and multiplayer features."
+    ],
+    [
+      "Do physical and special attacks use the same stat?",
+      "No. Physical moves use physical attack and the target’s Defense; special moves use special attack and the target’s Special Defense. Swords Dance and Dragon Dance boost physical attacks, while Nasty Plot boosts special attacks. Check the selected partner in Level-up Cards."
+    ],
+    [
+      "Can I use a controller or aim manually?",
+      "Controllers can move, switch attacks, pause and operate menus; check Settings > Controls. Manual aim is a separate option in Settings > Accessibility and is off by default. It changes aiming direction, not automatic firing."
     ]
   ]
 }

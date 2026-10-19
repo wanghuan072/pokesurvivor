@@ -6,7 +6,7 @@ import s from "@/style/page/updates.module.css";
 export default function Updates() {
   return (
     <>
-      <nav className={s.jump} aria-label="Update sections"><a href="#site-updates"><GameIcon name="book" size={24} /> Fan guide updates <span>02 entries →</span></a><a href="#game-updates"><GameIcon name="clock" size={24} /> Game change archive <span>{String(changes.length).padStart(2,"0")} entries →</span></a></nav>
+      <nav className={s.jump} aria-label="Update sections"><a href="#site-updates"><GameIcon name="book" size={24} /> Fan guide updates <span>{String(releases.length).padStart(2,"0")} entries →</span></a><a href="#game-updates"><GameIcon name="clock" size={24} /> Game changes <span>{String(changes.length).padStart(2,"0")} entries →</span></a></nav>
       <section id="site-updates" className={s.section}>
         <header className={s.heading}><div><small>THE FAN GUIDE</small><h2>What’s new on the site</h2></div><span>Website changes, not game patches</span></header>
         <div className={s.releases}>{releases.map((release,index) => <article key={release.date} className={s.release} data-latest={index===0}>
@@ -15,8 +15,8 @@ export default function Updates() {
         </article>)}</div>
       </section>
       <section id="game-updates" className={s.section}>
-        <header className={s.heading}><div><small>DATED GAME HISTORY</small><h2>Game change archive</h2></div><span>Recorded entries through 14 October 2026</span></header>
-        <p className={s.notice}>These are dated entries retained by this guide, not a live patch feed. Later changes may exist. Check the official game’s “What’s new” panel before following an older rule.</p>
+        <header className={s.heading}><div><small>DATED GAME CHANGES</small><h2>Game updates & affected guides</h2></div><span>Checked through 19 October 2026</span></header>
+        <p className={s.notice}>Physical and special attacks change card choices; the Save button changes what to check before leaving. <a href="/guides/move-evolutions#physical-special">Review attack categories →</a> · <a href="/guides/beginner-guide#save-progress">Check saving steps →</a>. The 19 October saving note follows the current game code; the older 10-minute wording in the in-game changelog no longer matches its 30-minute upload schedule. Older entries remain dated history.</p>
         <div className={s.archive}>{changes.map((change,index) => <details key={change.date} open={index===0}>
           <summary><time dateTime={change.date}>{change.date}</time><h3>{change.title}</h3><span aria-hidden="true">+</span></summary>
           <div className={s.changeGroups}>{[["Added",change.added],["Changed",change.changed],["Fixed",change.fixed]].map(([label,items]) => (items as string[]).length > 0 && <section key={label as string}><h4>{label}</h4><ul>{(items as string[]).map(item => <li key={item}>{item}</li>)}</ul></section>)}</div>

@@ -25,6 +25,15 @@ Function(
 const { gachaProbability: odds } = calculationModule.exports;
 const near = (actual, expected) =>
   assert.ok(Math.abs(actual - expected) < 1e-10, `${actual} != ${expected}`);
+const mechanics=read('src/data/game/mechanics.json');
+const statsModule={exports:{}};
+const statsCode=ts.transpileModule(fs.readFileSync('src/lib/game/mechanics.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020}}).outputText;
+Function('require','exports',statsCode)(id=>{assert.equal(id,'@/data/game/mechanics.json');return {default:mechanics};},statsModule.exports);
+const {attackSide,attackFit,defenseFactor}=statsModule.exports;
+near(defenseFactor(75),1);near(defenseFactor(150),(75/150)**.35);near(defenseFactor(10000),.78);near(defenseFactor(5),1.25);
+assert.equal(attackSide({attack:1.5,physicalAttack:1.5,specialAttack:.75}),'physical');
+near(attackFit({attack:1.5,physicalAttack:1.5,specialAttack:.75},'special'),.5);
+near(attackFit({attack:1.5,physicalAttack:1.5,specialAttack:.75},'buff'),1);
 near(odds(0, 0, false), 0);
 near(odds(1, 0, false), 0.015);
 near(odds(1, 69, false), 1);
@@ -43,10 +52,15 @@ const pokemon = read("src/data/pokedex/pokemon.json"),
   builds = read("src/data/builds/builds.json"),
   achievements = read("src/data/wiki/achievements.json");
 assert.equal(achievements.length, 130);
+assert.equal(moves.length,65);assert.equal(moves.filter(m=>m.category==='buff').length,6);
+assert.equal(moves.find(m=>m.id==='nasty-plot').buffStat,'satk');
+assert.equal(moves.find(m=>m.id==='swords-dance').buffStat,'patk');
+assert.equal(moves.find(m=>m.id==='dragon-dance').buffStat,'patk');
 assert.equal(pokemon.filter((p) => p.starter).length, 29);
 assert.equal(pokemon.filter((p) => p.legendary).length, 87);
 for (const p of pokemon) {
   assert.ok(p.hp > 0 && p.speed > 0 && p.attack > 0);
+  near(p.attack,Math.max(p.physicalAttack,p.specialAttack));assert.ok(p.defense>0&&p.specialDefense>0);
   assert.deepEqual(
     [...p.cardPool].sort(),
     moves.filter(m => m.type.toLowerCase() === "normal" || p.types.some(type => type.toLowerCase() === m.type.toLowerCase())).map(m => m.id).sort(),

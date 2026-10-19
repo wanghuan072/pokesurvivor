@@ -7,6 +7,7 @@ import { navigation } from "@/config/navigation";
 import { NavigationIcon } from "./NavigationIcon";
 import type { SearchEntry } from "@/types/search";
 import s from "@/style/layout/shell.module.css";
+import snapshot from "@/data/wiki/source-snapshot.json";
 const topics = [
   ...navigation,
   { label: "Beginner guide", href: "/guides/beginner-guide", icon: "▣" },
@@ -200,7 +201,7 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
               </p>
             )}
             <a href="/pokedex">◓ Browse all 966 Pokémon →</a>
-            <a href="/level-up#move-cards">ϟ Browse all 64 moves →</a>
+            <a href="/level-up#move-cards">ϟ Browse all {snapshot.counts.moves} moves →</a>
           </div>
           <small>Esc to close · Choose a topic to explore</small>
         </div>

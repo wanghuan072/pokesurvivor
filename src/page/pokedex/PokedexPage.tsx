@@ -33,6 +33,10 @@ export default function PokedexPage() {
             hp,
             speed,
             attack,
+            physicalAttack,
+            specialAttack,
+            defense,
+            specialDefense,
             rarity,
           }) => ({
             hasShiny: !!getEncounter(id)?.hasShiny,
@@ -48,6 +52,10 @@ export default function PokedexPage() {
             hp,
             speed,
             attack,
+            physicalAttack,
+            specialAttack,
+            defense,
+            specialDefense,
             rarity,
           }),
         )}
@@ -55,7 +63,7 @@ export default function PokedexPage() {
       <p className={s.source}>
         Roster and typing:{" "}
         <a href="https://pokesurvivor.com/en/pokedex/">official Pokédex</a>.
-        Reviewed October 15, 2026. Sprites:{" "}
+        Reviewed October 19, 2026. Physical and special attacks use different attack factors and defenses. Sprites:{" "}
         <a href="/credits/spritecollab-artists.md">SpriteCollab artists</a> (CC
         BY-NC 4.0), extracted from the supplied game archive.
       </p>

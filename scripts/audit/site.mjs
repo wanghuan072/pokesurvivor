@@ -8,9 +8,9 @@ const pokemon = read("src/data/pokedex/pokemon.json"),
 assert.equal(pokemon.length, 966);
 assert.equal(new Set(pokemon.map((p) => p.slug)).size, 966);
 assert.equal(new Set(pokemon.map((p) => p.id)).size, 966);
-assert.equal(moves.length, 64);
+assert.equal(moves.length, 65);
 assert.equal(moves.filter((m) => m.evolution).length, 59);
-assert.equal(new Set(moves.map((m) => m.slug)).size, 64);
+assert.equal(new Set(moves.map((m) => m.slug)).size, moves.length);
 assert.equal(pokemon.find((p) => p.id === 29).slug, "nidoran-female");
 assert.equal(pokemon.find((p) => p.id === 32).slug, "nidoran-male");
 assert.equal(Object.keys(chart).length, 18);

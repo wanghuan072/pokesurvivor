@@ -18,6 +18,7 @@ export type GuideSection = {
   id: string;
   title: string;
   paragraphs: string[];
+  figure?: { src: string; alt: string; caption: string };
   bullets?: string[];
   steps?: string[];
   table?: { caption: string; columns: string[]; rows: string[][] };

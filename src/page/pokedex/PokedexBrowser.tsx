@@ -1,10 +1,11 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { createPortal } from "react-dom";
 import type { PokemonSummary } from "@/types/pokemon";
 import { PokemonArt } from "@/components/common/PokemonArt";
 import s from "@/style/page/pokedex.module.css";
 import c from "@/style/common/content.module.css";
+import { attackSide } from "@/lib/game/mechanics";
 const rarities=["","Common","Uncommon","Rare","Epic","Legendary"];
 export default function PokedexBrowser({pokemon}:{pokemon:PokemonSummary[]}) {
   const [query,setQuery]=useState(""),[type,setType]=useState(""),[region,setRegion]=useState(""),[group,setGroup]=useState(""),[rarity,setRarity]=useState(0),[page,setPage]=useState(1),[sort,setSort]=useState("id"),[shiny,setShiny]=useState(false);
@@ -40,13 +41,15 @@ export default function PokedexBrowser({pokemon}:{pokemon:PokemonSummary[]}) {
     {!result.length&&<p className={c.empty}>No Pokémon match these filters. Try another name or reset.</p>}
     <p className={s.hint}>Hover or focus a partner for a quick look. Tap to keep its stats open. Owned and missing filters belong to your game save and are not tracked here.</p>
     <div className={c.pagination}><button disabled={current===1} onClick={()=>{setPage(current-1);setPreview(null);}}>← Previous</button><span>{current} / {pages}</span><button disabled={current===pages} onClick={()=>{setPage(current+1);setPreview(null);}}>Next →</button></div>
-    {active&&preview&&createPortal(<aside data-pokemon-preview id="pokemon-preview" className={s.preview} role="dialog" aria-label={`${active.name} quick stats`} style={{left:preview.left,top:preview.top}} onMouseEnter={cancelClose} onMouseLeave={closeSoon}>
+    {active&&preview&&createPortal(<aside data-pokemon-preview id="pokemon-preview" className={s.preview} role="dialog" aria-label={`${active.name} quick stats`} style={{left:preview.left,top:preview.top,'--preview-top':`${preview.top}px`} as CSSProperties} onMouseEnter={cancelClose} onMouseLeave={closeSoon}>
       <button className={s.close} aria-label="Close Pokémon preview" onClick={()=>{dismissed.current=active.id;anchor.current?.focus();setPreview(null);}}>×</button>
       <div className={s.portrait} data-rarity={active.rarity}><PokemonArt id={active.id} name={active.name} shiny={shiny&&active.hasShiny} size={144}/></div>
       <small>#{String(active.id).padStart(3,"0")} · {active.region}</small><h2>{active.name}</h2>
       <strong className={s.rarity} data-rarity={active.rarity}>{rarities[active.rarity]}</strong>
       <div className={s.types}>{active.types.map(t=><span key={t} className="type" data-type={t}>{t}</span>)}</div>
-      <dl className={s.stats}>{([['HP',active.hp,Math.max(...pokemon.map(p=>p.hp))],['Attack',active.attack,Math.max(...pokemon.map(p=>p.attack))],['Speed',active.speed,Math.max(...pokemon.map(p=>p.speed))]] as const).map(([label,value,max])=><div key={label}><dt>{label}</dt><dd><span className={s.statBar}><i style={{width:`${value/max*100}%`}}/></span><b>{label==="Attack"?`×${value.toFixed(2)}`:value}</b></dd></div>)}</dl>
+      <dl className={s.stats}>{([['HP',active.hp,Math.max(...pokemon.map(p=>p.hp)),false],['Phys. ATK',active.physicalAttack,Math.max(...pokemon.map(p=>p.physicalAttack)),true],['Sp. ATK',active.specialAttack,Math.max(...pokemon.map(p=>p.specialAttack)),true],['Defense',active.defense,Math.max(...pokemon.map(p=>p.defense)),false],['Sp. DEF',active.specialDefense,Math.max(...pokemon.map(p=>p.specialDefense)),false],['Speed',active.speed,Math.max(...pokemon.map(p=>p.speed)),false]] as const).map(([label,value,max,factor])=><div key={label}><dt>{label}</dt><dd><span className={s.statBar}><i style={{width:`${value/max*100}%`}}/></span><b>{factor?`×${value.toFixed(2)}`:value}</b></dd></div>)}</dl>
+      <p>{active.physicalAttack===active.specialAttack?"Equal physical and special attack factors.":`${attackSide(active)==="physical"?"Physical":"Special"} moves use this partner’s stronger attack factor.`} Defense affects incoming physical hits; Sp. DEF affects special hits. These values are before run upgrades.</p>
+      <a href={`/level-up?partner=${active.id}#move-cards`}>View {active.name}’s move cards →</a>
       <p>{active.starter?"STARTER PARTNER":"BASE PARTNER STATS"}{active.hovering?" · HOVERING":""}</p>
       {shiny&&!active.hasShiny&&<p>Normal art shown; no shiny sprite is available.</p>}
     </aside>,document.body)}

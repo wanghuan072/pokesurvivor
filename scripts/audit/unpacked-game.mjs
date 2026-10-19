@@ -109,5 +109,5 @@ for (const file of ["js/data/moves.js", "js/data/pokedex.js"])
     true,
   );
 console.log(
-  `PASS: ${images} local sprite previews, ${animations} animations + still frames, 64 move icons/upgrade descriptions, 966 encounter pools, 16 mission templates and ${profiles.length} compatible partner plans.`,
+  `PASS: ${images} local sprite previews, ${animations} animations + still frames, ${moves.length} move icons/upgrade descriptions, 966 encounter pools, 16 mission templates and ${profiles.length} compatible partner plans.`,
 );

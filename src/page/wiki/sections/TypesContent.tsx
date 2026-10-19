@@ -3,7 +3,9 @@ import { weather } from "@/lib/data/wiki";
 import { typeNames, typeMultiplier } from "@/lib/tools/calculators";
 import { SourceNote } from "@/components/common/SourceNote";
 import s from "@/style/common/content.module.css";
+import { defenseFactor } from "@/lib/game/mechanics";
 export default function Types() {
+  const rainFire = weather.find(w=>w.id==='rain')!.multipliers.fire!;
   return (
     <>
       <article className={`${s.article} prose`}>
@@ -19,6 +21,12 @@ export default function Types() {
           Read the chart by row (attack) and column (defense). It lists one
           defending type at a time.
         </p>
+        <h3>Two examples you can use during a run</h3>
+        <p>A Fire move against a Grass / Steel target gets 1.6 × 1.6 = 2.56× from typing. At full rain intensity, Fire’s {rainFire}× weather factor changes that part of the calculation to {Number((2.56*rainFire).toFixed(3))}×. This is before attack stats, defenses and other modifiers.</p>
+        <p>An Electric move against Water / Ground gets 1.6 × 0.3 = 0.48×. Ground’s main-series immunity is softened here; it does not make the attack deal zero damage.</p>
+        <h3>Physical and special defenses are a separate step</h3>
+        <p>Physical attacks use the target’s Defense; special attacks use Special Defense. A base defense of 75 gives a 1× defense factor; 150 gives about {defenseFactor(150).toFixed(2)}× incoming damage. The factor is softened and capped between 0.78× and 1.25×. Armor cards and held items are separate modifiers. Arceus’s pure damage and map hazards do not follow this defense rule.</p>
+        <p><a href="/level-up">Check the move’s category and partner fit →</a></p>
       </article>
       <h2 className={s.sectionTitle}>Complete 18-type matchup chart</h2>
       <div className={s.tableWrap} tabIndex={0} role="region" aria-label="Type chart, scroll horizontally to compare defending types">

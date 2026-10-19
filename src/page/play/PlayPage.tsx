@@ -70,6 +70,12 @@ export default function PlayPage() {
               options for cloud saves; this fan site never asks for your game
               password.
             </small>
+            <details>
+              <summary>Controls, aiming and saving</summary>
+              <p>Keyboard: WASD or arrows to move, 1–4 or Q/E to switch moves, Esc to pause. On touch screens, use landscape, drag to move and tap a move. Controllers are configured in Settings → Controls.</p>
+              <p>Attacks fire automatically. Optional Manual aim in Settings → Accessibility changes their direction using a mouse or right stick; it is off by default.</p>
+              <p>Account progress is recorded locally before uploading. Automatic cloud uploads are scheduled after about 30 minutes with pending changes. Before leaving or changing devices, use Save at the top right and confirm the pending status clears. A recent upload can briefly delay the next one.</p>
+            </details>
           </div>
         )}
       </main>
@@ -82,6 +88,7 @@ export default function PlayPage() {
       </footer>
       {started && (
         <div className={s.fallback}>
+          Before leaving, use Save inside the game and check its status.{" "}
           If the game stays blank or sign-in does not work,{" "}
           <a href={site.game} target="_blank" rel="noopener noreferrer">
             open the official game in a new tab ↗

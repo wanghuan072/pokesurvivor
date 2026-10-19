@@ -1,0 +1,8 @@
+{
+  "reviewed": "2026-10-19",
+  "build": "7c1976458d",
+  "revision": "e4ba0e173cb7e415f9815c924a48c5c25f516962",
+  "saving": { "autoUploadMinutes": 30, "minimumUploadGapSeconds": 65 },
+  "defense": { "reference": 75, "exponent": 0.35, "minimum": 0.78, "maximum": 1.25 },
+  "judgment": { "startsMinutes": 30, "speedSoftCap": 130, "excessSpeedFactor": 0.25, "touchRampAfterSeconds": 420, "fullTouchAfterSeconds": 600 }
+}

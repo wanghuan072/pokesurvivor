@@ -10,6 +10,10 @@ export type Pokemon = {
   hp: number;
   speed: number;
   attack: number;
+  physicalAttack: number;
+  specialAttack: number;
+  defense: number;
+  specialDefense: number;
   baseStatTotal: number;
   rarity: number;
   generation: number;
@@ -18,7 +22,7 @@ export type Pokemon = {
   cardPool: string[];
 };
 
-export type MovePartner = Pick<Pokemon, "id" | "name" | "types" | "startMove" | "cardPool" | "learnset">;
+export type MovePartner = Pick<Pokemon, "id" | "name" | "types" | "startMove" | "cardPool" | "learnset" | "attack" | "physicalAttack" | "specialAttack">;
 export type PokemonSummary = Pick<
   Pokemon,
   | "hasDetailPage"
@@ -32,5 +36,9 @@ export type PokemonSummary = Pick<
   | "hp"
   | "speed"
   | "attack"
+  | "physicalAttack"
+  | "specialAttack"
+  | "defense"
+  | "specialDefense"
   | "rarity"
 > & { hasShiny: boolean; hovering: boolean };
