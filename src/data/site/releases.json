@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-10-20",
+    "title": "More moves. Clearer partner choices.",
+    "summary": "Compare the expanded move pool and our revised Solo recommendations before your next run.",
+    "changes": [
+      "All 103 move cards, 97 evolution recipes and 966 partner pools now match the checked game build.",
+      "Level-up explains the single-type bonus and the 400-coin Starting move upgrade.",
+      "Solo recommendations now use S through D. D remains empty rather than assigning weak grades without a basis.",
+      "Saved leaderboard results remain dated historical records from before this patch.",
+      "Play opens the official game in a new tab, following the updated official-site restriction."
+    ],
+    "links": [
+      {
+        "label": "Compare move cards",
+        "href": "/level-up"
+      },
+      {
+        "label": "See our recommendations",
+        "href": "/tier-list"
+      }
+    ]
+  },
+  {
     "date": "2026-10-19",
     "title": "Less searching. More playing.",
     "summary": "A more compact homepage, clearer guide cards and a player title that stays above the game.",

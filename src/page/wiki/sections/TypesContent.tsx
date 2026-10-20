@@ -29,6 +29,7 @@ export default function Types() {
         <p><a href="/level-up">Check the move’s category and partner fit →</a></p>
       </article>
       <h2 className={s.sectionTitle}>Complete 18-type matchup chart</h2>
+      <p>Single-type partners gain 20% damage when the attacking move matches their own type. A single-type Water partner gets this bonus with Water attacks, not shared Normal attacks. Dual-type partners do not receive this bonus. It is separate from the matchup factors below.</p>
       <div className={s.tableWrap} tabIndex={0} role="region" aria-label="Type chart, scroll horizontally to compare defending types">
         <table className={s.table} data-chart="types">
           <caption className="sr-only">

@@ -7,7 +7,7 @@ import { TierArt } from "./TierArt";
 import s from "@/style/page/tier-maker.module.css";
 
 const capturedDate = new Intl.DateTimeFormat("en-GB", { dateStyle: "medium", timeStyle: "short", timeZone: "UTC" });
-const tierLabels = ["S", "A", "B", "C"] as const;
+const tierLabels = ["S", "A", "B", "C", "D"] as const;
 type Props = {
   board?: RecommendationBoard; cohort?: RecommendationCohort;
   partners: { id: number; name: string }[]; personalRows: TierBoardRow[]; picks: EditorialPick[];
@@ -27,14 +27,14 @@ export default function TierRecommendations({ board, cohort, partners, personalR
   const visible = filtered.slice((currentPage-1)*12, currentPage*12);
   return <section id="recommendations" className={s.recommendations} aria-labelledby="recommended-heading">
     <header className={s.recommendationHeader}><div className={s.recommendationTitle}><h2 id="recommended-heading">Recommended picks</h2><div className={s.toggleGroup} role="group" aria-label="Recommendation mode">{(["solo", "group"] as const).map(mode => <button key={mode} aria-pressed={selection.mode === mode} onClick={() => onChange({ ...selection, mode })}>{mode === "solo" ? "Solo" : "Group"}</button>)}</div></div><div className={s.reviewStamp}>Rules checked <time dateTime={review.date}>{review.date}</time><small>Game {review.version}</small></div></header>
-    <p className={s.recommendationIntro}>{selection.mode === "solo" ? `${picks.length} reviewed partners · General Solo progression, at comparable permanent upgrades. Our judgement, not an official rating.` : "Complete saved lineups to explore. Team times do not prove individual strength or synergy."}</p>
-    <div className={s.groupFilter}><label>Record period<select aria-label="Record period" value={selection.period} onChange={event=>onChange({...selection,period:event.target.value as RankingPeriod})}>{(["daily","weekly","monthly","all-time"] as const).map(period=><option key={period} value={period}>{period === "all-time" ? "All-time" : period[0].toUpperCase()+period.slice(1)}</option>)}</select></label><span>Period changes the evidence, not our grades.</span></div>
+    <p className={s.recommendationIntro}>{selection.mode === "solo" ? `${picks.length} reviewed partners. Here's who we'd pick for a Solo run at similar permanent upgrades, and what we'd watch out for.` : "Looking for a team to try? Start with the recorded lineups below, then choose the partners you want in your own list."}</p>
+    <div className={s.groupFilter}><label>Record period<select aria-label="Record period" value={selection.period} onChange={event=>onChange({...selection,period:event.target.value as RankingPeriod})}>{(["daily","weekly","monthly","all-time"] as const).map(period=><option key={period} value={period}>{period === "all-time" ? "All-time" : period[0].toUpperCase()+period.slice(1)}</option>)}</select></label><span>{selection.mode === "solo" ? "Compare different boards without changing our grades." : "Each period has its own saved board."}</span></div>
     <div className={s.snapshotStatus}>{board ? <><span>Saved {periodLabel(board)} · {board.records} {selection.mode === "solo" ? "Solo" : "Group"} records</span><span>Captured {capturedDate.format(new Date(board.capturedAt))} UTC · not live</span></> : <span>No saved board is available for this period. No other period is substituted.</span>}</div>
     {selection.mode === "solo" ? <>
       <div className={s.poolTools}><label className={s.poolSearch}><span className={s.srOnly}>Search reviewed partners</span><input aria-label="Search reviewed partners" placeholder="Find a reviewed partner…" value={query} onChange={event=>{setQuery(event.target.value);setPage(1);}}/></label><label><span className={s.srOnly}>Recommended tier</span><select aria-label="Recommended tier" value={tier} onChange={event=>{setTier(event.target.value);setPage(1);}}><option value="">All tiers</option>{tierLabels.map(label=><option key={label} value={label}>{label} · {picks.filter(p=>p.tier===label).length}</option>)}</select></label></div>
-      <p className={s.groupNote} role="status">{filtered.length} partners{tier ? ` in ${tier} tier` : " across S / A / B / C"} · 12 per page. Same-tier order is by Pokédex number.</p>
+      <p className={s.groupNote} role="status">{filtered.length} partners{tier ? ` in ${tier} tier` : " across S / A / B / C / D"} · 12 per page. Same-tier order is by Pokédex number.</p>
       <div className={s.pickList}>
-        <table><caption className={s.srOnly}>Editorial Solo recommendations with strengths, trade-offs and evidence from the selected period</caption><thead><tr><th>Tier</th><th>Partner</th><th>Why consider it</th><th>Keep in mind</th><th>Saved evidence</th><th>My list</th></tr></thead><tbody>{visible.map(pick => {
+        <table><caption className={s.srOnly}>Our Solo recommendations, what to watch out for, and saved results from the selected period</caption><thead><tr><th>Tier</th><th>Partner</th><th>Why we&apos;d pick it</th><th>What to watch for</th><th>Saved results</th><th>My list</th></tr></thead><tbody>{visible.map(pick => {
           const evidence = cohort?.partners.find(p => p.id === pick.id);
           const inTier = positions.get(pick.id), applied = inTier?.trim().toUpperCase() === pick.tier;
           return <tr key={pick.id} data-pick-id={pick.id}>
@@ -46,13 +46,13 @@ export default function TierRecommendations({ board, cohort, partners, personalR
           </tr>;
         })}</tbody></table>
       </div>
-      {!filtered.length&&<p className={s.groupNote}>No reviewed partners match. Clear the search or choose another tier.</p>}
+      {!filtered.length&&<p className={s.groupNote}>{tier === "D" && !picks.some(p=>p.tier==="D") ? "D is reserved for partners we would avoid at comparable investment. None of these 73 leaderboard species is assigned to D; missing player feedback is not a low grade." : "No reviewed partners match. Clear the search or choose another tier."}</p>}
       <Pagination page={currentPage} pages={pages} count={filtered.length} label="Recommended partners" onChange={setPage}/>
       <div className={s.recommendationFooter}><button className={s.secondaryButton} disabled={!filtered.length} onClick={()=>onApply(tierLabels.map(label=>({label,color:tierColors[label],picks:filtered.filter(p=>p.tier===label).map(p=>({id:p.id}))})))}>Add all {filtered.length} matching picks to my list</button><a href="#tier-method">How we rank these picks ↓</a></div>
     </> : <>
       <div className={s.groupFilter}><label>Team size<select aria-label="Team size" value={selection.size} onChange={event=>onChange({...selection,size:Number(event.target.value)})}><option value={0}>All teams</option>{[2,3,4].map(size=><option key={size} value={size}>{size}-player</option>)}</select></label><span>{cohort?.records ?? 0} matching team records</span></div>
       <GroupLineups key={`${board?.key}-${selection.size}`} teams={cohort?.teams ?? []} names={names} onApply={onApply}/>
-      <p className={s.groupNote}>Composition and team size are context, not a build recommendation. The saved records do not show upgrade cards or teammate roles. Choose your own tier for each partner you add.</p>
+      <p className={s.groupNote}>We&apos;d use these lineups as a place to start, not a recipe to copy blindly. The records don&apos;t show upgrade cards or teammate roles, and two-player times aren&apos;t a like-for-like comparison with four-player times. Choose a tier for each partner you want to add.</p>
     </>}
     <div className={s.applicationBar}><span>{status || "Your personal list changes only when you add a recommendation."}</span><button disabled={!canUndo} onClick={onUndo}>Undo last recommendation</button><a href="#create-tier-list">View my list ↑</a></div>
   </section>;

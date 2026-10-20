@@ -1,16 +1,20 @@
 {
-  "reviewed": "2026-10-19",
-  "revision": "e4ba0e173cb7e415f9815c924a48c5c25f516962",
+  "reviewed": "2026-10-20",
+  "revision": "018e986f4c12f414dfa84193ee35b2959b1e325c",
   "liveBuild": {
-    "v": "7c1976458d",
-    "at": "2026-10-18T23:06:24.444Z"
+    "v": "ae1820f65b",
+    "at": "2026-10-19T21:42:49.950Z"
   },
-  "bundleSha256": "4aa46d6cce79409e4662b9b040ab610670b880ece6abd550b6798cfc666b7fd0",
+  "bundleSha256": "9bba914da219cfb39272e6c1ace64e54f21eb58a54347826eb6be0dae9667699",
   "method": "Official documentation, static code inspection and literal-data comparison. No gameplay sessions or cloud-save/multiplayer tests performed.",
   "files": [
     {
+      "file": "js-app.min.js",
+      "sha256": "9bba914da219cfb39272e6c1ace64e54f21eb58a54347826eb6be0dae9667699"
+    },
+    {
       "file": "js/core/db.js",
-      "sha256": "6f03d0c567c8f9d0710d52a1465dbff0362cdd5eaf6ab87c5ce8d282864ad75a"
+      "sha256": "ef3f70c764e3602f41b82522e520e7c1f23d45bbcf1e09d3f6441f69e41d8ab5"
     },
     {
       "file": "js/core/input.js",
@@ -26,7 +30,7 @@
     },
     {
       "file": "js/data/changelog.js",
-      "sha256": "f92c0b7af5addeffa846dcf9ebdfe927d8cb573e2c0a29926381a85a1ca1c3f8"
+      "sha256": "899f84579b7c2a90eff3ef8660e7922977b8fd298a4ba2eaed7a102f8caf50b5"
     },
     {
       "file": "js/data/enemies.js",
@@ -38,7 +42,7 @@
     },
     {
       "file": "js/data/lang-en.js",
-      "sha256": "2235dddad70139790d8ca64c40311f9876fb88c2f541767868067384dcbbb54e"
+      "sha256": "32677ed19adea2f6b7bf5456dd17c2f2b85552c8f6ac5b56b210cf6ffc28380a"
     },
     {
       "file": "js/data/missions.js",
@@ -46,7 +50,7 @@
     },
     {
       "file": "js/data/moves.js",
-      "sha256": "af3e678fc552c1e21f8c56b8f7003974e68581efbf0e9c2ef04aea6811f11fde"
+      "sha256": "6c104208d723ad8b56af2eff6e4bab8a198342d8acabcbc51a33f52cc7f04ece"
     },
     {
       "file": "js/data/pokedex.js",
@@ -54,7 +58,7 @@
     },
     {
       "file": "js/data/starters.js",
-      "sha256": "40ea7fb2e82683f4dec91add3e84c93b5028d9076b43fda6159e05457d38491f"
+      "sha256": "da490dc56c8f31857ee4f70d951d5f7b489a72891e8c0bc8a7d838dcec179cd7"
     },
     {
       "file": "js/data/types.js",
@@ -62,11 +66,11 @@
     },
     {
       "file": "js/data/upgrades.js",
-      "sha256": "516af27467b56404c566cd03ba5019c18ee4afccb58ca47df61a6d1383331b72"
+      "sha256": "c80268a3ea6bae5aac09c742787692cbcbe5006347c3d5070db1244d4ba1226f"
     },
     {
       "file": "js/entities/enemy.js",
-      "sha256": "63fad96fa8c31665ba494c3630b057bfcacd55dd522dc4cd241a654c9aec23d5"
+      "sha256": "6188d9fd6c268f1fc04ea5aad9797b3ced776337d9b79a42b3e783ecba7715fc"
     },
     {
       "file": "js/entities/pickup.js",
@@ -74,7 +78,7 @@
     },
     {
       "file": "js/entities/player.js",
-      "sha256": "921c280aa045e9c483c107ec7c8a8e3cd5890c85b9ef3490137c12660ea683e7"
+      "sha256": "665c51f2a8f6bb097b05c2a7be368adcd95e153417a092db70c114c995bb13c1"
     },
     {
       "file": "js/game.js",
@@ -82,7 +86,7 @@
     },
     {
       "file": "js/net/coop.js",
-      "sha256": "1c2f5acddaed45cd40d2b9c59dd5c6f9f0437fa4829307f26fc203629bdb1d29"
+      "sha256": "338cc4818e2a0f692a2e43a0b12874bec94928aa02fa18e7592120cf673de2d4"
     },
     {
       "file": "js/net/ranking.js",
@@ -90,7 +94,7 @@
     },
     {
       "file": "js/systems/combat.js",
-      "sha256": "47fff6c8a790bf2512bb01810a0c90218c870a2cd60c7dc0de632870036319a5"
+      "sha256": "2e2316917c8e911d885dd47bb4b20be69ee99a411b00687a5f8a066eb56fe34b"
     },
     {
       "file": "js/systems/events.js",
@@ -110,7 +114,7 @@
     },
     {
       "file": "js/systems/levelup.js",
-      "sha256": "5d797d83e7b7ca6ddd62eb2414bfd427821886ea4d2ac30eb0b58ac5d43f58fe"
+      "sha256": "296a02c1f3b5871ecb1d1cb49a595f22e3fbc671fbe92144f5c689d1d19eea52"
     },
     {
       "file": "js/systems/progress.js",
@@ -118,11 +122,11 @@
     },
     {
       "file": "js/systems/rift.js",
-      "sha256": "28da109c435cbcc7984f544a4ef7965956ee6a4ea3337fd448051e4c74e66002"
+      "sha256": "2c27b749de34a0f7be0a53e5499e1591837dd1b5c9b1d54f440493b894c50f76"
     },
     {
       "file": "js/systems/spawner.js",
-      "sha256": "e371f1e815fe384e835b17d6a826b93e3ea938b409b0cf95bdc0a9bb6212eb3c"
+      "sha256": "34a2dda00ad0c3f485b8c7a512b4924949a4fadb073df845418581e6d1128fd9"
     },
     {
       "file": "js/systems/stats.js",
@@ -138,19 +142,19 @@
     },
     {
       "file": "js/ui/goals-ui.js",
-      "sha256": "0f52abe07cb4cd2167c0de25e4203f0838715d4294de9d3b22c8f41203bf840d"
+      "sha256": "c000ebe8204b682dc5fdd50a47b5a579531bba6236d83ccaadf82b6a76227199"
     },
     {
       "file": "js/ui/icons.js",
-      "sha256": "fbe420fd48a4a1e96eeb6d376650501d9f46ed6365a158722ec9a68f618330d5"
+      "sha256": "e52ecda71acd1f5bc4988c47956b36f9ebcf8f55560e5f44e584194910f2c0ec"
     },
     {
       "file": "js/ui/menu.js",
-      "sha256": "3c743ac0bd800e6b903bf59825ce96a4e208b4a814b87aa9dac937a437845b4f"
+      "sha256": "9164642761ab9c3913c887bd04f9bc63173fc73e8ff080a12dd604d6b11d4e9b"
     },
     {
       "file": "js/ui/run-ui.js",
-      "sha256": "0260c52960919e1e9437f9ba7fa16b200ba2d272b30643ecd9ab0bf8cb1a6d55"
+      "sha256": "fada834f6247b40abe1bc10909ca8d3fc179cce32d925b73887a63fb36c572a0"
     },
     {
       "file": "js/ui/social-ui.js",
@@ -189,7 +193,24 @@
       "meteor-mash",
       "substitute",
       "aerial-ace",
-      "flame-wheel"
+      "flame-wheel",
+      "rapid-spin",
+      "flame-charge",
+      "seed-bomb",
+      "sand-tomb",
+      "magnitude",
+      "u-turn",
+      "rock-tomb",
+      "ice-shard",
+      "rolling-kick",
+      "dynamic-punch",
+      "shadow-sneak",
+      "dragon-claw",
+      "outrage",
+      "play-rough",
+      "gyro-ball",
+      "sucker-punch",
+      "night-slash"
     ],
     "saving": {
       "autoUploadMinutes": 30,
@@ -200,6 +221,18 @@
       "exponent": 0.35,
       "minimum": 0.78,
       "maximum": 1.25
+    },
+    "combat": {
+      "monoTypeMultiplier": 1.2,
+      "activeMeleeTakenMultiplier": 0.75,
+      "maximumDamageReduction": 0.8,
+      "maximumPlayerRadius": 18
+    },
+    "startingMove": {
+      "cost": 400,
+      "perPartner": true,
+      "buffsAllowed": false,
+      "defaultAlwaysAvailable": true
     },
     "judgment": {
       "startsMinutes": 30,
@@ -527,6 +560,196 @@
         "id": "hex",
         "dmg": 17,
         "cd": 0.9
+      },
+      {
+        "id": "hyper-beam",
+        "dmg": 58,
+        "cd": 2.2
+      },
+      {
+        "id": "rapid-spin",
+        "dmg": 9,
+        "cd": 1
+      },
+      {
+        "id": "flame-charge",
+        "dmg": 19,
+        "cd": 0.8
+      },
+      {
+        "id": "whirlpool",
+        "dmg": 8,
+        "cd": 3
+      },
+      {
+        "id": "seed-bomb",
+        "dmg": 10,
+        "cd": 0.6
+      },
+      {
+        "id": "energy-ball",
+        "dmg": 19,
+        "cd": 0.62
+      },
+      {
+        "id": "solar-beam",
+        "dmg": 62,
+        "cd": 2.3
+      },
+      {
+        "id": "thunder-wave",
+        "dmg": 22,
+        "cd": 1.6
+      },
+      {
+        "id": "electro-ball",
+        "dmg": 10,
+        "cd": 0.62
+      },
+      {
+        "id": "extrasensory",
+        "dmg": 16,
+        "cd": 1.2
+      },
+      {
+        "id": "mist-ball",
+        "dmg": 13,
+        "cd": 0.55
+      },
+      {
+        "id": "acid-spray",
+        "dmg": 8,
+        "cd": 0.66
+      },
+      {
+        "id": "sand-tomb",
+        "dmg": 9,
+        "cd": 3
+      },
+      {
+        "id": "magnitude",
+        "dmg": 18,
+        "cd": 1.15
+      },
+      {
+        "id": "whirlwind",
+        "dmg": 14,
+        "cd": 1.1
+      },
+      {
+        "id": "air-slash",
+        "dmg": 9,
+        "cd": 0.55
+      },
+      {
+        "id": "signal-beam",
+        "dmg": 10,
+        "cd": 0.6
+      },
+      {
+        "id": "u-turn",
+        "dmg": 17,
+        "cd": 0.7
+      },
+      {
+        "id": "rock-tomb",
+        "dmg": 31,
+        "cd": 1.7
+      },
+      {
+        "id": "ancient-power",
+        "dmg": 13,
+        "cd": 0.28
+      },
+      {
+        "id": "power-gem",
+        "dmg": 11,
+        "cd": 0.66
+      },
+      {
+        "id": "ice-shard",
+        "dmg": 9,
+        "cd": 0.32
+      },
+      {
+        "id": "freeze-dry",
+        "dmg": 24,
+        "cd": 1.6
+      },
+      {
+        "id": "rolling-kick",
+        "dmg": 11,
+        "cd": 0.95
+      },
+      {
+        "id": "vacuum-wave",
+        "dmg": 17,
+        "cd": 1.1
+      },
+      {
+        "id": "dynamic-punch",
+        "dmg": 33,
+        "cd": 1.7
+      },
+      {
+        "id": "shadow-sneak",
+        "dmg": 14,
+        "cd": 0.45
+      },
+      {
+        "id": "ominous-wind",
+        "dmg": 9,
+        "cd": 3
+      },
+      {
+        "id": "dragon-breath",
+        "dmg": 7,
+        "cd": 0.7
+      },
+      {
+        "id": "dragon-claw",
+        "dmg": 19,
+        "cd": 0.52
+      },
+      {
+        "id": "outrage",
+        "dmg": 12,
+        "cd": 1.1
+      },
+      {
+        "id": "draining-kiss",
+        "dmg": 13,
+        "cd": 0.55
+      },
+      {
+        "id": "play-rough",
+        "dmg": 22,
+        "cd": 0.6
+      },
+      {
+        "id": "disarming-voice",
+        "dmg": 15,
+        "cd": 1.15
+      },
+      {
+        "id": "mirror-shot",
+        "dmg": 10,
+        "cd": 0.64
+      },
+      {
+        "id": "gyro-ball",
+        "dmg": 12,
+        "cd": 1.05
+      },
+      {
+        "id": "sucker-punch",
+        "dmg": 22,
+        "cd": 0.7
+      },
+      {
+        "id": "night-slash",
+        "dmg": 11,
+        "cd": 1
       }
     ],
     "evolutions": {
@@ -588,7 +811,45 @@
       "aerial-ace": "spd",
       "flame-wheel": "spd",
       "bubble-beam": "atk",
-      "hex": "mag"
+      "hex": "mag",
+      "hyper-beam": "atk",
+      "rapid-spin": "spd",
+      "flame-charge": "spd",
+      "whirlpool": "rgn",
+      "seed-bomb": "atk",
+      "energy-ball": "rgn",
+      "solar-beam": "cd",
+      "thunder-wave": "atk",
+      "electro-ball": "spd",
+      "extrasensory": "def",
+      "mist-ball": "cd",
+      "acid-spray": "rgn",
+      "sand-tomb": "hp",
+      "magnitude": "atk",
+      "whirlwind": "spd",
+      "air-slash": "cd",
+      "signal-beam": "atk",
+      "u-turn": "rgn",
+      "rock-tomb": "hp",
+      "ancient-power": "def",
+      "power-gem": "atk",
+      "ice-shard": "cd",
+      "freeze-dry": "atk",
+      "rolling-kick": "spd",
+      "vacuum-wave": "def",
+      "dynamic-punch": "atk",
+      "shadow-sneak": "cd",
+      "ominous-wind": "mag",
+      "dragon-breath": "atk",
+      "dragon-claw": "atk",
+      "outrage": "hp",
+      "draining-kiss": "rgn",
+      "play-rough": "atk",
+      "disarming-voice": "def",
+      "mirror-shot": "atk",
+      "gyro-ball": "def",
+      "sucker-punch": "atk",
+      "night-slash": "spd"
     },
     "starters": [
       {
@@ -798,6 +1059,10 @@
       {
         "id": "ban",
         "max": 3
+      },
+      {
+        "id": "start",
+        "max": 1
       }
     ],
     "waves": {

@@ -1,448 +1,448 @@
 {
-  "reviewed": "2026-10-19",
-  "gameVersion": "7c1976458d",
-  "purpose": "General Solo progression at comparable permanent upgrades. Every species in the saved Solo and Group boards is reviewed; grades are editorial, not controlled gameplay test results.",
+  "reviewed": "2026-10-20",
+  "gameVersion": "ae1820f65b",
+  "purpose": "General Solo progression at comparable permanent investment, including access to the 400-coin Starting move upgrade. Current move rules and player discussions inform editorial grades; saved leaderboard results predate this patch. No controlled playtests claimed.",
   "picks": [
     {
       "id": 150,
       "tier": "S",
-      "reason": "Homing Confusion, 1.55 Special attack and speed 133 make a coherent ranged start with room to reposition.",
-      "watchFor": "Build Special damage around its Psychic attacks. Swords Dance boosts Physical attack instead."
+      "reason": "Mewtwo remains one of our first picks. Players repeatedly recommend it, its Psychic moves receive the single-type bonus, and the saved weekly board contains nine Mewtwo records.",
+      "watchFor": "We'd pair Special damage with Nasty Plot, not Swords Dance. The new Psychic control moves give you options, but don't assume every slot attacks before you earn Bonds."
     },
     {
       "id": 94,
       "tier": "S",
-      "reason": "Piercing Shadow Ball leads into a Ghost/Poison pool; poison can set up stronger Hex hits.",
-      "watchFor": "97 HP and 60 physical defense punish contact mistakes. Hex needs a status setup."
+      "reason": "We keep Gengar in S because player recommendations, a clear Ghost/Poison plan and ten saved weekly records point in the same direction. Poison or slow can set up stronger Hex hits.",
+      "watchFor": "We'd use Nasty Plot for Special damage. Poison and Hex need to share an active Bond group to keep firing together; merely owning both isn't the full setup."
     },
     {
       "id": 890,
-      "tier": "S",
-      "reason": "Sludge matches 1.50 Special attack; 133 HP and speed 133 give this poison starter a forgiving foundation.",
-      "watchFor": "Poison and Dragon still face type matchups. High stats do not make enemy attack markers safe to ignore."
+      "tier": "A",
+      "reason": "Eternatus stays high on our list for Sludge and the expanded Poison/Dragon pool. Its HP and speed give you room to build around status and damage.",
+      "watchFor": "We keep it in A while the new routes settle. It doesn't receive the single-type bonus, and older complaints about giant collision size should not be carried over unchanged."
     },
     {
       "id": 487,
-      "tier": "S",
-      "reason": "138 HP and two defenses of 120 support a piercing Shadow Ball start, with Ghost and Dragon options later.",
-      "watchFor": "Its 1.25 Special attack is moderate beside dedicated damage picks. Invest in damage as well as surviving."
+      "tier": "A",
+      "reason": "We rate Giratina as a strong A option for its HP and Ghost/Dragon choices. Dragon Breath can apply slow for Hex once you can keep the relevant attacks running together.",
+      "watchFor": "We'd take a coherent damage route as well as defensive cards. The old saved records support viability, not a confirmed best build for this patch."
     },
     {
       "id": 484,
-      "tier": "S",
-      "reason": "Water Gun immediately uses 1.52 Special attack; Aqua Ring and Dragon coverage offer several workable directions.",
-      "watchFor": "Keep the main damage route coherent instead of splitting early levels across every available move."
+      "tier": "A",
+      "reason": "We like Palkia's Special Water/Dragon options, with Aqua Ring for regeneration and Whirlpool or Dragon Breath for another way to manage enemies. Water Gun remains a useful default.",
+      "watchFor": "We keep it in A rather than calling it a proven top pick. The saved all-time board has only one Palkia record, and it predates the expanded move pool."
     },
     {
       "id": 73,
       "tier": "A",
-      "reason": "Water Gun, poison options and Aqua Ring offer ranged damage, status and a regeneration route.",
-      "watchFor": "Physical defense is only 65. Poison or Shell Bell does not grant unlimited healing; keep space around you."
+      "reason": "We like Tentacruel for a Water/Poison plan that includes Aqua Ring, poison and the new Whirlpool control option. It also appears five times in the saved weekly Solo board.",
+      "watchFor": "We'd secure healing and a workable main attack before chasing extra moves. Shell Bell is capped at 4 HP per second; poison isn't unlimited sustain."
     },
     {
       "id": 1015,
       "tier": "A",
-      "reason": "Sludge fits 1.42 Special attack, with Psychic moves available for a different damage pattern.",
-      "watchFor": "66 physical defense leaves a weak side. Available moves do not all fire simultaneously."
+      "reason": "We'd lean into Sludge first: it already uses Munkidori's 1.42 Special attack. Psychic moves give you another direction if the cards suit it.",
+      "watchFor": "Watch the 66 physical defense. When you change attacks, remember that the other moves in your slots aren't all firing alongside it."
     },
     {
       "id": 842,
       "tier": "A",
-      "reason": "120 HP and a melee Vine Whip start support a close-range plan, with Grass area attacks and Dragon alternatives.",
-      "watchFor": "Speed 91 demands early positioning. Grass Knot deals area damage; it does not restore HP."
+      "reason": "Appletun is our slower Grass/Dragon alternative, with Vine Whip, new ranged Grass options and Dragon Dance for a Physical plan. Its 45:00 saved result is worth noting.",
+      "watchFor": "We wouldn't call it strongest from that result alone. Move early at speed 91, and don't mistake Grass Knot or an evolution name for guaranteed healing."
     },
     {
       "id": 289,
-      "tier": "A",
-      "reason": "138 HP and 1.58 Physical attack fit Tackle; active melee also grants the game's 25% damage reduction.",
-      "watchFor": "65 Special defense and close positioning remain weaknesses. This rating does not import Truant from the main games."
+      "tier": "S",
+      "reason": "We put Slaking among our first picks for a Physical Normal plan. Its own-type damage bonus, active melee reduction and 138 HP support Tackle or Body Slam; the saved weekly board also includes a 35:02 run.",
+      "watchFor": "We'd build a usable damage group before chasing more buffs. Normal has no super-effective matchups, and the saved result is from before this patch."
     },
     {
       "id": 802,
       "tier": "A",
-      "reason": "Speed 130 and 1.39 Physical attack suit Karate Chop, with Ghost moves as alternatives.",
-      "watchFor": "Melee reduction helps, but crowds remain dangerous. Special Ghost attacks use its lower attack side."
+      "reason": "Marshadow is one of our stronger melee choices. Karate Chop fits its 1.39 Physical attack, and speed 130 helps you choose when to get close.",
+      "watchFor": "Keep a way out after each approach. If you switch to Special Ghost damage, you're also switching to its lower attack factor."
     },
     {
       "id": 145,
       "tier": "A",
-      "reason": "Piercing Thunder Shock fits 1.39 Special attack, while Flying moves add other attack patterns.",
-      "watchFor": "Discharge asks you to stay nearer enemies than Thunder Shock. Match your positioning to the active move."
+      "reason": "We'd consider Zapdos when we want the Electric projectile start with Flying moves available as another option. Thunder Shock uses 1.39 Special attack.",
+      "watchFor": "Change how you move when you change attacks. Discharge needs you closer to enemies than Thunder Shock does."
     },
     {
       "id": 65,
       "tier": "A",
-      "reason": "Homing Confusion and 1.44 Special attack give a direct damage plan with speed 128.",
-      "watchFor": "95 HP and 45 physical defense make it far less forgiving than its damage suggests."
+      "reason": "Alakazam gets our vote if you're happy to trade safety for a strong ranged opening. Homing Confusion uses 1.44 Special attack, with speed 128 for repositioning.",
+      "watchFor": "Don't let the damage tempt you into standing still. Its 95 HP and 45 physical defense leave very little room for contact."
     },
     {
       "id": 135,
       "tier": "A",
-      "reason": "Speed 133 and an aligned Thunder Shock start make a mobile Electric pick with a clear upgrade route.",
-      "watchFor": "99 HP and 60 physical defense require clean movement. The Electric pool gives limited type variety."
+      "reason": "We like Jolteon for a mobile Electric start: Thunder Shock gives you piercing shots, and speed 133 helps keep a gap open.",
+      "watchFor": "We'd take the defensive weakness seriously. It has 99 HP and 60 physical defense, with less type variety than some alternatives."
     },
     {
       "id": 151,
       "tier": "A",
-      "reason": "Confusion starts at range, backed by 115 HP and balanced 100 defenses.",
-      "watchFor": "Its 1.25 Special attack trails Mewtwo. It does not inherit every species' move pool just because it is Mew."
+      "reason": "Mew is our more balanced alternative to the fragile Psychic picks. You still open with Confusion, but have 115 HP and both defenses at 100.",
+      "watchFor": "Expect less damage from its 1.25 Special attack than Mewtwo's. Choose from the moves actually in its pool rather than planning around its main-game reputation."
     },
     {
       "id": 196,
       "tier": "A",
-      "reason": "1.42 Special attack fits homing Confusion and the Psychic upgrade route.",
-      "watchFor": "99 HP and 60 physical defense leave little margin. Psycho Cut uses its weaker Physical attack."
+      "reason": "We'd pick Espeon for a focused Special Psychic plan. Confusion homes in and uses its 1.42 Special attack from the start.",
+      "watchFor": "Protect the gap around you: 99 HP and 60 physical defense aren't much of a cushion. Psycho Cut uses its weaker Physical side."
     },
     {
       "id": 243,
       "tier": "A",
-      "reason": "An aligned Electric start, speed 126 and 110 HP offer a balanced alternative to fragile Electric attackers.",
-      "watchFor": "75 physical defense is its weaker side. Thunderbolt and Discharge are positioning choices, not passive free damage."
+      "reason": "Raikou makes our A tier as a balanced Electric option. Thunder Shock fits its stronger attack side, with speed 126 and 110 HP behind it.",
+      "watchFor": "Physical defense is the weaker side at 75. Choose between Thunderbolt and Discharge based on how close you want to play."
     },
     {
       "id": 248,
       "tier": "A",
-      "reason": "1.44 Physical attack, 115 HP and strong defenses support Rock Throw and the Rock/Dark pool.",
-      "watchFor": "Speed 104 is modest. Not every Dark move uses its stronger Physical attack."
+      "reason": "We'd build Tyranitar around Physical Rock damage first. Rock Throw fits 1.44 Physical attack, with 115 HP and strong defenses behind it.",
+      "watchFor": "Move early with speed 104. If you take a Dark move, check its attack category before spending on buffs."
     },
     {
       "id": 250,
       "tier": "A",
-      "reason": "118 HP and 154 Special defense give staying power while Fire and Flying offer several patterns.",
-      "watchFor": "Ember uses 1.31 Special attack, not 1.42 Physical attack. Physical defense is much lower than Special defense."
+      "reason": "We like Ho-Oh when Special hits are your main concern: 118 HP and 154 Special defense give you a substantial buffer, with Fire and Flying options.",
+      "watchFor": "Ember uses 1.31 Special attack, not the higher Physical factor. That huge Special defense doesn't apply to Physical hits."
     },
     {
       "id": 251,
       "tier": "A",
-      "reason": "Balanced defenses and homing Confusion combine with Grass area and melee alternatives.",
-      "watchFor": "Grass melee and Psychic projectiles use different categories. The Grass Knot card is area damage, not a healing skill."
+      "reason": "Celebi appeals to us as a balanced Confusion starter with Grass options when you want a change of attack pattern.",
+      "watchFor": "Check the category before changing your buffs. Grass Knot is area damage; don't choose it expecting to recover HP."
     },
     {
       "id": 376,
       "tier": "A",
-      "reason": "1.44 Physical attack and 130 physical defense support Metal Claw, with Psychic alternatives.",
-      "watchFor": "Speed 107 makes exits worth planning early. Confusion does not use its stronger Physical attack."
+      "reason": "We'd lean into Metal Claw on Metagross. Its 1.44 Physical attack and 130 physical defense support that opening, with Psychic moves available later.",
+      "watchFor": "Plan exits before you need them; speed 107 isn't especially high. Confusion uses its lower Special attack."
     },
     {
       "id": 383,
       "tier": "A",
-      "reason": "115 HP, 140 physical defense and 1.52 Physical attack reward a transition into Ground options such as Bonemerang.",
-      "watchFor": "Starting Mud Shot is Special and uses only 1.25. Its highest attack stat is not its starting damage factor."
+      "reason": "We like Groudon for a Physical Ground plan with Bonemerang, Magnitude or other area options. Ground attacks benefit from its single-type bonus.",
+      "watchFor": "Mud Shot is still the default and uses the lower Special factor. Buying Starting move can remove that mismatch; take the opening you intend to support."
     },
     {
       "id": 385,
       "tier": "A",
-      "reason": "Metal Claw starts with melee reduction, backed by 115 HP, balanced defenses and Psychic alternatives.",
-      "watchFor": "Neither attack factor exceeds 1.25. Upgrade damage rather than expecting mythical status to carry the run."
+      "reason": "We like Jirachi as a balanced Metal Claw starter. Active melee reduction sits alongside 115 HP and both defenses at 100.",
+      "watchFor": "Keep upgrading damage. Neither attack factor exceeds 1.25, so we'd avoid spending every choice on defense."
     },
     {
       "id": 448,
       "tier": "A",
-      "reason": "Karate Chop fits its Physical attack, while Aura Sphere is supported by 1.33 Special attack.",
-      "watchFor": "102 HP and two defenses of 70 make risky positioning costly, even with melee reduction."
+      "reason": "We'd consider Lucario if you want both a Physical melee route and a viable Special alternative. Karate Chop fits Physical attack; Aura Sphere uses 1.33 Special attack.",
+      "watchFor": "Choose your distance deliberately. With 102 HP and both defenses at 70, getting trapped still hurts despite melee reduction."
     },
     {
       "id": 462,
       "tier": "A",
-      "reason": "Thunder Shock immediately uses 1.42 Special attack, with 115 physical defense and Steel alternatives.",
-      "watchFor": "Speed 103 needs early escape decisions. Metal Claw uses the weaker Physical side."
+      "reason": "Magnezone is our sturdier Physical-defense option for a Special Electric start. Thunder Shock uses 1.42 Special attack, with 115 physical defense.",
+      "watchFor": "Speed 103 calls for early repositioning. Metal Claw may be available, but it uses the weaker Physical factor."
     },
     {
       "id": 483,
       "tier": "A",
-      "reason": "115 HP and 120 physical defense give Metal Claw a sturdy base; Special Dragon attacks can use 1.52 later.",
-      "watchFor": "The starter uses 1.36 Physical attack. Plan the transition before investing in the wrong attack category."
+      "reason": "We'd use Dialga's Steel and Dragon choices to build around the attack side we want. Starting move lets you choose a Special opening to use its stronger factor.",
+      "watchFor": "Metal Claw remains the default, not a requirement after the unlock. We'd check the category of the chosen start before spending on attack buffs."
     },
     {
       "id": 490,
       "tier": "A",
-      "reason": "Water Gun, Bubble control and Aqua Ring sit on 115 HP with balanced defenses.",
-      "watchFor": "1.25 Special attack gives less opening damage than Palkia. Regeneration cannot cover every hit."
+      "reason": "We like Manaphy's straightforward Water choices: Water Gun to start, slowing Bubble attacks and Aqua Ring if you want regeneration.",
+      "watchFor": "Its 1.25 Special attack trails Palkia's. We'd keep taking damage upgrades rather than expecting regeneration to carry the run."
     },
     {
       "id": 491,
       "tier": "A",
-      "reason": "Speed 130 and 1.44 Special attack reward a transition from Bite into Dark Pulse or Night Shade.",
-      "watchFor": "Bite begins on its lower Physical side. The early route matters more than the headline Special stat."
+      "reason": "Darkrai's rating should reflect the Starting move upgrade: we'd consider a Special Dark opening instead of judging every run by default Bite. Its own-type attacks now get the single-type bonus.",
+      "watchFor": "The complaint about its Bite opening is real, but comes from an older version. Choose a legal starting attack after buying the upgrade rather than treating that weakness as permanent."
     },
     {
       "id": 494,
       "tier": "A",
-      "reason": "Homing Confusion starts at range, while Fire offers burn and other patterns on balanced stats.",
-      "watchFor": "A broad pool can spread upgrades thin. Choose a main route before filling every slot."
+      "reason": "Victini is one of our flexible Confusion starters. Fire adds burn and different attack patterns without a major defensive weak side in its base stats.",
+      "watchFor": "We'd stick with one main attack early. Taking a new move at every opportunity can leave the whole set short on levels."
     },
     {
       "id": 609,
       "tier": "A",
-      "reason": "Shadow Ball uses 1.50 Special attack; Fire burn gives Hex a status setup within its own pool.",
-      "watchFor": "97 HP and speed 112 are less forgiving than the fastest ranged picks. Hex needs an affected target."
+      "reason": "We like Chandelure's own Fire/Ghost options for setting up Hex. Shadow Ball already uses a strong 1.50 Special factor at the start.",
+      "watchFor": "Apply burn before expecting the stronger Hex hits. With 97 HP and speed 112, leave yourself time to get out."
     },
     {
       "id": 642,
       "tier": "A",
-      "reason": "Speed 125 and 1.39 Special attack align with Thunder Shock, with Flying alternatives.",
-      "watchFor": "70 physical defense makes contact dangerous. Flying access does not make every route equally effective."
+      "reason": "Thundurus gives us a fast Electric opening with Flying choices later. Thunder Shock lines up with its 1.39 Special attack and speed 125.",
+      "watchFor": "Don't drift into contact while picking cards. Its 70 physical defense makes repeated hits costly."
     },
     {
       "id": 643,
       "tier": "A",
-      "reason": "Dragon Rage uses 1.52 Special attack, with 115 HP and 120 Special defense supporting Fire/Dragon options.",
-      "watchFor": "Fire is available later, not its starting attack. Weather and enemy types still matter."
+      "reason": "We'd start Reshiram around Dragon Rage, which already uses its 1.52 Special attack. Fire gives you another direction when the upgrades arrive.",
+      "watchFor": "Fire isn't your starting move. Keep weather and enemy types in mind when deciding which attack to use."
     },
     {
       "id": 647,
       "tier": "A",
-      "reason": "Water Gun uses 1.41 Special attack; Aqua Ring and Special Aura Sphere fit a ranged plan.",
-      "watchFor": "Karate Chop uses the lower 1.10 Physical factor. Fighting moves are not all the same category."
+      "reason": "Keldeo is an easy pick for our ranged shortlist: Water Gun and Aura Sphere both use its stronger Special side, with Aqua Ring available too.",
+      "watchFor": "We'd think twice before switching to Karate Chop without a plan. It uses only 1.10 Physical attack."
     },
     {
       "id": 658,
       "tier": "A",
-      "reason": "Speed 129 helps kite with Water Gun, while Water and Dark offer control and different patterns.",
-      "watchFor": "67 physical and 71 Special defense leave little margin for getting trapped."
+      "reason": "We like Greninja for keeping a Water Gun gap open at speed 129. Water and Dark offer several ways to change your attack pattern later.",
+      "watchFor": "Avoid narrow escape routes. With defenses of 67 and 71, the cost of getting surrounded is high."
     },
     {
       "id": 720,
       "tier": "A",
-      "reason": "Homing Confusion uses 1.52 Special attack, and Ghost adds Shadow Ball and Hex options.",
-      "watchFor": "Speed 107 and 60 physical defense demand an escape plan. Special bulk does not fix contact vulnerability."
+      "reason": "Hoopa makes our A tier on the strength of homing Confusion at 1.52 Special attack, with Ghost attacks available as alternatives.",
+      "watchFor": "Give yourself an exit before approaching a crowd. Speed 107 and 60 physical defense make late escapes risky."
     },
     {
       "id": 792,
       "tier": "A",
-      "reason": "132 HP and 1.45 Special attack support a homing Psychic start with Ghost alternatives.",
-      "watchFor": "The wider pool is a choice of routes, not simultaneous attacks. Avoid abandoning a nearly upgraded main move."
+      "reason": "We like Lunala if you want a homing Psychic start with more HP behind it. Its 132 HP and 1.45 Special attack are a useful combination.",
+      "watchFor": "We'd finish a promising main attack before chasing every Psychic and Ghost option. You don't get all their damage at once."
     },
     {
       "id": 796,
       "tier": "A",
-      "reason": "Thunder Shock immediately uses a very high 1.65 Special factor, with clear Electric upgrade routes.",
-      "watchFor": "Speed 113 and defenses of 71 make damage its selling point, not safety."
+      "reason": "Xurkitree is our pick when Electric damage is the priority. Thunder Shock uses its 1.65 Special attack immediately.",
+      "watchFor": "We wouldn't choose it for safety alone. Speed 113 and both defenses at 71 still require careful movement."
     },
     {
       "id": 806,
       "tier": "A",
-      "reason": "1.53 Special attack supports Ember, while Fire burn and Ghost moves provide a status-to-Hex route.",
-      "watchFor": "94 HP and 53 physical defense make this an unforgiving damage pick rather than a safe beginner default."
+      "reason": "We rate Blacephalon for its Special damage and Fire/Ghost choices. Ember uses 1.53 Special attack, and burn can help set up Hex later.",
+      "watchFor": "Treat it as a fragile attacker. With 94 HP and 53 physical defense, we'd keep space rather than trade hits."
     },
     {
       "id": 807,
       "tier": "A",
-      "reason": "Speed 138 gives a mobile Thunder Shock start with 110 HP and the familiar Electric upgrades.",
-      "watchFor": "The starter uses 1.26 Special attack rather than its higher Physical factor. Do not grade from main-game reputation alone."
+      "reason": "We like Zeraora for the room speed 138 gives you around a Thunder Shock opening. Its 110 HP is useful, too.",
+      "watchFor": "Build for the move you're using. Thunder Shock takes the 1.26 Special factor, not its higher Physical factor."
     },
     {
       "id": 903,
       "tier": "A",
-      "reason": "Karate Chop fits 1.42 Physical attack and speed 128, with Poison alternatives.",
-      "watchFor": "60 physical defense remains a weakness despite melee reduction. Special attacks use only a 0.92 factor."
+      "reason": "We'd choose Sneasler for a fast Karate Chop plan. Speed 128 and 1.42 Physical attack fit that job, with Poison alternatives available.",
+      "watchFor": "Melee reduction helps, but 60 physical defense remains a weakness. Special attacks use only a 0.92 factor."
     },
     {
       "id": 911,
       "tier": "A",
-      "reason": "117 HP and 100 physical defense support a Fire start with Ghost attacks and Hex available later.",
-      "watchFor": "Speed 106 requires moving before gaps close. Ghost access is not an automatic damage combo."
+      "reason": "Skeledirge gets our A tier for a Fire opening backed by 117 HP and 100 physical defense, with Ghost options for later choices.",
+      "watchFor": "Start leaving a closing gap early at speed 106. If you choose Hex, make sure you have a way to apply status first."
     },
     {
       "id": 987,
       "tier": "A",
-      "reason": "Piercing Shadow Ball uses 1.44 Special attack, with speed 135 and Fairy alternatives.",
-      "watchFor": "95 HP and 55 physical defense are a sharp weakness despite 135 Special defense.",
+      "reason": "We like Flutter Mane for fast ranged damage: Shadow Ball uses 1.44 Special attack, and speed 135 helps you keep moving.",
+      "watchFor": "Its 135 Special defense can hide a very different Physical weakness. With 95 HP and 55 physical defense, contact is dangerous.",
       "name": "Flutter Mane"
     },
     {
       "id": 994,
       "tier": "A",
-      "reason": "Ember uses 1.47 Special attack; Fire and Poison provide status and different damage patterns.",
-      "watchFor": "60 physical defense makes contact risky. Status application and move upgrades still need investment.",
+      "reason": "We'd build Iron Moth around its stronger Special side. Ember uses 1.47, with Fire and Poison options for status and different attack patterns.",
+      "watchFor": "Keep out of contact with that 60 physical defense. We'd upgrade a main attack before spreading levels across both types.",
       "name": "Iron Moth"
     },
     {
       "id": 1000,
       "tier": "A",
-      "reason": "1.43 Special attack rewards a switch into Ghost damage; 109 HP and balanced defenses give setup room.",
-      "watchFor": "Metal Claw starts on only 1.03 Physical attack. Its eventual Ghost damage is not its opening strength."
+      "reason": "We rate Gholdengo for a planned Special Ghost/Steel route. The Starting move upgrade lets you begin with a legal attack that fits its stronger Special factor.",
+      "watchFor": "Without that unlock, Metal Claw still opens on only 1.03 Physical attack. We'd account for the actual save rather than assuming every player starts fully configured."
     },
     {
       "id": 1006,
       "tier": "A",
-      "reason": "Speed 127, 1.42 Physical and 1.36 Special attack keep Fighting and Fairy routes usable.",
-      "watchFor": "Fairy Wind is the starter, not Karate Chop. 60 Special defense makes its defenses uneven.",
+      "reason": "We like Iron Valiant's choice between Physical and Special routes. Both factors are useful, and speed 127 helps you reposition.",
+      "watchFor": "You start with Fairy Wind. Build for that until you actually change routes, and watch the lower Special defense of 60.",
       "name": "Iron Valiant"
     },
     {
       "id": 3,
       "tier": "B",
-      "reason": "106 HP and Vine Whip support a close-range start, with Grass area attacks and Poison alternatives.",
-      "watchFor": "Speed 112 and moderate attack factors give less immediate pressure than the strongest ranged starts."
+      "reason": "We'd consider Venusaur for a Vine Whip start with Grass area attacks and Poison choices to build toward. Its 106 HP gives you something to work with.",
+      "watchFor": "We put it below the leading ranged starters because its damage factors are more modest. Pick a main route instead of taking every type option."
     },
     {
       "id": 6,
       "tier": "B",
-      "reason": "Ember fits 1.30 Special attack; Fire and Flying offer projectile, orbit and movement routes.",
-      "watchFor": "The starter needs upgrades for crowds. Mixed categories make blind Physical investment inefficient."
+      "reason": "Charizard has plenty we'd want to build around: Ember uses 1.30 Special attack, with Fire and Flying attacks to choose from later.",
+      "watchFor": "Give the opening move some levels before branching out. We'd check attack categories rather than automatically stacking Physical buffs."
     },
     {
       "id": 26,
       "tier": "B",
-      "reason": "Thunder Shock offers a simple piercing start with Discharge or Thunderbolt as follow-ups.",
-      "watchFor": "55 physical defense and 1.20 Special attack make Jolteon or Raikou more attractive at equal investment."
+      "reason": "Raichu is a straightforward Electric choice if that's what you have unlocked. Thunder Shock gives piercing shots and familiar follow-up options.",
+      "watchFor": "At equal investment we'd lean toward Jolteon or Raikou. Raichu's 55 physical defense and 1.20 Special attack are the trade-off."
     },
     {
       "id": 34,
       "tier": "B",
-      "reason": "Sludge adds poison early; Ground offers area control or a Physical Bonemerang route.",
-      "watchFor": "Sludge uses 1.17 Special attack, not the higher Physical factor. Choose which category to develop."
+      "reason": "We'd start Nidoking with Sludge and then decide whether to stay with Special damage or move toward Physical Bonemerang.",
+      "watchFor": "Make that decision before taking attack buffs. Sludge uses 1.17 Special attack, not Nidoking's higher Physical factor."
     },
     {
       "id": 55,
       "tier": "B",
-      "reason": "Water Gun, slowing Bubble moves and Aqua Ring offer a straightforward ranged survival route.",
-      "watchFor": "Its 1.22 Special factor and moderate bulk are less exceptional than the stronger Water alternatives."
+      "reason": "Golduck gives us a simple Water plan: piercing Water Gun, slowing Bubble attacks and Aqua Ring for regeneration.",
+      "watchFor": "We'd choose the stronger Water alternatives at equal investment. Its 1.22 Special factor and moderate bulk keep it in B for us."
     },
     {
       "id": 106,
       "tier": "B",
-      "reason": "1.36 Physical attack fits Karate Chop, with 110 Special defense and active melee reduction.",
-      "watchFor": "92 HP and 53 physical defense punish contact. Aura Sphere uses a much lower 0.89 Special factor."
+      "reason": "We'd build Hitmonlee around Karate Chop and its 1.36 Physical attack. Active melee reduction and 110 Special defense help justify getting close.",
+      "watchFor": "Be careful with contact: 92 HP and 53 physical defense are thin. Aura Sphere uses only 0.89 Special attack."
     },
     {
       "id": 169,
       "tier": "B",
-      "reason": "Speed 133 helps reposition around Sludge, with Flying patterns available later.",
-      "watchFor": "Sludge uses just 1.08 Special attack. Speed alone does not solve weak starting damage."
+      "reason": "We like Crobat's speed 133 for repositioning. Sludge starts at range, with Flying moves available if you want another attack pattern.",
+      "watchFor": "The opening damage is the reason we keep it in B: Sludge uses only 1.08 Special attack."
     },
     {
       "id": 233,
       "tier": "B",
-      "reason": "108 HP and defenses of 90/95 give a stable foundation for shared Normal moves.",
-      "watchFor": "Tackle uses 1.14 Physical attack, not its stronger Special factor. Its typed pool is narrow."
+      "reason": "Porygon2 is a reasonable Normal choice when you want fairly balanced defenses. Its 108 HP gives the opening some room.",
+      "watchFor": "We'd plan beyond Tackle, which uses 1.14 Physical attack rather than its stronger Special side. The typed move pool is narrow."
     },
     {
       "id": 257,
       "tier": "B",
-      "reason": "Fire and Fighting offer several routes with both attack factors above 1.30.",
-      "watchFor": "Ember starts without melee reduction. Speed 112 and defenses of 70 need careful early movement."
+      "reason": "Blaziken offers Fire and Fighting routes with both attack factors above 1.30. We'd choose the attack style first, then support it with upgrades.",
+      "watchFor": "Ember doesn't grant melee reduction. Speed 112 and both defenses at 70 mean you still need to protect your opening."
     },
     {
       "id": 306,
       "tier": "B",
-      "reason": "180 physical defense and 1.31 Physical attack fit Metal Claw and Rock attacks.",
-      "watchFor": "Speed 99 and 60 Special defense expose weaknesses that its high physical defense can hide."
+      "reason": "We'd use Aggron's 180 physical defense to support Metal Claw and a Physical damage plan.",
+      "watchFor": "Don't mistake that number for protection against everything. Speed 99 and 60 Special defense are why we keep it below the more rounded picks."
     },
     {
       "id": 377,
       "tier": "B",
-      "reason": "200 physical defense and 106 HP give Rock Throw a sturdy base against physical damage.",
-      "watchFor": "Speed 99 limits escape room. Its typed pool and damage are less flexible than the leading ranged picks."
+      "reason": "Regirock is worth considering when Physical hits are your concern. Rock Throw starts on a 106-HP partner with 200 physical defense.",
+      "watchFor": "We'd plan escape routes early at speed 99. Its damage and narrower typed pool are the compromises."
     },
     {
       "id": 386,
-      "tier": "B",
-      "reason": "Speed 141 and 1.52 Special attack make homing Confusion an aggressive movement-and-damage option.",
-      "watchFor": "92 HP and both defenses at 50 leave little safety cushion. This list favors general progression over maximum-risk damage."
+      "tier": "A",
+      "reason": "We move Deoxys to A for a fast Special Psychic plan. Its single-type bonus and new homing or pushback options make its damage and speed easier to build around.",
+      "watchFor": "92 HP still leaves less room for errors. Speed above 130 has reduced extra value during Judgment, so we'd also invest in damage control and survival."
     },
     {
       "id": 392,
       "tier": "B",
-      "reason": "Speed 123 and balanced attack factors keep Fire and Fighting routes open from an Ember start.",
-      "watchFor": "Defenses of 71 make crowds costly. Switching to melee changes positioning and the relevant attack stat."
+      "reason": "We'd consider Infernape when you want Fire and Fighting choices without a huge gap between its attack factors. Speed 123 helps.",
+      "watchFor": "Its defenses are only 71 on both sides. If you switch into melee, change how you position as well as which buffs you take."
     },
     {
       "id": 409,
-      "tier": "B",
-      "reason": "1.61 Physical attack gives Rock Throw a clear damage focus, with Rock Slide available later.",
-      "watchFor": "Speed 102 and defenses of 60/50 make it much less forgiving than the attack factor suggests."
+      "tier": "A",
+      "reason": "Rampardos moves into our A choices for Physical Rock damage. It benefits from the single-type bonus, and Rock Tomb adds a control option to its expanded pool.",
+      "watchFor": "We'd protect its slower turns at speed 102. Its Rock attacks still have matchups to work around; high damage isn't a reason to walk into marked zones."
     },
     {
       "id": 442,
       "tier": "B",
-      "reason": "Shadow Ball starts at range; Ghost/Dark options are backed by two defenses of 108.",
-      "watchFor": "92 HP and speed 93 make bad positioning hard to recover from. Arrange status before relying on Hex."
+      "reason": "Spiritomb gives us a ranged Shadow Ball start with both defenses at 108. Ghost and Dark leave a few directions open.",
+      "watchFor": "Move before you need to at speed 93. Its 92 HP isn't a large reserve, and Hex needs status on the target."
     },
     {
       "id": 475,
       "tier": "B",
-      "reason": "1.39 Physical attack supports Psycho Cut or Karate Chop, with 115 Special defense.",
-      "watchFor": "Confusion starts on its lower 1.06 Special side; 65 physical defense adds an opening vulnerability."
+      "reason": "Gallade is a B pick we'd take with a Physical route in mind, using Psycho Cut or Fighting options rather than committing Special buffs to default Confusion.",
+      "watchFor": "Starting move can fix the opening mismatch. We'd still check what attacks are actually active together before choosing between damage, control and defense."
     },
     {
       "id": 547,
       "tier": "B",
-      "reason": "Speed 127 helps position Vine Whip, with Grass area attacks and Fairy alternatives.",
-      "watchFor": "Attack factors of 1.07/1.12 give modest starting damage. The Grass pool does not establish a team-healer role."
+      "reason": "Whimsicott is worth a look if you want a faster Vine Whip option. Speed 127 helps you choose your distance, with Grass and Fairy choices later.",
+      "watchFor": "We'd prioritize damage early: its attack factors are only 1.07/1.12. Grass attacks here aren't a team-healing kit."
     },
     {
       "id": 567,
       "tier": "B",
-      "reason": "Speed 124 and 1.47 Physical attack fit Rock Throw, with Flying alternatives.",
-      "watchFor": "Both defenses are 65. This assessment does not import the main-game Defeatist ability."
+      "reason": "We'd start Archeops with a Physical Rock plan. Speed 124 and 1.47 Physical attack fit Rock Throw well.",
+      "watchFor": "Both defenses are 65, so we'd keep moving instead of trading hits. Its damage stats don't make it a safe default."
     },
     {
       "id": 638,
       "tier": "B",
-      "reason": "Metal Claw starts with melee reduction, backed by 111 HP, speed 123 and 129 physical defense.",
-      "watchFor": "Both attack factors are only 1.20, and 72 Special defense is the weaker side."
+      "reason": "Cobalion gives us a fast Metal Claw option with 111 HP and 129 physical defense, plus active melee reduction.",
+      "watchFor": "Its damage factors are only 1.20 on both sides. We'd keep taking damage upgrades while watching the lower Special defense of 72."
     },
     {
       "id": 655,
       "tier": "B",
-      "reason": "Ember fits 1.33 Special attack, while Psychic offers homing and other ranged options.",
-      "watchFor": "72 physical defense requires spacing. Fire and Psychic upgrades compete for early choices."
+      "reason": "We like Delphox's option to move from Ember into Psychic attacks. Its 1.33 Special factor supports either direction.",
+      "watchFor": "We'd choose one main attack early. Splitting upgrades across both types can leave you short on damage, and physical defense is only 72."
     },
     {
       "id": 798,
-      "tier": "B",
-      "reason": "1.70 Physical attack fits Vine Whip, with 131 physical defense and Steel alternatives.",
-      "watchFor": "31 Special defense is an extreme weakness. Melee reduction helps but does not erase that risk."
+      "tier": "A",
+      "reason": "We move Kartana up for its Physical Grass/Steel choices, including Vine Whip and Metal Claw. The expanded pool gives you more ways to control space around a melee plan.",
+      "watchFor": "We wouldn't dismiss it just for 31 Special defense: the defense penalty is capped. Fire matchups and your positioning matter more than reading that number like a main-series stat."
     },
     {
       "id": 815,
       "tier": "B",
-      "reason": "Speed 128 makes Ember mobile, while Flame Wheel and shared Normal attacks offer Physical alternatives.",
-      "watchFor": "Ember uses only 1.06 Special attack, not its 1.34 Physical factor. Plan a route rather than stacking the wrong buff."
+      "reason": "We'd build Cinderace around Physical Fire damage such as Flame Charge or Flame Wheel. The single-type bonus and a selectable opening give that route a clearer start.",
+      "watchFor": "Default Ember uses only 1.06 Special attack. Buy the opening upgrade if changing routes; Physical buffs won't fix Ember on their own."
     },
     {
       "id": 849,
       "tier": "B",
-      "reason": "Thunder Shock uses 1.33 Special attack, with Poison adding status options.",
-      "watchFor": "Speed 110 and defenses of 70 need more deliberate positioning than the faster Electric picks."
+      "reason": "Toxtricity offers us a Special Electric start with Poison options later. Thunder Shock already uses its 1.33 factor.",
+      "watchFor": "Speed 110 and defenses of 70 make it less forgiving than the faster Electric picks. We'd leave extra room to turn away."
     },
     {
       "id": 887,
       "tier": "B",
-      "reason": "Speed 138 helps kite with Dragon Rage, with Ghost alternatives.",
-      "watchFor": "The starter uses 1.25 Special attack rather than 1.36 Physical attack. Both defenses are 75."
+      "reason": "We like Dragapult's speed 138 for keeping clear space around Dragon Rage. Ghost gives you another route later.",
+      "watchFor": "Dragon Rage uses 1.25 Special attack, not its higher Physical factor. We'd choose upgrades for the attack actually on screen."
     },
     {
       "id": 937,
       "tier": "B",
-      "reason": "1.39 Physical attack supports a planned switch into Physical options from the Fire/Ghost pool.",
-      "watchFor": "Ember and Shadow Ball use only 1.03 Special attack. Its main-game identity is not proof of a drain-based carry here."
+      "reason": "We'd consider Ceruledge for Physical Fire/Ghost choices such as Flame Charge or Shadow Sneak, with a matching opening after buying Starting move.",
+      "watchFor": "Default Ember uses its lower Special factor. The revised pool offers alternatives, but we wouldn't assume healing just from its main-game identity."
     },
     {
       "id": 978,
       "tier": "B",
-      "reason": "Dragon Rage uses 1.36 Special attack; Water adds piercing shots, slow and Aqua Ring.",
-      "watchFor": "101 HP and 60 physical defense leave a weak side. No assumed Dondozo partnership is included in this rating."
+      "reason": "Tatsugiri gives us a Special Dragon start with useful Water choices later: piercing shots, slow and Aqua Ring.",
+      "watchFor": "We'd keep contact to a minimum with 101 HP and 60 physical defense. Plan around the moves here rather than a presumed Dondozo pairing."
     },
     {
       "id": 100,
       "tier": "C",
-      "reason": "Thunder Shock starts fast and pierces, with Discharge and Thunderbolt available later.",
-      "watchFor": "88 HP, low defenses and a 1.00 Special factor put it behind the other reviewed Electric options at equal investment."
+      "reason": "Voltorb offers a mobile Electric start with piercing Thunder Shock, and now has Thunder Wave and bouncing Electro Ball as additional choices.",
+      "watchFor": "We'd choose another reviewed Electric partner at equal investment. Its lower damage and HP remain trade-offs even though the single-type bonus also benefits it."
     },
     {
       "id": 113,
-      "tier": "C",
-      "reason": "182 HP and 105 Special defense give a large health reserve for a Normal-focused challenge pick.",
-      "watchFor": "Physical defense is only 5, and Tackle uses a 0.73 factor. High HP does not establish a tank or team-healer role."
+      "tier": "B",
+      "reason": "Chansey belongs in B for us, not automatically at the bottom. Its 182 HP is meaningful under the softened defense rule, and Normal moves now get the single-type bonus.",
+      "watchFor": "We'd plan for damage first, potentially using a Special Normal opening after buying Starting move. Low attack still slows clearing; it isn't a team-healing kit."
     },
     {
       "id": 219,
       "tier": "C",
-      "reason": "120 physical defense and a Fire/Rock pool offer routes worth experimenting with.",
-      "watchFor": "Speed 91, 97 HP and a 1.20 Special starter make pressure harder to manage than on most reviewed alternatives."
+      "reason": "Magcargo still offers Fire and Rock area/control choices, including the expanded Rock pool, if you want to make the slower approach work.",
+      "watchFor": "We'd take a faster option for general Solo progression. Speed 91 and awkward Water/Ground matchups are the larger concerns; high Physical defense alone won't solve them."
     }
   ]
 }

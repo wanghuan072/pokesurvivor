@@ -91,7 +91,7 @@
 .launch p {
   color: #afcee5;
 }
-.launch button {
+.launch > a {
   margin: 15px 0 20px;
   font-size: 20px;
 }

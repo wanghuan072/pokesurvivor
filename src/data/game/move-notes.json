@@ -1493,5 +1493,879 @@
       }
     ],
     "evolutionEffect": "×1.7 damage and +3 jumps"
+  },
+  {
+    "id": "hyper-beam",
+    "description": "Charges for a moment and fires a huge beam that pierces everything.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+45% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% range and width"
+      },
+      {
+        "level": 4,
+        "text": "Charges faster and -20% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, 50% thicker beam and faster charge"
+  },
+  {
+    "id": "rapid-spin",
+    "description": "You spin in place, hitting everything around you several times.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% radius"
+      },
+      {
+        "level": 4,
+        "text": "+1 spin"
+      },
+      {
+        "level": 5,
+        "text": "-25% cooldown and +30% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +1 spin and more radius"
+  },
+  {
+    "id": "flame-charge",
+    "description": "You dash wrapped in flames, burning everything in your path.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% distance"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+60% damage and wider"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more distance and less cooldown"
+  },
+  {
+    "id": "whirlpool",
+    "description": "A whirlpool that drags enemies into its center and keeps damaging them.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% radius"
+      },
+      {
+        "level": 4,
+        "text": "+50% duration"
+      },
+      {
+        "level": 5,
+        "text": "Pulls harder and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, more radius and stronger pull"
+  },
+  {
+    "id": "seed-bomb",
+    "description": "A seed that bounces from enemy to enemy.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 bounce"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 bounce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 bounces and +1 projectile"
+  },
+  {
+    "id": "energy-ball",
+    "description": "A ball of energy that chases the enemy.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles and bigger"
+  },
+  {
+    "id": "solar-beam",
+    "description": "Absorbs light for a moment and releases it as a huge beam.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+45% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% range and width"
+      },
+      {
+        "level": 4,
+        "text": "Charges faster and -20% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, 50% thicker beam and faster charge"
+  },
+  {
+    "id": "thunder-wave",
+    "description": "A shock marked on the ground that paralyzes whoever it catches.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% radius"
+      },
+      {
+        "level": 4,
+        "text": "+50% stun"
+      },
+      {
+        "level": 5,
+        "text": "-25% cooldown and +30% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, more radius and longer stun"
+  },
+  {
+    "id": "electro-ball",
+    "description": "An electric ball that jumps from enemy to enemy.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 bounce"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 bounce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 bounces and +1 projectile"
+  },
+  {
+    "id": "extrasensory",
+    "description": "A mental wave that damages and pushes away everyone near you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% radius"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+50% push and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, more radius and stronger push"
+  },
+  {
+    "id": "mist-ball",
+    "description": "A ball of mist that chases the enemy and slows it down.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles and bigger"
+  },
+  {
+    "id": "acid-spray",
+    "description": "An acid spray that jumps between enemies and poisons them.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 bounce"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 bounce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 bounces and +1 projectile"
+  },
+  {
+    "id": "sand-tomb",
+    "description": "A sand vortex that traps and drags enemies in.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% radius"
+      },
+      {
+        "level": 4,
+        "text": "+50% duration"
+      },
+      {
+        "level": 5,
+        "text": "Pulls harder and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, more radius and stronger pull"
+  },
+  {
+    "id": "magnitude",
+    "description": "The ground bursts in a line in front of you, wave after wave.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+2 waves"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "+25% size"
+      },
+      {
+        "level": 5,
+        "text": "-25% cooldown and +2 waves"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +3 waves and bigger waves"
+  },
+  {
+    "id": "whirlwind",
+    "description": "A gust of wind that sweeps away everyone near you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% radius"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+50% push and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, more radius and stronger push"
+  },
+  {
+    "id": "air-slash",
+    "description": "Two blades of air that seek out the enemy.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles and bigger"
+  },
+  {
+    "id": "signal-beam",
+    "description": "A flash that bounces between enemies.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 bounce"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 bounce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 bounces and +1 projectile"
+  },
+  {
+    "id": "u-turn",
+    "description": "You dash through the enemies, hitting everyone in your path.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% distance"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+60% damage and wider"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more distance and less cooldown"
+  },
+  {
+    "id": "rock-tomb",
+    "description": "Rocks fall where the ground warns, trapping whoever they catch.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% radius"
+      },
+      {
+        "level": 4,
+        "text": "+50% stun"
+      },
+      {
+        "level": 5,
+        "text": "-25% cooldown and +30% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, more radius and longer stun"
+  },
+  {
+    "id": "ancient-power",
+    "description": "Ancient rocks that circle around you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 orb"
+      },
+      {
+        "level": 3,
+        "text": "+55% damage"
+      },
+      {
+        "level": 4,
+        "text": "+25% radius and spins faster"
+      },
+      {
+        "level": 5,
+        "text": "+1 orb and +55% damage"
+      }
+    ],
+    "evolutionEffect": "+2 orbs, ×1.7 damage and more radius"
+  },
+  {
+    "id": "power-gem",
+    "description": "A gem flash that bounces from enemy to enemy.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 bounce"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 bounce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 bounces and +1 projectile"
+  },
+  {
+    "id": "ice-shard",
+    "description": "Super fast shards that chase the enemy.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles and bigger"
+  },
+  {
+    "id": "freeze-dry",
+    "description": "A sudden chill marked on the ground that freezes whoever it catches.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% radius"
+      },
+      {
+        "level": 4,
+        "text": "+50% stun"
+      },
+      {
+        "level": 5,
+        "text": "-25% cooldown and +30% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, more radius and longer stun"
+  },
+  {
+    "id": "rolling-kick",
+    "description": "Spinning kicks that hit everything around you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% radius"
+      },
+      {
+        "level": 4,
+        "text": "+1 spin"
+      },
+      {
+        "level": 5,
+        "text": "-25% cooldown and +30% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +1 spin and more radius"
+  },
+  {
+    "id": "vacuum-wave",
+    "description": "A punch into the air that sends out a wave and pushes enemies away.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% radius"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+50% push and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, more radius and stronger push"
+  },
+  {
+    "id": "dynamic-punch",
+    "description": "A tremendous punch where the ground warns: it stuns whoever it catches.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% radius"
+      },
+      {
+        "level": 4,
+        "text": "+50% stun"
+      },
+      {
+        "level": 5,
+        "text": "-25% cooldown and +30% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, more radius and longer stun"
+  },
+  {
+    "id": "shadow-sneak",
+    "description": "A shadow that slips along the ground to the enemy.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles and bigger"
+  },
+  {
+    "id": "ominous-wind",
+    "description": "A cursed wind that swirls enemies together and keeps damaging them.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+30% radius"
+      },
+      {
+        "level": 4,
+        "text": "+50% duration"
+      },
+      {
+        "level": 5,
+        "text": "Pulls harder and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, more radius and stronger pull"
+  },
+  {
+    "id": "dragon-breath",
+    "description": "A short fan of dragon breath that slows.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+3 shots"
+      },
+      {
+        "level": 3,
+        "text": "+40% damage"
+      },
+      {
+        "level": 4,
+        "text": "+30% range"
+      },
+      {
+        "level": 5,
+        "text": "+3 shots and +1 pierce"
+      }
+    ],
+    "evolutionEffect": "×1.7 damage, +4 shots and +1 pierce"
+  },
+  {
+    "id": "dragon-claw",
+    "description": "A dragon claw swipe in an arc.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% range"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "Hits in 360° and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more range and hits in 360°"
+  },
+  {
+    "id": "outrage",
+    "description": "A fury of spinning blows that leaves no one standing.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% radius"
+      },
+      {
+        "level": 4,
+        "text": "+1 spin"
+      },
+      {
+        "level": 5,
+        "text": "-25% cooldown and +30% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +1 spin and more radius"
+  },
+  {
+    "id": "draining-kiss",
+    "description": "A kiss that chases the enemy and heals you a little when it hits.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles and bigger"
+  },
+  {
+    "id": "play-rough",
+    "description": "A playful but very strong attack in an arc.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% range"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "Hits in 360° and +50% damage"
+      }
+    ],
+    "evolutionEffect": "×1.9 damage, more range and hits in 360°"
+  },
+  {
+    "id": "disarming-voice",
+    "description": "A charming cry that damages and pushes away those near you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% radius"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+50% push and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, more radius and stronger push"
+  },
+  {
+    "id": "mirror-shot",
+    "description": "A metallic flash that bounces between enemies.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 bounce"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +1 bounce"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 bounces and +1 projectile"
+  },
+  {
+    "id": "gyro-ball",
+    "description": "You spin like a steel ball, hitting everything around.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% radius"
+      },
+      {
+        "level": 4,
+        "text": "+1 spin"
+      },
+      {
+        "level": 5,
+        "text": "-25% cooldown and +30% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +1 spin and more radius"
+  },
+  {
+    "id": "sucker-punch",
+    "description": "A sneaky blow that seeks out the enemy.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+1 projectile"
+      },
+      {
+        "level": 3,
+        "text": "+45% damage"
+      },
+      {
+        "level": 4,
+        "text": "-25% cooldown"
+      },
+      {
+        "level": 5,
+        "text": "+1 projectile and +40% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +2 projectiles and bigger"
+  },
+  {
+    "id": "night-slash",
+    "description": "Spinning slashes that reach everything around you.",
+    "levelEffects": [
+      {
+        "level": 2,
+        "text": "+40% damage"
+      },
+      {
+        "level": 3,
+        "text": "+25% radius"
+      },
+      {
+        "level": 4,
+        "text": "+1 spin"
+      },
+      {
+        "level": 5,
+        "text": "-25% cooldown and +30% damage"
+      }
+    ],
+    "evolutionEffect": "×1.8 damage, +1 spin and more radius"
   }
 ]

@@ -135,7 +135,7 @@ const moves = rawMoves.map((raw) => {
   for (const step of ladders[raw.kind]) {
     const next = { ...levels.at(-1), level: levels.length + 1 };
     for (const [k, v] of Object.entries(step.m)) {
-      if (["count", "pierce", "stacks"].includes(k))
+      if (["count", "pierce", "stacks", "bounce"].includes(k))
         next[k] = (next[k] || 0) + v;
       else if (
         [
@@ -151,6 +151,7 @@ const moves = rawMoves.map((raw) => {
           "life",
           "size",
           "rate",
+          "pull", "knock", "stun", "charge",
         ].includes(k) &&
         next[k] !== undefined
       )
@@ -161,6 +162,9 @@ const moves = rawMoves.map((raw) => {
   }
   return {
     ...m,
+    name,
+    evolution: evo[raw.id] ? translate(evo[raw.id][0]) : null,
+    requirement: evo[raw.id] ? statNames[evo[raw.id][1]] : null,
     id: raw.id,
     behavior: raw.kind,
     category: raw.kind === "buff" ? "buff" : physicalMoves.has(raw.id) ? "physical" : "special",
@@ -295,7 +299,7 @@ const snapshot = {
 };
 if (
   pokemon.length !== 966 ||
-  moves.length !== 65 ||
+  moves.length !== 103 ||
   achievements.length !== 130
 )
   throw new Error("Unexpected source counts; inspect before importing.");

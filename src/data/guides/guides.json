@@ -25,7 +25,8 @@
         "paragraphs": [
           "Open the Play page and launch the official game. Start as a guest or use the game’s own account options. This guide cannot read your save: available partners, purchased upgrades and collection progress are managed by the game.",
           "Charmander begins with Ember, Squirtle with Water Gun and Bulbasaur with Vine Whip. They introduce a targeted projectile, a piercing stream and a close-range arc. Pick the opening style you can position safely. A large attack multiplier does not automatically make a partner easier to play.",
-          "Before starting, note your opening move and one evolution goal. Read its required stat card in Level-up Cards. Use the Pokédex for the partner’s actual starting HP, movement speed and attack factor; these differ from main-series Pokémon stats."
+          "Before starting, note your opening move and one evolution goal. Read its required stat card in Level-up Cards. Use the Pokédex for the partner’s actual starting HP, movement speed and attack factor; these differ from main-series Pokémon stats.",
+          "The moves listed here are defaults. In Upgrades, Starting move costs 400 coins once for that partner and then lets you change its opening attack for free. Choose a non-buff move from its legal pool, or keep the default even when it is an opening exception."
         ]
       },
       {
@@ -133,7 +134,8 @@
         "paragraphs": [
           "A normal level-up move pool combines Normal moves with the partner’s species types. A Fire partner can therefore see Normal and Fire options; a dual-type partner has both type families. Check the partner’s available moves in the game before choosing an evolution goal.",
           "An opening exception can add a move outside that ordinary pool. Psyduck is Water but starts with Confusion. You can upgrade that opening move; it does not mean every Psychic move becomes available as a new card. Check the starting move and the normal pool separately.",
-          "Plan one main attack and one useful alternative before filling every slot. Attack behavior matters: a projectile, an orbit and a dash solve different positioning problems. A type advantage is useful only when you can actually place the attack where it needs to land."
+          "Plan one main attack and one useful alternative before filling every slot. Attack behavior matters: a projectile, an orbit and a dash solve different positioning problems. A type advantage is useful only when you can actually place the attack where it needs to land.",
+          "Starting move is a 400-coin upgrade bought separately for each partner. After unlocking it, you can choose a non-buff opening from that partner’s pool, including its original default. New-move cards no longer switch your active attack automatically; change slots yourself when you want the new move."
         ]
       },
       {
@@ -142,7 +144,8 @@
         "paragraphs": [
           "Move type and attack category answer different questions. Fire, Water and the other types determine matchups and weather; Physical or Special determines which attack factor your partner uses and which defense the target uses. Your partner’s old single attack factor is the higher of its physical and special factors.",
           "Swords Dance and Dragon Dance boost physical attack only. Nasty Plot boosts special attack and belongs to the Normal pool, so every partner can receive it. It does not help the damage of a physical attack. Choose a buff for the damaging moves you actually intend to use together.",
-          "The percentage beside a move in Level-up compares your partner’s attack factor for that category with its stronger factor. It is not a hit chance or measured DPS. Range, number of hits, enemy defenses, type and weather still affect the result."
+          "The percentage beside a move in Level-up compares your partner’s attack factor for that category with its stronger factor. It is not a hit chance or measured DPS. Range, number of hits, enemy defenses, type and weather still affect the result.",
+          "Single-type partners now deal 20% more damage with moves matching their own type. Other types in their pool do not get this bonus, and dual-type partners do not receive it. This is separate from attack-category fit, enemy typing and weather."
         ],
         "table": {
           "caption": "Separate the category, the type and the buff before choosing a card.",
@@ -190,7 +193,7 @@
         "title": "4. Reach both evolution requirements in the same run",
         "paragraphs": [
           "An eligible move must reach level 5, and you must have selected at least one copy of its required stat card during the current run. You may take the stat card before or after level 5. Then choose its gold evolution card at a later level-up.",
-          "There are 65 base moves and 59 evolution paths; the six buff moves do not evolve. A ready evolution is given a guaranteed place among the offered cards for the first ready candidate. If several moves are ready, do not interpret that as every evolution appearing together.",
+          "There are 103 base moves and 97 evolution paths; the six buff moves do not evolve. A ready evolution is given a guaranteed place among the offered cards for the first ready candidate. If several moves are ready, do not interpret that as every evolution appearing together.",
           "One stat card can satisfy several recipes that use it, but each move still needs its own levels and gold choice. Ember and Water Gun both use Power. Confusion uses Reflexes. Use the examples below and the full Level-up list rather than guessing the requirement from the move’s type."
         ]
       },

@@ -58,12 +58,20 @@
     ]
   },
   "2026-10-19": {
-    "added": [],
+    "added": [
+      "38 new moves expand the catalogue to 103 moves and 97 evolution recipes, adding homing shots, bouncing attacks, charging beams, spins, shockwaves, vortexes, pushback and stun zones.",
+      "Starting move costs 400 coins once per partner and then allows free selection of a legal non-buff opening, including the default."
+    ],
     "changed": [
+      "Single-type partners gain 20% damage with moves matching their own type.",
+      "Learning a new move keeps the current active slot; switch when you want to use it.",
+      "The game now runs only on pokesurvivor.com; this fan guide opens the official site in a new tab.",
       "Cloud uploads are scheduled after about 30 minutes with pending changes. Use Save and confirm the status before changing devices.",
       "Gacha pulls, run completion and tab switches no longer trigger immediate cloud uploads; browser-local records remain separate."
     ],
-    "fixed": [],
-    "title": "Cloud save timing and the Save button"
+    "fixed": [
+      "The default opening remains available after using Starting move, including exceptions such as Psyduck’s Confusion.",
+      "Co-op Bosses after Rifts now appear close to the players; distant Bosses are relocated."
+    ]
   }
 }

@@ -1,8 +1,34 @@
 {
-  "reviewed": "2026-10-19",
-  "build": "7c1976458d",
-  "revision": "e4ba0e173cb7e415f9815c924a48c5c25f516962",
-  "saving": { "autoUploadMinutes": 30, "minimumUploadGapSeconds": 65 },
-  "defense": { "reference": 75, "exponent": 0.35, "minimum": 0.78, "maximum": 1.25 },
-  "judgment": { "startsMinutes": 30, "speedSoftCap": 130, "excessSpeedFactor": 0.25, "touchRampAfterSeconds": 420, "fullTouchAfterSeconds": 600 }
+  "reviewed": "2026-10-20",
+  "build": "ae1820f65b",
+  "revision": "018e986f4c12f414dfa84193ee35b2959b1e325c",
+  "saving": {
+    "autoUploadMinutes": 30,
+    "minimumUploadGapSeconds": 65
+  },
+  "defense": {
+    "reference": 75,
+    "exponent": 0.35,
+    "minimum": 0.78,
+    "maximum": 1.25
+  },
+  "judgment": {
+    "startsMinutes": 30,
+    "speedSoftCap": 130,
+    "excessSpeedFactor": 0.25,
+    "touchRampAfterSeconds": 420,
+    "fullTouchAfterSeconds": 600
+  },
+  "combat": {
+    "monoTypeMultiplier": 1.2,
+    "activeMeleeTakenMultiplier": 0.75,
+    "maximumDamageReduction": 0.8,
+    "maximumPlayerRadius": 18
+  },
+  "startingMove": {
+    "cost": 400,
+    "perPartner": true,
+    "buffsAllowed": false,
+    "defaultAlwaysAvailable": true
+  }
 }

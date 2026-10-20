@@ -5,7 +5,7 @@
   },
   "/play": {
     "heading": "Play PokeSurvivor Online",
-    "intro": "Launch the official game, check the controls and keep a direct game link handy if fullscreen or sign-in does not work in the embedded player."
+    "intro": "Open PokeSurvivor on its official website, check the controls and review saving steps before your next run. The game runs on pokesurvivor.com."
   },
   "/pokedex": {
     "heading": "PokeSurvivor Pokédex - Find Your Next Partner",
@@ -13,11 +13,11 @@
   },
   "/level-up": {
     "heading": "PokeSurvivor Level-Up Cards and Move Evolutions",
-    "intro": "Compare all 65 moves by partner, Physical or Special category and evolution requirement. Check the cards, equipment and Bonds that fit your current run."
+    "intro": "Compare all 103 moves by partner, Physical or Special category and evolution requirement. Check the cards, equipment and Bonds that fit your current run."
   },
   "/tier-list": {
     "heading": "PokeSurvivor Tier List",
-    "intro": "Build your own rankings. Compare our picks, then make the list yours."
+    "intro": "Build your own rankings, compare our S–D recommendations and check the trade-offs before choosing your next Solo partner."
   },
   "/types": {
     "heading": "PokeSurvivor Types - Matchups and Weather",

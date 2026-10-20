@@ -43,9 +43,9 @@ export function recommendationBoard(board: LeaderboardBoard): RecommendationBoar
   };
 }
 
-export const tierColors = { S: "#e59781", A: "#e8be73", B: "#dfd780", C: "#9ec994" };
+export const tierColors = { S: "#e59781", A: "#e8be73", B: "#dfd780", C: "#9ec994", D: "#8fbad4" };
 export function isTierLabel(value: string): value is keyof typeof tierColors {
-  return value === "S" || value === "A" || value === "B" || value === "C";
+  return value === "S" || value === "A" || value === "B" || value === "C" || value === "D";
 }
 
 /** Add recommended partners, preserving other picks, row names and row colors. */

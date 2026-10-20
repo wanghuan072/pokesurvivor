@@ -32,8 +32,8 @@
       {
         "heading": "Loading the official game",
         "paragraphs": [
-          "The Play page does not load the external game until you choose Launch Game. Once launched, an embedded frame requests content from pokesurvivor.com. The game and its service providers may receive connection information and use their own cookies or storage. Opening the game in a new tab also connects directly to that operator.",
-          "Any sign-in, account recovery, friends list or cloud-save interaction occurs with the game’s systems. PokeSurvivor.me cannot inspect an embedded game’s private account data, reset a password or retrieve a save. Review the game operator’s notices before using its account features."
+          "The Play page links to pokesurvivor.com in a new tab. We do not embed or host the game. If you follow that link, the game operator and its service providers may receive connection information and use their own cookies or storage under their notices.",
+          "Any sign-in, account recovery, friends list or cloud-save interaction occurs with the game’s systems. PokeSurvivor.me cannot inspect the official game’s private account data, reset a password or retrieve a save. Review the game operator’s notices before using its account features."
         ]
       },
       {
@@ -46,7 +46,7 @@
       {
         "heading": "Your choices and questions",
         "paragraphs": [
-          "You can browse the guide without launching the game or sending email. Browser settings let you remove cached files and local storage. They may also let you restrict third-party cookies, although doing so can affect features of an embedded game.",
+          "You can browse the guide without launching the game or sending email. Browser settings let you remove cached files and local storage. Cookie and storage settings on the official game website are managed separately in your browser.",
           "For a question about information sent to this website, contact support@pokesurvivor.me and describe the request without providing unnecessary personal information. Requests concerning a game account or its storage should go to the game operator. No fixed retention period or response deadline is represented where one has not been established."
         ]
       }
@@ -169,7 +169,7 @@
       {
         "heading": "Independent of the game",
         "paragraphs": [
-          "PokeSurvivor.me is a fan website. It is not affiliated with the official game operator, Nintendo, Creatures Inc., GAME FREAK or The Pokémon Company. The embedded game, player accounts, saves and multiplayer systems belong to the game operator.",
+          "PokeSurvivor.me is a fan website. It is not affiliated with the official game operator, Nintendo, Creatures Inc., GAME FREAK or The Pokémon Company. The game, player accounts, saves and multiplayer systems belong to the game operator.",
           "If a game account needs help, use the official game’s support options. If this guide contains a confusing explanation or an incorrect number, email support@pokesurvivor.me with the page URL and the detail that needs attention."
         ]
       }

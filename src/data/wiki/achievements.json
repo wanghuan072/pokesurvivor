@@ -351,9 +351,9 @@
     "id": "evoAll",
     "category": "Combat",
     "name": "Move master",
-    "description": "Evolve 59 different moves.",
+    "description": "Evolve 97 different moves.",
     "tier": 3,
-    "goal": 59,
+    "goal": 97,
     "reward": {
       "t10": 3
     },

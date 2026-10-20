@@ -1,17 +1,17 @@
 {
-  "reviewed": "2026-10-19",
-  "revision": "e4ba0e173cb7e415f9815c924a48c5c25f516962",
-  "build": "7c1976458d",
-  "builtAt": "2026-10-18T23:06:24.444Z",
+  "reviewed": "2026-10-20",
+  "revision": "018e986f4c12f414dfa84193ee35b2959b1e325c",
+  "build": "ae1820f65b",
+  "builtAt": "2026-10-19T21:42:49.950Z",
   "counts": {
     "pokemon": 966,
-    "moves": 65,
-    "evolutions": 59,
+    "moves": 103,
+    "evolutions": 97,
     "starters": 29,
     "items": 11,
-    "upgrades": 13,
+    "upgrades": 14,
     "achievements": 130,
     "legendaries": 87
   },
-  "sourceBase": "https://github.com/JPTER78/pokesurvivor/blob/e4ba0e173cb7e415f9815c924a48c5c25f516962/"
+  "sourceBase": "https://github.com/JPTER78/pokesurvivor/blob/018e986f4c12f414dfa84193ee35b2959b1e325c/"
 }

@@ -7,8 +7,8 @@ export function editorialPicks(partners: Partner[], picks: PickInput[]): Editori
     const p = partners.find(p => p.id === pick.id);
     if (!p) throw new Error("Unknown editorial tier-list partner");
     const tier = pick.tier;
-    if (tier !== "S" && tier !== "A" && tier !== "B" && tier !== "C") throw new Error("Invalid tier");
+    if (tier !== "S" && tier !== "A" && tier !== "B" && tier !== "C" && tier !== "D") throw new Error("Invalid tier");
     const attack = p.physicalAttack > p.specialAttack ? `Phys. ATK ${p.physicalAttack.toFixed(2)}` : `Sp. ATK ${p.specialAttack.toFixed(2)}`;
     return { ...pick, tier, name: pick.name ?? p.name, statLine: `${p.hp} HP · ${attack} · Speed ${p.speed}` };
-  }).sort((a,b) => "SABC".indexOf(a.tier) - "SABC".indexOf(b.tier) || a.id-b.id);
+  }).sort((a,b) => "SABCD".indexOf(a.tier) - "SABCD".indexOf(b.tier) || a.id-b.id);
 }

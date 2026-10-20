@@ -125,6 +125,7 @@ export function contentInputs(root = process.cwd()) {
     if (url !== "/" && url !== "/play")
       sources("src/components/common/PageHeader.tsx", implementationFiles);
     const mechanics=read("src/data/game/mechanics.json");
+    if(["/level-up","/types","/tier-list"].includes(url))data={...data,combatRules:mechanics.combat,startingMoveRule:mechanics.startingMove};
     if(implementationFiles.has("src/components/common/SourceNote.tsx")) data={...data,rulesReviewed:{reviewed:mechanics.reviewed,build:mechanics.build}};
     if(url==="/guides")data.rulesReviewed={reviewed:mechanics.reviewed,build:mechanics.build};
     if(url==="/types")data={...data,defenseRule:mechanics.defense};

@@ -17,7 +17,7 @@ export type LeaderboardBoard = {
 };
 export type PartnerRecord = { id: number; count: number; bestSeconds: number; bestRank: number };
 export type TeamRecord = { key: string; ids: number[]; count: number; bestSeconds: number; bestRank: number };
-export type TierLabel = "S" | "A" | "B" | "C";
+export type TierLabel = "S" | "A" | "B" | "C" | "D";
 export type TierPreset = { label: TierLabel; color: string; picks: { id: number }[] };
 export type TierBoardRow = { id: string; label: string; color: string; partners: number[] };
 export type RecommendationSelection = { mode: RankingMode; period: RankingPeriod; size: number };

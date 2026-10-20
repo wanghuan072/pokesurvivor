@@ -48,7 +48,7 @@
     ],
     [
       "Does the tier list show the strongest Pokémon?",
-      "The Tier List Maker saves your own partner rankings in this browser. Rankings is a separate page with saved official player and team survival records, including capture times. Neither is a tested character-strength ranking. Move category, upgrades and positioning affect your run."
+      "The upper board is your own ranking. Below it, our S–D recommendations consider current move routes, player discussions and historical survival records at comparable investment. They are editorial recommendations, not measured win rates. The saved boards predate the latest move update; Group times describe whole teams rather than individual strength."
     ],
     [
       "What happens at minute 30?",
@@ -65,6 +65,14 @@
     [
       "Can I use a controller or aim manually?",
       "Controllers can move, switch attacks, pause and operate menus; check Settings > Controls. Manual aim is a separate option in Settings > Accessibility and is off by default. It changes aiming direction, not automatic firing."
+    ],
+    [
+      "Can I change a partner’s starting move?",
+      "Yes. Buy Starting move for 400 coins in that partner’s Upgrades. You can then choose a non-buff move from its legal pool, or return to its default opening even when that is outside the ordinary pool. This guide shows defaults rather than your account selection."
+    ],
+    [
+      "Do single-type Pokémon get a damage bonus?",
+      "Yes. A partner with exactly one type deals 20% more damage with moves matching that type. Other move types do not receive it, and dual-type partners do not get this bonus."
     ]
   ]
 }

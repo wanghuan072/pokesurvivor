@@ -15,8 +15,8 @@ export default function Updates() {
         </article>)}</div>
       </section>
       <section id="game-updates" className={s.section}>
-        <header className={s.heading}><div><small>DATED GAME CHANGES</small><h2>Game updates & affected guides</h2></div><span>Checked through 19 October 2026</span></header>
-        <p className={s.notice}>Physical and special attacks change card choices; the Save button changes what to check before leaving. <a href="/guides/move-evolutions#physical-special">Review attack categories →</a> · <a href="/guides/beginner-guide#save-progress">Check saving steps →</a>. The 19 October saving note follows the current game code; the older 10-minute wording in the in-game changelog no longer matches its 30-minute upload schedule. Older entries remain dated history.</p>
+        <header className={s.heading}><div><small>DATED GAME CHANGES</small><h2>Game updates & affected guides</h2></div><span>Checked through 20 October 2026</span></header>
+        <p className={s.notice}>The latest pool has 103 moves and 97 evolutions, with a single-type damage bonus and selectable opening attacks. <a href="/level-up">Compare the new cards →</a> · <a href="/guides/move-evolutions#physical-special">Review attack categories →</a>. Saving still follows the checked 30-minute pending-upload schedule; the older 10-minute changelog wording is superseded by that behavior. Older entries remain dated history.</p>
         <div className={s.archive}>{changes.map((change,index) => <details key={change.date} open={index===0}>
           <summary><time dateTime={change.date}>{change.date}</time><h3>{change.title}</h3><span aria-hidden="true">+</span></summary>
           <div className={s.changeGroups}>{[["Added",change.added],["Changed",change.changed],["Fixed",change.fixed]].map(([label,items]) => (items as string[]).length > 0 && <section key={label as string}><h4>{label}</h4><ul>{(items as string[]).map(item => <li key={item}>{item}</li>)}</ul></section>)}</div>

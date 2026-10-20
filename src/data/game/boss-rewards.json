@@ -1,7 +1,7 @@
 {
   "review": {
-    "reviewed": "2026-10-16",
-    "revision": "5bbc3b29288d6af4596f21188fb8b54e0e9b739f",
+    "reviewed": "2026-10-20",
+    "revision": "018e986f4c12f414dfa84193ee35b2959b1e325c",
     "method": "Official documentation and static source inspection, including Boss death, Rift victory, Bond selection and fusion. No gameplay session claimed.",
     "officialPages": [
       "https://pokesurvivor.com/en/moves/",
@@ -11,7 +11,7 @@
     "files": [
       {
         "file": "js/data/moves.js",
-        "sha256": "75f6612c276a89e4344382739d4f17e770021766843ff9e03933769699eee70a"
+        "sha256": "6c104208d723ad8b56af2eff6e4bab8a198342d8acabcbc51a33f52cc7f04ece"
       },
       {
         "file": "js/data/items.js",
@@ -19,29 +19,29 @@
       },
       {
         "file": "js/entities/enemy.js",
-        "sha256": "f045ebf98e916239a918bbd3aded22baa67757df7d124ae80f5471898e6d848e"
+        "sha256": "6188d9fd6c268f1fc04ea5aad9797b3ced776337d9b79a42b3e783ecba7715fc"
       },
       {
         "file": "js/entities/player.js",
-        "sha256": "596c00824f0ac83fe2b62592764c6b10dfdff735675b1d0fa0d3600829364336"
+        "sha256": "665c51f2a8f6bb097b05c2a7be368adcd95e153417a092db70c114c995bb13c1"
       },
       {
         "file": "js/systems/rift.js",
-        "sha256": "28da109c435cbcc7984f544a4ef7965956ee6a4ea3337fd448051e4c74e66002"
+        "sha256": "2c27b749de34a0f7be0a53e5499e1591837dd1b5c9b1d54f440493b894c50f76"
       },
       {
         "file": "js/game.js",
-        "sha256": "ba3d6cbeec924249ac4774ab602d066b6b5f883669bbe96cb2d0c901258496db"
+        "sha256": "720c220337a47cd7016dcec0c4b58a6fccb3332317e963ba5f86ca5df1cacc7a"
       },
       {
         "file": "js/systems/levelup.js",
-        "sha256": "adccb708c5648a825b647f6421bdae49f3bc3924a49dfb1b903c7d17a05b3150"
+        "sha256": "296a02c1f3b5871ecb1d1cb49a595f22e3fbc671fbe92144f5c689d1d19eea52"
       }
     ]
   },
   "counts": {
-    "moveCards": 64,
-    "evolutionRecipes": 59,
+    "moveCards": 103,
+    "evolutionRecipes": 97,
     "heldItems": 11,
     "bossPatterns": 7
   },

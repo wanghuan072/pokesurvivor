@@ -8,8 +8,8 @@ const pokemon = read("src/data/pokedex/pokemon.json"),
 assert.equal(pokemon.length, 966);
 assert.equal(new Set(pokemon.map((p) => p.slug)).size, 966);
 assert.equal(new Set(pokemon.map((p) => p.id)).size, 966);
-assert.equal(moves.length, 65);
-assert.equal(moves.filter((m) => m.evolution).length, 59);
+assert.equal(moves.length, 103);
+assert.equal(moves.filter((m) => m.evolution).length, 97);
 assert.equal(new Set(moves.map((m) => m.slug)).size, moves.length);
 assert.equal(pokemon.find((p) => p.id === 29).slug, "nidoran-female");
 assert.equal(pokemon.find((p) => p.id === 32).slug, "nidoran-male");
@@ -246,7 +246,7 @@ console.log(
   `PASS: ${pokemon.filter((p) => p.hasDetailPage).length} published Pokédex pages; unpublished entries excluded from generated routes, search and sitemap.`,
 );
 console.log(
-  `PASS: ${pokemon.length} unique Pokémon, ${moves.length} moves, 59 evolutions, 18×18 type chart.`,
+  `PASS: ${pokemon.length} unique Pokémon, ${moves.length} moves, 97 evolutions, 18×18 type chart.`,
 );
 console.log(
   `PASS: ${checked} built HTML pages checked for H1, title, description, canonical, CSS module classes and ${hrefs.size} internal targets.`,

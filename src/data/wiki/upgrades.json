@@ -102,5 +102,13 @@
     "max": 3,
     "baseCost": 300,
     "growth": 1.9
+  },
+  {
+    "id": "start",
+    "name": "Starting move",
+    "effect": "Choose which move you start the run with",
+    "max": 1,
+    "baseCost": 400,
+    "growth": 1
   }
 ]

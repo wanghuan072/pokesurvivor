@@ -44,6 +44,11 @@ if (source) {
   match("js/core/db.js", /async function saveNow\(/);
   match("js/systems/levelup.js", /G\.Stats\.fit\(pl\.mon, d\.cat\) >= 0\.999 \? 2 : 1/);
   match("js/systems/judgment.js", /Math\.max\(0, arenaT - 420\) \/ 180/);
+  match("js/entities/player.js", /static get MONO_K\(\) \{ return 1\.2;/);
+  match("js/entities/player.js", /this\.mon\.types\.length === 1 && type === this\.mon\.types\[0\]/);
+  match("js/entities/player.js", /activeGroup\(\)\.some\(m => m\.kind === 'melee'\) \? 0\.75 : 1/);
+  match("js/data/starters.js", /filter\(id => G\.Moves\.BY_ID\[id\]\.kind !== 'buff'\)/);
+  match("js/data/starters.js", /if \(!ids\.includes\(base\)\) ids\.push\(base\)/);
   assert.equal(hash("live-app.min.js"), hash("repository-app.min.js"), "Live game bundle differs from the checked repository bundle");
   const facts = {
     rosterCount:roster.length,
@@ -52,6 +57,8 @@ if (source) {
     physicalMoves:moves.get("PHYSICAL"),
     saving:{autoUploadMinutes:data("js/core/db.js").get("PUSH_EVERY")/60000,minimumUploadGapSeconds:data("js/core/db.js").get("MIN_GAP")/1000},
     defense:{reference:data("js/systems/stats.js").get("REF"),exponent:data("js/systems/stats.js").get("EXP"),minimum:data("js/systems/stats.js").get("LO"),maximum:data("js/systems/stats.js").get("HI")},
+    combat:{monoTypeMultiplier:1.2,activeMeleeTakenMultiplier:0.75,maximumDamageReduction:0.8,maximumPlayerRadius:data("js/core/sprites.js").get("PLAYER_R")},
+    startingMove:{cost:data("js/data/upgrades.js").get("LIST").find(u=>u.id==='start').base,perPartner:true,buffsAllowed:false,defaultAlwaysAvailable:true},
     judgment:{startsMinutes:data("js/systems/judgment.js").get("AT")/60,speedSoftCap:data("js/systems/judgment.js").get("SPD_SOFT"),excessSpeedFactor:data("js/systems/judgment.js").get("SPD_OVER"),touchRampAfterSeconds:420,fullTouchAfterSeconds:600},
     moves: moves.get("RAW").map(({id,dmg,cd}) => ({id,...(dmg===undefined?{}:{dmg}),cd})),
     evolutions: Object.fromEntries(Object.entries(moves.get("EVO")).map(([id,[,needs]]) => [id,needs])),
@@ -86,6 +93,7 @@ assert.ok(pokemon.every(p=>p.cardPool.includes('nasty-plot')));
 assert.equal(moves.filter(m=>m.category==='buff').length,6);
 const mechanics=read("src/data/game/mechanics.json");
 assert.deepEqual(mechanics.saving,f.saving);assert.deepEqual(mechanics.defense,f.defense);assert.deepEqual(mechanics.judgment,f.judgment);
+assert.deepEqual(mechanics.combat,f.combat);assert.deepEqual(mechanics.startingMove,f.startingMove);
 assert.equal(mechanics.build,review.liveBuild.v);assert.equal(mechanics.revision,review.revision);
 for(const m of f.moves){const actual=moves.find(x=>x.id===m.id);assert.ok(actual,m.id);assert.equal(actual.base.cd,m.cd,m.id);if(m.dmg!==undefined)assert.equal(actual.base.dmg,m.dmg,m.id);}
 assert.equal(moves.length,f.moves.length);
@@ -105,4 +113,4 @@ assert.equal(read("src/data/game/world-rules.json").rift.firstPossibleSeconds,f.
 const guide=read("src/data/guides/guides.json").find(g=>g.slug==="shiny-pokemon");
 assert.ok(guide.sections.some(s=>s.id==="rifts"),"Rift shiny route must not disappear from the guide");
 assert.ok(guide.sections.find(s=>s.id==="start").table.rows.some(row=>row[0]==="Rift legendary" && row[1].includes("512")));
-console.log(`PASS: guide data matches the recorded ${review.reviewed} review (${review.liveBuild.v}); ${pokemon.length} partners, ${moves.length} moves, physical/special stats, 59 recipes, wave schedules, stat caps, missions and all three shiny rates. No gameplay test claimed.`);
+console.log(`PASS: guide data matches the recorded ${review.reviewed} review (${review.liveBuild.v}); ${pokemon.length} partners, ${moves.length} moves, ${Object.keys(f.evolutions).length} recipes, mono-type bonus, configurable openings, wave schedules and shiny rates. No gameplay test claimed.`);

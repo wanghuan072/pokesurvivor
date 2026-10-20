@@ -10,7 +10,7 @@ export const tdk = {
   },
   "/play": {
     "title": "Play PokeSurvivor Online - Free Browser Game",
-    "description": "Launch PokeSurvivor in your browser, check keyboard and mobile controls, switch to fullscreen and find out how the official game handles accounts and saves.",
+    "description": "Play PokeSurvivor on its official website. Check keyboard and mobile controls, learn how to switch attacks and review account saving before your next run.",
     "targetKeywords": [
       "PokeSurvivor",
       "play"
@@ -26,7 +26,7 @@ export const tdk = {
   },
   "/level-up": {
     "title": "PokeSurvivor Level-Up Cards, Boss Rewards and Bonds",
-    "description": "Explore PokeSurvivor level-up cards by Pokémon. Compare 65 moves, physical and special attack fit, evolution recipes, held items and Bond fusions.",
+    "description": "Explore PokeSurvivor level-up cards by Pokémon. Compare 103 moves, physical and special attack fit, evolution recipes, held items and Bond fusions.",
     "targetKeywords": [
       "PokeSurvivor",
       "level up"

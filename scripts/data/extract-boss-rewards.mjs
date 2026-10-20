@@ -50,8 +50,8 @@ const bossCast = method("js/entities/enemy.js", "bossCast");
 assert.match(bossCast, /ai\.fury \? 9 : 7/);
 assert.match(bossCast, /ai\.fury \? 18 : 14/);
 const moveData = gameLiterals(resolve("js/data/moves.js"));
-assert.equal(moveData.get("RAW").length, 64);
-assert.equal(Object.keys(moveData.get("EVO")).length, 59);
+assert.equal(moveData.get("RAW").length, 103);
+assert.equal(Object.keys(moveData.get("EVO")).length, 97);
 const itemIds = gameLiterals(resolve("js/data/items.js")).get("LIST").map(item => item.id);
 const items = JSON.parse(fs.readFileSync("src/data/wiki/items.json", "utf8"));
 assert.deepEqual(itemIds, items.map(item => item.id));
@@ -68,13 +68,13 @@ const patterns = [
 ];
 const data = {
   review: {
-    reviewed: "2026-10-16",
+    reviewed: "2026-10-20",
     revision,
     method: "Official documentation and static source inspection, including Boss death, Rift victory, Bond selection and fusion. No gameplay session claimed.",
     officialPages: ["https://pokesurvivor.com/en/moves/", "https://pokesurvivor.com/en/items/", "https://pokesurvivor.com/en/news/"],
     files: files.map(file => ({file, sha256: crypto.createHash("sha256").update(code[file]).digest("hex")})),
   },
-  counts: { moveCards: 64, evolutionRecipes: 59, heldItems: itemIds.length, bossPatterns: ids.length },
+  counts: { moveCards: moveData.get("RAW").length, evolutionRecipes: Object.keys(moveData.get("EVO")).length, heldItems: itemIds.length, bossPatterns: ids.length },
   heldItemIds: itemIds,
   itemNotes: {
     choiceband: "Locks ordinary slot switching. If your active slot is a Bond group, its linked moves can still run together.",
@@ -111,4 +111,4 @@ const data = {
 for (const pattern of patterns) assert.ok(fs.existsSync(`public/game/icons/${pattern.icon}.png`));
 for (const id of itemIds) assert.ok(fs.existsSync(`public/game/icons/${id}.png`));
 fs.writeFileSync("src/data/game/boss-rewards.json", JSON.stringify(data, null, 2) + "\n");
-console.log(`Parsed ${itemIds.length} Boss equipment drops, Bond rules and ${ids.length} enemy-only Boss patterns; 64 move cards and 59 recipes unchanged.`);
+console.log(`Parsed ${itemIds.length} Boss equipment drops, Bond rules and ${ids.length} enemy-only patterns; ${data.counts.moveCards} move cards and ${data.counts.evolutionRecipes} recipes.`);

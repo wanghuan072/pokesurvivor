@@ -34,7 +34,7 @@ def fit_frame(frame, bounds=None):
     return canvas
 
 manifest = []
-for mon in pokemon:
+for mon in ([] if '--icons-only' in sys.argv else pokemon):
     dex = str(mon['id'])
     meta = metadata[dex]
     record = {'id': mon['id'], 'normal': None, 'shiny': None, 'animations': []}
@@ -126,5 +126,6 @@ for kind in icons['types']:
 moves = json.loads(Path('src/data/moves/moves.json').read_text(encoding='utf-8'))
 for move in moves:
     emblem(move['type'].lower(),move['behavior']).save(destination/'moves'/f'{move["id"]}.png')
-Path('src/data/game/assets.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-print(f'Extracted {len(manifest)} normal sprites, {sum(bool(m["shiny"]) for m in manifest)} shiny sprites, {sum(len(m["animations"]) for m in manifest)} animations, {len(icons["ui"])} UI definitions, 18 type icons and {len(moves)} move icons.')
+if '--icons-only' not in sys.argv:
+    Path('src/data/game/assets.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(f'Generated {len(moves)} move icons and the original game UI/type emblems.' if '--icons-only' in sys.argv else f'Extracted {len(manifest)} normal sprites, {sum(bool(m["shiny"]) for m in manifest)} shiny sprites, {sum(len(m["animations"]) for m in manifest)} animations, {len(icons["ui"])} UI definitions, 18 type icons and {len(moves)} move icons.')

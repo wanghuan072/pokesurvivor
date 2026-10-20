@@ -87,8 +87,9 @@ test("editorial grades cover every recorded species without duplicates and retai
   const recorded=[...new Set(snapshot.boards.flatMap(b=>b.rows.flatMap(r=>r.pokemon.map(p=>p.id))))].sort((a,b)=>a-b);
   assert.equal(picks.length,73);
   assert.deepEqual(picks.map(p=>p.id).sort((a,b)=>a-b),recorded,"Every species in every saved mode/period is reviewed exactly once");
-  for(const p of picks){assert.ok(["S","A","B","C"].includes(p.tier));assert.ok(p.reason.length>35);assert.ok(p.watchFor.length>35);}
-  for(const [id,tier] of [[150,"S"],[94,"S"],[73,"A"],[842,"A"],[289,"A"],[802,"A"],[798,"B"],[100,"C"],[113,"C"]])assert.equal(picks.find(p=>p.id===id).tier,tier);
+  for(const p of picks){assert.ok(["S","A","B","C","D"].includes(p.tier));assert.ok(p.reason.length>35);assert.ok(p.watchFor.length>35);}
+  for(const [id,tier] of [[150,"S"],[94,"S"],[73,"A"],[842,"A"],[289,"S"],[802,"A"],[798,"A"],[100,"C"],[113,"B"],[386,"A"],[409,"A"],[484,"A"],[487,"A"],[890,"A"]])assert.equal(picks.find(p=>p.id===id).tier,tier);
+  assert.equal(picks.filter(p=>p.tier==='D').length,0,'Empty D is deliberate; no species is downgraded to fill a quota');
   assert.equal(picks.find(p=>p.id===987).name,"Flutter Mane");
   assert.equal(picks.find(p=>p.id===994).name,"Iron Moth");
   assert.equal(picks.find(p=>p.id===1006).name,"Iron Valiant");
@@ -112,6 +113,13 @@ test("editorial grades cover every recorded species without duplicates and retai
   assert.equal(grassKnot.category,"special");
   assert.throws(()=>editorialCode.exports.editorialPicks(roster,[{...editorial.picks[0],id:-1}]));
   assert.throws(()=>editorialCode.exports.editorialPicks(roster,[{...editorial.picks[0],tier:"Z"}]));
+});
+test("D grades are supported, sorted last and can be applied without touching other rows",()=>{
+  const rows=[{id:'s',label:'S',color:'#123456',partners:[150]},{id:'d',label:'D',color:'#8fbad4',partners:[]}];
+  const result=applyTierPicks(rows,[{label:'D',color:'#8fbad4',picks:[{id:100}]}]);
+  assert.deepEqual(result[0],rows[0]);assert.deepEqual(result[1].partners,[100]);
+  const picks=editorialCode.exports.editorialPicks(roster,[{...editorial.picks[0],id:100,tier:'D'},{...editorial.picks[0],id:150,tier:'S'}]);
+  assert.deepEqual(picks.map(p=>p.tier),['S','D']);
 });
 test("applying recommendations moves only selected picks and preserves custom choices and colors", () => {
   const rows = [{ id: "custom-s", label: "s", color: "#123456", partners: [25, 94] }, { id: "custom", label: "Favorites", color: "#234567", partners: [6, 150] }];
