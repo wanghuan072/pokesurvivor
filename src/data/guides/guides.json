@@ -253,7 +253,7 @@
         "id": "projectile-upgrades",
         "title": "8. Check the shots you gain, not just the card label",
         "paragraphs": [
-          "The first projectile-count upgrade on twelve newer moves currently leaves one projectile per cast. If Energy Ball still sends one shot after reaching level 2, you have not necessarily missed the upgrade. The same mismatch affects the moves below in build ae1820f65b.",
+          "The first projectile-count upgrade on twelve newer moves currently leaves one projectile per cast. If Energy Ball still sends one shot after reaching level 2, you have not necessarily missed the upgrade. The same mismatch affects the moves below in build 1afa081e93.",
           "For the bouncing moves, the extra bounce remains a separate part of the level-5 upgrade. Do not treat the whole card as useless, and do not assume the listed extra projectile has doubled your damage. Other upgrades, hits, targets and evolution effects need their own checks.",
           "We would keep a reliable main attack while building these routes, then choose the next card for the damage or control it actually provides. A missing extra shot is a reason to temper that upgrade’s value, not enough evidence to drop every partner with that move into a lower tier."
         ],

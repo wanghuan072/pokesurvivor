@@ -5,6 +5,7 @@ const snapshot = JSON.parse(fs.readFileSync("src/data/game/leaderboards.json", "
 const pokemon = new Set(JSON.parse(fs.readFileSync("src/data/pokedex/pokemon.json", "utf8")).map(p => p.id));
 assert.equal(snapshot.origin, "https://pokesurvivor.com/en/");
 assert.equal(snapshot.kind, "official-leaderboard-snapshot");
+assert.match(snapshot.capturedGameBuild, /^[a-f0-9]{10}$/, "Record the game build at capture without treating it as each run's build");
 assert.equal(snapshot.boards.length, 8);
 assert.equal(new Set(snapshot.boards.map(b => `${b.mode}:${b.period}`)).size, 8);
 for (const board of snapshot.boards) {

@@ -7,11 +7,13 @@
       "All 103 move cards, 97 evolution recipes and 966 partner pools now match the checked game build.",
       "Level-up explains the single-type bonus and the 400-coin Starting move upgrade.",
       "Solo recommendations now use S through D. D remains empty rather than assigning weak grades without a basis.",
-      "Saved leaderboard results remain dated historical records from before this patch.",
+      "Rankings and Tier List use eight official top-50 boards captured on 20 October 2026, with each mode and period kept separate.",
       "Play opens the official game in a new tab, following the updated official-site restriction.",
       "Level-up now distinguishes twelve projectile-count upgrade descriptions from their current one-shot behavior.",
       "Guides and FAQ add co-op connection checks, pending-save help and steps to check a missing shiny unlock.",
-      "The Rankings page makes the pre-update capture date explicit. The original saved records and collection dates are unchanged."
+      "Leaderboard dates, partner frequencies and complete Group lineups now follow the new snapshot; the capture time is not a claim about the game build used by each run.",
+      "Solo recommendations cover all 109 species in the latest saved boards. Earlier assessments remain on file when a partner leaves the captured top 50.",
+      "The rules check now follows game build 1afa081e93. The co-op safety patch leaves the reviewed move values and projectile-count caveats unchanged."
     ],
     "links": [
       {

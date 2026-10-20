@@ -23,7 +23,7 @@ export default function PartnerStrategy({partner:p}:{partner:Pokemon}) {
           <small>Captured {board.capturedAt.slice(0,10)} · {new Date(board.capturedAt).toISOString().slice(11,16)} UTC</small>
         </div>;
       })}</div>
-      <p className={s.strategyNote}>Our recommendation combines this partner’s move options and base stats with the records available. These saved boards predate the expanded move pool; they show recorded runs, not win rates or a current-patch build test. <a href="/rankings">Browse the records →</a>{grade&&<> · <a href="/tier-list#recommendations">Compare our tier recommendations →</a></>}</p>
+      <p className={s.strategyNote}>Our recommendation combines this partner’s move options and base stats with the records available. The capture time is shown for each board; individual records do not reveal their game build or loadout. These are recorded runs, not win rates or a current-patch build test. <a href="/rankings">Browse the records →</a>{grade&&<> · <a href="/tier-list#recommendations">Compare our tier recommendations →</a></>}</p>
     </section>
     <section className={s.detailSection} aria-labelledby="recommended-moves"><div className={s.detailHeading}><h2 id="recommended-moves">Moves we would choose</h2><span>ONE MAIN ROUTE FIRST</span></div>
       <p>These are priorities and alternatives, not three attacks you receive or fire together. The selected slot keeps casting; existing projectiles, placed fields and temporary buffs can remain after switching. Bonds let several moves keep casting from one selected group.</p>

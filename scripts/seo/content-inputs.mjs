@@ -79,15 +79,18 @@ export function contentInputs(root = process.cwd()) {
     if (url === "/pokedex") data = { pokemon: data, appearances: encounters.map(({id,hasShiny,hovering})=>({id,hasShiny,hovering})), collectionPreviews };
     if (url === "/tier-list") data = { snapshot:read("src/data/game/leaderboards.json").boards.map(({key,capturedAt,mode,period,rows})=>({key,capturedAt,mode,period,rows:rows.map(({rank,pokemon,seconds})=>({rank,pokemon:pokemon.map(({id})=>({id})),seconds}))})), pokemon:pokemon.map(({id,name,types,region})=>({id,name,types,region})), collectionPreviews:collectionPreviews.filter(p=>!p.shiny), exportSprites:pokemon.map(p=>({id:p.id,image:fileHash(`public/game/pokemon/${p.id}.webp`)})) };
     if (url === "/tier-list") {
-      const editorial = read("src/data/tier-list/recommendations.json"), ids = new Set(editorial.picks.map(p=>p.id));
-      data.editorial = editorial;
+      const editorial = read("src/data/tier-list/recommendations.json");
+      const recorded = new Set(data.snapshot.flatMap(board => board.rows.flatMap(row => row.pokemon.map(partner => partner.id))));
+      const ids = new Set(editorial.picks.filter(pick=>recorded.has(pick.id)).map(pick=>pick.id));
+      data.editorial = { ...editorial, picks: editorial.picks.filter(pick => recorded.has(pick.id)) };
       data.editorialPartners = pokemon.filter(p=>ids.has(p.id)).map(({id,hp,speed,physicalAttack,specialAttack,defense,specialDefense,startMove,cardPool})=>({id,hp,speed,physicalAttack,specialAttack,defense,specialDefense,startMove,cardPool}));
       data.heroBackground = fileHash("public/game/screenshots/forest.webp");
     }
     if (url === "/rankings" && fs.existsSync(path.join(root,"src/data/game/leaderboards.json"))) {
       const snapshot = read("src/data/game/leaderboards.json");
       const ids = new Set(snapshot.boards.flatMap(b=>b.rows.flatMap(r=>r.pokemon.map(p=>p.id))));
-      data = { snapshot, pokemon:pokemon.filter(p=>ids.has(p.id)).map(({id,name})=>({id,name})), collectionPreviews:collectionPreviews.filter(p=>ids.has(p.id)) };
+      const editorial=read("src/data/tier-list/recommendations.json");
+      data = { snapshot, pokemon:pokemon.filter(p=>ids.has(p.id)).map(({id,name})=>({id,name:editorial.picks.find(pick=>pick.id===id)?.name??name})), collectionPreviews:collectionPreviews.filter(p=>ids.has(p.id)) };
     }
     if (url === "/level-up") data = { moves, cards: read("src/data/wiki/run-cards.json"), notes: read("src/data/game/move-notes.json"), pokemon: pokemon.map(p=>({id:p.id,name:p.name,types:p.types,startMove:p.startMove,cardPool:p.cardPool,learnset:p.learnset,attack:p.attack,physicalAttack:p.physicalAttack,specialAttack:p.specialAttack})), collectionPreviews:collectionPreviews.filter(p=>!p.shiny) };
     if (url === "/level-up") {

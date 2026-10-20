@@ -1,18 +1,18 @@
 {
   "reviewed": "2026-10-20",
-  "gameVersion": "ae1820f65b",
-  "purpose": "General Solo progression at comparable permanent investment, including access to the 400-coin Starting move upgrade. Current move rules and player discussions inform editorial grades; saved leaderboard results predate this patch. No controlled playtests claimed.",
+  "gameVersion": "1afa081e93",
+  "purpose": "General Solo progression at comparable permanent investment, including the 400-coin Starting move upgrade. Grades consider legal move routes and player discussions; the selected record period supplies dated supporting evidence, not a grade formula. Earlier assessments are retained when partners leave a top-50 snapshot. No controlled playtests claimed.",
   "picks": [
     {
       "id": 150,
       "tier": "S",
-      "reason": "Mewtwo remains one of our first picks. Players repeatedly recommend it, its Psychic moves receive the single-type bonus, and the saved weekly board contains nine Mewtwo records.",
+      "reason": "Mewtwo remains one of our first picks. Players repeatedly recommend it, its Psychic moves receive the single-type bonus, and the captured weekly Solo board contains 6 Mewtwo records.",
       "watchFor": "We'd pair Special damage with Nasty Plot, not Swords Dance. The new Psychic control moves give you options, but don't assume every slot attacks before you earn Bonds."
     },
     {
       "id": 94,
       "tier": "S",
-      "reason": "We keep Gengar in S because player recommendations, a clear Ghost/Poison plan and ten saved weekly records point in the same direction. Poison or slow can set up stronger Hex hits.",
+      "reason": "We keep Gengar in S for its Ghost/Poison plan and repeated player recommendations. The captured weekly Solo board has 3 Gengar records; poison or slow can set up stronger Hex hits.",
       "watchFor": "We'd use Nasty Plot for Special damage. Poison and Hex need to share an active Bond group to keep firing together; merely owning both isn't the full setup."
     },
     {
@@ -25,18 +25,18 @@
       "id": 487,
       "tier": "A",
       "reason": "We rate Giratina as a strong A option for its HP and Ghost/Dragon choices. Dragon Breath can apply slow for Hex once you can keep the relevant attacks running together.",
-      "watchFor": "We'd take a coherent damage route as well as defensive cards. The old saved records support viability, not a confirmed best build for this patch."
+      "watchFor": "We would take a coherent damage route as well as defensive cards. Recorded survival supports trying it, but does not identify a confirmed best build or the rules used for each run."
     },
     {
       "id": 484,
       "tier": "A",
       "reason": "We like Palkia's Special Water/Dragon options, with Aqua Ring for regeneration and Whirlpool or Dragon Breath for another way to manage enemies. Water Gun remains a useful default.",
-      "watchFor": "We keep it in A rather than calling it a proven top pick. The saved all-time board has only one Palkia record, and it predates the expanded move pool."
+      "watchFor": "We keep it in A as a move-route recommendation. It has no entry in the current captured boards; that absence is not evidence that its legal Water/Dragon plan stopped working."
     },
     {
       "id": 73,
       "tier": "A",
-      "reason": "We like Tentacruel for a Water/Poison plan that includes Aqua Ring, poison and the new Whirlpool control option. It also appears five times in the saved weekly Solo board.",
+      "reason": "We like Tentacruel for a Water/Poison plan with Aqua Ring, poison and Whirlpool control. It appears in ten captured weekly Group records; those are team results, and the Solo board currently has no Tentacruel entry.",
       "watchFor": "We'd secure healing and a workable main attack before chasing extra moves. Shell Bell is capped at 4 HP per second; poison isn't unlimited sustain."
     },
     {
@@ -54,8 +54,8 @@
     {
       "id": 289,
       "tier": "S",
-      "reason": "We put Slaking among our first picks for a Physical Normal plan. Its own-type damage bonus, active melee reduction and 138 HP support Tackle or Body Slam; the saved weekly board also includes a 35:02 run.",
-      "watchFor": "We'd build a usable damage group before chasing more buffs. Normal has no super-effective matchups, and the saved result is from before this patch."
+      "reason": "We put Slaking among our first picks for a Physical Normal plan. Its own-type bonus, active melee reduction and 138 HP support Tackle or Body Slam; the captured weekly Solo board includes a 45:00 result.",
+      "watchFor": "We would build a usable damage group before chasing more buffs. Normal has no super-effective matchups, and the saved result does not reveal its permanent upgrades or loadout."
     },
     {
       "id": 802,
@@ -443,6 +443,373 @@
       "tier": "C",
       "reason": "Magcargo still offers Fire and Rock area/control choices, including the expanded Rock pool, if you want to make the slower approach work.",
       "watchFor": "We'd take a faster option for general Solo progression. Speed 91 and awkward Water/Ground matchups are the larger concerns; high Physical defense alone won't solve them."
+    },
+    {
+      "id": 4,
+      "tier": "C",
+      "reason": "Charmander gives us a straightforward Ember opening with the single-type Fire bonus. We would focus that attack before adding another slot.",
+      "watchFor": "Its 88 HP leaves less room for a bad approach than the evolved Fire options. Keep moving through open lanes rather than treating the starter label as protection."
+    },
+    {
+      "id": 9,
+      "tier": "B",
+      "reason": "We like Blastoise for a steady Water route: Water Gun to start, Aqua Ring for recovery and Whirlpool when we need control.",
+      "watchFor": "It gives up clearing speed compared with stronger Special Water partners. Extra defense helps with damage taken, but does not replace an escape route."
+    },
+    {
+      "id": 15,
+      "tier": "B",
+      "reason": "Beedrill fits a Physical plan around Bug Bite or Poison Sting. We would use its speed to choose the approach, then improve the attack that is already working.",
+      "watchFor": "Its Poison and Bug pool includes many Special attacks that use a lower factor. Do not add Nasty Plot to a Physical plan just because poison is involved."
+    },
+    {
+      "id": 28,
+      "tier": "B",
+      "reason": "Sandslash makes more sense to us with a Physical Ground opening after Starting move is unlocked. Bulldoze or Bonemerang can use both its stronger attack and own-type bonus.",
+      "watchFor": "Default Mud Shot uses its weaker Special side. Physical defense does not cover every attack, and its Special defense is much less forgiving."
+    },
+    {
+      "id": 78,
+      "tier": "B",
+      "reason": "We would try Rapidash for mobile Fire runs, using Flame Wheel or Flame Charge for a Physical route once the opening is configurable.",
+      "watchFor": "Ember remains the default and is Special. Choose the attack first, then the matching buff; speed will not save a route through a closed gap."
+    },
+    {
+      "id": 101,
+      "tier": "B",
+      "reason": "Electrode offers a quick Electric opening with Thunder Shock, plus Thunder Wave when we need room to reposition. Its own-type damage bonus helps the modest Special factor.",
+      "watchFor": "Extra movement above 130 is softened during Judgment. Electro Ball also has a current projectile-count caveat, so we would not plan around an immediate extra shot."
+    },
+    {
+      "id": 105,
+      "tier": "B",
+      "reason": "For Marowak, we would unlock a Physical Ground opening and build around Bonemerang or Bulldoze. That avoids spending early cards on the weaker Mud Shot default.",
+      "watchFor": "Speed 97 makes late changes of direction costly. High Physical defense is useful, but it does not let us ignore warning markers or Special damage."
+    },
+    {
+      "id": 110,
+      "tier": "B",
+      "reason": "Weezing gives us a flexible Poison route: Sludge works as the default, while Poison Sting supports a Physical alternative. The single-type bonus applies to either damaging Poison choice.",
+      "watchFor": "We would commit to one category before taking attack buffs. Acid Spray's extra-shot description has a current limitation; the poison effect is a separate question."
+    },
+    {
+      "id": 129,
+      "tier": "C",
+      "reason": "Magikarp actually starts with Water Gun here and can learn the Water pool, including Aqua Ring. We would play it as a fragile ranged partner rather than assume it is stuck with Splash.",
+      "watchFor": "Its 79 HP and low attack factors make the opening much less forgiving. A saved result does not show the permanent investment behind it; stronger Water alternatives remain our first choice."
+    },
+    {
+      "id": 132,
+      "tier": "C",
+      "reason": "Ditto has the ordinary Normal move pool in this game. We would keep a simple Tackle or ranged Normal plan and use the own-type damage bonus.",
+      "watchFor": "Transform is not a card in this pool. Do not choose it expecting to copy a boss's moves or stats; the modest HP and attack factors still need careful positioning."
+    },
+    {
+      "id": 133,
+      "tier": "C",
+      "reason": "Eevee can make a simple Physical Normal run with Tackle and Swords Dance, with the single-type bonus supporting that route.",
+      "watchFor": "We would take a stronger Normal partner at equal investment. Its move list is not a promise of in-run species evolution or access to every Eevee evolution's elemental attacks."
+    },
+    {
+      "id": 143,
+      "tier": "B",
+      "reason": "Snorlax gives us a forgiving HP reserve for a Physical Normal route. Tackle or Body Slam fits its stronger attack, and both gain the own-type bonus.",
+      "watchFor": "We would move early at speed 91 instead of relying on HP to cross a packed lane. Aqua Ring is not in its pool, and a large health bar is not automatic recovery."
+    },
+    {
+      "id": 172,
+      "tier": "C",
+      "reason": "Pichu can use Thunder Shock and the single-type Electric bonus, with Thunder Wave as a control option. We would keep the damage plan narrow until the first evolution is ready.",
+      "watchFor": "Its 79 HP and low defenses give little room for contact. Electric attacks are Special in this pool, so its slightly higher Physical factor is not a reason to use Swords Dance for them."
+    },
+    {
+      "id": 197,
+      "tier": "B",
+      "reason": "Umbreon is a steadier Dark option for us: Bite or Night Slash fits its stronger Physical side, while the own-type bonus applies to both.",
+      "watchFor": "It trades damage for bulk. We would secure clearing power early and keep dodging; softened defense scaling means those high defense values are not near-invulnerability."
+    },
+    {
+      "id": 258,
+      "tier": "C",
+      "reason": "Mudkip has the full Water route, so Water Gun, Aqua Ring and a planned evolution can support a run. We would prioritize one dependable attack before filling slots.",
+      "watchFor": "Speed 95 makes a late escape harder, and Water Gun uses its lower Special factor. Having the same cards as stronger Water partners does not give it their starting damage."
+    },
+    {
+      "id": 260,
+      "tier": "B",
+      "reason": "Swampert gives us Water recovery options alongside Physical Ground attacks. With Starting move unlocked, we would consider Bulldoze or Bonemerang instead of forcing a Special opening.",
+      "watchFor": "Water Gun is still the default. It has two types and no single-type damage bonus, so check the actual category and spacing of the attack you choose."
+    },
+    {
+      "id": 270,
+      "tier": "C",
+      "reason": "Lotad can combine Water control with Grass attacks, but we would first build a ranged attack that keeps a path open and add Aqua Ring when it helps.",
+      "watchFor": "Speed 91 and 88 HP make this a demanding opening at equal investment. Grass Knot does not heal, and simply owning Water and Grass cards does not make them fire together."
+    },
+    {
+      "id": 272,
+      "tier": "B",
+      "reason": "Ludicolo gives us a Special Water or Grass plan with Aqua Ring and Whirlpool available. Water Gun is a usable start while we decide which cards to finish.",
+      "watchFor": "The dual typing does not receive the single-type bonus. We would avoid splitting early levels across too many alternatives, and would check Energy Ball's extra-shot caveat."
+    },
+    {
+      "id": 282,
+      "tier": "A",
+      "reason": "We like Gardevoir for a coherent Special opening: Confusion fits immediately, with Psychic control and Fairy alternatives when the cards justify another slot.",
+      "watchFor": "Its Physical defense is less forgiving than its Special defense. Mist Ball and Draining Kiss have projectile-count caveats, so we would not treat either first upgrade as two shots."
+    },
+    {
+      "id": 317,
+      "tier": "B",
+      "reason": "Swalot gives us a reasonable HP reserve and an even choice between Physical and Special Poison routes. Sludge works without changing the default opening.",
+      "watchFor": "We would still choose one damage category before taking buffs. Equal attack factors do not make every move equally useful, and its speed is only 101."
+    },
+    {
+      "id": 346,
+      "tier": "B",
+      "reason": "Cradily has both Rock area attacks and Grass alternatives. We would start with Rock Throw, then add a second route only when it solves a positioning problem.",
+      "watchFor": "At speed 96, committing to a chest or narrow lane needs care. Grass Knot is damage rather than recovery, and the newer bouncing shots have count limitations."
+    },
+    {
+      "id": 361,
+      "tier": "C",
+      "reason": "Snorunt starts with Ice Beam and can use the single-type bonus on Ice damage. We would finish a reliable ranged attack before chasing several Ice cards.",
+      "watchFor": "Its modest attack factors and 92 HP make stronger Ice alternatives easier at equal investment. Ice Shard's first extra-projectile upgrade is currently limited."
+    },
+    {
+      "id": 365,
+      "tier": "B",
+      "reason": "Walrein gives us Ice damage with Water recovery and control options. Ice Beam already uses its stronger Special attack, so the default is a sensible place to invest.",
+      "watchFor": "It gets no single-type bonus and has only moderate speed. Aqua Ring can help recovery, but staying in overlapping attacks will still overwhelm a healthy run."
+    },
+    {
+      "id": 380,
+      "tier": "A",
+      "reason": "Latias offers a Special Dragon opening with Psychic alternatives and enough movement to choose a safer angle. We would match Nasty Plot to that damage route.",
+      "watchFor": "Dragon Dance boosts Physical attack here, not Dragon-type damage in general. Do not take it expecting to strengthen Dragon Rage or Special Psychic attacks."
+    },
+    {
+      "id": 381,
+      "tier": "A",
+      "reason": "Latios gives us a strong Special Dragon opening and a useful Psychic pool. We would improve one main attack before linking in a second source of damage.",
+      "watchFor": "Its access to Dragon Dance does not make that buff fit a Special plan. Mist Ball has an extra-shot limitation, and the board does not reveal the winning loadout."
+    },
+    {
+      "id": 382,
+      "tier": "A",
+      "reason": "Kyogre gives us a clear Special Water route from Water Gun, with the single-type bonus, Aqua Ring and Whirlpool all supporting that direction.",
+      "watchFor": "We would keep an escape lane even with the high Special defense. The records do not identify held items or permanent upgrades, so they do not prove one best Kyogre build."
+    },
+    {
+      "id": 384,
+      "tier": "A",
+      "reason": "Rayquaza lets us choose a Physical or Special Dragon/Flying plan without a weaker attack side. We would commit to the attack behavior we can position reliably.",
+      "watchFor": "Equal attack factors do not make both buffs useful for one move. Dragon Dance helps a Physical route; Nasty Plot helps a Special route. Neither is a team-wide buff."
+    },
+    {
+      "id": 390,
+      "tier": "C",
+      "reason": "Chimchar gives us an Ember opening with the single-type Fire bonus and access to ranged or moving Fire attacks. We would focus an early evolution before experimenting.",
+      "watchFor": "It is a Fire partner here, not the Fire/Fighting version of its evolution. Karate Chop is not in this pool, and its 90 HP calls for a clear escape route."
+    },
+    {
+      "id": 407,
+      "tier": "A",
+      "reason": "Roserade becomes more attractive once we choose a Special opening such as Sludge. Its Grass/Poison pool then gives us damage and status options that fit the stronger side.",
+      "watchFor": "Default Vine Whip is Physical and uses a lower factor. We would not choose Grass Knot for healing or assume Energy Ball's first extra-shot upgrade works as written."
+    },
+    {
+      "id": 445,
+      "tier": "A",
+      "reason": "We would use Garchomp for a Physical Dragon or Ground route after configuring the opening. Dragon Claw, Bulldoze and Bonemerang give several legal directions to build around.",
+      "watchFor": "Default Dragon Rage is Special and uses the lower factor. Being able to learn both categories is not a reason to spend on both attack buffs before the main route works."
+    },
+    {
+      "id": 454,
+      "tier": "B",
+      "reason": "Toxicroak gives us Physical Poison/Fighting options, including Poison Sting and Karate Chop. We would consider one of those openings once Starting move is available.",
+      "watchFor": "Sludge is the default and is Special. Neither defense is a large safety margin, so avoid treating a melee reduction as permission to stay in contact."
+    },
+    {
+      "id": 473,
+      "tier": "A",
+      "reason": "Mamoswine makes a strong case for a Physical Ground route with Bulldoze or Bonemerang. Its HP gives us some room to get that plan established.",
+      "watchFor": "Default Ice Beam uses the weaker Special side. Ice Shard fits the stronger factor but has a current count caveat; its first upgrade does not immediately add another shot."
+    },
+    {
+      "id": 474,
+      "tier": "A",
+      "reason": "With a Special Normal opening such as Hyper Voice, Porygon-Z can use its stronger attack, Nasty Plot and the single-type bonus in one coherent plan.",
+      "watchFor": "Tackle remains the default until we configure the opening. We would not assume a ranged attack solves every crowd, and Normal damage has no super-effective matchups."
+    },
+    {
+      "id": 478,
+      "tier": "B",
+      "reason": "Froslass gives us a quick Ice/Ghost alternative with equal attack factors. Ice Beam works as a start, while Shadow Ball or control can provide another way to handle a crowd.",
+      "watchFor": "Equal factors still require a category-specific buff for each move. We would keep a reliable attack while checking the Ice Shard and Shadow Sneak upgrade limitations."
+    },
+    {
+      "id": 493,
+      "tier": "A",
+      "reason": "Arceus gives us balanced attack options, a fast Normal opening and the single-type bonus. We would choose a Physical or Special route rather than fill slots with buffs.",
+      "watchFor": "The playable partner is not the invulnerable Judgment boss. Its Normal move pool does not grant every elemental attack, and high defenses do not make warning markers safe."
+    },
+    {
+      "id": 530,
+      "tier": "A",
+      "reason": "Excadrill suits a Physical Ground/Steel route after we change the opening. Bulldoze, Metal Claw or Meteor Mash can use its stronger attack instead of the Mud Shot default.",
+      "watchFor": "Its lower defenses make a late retreat risky. We would build around one workable attack rather than assume a high Physical factor makes every close-range option safe."
+    },
+    {
+      "id": 584,
+      "tier": "B",
+      "reason": "Vanilluxe gives us a Special Ice route with the single-type bonus. Ice Beam is a usable default, and Powder Snow or Freeze-Dry can give a different attack pattern.",
+      "watchFor": "We would prioritize consistent coverage over another similar attack. Ice Shard uses the lower Physical factor and its first extra-shot upgrade has a current limitation."
+    },
+    {
+      "id": 615,
+      "tier": "B",
+      "reason": "Cryogonal gives us a mobile Special Ice route with Ice Beam and the own-type bonus. Its movement helps us choose an angle before firing into a crowd.",
+      "watchFor": "Physical defense is only 50, so high Special defense does not make contact safe. We would keep the Ice Shard count caveat in mind before switching to a Physical attack."
+    },
+    {
+      "id": 632,
+      "tier": "B",
+      "reason": "Durant fits a mobile Physical Bug/Steel route with Bug Bite or Metal Claw. We would improve the opening attack before adding Meteor Mash or another alternative.",
+      "watchFor": "Its Special defense is much lower than its Physical defense. Signal Beam and Mirror Shot use the weaker Special side and have current extra-shot limitations."
+    },
+    {
+      "id": 637,
+      "tier": "A",
+      "reason": "Volcarona benefits from a Special opening after Starting move is unlocked. Ember, Fire Spin or Bug Buzz gives us a route that fits its stronger attack.",
+      "watchFor": "Bug Bite is the Physical default, so the opening upgrade matters. We would not carry main-series ability assumptions into this game or use Swords Dance for Special Fire damage."
+    },
+    {
+      "id": 646,
+      "tier": "A",
+      "reason": "Kyurem gives us a substantial HP reserve and equal attack factors for Dragon or Ice. We would choose the attack pattern first and build its matching evolution.",
+      "watchFor": "It gets no single-type bonus. Dragon Dance helps Physical attacks only, and Ice Shard's first extra-projectile upgrade currently leaves one shot."
+    },
+    {
+      "id": 693,
+      "tier": "B",
+      "reason": "Clawitzer gives us a straightforward Special Water route with Water Gun, the own-type bonus and Aqua Ring available for recovery.",
+      "watchFor": "At speed 103, we would leave a closing lane early. The move pool does not prove a special main-series ability is active; judge the attacks and modifiers actually listed here."
+    },
+    {
+      "id": 700,
+      "tier": "B",
+      "reason": "Sylveon gives us Special Fairy damage with the single-type bonus. Fairy Wind or Dazzling Gleam can anchor the run while we consider control or recovery.",
+      "watchFor": "Draining Kiss has a real drain field, but its first extra-shot upgrade is limited. We would not infer unlimited recovery from the move name or replace every damage upgrade with healing."
+    },
+    {
+      "id": 719,
+      "tier": "B",
+      "reason": "Diancie offers Rock and Fairy alternatives with equal attack factors. We would keep Rock Throw as a workable start and add another pattern when the run needs it.",
+      "watchFor": "Its high defenses are softened by the game's damage formula, while HP and speed are modest. Power Gem and Draining Kiss also have current extra-shot caveats."
+    },
+    {
+      "id": 730,
+      "tier": "A",
+      "reason": "Primarina gives us a strong Special Water opening, Aqua Ring and Fairy alternatives. We would finish the main Water attack before making the second type a separate project.",
+      "watchFor": "It gets no single-type bonus. Draining Kiss's first projectile-count upgrade is limited, and Play Rough uses the lower Physical factor."
+    },
+    {
+      "id": 748,
+      "tier": "B",
+      "reason": "Toxapex gives us Water recovery and Poison options in the same pool. We would establish Sludge or a configured Water attack before building a defensive plan around it.",
+      "watchFor": "Its defenses do not cancel out speed 93 and modest damage. The playable partner does not automatically heal teammates; each player manages their own attack and buffs."
+    },
+    {
+      "id": 770,
+      "tier": "B",
+      "reason": "Palossand starts with a Special Shadow Ball route and can add Ground control or a slow setup for Hex. We would keep the main attack working before adding another slot.",
+      "watchFor": "Speed 93 leaves little room for a late escape. Shadow Sneak is Physical and has a count caveat, so it is not an automatic upgrade over the Special opening."
+    },
+    {
+      "id": 793,
+      "tier": "A",
+      "reason": "Nihilego becomes a more coherent pick with a Special opening such as Sludge. Its Poison and Special Rock options then use the stronger attack factor.",
+      "watchFor": "Rock Throw is the Physical default and uses a much lower factor. Its Physical defense is also low, and Power Gem's extra-shot upgrade is currently limited."
+    },
+    {
+      "id": 794,
+      "tier": "A",
+      "reason": "Buzzwole fits a Physical Bug/Fighting plan from the Bug Bite opening. Karate Chop or a moving Physical attack can add another pattern when the cards support it.",
+      "watchFor": "Special defense is much lower than Physical defense. Aura Sphere is legal but uses a lower attack factor, and extra melee reduction is not full protection."
+    },
+    {
+      "id": 795,
+      "tier": "A",
+      "reason": "Pheromosa gives us fast Bug/Fighting options with equal attack factors. We would choose a main attack whose range we can manage and build the matching buff around it.",
+      "watchFor": "Both defenses are low. Extra speed above 130 is softened in Judgment, so we would not trade away every damage or survival upgrade for more movement."
+    },
+    {
+      "id": 804,
+      "tier": "A",
+      "reason": "Naganadel gives us a Special Sludge opening with Dragon alternatives and good movement. Poison or a slow setup can support a coherent damage group once Bonds arrive.",
+      "watchFor": "Dragon Dance does not buff its Special attacks. We would not add every attractive move before the main attack can handle the next crowd."
+    },
+    {
+      "id": 805,
+      "tier": "B",
+      "reason": "Stakataka gives us a hard-hitting Physical Rock opening and Steel alternatives. We would use that damage to keep lanes clear rather than plan to absorb every attack.",
+      "watchFor": "Speed 83 is a serious positioning constraint. Its extreme Physical defense still uses the softened formula, and Power Gem or Mirror Shot uses the weaker Special side."
+    },
+    {
+      "id": 855,
+      "tier": "A",
+      "reason": "Polteageist gives us a Special Shadow Ball opening with the single-type Ghost bonus. Nasty Plot fits that direction, and Hex becomes an option when we can supply status.",
+      "watchFor": "Its own Ghost pool does not automatically supply every poison or burn setup. We would check the source of status before treating Hex as permanently empowered."
+    },
+    {
+      "id": 894,
+      "tier": "A",
+      "reason": "Regieleki gives us a very mobile Electric route with the own-type bonus and Thunder Wave for control. Thunder Shock is a usable opening without extra configuration.",
+      "watchFor": "Judgment softens movement above 130; speed 162 is not an uncapped escape advantage. Electro Ball also has a count limitation, so we would keep a dependable main attack."
+    },
+    {
+      "id": 897,
+      "tier": "A",
+      "reason": "Spectrier gives us a fast Special Shadow Ball opening with the single-type Ghost bonus. We would take Nasty Plot for that route and add control only when needed.",
+      "watchFor": "Physical defense is only 60, so we would not use speed as a substitute for reading warning markers. Hex needs a real status setup rather than a name-based damage assumption."
+    },
+    {
+      "id": 906,
+      "tier": "C",
+      "reason": "Sprigatito starts with Physical Razor Leaf, which fits its stronger side and the single-type Grass bonus. We would keep that route focused before adding another attack.",
+      "watchFor": "Its 88 HP leaves less margin than stronger Grass partners. Energy Ball is Special and has a current extra-shot caveat, while Grass Knot is not a healing move."
+    },
+    {
+      "id": 908,
+      "tier": "A",
+      "reason": "Meowscarada gives us a fast Physical Grass/Dark route from Vine Whip. Bite, Night Slash or another legal Physical option can give a different way to approach a crowd.",
+      "watchFor": "It receives no single-type bonus. Sucker Punch has a count caveat, so we would judge the upgrade by its actual shots rather than assume immediate extra coverage."
+    },
+    {
+      "id": 970,
+      "tier": "A",
+      "reason": "Glimmora makes more sense to us with Special Sludge or a Special Rock opening after configuration. That uses its stronger factor while retaining Poison and Rock alternatives.",
+      "watchFor": "Default Rock Throw is Physical. Power Gem and Acid Spray have count limitations, so we would avoid planning the opening around an extra shot that does not appear."
+    },
+    {
+      "id": 998,
+      "tier": "A",
+      "reason": "Baxcalibur suits a Physical Dragon route with Dragon Claw or Outrage after configuring the opening. Its HP helps us establish that plan before adding a second attack.",
+      "watchFor": "Dragon Rage is the Special default and uses a lower factor. Ice Shard fits Physical attack but its first extra-projectile upgrade is currently limited."
+    },
+    {
+      "id": 1005,
+      "tier": "A",
+      "reason": "Roaring Moon suits a mobile Physical Dragon/Dark route once the opening is configured. We would choose Dragon Claw or Bite before spending on a matching Physical buff.",
+      "watchFor": "Default Dragon Rage uses only its lower Special factor. Sucker Punch's first extra-shot upgrade is limited, and extra move slots still do not all cast together.",
+      "name": "Roaring Moon"
+    },
+    {
+      "id": 1007,
+      "tier": "A",
+      "reason": "Koraidon fits a Physical Fighting route immediately through Karate Chop. Its Dragon options give us another attack pattern if the main attack and Bonds are ready.",
+      "watchFor": "Speed above 130 is softened during Judgment. Dragon Rage and Aura Sphere use the weaker Special factor, so neither is a free damage improvement over a Physical plan."
     }
   ]
 }

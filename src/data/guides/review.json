@@ -1,16 +1,16 @@
 {
   "reviewed": "2026-10-20",
-  "revision": "018e986f4c12f414dfa84193ee35b2959b1e325c",
+  "revision": "68452288808481af75fd27cfff0de458f3d6b6d4",
   "liveBuild": {
-    "v": "ae1820f65b",
-    "at": "2026-10-19T21:42:49.950Z"
+    "v": "1afa081e93",
+    "at": "2026-10-20T09:42:46.618Z"
   },
-  "bundleSha256": "9bba914da219cfb39272e6c1ace64e54f21eb58a54347826eb6be0dae9667699",
+  "bundleSha256": "3295f0cd4d71c9beeae566a55a49a70e232c100e7ed6136de83942a8afa3752d",
   "method": "Official documentation, static code inspection and literal-data comparison. No gameplay sessions or cloud-save/multiplayer tests performed.",
   "files": [
     {
       "file": "js-app.min.js",
-      "sha256": "9bba914da219cfb39272e6c1ace64e54f21eb58a54347826eb6be0dae9667699"
+      "sha256": "3295f0cd4d71c9beeae566a55a49a70e232c100e7ed6136de83942a8afa3752d"
     },
     {
       "file": "js/core/db.js",
@@ -30,7 +30,7 @@
     },
     {
       "file": "js/data/changelog.js",
-      "sha256": "899f84579b7c2a90eff3ef8660e7922977b8fd298a4ba2eaed7a102f8caf50b5"
+      "sha256": "3c6265a544ce1ff3035eae107ed35104cda535229baef3c10131324941c8a7bb"
     },
     {
       "file": "js/data/enemies.js",
@@ -73,12 +73,16 @@
       "sha256": "6188d9fd6c268f1fc04ea5aad9797b3ced776337d9b79a42b3e783ecba7715fc"
     },
     {
+      "file": "js/entities/fx.js",
+      "sha256": "886f5f9cf3354fc2d7a059dc1e7f77035bf78bf56c14f39474473acb238bd956"
+    },
+    {
       "file": "js/entities/pickup.js",
       "sha256": "9b481659231b30d3c4127655635a94317c53ffcbacc077ad41f87e1e71dacf93"
     },
     {
       "file": "js/entities/player.js",
-      "sha256": "665c51f2a8f6bb097b05c2a7be368adcd95e153417a092db70c114c995bb13c1"
+      "sha256": "964aa3bc8f9aba38282201137bd175e5c446f533fba05f72a93570f430c5c277"
     },
     {
       "file": "js/game.js",
@@ -86,7 +90,7 @@
     },
     {
       "file": "js/net/coop.js",
-      "sha256": "338cc4818e2a0f692a2e43a0b12874bec94928aa02fa18e7592120cf673de2d4"
+      "sha256": "d91575d9b3e3170031b06b3bda35bb68eb9ce194a00cefc0a86a4c45aa151293"
     },
     {
       "file": "js/net/ranking.js",

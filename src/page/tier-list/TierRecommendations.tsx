@@ -46,7 +46,7 @@ export default function TierRecommendations({ board, cohort, partners, personalR
           </tr>;
         })}</tbody></table>
       </div>
-      {!filtered.length&&<p className={s.groupNote}>{tier === "D" && !picks.some(p=>p.tier==="D") ? "D is reserved for partners we would avoid at comparable investment. None of these 73 leaderboard species is assigned to D; missing player feedback is not a low grade." : "No reviewed partners match. Clear the search or choose another tier."}</p>}
+      {!filtered.length&&<p className={s.groupNote}>{tier === "D" && !picks.some(p=>p.tier==="D") ? `D is reserved for partners we would avoid at comparable investment. None of these ${picks.length} leaderboard species is assigned to D; missing player feedback is not a low grade.` : "No reviewed partners match. Clear the search or choose another tier."}</p>}
       <Pagination page={currentPage} pages={pages} count={filtered.length} label="Recommended partners" onChange={setPage}/>
       <div className={s.recommendationFooter}><button className={s.secondaryButton} disabled={!filtered.length} onClick={()=>onApply(tierLabels.map(label=>({label,color:tierColors[label],picks:filtered.filter(p=>p.tier===label).map(p=>({id:p.id}))})))}>Add all {filtered.length} matching picks to my list</button><a href="#tier-method">How we rank these picks ↓</a></div>
     </> : <>

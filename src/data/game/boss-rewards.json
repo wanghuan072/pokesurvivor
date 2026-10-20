@@ -1,7 +1,7 @@
 {
   "review": {
     "reviewed": "2026-10-20",
-    "revision": "018e986f4c12f414dfa84193ee35b2959b1e325c",
+    "revision": "68452288808481af75fd27cfff0de458f3d6b6d4",
     "method": "Official documentation and static source inspection, including Boss death, Rift victory, Bond selection and fusion. No gameplay session claimed.",
     "officialPages": [
       "https://pokesurvivor.com/en/moves/",
@@ -23,7 +23,7 @@
       },
       {
         "file": "js/entities/player.js",
-        "sha256": "665c51f2a8f6bb097b05c2a7be368adcd95e153417a092db70c114c995bb13c1"
+        "sha256": "964aa3bc8f9aba38282201137bd175e5c446f533fba05f72a93570f430c5c277"
       },
       {
         "file": "js/systems/rift.js",

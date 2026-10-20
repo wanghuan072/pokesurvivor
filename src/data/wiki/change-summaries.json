@@ -75,5 +75,13 @@
       "The default opening remains available after using Starting move, including exceptions such as Psyduck’s Confusion.",
       "Co-op Bosses after Rifts now appear close to the players; distant Bosses are relocated."
     ]
+  },
+  "2026-10-20": {
+    "added": [],
+    "changed": [],
+    "fixed": [
+      "Co-op now validates incoming player state and ring effects to reduce freezes caused by malformed network messages.",
+      "Experience gain rejects non-finite values and limits a single call to 50 level-ups. This is a safeguard, not a change to ordinary move-card requirements."
+    ]
   }
 }

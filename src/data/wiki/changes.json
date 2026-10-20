@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-10-20",
+    "title": "Co-op stability checks",
+    "added": [],
+    "changed": [],
+    "fixed": [
+      "Co-op now validates incoming player state and ring effects to reduce freezes caused by malformed network messages.",
+      "Experience gain rejects non-finite values and limits a single call to 50 level-ups. This is a safeguard, not a change to ordinary move-card requirements."
+    ]
+  },
+  {
     "date": "2026-10-19",
     "title": "38 new moves",
     "added": [
