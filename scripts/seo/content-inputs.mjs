@@ -91,6 +91,8 @@ export function contentInputs(root = process.cwd()) {
     }
     if (url === "/level-up") data = { moves, cards: read("src/data/wiki/run-cards.json"), notes: read("src/data/game/move-notes.json"), pokemon: pokemon.map(p=>({id:p.id,name:p.name,types:p.types,startMove:p.startMove,cardPool:p.cardPool,learnset:p.learnset,attack:p.attack,physicalAttack:p.physicalAttack,specialAttack:p.specialAttack})), collectionPreviews:collectionPreviews.filter(p=>!p.shiny) };
     if (url === "/level-up") {
+      const { summary, source, groups } = read("src/data/game/move-issues.json");
+      data.currentMoveIssues = { summary, source, groups };
       const bossRewards = read("src/data/game/boss-rewards.json");
       delete bossRewards.review;
       data.bossRewards = bossRewards;

@@ -35,7 +35,7 @@ export default function PokedexBrowser({pokemon}:{pokemon:PokemonSummary[]}) {
       <button aria-pressed={shiny} onClick={()=>setShiny(!shiny)}>✦ Shiny</button>
       {[5,4,3,2,1].map(r=><button key={r} aria-pressed={rarity===r} onClick={()=>{setRarity(rarity===r?0:r);setPage(1);setPreview(null);}}>{rarities[r]}</button>)}
     </div>
-    <div className={s.collectionHead}><span>PARTNER COLLECTION</span><span aria-live="polite">{result.length} Pokémon · Page {current} / {pages}</span></div>
+    <div className={s.collectionHead}><span>PARTNER COLLECTION</span><span aria-live="polite">{`${result.length} Pokémon · Page ${current} / ${pages}`}</span></div>
     <div className={s.grid}>{result.slice((current-1)*60,current*60).map(p=>{
       const props:HTMLAttributes<HTMLAnchorElement|HTMLButtonElement> & {"data-pokemon":number;"data-active":boolean}={
         className:s.tile,"data-pokemon":p.id,"data-active":preview?.id===p.id,
@@ -51,13 +51,13 @@ export default function PokedexBrowser({pokemon}:{pokemon:PokemonSummary[]}) {
     {!result.length&&<p className={c.empty}>No Pokémon match these filters. Try another name or reset.</p>}
     <p className={s.hint}>Hover or focus a partner for quick stats. Select an available profile to open it; other partners show a pinned preview. Owned and missing filters belong to your game save and are not tracked here.</p>
     <div className={c.pagination}><button disabled={current===1} onClick={()=>{setPage(current-1);setPreview(null);}}>← Previous</button><span>{current} / {pages}</span><button disabled={current===pages} onClick={()=>{setPage(current+1);setPreview(null);}}>Next →</button></div>
-    {active&&preview&&createPortal(<aside ref={previewPanel} data-pokemon-preview id="pokemon-preview" className={s.preview} role="dialog" aria-label={`${active.name} quick stats`} style={{left:preview.left,top:preview.top}} onMouseEnter={cancelClose} onMouseLeave={closeSoon}>
+    {active&&preview&&createPortal(<aside key={active.id} ref={previewPanel} data-pokemon-preview id="pokemon-preview" translate="no" className={`${s.preview} notranslate`} role="dialog" aria-label={`${active.name} quick stats`} style={{left:preview.left,top:preview.top}} onMouseEnter={cancelClose} onMouseLeave={closeSoon}>
       <button className={s.close} aria-label="Close Pokémon preview" onClick={()=>{dismissed.current=active.id;anchor.current?.focus();setPreview(null);}}>×</button>
       <div className={s.previewHeader}><div className={s.portrait} data-rarity={active.rarity}><PokemonArt id={active.id} name={active.name} shiny={shiny&&active.hasShiny} size={88}/></div>
         <div><small>#{String(active.id).padStart(3,"0")} · {active.region}</small><h2>{active.name}</h2><strong className={s.rarity} data-rarity={active.rarity}>{rarities[active.rarity]}</strong><div className={s.types}>{active.types.map(t=><span key={t} className="type" data-type={t}>{t}</span>)}</div></div>
       </div>
       <dl className={s.stats}>{([['HP',active.hp,Math.max(...pokemon.map(p=>p.hp)),false],['Phys. ATK',active.physicalAttack,Math.max(...pokemon.map(p=>p.physicalAttack)),true],['Sp. ATK',active.specialAttack,Math.max(...pokemon.map(p=>p.specialAttack)),true],['Defense',active.defense,Math.max(...pokemon.map(p=>p.defense)),false],['Sp. DEF',active.specialDefense,Math.max(...pokemon.map(p=>p.specialDefense)),false],['Speed',active.speed,Math.max(...pokemon.map(p=>p.speed)),false]] as const).map(([label,value,max,factor])=><div key={label}><dt>{label}</dt><dd><span className={s.statBar}><i style={{width:`${value/max*100}%`}}/></span><b>{factor?`×${value.toFixed(2)}`:value}</b></dd></div>)}</dl>
-      <p>{active.physicalAttack===active.specialAttack?"Balanced attack factors":`${attackSide(active)==="physical"?"Physical":"Special"} attacks use the stronger base factor`} · Before upgrades{active.starter?" · Starter":""}{active.hovering?" · Hovering":""}.</p>
+      <p><span>{`${active.physicalAttack===active.specialAttack?"Balanced attack factors":`${attackSide(active)==="physical"?"Physical":"Special"} attacks use the stronger base factor`} · Before upgrades${active.starter?" · Starter":""}${active.hovering?" · Hovering":""}.`}</span></p>
       <a href={`/level-up?partner=${active.id}#move-cards`}>Move cards <span aria-hidden="true">→</span></a>
       {shiny&&!active.hasShiny&&<p>No shiny sprite available; normal art shown.</p>}
     </aside>,document.body)}

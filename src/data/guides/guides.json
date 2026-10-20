@@ -7,7 +7,7 @@
     "image": "/game/screenshots/battlefield.webp",
     "imageAlt": "Grass battlefield from the official PokeSurvivor game",
     "category": "START HERE",
-    "readTime": 6,
+    "readTime": 8,
     "outcomes": [
       "Controls and active move slots",
       "A practical early-run plan",
@@ -95,6 +95,31 @@
             "href": "/guides/faq"
           }
         ]
+      },
+      {
+        "id": "co-op-connection",
+        "title": "8. Set up a co-op room before committing to a run",
+        "paragraphs": [
+          "The official game supports up to four players. Sign in, add friends by nickname and use its room invitations. An accepted invitation is only the first step: wait until the players are connected before the host starts. A room that keeps reconnecting has not become a playable session yet.",
+          "Cross-network connection failures have been reported. The project also has relay-server deployment support, but that alone does not establish that a relay is available for your session. We cannot verify your connection from this guide. Do not spend a run repeatedly waiting for a room that never connects."
+        ],
+        "steps": [
+          "Before refreshing or changing networks, leave any active run, press Save and wait for the upload status to clear. Ask your friends to protect their own progress too.",
+          "Open the official game directly on each device. Refresh after saving so everyone loads the current version, then sign in again if needed.",
+          "Leave the failed room, create a new one and send a fresh invitation. Try another player as host and wait for connections before starting.",
+          "If it still fails, compare a different network or test two devices on the same Wi-Fi. A successful same-network test helps narrow down the problem; it does not guarantee cross-network play.",
+          "If the room keeps reconnecting, stop retrying for now. Note the browser, device, network type and exact message for a useful bug report. Keep passwords and account data private."
+        ],
+        "links": [
+          {
+            "label": "Current co-op connection report",
+            "href": "https://github.com/JPTER78/pokesurvivor/issues/233"
+          },
+          {
+            "label": "Saving and account questions",
+            "href": "/guides/faq"
+          }
+        ]
       }
     ],
     "cardTitle": "Your First Stronger Run",
@@ -116,7 +141,7 @@
     "image": "/game/screenshots/card-choices.webp",
     "imageAlt": "Agility, Power and Poison Sting offered as level-up choices in PokeSurvivor",
     "category": "BUILD A BETTER LOADOUT",
-    "readTime": 6,
+    "readTime": 7,
     "outcomes": [
       "Know what each card choice does",
       "Plan compatible evolution recipes",
@@ -222,6 +247,49 @@
           "You get one free card reroll per run. Purchased Card reroll levels add up to five more, for a maximum of six. Defeating a boss does not add another reroll in this game version. Ban can exclude up to three new moves for a partner. Repertoire adds a random eligible non-buff attack at the start, occupying a second slot.",
           "These menu purchases are separate from run stat cards: owning a permanent Strength upgrade does not count as taking Power during the current run. When a gold card seems missing, check the owned move’s level and the exact prerequisite first.",
           "Choose a partner and check its move pool before planning four compatible slots. Compare the Level-up evolution requirements, then note which stat cards the attacks share. Keep one alternative for a missing card instead of depending on a perfect sequence."
+        ]
+      },
+      {
+        "id": "projectile-upgrades",
+        "title": "8. Check the shots you gain, not just the card label",
+        "paragraphs": [
+          "The first projectile-count upgrade on twelve newer moves currently leaves one projectile per cast. If Energy Ball still sends one shot after reaching level 2, you have not necessarily missed the upgrade. The same mismatch affects the moves below in build ae1820f65b.",
+          "For the bouncing moves, the extra bounce remains a separate part of the level-5 upgrade. Do not treat the whole card as useless, and do not assume the listed extra projectile has doubled your damage. Other upgrades, hits, targets and evolution effects need their own checks.",
+          "We would keep a reliable main attack while building these routes, then choose the next card for the damage or control it actually provides. A missing extra shot is a reason to temper that upgrade’s value, not enough evidence to drop every partner with that move into a lower tier."
+        ],
+        "table": {
+          "caption": "Projectile-count limitations in the current game build; other effects are separate.",
+          "columns": [
+            "Upgrade",
+            "Affected moves",
+            "Current result"
+          ],
+          "rows": [
+            [
+              "Level 1 → 2",
+              "Energy Ball, Mist Ball, Ice Shard, Shadow Sneak, Draining Kiss, Sucker Punch",
+              "One projectile still fires after the first +1 projectile upgrade."
+            ],
+            [
+              "Level 4 → 5",
+              "Seed Bomb, Electro Ball, Acid Spray, Signal Beam, Power Gem, Mirror Shot",
+              "One projectile still fires; the additional bounce is separate."
+            ]
+          ]
+        },
+        "callout": {
+          "title": "A proposed fix is not a released patch",
+          "text": "The fix in PR #223 is still open as of 20 October 2026. These notes follow the deployed build, not the proposed replacement. The ordinary evolution requirements still apply."
+        },
+        "links": [
+          {
+            "label": "Affected move cards and status",
+            "href": "/level-up#current-move-notes"
+          },
+          {
+            "label": "Proposed projectile-count fix",
+            "href": "https://github.com/JPTER78/pokesurvivor/pull/223"
+          }
         ]
       }
     ],
@@ -353,7 +421,7 @@
     "image": "/art/shiny-guide.svg",
     "imageAlt": "Illustrated field guide showing the real normal and shiny Charizard and Eevee sprites",
     "category": "SHINY HUNTING",
-    "readTime": 12,
+    "readTime": 13,
     "seo": {
       "title": "PokeSurvivor Shiny Guide - Wild, Rift and Gacha Odds",
       "description": "Learn how to get shiny Pokémon in PokeSurvivor through wild encounters, Rifts and gacha. Compare odds, duplicate rules, saving and equipping your partner.",
@@ -698,8 +766,32 @@
         }
       },
       {
+        "id": "missing-unlock",
+        "title": "10. If a captured shiny does not appear",
+        "paragraphs": [
+          "Check the collection before assuming a capture was lost. Make sure you defeated the shiny rather than only seeing the alert, then open that species and look for its Normal/Shiny control. Turn off collection filters that might hide the entry. Check that the game is using the same account as the capture.",
+          "Next, check saving on the device that earned it. A capture event and a successful cloud upload are separate steps. Press Save while signed in and wait for the status to clear. If the game says offline or pending, keep that tab open and allow the connection or scheduled retry to finish. A recent upload can impose a short wait before another upload is allowed.",
+          "A missing-shiny report is open, but it contains no reproduction details that establish a cause. We cannot promise these checks recover a missing capture. They help distinguish an unselected appearance, a different account and progress that has not finished uploading."
+        ],
+        "steps": [
+          "In co-op, confirm the form in your own collection. A teammate’s unlock or screenshot is not confirmation that your device received and saved the event.",
+          "Do not clear the game’s site data or close the original tab while it still shows pending changes. Finish the upload before moving to another device.",
+          "If the entry stays missing after a successful upload, record the species, approximate capture time, Solo or Group mode and any error message for the official project. Never publish credentials or a complete save file."
+        ],
+        "links": [
+          {
+            "label": "Player report about missing shiny unlocks",
+            "href": "https://github.com/JPTER78/pokesurvivor/issues/210"
+          },
+          {
+            "label": "Account and saving questions",
+            "href": "/guides/faq"
+          }
+        ]
+      },
+      {
         "id": "faq",
-        "title": "10. Shiny hunting questions",
+        "title": "11. Shiny hunting questions",
         "paragraphs": [],
         "questions": [
           {

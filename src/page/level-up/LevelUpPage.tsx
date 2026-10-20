@@ -5,6 +5,7 @@ import { PageHeader } from "@/components/common/PageHeader";
 import { SourceNote } from "@/components/common/SourceNote";
 import { moves } from "@/lib/data/moves";
 import { runCards } from "@/lib/data/wiki";
+import moveIssues from "@/data/game/move-issues.json";
 import { pageMetadata } from "@/seo/metadata";
 import CardCatalog from "./CardCatalog";
 import BossRewards from "./BossRewards";
@@ -49,12 +50,15 @@ export default function LevelUpPage() {
         <CardCatalog
           partners={pokemon.map(({id, name, types, startMove, cardPool, learnset, attack, physicalAttack, specialAttack}) =>
             ({id, name, types, startMove, cardPool, learnset, attack, physicalAttack, specialAttack}))}
-          moves={moves.map((m) => ({
-            ...m,
-            ...getMoveNotes(m.id)!,
-            partnerCount: pokemon.filter((p) => p.learnset.includes(m.id))
-              .length,
-          }))}
+          moves={moves.map((m) => {
+            const issue = moveIssues.groups.find(group => group.ids.includes(m.id));
+            return {
+              ...m,
+              ...getMoveNotes(m.id)!,
+              currentIssue: issue ? { level: issue.level, note: issue.note } : undefined,
+              partnerCount: pokemon.filter((p) => p.learnset.includes(m.id)).length,
+            };
+          })}
         />
       </section>
       <section id="stat-cards" className={s.section}>
@@ -178,6 +182,12 @@ export default function LevelUpPage() {
       <BossRewards />
       <section id="card-rules" className={s.rules}>
         <h2>Make every level count</h2>
+        <details id="current-move-notes">
+          <summary>Why did “+1 projectile” not add another shot?</summary>
+          <p>{moveIssues.summary}</p>
+          {moveIssues.groups.map(group => <p key={group.kind}><strong>Lv. {group.level}: </strong>{group.ids.map(id => moves.find(move => move.id === id)!.name).join(", ")}. {group.note}</p>)}
+          <p>Plan around the shots you can actually use. These notes concern projectile count, not a measured damage ranking or a change to evolution requirements. <a href={moveIssues.source} rel="noopener noreferrer">Follow the proposed fix ↗</a> · <a href="/guides/move-evolutions#projectile-upgrades">What this means for your next card →</a></p>
+        </details>
         <details>
           <summary>Why am I offered these three cards?</summary>
           <p>

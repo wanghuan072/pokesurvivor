@@ -11,7 +11,9 @@
       "Learning a new move keeps the current active slot; switch when you want to use it.",
       "The game now runs only on pokesurvivor.com; this fan guide opens the official site in a new tab.",
       "Cloud uploads are scheduled after about 30 minutes with pending changes. Use Save and confirm the status before changing devices.",
-      "Gacha pulls, run completion and tab switches no longer trigger immediate cloud uploads; browser-local records remain separate."
+      "Gacha pulls, run completion and tab switches no longer trigger immediate cloud uploads; browser-local records remain separate.",
+      "Co-op can negotiate compact binary messages while retaining compatibility with older JSON peers. This reduces traffic; it does not guarantee a connection on every network.",
+      "Relay-server deployment support was added to the project. Its presence in the repository does not confirm that a relay is available in every live session."
     ],
     "fixed": [
       "The default opening remains available after using Starting move, including exceptions such as Psyduck’s Confusion.",

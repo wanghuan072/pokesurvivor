@@ -129,6 +129,11 @@ test("lastmod is stable, selective, and independent of footer year changes",()=>
     fs.writeFileSync(rewardsFile,JSON.stringify(rewards));
     assert.deepEqual(changedRoutes(contentHashes(dir)),['/level-up']);
     fs.copyFileSync('src/data/game/boss-rewards.json',rewardsFile);
+    const issuesFile=path.join(dir,'src/data/game/move-issues.json'),issues=read(issuesFile);
+    issues.groups[0].note+=' A clarified projectile-count limitation.';
+    fs.writeFileSync(issuesFile,JSON.stringify(issues));
+    assert.deepEqual(changedRoutes(contentHashes(dir)),['/level-up'],'Move caveats update the catalogue without refreshing unrelated pages');
+    fs.copyFileSync('src/data/game/move-issues.json',issuesFile);
     const rosterFile=path.join(dir,'src/data/pokedex/pokemon.json'), roster=read(rosterFile);
     const detailRoster=read(rosterFile);
     detailRoster.find(p=>p.id===2).detail.intro+=' Compare the opening before choosing.';

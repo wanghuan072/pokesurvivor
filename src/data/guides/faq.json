@@ -73,6 +73,22 @@
     [
       "Do single-type Pokémon get a damage bonus?",
       "Yes. A partner with exactly one type deals 20% more damage with moves matching that type. Other move types do not receive it, and dual-type partners do not get this bonus."
+    ],
+    [
+      "Why does a co-op room keep reconnecting?",
+      "An accepted invitation does not guarantee a working game connection. Cross-network failures have been reported. Save your progress before refreshing, load the current official game on every device, create a fresh room and try another host. A different-network or same-Wi-Fi test can help isolate the problem, but no single step guarantees a connection. Stop if the room keeps retrying; the beginner guide has a fuller checklist."
+    ],
+    [
+      "Why did a projectile upgrade leave me with one shot?",
+      "Twelve new homing and bouncing moves have a projectile-count mismatch in the checked build. Their first +1 projectile upgrade still fires one shot. For bouncing moves, the extra bounce is a separate effect. Level-up marks the affected cards; the proposed fix is still open as of 20 October 2026. This does not change their evolution requirements."
+    ],
+    [
+      "What should I do if Save says pending or offline?",
+      "Stay on the device holding the new progress. Restore the connection if needed, press Save and wait for the game to confirm the upload. An upload within the last 65 seconds may queue another attempt rather than upload immediately. Avoid clearing site data or switching devices while changes remain pending. This fan site cannot inspect or repair your account."
+    ],
+    [
+      "I defeated a shiny. Why is it missing from my collection?",
+      "Check the same species, its Normal/Shiny control, collection filters and the account used for the capture. Then confirm Save completed on that device. In co-op, verify your own unlock rather than relying on a teammate’s result. A player report exists, but its cause is unconfirmed; these checks are not a promise of recovery."
     ]
   ]
 }

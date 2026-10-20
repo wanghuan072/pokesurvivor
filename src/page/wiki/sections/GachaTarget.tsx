@@ -15,7 +15,7 @@ export default function GachaTarget({partners}:{partners:Partner[]}) {
   return <section id="target-partner" className={s.article} aria-labelledby="target-title">
     <h2 id="target-title">Find your target’s banner</h2>
     <div className={s.toolbar}><label>Pokémon name or number<input type="search" list="gacha-partners" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Pikachu or #25" autoComplete="off" /></label><datalist id="gacha-partners">{partners.map(p=><option key={p.id} value={p.name}>#{p.id}</option>)}</datalist></div>
-    {target&&banner?<div className={s.card} aria-live="polite">
+    {target&&banner?<div key={target.id} className={s.card} aria-live="polite">
       <PokemonArt id={target.id} name={target.name} size={80}/><h3>{target.name}</h3>
       <p><strong>{target.region[0].toUpperCase()+target.region.slice(1)} banner · {target.rarity}★</strong> · {pool} partners in this rarity pool.</p>
       <p>Ordinary single-pull chance: {gacha.rates.find(r=>r.rarity===target.rarity)!.percent}% ÷ {pool} = <strong>{rate.toFixed(4)}%</strong>.</p>

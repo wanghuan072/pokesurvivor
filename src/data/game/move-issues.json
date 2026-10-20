@@ -1,0 +1,20 @@
+{
+  "build": "ae1820f65b",
+  "checked": "2026-10-20",
+  "source": "https://github.com/JPTER78/pokesurvivor/pull/223",
+  "summary": "Twelve moves still fire one projectile after their first projectile-count upgrade in this build. The card wording is shown as it appears in the game; the notes below explain the current behavior. The proposed fix has not been merged.",
+  "groups": [
+    {
+      "kind": "homing",
+      "level": 2,
+      "ids": ["energy-ball", "mist-ball", "ice-shard", "shadow-sneak", "draining-kiss", "sucker-punch"],
+      "note": "The first +1 projectile upgrade still leaves one projectile per cast in this build. It does not produce two. Later upgrades and evolution have separate effects."
+    },
+    {
+      "kind": "bounce",
+      "level": 5,
+      "ids": ["seed-bomb", "electro-ball", "acid-spray", "signal-beam", "power-gem", "mirror-shot"],
+      "note": "The +1 projectile part still leaves one projectile per cast in this build. The additional bounce is a separate effect; this does not mean the whole upgrade does nothing."
+    }
+  ]
+}

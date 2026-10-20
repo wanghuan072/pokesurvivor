@@ -46,10 +46,10 @@ export default function SurvivalRankings({boards, partners}: { boards: Leaderboa
         </ol>
         {!rows.length && <p className={s.empty}>No records match these filters. Try another nickname or reset the filters.</p>}
       </div>
-      <footer className={s.boardFooter}>Saved official board · not live. Daily, weekly and monthly tabs refer to the displayed period, not today’s live board. Game calendar: Europe/Madrid. Filtering keeps the original positions.</footer>
+      <footer className={s.boardFooter}>Saved before the 38-move update · not live. Daily, weekly and monthly tabs refer to the displayed period, not today’s live board. Game calendar: Europe/Madrid. Filtering keeps the original positions.</footer>
     </section>
     <div className={s.notes}>
-      <article><h2>What these records show</h2><p>The game orders these boards by survival time. Each row shows the player or team, their partners, level and defeated count. A listed record is not a strength rating or an independently verified run.</p></article>
+      <article><h2>What these records show</h2><p>The game orders these boards by survival time. Each row shows the player or team, their partners, level and defeated count. A listed record is not a strength rating or an independently verified run.</p><p>These boards were captured on 19 October 2026 before the update that added 38 moves. Use them to explore recorded partners and teams; they cannot establish the best build for the expanded move pool. For current positions, open the official leaderboard.</p></article>
       <article><h2>Find your own rank</h2><p>Open the official game, sign in and choose Leaderboard. Your personal position, friends-only boards and Pokémon-specific All-time boards stay in the game. This fan site does not access your account.</p></article>
     </div>
   </>;

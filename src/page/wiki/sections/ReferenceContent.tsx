@@ -25,7 +25,7 @@ export default function ReferenceContent() {
         <label>Progress<select aria-label="Progress" value={scope} onChange={e=>setScope(e.target.value)}><option value="">All goals</option><option value="run">Single-run record</option><option value="overall">Overall collection or progress</option></select></label>
         <button onClick={()=>{setQuery("");setReward("");setScope("");}}>Reset filters</button>
       </div>
-      <p className={s.count} aria-live="polite">{visible.length} / {achievements.length} goals. Achievement rewards are automatic; mission rewards must be claimed separately.</p>
+      <p className={s.count} aria-live="polite">{`${visible.length} / ${achievements.length} goals. Achievement rewards are automatic; mission rewards must be claimed separately.`}</p>
       <nav className={s.chips} aria-label="Achievement categories">
         {categories.map(category => <a href={"#" + categoryId(category)} key={category}>
           {category} · {achievements.filter(achievement => achievement.category === category).length}

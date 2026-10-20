@@ -9,7 +9,7 @@ import s from "@/style/page/level-up.module.css";
 import c from "@/style/common/content.module.css";
 import { attackFit, attackSide, ownTypeMultiplier, startingMoveChoices } from "@/lib/game/mechanics";
 import mechanics from "@/data/game/mechanics.json";
-type Card=Move&{description:string;levelEffects:{level:number;text:string}[];evolutionEffect:string|null;partnerCount:number};
+type Card=Move&{description:string;levelEffects:{level:number;text:string}[];evolutionEffect:string|null;partnerCount:number;currentIssue?:{level:number;note:string}};
 export default function CardCatalog({moves,partners}:{moves:Card[];partners:MovePartner[]}) {
   const [partnerId,setPartnerId]=useState<number|null>(partners[0]?.id??null);
   const [query,setQuery]=useState(""),[type,setType]=useState(""),[recipe,setRecipe]=useState(""),[category,setCategory]=useState(""),[evolutions,setEvolutions]=useState(false);
@@ -44,7 +44,7 @@ export default function CardCatalog({moves,partners}:{moves:Card[];partners:Move
   const starting=moves.find(m=>m.id===partner?.startMove);
   return <div className={s.catalogWorkspace}>
     <PartnerPicker partners={partners} selected={partner} onSelect={id=>{setPartnerId(id);reset();}}/>
-    <section id="partner-move-panel" className={s.catalogPanel} aria-label="Selected partner moves">
+    <section key={partner?.id??"all"} id="partner-move-panel" className={s.catalogPanel} aria-label="Selected partner moves">
     <header className={s.partnerLoadout}>
       {partner?<><div className={s.partnerIdentity}><PokemonArt id={partner.id} name={partner.name} size={48}/><div><small>#{String(partner.id).padStart(3,"0")} · {partner.types.join(" / ")}</small><h3>{partner.name}</h3></div></div><span className={s.poolCount}>{partner.cardPool.length} level-up choices</span></>:<div className={s.partnerIdentity}><h3>All move cards</h3><span className={s.poolCount}>{moves.length} MOVES</span></div>}
       {starting&&<a className={s.openingMove} href={`#move-${starting.slug}`} onClick={()=>{reset();requestAnimationFrame(()=>document.getElementById(`move-${starting.slug}`)?.scrollIntoView({block:"nearest"}));}}><MoveIcon id={starting.id} size={22}/><span>Default start <strong>{starting.name} ↓</strong></span></a>}
@@ -60,13 +60,14 @@ export default function CardCatalog({moves,partners}:{moves:Card[];partners:Move
       <label>Category<select aria-label="Category" value={category} onChange={e=>setCategory(e.target.value)}><option value="">All categories</option><option value="physical">Physical</option><option value="special">Special</option><option value="buff">Buff</option></select></label>
       <button onClick={reset}>Reset filters</button>
     </div>
-    <p className={s.cardCount} aria-live="polite">{filtered.length} cards{partner?` for ${partner.name} · Starting move first`:" · All partners"}</p>
+    <p className={s.cardCount} aria-live="polite">{`${filtered.length} cards${partner?` for ${partner.name} · Starting move first`:" · All partners"}`}</p>
     <div className={s.moveViewport} ref={viewport} tabIndex={0} aria-label="Scrollable move list">
     <div className={s.moveList}>{filtered.map(m=><article className={s.moveRow} id={`move-${m.slug}`} key={m.id} data-starting={partner?.startMove===m.id}>
       <div className={s.moveArtwork} data-type={m.type}><MoveIcon id={m.id} size={32}/></div>
       <div className={s.moveBody}>
         <div className={s.moveHeader}><h3>{m.name}</h3><span className="type" data-type={m.type}>{m.type}</span><span className={s.startBadge}>{m.category.toUpperCase()}</span>{partner?.startMove===m.id&&<span className={s.startBadge}>STARTING MOVE{!partner.cardPool.includes(m.id)?" · STARTING ONLY":""}</span>}</div>
         <p className={s.rowDescription}>{m.description}</p>
+        {m.currentIssue&&<p className={s.note}><strong>Current version · Lv. {m.currentIssue.level}: </strong>{m.currentIssue.note} <a href="#current-move-notes">Affected moves &amp; status →</a></p>}
         <div className={s.rowStats}><span>BASE HIT <b>{m.base.dmg??"—"}</b></span><span>COOLDOWN <b>{m.base.cd}s</b></span><span>MAX <b>Lv. {m.maxLevel}</b></span>{partner&&!partner.cardPool.includes(m.id)&&<span>NEW CARDS <b>Not in pool</b></span>}</div>
         {partner&&m.category!=='buff'&&<p className={s.rowDescription}>{Math.round(attackFit(partner,m.category)*100)}% of {partner.name}’s stronger attack factor{ownTypeMultiplier(partner.types,m.type,m.category)>1?" · Single-type bonus ×1.20":""}, before run upgrades, enemy defenses and other damage modifiers.</p>}
         <div className={s.rowEvolution}>{m.evolution?<><strong>→ {m.evolution}</strong><span>Lv. {m.maxLevel} + {m.requirement}</span></>:<span>Buff move · No evolution</span>}</div>
