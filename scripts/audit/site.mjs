@@ -69,7 +69,7 @@ const retiredTarget = (pathname) =>
   removedRoutes.some((route) => pathname === route || pathname.startsWith(route + "/")) ||
   pathname === "/moves" || pathname.startsWith("/moves/") ||
   pathname.startsWith("/builds/") ||
-  pathname.startsWith("/pokedex/") ||
+  (pathname.startsWith("/pokedex/") && !pokemon.some(p=>p.hasDetailPage && pathname===`/pokedex/${p.slug}`)) ||
   pathname.startsWith("/level-up/") ||
   pathname.startsWith("/tier-list/") ||
   pathname === "/evolutions" || pathname.startsWith("/evolutions/");
@@ -144,6 +144,7 @@ assert.ok(
   "Removed Items page must not be searchable",
 );
 const sitemap = fs.readFileSync(".next/server/app/sitemap.xml.body", "utf8");
+const indexableRoutes=new Set(read("public/.well-known/seo-url-manifest.json").entries.filter(e=>e.indexable).map(e=>e.path));
 
 for (const route of removedRoutes) {
   assert.ok(!known.has(route), `Removed page generated: ${route}`);
@@ -224,8 +225,15 @@ for (const m of moves) {
 }
 for (const p of pokemon) {
   assert.equal(typeof p.hasDetailPage, "boolean", p.slug);
-  assert.equal(p.hasDetailPage, false, "Pokédex details are temporarily unpublished");
+  assert.equal(p.hasDetailPage, p.id>=1 && p.id<=16, "Only the requested first 16 partners have details");
   const url = `/pokedex/${p.slug}`;
+  if(p.hasDetailPage) {
+    const html=fs.readFileSync(`.next/server/app${url}.html`,'utf8');
+    assert.ok(html.includes(`<h1>${p.name}</h1>`),`${p.slug}: exact species H1`);
+    assert.equal((html.match(/<article\b/g)||[]).length,p.learnset.length,`${p.slug}: full card pool`);
+    assert.ok(html.includes(p.detail.intro.replaceAll('&','&amp;').replaceAll("'",'&#x27;')),`${p.slug}: player introduction`);
+    assert.ok(html.includes(`/game/collection/${p.id}-normal.webp`),`${p.slug}: real normal animation`);
+  }
   assert.equal(
     known.has(url),
     p.hasDetailPage,
@@ -238,7 +246,7 @@ for (const p of pokemon) {
   );
   assert.equal(
     sitemap.includes(url + "</loc>"),
-    p.hasDetailPage,
+    p.hasDetailPage && indexableRoutes.has(url),
     `${url}: sitemap publication mismatch`,
   );
 }
@@ -254,8 +262,8 @@ console.log(
 console.log(`PASS: ${links.length} page links and anchors, ${search.length} search entries, sitemap and all retired page entries checked.`);
 const base = process.env.AUDIT_URL;
 for (const route of known) {
-  assert.ok(!/^\/(pokedex|level-up|tier-list|builds)\//.test(route),
-    `Only guide detail routes may be published: ${route}`);
+  assert.ok(!/^\/(level-up|tier-list|builds)\//.test(route),
+    `Unpublished detail route: ${route}`);
 }
 if (base) {
   const routes = [...known, "/robots.txt", "/sitemap.xml"].filter(

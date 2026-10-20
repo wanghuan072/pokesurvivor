@@ -3,9 +3,11 @@ import { site } from "@/config/site";
 import { tdk } from "@/seo/tdk";
 import guides from "@/data/guides/guides.json";
 import faq from "@/data/guides/faq.json";
+import pokemon from "@/data/pokedex/pokemon.json";
 export type SeoData = { title: string; description: string; targetKeywords?: string[]; indexable?: boolean };
 export function seoFor(path: string): SeoData {
   const record = (tdk as Record<string, SeoData>)[path]
+    ?? pokemon.find(p=>p.hasDetailPage && `/pokedex/${p.slug}`===path)?.detail?.seo
     ?? (path === "/guides/faq" ? faq.seo : guides.find((g) => `/guides/${g.slug}` === path)?.seo);
   if (!record) throw new Error(`Missing SEO content: ${path}`);
   return record;

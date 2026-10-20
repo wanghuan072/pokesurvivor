@@ -20,6 +20,7 @@ export function metadataInput(root, routes) {
     if(name==="@/seo/tdk")return {tdk};
     if(name==="@/data/guides/guides.json")return {default:read("src/data/guides/guides.json")};
     if(name==="@/data/guides/faq.json")return {default:read("src/data/guides/faq.json")};
+    if(name==="@/data/pokedex/pokemon.json")return {default:read("src/data/pokedex/pokemon.json")};
     throw new Error(`Unregistered metadata dependency: ${name}`);
   });
   return route=>{

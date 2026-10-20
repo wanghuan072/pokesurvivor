@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import { discoverRoutes } from "../seo/routes.mjs";
 import path from "node:path";
 import {createRequire} from "node:module";
 import {execFileSync} from "node:child_process";
@@ -336,7 +337,7 @@ test("build verification accepts local and platform adapter prerenders but rejec
 
 test("public local Manifest and verification key contain no private data",()=>{
   const manifest=JSON.parse(fs.readFileSync("public/.well-known/seo-url-manifest.json","utf8"));
-  assert.equal(manifest.fingerprintVersion,FINGERPRINT_VERSION);assert.equal(manifest.entries.length,21);
+  assert.equal(manifest.fingerprintVersion,FINGERPRINT_VERSION);assert.equal(manifest.entries.length,discoverRoutes().length);
   assert.ok(!manifest.entries.some(e=>/\/(builds|sources|tools|wiki)(\/|$)/.test(e.path)));
   assert.equal(fs.readFileSync(`public/${key}.txt`,"utf8").trim(),key);
 });

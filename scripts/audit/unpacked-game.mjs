@@ -42,7 +42,7 @@ for (const p of pokemon) {
   }
   if (p.hasDetailPage)
     assert.ok(
-      a.animations.some((x) => x.name === "Idle" && !x.shiny),
+      fs.existsSync(`public/game/collection/${p.id}-normal.webp`) && fs.existsSync(`public/game/collection/${p.id}-normal-still.webp`),
       p.slug,
     );
   const expected = waves.tiers.flatMap((t, i) =>

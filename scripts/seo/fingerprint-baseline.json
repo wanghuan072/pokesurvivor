@@ -1,0 +1,89 @@
+{
+  "reason": "Preserve the published cc5b91d fingerprints while excluding site chrome, review stamps and unused type/helper changes. Exact input matches only; this does not roll back published dates.",
+  "routes": {
+    "/": {
+      "inputHash": "799b5872f1306e8275dd122709ce025eb0656e50ab34a53e044b2276ea73ddf1",
+      "compatibleHash": "0fe64b7f6ed4bf1f16ea6b7d80d4d2c8c0b20417a4b6b10c5e272b1628df5c59"
+    },
+    "/achievements": {
+      "inputHash": "8e873bd731f37548a09aac4cb7fbef12286c98ac79216f23d65ad5e7fe7b8fde",
+      "compatibleHash": "2dbca538810f5c0028f3f4a8c0478899d7468463c9af1765655b4f20fb59b416"
+    },
+    "/gacha": {
+      "inputHash": "28cc553fb603cc97dcf09f0759798b2b26868323b837b18edfaebdbb20ccbed4",
+      "compatibleHash": "d6011347e83285f49d5af92f2b69a039b8cfe777cb524c292684037e20794a6b"
+    },
+    "/guides": {
+      "inputHash": "744eae75850943134b75f0afda7ed4dca3afdc7dc936269cebdb673468821404",
+      "compatibleHash": "393fcd8dc06357869c9eba990601748c73513155cc33f61c0f55b60628f2239b"
+    },
+    "/guides/beginner-guide": {
+      "inputHash": "995b8361e7b7510cd3bd69bb7464962b369eb31a5f22c5a446afc8b657c64072",
+      "compatibleHash": "861ff1e4f52f68b1a039ea316e30529190d43de862f74a7ab84a8e9b26c91076"
+    },
+    "/guides/faq": {
+      "inputHash": "db6c4ea525139b721818b06c70dcd5db870603b261f23f09e1bff96c371c9553",
+      "compatibleHash": "d6790d3698543fcf9c13897fd9c4dcdf9d4a80dc03c8fc8030c719f49ed405ce"
+    },
+    "/guides/gacha-and-tickets": {
+      "inputHash": "135262c4a49e70b1f9d4af599413f1c100c74b2ab300a714abef41f35298a0dd",
+      "compatibleHash": "6144ebc2ca3a5e9309ea62ace0f4e143659e47b3b526045e3fd9cf33614edec9"
+    },
+    "/guides/move-evolutions": {
+      "inputHash": "797c0257cfe42612d8ae37b966320168e95a77765fdea5bb03e18149eb6deed6",
+      "compatibleHash": "9fc83ac44b520750357b31b51a50af253ae839515001ca93ab66d9e1a4a257f4"
+    },
+    "/guides/shiny-pokemon": {
+      "inputHash": "60d1229e060487e6e36c888dfd1725adf11c550a28cdcaa8a3ac8b2e3cb90c95",
+      "compatibleHash": "245aa1385c08acaf79fa8b34f14f7625530dfa075683a2155058c5f528181e29"
+    },
+    "/legal/about-us": {
+      "inputHash": "402623b00d49819b6699d9430ebb817ae6e4bd7633b3dc2955c887076dc715aa",
+      "compatibleHash": "eb26d4ebadfd587434f32e0806bc7e6783f731369b2b38f1b5ce9e9d7126224b"
+    },
+    "/legal/contact-us": {
+      "inputHash": "ab4137bd401dce375ac8e4489cb4b0d2b0320b1cd0b3766f5638befe112edbe0",
+      "compatibleHash": "004490356651d1b0e8ad87b24409fad80fc803c30751d650b053fb7896b50b35"
+    },
+    "/legal/copyright": {
+      "inputHash": "f028211b0612dc2d0dee152b6217bbe15518805c78d475b50dfffb7000f7506d",
+      "compatibleHash": "02ed14902a842bffd3c87ce8dbc00c21c32a35ec93f5109600a723842e844ba3"
+    },
+    "/legal/privacy-policy": {
+      "inputHash": "22f5e3d398bc8e570dfe5d542769a0b6c7ce63346fbb40a5ae3a2e05be58b88e",
+      "compatibleHash": "4ffe9cb7a7425fd798b04949a0ac59f2f834859b2250ca5977557294dee1127c"
+    },
+    "/legal/terms-of-service": {
+      "inputHash": "5beb3557fedd8adcb0fd7c1ac39c9c21aac10363c905e8b0a2d888d523e089fc",
+      "compatibleHash": "0309e9592a3de5f66e8f89a643ae618f69953bbe226aec63e5674c36e297652a"
+    },
+    "/level-up": {
+      "inputHash": "114931dec7bb740246d032959a0743ce6f25b1e29f7bcc3ca987b7c0fbec5c15",
+      "compatibleHash": "15e688a0b1c89c50ab98b03a966eb10658c5632952a09e4d8f246716785a342d"
+    },
+    "/play": {
+      "inputHash": "05a3d523a545899b8972a7a0b032d46ec486b67bdbb2b9de958a69e8d1d85b2f",
+      "compatibleHash": "25ad46b4c57c93619f9b5bd8895863078b37c72112a3543c0655537985d4c8d2"
+    },
+    "/pokedex": {
+      "inputHash": "33ac6d4106f3a611da40711a507864a67633b36bd399eafc2a5a834a1c1c869e",
+      "compatibleHash": "288b6074302d66b2160fc660edf16dc886fc97f425c112b1ddcb0ca0658b5ac8"
+    },
+    "/rankings": {
+      "inputHash": "15699282dd1d768da860a34d7442fda7f112efc5e9d37b7f24618d5cfb87e46e",
+      "compatibleHash": "cedcc944e27cd0cde1c97ca9e9e7a61793e86261c96e0999fa858825c6b68a7f"
+    },
+    "/tier-list": {
+      "inputHash": "52f23edc1c6ce520e4ad28bc26782917ed796509ac27ad0707fe573412d0b2e8",
+      "compatibleHash": "9c1cdfc7a96345350e87750c4c8873662e69dc160f38f69042c473ba6bf253ee"
+    },
+    "/types": {
+      "inputHash": "2702a858cc1b88e1a9e067e8d75e1bb668f0ae24c979ed7610fad92b0ae6a5b3",
+      "compatibleHash": "ca7ca23b3ab91bacdec65c13ecca32524ebda900de5f65f7432d30be6f142824"
+    },
+    "/updates": {
+      "inputHash": "bfee35e555340805db760bf069f7857275598218f95a78360e45c7aef4b5760f",
+      "compatibleHash": "a719d2dc61047f46513e860f74428e9dc1e81d21d90dcf5cad1ecddbe6e8db19"
+    }
+  }
+}

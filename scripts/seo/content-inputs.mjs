@@ -8,9 +8,9 @@ import { metadataInput } from "./metadata-input.mjs";
 const hash = (value) => crypto.createHash("sha256").update(value).digest("hex");
 export function contentInputs(root = process.cwd()) {
   const read = (file) => JSON.parse(fs.readFileSync(path.join(root, file), "utf8"));
-  const fileHash = (file) => {
+  const fileHash = (file, selectedFunctions) => {
     const bytes = fs.readFileSync(path.join(root, file));
-    if (/\.[cm]?[jt]sx?$/.test(file)) return hash(semanticSource(bytes.toString("utf8"), file));
+    if (/\.[cm]?[jt]sx?$/.test(file)) return hash(semanticSource(bytes.toString("utf8"), file, selectedFunctions));
     return hash(/\.(?:[cm]?[jt]sx?|md|txt|svg|css)$/.test(file)
       ? bytes.toString("utf8").replace(/\r\n/g, "\n") : bytes);
   };
@@ -37,6 +37,7 @@ export function contentInputs(root = process.cwd()) {
     "/achievements": "src/page/wiki/sections/ReferenceContent.tsx", "/updates": "src/page/wiki/sections/UpdatesContent.tsx",
     "/guides": "src/page/guides/GuidesPage.tsx",
   };
+  let mechanicsFunctions;
   function sources(entry, seen = new Set()) {
     if (seen.has(entry)) return; seen.add(entry);
     const source = fs.readFileSync(path.join(root, entry), "utf8");
@@ -44,10 +45,14 @@ export function contentInputs(root = process.cwd()) {
     const ast = ts.createSourceFile(entry, source, ts.ScriptTarget.Latest, true);
     for (const statement of ast.statements) {
       if ((!ts.isImportDeclaration(statement) && !ts.isExportDeclaration(statement)) || !statement.moduleSpecifier) continue;
+      if (ts.isImportDeclaration(statement) && (statement.importClause?.isTypeOnly ||
+        (statement.importClause?.namedBindings && ts.isNamedImports(statement.importClause.namedBindings) && !statement.importClause.name && statement.importClause.namedBindings.elements.every(e=>e.isTypeOnly)))) continue;
       const spec = statement.moduleSpecifier.text;
       const base = spec.startsWith("@/") ? "src/" + spec.slice(2) : spec.startsWith(".") ? path.posix.join(path.posix.dirname(entry), spec) : null;
       if (!base || ["src/seo/tdk", "src/seo/tdk.js", "src/seo/revisions", "src/seo/manifest", "src/seo/metadata"].includes(base)) continue;
       const resolved = [base, base + ".tsx", base + ".ts", base + ".js", base + "/index.ts"].find(f => /(?:\.[cm]?[jt]sx?|\.css)$/.test(f) && fs.existsSync(path.join(root, f)) && fs.statSync(path.join(root,f)).isFile());
+      if (resolved === "src/lib/game/mechanics.ts" && ts.isImportDeclaration(statement) && statement.importClause?.namedBindings && ts.isNamedImports(statement.importClause.namedBindings))
+        for (const name of statement.importClause.namedBindings.elements.filter(e=>!e.isTypeOnly)) mechanicsFunctions.add((name.propertyName??name.name).text);
       if (resolved && !resolved.endsWith(".css")) sources(resolved, seen);
     }
     return seen;
@@ -56,6 +61,7 @@ export function contentInputs(root = process.cwd()) {
   const routes=discoverRoutes(root), collectMetadata=metadataInput(root,routes);
   const allMeta = Object.fromEntries(routes.map(route => [route.path, route.seo]));
   for (const [url,seo] of Object.entries(allMeta)) {
+    mechanicsFunctions = new Set();
     let entry = roots[url], data = {};
     if (url.startsWith("/legal/")) { entry = "src/page/legal/LegalPage.tsx"; data = legal[url.split("/").at(-1)]; }
     if (url === "/") {
@@ -90,6 +96,20 @@ export function contentInputs(root = process.cwd()) {
       data.bossRewards = bossRewards;
       data.items = read("src/data/wiki/items.json");
     }
+    if (url.startsWith("/pokedex/")) {
+      entry="src/page/pokedex/PokemonDetailPage.tsx";
+      const partner=pokemon.find(p=>url===`/pokedex/${p.slug}` && p.hasDetailPage);
+      const pool=moves.filter(m=>partner.learnset.includes(m.id));
+      data={partner, moves:pool, moveIcons:pool.map(m=>({id:m.id,image:fileHash(`public/game/moves/${m.id}.png`)})),notes:read("src/data/game/move-notes.json").filter(n=>pool.some(m=>m.id===n.id)),
+        appearances:encounters.find(e=>e.id===partner.id),
+        collectionPreviews:collectionPreviews.filter(p=>p.id===partner.id),
+        combat:read("src/data/game/mechanics.json").combat,startingMove:read("src/data/game/mechanics.json").startingMove,
+        neighbours:pokemon.filter(p=>p.hasDetailPage && Math.abs(p.id-partner.id)===1).map(({id,name,slug})=>({id,name,slug})),
+        editorialGrade:read("src/data/tier-list/recommendations.json").picks.find(p=>p.id===partner.id)?.tier??null,
+        evidence:read("src/data/game/leaderboards.json").boards.filter(b=>b.period==="weekly").map(b=>({key:b.key,mode:b.mode,period:b.period,capturedAt:b.capturedAt,count:b.rows.length,rows:b.rows.filter(row=>row.pokemon.some(p=>p.id===partner.id)).map(({rank,seconds,pokemon:members})=>({rank,seconds,pokemon:members.map(({id})=>({id,name:pokemon.find(p=>p.id===id)?.name}))}))})),
+        teammates:(partner.detail.strategy?.teammates??[]).map(pick=>({id:pick.id,name:pokemon.find(p=>p.id===pick.id)?.name,slug:pokemon.find(p=>p.id===pick.id)?.slug,hasDetailPage:pokemon.find(p=>p.id===pick.id)?.hasDetailPage,move:moves.find(m=>m.id===pick.moveId)})),
+      };
+    }
     if (url === "/types") data = { chart: read("src/data/tools/type-chart.json"), weather: read("src/data/wiki/weather.json") };
     if (url === "/gacha") data = { gacha: read("src/data/wiki/gacha.json"), partners:pokemon.map(({id,name,region,rarity})=>({id,name,region,rarity})), shinySamples, collectionPreviews:collectionPreviews.filter(p=>shinyIds.has(p.id)) };
     if (url === "/achievements") data = read("src/data/wiki/achievements.json");
@@ -119,17 +139,14 @@ export function contentInputs(root = process.cwd()) {
       };
     }
     const implementationFiles = sources(entry);
-    sources("src/components/layout/SiteFooter.tsx", implementationFiles);
-    if (url !== "/play") sources("src/components/layout/SiteShell.tsx", implementationFiles);
-    if(url!=="/play")data={...data,sharedMoveCount:moves.length};
+    // Navigation, search and footer are site chrome, not changes to this page's subject.
     if (url !== "/" && url !== "/play")
       sources("src/components/common/PageHeader.tsx", implementationFiles);
     const mechanics=read("src/data/game/mechanics.json");
     if(["/level-up","/types","/tier-list"].includes(url))data={...data,combatRules:mechanics.combat,startingMoveRule:mechanics.startingMove};
-    if(implementationFiles.has("src/components/common/SourceNote.tsx")) data={...data,rulesReviewed:{reviewed:mechanics.reviewed,build:mechanics.build}};
-    if(url==="/guides")data.rulesReviewed={reviewed:mechanics.reviewed,build:mechanics.build};
+    // Review stamps alone must not manufacture a new content modification date.
     if(url==="/types")data={...data,defenseRule:mechanics.defense};
-    const implementation = [...implementationFiles].sort().map(file => [file,fileHash(file)]);
+    const implementation = [...implementationFiles].sort().map(file => [file,fileHash(file,file === "src/lib/game/mechanics.ts" ? mechanicsFunctions : undefined)]);
     const assets = { og: fileHash("public/images/og-image.png") };
     assets.gameForest = fileHash("public/game/screenshots/forest.webp");
     if (url === "/play") assets.gamePreview = fileHash("public/game/screenshots/level-up.webp");
@@ -146,7 +163,13 @@ export function contentInputs(root = process.cwd()) {
   }
   return inputs;
 }
-export function contentHashes(root = process.cwd()) {
+export function contentHashes(root = process.cwd(), { compatibility = true } = {}) {
   const canonical=value=>Array.isArray(value)?value.map(canonical):value && typeof value === "object"?Object.fromEntries(Object.keys(value).sort().map(key=>[key,canonical(value[key])])):value;
-  return Object.fromEntries(Object.entries(contentInputs(root)).sort(([a],[b])=>a.localeCompare(b)).map(([url,payload])=>[url,hash(JSON.stringify(canonical(payload)))]));
+  const baselineFile = new URL("./fingerprint-baseline.json", import.meta.url);
+  const baseline = compatibility && fs.existsSync(baselineFile) ? JSON.parse(fs.readFileSync(baselineFile,"utf8")).routes : {};
+  return Object.fromEntries(Object.entries(contentInputs(root)).sort(([a],[b])=>a.localeCompare(b)).map(([url,payload])=>{
+    const current=hash(JSON.stringify(canonical(payload))), prior=baseline[url];
+    // Translate only an exact audited baseline. Real edits still get a new hash.
+    return [url,prior?.inputHash===current ? prior.compatibleHash : current];
+  }));
 }

@@ -1,6 +1,20 @@
 export type Pokemon = {
   id: number;
   hasDetailPage: boolean;
+  detail?: {
+    intro: string;
+    tips: string[];
+    strategy?: {
+      strength: { headline: string; verdict: string; tradeoff: string };
+      moves: { id: string; role: string; reason: string }[];
+      order: string[];
+      fallback: string;
+      teammates: { id: number; moveId: string; reason: string }[];
+      teamPlan: string;
+      techniques: { title: string; text: string }[];
+    };
+    seo: { title: string; description: string; targetKeywords: string[] };
+  };
   slug: string;
   name: string;
   region: string;

@@ -12,7 +12,9 @@ export function discoverRoutes(root = process.cwd()) {
   if (!declaration?.initializer) throw new Error("Missing static-page metadata");
   const metadata = JSON.parse(declaration.initializer.getText(source));
   const guides = read("src/data/guides/guides.json").filter(g => g.published !== false);
-  const all = { ...metadata, ...Object.fromEntries(guides.map(g => [`/guides/${g.slug}`, g.seo])), "/guides/faq": read("src/data/guides/faq.json").seo };
+  const partners=read("src/data/pokedex/pokemon.json").filter(p=>p.hasDetailPage);
+  for(const partner of partners) if(!partner.detail?.seo) throw new Error(`Published partner needs SEO: ${partner.slug}`);
+  const all = { ...metadata, ...Object.fromEntries(partners.map(p=>[`/pokedex/${p.slug}`,p.detail.seo])), ...Object.fromEntries(guides.map(g => [`/guides/${g.slug}`, g.seo])), "/guides/faq": read("src/data/guides/faq.json").seo };
   return Object.entries(all).sort(([a],[b]) => a < b ? -1 : a > b ? 1 : 0).map(([route, seo]) => {
     const canonical = new URL(route, SITE_URL);
     if (canonical.origin !== SITE_URL || canonical.pathname !== route || canonical.search || canonical.hash || (route !== "/" && route.endsWith("/"))) throw new Error(`Invalid canonical path: ${route}`);

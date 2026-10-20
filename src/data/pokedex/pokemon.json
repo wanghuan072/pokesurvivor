@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "bulbasaur",
     "name": "Bulbasaur",
     "region": "kanto",
@@ -71,11 +71,84 @@
     "physicalAttack": 0.97,
     "specialAttack": 1.06,
     "defense": 49,
-    "specialDefense": 65
+    "specialDefense": 65,
+    "detail": {
+      "intro": "Bulbasaur combines Grass and Poison cards with Vine Whip as its default opening attack. Its special attack factor is slightly higher, so check the damage category before committing upgrades.",
+      "tips": [
+        "Vine Whip uses physical attack. Keep that distinction in mind when comparing it with special Grass or Poison cards.",
+        "Grass and Poison give you two typed pools alongside Normal cards. Dual typing does not receive the single-type damage bonus."
+      ],
+      "seo": {
+        "title": "Bulbasaur - PokeSurvivor Stats, Moves & Guide",
+        "description": "Bulbasaur in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Bulbasaur PokeSurvivor",
+          "Bulbasaur moves",
+          "Bulbasaur stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A useful starter if you commit to a damage route",
+          "verdict": "We like Bulbasaur for learning spacing with Vine Whip, then choosing between physical Grass and special Poison. The default is workable without paying for another opening.",
+          "tradeoff": "The 1.06 special factor is higher than 0.97 physical, but that small gap does not make an unlevelled special attack better than an upgraded whip. Dual typing adds choices, not a single-type bonus."
+        },
+        "moves": [
+          {
+            "id": "vine-whip",
+            "role": "Build first",
+            "reason": "Work the edge of a crowd. Range upgrades make that easier, and Power is the stat card for Power Whip."
+          },
+          {
+            "id": "sludge",
+            "role": "Special alternative",
+            "reason": "We would try Sludge when a projectile suits the run better than a melee arc. It uses the stronger special factor and applies poison."
+          },
+          {
+            "id": "nasty-plot",
+            "role": "Later scaling",
+            "reason": "This fits Sludge, not Vine Whip. Activate the temporary special buff, then return to damage unless they share an active Bond."
+          }
+        ],
+        "order": [
+          "Raise Vine Whip before filling every attack slot.",
+          "Take Power so the opening has its evolution requirement covered.",
+          "If pivoting to Sludge, invest in that attack and special scaling together."
+        ],
+        "fallback": "Without Sludge, keep the whip. Razor Leaf is a physical alternative that fits the same damage direction, but evolves with Reflexes rather than Power.",
+        "teammates": [
+          {
+            "id": 4,
+            "moveId": "ember",
+            "reason": "Charmander can keep a projectile active while Bulbasaur works a close edge. Leave separate escape lanes."
+          },
+          {
+            "id": 7,
+            "moveId": "bubble",
+            "reason": "Squirtle can choose a slowing spread while Bulbasaur concentrates on damage. Each player must keep the intended move active."
+          }
+        ],
+        "teamPlan": "We would pair close clearing with range or control. Bulbasaur does not need to be assigned a tank role, and we would not rely on it holding enemy attention.",
+        "techniques": [
+          {
+            "title": "Use the outside edge",
+            "text": "Let enemies enter the whip arc instead of walking through the crowd to reach them."
+          },
+          {
+            "title": "Match the buff",
+            "text": "Swords Dance helps physical attacks; Nasty Plot helps special attacks. Choose for the attack you actually use."
+          },
+          {
+            "title": "Finish the evolution",
+            "text": "Maximum move level and Power make the evolution eligible. You still need to select its card when offered."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 2,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "ivysaur",
     "name": "Ivysaur",
     "region": "kanto",
@@ -145,11 +218,84 @@
     "physicalAttack": 1.04,
     "specialAttack": 1.14,
     "defense": 63,
-    "specialDefense": 80
+    "specialDefense": 80,
+    "detail": {
+      "intro": "Ivysaur keeps the Grass/Poison card pool and Vine Whip opening, with higher base HP and attack factors than Bulbasaur. It is a familiar pool with a little more room for mistakes.",
+      "tips": [
+        "Its special attack factor is higher than its physical factor, although the default Vine Whip still uses physical attack.",
+        "Use the full card list to choose between a physical opening and a special route. Do not assume every Grass card scales from the same stat."
+      ],
+      "seo": {
+        "title": "Ivysaur - PokeSurvivor Stats, Moves & Guide",
+        "description": "Ivysaur in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Ivysaur PokeSurvivor",
+          "Ivysaur moves",
+          "Ivysaur stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A sturdier version of the close-range idea",
+          "verdict": "Ivysaur is a comfortable choice if you already enjoy the Grass/Poison pool. We would use its extra HP over Bulbasaur to recover from a positioning mistake, not to stand inside enemies.",
+          "tradeoff": "Special attack is stronger, but the default remains physical Vine Whip. Decide which route to level before buying category buffs."
+        },
+        "moves": [
+          {
+            "id": "vine-whip",
+            "role": "Familiar opening",
+            "reason": "Keep the free default when you want a direct Power evolution route."
+          },
+          {
+            "id": "energy-ball",
+            "role": "Special route",
+            "reason": "Homing projectiles are worth trying if the whip arc feels awkward. Starting with one requires Ivysaur’s own 400-coin unlock; otherwise learn it during the run."
+          },
+          {
+            "id": "nasty-plot",
+            "role": "Special scaling",
+            "reason": "This supports Energy Ball or Sludge. It does not improve the physical opening."
+          }
+        ],
+        "order": [
+          "Choose the default or an already-unlocked special opening.",
+          "Level one damaging move before adding several alternatives.",
+          "Match the evolution stat: Power for Vine Whip, Synthesis for Energy Ball."
+        ],
+        "fallback": "Keep an upgraded whip if the desired special card is late. Changing to a level-one move purely for its category can weaken a working opening.",
+        "teammates": [
+          {
+            "id": 5,
+            "moveId": "ember",
+            "reason": "Charmeleon gives a ranged Fire option beside Ivysaur’s close opening. Agree on who leads a change of direction."
+          },
+          {
+            "id": 8,
+            "moveId": "bubble",
+            "reason": "Wartortle can choose slow while Ivysaur concentrates on its main damage route."
+          }
+        ],
+        "teamPlan": "We would pair Ivysaur with a player comfortable at range. If both choose melee, agree on a retreat route before the crowd closes it.",
+        "techniques": [
+          {
+            "title": "Choose a transition point",
+            "text": "Switch categories when you can upgrade the replacement, not every time a new icon appears."
+          },
+          {
+            "title": "Homing is not healing",
+            "text": "Energy Ball evolves into a move named Giga Drain, but the checked modifiers do not add drain. Do not budget it as regeneration."
+          },
+          {
+            "title": "Leave room after a sweep",
+            "text": "A hit in front does not clear enemies approaching from behind. Keep an eye on the next open lane."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 3,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "venusaur",
     "name": "Venusaur",
     "region": "kanto",
@@ -219,11 +365,84 @@
     "physicalAttack": 1.15,
     "specialAttack": 1.25,
     "defense": 83,
-    "specialDefense": 100
+    "specialDefense": 100,
+    "detail": {
+      "intro": "Venusaur brings 106 base HP, a 1.25 special attack factor and the Grass/Poison card pool. Its default Vine Whip gives you a physical start before you decide which damage route to develop.",
+      "tips": [
+        "Its 100 special defense is higher than its 83 defense. That difference affects incoming damage categories, rather than making every hit equally safe.",
+        "If you have bought its Starting move upgrade, a legal special attack can match its stronger attack factor from the opening. The unlock is purchased separately for this partner."
+      ],
+      "seo": {
+        "title": "Venusaur - PokeSurvivor Stats, Moves & Guide",
+        "description": "Venusaur in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Venusaur PokeSurvivor",
+          "Venusaur moves",
+          "Venusaur stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "Flexible Grass/Poison with an early decision to make",
+          "verdict": "We would choose Venusaur for 106 HP, special options and a familiar Vine Whip start. Its appeal is a choice of coherent routes, rather than proof it outdamages the leading ranged partners.",
+          "tradeoff": "Dual typing brings no single-type bonus. Collecting Grass and Poison attacks is easy; developing one reliable active slot is the more useful decision."
+        },
+        "moves": [
+          {
+            "id": "energy-ball",
+            "role": "Special start to try",
+            "reason": "With the start upgrade unlocked, this uses the 1.25 special factor and tracks targets. Synthesis supports its evolution."
+          },
+          {
+            "id": "sludge",
+            "role": "Poison alternative",
+            "reason": "Sludge shares special scaling and applies poison. Before Bonds, treat it as an alternative main attack rather than expecting it beside Energy Ball."
+          },
+          {
+            "id": "nasty-plot",
+            "role": "Later support",
+            "reason": "Refresh this temporary special buff and return to damage, or put it in a suitable active Bond."
+          }
+        ],
+        "order": [
+          "Without the start unlock, keep levelling Vine Whip.",
+          "On an Energy Ball route, develop damage and look for Synthesis.",
+          "Add a second job once the main attack works; use a Bond for simultaneous moves."
+        ],
+        "fallback": "The physical whip route is coherent too: take Power and physical scaling. It is better than purchasing special buffs for a physical-only active slot.",
+        "teammates": [
+          {
+            "id": 6,
+            "moveId": "ember",
+            "reason": "Charizard has a special projectile opening beside Venusaur’s close default. If both start at range, discuss who later covers nearby enemies."
+          },
+          {
+            "id": 9,
+            "moveId": "bubble",
+            "reason": "Blastoise can add slowing coverage while Venusaur stays on its Grass or Poison damage plan."
+          }
+        ],
+        "teamPlan": "We would start with reliable damage on each player, then let one add control. Aqua Ring on a Water teammate is personal regeneration, not a heal for Venusaur.",
+        "techniques": [
+          {
+            "title": "Read the category",
+            "text": "A 1.25 special factor does not turn the default Vine Whip into a special attack."
+          },
+          {
+            "title": "Do not infer sustain from names",
+            "text": "Neither Grass Knot nor Energy Ball’s named Giga Drain evolution should be assumed to heal from its title."
+          },
+          {
+            "title": "Keep combinations online deliberately",
+            "text": "Learning two attacks is not enough to keep both firing. Form the relevant Bond and select that active group."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 4,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "charmander",
     "name": "Charmander",
     "region": "kanto",
@@ -282,11 +501,84 @@
     "physicalAttack": 0.99,
     "specialAttack": 1.03,
     "defense": 43,
-    "specialDefense": 50
+    "specialDefense": 50,
+    "detail": {
+      "intro": "Charmander opens with Ember and uses the Fire and shared Normal card pools. As a single-type Fire partner, its damaging Fire moves receive the game’s 20% own-type bonus.",
+      "tips": [
+        "The own-type bonus applies to Fire damage, not automatically to Normal cards. Buff cards do not deal damage and do not receive it.",
+        "With 88 base HP and 43 defense, leave room to move instead of treating a stronger attack as a substitute for avoiding hits."
+      ],
+      "seo": {
+        "title": "Charmander - PokeSurvivor Stats, Moves & Guide",
+        "description": "Charmander in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Charmander PokeSurvivor",
+          "Charmander moves",
+          "Charmander stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "One of the clearest openings to learn",
+          "verdict": "We would suggest Charmander for a projectile start with an obvious first evolution goal. Ember uses special attack and receives the single-type Fire bonus.",
+          "tradeoff": "Its base HP and defenses leave little room for careless contact. A clear upgrade plan does not remove the need to move early."
+        },
+        "moves": [
+          {
+            "id": "ember",
+            "role": "First priority",
+            "reason": "Put early levels into the default. Power covers its Fire Blast evolution requirement."
+          },
+          {
+            "id": "fire-spin",
+            "role": "Nearby pressure",
+            "reason": "Orbiting Fire attacks offer another pattern for close enemies. They still need the active slot before a Bond combines them with another move."
+          },
+          {
+            "id": "nasty-plot",
+            "role": "Special buff",
+            "reason": "This matches Ember and Fire Spin. Add it after establishing damage, with brief refreshes or an active Bond."
+          }
+        ],
+        "order": [
+          "Give Ember levels before adding more attacks.",
+          "Take Power and finish Ember’s levels when offered.",
+          "Then decide whether nearby pressure calls for Fire Spin or special scaling."
+        ],
+        "fallback": "Without Fire Spin, stay with Ember. Flamethrower is a legal special alternative, but its Reflexes requirement is another evolution plan.",
+        "teammates": [
+          {
+            "id": 1,
+            "moveId": "vine-whip",
+            "reason": "Bulbasaur’s close arc complements a projectile start. Charmander does not need to enter the melee pocket."
+          },
+          {
+            "id": 7,
+            "moveId": "bubble",
+            "reason": "Squirtle can slow approaches while Charmander keeps Ember active; that is control, not shared Water healing."
+          }
+        ],
+        "teamPlan": "We would add a close clearer or a control player. Avoid sending two fragile partners to opposite sides just to line up attacks.",
+        "techniques": [
+          {
+            "title": "Watch the nearest target",
+            "text": "With automatic aiming, Ember aims toward the nearest enemy. Reposition if that target pulls shots away from the lane you need clear; manual aiming lets you direct supported attacks yourself."
+          },
+          {
+            "title": "Keep the bonus specific",
+            "text": "Damaging Fire moves get the 20% bonus; a Normal fallback does not inherit it."
+          },
+          {
+            "title": "Refresh, then return",
+            "text": "An unbonded Nasty Plot slot is not shooting. Switch back to damage after using the buff."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 5,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "charmeleon",
     "name": "Charmeleon",
     "region": "kanto",
@@ -345,11 +637,84 @@
     "physicalAttack": 1.05,
     "specialAttack": 1.14,
     "defense": 58,
-    "specialDefense": 65
+    "specialDefense": 65,
+    "detail": {
+      "intro": "Charmeleon retains a single Fire type and Ember opening, with 96 base HP and 112 speed. Its special attack factor is higher than its physical factor.",
+      "tips": [
+        "Damaging Fire cards receive the single-type bonus. Check each card’s category when choosing between physical and special upgrades.",
+        "You can stay with Ember or use the per-partner Starting move unlock to choose another legal damaging opening. Learning a new attack during a run does not switch the active slot automatically."
+      ],
+      "seo": {
+        "title": "Charmeleon - PokeSurvivor Stats, Moves & Guide",
+        "description": "Charmeleon in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Charmeleon PokeSurvivor",
+          "Charmeleon moves",
+          "Charmeleon stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A simple Fire plan with more movement room",
+          "verdict": "Charmeleon suits players who like Ember but want more HP and speed than Charmander. We would still develop the first attack before branching out.",
+          "tradeoff": "Special attack is stronger than physical. Changing to a physical dash because it looks useful can move away from the scaling already chosen."
+        },
+        "moves": [
+          {
+            "id": "ember",
+            "role": "Reliable default",
+            "reason": "Keep the free opening for a straightforward Power evolution goal."
+          },
+          {
+            "id": "heat-wave",
+            "role": "Surrounding pressure",
+            "reason": "Radial projectiles cover a different crowd shape while staying special. Vigor is its evolution requirement."
+          },
+          {
+            "id": "nasty-plot",
+            "role": "Matching buff",
+            "reason": "We would use special scaling here, rather than buying Swords Dance for Ember."
+          }
+        ],
+        "order": [
+          "Build Ember levels first.",
+          "Choose the correct stat: Power for Ember, Vigor for Heat Wave.",
+          "Add a buff or Bond after the attack can keep a lane open."
+        ],
+        "fallback": "An Ember-only damage route remains sensible if Heat Wave is late. Do not abandon a nearly evolved attack for an unlevelled crowd option in a tight wave.",
+        "teammates": [
+          {
+            "id": 2,
+            "moveId": "vine-whip",
+            "reason": "Ivysaur can cover nearby approaches while Charmeleon uses a projectile. Decide who moves first when turning."
+          },
+          {
+            "id": 8,
+            "moveId": "whirlpool",
+            "reason": "Wartortle can try localized pull. Use it to plan a route around the gathered crowd, not a place to stand."
+          }
+        ],
+        "teamPlan": "We would pair damage with a player watching the approach lane. If Wartortle switches to a personal buff, Charmeleon should keep attacking instead of expecting Water damage to continue.",
+        "techniques": [
+          {
+            "title": "Track the correct requirement",
+            "text": "Power and Vigor lead to different evolutions; taking one does not satisfy both."
+          },
+          {
+            "title": "Turn before the ring closes",
+            "text": "A radial attack can hit around you, but it does not make being surrounded a good position."
+          },
+          {
+            "title": "Keep the opening cost optional",
+            "text": "Ember is a free default. The 400-coin unlock provides a choice of start, not a compulsory first purchase."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 6,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "charizard",
     "name": "Charizard",
     "region": "kanto",
@@ -419,11 +784,84 @@
     "physicalAttack": 1.16,
     "specialAttack": 1.3,
     "defense": 78,
-    "specialDefense": 85
+    "specialDefense": 85,
+    "detail": {
+      "intro": "Charizard has Fire/Flying typing, 120 speed and a 1.30 special attack factor. Ember is the default start, while Flying cards add another set of choices during the run.",
+      "tips": [
+        "Fire/Flying is dual typing, so Charizard does not get the 20% bonus that a single-type Fire partner receives.",
+        "Its special attack factor is higher than its physical factor. Compare the category and behavior of a card before choosing it purely for its type."
+      ],
+      "seo": {
+        "title": "Charizard - PokeSurvivor Stats, Moves & Guide",
+        "description": "Charizard in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Charizard PokeSurvivor",
+          "Charizard moves",
+          "Charizard stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A flexible special attacker, not an automatic top pick",
+          "verdict": "We like Charizard’s 120 speed and 1.30 special factor for Fire/Flying choices. Ember is a clean opening, with Flying options for a different attack pattern later.",
+          "tradeoff": "It loses the single-type bonus of Charmander and Charmeleon. Higher listed stats do not automatically mean stronger Fire hits, and a saved result is not a controlled comparison of builds."
+        },
+        "moves": [
+          {
+            "id": "ember",
+            "role": "Default damage",
+            "reason": "We would level Ember and take Power for Fire Blast. This route needs no start-unlock purchase."
+          },
+          {
+            "id": "air-slash",
+            "role": "Flying alternative",
+            "reason": "Homing blades use special attack. Their Reflexes evolution requirement is a second route, not something Power completes."
+          },
+          {
+            "id": "nasty-plot",
+            "role": "Special scaling",
+            "reason": "This matches both attacks. Add it after securing damage, then refresh it or use it in an active Bond."
+          }
+        ],
+        "order": [
+          "Concentrate opening upgrades on Ember.",
+          "Cover the matching stat requirement and select the evolution when offered.",
+          "Add Air Slash or a special buff once the main attack can support an extra choice."
+        ],
+        "fallback": "Gust is a special Flying alternative for orbiting coverage, with Sprint required to evolve. Physical Flame Wheel is a separate plan, not a reason to keep buying special buffs.",
+        "teammates": [
+          {
+            "id": 3,
+            "moveId": "vine-whip",
+            "reason": "Venusaur’s close opening gives another attack shape beside Ember. Neither partner should assume the other holds enemy attention."
+          },
+          {
+            "id": 9,
+            "moveId": "bubble",
+            "reason": "Blastoise can slow approaches while Charizard stays ranged. Agree on a retreat direction before chasing damage."
+          }
+        ],
+        "teamPlan": "We would begin with Ember beside close clearing or control. After both have reliable attacks, discuss complementary choices rather than everyone collecting copies of the same moves.",
+        "techniques": [
+          {
+            "title": "Use speed for position",
+            "text": "Movement helps you keep firing safely. It does not itself prove the highest damage or survival time."
+          },
+          {
+            "title": "Buy the matching buff",
+            "text": "Nasty Plot supports this special route. Swords Dance will not increase Ember’s damage."
+          },
+          {
+            "title": "Avoid two half-finished routes",
+            "text": "Fire Blast and Sky Attack need different stat cards. Complete a coherent route before expecting both evolutions."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 7,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "squirtle",
     "name": "Squirtle",
     "region": "kanto",
@@ -480,11 +918,84 @@
     "physicalAttack": 0.96,
     "specialAttack": 0.97,
     "defense": 65,
-    "specialDefense": 64
+    "specialDefense": 64,
+    "detail": {
+      "intro": "Squirtle starts with Water Gun and has closely matched physical and special attack factors. Its single Water type gives damaging Water cards a 20% own-type bonus.",
+      "tips": [
+        "Water Gun is the default opening. The Water bonus does not extend to shared Normal damage cards.",
+        "Its 65 defense and 64 special defense are almost equal. Those are base values; run upgrades and other effects still matter."
+      ],
+      "seo": {
+        "title": "Squirtle - PokeSurvivor Stats, Moves & Guide",
+        "description": "Squirtle in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Squirtle PokeSurvivor",
+          "Squirtle moves",
+          "Squirtle stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A practical Water toolkit to grow into",
+          "verdict": "We would shortlist Squirtle for learning range with later slow and personal regeneration options. Its attack factors are nearly even; the Water card behaviors are the main attraction.",
+          "tradeoff": "Aqua Ring takes active time before it is bonded, and it does not heal teammates. Do not stop dealing damage just because a sustain card appeared."
+        },
+        "moves": [
+          {
+            "id": "water-gun",
+            "role": "Opening damage",
+            "reason": "Build the default projectile. Power covers its Scald evolution requirement."
+          },
+          {
+            "id": "bubble",
+            "role": "Slowing alternative",
+            "reason": "A slowing spread is worth trying when approaching enemies, rather than one nearest target, are the immediate problem."
+          },
+          {
+            "id": "aqua-ring",
+            "role": "Personal sustain",
+            "reason": "Use it after damage is stable. Before Bonds, refresh deliberately and return to the attack rather than expecting both to run."
+          }
+        ],
+        "order": [
+          "Level Water Gun so the opening clears a path.",
+          "Choose Power for Water Gun or Sprint for Bubble according to the main attack.",
+          "Then add Aqua Ring and consider a Bond that keeps damage and sustain in one selected group."
+        ],
+        "fallback": "If regeneration is late, keep the main attack levelled and take available survival upgrades. Do not base the whole run on a card that has not appeared.",
+        "teammates": [
+          {
+            "id": 4,
+            "moveId": "ember",
+            "reason": "Charmander supplies another ranged type. Avoid both players changing to buff-only slots at the same time."
+          },
+          {
+            "id": 1,
+            "moveId": "vine-whip",
+            "reason": "Bulbasaur can cover close pressure while Squirtle uses a projectile or slowing route."
+          }
+        ],
+        "teamPlan": "We would use Squirtle at range, adding control when needed. Each teammate still needs a personal answer to incoming damage; Aqua Ring belongs to Squirtle.",
+        "techniques": [
+          {
+            "title": "Check the selected icon",
+            "text": "Learning Bubble does not activate it automatically. Select it before expecting the slow spread."
+          },
+          {
+            "title": "Use sustain after escaping",
+            "text": "Regeneration helps recover; it does not make repeated contact a good trade."
+          },
+          {
+            "title": "Keep the Water bonus honest",
+            "text": "Damaging Water attacks get the bonus. Normal attacks and Aqua Ring do not."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 8,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "wartortle",
     "name": "Wartortle",
     "region": "kanto",
@@ -541,11 +1052,84 @@
     "physicalAttack": 1.05,
     "specialAttack": 1.06,
     "defense": 80,
-    "specialDefense": 80
+    "specialDefense": 80,
+    "detail": {
+      "intro": "Wartortle combines a Water Gun opening with 97 base HP and equal base defenses of 80. Its physical and special attack factors are close enough that card behavior deserves attention.",
+      "tips": [
+        "Single-type Water damage receives the 20% bonus. That can help distinguish a typed attack from a Normal alternative.",
+        "The full pool includes attacks and buffs. A card being available does not mean it can be selected as an opening: the Starting move choice excludes buffs."
+      ],
+      "seo": {
+        "title": "Wartortle - PokeSurvivor Stats, Moves & Guide",
+        "description": "Wartortle in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Wartortle PokeSurvivor",
+          "Wartortle moves",
+          "Wartortle stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A balanced Water base for a patient run",
+          "verdict": "Wartortle’s equal 80 defenses and closely matched attack factors suit a measured Water route. We would develop one attack and let control improve the movement plan.",
+          "tradeoff": "Taking damage, pull and regeneration too early can leave every job underdeveloped. A broad pool does not replace attack levels."
+        },
+        "moves": [
+          {
+            "id": "water-gun",
+            "role": "Main attack first",
+            "reason": "The special default has a clear Power evolution goal."
+          },
+          {
+            "id": "whirlpool",
+            "role": "Localized control",
+            "reason": "Pull can organize a nearby group. We would not assume it replaces the main projectile or makes the center safe."
+          },
+          {
+            "id": "aqua-ring",
+            "role": "Personal recovery",
+            "reason": "Give the buff active time deliberately, or combine it with damage after a suitable Bond."
+          }
+        ],
+        "order": [
+          "Keep Water Gun reliable through early levels.",
+          "If developing Whirlpool, look for Synthesis instead of assuming Power covers it.",
+          "Add regeneration after damage works, and select the correct Bond group if combining moves."
+        ],
+        "fallback": "Bubble provides a slowing alternative if Whirlpool is unavailable. Commit to its Sprint requirement only when developing that attack.",
+        "teammates": [
+          {
+            "id": 5,
+            "moveId": "ember",
+            "reason": "Charmeleon can keep projectile damage active while Wartortle tries a localized control route."
+          },
+          {
+            "id": 2,
+            "moveId": "energy-ball",
+            "reason": "Ivysaur can choose homing special damage while Wartortle uses a different pattern. This is a pairing to try, not a recorded best duo."
+          }
+        ],
+        "teamPlan": "We would give Wartortle the control job after its own damage is adequate. A teammate can keep attacking during a planned buff refresh; neither player’s buffs transfer.",
+        "techniques": [
+          {
+            "title": "Go around the pull center",
+            "text": "The grouped enemies can still hit. Use the area to plan a route, not a place to wait."
+          },
+          {
+            "title": "Compare the cards too",
+            "text": "A 0.01 attack-factor difference is small. Range, cooldown and behavior deserve attention."
+          },
+          {
+            "title": "Inspect the active group",
+            "text": "Before Bonds, the selected slot keeps casting. Existing projectiles, placed fields and temporary buffs may last after a switch, but an inactive slot does not keep recasting them. Recheck the active group after reorganizing."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 9,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "blastoise",
     "name": "Blastoise",
     "region": "kanto",
@@ -602,11 +1186,84 @@
     "physicalAttack": 1.16,
     "specialAttack": 1.17,
     "defense": 100,
-    "specialDefense": 105
+    "specialDefense": 105,
+    "detail": {
+      "intro": "Blastoise has 106 base HP, 100 defense and 105 special defense, with Water Gun as its default opening. Its attack factors are nearly even, making it worth comparing the cards themselves.",
+      "tips": [
+        "Both damage categories are viable to compare: physical attack is 1.16 and special attack is 1.17 before upgrades.",
+        "Damaging Water cards receive the single-type bonus. Higher defenses soften hits through the game’s formula; they are not a promise that you can stand still."
+      ],
+      "seo": {
+        "title": "Blastoise - PokeSurvivor Stats, Moves & Guide",
+        "description": "Blastoise in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Blastoise PokeSurvivor",
+          "Blastoise moves",
+          "Blastoise stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A solid defensive base with practical Water options",
+          "verdict": "We would choose Blastoise for its 106 HP, 100 defense and 105 special defense alongside the Water pool. It is a sensible progression option when you value room to reposition.",
+          "tradeoff": "The game softens defense scaling. Those values do not create a tank role, shared damage reduction or a guarantee of surviving contact."
+        },
+        "moves": [
+          {
+            "id": "water-gun",
+            "role": "Stable opening",
+            "reason": "Level the default and take Power for its evolution before trying to cover every job."
+          },
+          {
+            "id": "bubble",
+            "role": "Slow the approach",
+            "reason": "A slowing spread provides a different pattern from Water Gun’s nearest-target projectile."
+          },
+          {
+            "id": "aqua-ring",
+            "role": "Sustain after damage",
+            "reason": "Regeneration helps only while the buff is kept up. Plan refreshes or a Bond instead of treating a learned card as passive healing."
+          }
+        ],
+        "order": [
+          "Secure a main Water attack and its early levels.",
+          "Match the evolution stat to that route, then select the evolution card.",
+          "Build sustain after damage; keep the chosen Bond group active if combining moves."
+        ],
+        "fallback": "Whirlpool is a legal control alternative if Bubble is late. It asks for Synthesis rather than Sprint, so change the evolution plan deliberately.",
+        "teammates": [
+          {
+            "id": 6,
+            "moveId": "ember",
+            "reason": "Charizard supplies another special projectile. Blastoise can later choose slow while both keep a common retreat path."
+          },
+          {
+            "id": 3,
+            "moveId": "sludge",
+            "reason": "Venusaur can commit to Poison damage while Blastoise handles Water control. Discuss who covers close approaches."
+          }
+        ],
+        "teamPlan": "We would pair a damage-first player with Blastoise taking a measured control or sustain route. Aqua Ring cannot heal the other player, who still needs personal survival upgrades.",
+        "techniques": [
+          {
+            "title": "Use defenses to reposition",
+            "text": "After a mistake, leave and recover rather than test how many more hits the partner can take."
+          },
+          {
+            "title": "Select the control move",
+            "text": "Bubble cannot slow enemies while an unbonded Water Gun slot remains selected."
+          },
+          {
+            "title": "Keep the unlock optional",
+            "text": "Water Gun already matches the slightly stronger special factor. The start unlock is flexibility, not a required purchase."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 10,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "caterpie",
     "name": "Caterpie",
     "region": "kanto",
@@ -661,11 +1318,84 @@
     "physicalAttack": 0.86,
     "specialAttack": 0.81,
     "defense": 35,
-    "specialDefense": 20
+    "specialDefense": 20,
+    "detail": {
+      "intro": "Caterpie begins with Bug Bite and has a single Bug type. Its physical attack factor is higher than its special factor, while its low special defense calls for care around special hits.",
+      "tips": [
+        "Bug Bite fits the stronger physical attack factor and receives the single-type Bug damage bonus.",
+        "Its 20 special defense is a base stat, not a direct damage multiplier. Avoid importing main-series damage assumptions into this game."
+      ],
+      "seo": {
+        "title": "Caterpie - PokeSurvivor Stats, Moves & Guide",
+        "description": "Caterpie in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Caterpie PokeSurvivor",
+          "Caterpie moves",
+          "Caterpie stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A focused Bug opening with little margin for mistakes",
+          "verdict": "We would treat Caterpie as a deliberate close-range choice rather than an easy-progression recommendation. Bug Bite matches its stronger factor and receives the single-type Bug bonus.",
+          "tradeoff": "The small melee radius demands spacing, and 20 special defense is a weak base value. The softened formula does not make standing in projectile lanes sensible."
+        },
+        "moves": [
+          {
+            "id": "bug-bite",
+            "role": "Physical opening",
+            "reason": "Prioritize levels and Power for X-Scissor instead of splitting early damage categories."
+          },
+          {
+            "id": "string-shot",
+            "role": "Control option",
+            "reason": "Slowing traps can shape the approach, but need the active slot or a Bond. Reflexes supports their evolution."
+          },
+          {
+            "id": "swords-dance",
+            "role": "Physical scaling",
+            "reason": "This matches the physical route. Add it after damage works, with safe refreshes or a Bond."
+          }
+        ],
+        "order": [
+          "Concentrate on Bug Bite before taking several attacks.",
+          "Take Power for its evolution and preserve an exit lane.",
+          "Add String Shot for control or Swords Dance for scaling after the opening is reliable."
+        ],
+        "fallback": "Keep improving Bug Bite if slow is late. Quick Attack is a physical alternative, but a dash needs a clear destination and Sprint to evolve.",
+        "teammates": [
+          {
+            "id": 7,
+            "moveId": "water-gun",
+            "reason": "Squirtle can keep range while Caterpie handles a limited near edge, including during a planned buff refresh."
+          },
+          {
+            "id": 4,
+            "moveId": "ember",
+            "reason": "Charmander brings ranged Fire damage. Do not ask Caterpie to absorb the whole crowd."
+          }
+        ],
+        "teamPlan": "We would choose a ranged teammate who does not need to enter Caterpie’s melee pocket. Complementary distance matters more than pretending Caterpie can hold enemies in place.",
+        "techniques": [
+          {
+            "title": "Respect the radius",
+            "text": "Bug Bite begins shorter than Vine Whip. Turn before contact rather than copying a grass-melee route exactly."
+          },
+          {
+            "title": "Avoid an accidental category change",
+            "text": "Bug Buzz uses the weaker special factor. Switch with a reason and an upgrade plan."
+          },
+          {
+            "title": "Return to damage",
+            "text": "Swords Dance is a temporary buff, not a passive attack. Refresh and switch back if it is not bonded."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 11,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "metapod",
     "name": "Metapod",
     "region": "kanto",
@@ -720,11 +1450,84 @@
     "physicalAttack": 0.81,
     "specialAttack": 0.84,
     "defense": 55,
-    "specialDefense": 25
+    "specialDefense": 25,
+    "detail": {
+      "intro": "Metapod opens with Bug Bite, with 92 base HP and 55 defense. Its special attack factor is slightly higher than its physical factor, so its default attack and stronger stat do not line up.",
+      "tips": [
+        "Bug Bite remains a physical opening. If you unlock a different start, compare legal special Bug attacks rather than assuming the default always fits best.",
+        "Its 91 speed is lower than Caterpie’s 97. Give yourself an exit lane before enemies surround you."
+      ],
+      "seo": {
+        "title": "Metapod - PokeSurvivor Stats, Moves & Guide",
+        "description": "Metapod in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Metapod PokeSurvivor",
+          "Metapod moves",
+          "Metapod stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A deliberate pick for players who enjoy the constraint",
+          "verdict": "Metapod can follow a clear single-type Bug plan, but we would not choose it for movement comfort. At 91 speed, it is the slowest of these first 16 partners.",
+          "tradeoff": "Its special factor is only slightly higher than physical. Paying 400 coins to change the start is not automatically better than developing Bug Bite while learning spacing."
+        },
+        "moves": [
+          {
+            "id": "bug-bite",
+            "role": "Default route",
+            "reason": "Keep the free physical opening for a direct Power evolution goal."
+          },
+          {
+            "id": "signal-beam",
+            "role": "Optional special pivot",
+            "reason": "Bouncing projectiles offer another pattern with the slightly stronger factor. Power supports this evolution too."
+          },
+          {
+            "id": "string-shot",
+            "role": "Approach control",
+            "reason": "The slowing trap can organize space. Select the move to lay more traps, or bond it with damage; already placed traps remain until they trigger or expire."
+          }
+        ],
+        "order": [
+          "Choose the physical default or an already-unlocked special start before taking category buffs.",
+          "Build the chosen attack and its evolution requirement.",
+          "Use control and movement upgrades when the route closes; another attack does not increase movement speed."
+        ],
+        "fallback": "Stay with upgraded Bug Bite if Signal Beam is late. Bug Buzz is special, but its surrounding aura still requires careful nearby spacing.",
+        "teammates": [
+          {
+            "id": 8,
+            "moveId": "bubble",
+            "reason": "Wartortle can choose slow. Follow a common route rather than expect Metapod to chase a faster partner."
+          },
+          {
+            "id": 5,
+            "moveId": "ember",
+            "reason": "Charmeleon gives ranged damage. Agree on the next direction early to avoid last-second turns through enemies."
+          }
+        ],
+        "teamPlan": "We would pair Metapod with a teammate willing to maintain a clear, manageable retreat path. That is movement discipline, not a hidden defensive bonus.",
+        "techniques": [
+          {
+            "title": "Turn early",
+            "text": "At 91 base speed, waiting for the gap to close is a poor test. Choose the next lane while it remains open."
+          },
+          {
+            "title": "Compare levels before pivoting",
+            "text": "The 0.84 special versus 0.81 physical gap is small. Existing upgrades can matter more."
+          },
+          {
+            "title": "Keep protection personal",
+            "text": "Harden is a personal defense buff. It does not give a teammate shared protection."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 12,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "butterfree",
     "name": "Butterfree",
     "region": "kanto",
@@ -790,11 +1593,84 @@
     "physicalAttack": 0.95,
     "specialAttack": 1.2,
     "defense": 50,
-    "specialDefense": 80
+    "specialDefense": 80,
+    "detail": {
+      "intro": "Butterfree uses the Bug/Flying pool and starts with Bug Bite. Its 1.20 special attack factor is noticeably higher than its 0.95 physical factor.",
+      "tips": [
+        "The default Bug Bite uses the weaker physical factor. A special opening is worth considering if its 400-coin Starting move upgrade is already unlocked.",
+        "Bug/Flying opens two typed pools but does not receive the single-type damage bonus. Pick a route for its behavior and damage category, not just its label."
+      ],
+      "seo": {
+        "title": "Butterfree - PokeSurvivor Stats, Moves & Guide",
+        "description": "Butterfree in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Butterfree PokeSurvivor",
+          "Butterfree moves",
+          "Butterfree stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A special route hidden behind a physical default",
+          "verdict": "Butterfree’s 1.20 special factor is noticeably above 0.95 physical. We would develop special damage when the start unlock or early cards allow it.",
+          "tradeoff": "The default remains Bug Bite. Buying special buffs while selecting only that physical attack misses the advantage, and Bug/Flying does not receive the single-type bonus."
+        },
+        "moves": [
+          {
+            "id": "signal-beam",
+            "role": "Special main attack",
+            "reason": "Bouncing Bug projectiles use the stronger factor. After the start unlock it is a legal opening; Power supports its evolution."
+          },
+          {
+            "id": "gust",
+            "role": "Surrounding alternative",
+            "reason": "Orbiting Flying attacks provide another pattern in the same damage category. Sprint is their evolution requirement."
+          },
+          {
+            "id": "nasty-plot",
+            "role": "Matching buff",
+            "reason": "This supports special damage. Do not prioritize it while Bug Bite is still your only active attack."
+          }
+        ],
+        "order": [
+          "With the unlock, consider a special start; otherwise keep Bug Bite until a useful special move appears.",
+          "Level the chosen special attack and take its evolution stat.",
+          "Then add a buff or second pattern, using Bonds for simultaneous moves."
+        ],
+        "fallback": "Air Slash is a legal homing special alternative if Signal Beam is late. Its Reflexes requirement is not covered by taking Power.",
+        "teammates": [
+          {
+            "id": 9,
+            "moveId": "water-gun",
+            "reason": "Blastoise gives straightforward range while Butterfree develops the special plan. The pair need not duplicate every control card."
+          },
+          {
+            "id": 15,
+            "moveId": "bug-bite",
+            "reason": "Beedrill can develop physical close clearing while Butterfree takes special range. Buy buffs for each player’s actual route."
+          }
+        ],
+        "teamPlan": "We would give Butterfree a special damage job beside someone comfortable near the crowd. Different categories divide the jobs; they do not create an automatic team multiplier.",
+        "techniques": [
+          {
+            "title": "Select the new attack",
+            "text": "Learning Signal Beam does not activate it. Check the slot before refreshing Nasty Plot."
+          },
+          {
+            "title": "Orbit needs positioning too",
+            "text": "Gust surrounds you. Use an open path instead of chasing targets into the crowd."
+          },
+          {
+            "title": "Read the purchase correctly",
+            "text": "The 400 coins unlock a starting choice for Butterfree, not every partner and not another active slot."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 13,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "weedle",
     "name": "Weedle",
     "region": "kanto",
@@ -860,11 +1736,84 @@
     "physicalAttack": 0.89,
     "specialAttack": 0.81,
     "defense": 30,
-    "specialDefense": 20
+    "specialDefense": 20,
+    "detail": {
+      "intro": "Weedle has Bug/Poison typing and Bug Bite as its default opening. Its physical attack factor is higher, but its base HP and defenses leave little reason to trade hits carelessly.",
+      "tips": [
+        "Bug Bite fits the stronger physical factor. Poison cards add alternatives, with physical and special choices scaling differently.",
+        "Its two types do not grant the single-type bonus. Keep moving and compare the listed card behaviors before using a limited attack slot."
+      ],
+      "seo": {
+        "title": "Weedle - PokeSurvivor Stats, Moves & Guide",
+        "description": "Weedle in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Weedle PokeSurvivor",
+          "Weedle moves",
+          "Weedle stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A physical Bug/Poison route that rewards careful spacing",
+          "verdict": "Weedle offers a physical default and a ranged Poison alternative. We would choose it for the challenge of a focused route, not because a familiar name proves late-run strength.",
+          "tradeoff": "Its 88 HP and low defenses make early mistakes costly. Dual typing widens the pool but removes the single-type Bug bonus Caterpie receives."
+        },
+        "moves": [
+          {
+            "id": "bug-bite",
+            "role": "Keep early investment together",
+            "reason": "The default fits the stronger physical factor and evolves with Power."
+          },
+          {
+            "id": "poison-sting",
+            "role": "Physical range",
+            "reason": "This changes the attack pattern while keeping physical scaling and applying poison. Sprint is its evolution requirement."
+          },
+          {
+            "id": "swords-dance",
+            "role": "Later scaling",
+            "reason": "The buff matches both attacks. Add it after damage is reliable and refresh or Bond deliberately."
+          }
+        ],
+        "order": [
+          "Keep Bug Bite or deliberately make Poison Sting the main attack.",
+          "Take Power for Bug Bite or Sprint for Poison Sting.",
+          "Add physical scaling after the chosen attack has levels; combine attacks only after earning a Bond."
+        ],
+        "fallback": "String Shot is a slowing physical alternative if Poison Sting is late. Its Reflexes requirement is a separate evolution plan.",
+        "teammates": [
+          {
+            "id": 7,
+            "moveId": "bubble",
+            "reason": "Squirtle can slow approaches while Weedle keeps damage selected. Do not rely on Weedle taking hits for the group."
+          },
+          {
+            "id": 4,
+            "moveId": "ember",
+            "reason": "Charmander adds range so Weedle can approach only the near edge it can manage."
+          }
+        ],
+        "teamPlan": "We would give Weedle a narrow job beside reliable ranged damage: manageable close clearing or physical Poison at range. The teammate is not a guaranteed rescue mechanic.",
+        "techniques": [
+          {
+            "title": "Give a pivot real investment",
+            "text": "Learning Poison Sting alone does not fix a melee run. Select and upgrade it if changing routes."
+          },
+          {
+            "title": "Poison is not sustain",
+            "text": "Poison damage does not regenerate HP. Keep avoiding hits and taking survival upgrades."
+          },
+          {
+            "title": "Watch Poison categories",
+            "text": "Sludge is special, unlike Poison Sting. Taking both without a reason can split the scaling plan."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 14,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "kakuna",
     "name": "Kakuna",
     "region": "kanto",
@@ -930,11 +1879,84 @@
     "physicalAttack": 0.84,
     "specialAttack": 0.84,
     "defense": 50,
-    "specialDefense": 25
+    "specialDefense": 25,
+    "detail": {
+      "intro": "Kakuna has equal 0.84 physical and special attack factors, with a Bug Bite opening and Bug/Poison typing. Card behavior matters when neither damage category has a base-stat advantage.",
+      "tips": [
+        "Equal attack factors do not make all cards equally useful. Range, cooldown and the way a move hits can change what works for your run.",
+        "Its 50 defense exceeds its 25 special defense, but the damage formula softens the gap. Use the values to compare categories, not to predict a guaranteed survival time."
+      ],
+      "seo": {
+        "title": "Kakuna - PokeSurvivor Stats, Moves & Guide",
+        "description": "Kakuna in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Kakuna PokeSurvivor",
+          "Kakuna moves",
+          "Kakuna stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A control-minded challenge with no attack-side edge",
+          "verdict": "Kakuna has equal 0.84 attack factors. We would choose physical or special for the card behavior and upgrades offered, not pretend one has a base-stat advantage.",
+          "tradeoff": "Its 93 speed and modest HP tighten the movement budget. String Shot must be selected or bonded to keep placing traps; a trap already on the ground is not removed simply because you switch."
+        },
+        "moves": [
+          {
+            "id": "bug-bite",
+            "role": "Default physical route",
+            "reason": "Keep the start simple, with Power as its evolution goal."
+          },
+          {
+            "id": "string-shot",
+            "role": "Slow the approach",
+            "reason": "Local traps reward a planned retreat route. They do not give permanent safety or follow every enemy."
+          },
+          {
+            "id": "poison-sting",
+            "role": "Physical distance option",
+            "reason": "Change to range without changing damage category. Sprint covers this evolution."
+          }
+        ],
+        "order": [
+          "Level one main attack rather than fill slots with both categories.",
+          "Choose Power or Sprint according to that route.",
+          "Add control for a real movement problem; use a Bond if it should run alongside damage."
+        ],
+        "fallback": "Sludge is a reasonable special alternative because the factors are equal. If choosing it, change the buff plan rather than carry physical assumptions over.",
+        "teammates": [
+          {
+            "id": 8,
+            "moveId": "water-gun",
+            "reason": "Wartortle can keep range while Kakuna develops close damage or traps. Follow a route that does not leave the slower player behind."
+          },
+          {
+            "id": 5,
+            "moveId": "ember",
+            "reason": "Charmeleon provides another projectile pattern so Kakuna need not chase every target."
+          }
+        ],
+        "teamPlan": "We would give Kakuna one job it can keep doing: the main attack or planned control. A teammate’s personal buffs do not make up for an unlevelled move.",
+        "techniques": [
+          {
+            "title": "Use the trap area",
+            "text": "String Shot is local control, not a moving aura. Retreat through a route that makes use of it."
+          },
+          {
+            "title": "Skip fake category rules",
+            "text": "Equal factors give no automatic category winner. Compare range, upgrade levels and evolution requirements."
+          },
+          {
+            "title": "Plan before a corner",
+            "text": "At 93 speed, start the turn before enemies force a reversal. Extra attack choices do not create an exit."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 15,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "beedrill",
     "name": "Beedrill",
     "region": "kanto",
@@ -1000,11 +2022,84 @@
     "physicalAttack": 1.2,
     "specialAttack": 0.95,
     "defense": 40,
-    "specialDefense": 80
+    "specialDefense": 80,
+    "detail": {
+      "intro": "Beedrill starts with Bug Bite and favors physical attacks: its physical factor is 1.20 compared with 0.95 special. Bug and Poison cards give it more than one route to consider.",
+      "tips": [
+        "The default Bug Bite matches its stronger attack factor. Check the physical or special label before spending upgrades on another attack.",
+        "Its 40 defense is lower than its 80 special defense. Keep an escape route against contact pressure; the stat difference is not a reason to ignore special projectiles."
+      ],
+      "seo": {
+        "title": "Beedrill - PokeSurvivor Stats, Moves & Guide",
+        "description": "Beedrill in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Beedrill PokeSurvivor",
+          "Beedrill moves",
+          "Beedrill stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A coherent physical route with a defensive weakness",
+          "verdict": "Beedrill’s 1.20 physical factor suits Bug Bite and Poison Sting. Its default already matches the stronger category, so we would not buy a special-start unlock just to make a clear plan.",
+          "tradeoff": "Defense is 40 against 80 special defense, and dual typing gives no single-type bonus. Good physical scaling is not permission to absorb contact damage."
+        },
+        "moves": [
+          {
+            "id": "bug-bite",
+            "role": "Build the default",
+            "reason": "Invest in the physical opening and take Power for X-Scissor."
+          },
+          {
+            "id": "poison-sting",
+            "role": "Physical range alternative",
+            "reason": "Keep the scaling direction while changing attack pattern. It needs Sprint to evolve."
+          },
+          {
+            "id": "swords-dance",
+            "role": "Physical buff",
+            "reason": "Add this after damage works. Refresh deliberately or include it with damage in an active Bond."
+          }
+        ],
+        "order": [
+          "Develop Bug Bite or commit to Poison Sting, rather than divide early levels.",
+          "Take the stat belonging to that evolution.",
+          "Then add scaling or control and inspect the active group after bonding."
+        ],
+        "fallback": "String Shot is a physical slow option if range is late. Bug Buzz uses special attack and should be a conscious route change, not an automatic upgrade for a Bug partner.",
+        "teammates": [
+          {
+            "id": 12,
+            "moveId": "signal-beam",
+            "reason": "Butterfree can use special range while Beedrill works a near edge. Each player needs buffs matching their own attack."
+          },
+          {
+            "id": 9,
+            "moveId": "bubble",
+            "reason": "Blastoise can slow approaches. Beedrill still needs an exit instead of a fixed frontline assignment."
+          }
+        ],
+        "teamPlan": "We would pair physical close damage with special range or slow. This divides the jobs without assuming a hidden physical/special team bonus.",
+        "techniques": [
+          {
+            "title": "Make room for the short attack",
+            "text": "Work an open edge and turn before enemies overlap you; Bug Bite begins with a small radius."
+          },
+          {
+            "title": "Use the formula honestly",
+            "text": "Defense scaling is softened, but 40 defense still does not justify repeated hits."
+          },
+          {
+            "title": "Do not promise Leech Life healing",
+            "text": "U-turn’s evolved name alone does not prove a drain effect. Check the modifiers before treating it as sustain."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 16,
-    "hasDetailPage": false,
+    "hasDetailPage": true,
     "slug": "pidgey",
     "name": "Pidgey",
     "region": "kanto",
@@ -1060,7 +2155,80 @@
     "physicalAttack": 0.95,
     "specialAttack": 0.89,
     "defense": 40,
-    "specialDefense": 35
+    "specialDefense": 35,
+    "detail": {
+      "intro": "Pidgey starts with Tackle and has Normal/Flying typing. Its physical attack factor is higher than its special factor, and its pool includes both shared Normal and Flying cards.",
+      "tips": [
+        "Tackle is a physical opening that matches its stronger factor. Use the full card list to compare it with Flying alternatives.",
+        "Normal/Flying is dual typing, so neither type receives the single-type bonus. A shared card pool does not mean every attack is active at once."
+      ],
+      "seo": {
+        "title": "Pidgey - PokeSurvivor Stats, Moves & Guide",
+        "description": "Pidgey in PokeSurvivor: check base stats, starting moves, the full card pool and evolutions. Compare normal and shiny art to plan your next partner choice.",
+        "targetKeywords": [
+          "Pidgey PokeSurvivor",
+          "Pidgey moves",
+          "Pidgey stats"
+        ]
+      },
+      "strategy": {
+        "strength": {
+          "headline": "A physical start that can branch into Flying",
+          "verdict": "Pidgey gives a direct physical Normal/Flying route. Tackle matches its stronger factor, with Flying options available without an immediate special pivot.",
+          "tradeoff": "Its 88 HP and modest defenses leave less margin than a bulky Water choice. Dual typing means neither Normal nor Flying gets the single-type bonus."
+        },
+        "moves": [
+          {
+            "id": "tackle",
+            "role": "Simple default",
+            "reason": "Keep the free physical start and take Vigor for Take Down."
+          },
+          {
+            "id": "wing-attack",
+            "role": "Physical Flying option",
+            "reason": "A wider wing sweep offers another melee pattern with knockback. It asks for Power rather than Vigor to evolve."
+          },
+          {
+            "id": "swords-dance",
+            "role": "Physical scaling",
+            "reason": "This matches both attacks. Refresh briefly after damage is established, or combine with damage in a Bond."
+          }
+        ],
+        "order": [
+          "Begin with Tackle levels unless you deliberately selected another unlocked start.",
+          "Take Vigor for the default; change to Power only when developing Wing Attack.",
+          "Add another job after damage works. Multiple physical attacks still require switching before Bonds."
+        ],
+        "fallback": "Aerial Ace is a legal physical dash option with a Sprint requirement. It still needs a safe destination, not an assumption of a free escape.",
+        "teammates": [
+          {
+            "id": 7,
+            "moveId": "water-gun",
+            "reason": "Squirtle keeps range while Pidgey handles the close edge. Leave turning room for the melee player."
+          },
+          {
+            "id": 4,
+            "moveId": "ember",
+            "reason": "Charmander adds special projectiles. This divides the attack patterns without implying a party-wide buff."
+          }
+        ],
+        "teamPlan": "We would choose range beside Pidgey’s close route instead of squeezing two melee players into the same gap. Keep the close job only while the player can maintain a safe lane.",
+        "techniques": [
+          {
+            "title": "Finish one evolution plan",
+            "text": "Tackle, Wing Attack and Aerial Ace need different stat cards. Finish the route in use before chasing all three."
+          },
+          {
+            "title": "Check the dash exit",
+            "text": "A movement attack is not a guaranteed escape when the destination is already crowded."
+          },
+          {
+            "title": "Watch the active icon",
+            "text": "Learning a Flying move does not select it. Check which attack is running before buying the next upgrade."
+          }
+        ]
+      }
+    }
   },
   {
     "id": 17,
