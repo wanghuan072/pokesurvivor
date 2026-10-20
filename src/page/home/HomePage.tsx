@@ -43,9 +43,9 @@ export default function HomePage() {
       <PartnerSpotlight />
       <div className={s.bottom}>
         <section className={s.about} aria-labelledby="about-game">
-          <h2 id="about-game"><CollectionPokemonArt id={251} name="Celebi" size={40} /> What is PokeSurvivor?</h2>
-          <p>PokeSurvivor is a free browser survival game. Move through the horde, collect experience and choose upgrades while your active attack fires automatically.</p>
-          <p>This independent fan guide helps you compare partners, check evolution requirements and adjust your build when the next card changes your plans.</p>
+          <h2 id="about-game"><CollectionPokemonArt id={251} name="Celebi" size={40} /> What is Poke Survivor?</h2>
+          <p>Poke Survivor, also written PokeSurvivor, is a Pokémon survival game where you dodge enemies, collect experience and choose upgrades for your partner.</p>
+          <p>Our independent fan guide covers the game at <a href="https://pokesurvivor.com/en/">pokesurvivor.com</a>. Compare partners, check move evolution requirements and adjust your plan when the next card changes your options.</p>
           <a className={s.release} href="/play">
             <strong>Play. Learn. Try another run.</strong>
             <span>A new run is a chance to try a different plan. <b aria-hidden="true">→</b></span>

@@ -2,9 +2,10 @@
 export const tdk = {
   "/": {
     "title": "PokeSurvivor - Play Online, Pokémon and Guides",
-    "description": "Play PokeSurvivor in your browser, find a partner in the Pokédex, compare upgrade cards and follow practical guides for surviving your next run.",
+    "description": "Explore Poke Survivor with the PokeSurvivor fan guide: compare Pokémon, check move evolutions and find practical tips before opening the official game.",
     "targetKeywords": [
       "PokeSurvivor",
+      "Poke Survivor",
       "play online"
     ]
   },

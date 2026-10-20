@@ -18,7 +18,7 @@ export default function PlayPage() {
           <span aria-hidden="true"><CollectionPokemonArt id={25} name="Pikachu" size={120} /></span>
           <p>YOUR NEXT ADVENTURE STARTS HERE</p>
           <h2>Ready for your next run?</h2>
-          <p>Move with WASD or arrow keys. Your selected move attacks automatically.</p>
+          <p>Open Poke Survivor on its official website. Move with WASD or arrow keys; your selected move attacks automatically.</p>
           <a className="btn" href={site.game} target="_blank" rel="noopener noreferrer">▶ Play on the official site ↗</a>
           <small>
             Opens pokesurvivor.com in a new tab. The game now runs only on its official website.
