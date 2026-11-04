@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   ...pageMetadata("/"),
   robots: { index: site.production, follow: true },
+  verification: { other: { "msvalidate.01": "D8EF052A74B4BB3D3229205232205792" } },
   icons: { icon: "/icon.svg", apple: "/images/apple-touch-icon.png" },
 };
 export const viewport: Viewport = {
