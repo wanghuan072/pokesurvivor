@@ -1,20 +1,16 @@
 {
-  "reviewed": "2026-10-20",
-  "revision": "68452288808481af75fd27cfff0de458f3d6b6d4",
+  "reviewed": "2026-10-21",
+  "revision": "3c9641c9e782cf74afbde490f39cd60adf59e32b",
   "liveBuild": {
-    "v": "1afa081e93",
-    "at": "2026-10-20T09:42:46.618Z"
+    "v": "d2dfaee739",
+    "at": "2026-10-20T21:42:46.036Z"
   },
-  "bundleSha256": "3295f0cd4d71c9beeae566a55a49a70e232c100e7ed6136de83942a8afa3752d",
+  "bundleSha256": "382a49c1714d744f7804d8a34baed1d0fb29fec47171a07fbb1e7a6a5a4145dc",
   "method": "Official documentation, static code inspection and literal-data comparison. No gameplay sessions or cloud-save/multiplayer tests performed.",
   "files": [
     {
-      "file": "js-app.min.js",
-      "sha256": "3295f0cd4d71c9beeae566a55a49a70e232c100e7ed6136de83942a8afa3752d"
-    },
-    {
       "file": "js/core/db.js",
-      "sha256": "ef3f70c764e3602f41b82522e520e7c1f23d45bbcf1e09d3f6441f69e41d8ab5"
+      "sha256": "5ab4f6daad6c6886adfc270cebdd97f284d8f784fded75c56caae33dd81bb352"
     },
     {
       "file": "js/core/input.js",
@@ -30,7 +26,7 @@
     },
     {
       "file": "js/data/changelog.js",
-      "sha256": "3c6265a544ce1ff3035eae107ed35104cda535229baef3c10131324941c8a7bb"
+      "sha256": "3bf9a97cf0bf1077bd48e847eb4793cdd748013a9cb45cd1ca790167395b1374"
     },
     {
       "file": "js/data/enemies.js",
@@ -45,12 +41,16 @@
       "sha256": "32677ed19adea2f6b7bf5456dd17c2f2b85552c8f6ac5b56b210cf6ffc28380a"
     },
     {
+      "file": "js/data/lang-updates.js",
+      "sha256": "ef58e2bf372559383e5f2e2f318fa9ca1f042a2a1c2cbff0d1b2c73cca551ed8"
+    },
+    {
       "file": "js/data/missions.js",
       "sha256": "5e59334393406027fddc5ee424cd9bddd7f5018290264292d1dd6c3242422c0f"
     },
     {
       "file": "js/data/moves.js",
-      "sha256": "6c104208d723ad8b56af2eff6e4bab8a198342d8acabcbc51a33f52cc7f04ece"
+      "sha256": "150a2f5d2b3ca259317fffb650dde4d5043d6a2eb0c0a84fd4fe5ac98ae4b935"
     },
     {
       "file": "js/data/pokedex.js",
@@ -82,23 +82,31 @@
     },
     {
       "file": "js/entities/player.js",
-      "sha256": "964aa3bc8f9aba38282201137bd175e5c446f533fba05f72a93570f430c5c277"
+      "sha256": "40631f8d7308ab9cd074ccec8078d0572bd9e4563743235d4ca47e22a554f47b"
     },
     {
       "file": "js/game.js",
-      "sha256": "720c220337a47cd7016dcec0c4b58a6fccb3332317e963ba5f86ca5df1cacc7a"
+      "sha256": "5157e8b91ed7f2af901085237ce67107e589132a9bb2ea83dff221dd0f15e394"
     },
     {
       "file": "js/net/coop.js",
-      "sha256": "d91575d9b3e3170031b06b3bda35bb68eb9ce194a00cefc0a86a4c45aa151293"
+      "sha256": "9b8cf032305e25da0d21821959d9292a19b5a4ffb82d80a6d053a3e5afa8099b"
+    },
+    {
+      "file": "js/net/net.js",
+      "sha256": "1b9da68295a285164668bee3075d2228c7516477470438dc4094d2d6e44004f6"
     },
     {
       "file": "js/net/ranking.js",
-      "sha256": "fc13b640d4acd73788d88a7537d85a6afebf5029263d78f495f9e684f50950d2"
+      "sha256": "1d121531a54e73d622c1801eeb5d0e8753a211b95024cbc1857093c8f2c0f3ae"
+    },
+    {
+      "file": "js/net/social.js",
+      "sha256": "53c4bba8dd01b3fa1d4f31db606a82e2dc4f6abc04d50dfff740e9934bf3d456"
     },
     {
       "file": "js/systems/combat.js",
-      "sha256": "2e2316917c8e911d885dd47bb4b20be69ee99a411b00687a5f8a066eb56fe34b"
+      "sha256": "9df29b044a0a0a9a42ebf6af4144de024c3ee25ce724794d15ecbfa0cd626584"
     },
     {
       "file": "js/systems/events.js",
@@ -154,15 +162,27 @@
     },
     {
       "file": "js/ui/menu.js",
-      "sha256": "9164642761ab9c3913c887bd04f9bc63173fc73e8ff080a12dd604d6b11d4e9b"
+      "sha256": "83d7aba9ae266b0f064d8012462140e7343902e7787e960e99911775f7681387"
+    },
+    {
+      "file": "js/ui/ranking-ui.js",
+      "sha256": "734ada9da38c4c3485c30c0c8b5b354915238f20f5318505c31ffefdde86437d"
     },
     {
       "file": "js/ui/run-ui.js",
       "sha256": "fada834f6247b40abe1bc10909ca8d3fc179cce32d925b73887a63fb36c572a0"
     },
     {
+      "file": "js/ui/settings-ui.js",
+      "sha256": "fd0ce5b78dbb96c7b8855d5f7922549b1169bfc52de760ec35ea1c671c331e6c"
+    },
+    {
       "file": "js/ui/social-ui.js",
-      "sha256": "50290d7f34d916a8f9571e4bb7e2a7aa5bcf52a5f97bc4ea2385e9e56c8da86a"
+      "sha256": "30b42fd1f18d819942cf8c16e2d9394ec9b239b2aeda907a5ba645d65f3fadef"
+    },
+    {
+      "file": "js/ui/ui.js",
+      "sha256": "8d642d6bb6016de9b19fa39631030e392eb745f8ce59e63be7617c66f030cae7"
     },
     {
       "file": "js/world/world.js",
@@ -217,7 +237,8 @@
       "night-slash"
     ],
     "saving": {
-      "autoUploadMinutes": 30,
+      "autoUploadMinutes": null,
+      "uploadMode": "manual",
       "minimumUploadGapSeconds": 65
     },
     "defense": {

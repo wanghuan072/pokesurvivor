@@ -19,7 +19,7 @@ PokeSurvivor is a free browser survival game inspired by Pokémon. Choose a part
 
 Use WASD or the arrow keys to move. Switch active moves with 1–4 or Q/E, and pause with Esc. On a phone or tablet, use landscape mode, drag to move and tap the move you want to select.
 
-Controllers are configured in Settings → Controls. Optional Manual aim in Settings → Accessibility changes aiming direction while attacks still fire automatically. Check whether a damaging move is Physical or Special: your partner uses a different attack factor for each category. Swords Dance and Dragon Dance boost physical attacks; Nasty Plot boosts special attacks.
+Controllers are configured in Settings → Controls. On desktop, optional Manual aim in Settings → Accessibility changes aiming direction while attacks still fire automatically. Touch devices always auto-aim; Settings → Controls → Place the buttons supports a custom layout and fixed joystick. Check whether a damaging move is Physical or Special: your partner uses a different attack factor for each category. Swords Dance and Dragon Dance boost physical attacks; Nasty Plot boosts special attacks.
 
 Keep an escape route open while collecting experience. Focus one attack before spreading upgrades across several moves. A level-5 attack may still need a particular stat card before its gold evolution becomes available: Ember, for example, needs Power to become Fire Blast.
 
@@ -45,7 +45,7 @@ Separate active slots do not all attack together. Use switching for coverage; a 
 
 **Can I save as a guest?** Do not rely on a guest session for saved progress. Use the official game’s account options for cloud saves. This guide cannot access or recover game accounts.
 
-**When does my account upload to the cloud?** Progress is recorded in the current browser first. Automatic uploads are scheduled after about 30 minutes with pending changes. Before leaving or changing devices, press Save at the top right and wait for the pending status to clear. A recent upload may briefly delay another one.
+**When does my account upload to the cloud?** Progress is recorded in the current browser immediately. Cloud uploads require Save; there is no timed automatic upload. Before closing, clearing browser data or changing devices, press Save at the top right and wait for confirmation. A recent upload may queue another until the 65-second minimum interval has passed. Avoid playing on two devices at once.
 
 **Can I play with friends?** The game supports co-op for up to four players through its own friends list and room invitations.
 

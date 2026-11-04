@@ -1,12 +1,20 @@
 [
   {
     "date": "2026-10-20",
-    "title": "Co-op stability checks",
+    "title": "Safer co-op, move fixes and manual cloud saving",
     "added": [],
-    "changed": [],
+    "changed": [
+      "Cloud uploads require Save, with attempts before an update and on sign-out. There is no timed automatic upload; browser-local changes remain immediate.",
+      "Touch devices always auto-aim; Manual aim remains a desktop option.",
+      "Pokémon-specific leaderboard entries start at five minutes; other boards still start at two minutes.",
+      "Friends no longer show online status. Any friend can be invited, and unanswered invitations expire after three minutes.",
+      "A limited TURN relay rollout can help eligible signed-in accounts. Direct STUN connections remain the fallback; availability and connection success vary."
+    ],
     "fixed": [
-      "Co-op now validates incoming player state and ring effects to reduce freezes caused by malformed network messages.",
-      "Experience gain rejects non-finite values and limits a single call to 50 level-ups. This is a safeguard, not a change to ordinary move-card requirements."
+      "Homing and bouncing projectile upgrades now add their missing shot and use corrected spread after evolution.",
+      "A guest’s Ominous Wind, Sand Tomb and Whirlpool now attract enemies, and Hex applies its extra damage to affected targets.",
+      "Co-op level-up choices reopen when closed without a pick. Upgrades opens for the newly selected partner.",
+      "Incoming co-op player state and experience safeguards reduce freezes from malformed network messages."
     ]
   },
   {
@@ -20,7 +28,7 @@
       "Single-type partners gain 20% damage with moves matching their own type.",
       "Learning a new move keeps the current active slot; switch when you want to use it.",
       "The game now runs only on pokesurvivor.com; this fan guide opens the official site in a new tab.",
-      "Cloud uploads are scheduled after about 30 minutes with pending changes. Use Save and confirm the status before changing devices.",
+      "Cloud uploads are scheduled after about 30 minutes with pending changes. Use Save and confirm the status before changing devices. This timed policy was replaced by manual uploads on October 20.",
       "Gacha pulls, run completion and tab switches no longer trigger immediate cloud uploads; browser-local records remain separate.",
       "Co-op can negotiate compact binary messages while retaining compatibility with older JSON peers. This reduces traffic; it does not guarantee a connection on every network.",
       "Relay-server deployment support was added to the project. Its presence in the repository does not confirm that a relay is available in every live session."

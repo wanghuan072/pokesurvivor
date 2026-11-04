@@ -15,6 +15,7 @@ import WorldReference from "./sections/WorldReference";
 import ShinyReference from "./sections/ShinyReference";
 import GuideSectionBlocks from "./sections/GuideSectionBlocks";
 import GuideArtwork from "./sections/GuideArtwork";
+import UpgradeCosts from "./sections/UpgradeCosts";
 import s from "@/style/page/guides.module.css";
 import c from "@/style/common/content.module.css";
 import mechanics from "@/data/game/mechanics.json";
@@ -119,6 +120,7 @@ export default function GuidePage({ guide: g }: { guide: Guide }) {
                   <p key={p}>{p}</p>
                 ))}
                 <GuideSectionBlocks section={section} />
+                {g.slug === "move-evolutions" && section.id === "permanent-upgrades" && <UpgradeCosts />}
                 {g.slug === "beginner-guide" && section.id === "waves" && (
                   <details className={s.referenceToggle}>
                     <summary>

@@ -1,8 +1,8 @@
 {
-  "build": "1afa081e93",
-  "checked": "2026-10-20",
-  "source": "https://github.com/JPTER78/pokesurvivor/pull/223",
-  "summary": "Twelve moves still fire one projectile after their first projectile-count upgrade in this build. The card wording is shown as it appears in the game; the notes below explain the current behavior. The proposed fix has not been merged.",
+  "build": "d2dfaee739",
+  "checked": "2026-10-21",
+  "source": "https://github.com/JPTER78/pokesurvivor/blob/3c9641c9e782cf74afbde490f39cd60adf59e32b/js/data/moves.js",
+  "summary": "The released game now initializes projectile, homing and bouncing moves with one projectile and a narrow base spread before applying upgrades. The twelve previously affected moves now gain their extra projectile; their evolution requirements are unchanged.",
   "groups": [
     {
       "kind": "homing",
@@ -15,7 +15,7 @@
         "draining-kiss",
         "sucker-punch"
       ],
-      "note": "The first +1 projectile upgrade still leaves one projectile per cast in this build. It does not produce two. Later upgrades and evolution have separate effects."
+      "note": "The level-2 upgrade now increases one projectile to two; the level-5 upgrade increases two to three. Each upgrade also uses the corrected spread."
     },
     {
       "kind": "bounce",
@@ -28,7 +28,8 @@
         "power-gem",
         "mirror-shot"
       ],
-      "note": "The +1 projectile part still leaves one projectile per cast in this build. The additional bounce is a separate effect; this does not mean the whole upgrade does nothing."
+      "note": "The level-5 upgrade now increases one projectile to two and adds a bounce. Projectile count and bounce count are separate effects."
     }
-  ]
+  ],
+  "status": "resolved"
 }

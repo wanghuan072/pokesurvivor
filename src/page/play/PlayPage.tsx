@@ -29,8 +29,10 @@ export default function PlayPage() {
           <details>
             <summary>Controls, aiming and saving</summary>
             <p>Keyboard: WASD or arrows to move, 1–4 or Q/E to switch moves, Esc to pause. On touch screens, use landscape, drag to move and tap a move. Controllers are configured in Settings → Controls.</p>
-            <p>Attacks fire automatically. Optional Manual aim in Settings → Accessibility changes their direction using a mouse or right stick; it is off by default.</p>
-            <p>Account progress is recorded locally before uploading. Automatic cloud uploads are scheduled after about 30 minutes with pending changes. Before leaving or changing devices, use Save at the top right and confirm the pending status clears. A recent upload can briefly delay the next one.</p>
+            <p>Touch controls can be repositioned in Settings → Controls → Place the buttons; a fixed joystick is optional. This can improve the layout but does not guarantee a fix for every touch-input problem.</p>
+            <p>Attacks fire automatically. On desktop, optional Manual aim in Settings → Accessibility uses a mouse or right stick; it is off by default. Touch devices always aim automatically.</p>
+            <p>Account progress is recorded in this browser immediately. Cloud uploads require Save at the top right; there is no timed automatic upload. Press Save and wait for confirmation before closing, clearing browser data or changing devices. A recent upload can delay the next one by up to about 65 seconds.</p>
+            <p>For an official offline download, use the creator’s <a href="https://jpter78.itch.io/pokesurvivor">itch.io page</a>. That copy is solo only with browser-local saving; co-op, cloud saves and leaderboards use the official online game.</p>
           </details>
         </div>
       </main>

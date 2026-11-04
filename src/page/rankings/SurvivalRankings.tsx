@@ -50,7 +50,7 @@ export default function SurvivalRankings({boards, partners}: { boards: Leaderboa
     </section>
     <div className={s.notes}>
       <article><h2>What these records show</h2><p>The game orders these boards by survival time. Each row shows the player or team, their partners, level and defeated count. A listed record is not a strength rating or an independently verified run.</p><p>A fresh capture does not mean every listed run used the latest rules. Records do not expose their game build, move cards or permanent upgrades. Compare partners and teams within the selected board; use the official leaderboard for positions after the displayed capture time.</p></article>
-      <article><h2>Find your own rank</h2><p>Open the official game, sign in and choose Leaderboard. Your personal position, friends-only boards and Pokémon-specific All-time boards stay in the game. This fan site does not access your account.</p></article>
+      <article><h2>Find your own rank</h2><p>Open the official game, sign in and choose Leaderboard. Your personal position, friends-only boards and Pokémon-specific All-time boards stay in the game. The current game requires at least five minutes for a Pokémon-specific leaderboard entry; other boards start at two minutes. These are minimum durations, not a promise that a run passes every submission check. This fan site does not access your account.</p></article>
     </div>
   </>;
 }

@@ -136,6 +136,7 @@ export function contentInputs(root = process.cwd()) {
         data.game.collectionPreviews=collectionPreviews.filter(p=>!p.shiny&&(ids.has(p.id)||[1,4,7].includes(p.id)));
       }
       if (g.slug === "move-evolutions") data.moves = moves.filter(m=>["ember","water-gun","vine-whip","thunder-shock","confusion","shadow-ball"].includes(m.id));
+      if (g.slug === "move-evolutions") data.upgrades = read("src/data/wiki/upgrades.json");
       if (g.slug === "gacha-and-tickets") data.game = { missions:read("src/data/game/missions.json"), shinySamples, collectionPreviews:collectionPreviews.filter(p=>shinyIds.has(p.id)) };
       if (g.slug === "shiny-pokemon") data.game = {
         mechanics:read("src/data/game/shiny-rules.json").mechanics,

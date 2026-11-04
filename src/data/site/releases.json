@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-10-21",
+    "title": "Corrected move cards and clearer saving",
+    "summary": "Move data follows the released projectile fixes, and save instructions now explain manual cloud uploads.",
+    "changes": [
+      "Recomputed the corrected homing and bouncing projectile counts and spread; removed the old active-bug notices.",
+      "Updated Save, co-op, mobile aiming and leaderboard eligibility help for game build d2dfaee739.",
+      "Added all 14 permanent upgrade costs, totalling 40,400 coins per partner, within the existing evolution guide.",
+      "Added mobile button layout, account recovery and offline-version explanations."
+    ],
+    "links": [
+      {
+        "label": "Corrected move cards",
+        "href": "/level-up#current-move-notes"
+      },
+      {
+        "label": "Permanent upgrade costs",
+        "href": "/guides/move-evolutions#permanent-upgrades"
+      },
+      {
+        "label": "Save and account help",
+        "href": "/guides/faq"
+      }
+    ]
+  },
+  {
     "date": "2026-10-20",
     "title": "More moves. Clearer partner choices.",
     "summary": "Compare the expanded move pool and our revised Solo recommendations before your next run.",

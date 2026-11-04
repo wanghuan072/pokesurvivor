@@ -5030,7 +5030,9 @@
       "speed": 320,
       "life": 1.6,
       "size": 7,
-      "bounce": 3
+      "bounce": 3,
+      "count": 1,
+      "spread": 0.12
     },
     "levels": [
       {
@@ -5040,7 +5042,9 @@
         "speed": 320,
         "life": 1.6,
         "size": 7,
-        "bounce": 3
+        "bounce": 3,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 2,
@@ -5049,7 +5053,9 @@
         "speed": 320,
         "life": 1.6,
         "size": 7,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 3,
@@ -5058,7 +5064,9 @@
         "speed": 320,
         "life": 1.6,
         "size": 7,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 4,
@@ -5067,7 +5075,9 @@
         "speed": 320,
         "life": 1.6,
         "size": 7,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 5,
@@ -5077,8 +5087,8 @@
         "life": 1.6,
         "size": 7,
         "bounce": 5,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       }
     ],
     "evolutionModifiers": {
@@ -5107,7 +5117,9 @@
       "speed": 280,
       "life": 2,
       "size": 8,
-      "homing": 5
+      "homing": 5,
+      "count": 1,
+      "spread": 0.12
     },
     "levels": [
       {
@@ -5117,7 +5129,9 @@
         "speed": 280,
         "life": 2,
         "size": 8,
-        "homing": 5
+        "homing": 5,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 2,
@@ -5127,8 +5141,8 @@
         "life": 2,
         "size": 8,
         "homing": 5,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 3,
@@ -5138,8 +5152,8 @@
         "life": 2,
         "size": 8,
         "homing": 5,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 4,
@@ -5149,8 +5163,8 @@
         "life": 2,
         "size": 8,
         "homing": 5,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 5,
@@ -5160,8 +5174,8 @@
         "life": 2,
         "size": 8,
         "homing": 5,
-        "count": 2,
-        "spread": 1.3
+        "count": 3,
+        "spread": 0.156
       }
     ],
     "evolutionModifiers": {
@@ -5320,7 +5334,9 @@
       "speed": 340,
       "life": 1.6,
       "size": 7,
-      "bounce": 3
+      "bounce": 3,
+      "count": 1,
+      "spread": 0.12
     },
     "levels": [
       {
@@ -5330,7 +5346,9 @@
         "speed": 340,
         "life": 1.6,
         "size": 7,
-        "bounce": 3
+        "bounce": 3,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 2,
@@ -5339,7 +5357,9 @@
         "speed": 340,
         "life": 1.6,
         "size": 7,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 3,
@@ -5348,7 +5368,9 @@
         "speed": 340,
         "life": 1.6,
         "size": 7,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 4,
@@ -5357,7 +5379,9 @@
         "speed": 340,
         "life": 1.6,
         "size": 7,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 5,
@@ -5367,8 +5391,8 @@
         "life": 1.6,
         "size": 7,
         "bounce": 5,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       }
     ],
     "evolutionModifiers": {
@@ -5460,7 +5484,9 @@
       "life": 2,
       "size": 8,
       "homing": 5,
-      "slow": 0.3
+      "slow": 0.3,
+      "count": 1,
+      "spread": 0.12
     },
     "levels": [
       {
@@ -5471,7 +5497,9 @@
         "life": 2,
         "size": 8,
         "homing": 5,
-        "slow": 0.3
+        "slow": 0.3,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 2,
@@ -5482,8 +5510,8 @@
         "size": 8,
         "homing": 5,
         "slow": 0.3,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 3,
@@ -5494,8 +5522,8 @@
         "size": 8,
         "homing": 5,
         "slow": 0.3,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 4,
@@ -5506,8 +5534,8 @@
         "size": 8,
         "homing": 5,
         "slow": 0.3,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 5,
@@ -5518,8 +5546,8 @@
         "size": 8,
         "homing": 5,
         "slow": 0.3,
-        "count": 2,
-        "spread": 1.3
+        "count": 3,
+        "spread": 0.156
       }
     ],
     "evolutionModifiers": {
@@ -5549,7 +5577,9 @@
       "life": 1.6,
       "size": 7,
       "bounce": 3,
-      "poison": 1
+      "poison": 1,
+      "count": 1,
+      "spread": 0.12
     },
     "levels": [
       {
@@ -5560,7 +5590,9 @@
         "life": 1.6,
         "size": 7,
         "bounce": 3,
-        "poison": 1
+        "poison": 1,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 2,
@@ -5570,7 +5602,9 @@
         "life": 1.6,
         "size": 7,
         "bounce": 4,
-        "poison": 1
+        "poison": 1,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 3,
@@ -5580,7 +5614,9 @@
         "life": 1.6,
         "size": 7,
         "bounce": 4,
-        "poison": 1
+        "poison": 1,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 4,
@@ -5590,7 +5626,9 @@
         "life": 1.6,
         "size": 7,
         "bounce": 4,
-        "poison": 1
+        "poison": 1,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 5,
@@ -5601,8 +5639,8 @@
         "size": 7,
         "bounce": 5,
         "poison": 1,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       }
     ],
     "evolutionModifiers": {
@@ -5910,7 +5948,9 @@
       "speed": 340,
       "life": 1.6,
       "size": 7,
-      "bounce": 3
+      "bounce": 3,
+      "count": 1,
+      "spread": 0.12
     },
     "levels": [
       {
@@ -5920,7 +5960,9 @@
         "speed": 340,
         "life": 1.6,
         "size": 7,
-        "bounce": 3
+        "bounce": 3,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 2,
@@ -5929,7 +5971,9 @@
         "speed": 340,
         "life": 1.6,
         "size": 7,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 3,
@@ -5938,7 +5982,9 @@
         "speed": 340,
         "life": 1.6,
         "size": 7,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 4,
@@ -5947,7 +5993,9 @@
         "speed": 340,
         "life": 1.6,
         "size": 7,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 5,
@@ -5957,8 +6005,8 @@
         "life": 1.6,
         "size": 7,
         "bounce": 5,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       }
     ],
     "evolutionModifiers": {
@@ -6185,7 +6233,9 @@
       "speed": 320,
       "life": 1.6,
       "size": 8,
-      "bounce": 3
+      "bounce": 3,
+      "count": 1,
+      "spread": 0.12
     },
     "levels": [
       {
@@ -6195,7 +6245,9 @@
         "speed": 320,
         "life": 1.6,
         "size": 8,
-        "bounce": 3
+        "bounce": 3,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 2,
@@ -6204,7 +6256,9 @@
         "speed": 320,
         "life": 1.6,
         "size": 8,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 3,
@@ -6213,7 +6267,9 @@
         "speed": 320,
         "life": 1.6,
         "size": 8,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 4,
@@ -6222,7 +6278,9 @@
         "speed": 320,
         "life": 1.6,
         "size": 8,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 5,
@@ -6232,8 +6290,8 @@
         "life": 1.6,
         "size": 8,
         "bounce": 5,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       }
     ],
     "evolutionModifiers": {
@@ -6262,7 +6320,9 @@
       "speed": 380,
       "life": 1.5,
       "size": 6,
-      "homing": 7
+      "homing": 7,
+      "count": 1,
+      "spread": 0.12
     },
     "levels": [
       {
@@ -6272,7 +6332,9 @@
         "speed": 380,
         "life": 1.5,
         "size": 6,
-        "homing": 7
+        "homing": 7,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 2,
@@ -6282,8 +6344,8 @@
         "life": 1.5,
         "size": 6,
         "homing": 7,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 3,
@@ -6293,8 +6355,8 @@
         "life": 1.5,
         "size": 6,
         "homing": 7,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 4,
@@ -6304,8 +6366,8 @@
         "life": 1.5,
         "size": 6,
         "homing": 7,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 5,
@@ -6315,8 +6377,8 @@
         "life": 1.5,
         "size": 6,
         "homing": 7,
-        "count": 2,
-        "spread": 1.3
+        "count": 3,
+        "spread": 0.156
       }
     ],
     "evolutionModifiers": {
@@ -6593,7 +6655,9 @@
       "speed": 300,
       "life": 1.8,
       "size": 7,
-      "homing": 6
+      "homing": 6,
+      "count": 1,
+      "spread": 0.12
     },
     "levels": [
       {
@@ -6603,7 +6667,9 @@
         "speed": 300,
         "life": 1.8,
         "size": 7,
-        "homing": 6
+        "homing": 6,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 2,
@@ -6613,8 +6679,8 @@
         "life": 1.8,
         "size": 7,
         "homing": 6,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 3,
@@ -6624,8 +6690,8 @@
         "life": 1.8,
         "size": 7,
         "homing": 6,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 4,
@@ -6635,8 +6701,8 @@
         "life": 1.8,
         "size": 7,
         "homing": 6,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 5,
@@ -6646,8 +6712,8 @@
         "life": 1.8,
         "size": 7,
         "homing": 6,
-        "count": 2,
-        "spread": 1.3
+        "count": 3,
+        "spread": 0.156
       }
     ],
     "evolutionModifiers": {
@@ -6962,7 +7028,9 @@
       "life": 2,
       "size": 7,
       "homing": 5,
-      "drain": 1
+      "drain": 1,
+      "count": 1,
+      "spread": 0.12
     },
     "levels": [
       {
@@ -6973,7 +7041,9 @@
         "life": 2,
         "size": 7,
         "homing": 5,
-        "drain": 1
+        "drain": 1,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 2,
@@ -6984,8 +7054,8 @@
         "size": 7,
         "homing": 5,
         "drain": 1,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 3,
@@ -6996,8 +7066,8 @@
         "size": 7,
         "homing": 5,
         "drain": 1,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 4,
@@ -7008,8 +7078,8 @@
         "size": 7,
         "homing": 5,
         "drain": 1,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 5,
@@ -7020,8 +7090,8 @@
         "size": 7,
         "homing": 5,
         "drain": 1,
-        "count": 2,
-        "spread": 1.3
+        "count": 3,
+        "spread": 0.156
       }
     ],
     "evolutionModifiers": {
@@ -7180,7 +7250,9 @@
       "speed": 340,
       "life": 1.6,
       "size": 7,
-      "bounce": 3
+      "bounce": 3,
+      "count": 1,
+      "spread": 0.12
     },
     "levels": [
       {
@@ -7190,7 +7262,9 @@
         "speed": 340,
         "life": 1.6,
         "size": 7,
-        "bounce": 3
+        "bounce": 3,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 2,
@@ -7199,7 +7273,9 @@
         "speed": 340,
         "life": 1.6,
         "size": 7,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 3,
@@ -7208,7 +7284,9 @@
         "speed": 340,
         "life": 1.6,
         "size": 7,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 4,
@@ -7217,7 +7295,9 @@
         "speed": 340,
         "life": 1.6,
         "size": 7,
-        "bounce": 4
+        "bounce": 4,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 5,
@@ -7227,8 +7307,8 @@
         "life": 1.6,
         "size": 7,
         "bounce": 5,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       }
     ],
     "evolutionModifiers": {
@@ -7319,7 +7399,9 @@
       "speed": 330,
       "life": 1.6,
       "size": 7,
-      "homing": 6
+      "homing": 6,
+      "count": 1,
+      "spread": 0.12
     },
     "levels": [
       {
@@ -7329,7 +7411,9 @@
         "speed": 330,
         "life": 1.6,
         "size": 7,
-        "homing": 6
+        "homing": 6,
+        "count": 1,
+        "spread": 0.12
       },
       {
         "level": 2,
@@ -7339,8 +7423,8 @@
         "life": 1.6,
         "size": 7,
         "homing": 6,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 3,
@@ -7350,8 +7434,8 @@
         "life": 1.6,
         "size": 7,
         "homing": 6,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 4,
@@ -7361,8 +7445,8 @@
         "life": 1.6,
         "size": 7,
         "homing": 6,
-        "count": 1,
-        "spread": 1.3
+        "count": 2,
+        "spread": 0.156
       },
       {
         "level": 5,
@@ -7372,8 +7456,8 @@
         "life": 1.6,
         "size": 7,
         "homing": 6,
-        "count": 2,
-        "spread": 1.3
+        "count": 3,
+        "spread": 0.156
       }
     ],
     "evolutionModifiers": {

@@ -1,6 +1,7 @@
 // Read literal data through TypeScript's parser. Downloaded game code is never executed.
 import fs from "node:fs";
 import ts from "typescript";
+import { moveDefaults } from "./move-defaults.mjs";
 const { revision, reviewed } = JSON.parse(
   fs.readFileSync("scripts/data/source-revision.json", "utf8"),
 );
@@ -79,7 +80,7 @@ const oldMoves = JSON.parse(
   fs.readFileSync("src/data/moves/moves.json", "utf8"),
 );
 const dex = find("js/data/pokedex.js", "G.DEX"),
-  rawMoves = find("js/data/moves.js", "RAW"),
+  rawMoves = find("js/data/moves.js", "RAW").map(moveDefaults),
   ladders = find("js/data/moves.js", "LADDERS"),
   evoMods = find("js/data/moves.js", "EVO_MODS"),
   evo = find("js/data/moves.js", "EVO"),

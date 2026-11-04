@@ -36,7 +36,8 @@
           "Move with WASD or the arrow keys on desktop. Select an attack slot with 1–4, cycle with Q/E or use the move icons. Esc pauses. On mobile, use landscape orientation, drag to move and tap the move icons. Give the battlefield enough screen space to see warning markers.",
           "Only the selected slot triggers attacks. Learning four moves does not make all four cast together. Switch when the current attack no longer suits the approaching enemies. Some already-created projectiles or timed buffs can persist after switching; Bonds later let multiple moves cast from one active slot. Choice Band is an item exception that prevents ordinary slot switching while equipped.",
           "Circle the edge of a group and keep a second exit in mind. Take nearby experience when the route is open. If a warning circle or line appears, leave it before returning for the pickup. Crossing the center of a horde for one experience gem often costs more health than the level is worth.",
-          "A controller can move, switch attacks, pause and operate menus; check Settings > Controls for your device. Automatic firing and automatic aiming are separate: Manual aim in Settings > Accessibility is off by default and lets a mouse or right stick control direction. Try it in open space before committing to a close-range attack."
+          "A controller can move, switch attacks, pause and operate menus; check Settings > Controls for your device. On desktop, Manual aim in Settings > Accessibility is off by default and lets a mouse or right stick control direction while attacks still fire automatically. Touch devices always auto-aim.",
+          "On touch devices, open Settings > Controls > Place the buttons to move attacks, pause and the joystick. A fixed joystick is optional. Try a layout clear of your browser’s edge gestures. Layout changes do not guarantee a fix for every iOS or Android touch-input issue; save before refreshing or trying another browser."
         ],
         "figure": {
           "src": "/game/screenshots/battlefield.webp",
@@ -86,8 +87,9 @@
         "id": "save-progress",
         "title": "7. Save before leaving or changing devices",
         "paragraphs": [
-          "With a signed-in account, changes are recorded in the current browser first. Cloud uploads are scheduled after about 30 minutes with pending changes. Finishing a run or making a gacha pull is no longer a promise of an immediate cloud upload.",
-          "Use Save at the top right before closing or switching devices. Check that the pending indicator clears. If a recent upload is still inside the minimum interval, the button may queue the next upload rather than finish immediately; wait for the status shown in the game. A guest session does not keep permanent progress."
+          "With a signed-in account, changes are recorded in the current browser immediately. Cloud uploads require the Save button at the top right. There is no timed automatic cloud upload, and ending a run, making a gacha pull or closing the tab does not replace pressing Save. The game also attempts uploads before an update and on sign-out; do not rely on those attempts as your only check.",
+          "Press Save and wait for the pending indicator to clear before closing, clearing browser data or changing devices. Uploads have a minimum interval of 65 seconds: a recent upload can queue the next one. If the network fails, keep the device holding the new progress and retry after restoring the connection.",
+          "Avoid progressing on two devices at once. The latest cloud write can replace the other device’s cloud state. Save and confirm completion on the first device before opening the second; reload the second device to read the current cloud copy. A guest session does not keep permanent progress."
         ],
         "links": [
           {
@@ -100,17 +102,22 @@
         "id": "co-op-connection",
         "title": "8. Set up a co-op room before committing to a run",
         "paragraphs": [
-          "The official game supports up to four players. Sign in, add friends by nickname and use its room invitations. An accepted invitation is only the first step: wait until the players are connected before the host starts. A room that keeps reconnecting has not become a playable session yet.",
-          "Cross-network connection failures have been reported. The project also has relay-server deployment support, but that alone does not establish that a relay is available for your session. We cannot verify your connection from this guide. Do not spend a run repeatedly waiting for a room that never connects."
+          "The official game supports up to four players. Sign in, add friends by nickname and invite them to a room. Friends no longer show an online indicator; an unanswered invitation expires after three minutes. Wait for everyone to connect before the host starts.",
+          "The current version includes a limited TURN relay rollout. Eligible signed-in accounts can receive relay settings when entering a room; otherwise the game falls back to direct connections using STUN. The room can indicate a server-relayed connection. This is not a guarantee that every account or network can connect.",
+          "The released patch also corrects a guest’s Ominous Wind, Sand Tomb and Whirlpool attraction, and Hex bonus damage against burned, poisoned or slowed targets. Level-up choices reopen if they closed before a selection. These fixes do not prove that every reported co-op problem is resolved."
         ],
         "steps": [
           "Before refreshing or changing networks, leave any active run, press Save and wait for the upload status to clear. Ask your friends to protect their own progress too.",
           "Open the official game directly on each device. Refresh after saving so everyone loads the current version, then sign in again if needed.",
           "Leave the failed room, create a new one and send a fresh invitation. Try another player as host and wait for connections before starting.",
-          "If it still fails, compare a different network or test two devices on the same Wi-Fi. A successful same-network test helps narrow down the problem; it does not guarantee cross-network play.",
+          "If it still fails, compare a different network or test two devices on the same Wi-Fi. This helps isolate direct-connection problems; do not assume TURN is enabled for your account or that a successful local test guarantees cross-network play.",
           "If the room keeps reconnecting, stop retrying for now. Note the browser, device, network type and exact message for a useful bug report. Keep passwords and account data private."
         ],
         "links": [
+          {
+            "label": "Released co-op and connection changes",
+            "href": "https://github.com/JPTER78/pokesurvivor/blob/3c9641c9e782cf74afbde490f39cd60adf59e32b/js/net/net.js"
+          },
           {
             "label": "Current co-op connection report",
             "href": "https://github.com/JPTER78/pokesurvivor/issues/233"
@@ -150,7 +157,8 @@
     "sources": [
       "js/data/moves.js",
       "js/data/starters.js",
-      "js/systems/levelup.js"
+      "js/systems/levelup.js",
+      "js/data/upgrades.js"
     ],
     "sections": [
       {
@@ -251,14 +259,14 @@
       },
       {
         "id": "projectile-upgrades",
-        "title": "8. Check the shots you gain, not just the card label",
+        "title": "8. Check the corrected projectile upgrades",
         "paragraphs": [
-          "The first projectile-count upgrade on twelve newer moves currently leaves one projectile per cast. If Energy Ball still sends one shot after reaching level 2, you have not necessarily missed the upgrade. The same mismatch affects the moves below in build 1afa081e93.",
-          "For the bouncing moves, the extra bounce remains a separate part of the level-5 upgrade. Do not treat the whole card as useless, and do not assume the listed extra projectile has doubled your damage. Other upgrades, hits, targets and evolution effects need their own checks.",
-          "We would keep a reliable main attack while building these routes, then choose the next card for the damage or control it actually provides. A missing extra shot is a reason to temper that upgrade’s value, not enough evidence to drop every partner with that move into a lower tier."
+          "The released fix restores the extra projectile on twelve newer homing and bouncing moves. Energy Ball, for example, now has one projectile at level 1, two at level 2 and three at level 5. The game initializes count and spread before applying the level and evolution modifiers.",
+          "The six bouncing moves gain their second projectile at level 5 as well as an additional bounce. Spread is now calculated from the narrow base value rather than sending evolved shots far to the sides. The move cards on this site use those corrected values.",
+          "More projectiles do not guarantee that every shot hits the same target or that a move becomes the best choice. Match the move to your partner’s attack category, positioning and active Bond group. This repair does not change the stat card required for evolution."
         ],
         "table": {
-          "caption": "Projectile-count limitations in the current game build; other effects are separate.",
+          "caption": "Corrected projectile progression in the released game",
           "columns": [
             "Upgrade",
             "Affected moves",
@@ -268,27 +276,44 @@
             [
               "Level 1 → 2",
               "Energy Ball, Mist Ball, Ice Shard, Shadow Sneak, Draining Kiss, Sucker Punch",
-              "One projectile still fires after the first +1 projectile upgrade."
+              "One → two projectiles at level 2; two → three at level 5."
             ],
             [
               "Level 4 → 5",
               "Seed Bomb, Electro Ball, Acid Spray, Signal Beam, Power Gem, Mirror Shot",
-              "One projectile still fires; the additional bounce is separate."
+              "One → two projectiles at level 5, plus an additional bounce."
             ]
           ]
         },
         "callout": {
-          "title": "A proposed fix is not a released patch",
-          "text": "The fix in PR #223 is still open as of 20 October 2026. These notes follow the deployed build, not the proposed replacement. The ordinary evolution requirements still apply."
+          "title": "The deployed code determines the current behavior",
+          "text": "The earlier community PR remains open, but an equivalent fix was released separately. These values follow the deployed version, not the PR’s status. Damage rankings still need their own evidence."
         },
         "links": [
           {
-            "label": "Affected move cards and status",
-            "href": "/level-up#current-move-notes"
+            "label": "Released projectile defaults",
+            "href": "https://github.com/JPTER78/pokesurvivor/blob/3c9641c9e782cf74afbde490f39cd60adf59e32b/js/data/moves.js"
           },
           {
-            "label": "Proposed projectile-count fix",
-            "href": "https://github.com/JPTER78/pokesurvivor/pull/223"
+            "label": "Compare all move cards",
+            "href": "/level-up#move-cards"
+          }
+        ]
+      },
+      {
+        "id": "permanent-upgrades",
+        "title": "9. Budget for permanent upgrades",
+        "paragraphs": [
+          "Coins buy upgrades separately for each Pokémon between runs. These menu purchases do not satisfy the stat-card requirement for a gold evolution during a run. Use the tables below to compare costs before investing."
+        ],
+        "links": [
+          {
+            "label": "Compare partners before investing",
+            "href": "/pokedex"
+          },
+          {
+            "label": "Move cards and starting options",
+            "href": "/level-up#move-cards"
           }
         ]
       }
@@ -395,7 +420,7 @@
         "title": "7. Before the next pull",
         "paragraphs": [
           "Confirm the banner, name the target and read that banner’s current pity counter. Choose single or ten-pull mode correctly. Use a budget you already have, then compare the target result with the any-5★ result so the two goals stay separate.",
-          "After pulling, check new partners, duplicate coin refunds and the current regional pity counter in the game before planning another batch. A 5★ result resets that region’s pity counter. If your collection goal changes, check the new target’s region and rarity pool before choosing a banner. Before changing devices, press Save and check the upload status. A pull is recorded locally first; the next automatic cloud upload can still be pending.",
+          "After pulling, check new partners, duplicate coin refunds and the current regional pity counter in the game before planning another batch. A 5★ result resets that region’s pity counter. If your collection goal changes, check the new target’s region and rarity pool before choosing a banner. Pulls are recorded locally first: press Save and confirm the upload before closing or changing devices; there is no timed automatic upload.",
           "For the next run, return to the same simple progression loop: choose a partner you can use well, finish compatible objectives, claim completed rewards and spend toward a specific goal. A larger collection adds options; practiced movement and card choices make those options useful."
         ]
       }
@@ -757,7 +782,7 @@
         "paragraphs": [
           "After an unlock, select that Pokémon in the official game’s collection. Its Normal/Shiny selector appears when you own the shiny form. Switch to Shiny and choose it as your partner. The main partner panel also has a Normal/Shiny control for an owned shiny, which is useful on mobile.",
           "A shiny partner uses the same species stats and move pool. The extra HP and XP described earlier belong to shiny enemies; choosing a shiny appearance does not give your player double health or five times the experience.",
-          "A capture is recorded when the shiny is defeated; it does not wait for the run to end. With an account, that local record and a completed cloud upload are separate. Automatic uploads are scheduled after about 30 minutes with pending changes. Press Save at the top right, then wait for the pending status to clear before switching devices or closing. A recent upload can briefly delay another one. Guests do not keep permanent progress.",
+          "A capture is recorded when the shiny is defeated; it does not wait for the run to end. Browser-local recording and a completed cloud upload are separate. While signed in, press Save and wait for confirmation before closing or switching devices. There is no timed automatic upload, and a recent upload can briefly queue another. Guests do not keep permanent progress.",
           "In the checked co-op flow, the host broadcasts the shiny-capture event to connected clients. It is a shared event rather than a final-hit contest. Stay connected and confirm the unlock in your own collection afterward; a teammate’s screenshot is not confirmation that your account saved it."
         ],
         "callout": {

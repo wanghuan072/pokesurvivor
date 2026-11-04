@@ -1,6 +1,6 @@
 {
-  "reviewed": "2026-10-20",
-  "gameVersion": "1afa081e93",
+  "reviewed": "2026-10-21",
+  "gameVersion": "d2dfaee739",
   "purpose": "General Solo progression at comparable permanent investment, including the 400-coin Starting move upgrade. Grades consider legal move routes and player discussions; the selected record period supplies dated supporting evidence, not a grade formula. Earlier assessments are retained when partners leave a top-50 snapshot. No controlled playtests claimed.",
   "picks": [
     {
@@ -688,7 +688,7 @@
       "id": 646,
       "tier": "A",
       "reason": "Kyurem gives us a substantial HP reserve and equal attack factors for Dragon or Ice. We would choose the attack pattern first and build its matching evolution.",
-      "watchFor": "It gets no single-type bonus. Dragon Dance helps Physical attacks only, and Ice Shard's first extra-projectile upgrade currently leaves one shot."
+      "watchFor": "It gets no single-type bonus. Dragon Dance helps Physical attacks only. Ice Shard now gains its extra projectiles correctly, but successful hits and positioning still determine its value."
     },
     {
       "id": 693,

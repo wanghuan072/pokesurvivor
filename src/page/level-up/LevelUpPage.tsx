@@ -51,7 +51,7 @@ export default function LevelUpPage() {
           partners={pokemon.map(({id, name, types, startMove, cardPool, learnset, attack, physicalAttack, specialAttack}) =>
             ({id, name, types, startMove, cardPool, learnset, attack, physicalAttack, specialAttack}))}
           moves={moves.map((m) => {
-            const issue = moveIssues.groups.find(group => group.ids.includes(m.id));
+            const issue = moveIssues.status === "active" ? moveIssues.groups.find(group => group.ids.includes(m.id)) : undefined;
             return {
               ...m,
               ...getMoveNotes(m.id)!,
@@ -183,10 +183,10 @@ export default function LevelUpPage() {
       <section id="card-rules" className={s.rules}>
         <h2>Make every level count</h2>
         <details id="current-move-notes">
-          <summary>Why did “+1 projectile” not add another shot?</summary>
+          <summary>What changed in the projectile fixes?</summary>
           <p>{moveIssues.summary}</p>
           {moveIssues.groups.map(group => <p key={group.kind}><strong>Lv. {group.level}: </strong>{group.ids.map(id => moves.find(move => move.id === id)!.name).join(", ")}. {group.note}</p>)}
-          <p>Plan around the shots you can actually use. These notes concern projectile count, not a measured damage ranking or a change to evolution requirements. <a href={moveIssues.source} rel="noopener noreferrer">Follow the proposed fix ↗</a> · <a href="/guides/move-evolutions#projectile-upgrades">What this means for your next card →</a></p>
+          <p>The cards now show the corrected projectile counts and spread. More projectiles do not guarantee more hits or a particular damage ranking. Evolution requirements are unchanged. <a href={moveIssues.source} rel="noopener noreferrer">Read the released fix ↗</a> · <a href="/guides/move-evolutions#projectile-upgrades">Compare the corrected upgrades →</a></p>
         </details>
         <details>
           <summary>Why am I offered these three cards?</summary>

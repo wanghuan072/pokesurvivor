@@ -39,8 +39,14 @@ if (source) {
   match("js/game.js", /G\.DB\.grantShiny\(e\.dex, 'wild'\)/);
   match("js/game.js", /if \(!isNew\) pl\.coins \+= 300/);
   match("js/systems/judgment.js", /const AT = 30 \* 60/);
-  match("js/core/db.js", /const PUSH_EVERY = 30 \* 60 \* 1000/);
-  match("js/core/db.js", /schedulePush\(PUSH_EVERY\)/);
+  assert.doesNotMatch(text("js/core/db.js"), /PUSH_EVERY|schedulePush\(30 \* 60/);
+  match("js/core/db.js", /else \{ pending = true; setSync\('pending'\); \}/);
+  match("js/core/db.js", /flush: pushNow, saveNow/);
+  match("js/data/moves.js", /if \(m\.count == null\) m\.count = 1/);
+  match("js/data/moves.js", /if \(m\.spread == null\) m\.spread = 0\.12/);
+  match("js/net/net.js", /const TURN_API = 'https:\/\/ice\.pokesurvivor\.com\/v1\/ice'/);
+  match("js/net/ranking.js", /const MIN_T_MON = 300/);
+  match("js/entities/player.js", /this\.remote \|\| G\.Settings\.touch \|\| !G\.Settings\.get\('aimManual'\)/);
   match("js/core/db.js", /async function saveNow\(/);
   match("js/systems/levelup.js", /G\.Stats\.fit\(pl\.mon, d\.cat\) >= 0\.999 \? 2 : 1/);
   match("js/systems/judgment.js", /Math\.max\(0, arenaT - 420\) \/ 180/);
@@ -55,7 +61,7 @@ if (source) {
     rosterSha256:digest(roster.map(({dex,hp,spd,atk,rarity,gen}) => ({id:dex,hp,speed:spd,attack:atk,rarity,generation:gen}))),
     combatStatsSha256:digest(roster.map(({dex,pa,sa,df,sd})=>({id:dex,physicalAttack:pa,specialAttack:sa,defense:df,specialDefense:sd}))),
     physicalMoves:moves.get("PHYSICAL"),
-    saving:{autoUploadMinutes:data("js/core/db.js").get("PUSH_EVERY")/60000,minimumUploadGapSeconds:data("js/core/db.js").get("MIN_GAP")/1000},
+    saving:{autoUploadMinutes:null,uploadMode:"manual",minimumUploadGapSeconds:data("js/core/db.js").get("MIN_GAP")/1000},
     defense:{reference:data("js/systems/stats.js").get("REF"),exponent:data("js/systems/stats.js").get("EXP"),minimum:data("js/systems/stats.js").get("LO"),maximum:data("js/systems/stats.js").get("HI")},
     combat:{monoTypeMultiplier:1.2,activeMeleeTakenMultiplier:0.75,maximumDamageReduction:0.8,maximumPlayerRadius:data("js/core/sprites.js").get("PLAYER_R")},
     startingMove:{cost:data("js/data/upgrades.js").get("LIST").find(u=>u.id==='start').base,perPartner:true,buffsAllowed:false,defaultAlwaysAvailable:true},

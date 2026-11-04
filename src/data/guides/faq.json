@@ -24,7 +24,7 @@
     ],
     [
       "Will guest progress be saved?",
-      "Guests do not keep permanent progress. With an account, the game records changes in the current browser first and schedules cloud uploads after about 30 minutes with pending changes. Before closing or changing devices, press Save at the top right and check that pending progress clears. A recent upload may briefly delay another one. This fan site cannot recover a game save."
+      "Guests do not keep permanent progress. With an account, changes are recorded in the current browser immediately, but cloud uploads require Save at the top right. There is no timed automatic cloud upload. Press Save and wait for confirmation before closing, clearing browser data or changing devices. A recent upload can briefly queue the next one. This fan site cannot recover a game save."
     ],
     [
       "How do I evolve a move?",
@@ -64,7 +64,7 @@
     ],
     [
       "Can I use a controller or aim manually?",
-      "Controllers can move, switch attacks, pause and operate menus; check Settings > Controls. Manual aim is a separate option in Settings > Accessibility and is off by default. It changes aiming direction, not automatic firing."
+      "Controllers can move, switch attacks, pause and operate menus; check Settings > Controls. On desktop, Manual aim in Settings > Accessibility is off by default and uses a mouse or right stick while attacks still fire automatically. Touch devices always auto-aim."
     ],
     [
       "Can I change a partner’s starting move?",
@@ -76,11 +76,11 @@
     ],
     [
       "Why does a co-op room keep reconnecting?",
-      "An accepted invitation does not guarantee a working game connection. Cross-network failures have been reported. Save your progress before refreshing, load the current official game on every device, create a fresh room and try another host. A different-network or same-Wi-Fi test can help isolate the problem, but no single step guarantees a connection. Stop if the room keeps retrying; the beginner guide has a fuller checklist."
+      "An invitation does not guarantee a working game connection. The current version offers TURN relay settings to eligible signed-in accounts, with direct STUN connections as fallback. Save first, load the current official game on every device, create a fresh room and try another host. A same-Wi-Fi or different-network test can narrow down the problem, but relay access and connection success are not guaranteed."
     ],
     [
       "Why did a projectile upgrade leave me with one shot?",
-      "Twelve new homing and bouncing moves have a projectile-count mismatch in the checked build. Their first +1 projectile upgrade still fires one shot. For bouncing moves, the extra bounce is a separate effect. Level-up marks the affected cards; the proposed fix is still open as of 20 October 2026. This does not change their evolution requirements."
+      "That issue affected twelve homing and bouncing moves in an older version. The released fix now gives the homing moves a second projectile at level 2 and a third at level 5; the bouncing moves gain a second projectile at level 5. Spread is corrected too. Save before refreshing the official game to load an update. Evolution requirements are unchanged."
     ],
     [
       "What should I do if Save says pending or offline?",
@@ -89,6 +89,26 @@
     [
       "I defeated a shiny. Why is it missing from my collection?",
       "Check the same species, its Normal/Shiny control, collection filters and the account used for the capture. Then confirm Save completed on that device. In co-op, verify your own unlock rather than relying on a teammate’s result. A player report exists, but its cause is unconfirmed; these checks are not a promise of recovery."
+    ],
+    [
+      "Can I move the mobile buttons?",
+      "Yes. Open Settings > Controls > Place the buttons to reposition attacks, pause and the joystick; a fixed joystick is optional. This may improve the layout but is not a verified fix for every touch-input problem. Save before refreshing or changing browsers."
+    ],
+    [
+      "Can upgrades carry over to an evolved Pokémon?",
+      "Permanent upgrades are purchased separately for each species. Upgrading Charmander does not upgrade Charizard. Move evolution during a run is a different system. Try the partner before investing; the upgrade guide lists the price of every level."
+    ],
+    [
+      "What if I forget my game password?",
+      "The official game supports linking Gmail to a password account so Google sign-in can access that same account later. If you linked it previously, use the same Google account on the official site. Do not assume an unlinked Google account will recover a password account. For other cases, use the game operator’s support options; this fan site cannot reset passwords."
+    ],
+    [
+      "Can I move guest progress into an account?",
+      "Do not rely on transferring guest progress. The official online game warns that guest progress is not saved. Sign in before a collection run; this guide cannot transfer or restore a guest session."
+    ],
+    [
+      "Can I install or play offline?",
+      "The official browser game supports Add to Home Screen. The creator’s itch.io page also documents a solo offline download with browser-local saving. Co-op, cloud saves and leaderboards use the official online game. Independent Android ports can have different modes and rules; this guide covers the original game."
     ]
   ]
 }
